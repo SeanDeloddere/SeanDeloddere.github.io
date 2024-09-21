@@ -30,7 +30,7 @@ header {
 }
 
 .image img {
-    width: 300px; /* Adjust the width as needed */
+    width: 80px; /* Adjust the width as needed */
     height: auto;
     border-radius: 10px; /* Optional: adds rounded corners */
 }
