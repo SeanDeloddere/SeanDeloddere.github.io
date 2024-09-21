@@ -4,10 +4,8 @@ body {
     padding: 0;
 }
 
-header {
+nav {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
 }
 
 nav ul {
@@ -15,7 +13,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 nav ul li {
@@ -32,6 +29,18 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #111;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
 }
 
 main {
