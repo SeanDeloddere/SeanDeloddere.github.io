@@ -75,9 +75,13 @@ section {
     margin-bottom: 20px;
 }
 
+.certification h3 {
+    margin: 0 20px 0 0;
+}
+
 .certification img {
-    width: 100px; /* Adjust the size as needed */
-    height: auto;
+    height: 100px; /* Set a fixed height */
+    width: auto; /* Width scales automatically */
     margin-right: 20px;
     border-radius: 10px; /* Optional: adds rounded corners */
 }
