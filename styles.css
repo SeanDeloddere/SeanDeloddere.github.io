@@ -4,6 +4,24 @@ body {
     text-align: left; /* Align text to the left */
 }
 
+/* Collapsible sections */
+.collapsible {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    background-color: #ccc;
+    margin-bottom: 5px;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
 /* Navigation bar styles */
 nav {
     background-color: #333; /* Black background for the navigation bar */
