@@ -41,7 +41,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%; /* Ensure the container spans the full width */
+    width: 85%; /* Ensure the container spans the full width */
     padding: 0 20px
 }
 
