@@ -54,7 +54,9 @@ header {
 }
 
 .image img {
-    width: 150px; /* Adjust the width as needed */
+    width: 30%; /* Adjust the percentage as needed */
+    max-width: 500px; /* Optional: sets a maximum width */
     height: auto;
     border-radius: 10px; /* Optional: adds rounded corners */
 }
+
