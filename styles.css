@@ -37,30 +37,6 @@ header {
     margin-bottom: 20px;
 }
 
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px;
-    background-color: white; /* White background for the content area */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a nice effect */
-}
-
-.text {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.image img {
-    width: 30%; /* Adjust the percentage as needed */
-    max-width: 500px; /* Optional: sets a maximum width */
-    height: auto;
-    border-radius: 10px; /* Optional: adds rounded corners */
-}
-
-/* New styles for the certifications page */
 main {
     padding: 20px;
 }
@@ -69,50 +45,42 @@ section {
     margin-bottom: 40px;
 }
 
+.cert_banner img {
+    width: 100%;
+    height: auto;
+}
+
 .certification {
-    display: flex;
-    align-items: center;
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.certification h3 {
-    margin: 0 20px 0 0;
-}
-
 .certification img {
-    height: 100px; /* Set a fixed height */
-    width: auto; /* Width scales automatically */
-    margin-right: 20px;
-    border-radius: 10px; /* Optional: adds rounded corners */
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-.certification p {
-    margin: 0;
+.cert_details {
+    display: inline-block;
+    text-align: left;
+}
+
+.cert_date {
+    font-weight: bold;
+}
+
+.cert_description {
+    margin-top: 5px;
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .text {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .image img {
-        width: 100%;
-        max-width: 300px;
-    }
-
     .certification {
-        flex-direction: column;
-        align-items: flex-start;
+        text-align: left;
     }
 
-    .certification img {
-        margin-bottom: 10px;
+    .cert_details {
+        display: block;
     }
 }
