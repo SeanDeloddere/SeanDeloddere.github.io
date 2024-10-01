@@ -10,6 +10,7 @@ body {
     color: gray;
     font-style: italic;
     text-decoration: underline;
+    font-size: 0.7em; /* Make the text smaller */
     margin-left: 10px;
 }
 
