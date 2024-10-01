@@ -4,6 +4,14 @@ body {
     text-align: left; /* Align text to the left */
 }
 
+/* Toggle text styles */
+.toggle-text {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
 /* Collapsible sections */
 .collapsible {
     cursor: pointer;
