@@ -35,15 +35,14 @@ body {
 /* Navigation bar styles */
 nav {
     background-color: #333; /* Black background for the navigation bar */
-    padding: 10px 0;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Ensure the container spans the full width */
-    padding: 0 20px; /* Add fixed padding to ensure consistent space on both sides */
+    width: 90%; /* Ensure the container spans the full width */
+    padding: 0 20px
 }
 
 .logo {
@@ -155,7 +154,7 @@ section {
 /* Footer styles */
 footer {
     background-color: #333; /* Dark background for the footer */
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -172,7 +171,6 @@ footer {
 .social-link img {
     height: 40px; /* Adjust the size as needed */
     width: auto;
-    filter: invert(100%); /* Make the logos white */
 }
 
 
