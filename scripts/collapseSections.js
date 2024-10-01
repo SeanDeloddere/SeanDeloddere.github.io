@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (var i = 0; i < toggles.length; i++) {
         toggles[i].addEventListener("click", function() {
-            var content = this.nextElementSibling;
+            var content = this.parentElement.nextElementSibling;
             if (content.style.display === "block") {
                 content.style.display = "none";
                 this.textContent = "(expand)";
