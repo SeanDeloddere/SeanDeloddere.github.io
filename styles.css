@@ -7,7 +7,8 @@ body {
 /* Toggle text styles */
 .toggle-text {
     cursor: pointer;
-    color: blue;
+    color: gray;
+    font-style: italic;
     text-decoration: underline;
     margin-left: 10px;
 }

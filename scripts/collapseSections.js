@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var coll = document.getElementsByClassName("collapsible");
     var toggles = document.getElementsByClassName("toggle-text");
 
-    for (var i = 0; i < coll.length; i++) {
+    for (var i = 0; i < toggles.length; i++) {
         toggles[i].addEventListener("click", function() {
             var content = this.nextElementSibling;
             if (content.style.display === "block") {
