@@ -152,6 +152,30 @@ section {
     margin-top: 5px; /* Adds space above the description text */
 }
 
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    margin: 0 10px;
+}
+
+.social-link img {
+    height: 40px; /* Adjust the size as needed */
+    width: auto;
+    filter: invert(100%); /* Make the logos white */
+}
+
+
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
