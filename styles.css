@@ -42,8 +42,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; 
-    padding: 0 20px;
+    width: 100%; /* Ensure the container spans the full width */
+    padding: 0 20px; /* Add fixed padding to ensure consistent space on both sides */
+}
+
+.logo {
+    margin-right: auto; /* Ensure the logo stays on the left */
 }
 
 .logo img {
@@ -56,10 +60,11 @@ nav {
     margin: 0;
     display: flex;
     align-items: center;
+    margin-left: auto; /* Ensure the menu stays on the right */
 }
 
 .nav-menu li {
-    margin-left: 20px;
+    margin-left: 20px; 
 }
 
 .nav-menu li a {
@@ -98,6 +103,7 @@ nav {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 
 
