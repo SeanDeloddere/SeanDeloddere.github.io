@@ -55,6 +55,12 @@ section {
     margin-bottom: 20px;
 }
 
+.cert_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .certification img {
     width: 100%;
     height: auto;
