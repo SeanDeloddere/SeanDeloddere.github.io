@@ -27,6 +27,16 @@ header {
 /* Navigation Bar Styles */
 nav {
     background-color: #333; /* Black background for the navigation bar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav.show {
+    transform: translateY(0);
 }
 
 .nav-container {
@@ -123,13 +133,38 @@ nav {
 .overlay {
     position: absolute;
     left: 10%;
-    top: 20%;
+    top: 30%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.678); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.808); /* Semi-transparent background */
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px; /* Optional: Add rounded corners */
-    font-size: 1.5em; /* Increase the font size */
+    font-size: 1.8em; /* Increase the font size */
+    max-width: 40%; /* Set a maximum width relative to the image */
+    word-wrap: break-word; /* Ensure long words break to the next line */
+    line-height: 1.2; /* Increase line height for more space between lines */
+}
+
+.overlay p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+}
+
+.link-with-arrow {
+    display: block;
+    margin-top: 10px;
+    color: rgb(113, 227, 255);
+    text-decoration: none;
+    position: relative;
+    padding-left: 30px;
+    font-size: 0.8em; /* Increase the font size */
+}
+
+.link-with-arrow::before {
+    content: '➔'; /* Unicode arrow character */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(113, 227, 255);
 }
 
 /* Collapsible Sections */
