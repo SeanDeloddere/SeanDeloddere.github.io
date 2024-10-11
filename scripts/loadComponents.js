@@ -59,6 +59,14 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
+
+            // Adjust paths for images in the footer
+            document.querySelectorAll('#footer-placeholder img').forEach(img => {
+                const src = img.getAttribute('src');
+                if (!src.startsWith('http') && !src.startsWith('#')) {
+                    img.setAttribute('src', basePath + src);
+                }
+            });
         })
         .catch(error => console.error('Error loading footer:', error));
 });
