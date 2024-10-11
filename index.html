@@ -5,21 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="scripts/loadNav.js"></script>
-    <script defer src="scripts/loadFooter.js"></script>
+    <script defer src="scripts/loadComponents.js"></script>
 </head>
 <body>
     <div id="nav-placeholder"></div>
-    <header>
-        <h1>Welcome to My Website</h1>
+    <header class="hidden">
+        <h1>Welcome</h1>
     </header>
     <main>
         <div class="content">
-            <div class="text">
-                <p>Hi, I'm Sean. Welcome to my website! </p>
-            </div>
             <div class="welcome_image">
-                <img src="images/sitting.jpg" alt="Picture of Sean">
+                <div class="overlay">
+                    <p>Hi, I'm Sean. Welcome to my website!</p>
+                </div>
+                <img src="/images/sitting.jpg" alt="Picture of Sean">
             </div>
         </div>
     </main>
