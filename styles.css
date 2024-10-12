@@ -259,3 +259,82 @@ footer {
         display: block;
     }
 }
+
+/* Intro Section Styles */
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Three Columns Section Styles */
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.column h3 {
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+/* Experience Section Styles */
+.experience {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: #007acc;
+    margin-bottom: 5px;
+}
+
+.responsibilities {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.responsibilities li {
+    margin-bottom: 5px;
+}
+
