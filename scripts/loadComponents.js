@@ -1,31 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Determine the base path
-    let basePath = '';
-    const pathSegments = window.location.pathname.split('/').filter(segment => segment.length > 0);
-    if (window.location.hostname === 'seandeloddere.github.io') {
-        basePath = '/Sean-Deloddere-Website/';
-        if (pathSegments.length > 1) {
-            basePath += pathSegments.slice(0, -1).map(() => '../').join('');
-        }
-    } else {
-        if (pathSegments.length > 1) {
-            basePath = '../'.repeat(pathSegments.length - 1);
-        }
-    }
-
-    // Function to adjust paths for links and images
-    function adjustPaths(containerId) {
-        document.querySelectorAll(`#${containerId} a, #${containerId} img`).forEach(element => {
-            const attr = element.tagName === 'A' ? 'href' : 'src';
-            const value = element.getAttribute(attr);
-            if (value && !value.startsWith('http') && !value.startsWith('#')) {
-                element.setAttribute(attr, basePath + value);
-            }
-        });
-    }
-
     // Fetch and load the navigation bar
-    fetch(basePath + 'components/nav.html')
+    fetch('components/nav.html')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Network response was not ok: ${response.statusText}`);
@@ -34,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
-            adjustPaths('nav-placeholder');
 
             // Add hover effect for the navigation bar
             const nav = document.querySelector('nav');
@@ -70,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error loading navigation:', error));
 
     // Fetch and load the footer
-    fetch(basePath + 'components/footer.html')
+    fetch('components/footer.html')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Network response was not ok: ${response.statusText}`);
@@ -79,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
-            adjustPaths('footer-placeholder');
         })
         .catch(error => console.error('Error loading footer:', error));
 });
