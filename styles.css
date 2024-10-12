@@ -262,19 +262,30 @@ footer {
 
 /* Intro Section Styles */
 .intro {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
 .intro h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 10px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 2em;
 }
+
+.intro p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
 
 /* Three Columns Section Styles */
 .three-columns {
@@ -289,24 +300,62 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
+    transition: transform 0.3s;
+}
+
+.column:hover {
+    transform: translateY(-10px);
 }
 
 .column h3 {
     color: #007acc;
     margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
 }
 
 .column ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 10%;
 }
 
 .column ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
-/* Experience Section Styles */
-.experience {
+.column ul li::before {
+    content: "\2713"; /* Unicode character for checkmark */
+    margin-right: 10px;
+    color: #007acc;
+    font-weight: bold;
+    position: relative;
+    top: -3px; /* Adjust this value to move the checkmark up or down */
+}
+
+/* Specific Styles for Roles and Areas Columns */
+.roles ul li,
+.areas ul li {
+    font-size: 1.5em; /* Adjust this value as needed */
+    margin-bottom: 1.1em;
+}
+
+/* Competences Column Styles */
+.competences {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.competences ul {
+    width: 45%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+/* work-history Section Styles */
+.work-history {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -314,27 +363,75 @@ footer {
     margin-bottom: 20px;
 }
 
-.experience h2 {
+.work-history h2 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
 .job {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .job h3 {
     color: #007acc;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.project p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.project p strong {
+    color: #007acc;
+}
+
+.project-keywords {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    border: 1px solid #007acc;
+    color: #007acc;
+    font-style: normal;
+}
+
+.project-keywords strong {
+    display: block;
     margin-bottom: 5px;
 }
 
-.responsibilities {
-    list-style-type: disc;
-    padding-left: 20px;
+.project-keywords span {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.responsibilities li {
-    margin-bottom: 5px;
+.project-keywords span:hover {
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.2s; /* Smooth transition */
 }
+
 
