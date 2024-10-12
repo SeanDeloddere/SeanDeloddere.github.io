@@ -6,20 +6,33 @@ document.addEventListener("DOMContentLoaded", function() {
         basePath = '../'.repeat(pathSegments.length - 1);
     }
 
+    // Adjust base path for GitHub Pages
+    if (window.location.hostname === 'seandeloddere.github.io') {
+        basePath = '/Sean-Deloddere-Website/' + basePath;
+    }
+
+    // Function to adjust paths for links and images
+    function adjustPaths(containerId) {
+        document.querySelectorAll(`#${containerId} a, #${containerId} img`).forEach(element => {
+            const attr = element.tagName === 'A' ? 'href' : 'src';
+            const value = element.getAttribute(attr);
+            if (value && !value.startsWith('http') && !value.startsWith('#')) {
+                element.setAttribute(attr, basePath + value);
+            }
+        });
+    }
+
     // Fetch and load the navigation bar
     fetch(basePath + 'components/nav.html')
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.statusText}`);
+            }
+            return response.text();
+        })
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
-
-            // Adjust paths for links and images in the navigation bar
-            document.querySelectorAll('#nav-placeholder a, #nav-placeholder img').forEach(element => {
-                const attr = element.tagName === 'A' ? 'href' : 'src';
-                const value = element.getAttribute(attr);
-                if (!value.startsWith('http') && !value.startsWith('#')) {
-                    element.setAttribute(attr, basePath + value);
-                }
-            });
+            adjustPaths('nav-placeholder');
 
             // Add hover effect for the navigation bar
             const nav = document.querySelector('nav');
@@ -56,17 +69,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Fetch and load the footer
     fetch(basePath + 'components/footer.html')
-        .then(response => response.text())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.statusText}`);
+            }
+            return response.text();
+        })
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
-
-            // Adjust paths for images in the footer
-            document.querySelectorAll('#footer-placeholder img').forEach(img => {
-                const src = img.getAttribute('src');
-                if (!src.startsWith('http') && !src.startsWith('#')) {
-                    img.setAttribute('src', basePath + src);
-                }
-            });
+            adjustPaths('footer-placeholder');
         })
         .catch(error => console.error('Error loading footer:', error));
 });
