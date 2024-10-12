@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log('script loaded')
     function getBaseURL() {
         const currentPath = window.location.pathname;
         const folderList = ['blog_posts'];
