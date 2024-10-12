@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Determine the base path
     let basePath = '';
     const pathSegments = window.location.pathname.split('/').filter(segment => segment.length > 0);
-    if (pathSegments.length > 1) {
-        basePath = '../'.repeat(pathSegments.length - 1);
-    }
-
-    // Adjust base path for GitHub Pages
     if (window.location.hostname === 'seandeloddere.github.io') {
-        basePath = '/Sean-Deloddere-Website/' + basePath;
+        basePath = '/Sean-Deloddere-Website/';
+        if (pathSegments.length > 1) {
+            basePath += pathSegments.slice(0, -1).map(() => '../').join('');
+        }
+    } else {
+        if (pathSegments.length > 1) {
+            basePath = '../'.repeat(pathSegments.length - 1);
+        }
     }
 
     // Function to adjust paths for links and images
