@@ -26,21 +26,23 @@ header {
 
 /* Navigation Bar Styles */
 nav {
-    background-color: #333; /* Black background for the navigation bar */
+    background-color: #232323; /* Black background for the navigation bar */
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    left: 0;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Changed from 85% */
+    width: 100%;
     padding: 0 20px;
-    max-width: 1200px; /* Added max-width */
-    margin: 0 auto; /* Center the container */
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -129,17 +131,24 @@ nav {
 .overlay {
     position: absolute;
     left: 5%;
-    top: 25%;
+    top: 30%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.808);
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     font-size: clamp(1rem, 4vw, 1.8em);
-    width: 90%;
+    width: 90%;    /* Default width for mobile */
     box-sizing: border-box;
     word-wrap: break-word;
     line-height: 1.4;
+}
+
+/* Add this media query for desktop screens */
+@media screen and (min-width: 768px) {
+    .overlay {
+        width: 50%;  /* Reduces width to roughly half on desktop */
+    }
 }
 
 .overlay p {
