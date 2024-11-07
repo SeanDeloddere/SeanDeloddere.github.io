@@ -128,17 +128,18 @@ nav {
 
 .overlay {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    left: 5%;
+    top: 25%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.808); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.808);
     color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 10px; /* Optional: Add rounded corners */
-    font-size: clamp(1rem, 4vw, 1.8em); /* Responsive font size */
-    max-width: 80%; /* Increased from 40% for mobile */
-    word-wrap: break-word; /* Ensure long words break to the next line */
-    line-height: 1.2; /* Increase line height for more space between lines */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: clamp(1rem, 4vw, 1.8em);
+    width: 90%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    line-height: 1.4;
 }
 
 .overlay p {
@@ -241,6 +242,7 @@ footer {
 
 /* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
+    /* Certification styles */
     .cert_content {
         flex-direction: column;
         align-items: flex-start;
@@ -266,22 +268,10 @@ footer {
 
     .roles ul li,
     .areas ul li {
-        font-size: 1.2em; /* Smaller font size for mobile */
+        font-size: 1.2em;
     }
 
-    .nav-menu {
-        display: none; /* Hide the menu by default on mobile */
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        flex-direction: column;
-    }
 
-    .nav-menu.active {
-        display: flex;
-    }
 
     .nav-menu li {
         margin: 0;
@@ -299,13 +289,12 @@ footer {
         box-shadow: none;
     }
 
-    /* Adjust intro section padding */
+    /* Intro and competences styles */
     .intro p {
         padding-left: 5%;
         padding-right: 5%;
     }
 
-    /* Adjust competences layout */
     .competences ul {
         width: 100%;
     }
@@ -485,83 +474,6 @@ footer {
     transition: transform 0.2s; /* Smooth transition */
 }
 
-/* Add styles for mobile menu toggle button */
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 10px;
-}
 
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-}
-
-.sticky-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Mobile menu styles */
-@media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #333;
-        flex-direction: column;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-menu li {
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .dropdown-content {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-    }
-}
-
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 10px;
-}
-
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-}
 
 
