@@ -37,8 +37,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%; /* Ensure the container spans the full width */
+    width: 100%; /* Changed from 85% */
     padding: 0 20px;
+    max-width: 1200px; /* Added max-width */
+    margin: 0 auto; /* Center the container */
 }
 
 .logo {
@@ -133,8 +135,8 @@ nav {
     color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px; /* Optional: Add rounded corners */
-    font-size: 1.8em; /* Increase the font size */
-    max-width: 40%; /* Set a maximum width relative to the image */
+    font-size: clamp(1rem, 4vw, 1.8em); /* Responsive font size */
+    max-width: 80%; /* Increased from 40% for mobile */
     word-wrap: break-word; /* Ensure long words break to the next line */
     line-height: 1.2; /* Increase line height for more space between lines */
 }
@@ -251,6 +253,61 @@ footer {
 
     .cert_details {
         display: block;
+    }
+
+    .three-columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .roles ul li,
+    .areas ul li {
+        font-size: 1.2em; /* Smaller font size for mobile */
+    }
+
+    .nav-menu {
+        display: none; /* Hide the menu by default on mobile */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu li a {
+        padding: 15px;
+    }
+
+    .dropdown-content {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    /* Adjust intro section padding */
+    .intro p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* Adjust competences layout */
+    .competences ul {
+        width: 100%;
     }
 }
 
@@ -426,6 +483,85 @@ footer {
 .project-keywords span:hover {
     transform: scale(1.1); /* Increase the size by 10% */
     transition: transform 0.2s; /* Smooth transition */
+}
+
+/* Add styles for mobile menu toggle button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        flex-direction: column;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
 }
 
 

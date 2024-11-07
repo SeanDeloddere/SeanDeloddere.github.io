@@ -11,33 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
 
-            const nav = document.querySelector('nav');
-            const navContainer = document.querySelector('.nav-container');
-
-            document.addEventListener('mousemove', function(event) {
-                if (event.clientY < 50 || window.scrollY === 0 || navContainer.matches(':hover')) {
-                    nav.classList.add('show');
-                } else {
-                    nav.classList.remove('show');
-                }
-            });
-
-            window.addEventListener('scroll', function() {
-                if (window.scrollY === 0) {
-                    nav.classList.add('show');
-                } else {
-                    nav.classList.remove('show');
-                }
-            });
-
-            nav.addEventListener('mouseenter', function() {
-                nav.classList.add('show');
-            });
-            nav.addEventListener('mouseleave', function() {
-                if (window.scrollY !== 0) {
-                    nav.classList.remove('show');
-                }
-            });
+            // Add mobile menu toggle functionality
+            const menuToggle = document.querySelector('.menu-toggle');
+            if (menuToggle) {
+                menuToggle.addEventListener('click', function() {
+                    document.querySelector('.nav-menu').classList.toggle('active');
+                });
+            }
         })
         .catch(error => console.error('Error loading navigation:', error));
 
