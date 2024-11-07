@@ -533,6 +533,8 @@ footer {
 .cert-item {
     position: relative;
     transition: transform 0.3s ease;
+    width: fit-content;
+    height: fit-content;
 }
 
 .cert-item img {
@@ -611,67 +613,93 @@ footer {
 
 .cert-hover-info {
     position: absolute;
+    left: 105%; /* Position it to the right of the certificate */
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 120%;
-    min-height: 120%;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;
+    transform: translateY(-50%);
+    width: 250px; /* Fixed width instead of relative */
+    background-color: rgba(244, 244, 244, 0.95); /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transition: opacity 0.3s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: left; /* Left-aligned text */
     z-index: 2;
+    pointer-events: none;
 }
 
+.cert-hover-info h3 {
+    color: #007acc; /* Blue color matching the theme */
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+}
+
+.cert-hover-info .cert-date {
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 4px 0;
+}
+
+.cert-hover-info .cert-description {
+    color: #444;
+    font-size: 0.85em;
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.cert-hover-info a {
+    color: #007acc;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Adjust mobile view to show info below instead of to the side */
+@media (max-width: 768px) {
+    .cert-hover-info {
+        left: 50%;
+        top: 105%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+}
+
+/* Add this to show the info box on hover */
 .cert-item:hover .cert-hover-info {
     opacity: 1;
 }
 
-.cert-hover-info .cert-description {
-    font-size: clamp(0.7rem, 1.8vw, 0.85em);
-    margin: 4px 0;
+/* Add this to ensure the hover info doesn't interfere with the hover effect */
+.cert-item {
+    position: relative;  /* Ensure this exists */
 }
 
-.cert-hover-info h3 {
-    margin: 0 0 8px 0;
-    font-size: clamp(1rem, 2.5vw, 1.2em);
-}
-
-.cert-hover-info .cert-date {
-    font-size: clamp(0.8rem, 2vw, 0.9em);
-    margin: 4px 0;
-}
-
-.cert-hover-info .cert-description {
-    font-size: clamp(0.7rem, 1.8vw, 0.85em);
-    margin: 4px 0;
-}
-
-.cert-hover-info a {
-    color: #b3eefd;  /* Light blue color */
-    text-decoration: none;
-    margin-top: 10px;
-}
-
+/* Optional: Add a hover transition for the link */
 .cert-hover-info a:hover {
     text-decoration: underline;
 }
 
+/* Add special handling for the rightmost (Coursera) certificate */
+.coursera-group .cert-item .cert-hover-info {
+    left: auto; /* Remove left positioning */
+    right: 105%; /* Position to the left of the certificate */
+    transform: translateY(-50%); /* Keep vertical centering only */
+}
+
+/* Adjust mobile view for all certificates including Coursera */
 @media (max-width: 768px) {
-    .cert-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
-    }
-    
-    .cert-item:hover {
-        transform: scale(1.05);
+    .cert-hover-info,
+    .coursera-group .cert-item .cert-hover-info {
+        left: 50%;
+        right: auto;
+        top: 105%;
+        transform: translateX(-50%);
+        width: 200px;
     }
 }
 
