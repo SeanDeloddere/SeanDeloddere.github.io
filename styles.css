@@ -483,6 +483,198 @@ footer {
     transition: transform 0.2s; /* Smooth transition */
 }
 
+/* New Certification Grid Styles */
+.cert-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 60px auto 0;
+}
+
+.cert-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.group-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.group-title img {
+    height: 40px; /* Default height for all logos */
+    width: auto;
+    object-fit: contain;
+}
+
+.azure-group .group-title img {
+    height: 50px; /* Bigger height for Azure logo */
+}
+
+.azure-group .group-title {
+    margin-bottom: 10px; /* Reduced margin to compensate for larger logo */
+}
+
+/* Create a container for the certificates within each group */
+.cert-container {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+/* Move the overlapping styles to the cert-container */
+.cert-container .cert-item:not(:first-child) {
+    margin-left: clamp(-120px, -10vw, -80px);
+}
+
+.cert-item {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.cert-item img {
+    display: block;
+    height: auto;
+}
+
+/* Size and position adjustments */
+.small-cert {
+    z-index: 2;
+    margin-top: 12vw;
+}
+
+.small-cert img {
+    width: clamp(150px, 12vw, 250px);
+}
+
+.large-cert {
+    z-index: 1;
+    margin-top: -4vw;
+}
+
+.large-cert img {
+    width: clamp(200px, 18vw, 350px);
+}
+
+/* For the Coursera cert */
+.coursera-group .cert-item img {
+    width: clamp(320px, 15vw, 600px);
+    margin-top: 2vw;
+}
+
+/* Hover effects */
+.cert-item:hover {
+    transform: scale(1.1) translateY(-10px);
+    z-index: 3;
+}
+
+/* Hover effects */
+.cert-item:hover {
+    transform: scale(1.1) translateY(-10px);
+    z-index: 3; /* Ensure hovered item appears on top */
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .cert-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .cert-group {
+        flex-direction: row; /* Keep horizontal layout even on mobile */
+        gap: 0;
+    }
+    
+    .cert-group + .cert-group {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    
+    /* Adjust sizes for mobile if needed */
+    .small-cert img {
+        width: 100px;
+    }
+    
+    .large-cert img {
+        width: 140px;
+    }
+    
+    .coursera-group .cert-item img {
+        width: 280px;
+    }
+}
+
+.cert-hover-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    min-height: 120%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.cert-item:hover .cert-hover-info {
+    opacity: 1;
+}
+
+.cert-hover-info .cert-description {
+    font-size: clamp(0.7rem, 1.8vw, 0.85em);
+    margin: 4px 0;
+}
+
+.cert-hover-info h3 {
+    margin: 0 0 8px 0;
+    font-size: clamp(1rem, 2.5vw, 1.2em);
+}
+
+.cert-hover-info .cert-date {
+    font-size: clamp(0.8rem, 2vw, 0.9em);
+    margin: 4px 0;
+}
+
+.cert-hover-info .cert-description {
+    font-size: clamp(0.7rem, 1.8vw, 0.85em);
+    margin: 4px 0;
+}
+
+.cert-hover-info a {
+    color: #b3eefd;  /* Light blue color */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.cert-hover-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .cert-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+    
+    .cert-item:hover {
+        transform: scale(1.05);
+    }
+}
+
 
 
 
