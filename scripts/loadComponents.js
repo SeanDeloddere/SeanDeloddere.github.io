@@ -11,11 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
 
-            // Add mobile menu toggle functionality
+            // Add mobile menu functionality
             const menuToggle = document.querySelector('.menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
             if (menuToggle) {
                 menuToggle.addEventListener('click', function() {
-                    document.querySelector('.nav-menu').classList.toggle('active');
+                    navMenu.classList.toggle('active');
                 });
             }
         })
@@ -33,3 +35,22 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error('Error loading footer:', error));
 });
+
+// Add this JavaScript function
+function openCertificateModal(event) {
+    event.preventDefault();
+    const modal = document.getElementById('certificateModal');
+    const closeBtn = modal.querySelector('.close-modal');
+    
+    modal.style.display = "block";
+    
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}

@@ -9,16 +9,63 @@
 </head>
 <body>
     <div id="nav-placeholder"></div>
-    <header>
-        <h1>My Blog</h1>
+    
+    <header class="hidden">
+        <h1>How I created my own website with no web developing experience (hint: AI)</h1>
     </header>
     <main>
-        <p>Welcome to my blog. Here are my posts:</p>
-        <ul>
-            <li><a href="/blog_posts/post1.html">How I created my own website with no web developing experience (hint: AI)</a></li>
-            <li><a href="/blog_posts/post2.html">How I</a></li>
-        </ul>
+        <div class="blog-grid">
+            <!-- Blog Post Card 1 -->
+            <article class="blog-card">
+                <img src="/images/blog_posts/post1/blog_thumbnail_gpt2.PNG" alt="Blog post thumbnail" class="blog-thumbnail">
+                <div class="blog-content">
+                    <h2 class="blog-title">Creating My Website with AI Tools</h2>
+                    <div class="blog-metadata">
+                        <span class="blog-date">March 20, 2024</span>
+                        <span class="blog-tags">AI, Web Development</span>
+                    </div>
+                    <p class="blog-excerpt">
+                        Learn how I leveraged artificial intelligence to create this website from scratch, 
+                        despite having no prior web development experience...
+                    </p>
+                    <a href="/blog_posts/creating-website-with-ai.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Blog Post Card 2 -->
+            <article class="blog-card">
+                <!-- <img src="/images/ai-ethics.jpg" alt="AI Ethics thumbnail" class="blog-thumbnail"> -->
+                <div class="blog-content">
+                    <h2 class="blog-title">Coming soon!</h2>
+                    <div class="blog-metadata">
+                        <span class="blog-date"></span>
+                        <span class="blog-tags"></span>
+                    </div>
+                    <p class="blog-excerpt">
+                        
+                    </p>
+                    <a href="/blog.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Blog Post Card 3 -->
+            <article class="blog-card">
+                <!-- <img src="/images/learning-journey.jpg" alt="Learning Journey thumbnail" class="blog-thumbnail"> -->
+                <div class="blog-content">
+                    <h2 class="blog-title">Coming soon!</h2>
+                    <div class="blog-metadata">
+                        <span class="blog-date"></span>
+                        <span class="blog-tags"></span>
+                    </div>
+                    <p class="blog-excerpt">
+                        
+                    </p>
+                    <a href="/blog.html" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
     </main>
+
     <div id="footer-placeholder"></div>
 </body>
 </html>
