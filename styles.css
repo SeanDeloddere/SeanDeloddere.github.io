@@ -1271,6 +1271,7 @@ body {
 .work-intro p {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
@@ -1284,6 +1285,7 @@ body {
     .work-intro p {
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 15px;
     }
 }
 
@@ -1311,6 +1313,7 @@ body {
 .volunteer-intro p {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
     font-size: 1.1em;
     line-height: 1.6;
     color: #333;
@@ -1348,6 +1351,7 @@ body {
     .volunteer-intro p {
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 15px;
     }
 }
 
@@ -1450,6 +1454,7 @@ body {
     .volunteer-intro p {
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 15px;
     }
 }
 
