@@ -772,6 +772,16 @@ footer {
 .volunteer-section {
     margin: 4rem 0;
     padding: 0 1rem;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volunteer-section h2 {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(0.6 * 2rem);
 }
 
 .content-wrapper {
