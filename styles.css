@@ -186,7 +186,7 @@ nav {
         position: absolute;
         top: 20%;
         left: 50%;
-        transform: translate(-50%, 0);
+        transform: translate(-50%, 15%);
         width: 90%;
         min-width: auto;
         height: auto;
