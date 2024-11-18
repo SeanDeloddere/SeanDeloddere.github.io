@@ -131,6 +131,7 @@ nav {
     height: auto;
     border-radius: 10px;
     display: block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .overlay {
@@ -1269,7 +1270,7 @@ footer {
 
 /* Add this new class */
 .intro-page {
-    background-color: #333333  ; /* Slightly lighter than #232323 */
+    background: radial-gradient(circle at center, #080808, #474747); /* More pronounced gradient from center */
 }
 
 /* Keep the default body background for other pages */
