@@ -276,7 +276,7 @@ nav {
 
 /* Footer Styles */
 footer {
-    background-color: #232323; /* Dark background for the footer */
+    background-color: #232323;
     padding: 10px 0;
     text-align: center;
     width: 100vw;
@@ -292,7 +292,7 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -301,13 +301,43 @@ footer {
     box-sizing: border-box;
 }
 
+.contact-info {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
 .social-link {
     margin: 0 10px;
 }
 
 .social-link img {
-    height: 40px; /* Adjust the size as needed */
+    height: 40px;
     width: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1em;
+    }
 }
 
 /* Responsive Design for Smaller Screens */
