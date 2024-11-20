@@ -197,12 +197,12 @@ nav {
     }
     
     .overlay p {
-        font-size: clamp(12px, 4vw, 16px);
+        font-size: clamp(10px, 4vw, 14px);
         margin-bottom: 8px;
     }
     
     .overlay .link-with-arrow {
-        font-size: clamp(11px, 3.5vw, 14px);
+        font-size: clamp(9px, 3.5vw, 12px);
     }
 }
 
