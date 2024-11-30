@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 576: {
                     perPage: 1,
                 }
-            }
+            },
+            type: 'loop',
+            rewind: true
         }).mount();
     });
 }); 
