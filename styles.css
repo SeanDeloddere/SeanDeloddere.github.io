@@ -441,9 +441,6 @@ footer {
     }
 }
 
-.column:hover {
-    transform: translateY(-10px);
-}
 
 .column h3 {
     color: #007acc;
@@ -565,11 +562,6 @@ footer {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.project-keywords span:hover {
-    transform: scale(1.1); /* Increase the size by 10% */
-    transition: transform 0.2s; /* Smooth transition */
 }
 
 /* New Certification Grid Styles */
@@ -862,11 +854,6 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.edu-entry:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
 .edu-header {
     display: flex;
     align-items: center;
@@ -1054,10 +1041,6 @@ footer {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
-}
-
-.blog-card:hover {
-    transform: translateY(-5px);
 }
 
 .blog-thumbnail {
@@ -1567,5 +1550,32 @@ body {
     .cert-grid {
         padding: 10px;
     }
+}
+
+/* Appendix Styles */
+.post-appendix h3 {
+    color: #007acc;
+    margin: 1.5em 0 0.8em;
+}
+
+.post-appendix ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-appendix li {
+    margin-bottom: 0.8em;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+}
+
+.post-appendix input[type="checkbox"] {
+    margin-top: 0.3em;
+}
+
+.post-appendix input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #666;
 }
     
