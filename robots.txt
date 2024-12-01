@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seandeloddere.github.io/sitemap.xml 
