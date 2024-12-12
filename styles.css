@@ -38,7 +38,7 @@ nav {
     width: 100%;
     z-index: 1000;
     left: 0;
-    padding: 5px 0; /* Padding remains at 5px */
+    padding: 3px 0; /* Padding remains at 5px */
 }
 
 .nav-container {
@@ -57,7 +57,7 @@ nav {
 }
 
 .logo img {
-    height: clamp(27px, 5vw, 32px); /* Increased max height by 2px */
+    height: clamp(23px, 4vw, 25px); /* Increased max height by 2px */
 }
 
 .nav-menu {
@@ -76,9 +76,9 @@ nav {
 .nav-menu li a {
     color: white; /* White text for navigation links */
     text-decoration: none;
-    padding: 8px 15px; /* Padding remains at 8px 15px */
+    padding: 4px 15px; /* Padding remains at 8px 15px */
     display: block;
-    font-size: clamp(1em, 1.5vw, 1.3em); /* Increased max font size by a bit */
+    font-size: clamp(1em, 1.1vw, 1.1em); /* Increased max font size by a bit */
 }
 
 .nav-menu li a:hover {
