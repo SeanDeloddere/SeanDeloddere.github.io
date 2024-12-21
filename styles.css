@@ -1968,5 +1968,15 @@ body {
 .post-script {
     font-size: 0.9em;
 }
+
+.blog-post a {
+    color: inherit;  /* Uses the parent text color */
+    text-decoration: underline;  /* Adds underline */
+    text-underline-offset: 2px;  /* Optional: adds some space between text and underline */
+}
+
+.blog-post a:hover {
+    opacity: 0.8;  /* Optional: subtle hover effect */
+}
     
 
