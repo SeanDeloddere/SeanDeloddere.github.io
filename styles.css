@@ -1964,5 +1964,9 @@ body {
 .feedback-legend .checkbox-unchecked {
     margin-right: 0.3rem;
 }
+
+.post-script {
+    font-size: 0.9em;
+}
     
 
