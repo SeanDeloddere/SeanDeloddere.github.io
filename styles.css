@@ -1048,7 +1048,19 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Only apply hover effects to cards that aren't marked as coming-soon */
+.blog-card:not(.coming-soon):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.blog-card.coming-soon {
+    opacity: 0.7;  /* Makes the card appear slightly faded */
+    cursor: default;  /* Removes the pointer cursor */
 }
 
 .blog-thumbnail {
@@ -1078,17 +1090,6 @@ footer {
     color: #444;
     margin-bottom: 1rem;
     line-height: 1.5;
-}
-
-.read-more {
-    display: inline-block;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.read-more:hover {
-    text-decoration: underline;
 }
 
 /* Blog Post Styles */
