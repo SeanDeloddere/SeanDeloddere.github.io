@@ -1978,5 +1978,28 @@ body {
 .blog-post a:hover {
     opacity: 0.8;  /* Optional: subtle hover effect */
 }
+
+.cert-instruction {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.mobile-only {
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .desktop-only {
+        display: inline;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
     
 
