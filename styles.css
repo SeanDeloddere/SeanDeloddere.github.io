@@ -1981,7 +1981,7 @@ body {
 
 .cert-instruction {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 4rem auto 1rem;  /* Increased top margin */
     color: #666;
 }
 
