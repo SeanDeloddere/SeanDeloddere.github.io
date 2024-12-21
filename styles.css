@@ -1120,9 +1120,52 @@ footer {
 }
 
 .post-intro {
-    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 0 0 2rem 0;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-intro p {
+    font-size: 1.1rem;
     line-height: 1.6;
-    margin-bottom: 2em;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.key-questions {
+    margin: 1.5em 0;
+}
+
+.key-questions ol {
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--text-emphasis);
+}
+
+.key-questions li {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .post-intro {
+        padding: 1rem;
+    }
 }
 
 .post-content {
@@ -1602,6 +1645,316 @@ body {
 .post-appendix input[type="checkbox"]:checked + label {
     text-decoration: line-through;
     color: #666;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.post-content h2 {
+    font-size: 2rem;
+    margin: 2rem 0 1.5rem;
+    color: #222;
+}
+
+.content-block {
+    margin-bottom: 2rem;
+}
+
+.content-block p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.quote-block {
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    background: #f8f8f8;
+    border-left: 4px solid #007bff;
+    font-style: italic;
+}
+
+.quote-block p {
+    margin-bottom: 0;
+}
+
+.highlight {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .post-content {
+        padding: 1rem;
+    }
+    
+    .quote-block {
+        padding: 1rem;
+    }
+}
+
+.methodology-intro {
+    margin-bottom: 3rem;
+}
+
+.approach-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.approach h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin: 2rem 0;
+    align-items: start; /* Align items to the top */
+}
+
+.feature-grid figure {
+    margin: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: fit-content; /* Allow figure to fit content */
+}
+
+.feature-grid img {
+    width: 100%;
+    height: 200px; /* Set fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover area */
+    display: block;
+}
+
+.feature-grid p {
+    margin: 0; /* Remove default margins */
+    align-self: center; /* Center text vertically */
+}
+
+.note {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+@media (max-width: 768px) {
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .feature-grid figure {
+        margin-bottom: 1rem;
+    }
+}
+
+.mobile-issue {
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.mobile-issue img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mobile-issue figcaption {
+    padding: 1rem;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .process-step {
+        margin-bottom: 2rem;
+    }
+    
+    .process-step h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.metric {
+    margin-bottom: 1rem;
+}
+
+.metric h4 {
+    font-size: 1.3rem;
+    color: #222;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #007bff;
+}
+
+.metrics-score {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.metrics-score img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+    .metrics {
+        gap: 1.5rem;
+    }
+    
+    .metric h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+/* Blog Post Meta Styles */
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-name {
+    font-weight: 500;
+    color: #292929;
+}
+
+.post-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.date-separator {
+    color: #757575;
+}
+
+/* Blog Post Header Styles */
+.post-header {
+    margin: 2rem 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.post-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.post-header .subtitle {
+    font-size: 1.5em;
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+/* Update post-meta styles to left align */
+.post-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+/* Add these new styles at the end of your existing styles.css file */
+.post-appendix {
+    margin-top: 3rem;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.post-appendix h2 {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.feedback-title {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.feedback-content {
+    margin-left: 1rem;
+}
+
+.feedback-content h4 {
+    font-size: 1em;
+    color: #555;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.feedback-content ul {
+    margin-bottom: 1rem;
+}
+
+.feedback-content li {
+    margin-bottom: 0.3rem;
+    font-size: 0.85em;
+}
+
+.feedback-legend {
+    margin-bottom: 1rem;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.feedback-legend span {
+    margin-right: 1.5rem;
+}
+
+.feedback-legend .checkbox-checked,
+.feedback-legend .checkbox-unchecked {
+    margin-right: 0.3rem;
 }
     
 
