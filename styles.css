@@ -1760,11 +1760,20 @@ body {
     }
 }
 
-.mobile-issue {
+.mobile-issue-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     margin: 2rem 0;
+}
+
+.mobile-issue {
+    flex-shrink: 0;  /* Prevent image from shrinking */
+    margin: 0;       /* Remove previous margin since container handles spacing */
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     border-radius: 8px;
     overflow: hidden;
+    width: 200px;    /* Changed from max-width to width */
 }
 
 .mobile-issue img {
@@ -1781,14 +1790,17 @@ body {
     color: #666;
 }
 
+/* Add responsive behavior */
 @media (max-width: 768px) {
-    .process-step {
-        margin-bottom: 2rem;
+    .mobile-issue-container {
+        flex-direction: column;
+        gap: 1rem;
     }
     
-    .process-step h3 {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
+    .mobile-issue {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
 
