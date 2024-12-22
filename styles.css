@@ -1706,22 +1706,11 @@ body {
     color: #333;
 }
 
-.quote-block {
-    margin: 2rem 0;
-    padding: 1.5rem 2rem;
-    background: #f8f8f8;
-    border-left: 4px solid #007bff;
-    font-style: italic;
-}
-
-.quote-block p {
-    margin-bottom: 0;
-}
-
-.highlight {
-    font-size: 1.2rem;
-    color: #007bff;
-    font-weight: 500;
+.subtle-highlight {
+    background-color: #f9f9f9; /* Light background for subtle emphasis */
+    border-left: 3px solid #ccc; /* Optional left border */
+    padding: 10px; /* Add some padding */
+    margin: 10px 0; /* Space above and below */
 }
 
 @media (max-width: 768px) {
@@ -1729,7 +1718,7 @@ body {
         padding: 1rem;
     }
     
-    .quote-block {
+    .subtle-highlight {
         padding: 1rem;
     }
 }
