@@ -2038,5 +2038,46 @@ body {
         display: none;
     }
 }
+
+.image-text-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the start */
+    flex-wrap: wrap; /* Allow wrapping for mobile */
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    margin-right: 20px; /* Space between images and text */
+    flex: 0 0 50%; /* Set the width to 40% of the container */
+}
+
+.text-column {
+    flex: 1; /* Allow text column to take remaining space */
+    margin-top: 0; /* Remove top margin for alignment */
+}
+
+.text-column p {
+    margin-top: 0; /* Remove top margin for paragraphs */
+    margin-bottom: 0; /* Remove bottom margin if needed */
+}
+
+.blog-image {
+    width: 100%; /* Ensure images take full width of the column */
+    max-width: 100%; /* Remove the previous max-width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .image-column {
+        flex: 0 0 100%; /* Full width on mobile */
+        margin-right: 0; /* Remove margin on mobile */
+    }
+
+    .text-column {
+        flex: 0 0 100%; /* Full width for text on mobile */
+        margin-top: 10px; /* Add some space above the text */
+    }
+}
     
 
