@@ -2080,4 +2080,205 @@ body {
     }
 }
     
+.option {
+    margin: 0.5px;
+    padding: 4px 2px;
+    min-height: 36px;
+    width: calc((100% - 2px));
+    line-height: 1.2;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    color: #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    flex: 1;
+}
+.option:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.option:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.selected {
+    background-color: lightblue;
+}
+.feedback {
+    margin: 0.5px;
+    padding: 4px 2px;
+    min-height: 36px;
+    width: calc((100% - 2px));
+    line-height: 1.2;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    color: #000;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    flex: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.grey {
+    background-color: grey;
+}
+.grid-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 8px repeat(5, 1fr);
+    gap: 0.5px;
+    margin-top: 1px;
+}
+.grid-header {
+    color: #232323;
+    font-weight: 500;
+    text-align: center;
+}
+.attempt-label {
+    text-align: left;
+    line-height: 24px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5px;
+    margin-top: 5px;
+    width: 70%;
+    margin: 10px auto;
+}
+@media (max-width: 450px) {
+    .option, .feedback {
+        min-height: 30px;
+        width: calc((100% - 1px));
+        font-size: 7px;
+        margin: 0.25px;
+        padding: 3px 2px;
+    }
+    .grid-header, .attempt-label {
+        font-size: 7px;
+    }
+    .grid {
+        grid-template-columns: 6px repeat(5, 1fr);
+        gap: 0.25px;
+    }
+    .options-container {
+        gap: 0.25px;
+        margin-top: 2px;
+    }
+    .attempt-label {
+        line-height: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .option, .feedback {
+        min-height: 24px;
+        font-size: 7px;
+        padding: 2px 1px;
+    }
+    .grid-header, .attempt-label {
+        font-size: 6px;
+    }
+    .attempt-label {
+        line-height: 18px;
+    }
+}
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.game-button {
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+
+}
+.game-button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.game-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 450px) {
+    .game-button {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+}
+#footer-placeholder {
+    margin-top: auto;
+}
+h1 {
+    margin-top: 60px;
+    text-align: center;
+}
+#question {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.factle-description {
+    text-align: center;
+    font-style: italic;
+    color: #666666;
+    font-size: 1em;
+    margin: -10px 0 15px 0;
+}
+
 

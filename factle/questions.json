@@ -1,0 +1,117 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "date": "01-03",
+            "question": "What are the 5 most populated countries in the world? (as of 2025)",
+            "options": [
+                "Japan", "Ethiopia", "Philippines", "Egypt", "Vietnam",
+                "China", "India", "Iran", "Indonesia", "Pakistan", 
+                "Brazil", "Nigeria", "Bangladesh", "Russia", "Mexico",
+                "DR Congo", "Turkey", "USA", "Germany", "Thailand"
+            ],
+            "answers": ["India", "China", "USA", "Indonesia", "Pakistan"],
+            "source": "https://www.worldometers.info/world-population/population-by-country/"
+        },
+        {
+            "id": 2,
+            "date": "01-04-2025",
+            "question": "Which countries are the top 5 largest by land area?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/articles/the-largest-countries-in-the-world-the-biggest-nations-as-determined-by-total-land-area.html"
+        },
+        {
+            "id": 3,
+            "date": "01-05-2025",
+            "question": "Who are the 5 highest-grossing actors of all time?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.the-numbers.com/box-office-star-records/worldwide/lifetime-acting/top-grossing-actors"
+        },
+        {
+            "id": 4,
+            "date": "01-06-2025",
+            "question": "Which are the 5 longest rivers in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/rivers/the-longest-rivers-in-the-world.html"
+        },
+        {
+            "id": 5,
+            "date": "01-07-2025",
+            "question": "Which are the 5 tallest mountains in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/mountains/the-highest-mountains-in-the-world.html"
+        },
+        {
+            "id": 6,
+            "date": "01-08-2025",
+            "question": "Which are the 5 largest oceans in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/oceans/the-largest-oceans-in-the-world.html"
+        },
+        {
+            "id": 7,
+            "date": "01-09-2025",
+            "question": "Which are the 5 most spoken languages in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.ethnologue.com/guides/ethnologue200"
+        },
+        {
+            "id": 8,
+            "date": "01-10-2025",
+            "question": "Which are the 5 largest deserts in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/deserts/the-largest-deserts-in-the-world.html"
+        },
+        {
+            "id": 9,
+            "date": "01-11-2025",
+            "question": "Which are the 5 most visited countries in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.worldatlas.com/articles/the-most-visited-countries-in-the-world.html"
+        },
+        {
+            "id": 10,
+            "date": "01-12-2025",
+            "question": "Which are the 5 largest economies in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.investopedia.com/insights/worlds-top-economies/"
+        },
+        {
+            "id": 11,
+            "date": "01-13-2025",
+            "question": "Which are the 5 most popular social media platforms in the world?",
+            "options": [
+                
+            ],
+            "answers": [],
+            "source": "https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/"
+        }
+    ]
+}

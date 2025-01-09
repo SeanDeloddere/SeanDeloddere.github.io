@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Factle</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/scripts/loadComponents.js"></script>
+    <script type="module" src="/scripts/factle.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <div id="nav-placeholder"></div>
+        <h1>Factle</h1>
+        <div class="factle-description">Daily trivia. Get 5 chances to guess the 5 correct answers in order.</div>
+        <div id="question">Loading question...</div>
+        <div class="grid-container">
+            <div class="grid">
+                <div></div>
+                <div class="grid-header">1st</div>
+                <div class="grid-header">2nd</div>
+                <div class="grid-header">3rd</div>
+                <div class="grid-header">4th</div>
+                <div class="grid-header">5th</div>
+            </div>
+            <div class="grid" id="attempt1">
+                <div class="attempt-label">1</div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+            </div>
+            <div class="grid" id="attempt2">
+                <div class="attempt-label">2</div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+            </div>
+            <div class="grid" id="attempt3">
+                <div class="attempt-label">3</div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+            </div>
+            <div class="grid" id="attempt4">
+                <div class="attempt-label">4</div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+            </div>
+            <div class="grid" id="attempt5">
+                <div class="attempt-label">5</div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+                <div class="feedback"></div>
+            </div>
+        </div>
+        <div class="options-container" id="options">
+            <!-- Options will be generated here -->
+        </div>
+        <div class="button-container">
+            <button class="game-button" id="backspace">Backspace</button>
+            <button class="game-button" id="submit">Guess</button>
+        </div>
+    </div>
+    <div id="footer-placeholder"></div>
+</body>
+</html>
