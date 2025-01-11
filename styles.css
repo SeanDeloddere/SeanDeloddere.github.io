@@ -612,11 +612,11 @@ footer {
 
 /* Use data attributes for size variants */
 .cert-item[data-size="small"] img {
-    width: clamp(100px, 10vw, 250px);
+    width: clamp(100px, 10vw, 220px);
 }
 
 .cert-item[data-size="large"] img {
-    width: clamp(150px, 18vw, 350px);
+    width: clamp(150px, 18vw, 320px);
 }
 
 .cert-item:hover {
