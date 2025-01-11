@@ -572,10 +572,11 @@ footer {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* New Certification Grid Styles */
+/* Certification Styles */
 .cert-grid {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 4rem;
     padding: 20px;
     max-width: 1400px;
     margin: 60px auto 0;
@@ -585,132 +586,45 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-}
-
-.group-title {
-    margin-bottom: 20px;
-    text-align: center;
+    gap: 2rem;
 }
 
 .group-title img {
-    height: 40px; /* Default height for all logos */
+    height: 40px;
     width: auto;
     object-fit: contain;
 }
 
-.azure-group .group-title img {
-    height: 50px; /* Bigger height for Azure logo */
-}
-
-.azure-group .group-title {
-    margin-bottom: 10px; /* Reduced margin to compensate for larger logo */
-}
-
-/* Create a container for the certificates within each group */
 .cert-container {
     display: flex;
-    gap: 0;
-    align-items: center;
-}
-
-/* Move the overlapping styles to the cert-container */
-.cert-container .cert-item:not(:first-child) {
-    margin-left: clamp(-120px, -10vw, -80px);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    padding: 1rem;
 }
 
 .cert-item {
     position: relative;
     transition: transform 0.3s ease;
-    width: fit-content;
-    height: fit-content;
-}
-
-.cert-item img {
-    display: block;
-    height: auto;
-}
-
-/* Size and position adjustments */
-.small-cert {
-    z-index: 2;
-    margin-top: 12vw;
-}
-
-.small-cert img {
-    width: clamp(150px, 12vw, 250px);
-}
-
-.large-cert {
     z-index: 1;
-    margin-top: -4vw;
+    flex: 1 1 50px; /* Allow items to shrink and grow, with a minimum width */
 }
 
-.large-cert img {
-    width: clamp(200px, 18vw, 350px);
+/* Use data attributes for size variants */
+.cert-item[data-size="small"] img {
+    width: clamp(100px, 10vw, 250px);
 }
 
-/* For the Coursera cert */
-.coursera-group .cert-item img {
-    width: clamp(320px, 15vw, 600px);
-    margin-top: 2vw;
+.cert-item[data-size="large"] img {
+    width: clamp(150px, 18vw, 350px);
 }
 
-/* Hover effects */
 .cert-item:hover {
-    transform: scale(1.1) translateY(-10px);
+    transform: scale(1.3) translateY(-10px);
     z-index: 3;
 }
 
-/* Hover effects */
-.cert-item:hover {
-    transform: scale(1.1) translateY(-10px);
-    z-index: 3; /* Ensure hovered item appears on top */
-}
-
-/* Responsive design */
-@media (max-width: 1024px) {
-    .cert-grid {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
-    
-    .cert-group {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    
-    .group-title {
-        margin-bottom: 10px;
-    }
-    
-    .cert-container {
-        justify-content: center;
-    }
-    
-    .cert-container .cert-item:not(:first-child) {
-        margin-left: clamp(-80px, -8vw, -60px);
-    }
-    
-    /* Adjust sizes for mobile */
-    .small-cert img {
-        width: 80px;
-    }
-    
-    .large-cert img {
-        width: 120px;
-    }
-    
-    .coursera-group .cert-item img {
-        width: 200px;
-    }
-}
-
+/* Keep your existing cert-hover-info styles */
 .cert-hover-info {
     position: absolute;
     left: 95%;
@@ -761,16 +675,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Adjust mobile view to show info below instead of to the side */
-@media (max-width: 768px) {
-    .cert-hover-info {
-        left: 50%;
-        top: 105%;
-        transform: translateX(-50%);
-        width: 200px;
-    }
-}
-
 /* Show info box when hovering the cert-item */
 .cert-item:hover .cert-hover-info {
     opacity: 1;
@@ -794,12 +698,28 @@ footer {
     transform: translateY(-50%); /* Keep vertical centering only */
 }
 
-/* Adjust mobile view for all certificates including Coursera */
+/* Media Queries */
 @media (max-width: 768px) {
-    .cert-hover-info,
-    .coursera-group .cert-item .cert-hover-info {
+    .cert-container {
+        gap: 0.1rem;
+    }
+
+    .cert-item {
+        flex: 1 1 40px; /* Allow items to be even smaller on smaller screens */
+        max-width: 100px; /* Adjust max width for smaller screens */
+    }
+    
+    .cert-item[data-size="small"] img {
+        width: clamp(40px, 12vw, 100px);
+    }
+    
+    .cert-item[data-size="large"] img {
+        width: clamp(60px, 16vw, 150px);
+    }
+
+    /* Adjust mobile view to show info below instead of to the side */
+    .cert-hover-info {
         left: 50%;
-        right: auto;
         top: 105%;
         transform: translateX(-50%);
         width: 200px;
@@ -1587,72 +1507,6 @@ body {
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 15px;
-    }
-}
-
-/* Certification Grid Styles */
-.cert-grid {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1400px;
-    margin: 60px auto 0;
-}
-
-/* Create a container for the certificates within each group */
-.cert-container {
-    display: flex;
-    gap: 0;
-    align-items: center;
-}
-
-/* Responsive design */
-@media (max-width: 1024px) {
-    .cert-grid {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
-    
-    .cert-group {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    
-    .group-title {
-        margin-bottom: 10px;
-    }
-    
-    .cert-container {
-        justify-content: center;
-    }
-    
-    .cert-container .cert-item:not(:first-child) {
-        margin-left: clamp(-80px, -8vw, -60px);
-    }
-    
-    /* Adjust sizes for mobile */
-    .small-cert img {
-        width: 80px;
-    }
-    
-    .large-cert img {
-        width: 120px;
-    }
-    
-    .coursera-group .cert-item img {
-        width: 200px;
-    }
-}
-
-/* Additional adjustments for very small screens */
-@media (max-width: 480px) {
-    .cert-grid {
-        padding: 10px;
     }
 }
 
