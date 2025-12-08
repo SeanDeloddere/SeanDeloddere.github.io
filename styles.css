@@ -478,7 +478,7 @@ footer {
 /* Specific Styles for Roles and Areas Columns */
 .roles ul li,
 .areas ul li {
-    font-size: 1.5em; /* Adjust this value as needed */
+    font-size: 1.3em; /* Adjust this value as needed */
     margin-bottom: 1.1em;
 }
 
@@ -512,7 +512,7 @@ footer {
 }
 
 .job {
-    margin-bottom: 30px;
+    margin-bottom: 80px; /* Increased vertical buffer between job entries */
 }
 
 .job h3 {
@@ -1332,9 +1332,7 @@ body {
     line-height: 1.6;
     color: #333;
     text-align: left;
-    display: flex;
-    align-items: center;
-    height: 100%;
+    display: block;
 }
 
 @media (max-width: 768px) {
