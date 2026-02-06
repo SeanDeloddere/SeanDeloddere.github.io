@@ -7,7 +7,7 @@
     <title>Certifications | Sean Deloddere</title>
     <link rel="stylesheet" href="/styles.css">
     <script defer src="/scripts/loadComponents.js"></script>
-    <script defer src="/scripts/collapseSections.js"></script>
+    <script defer src="/scripts/certCarousel.js"></script>
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -15,118 +15,157 @@
         <h1>Certifications</h1>
     </header>
     <main>
-        <p class="cert-instruction">
-            <span class="desktop-only">Hover the certifications for more information</span>
-            <span class="mobile-only">Tap the certifications for more information</span>
-        </p>
         <section id="all-certifications">
-            <div class="cert-grid">
-                <!-- Azure Certs Group -->
-                <div class="cert-group">
-                    <div class="group-title">
-                        <img src="/images/certs/Azure Logo.png" alt="Azure Logo">
+            <div class="cert-carousels">
+
+                <!-- Azure Certs Carousel -->
+                <div class="cert-carousel-group">
+                    <div class="carousel-group-header">
+                        <img src="/images/certs/Microsoft-Logo.png" alt="Microsoft Logo">
                     </div>
-                    <div class="cert-container">
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/AZ_Copilot.png" alt="Azure Copilot Badge">
-                            <div class="cert-hover-info">
-                                <h3>Participation Badge Microsoft Copilot Studio Partner Training</h3>
-                                <p class="cert-date">December 2024</p>
-                                <p class="cert-description">3 day workshop on building and extending AI-powered Copilots with Copilot Studio</p>
-                                <a href="https://www.credly.com/badges/5da574f1-bd62-4f1d-b933-988bf002c1b9" target="_blank">View Certificate</a>
+                    <div class="carousel-layout">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-controls">
+                                <button class="carousel-arrow carousel-prev" aria-label="Previous certification">&#8249;</button>
+                                <div class="carousel-track-container">
+                                    <div class="carousel-track">
+                                        <div class="carousel-slide"
+                                             data-title="Microsoft Certified Fabric Data Engineer Associate"
+                                             data-date="January 2026"
+                                             data-description="Covers ingesting and transforming data and implementing, managing, monitoring and optimizing analytics solutions on Microsoft Fabric"
+                                             data-link="https://learn.microsoft.com/api/credentials/share/en-gb/SeanDeloddere-0748/FDD50A60735AFB10?sharingId=9CDA6D3E3373C702">
+                                            <img src="/images/certs/DP_700.png" alt="Fabric Data Engineer Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Microsoft Certified Azure Data Engineering"
+                                             data-date="December 2022"
+                                             data-description="Covers designing and implementing data solutions, managing pipelines, and ensuring data security on Azure"
+                                             data-link="https://learn.microsoft.com/api/credentials/share/en-us/SeanDeloddere-0748/EAEBDC95B11DFEB8?sharingId=9CDA6D3E3373C702">
+                                            <img src="/images/certs/AZ_DE.PNG" alt="Azure Data Engineer Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Microsoft Certified Azure Fundamentals"
+                                             data-date="February 2022"
+                                             data-description="Covers basic cloud concepts, Azure services, security, and cost management"
+                                             data-link="https://learn.microsoft.com/api/credentials/share/en-us/SeanDeloddere-0748/EAEBDC95B11DFEB8?sharingId=9CDA6D3E3373C702">
+                                            <img src="/images/certs/AZ_F.png" alt="Azure Fundamentals Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Microsoft Certified Azure AI Fundamentals"
+                                             data-date="February 2022"
+                                             data-description="Covers the basics of AI, machine learning, and AI-related services on Azure"
+                                             data-link="https://learn.microsoft.com/en-us/users/seandeloddere-0748/credentials/certification/azure-fundamentals?tab=credentials-tab">
+                                            <img src="/images/certs/AZ_AIF.png" alt="Azure AI Fundamentals Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Participation Badge Microsoft Copilot Studio Partner Training"
+                                             data-date="December 2024"
+                                             data-description="3 day workshop on building and extending AI-powered Copilots with Copilot Studio"
+                                             data-link="https://www.credly.com/badges/5da574f1-bd62-4f1d-b933-988bf002c1b9">
+                                            <img src="/images/certs/AZ_Copilot.png" alt="Azure Copilot Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Participation Badge Azure OpenAI Partner Training"
+                                             data-date="December 2024"
+                                             data-description="4 day workshop on working with Azure OpenAI"
+                                             data-link="">
+                                            <img src="/images/certs/AZ_OpenAI.png" alt="Azure OpenAI Badge">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-arrow carousel-next" aria-label="Next certification">&#8250;</button>
                             </div>
+                            <div class="carousel-dots"></div>
                         </div>
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/AZ_F.png" alt="Azure Fundamentals Badge">
-                            <div class="cert-hover-info">
-                                <h3>Microsoft Certified Azure Fundamentals</h3>
-                                <p class="cert-date">February 2022</p>
-                                <p class="cert-description">Covers basic cloud concepts, Azure services, security, and cost management</p>
-                                <a href="https://learn.microsoft.com/api/credentials/share/en-us/SeanDeloddere-0748/EAEBDC95B11DFEB8?sharingId=9CDA6D3E3373C702" target="_blank">View Certificate</a>
-                            </div>
-                        </div>
-                        <div class="cert-item" data-size="large">
-                            <img src="/images/certs/AZ_DE.PNG" alt="Azure Data Engineer Badge">
-                            <div class="cert-hover-info">
-                                <h3>Microsoft Certified Azure Data Engineering</h3>
-                                <p class="cert-date">December 2022</p>
-                                <p class="cert-description">Covers designing and implementing data solutions, managing pipelines, and ensuring data security on Azure</p>
-                                <a href="https://learn.microsoft.com/api/credentials/share/en-us/SeanDeloddere-0748/EAEBDC95B11DFEB8?sharingId=9CDA6D3E3373C702" target="_blank">View Certificate</a>
-                            </div>
-                        </div>
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/AZ_AIF.png" alt="Azure AI Fundamentals Badge">
-                            <div class="cert-hover-info">
-                                <h3>Microsoft Certified Azure AI Fundamentals</h3>
-                                <p class="cert-date">February 2022</p>
-                                <p class="cert-description">Covers the basics of AI, machine learning, and AI-related services on Azure</p>
-                                <a href="https://learn.microsoft.com/en-us/users/seandeloddere-0748/credentials/certification/azure-fundamentals?tab=credentials-tab" target="_blank">View Certificate</a>
-                            </div>
-                        </div>
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/AZ_OpenAI.png" alt="Azure OpenAI Badge">
-                            <div class="cert-hover-info">
-                                <h3>Participation Badge Azure OpenAI Partner Training</h3>
-                                <p class="cert-date">December 2024</p>
-                                <p class="cert-description">4 day workshop on working with Azure OpenAI</p>
-                            </div>
+                        <div class="carousel-info-panel">
+                            <h3 class="info-title"></h3>
+                            <p class="info-date"></p>
+                            <p class="info-description"></p>
+                            <a class="info-link" href="#" target="_blank">View Certificate</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Databricks Certs Group -->
-                <div class="cert-group">
-                    <div class="group-title">
+                <!-- Databricks Certs Carousel -->
+                <div class="cert-carousel-group">
+                    <div class="carousel-group-header">
                         <img src="/images/certs/Databricks.png" alt="Databricks Logo">
                     </div>
-                    <div class="cert-container">
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/DB_F.png" alt="Databricks Lakehouse Badge">
-                            <div class="cert-hover-info">
-                                <h3>Databricks Certified Lakehouse Fundamentals</h3>
-                                <p class="cert-date">April 2023</p>
-                                <p class="cert-description">Covers the basics of the Databricks Lakehouse architecture and its use for data engineering and analytics workflows</p>
-                                <a href="https://credentials.databricks.com/2603cec5-719a-4d2d-8960-1bfa7e63ecf7" target="_blank">View Certificate</a>
+                    <div class="carousel-layout">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-controls">
+                                <button class="carousel-arrow carousel-prev" aria-label="Previous certification">&#8249;</button>
+                                <div class="carousel-track-container">
+                                    <div class="carousel-track">
+                                        <div class="carousel-slide"
+                                             data-title="Databricks Certified Associate Data Engineer"
+                                             data-date="April 2023"
+                                             data-description="Covers building data pipelines, managing data lakes, and implementing data transformations on Databricks"
+                                             data-link="https://credentials.databricks.com/e82553d4-8181-4b70-a584-9e0d86a7c66e#gs.g0p1g8">
+                                            <img src="/images/certs/DB_DE.png" alt="Databricks Data Engineer Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Databricks Certified Lakehouse Fundamentals"
+                                             data-date="April 2023"
+                                             data-description="Covers the basics of the Databricks Lakehouse architecture and its use for data engineering and analytics workflows"
+                                             data-link="https://credentials.databricks.com/2603cec5-719a-4d2d-8960-1bfa7e63ecf7">
+                                            <img src="/images/certs/DB_F.png" alt="Databricks Lakehouse Badge">
+                                        </div>
+                                        <div class="carousel-slide"
+                                             data-title="Databricks Certified Data & AI Governance with Unity Catalog"
+                                             data-date="August 2024"
+                                             data-description="Covers managing data governance and ensuring compliance using Unity Catalog on Databricks"
+                                             data-link="https://credentials.databricks.com/ca604aa7-c406-4258-a474-4370791d47b2">
+                                            <img src="/images/certs/DB_GV.png" alt="Databricks Data Governance Badge">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-arrow carousel-next" aria-label="Next certification">&#8250;</button>
                             </div>
+                            <div class="carousel-dots"></div>
                         </div>
-                        <div class="cert-item" data-size="large">
-                            <img src="/images/certs/DB_DE.png" alt="Databricks Data Engineer Badge">
-                            <div class="cert-hover-info">
-                                <h3>Databricks Certified Associate Data Engineer</h3>
-                                <p class="cert-date">April 2023</p>
-                                <p class="cert-description">Covers building data pipelines, managing data lakes, and implementing data transformations on Databricks</p>
-                                <a href="https://credentials.databricks.com/e82553d4-8181-4b70-a584-9e0d86a7c66e#gs.g0p1g8" target="_blank">View Certificate</a>
-                            </div>
-                        </div>
-                        <div class="cert-item" data-size="small">
-                            <img src="/images/certs/DB_GV.png" alt="Databricks Data Governance Badge">
-                            <div class="cert-hover-info">
-                                <h3>Databricks Certified Data & AI Governance with Unity Catalog</h3>
-                                <p class="cert-date">August 2024</p>
-                                <p class="cert-description">Covers managing data governance and ensuring compliance using Unity Catalog on Databricks</p>
-                                <a href="https://credentials.databricks.com/ca604aa7-c406-4258-a474-4370791d47b2" target="_blank">View Certificate</a>
-                            </div>
+                        <div class="carousel-info-panel">
+                            <h3 class="info-title"></h3>
+                            <p class="info-date"></p>
+                            <p class="info-description"></p>
+                            <a class="info-link" href="#" target="_blank">View Certificate</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Coursera Cert -->
-                <div class="cert-group">
-                    <div class="group-title">
+                <!-- Coursera Certs Carousel -->
+                <div class="cert-carousel-group">
+                    <div class="carousel-group-header">
                         <img src="/images/certs/Coursera.png" alt="Coursera Logo">
                     </div>
-                    <div class="cert-container">
-                        <div class="cert-item" data-size="large">
-                            <img src="/images/certs/CS_CT.PNG" alt="Coursera Computational Thinking Badge">
-                            <div class="cert-hover-info">
-                                <h3>University of Michigan: Problem Solving using Computational Thinking</h3>
-                                <p class="cert-date">May 2021</p>
-                                <p class="cert-description">Covers the fundamentals of computational thinking, including problem-solving, abstraction, and algorithmic thinking</p>
-                                <a href="https://www.coursera.org/account/accomplishments/verify/TUMAKYWQ8MZC" target="_blank">View Certificate</a>
+                    <div class="carousel-layout">
+                        <div class="carousel-wrapper">
+                            <div class="carousel-controls">
+                                <button class="carousel-arrow carousel-prev" aria-label="Previous certification">&#8249;</button>
+                                <div class="carousel-track-container">
+                                    <div class="carousel-track">
+                                        <div class="carousel-slide"
+                                             data-title="University of Michigan: Problem Solving using Computational Thinking"
+                                             data-date="May 2021"
+                                             data-description="Covers the fundamentals of computational thinking, including problem-solving, abstraction, and algorithmic thinking"
+                                             data-link="https://www.coursera.org/account/accomplishments/verify/TUMAKYWQ8MZC">
+                                            <img src="/images/certs/CS_CT.PNG" alt="Coursera Computational Thinking Badge">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-arrow carousel-next" aria-label="Next certification">&#8250;</button>
                             </div>
+                            <div class="carousel-dots"></div>
+                        </div>
+                        <div class="carousel-info-panel">
+                            <h3 class="info-title"></h3>
+                            <p class="info-date"></p>
+                            <p class="info-description"></p>
+                            <a class="info-link" href="#" target="_blank">View Certificate</a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
