@@ -11,12 +11,19 @@ async function loadQuestions() {
 
 function getTodaysQuestion(questions) {
     const today = new Date();
-    const monthDay = `${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}`;
+    const dateStr = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}`;
     
-    const todaysQuestion = questions.find(q => q.date === monthDay);
+    const todaysQuestion = questions.find(q => q.date === dateStr);
     
     if (!todaysQuestion) {
-        console.error('No question found for today');
+        console.error('No question found for today:', dateStr);
+        return null;
+    }
+
+    // Validate the question has required data
+    if (!todaysQuestion.options || todaysQuestion.options.length === 0 ||
+        !todaysQuestion.answers || todaysQuestion.answers.length === 0) {
+        console.error('Question found but missing options or answers');
         return null;
     }
 

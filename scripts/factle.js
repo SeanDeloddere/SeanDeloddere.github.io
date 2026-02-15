@@ -9,13 +9,23 @@ let options = [];
 let correctAnswers = [];
 let todaysQuestion;
 
+let gameOver = false;
+
 // Initialize the game
 document.addEventListener("DOMContentLoaded", async function() {
     const questions = await loadQuestions();
-    if (!questions) return;
+    if (!questions) {
+        document.getElementById('question').textContent = 'Failed to load questions. Please try again later.';
+        return;
+    }
 
     todaysQuestion = getTodaysQuestion(questions);
-    if (!todaysQuestion) return;
+    if (!todaysQuestion) {
+        document.getElementById('question').textContent = 'No question available for today. Come back tomorrow!';
+        document.querySelector('.options-container').style.display = 'none';
+        document.querySelector('.button-container').style.display = 'none';
+        return;
+    }
 
     options = todaysQuestion.options;
     correctAnswers = todaysQuestion.answers;
@@ -45,6 +55,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 });
 
 function selectOption(element, option) {
+    if (gameOver) return;
     if (selectedOptions.length < 5 && !selectedOptions.includes(option)) {
         selectedOptions.push(option);
         element.classList.add('selected');
@@ -61,6 +72,7 @@ function updateCurrentGuess() {
 }
 
 function backspace() {
+    if (gameOver) return;
     console.log("Backspace called");
     if (selectedOptions.length > 0) {
         const lastOption = selectedOptions.pop();
@@ -74,6 +86,7 @@ function backspace() {
 }
 
 function submitGuess() {
+    if (gameOver) return;
     console.log("Submit called");
     if (selectedOptions.length !== 5) {
         alert('Please select 5 options.');
@@ -97,11 +110,9 @@ function submitGuess() {
         feedback.innerText = option;
     });
     if (selectedOptions.every((option, index) => option === correctAnswers[index])) {
-        alert('Congratulations! You guessed all correctly.');
-        showSourceButton();
+        endGame(true);
     } else if (attempts >= 5) {
-        alert('Game over! Better luck next time.');
-        showSourceButton();
+        endGame(false);
     }
     selectedOptions = [];
     document.querySelectorAll('.option').forEach(el => el.classList.remove('selected'));
@@ -117,13 +128,35 @@ function updateOptionColor(option, color) {
     });
 }
 
-function showSourceButton() {
-    const sourceButton = document.createElement('button');
-    sourceButton.classList.add('game-button');
-    sourceButton.innerText = 'View Source Data';
-    sourceButton.onclick = () => window.open(todaysQuestion.source, '_blank');
-    
-    // Add the button to the page (adjust the container ID as needed)
-    const container = document.getElementById('game-container');
-    container.appendChild(sourceButton);
+function endGame(won) {
+    gameOver = true;
+
+    // Hide game controls
+    document.querySelector('.options-container').style.display = 'none';
+    document.querySelector('.button-container').style.display = 'none';
+
+    // Show results
+    const resultsDiv = document.getElementById('game-results');
+    resultsDiv.style.display = 'block';
+
+    const resultMessage = resultsDiv.querySelector('.result-message');
+    resultMessage.textContent = won
+        ? `Congratulations! You got it in ${attempts} ${attempts === 1 ? 'guess' : 'guesses'}!`
+        : 'Game over! Better luck tomorrow.';
+    resultMessage.classList.add(won ? 'result-win' : 'result-lose');
+
+    // Show correct answers
+    const answersList = resultsDiv.querySelector('.correct-answers-list');
+    correctAnswers.forEach((answer, index) => {
+        const li = document.createElement('li');
+        li.textContent = `${index + 1}. ${answer}`;
+        answersList.appendChild(li);
+    });
+
+    // Show source link
+    if (todaysQuestion.source) {
+        const sourceLink = resultsDiv.querySelector('.source-link');
+        sourceLink.href = todaysQuestion.source;
+        sourceLink.style.display = 'inline-block';
+    }
 } 
