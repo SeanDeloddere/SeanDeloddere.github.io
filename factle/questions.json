@@ -34,6 +34,41 @@
                 "Pakistan"
             ],
             "source": "https://www.worldometers.info/world-population/population-by-country/"
+        },
+        {
+            "id": 2,
+            "date": "2026-02-15",
+            "question": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time).",
+            "options": [
+                "Real Madrid",
+                "Bayern Munich",
+                "Barcelona",
+                "AC Milan",
+                "Liverpool",
+                "Manchester United",
+                "Juventus",
+                "Benfica",
+                "Ajax",
+                "Inter Milan",
+                "Chelsea",
+                "Atletico Madrid",
+                "Borussia Dortmund",
+                "Paris Saint-Germain",
+                "Porto",
+                "Valencia",
+                "PSV Eindhoven",
+                "Arsenal",
+                "Roma",
+                "Monaco"
+            ],
+            "answers": [
+                "Real Madrid",
+                "Bayern Munich",
+                "Barcelona",
+                "AC Milan",
+                "Liverpool"
+            ],
+            "source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_semi-finalists"
         }
     ]
 }

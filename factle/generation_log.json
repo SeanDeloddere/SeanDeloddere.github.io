@@ -40,6 +40,425 @@
                 }
             ],
             "result": "backup"
+        },
+        {
+            "date": "2026-02-15",
+            "topics_discovered": [
+                {
+                    "topic": "UEFA Champions League knockouts start (February 2026)",
+                    "suggested_question": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time).",
+                    "connection": "The Champions League knockout rounds kick off in February, making a historic look at the competition’s most consistent semifinalists timely."
+                },
+                {
+                    "topic": "Milan–Cortina 2026 Winter Olympics (live updates on Feb 15)",
+                    "suggested_question": "Rank the top 5 countries by total Winter Olympic medals (all-time).",
+                    "connection": "With the Winter Olympics underway, all-time national medal leaders are front-of-mind for fans following the medal table every day."
+                },
+                {
+                    "topic": "Milan–Cortina 2026 Winter Olympics (athlete milestones)",
+                    "suggested_question": "Rank the top 5 athletes by total Winter Olympic medals (all-time).",
+                    "connection": "Individual greatness is a focal point of the Games; this highlights the most decorated Winter Olympians as new records are chased."
+                },
+                {
+                    "topic": "Winter Olympics figure skating finals week",
+                    "suggested_question": "Rank the top 5 nations by Olympic figure skating gold medals (all-time).",
+                    "connection": "Figure skating is one of the marquee Winter Olympic events; comparing historic gold-medal nations is highly topical during finals week."
+                },
+                {
+                    "topic": "Mikaela Shiffrin in the Olympic spotlight (Feb 15 news)",
+                    "suggested_question": "Rank the top 5 women by most Alpine Skiing World Cup race wins (all-time).",
+                    "connection": "Shiffrin’s results are headline news; her World Cup dominance makes an all-time wins ranking especially relevant right now."
+                },
+                {
+                    "topic": "Dallas Open (ATP 250) runs Feb 9–15, 2026",
+                    "suggested_question": "Rank the top 5 American men by ATP Tour career singles titles (Open Era).",
+                    "connection": "With a U.S. indoor hard-court tournament wrapping up in Dallas, revisiting America’s most titled male players fits the moment."
+                },
+                {
+                    "topic": "NBA All-Star Weekend (mid-February tradition)",
+                    "suggested_question": "Rank the top 5 players by total points scored in NBA All-Star Games (career).",
+                    "connection": "All-Star Weekend happens every mid-February; career All-Star scoring leaders are a natural tie-in to the festivities."
+                },
+                {
+                    "topic": "FIFA World Cup 2026 buzz building (calendar highlight)",
+                    "suggested_question": "Rank the top 5 national teams by FIFA World Cup finals appearances (all-time).",
+                    "connection": "With 2026 World Cup anticipation growing, a look at the most frequent finalists connects to global football’s biggest stage."
+                },
+                {
+                    "topic": "AACTA Festival returning in 2026 (Australian screen focus)",
+                    "suggested_question": "Rank the top 5 Australian films by worldwide box office gross (all-time).",
+                    "connection": "Australia’s screen industry is in the spotlight with AACTA events; top-grossing Aussie films are timely and celebratory."
+                },
+                {
+                    "topic": "Commonwealth Games slated for 2026",
+                    "suggested_question": "Rank the top 5 countries by total Commonwealth Games gold medals (all-time).",
+                    "connection": "As the 2026 Commonwealth Games approach, all-time gold leaders set the historical context for the nations to watch."
+                },
+                {
+                    "topic": "Lunar New Year celebrations (February 2026) — seasonal fallback",
+                    "suggested_question": "Rank the top 5 films by highest Chinese New Year Day box office gross in China (all-time).",
+                    "connection": "Lunar New Year is peak cinema season in China; ranking New Year Day box office records fits the holiday moment."
+                },
+                {
+                    "topic": "Rio Carnival season (February 2026) — seasonal fallback",
+                    "suggested_question": "Rank the top 5 samba schools by most Rio Carnival Special Group championships (all-time).",
+                    "connection": "Carnival is underway; fans follow which samba schools dominate the Special Group, making an all-time title ranking timely."
+                },
+                {
+                    "topic": "Valentine’s week (mid-February) — seasonal fallback",
+                    "suggested_question": "Rank the top 5 countries by annual export value of cut roses (most recent full year).",
+                    "connection": "Roses are a hallmark of Valentine’s gifting; global rose export leaders are a data-driven way to tap the season’s theme."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "UEFA Champions League knockouts start (February 2026)",
+                    "suggested_question": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time).",
+                    "connection": "The Champions League knockout rounds kick off in February, making a historic look at the competition’s most consistent semifinalists timely.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question concerns football clubs’ Champions League semifinal appearances, while the previous asks about most populated countries; they are different topics and metrics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time).",
+                        "answers": [
+                            "Real Madrid",
+                            "Bayern Munich",
+                            "Barcelona",
+                            "AC Milan",
+                            "Liverpool"
+                        ],
+                        "distractors": [
+                            "Manchester United",
+                            "Juventus",
+                            "Benfica",
+                            "Ajax",
+                            "Inter Milan",
+                            "Chelsea",
+                            "Atletico Madrid",
+                            "Borussia Dortmund",
+                            "Paris Saint-Germain",
+                            "Porto",
+                            "Valencia",
+                            "PSV Eindhoven",
+                            "Arsenal",
+                            "Roma",
+                            "Monaco"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_semi-finalists"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most European Cup/UEFA Champions League semi-final appearances by club UEFA",
+                        "sources_found": [
+                            {
+                                "title": "Champions League Clubs Most Semi Finals Appearances | StatMuse",
+                                "url": "https://www.statmuse.com/fc/ask/champions-league-clubs-most-semi-finals-appearances"
+                            },
+                            {
+                                "title": "Most Semi-Final appearances by clubs in UEFA Champions League ...",
+                                "url": "https://www.facebook.com/BenjoFoot10/posts/most-semi-final-appearances-by-clubs-in-uefa-champions-league-historyucl-champio/721174206930548/"
+                            },
+                            {
+                                "title": "5 clubs with the most Champions League semi-final appearances",
+                                "url": "https://m.allfootballapp.com/news/All/5-clubs-with-the-most-Champions-League-semi-final-appearances/2820161"
+                            },
+                            {
+                                "title": "Most semi-finals reached in UEFA competitions by club : r/soccer",
+                                "url": "https://www.reddit.com/r/soccer/comments/12u0moj/most_semifinals_reached_in_uefa_competitions_by/"
+                            },
+                            {
+                                "title": "Countries with most teams in Champions League semi-finals",
+                                "url": "https://www.fourfourtwo.com/features/countries-with-most-teams-in-champions-league-semi-finals"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not give a complete, authoritative top‑5 ranking of clubs by all‑time UEFA Champions League/European Cup semifinal appearances. The StatMuse page only shows the top three (Real Madrid first, Bayern second, Barcelona third) and lists implausible counts (e.g., Real Madrid 67), casting doubt on its reliability. The Facebook post cites Champions League‑era numbers only (Real Madrid 17, Bayern 13), not including European Cup semis, and is not an authoritative source. The AllFootball and Reddit links do not provide a definitive club ranking specific to CL/European Cup semis, and the FourFourTwo article discusses countries and gives isolated club counts (e.g., Benfica eight) without a full ranking. Because the sources are partial, inconsistent, or not directly relevant, the proposed top‑5 order cannot be verified or corrected from the given data.",
+                        "proposed_answers": [
+                            "Real Madrid",
+                            "Bayern Munich",
+                            "Barcelona",
+                            "AC Milan",
+                            "Liverpool"
+                        ],
+                        "corrected_answers": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time). Real Madrid Bayern Munich ranking",
+                        "sources_found": [
+                            {
+                                "title": "All-time Clubs - Most appearances Stats | UEFA Champions League",
+                                "url": "https://www.uefa.com/uefachampionsleague/history/rankings/teams/appearances/"
+                            },
+                            {
+                                "title": "SEVEN clubs with Most Semi-Final appearances in Champions ...",
+                                "url": "https://www.facebook.com/BenjoFoot10/posts/seven-clubs-with-most-semi-final-appearances-in-champions-league-historyucl-cham/706320435082592/"
+                            },
+                            {
+                                "title": "How many times have Real Madrid and Bayern Munich reached the ...",
+                                "url": "https://en.as.com/soccer/how-many-times-have-real-madrid-and-bayern-munich-reached-the-champions-league-semi-finals-n/"
+                            },
+                            {
+                                "title": "European Cup and UEFA Champions League records and statistics",
+                                "url": "https://en.wikipedia.org/wiki/European_Cup_and_UEFA_Champions_League_records_and_statistics"
+                            },
+                            {
+                                "title": "Champions League semi-final records and statistics - UEFA.com",
+                                "url": "https://www.uefa.com/uefachampionsleague/news/0251-0e98b6087305-3465998b7606-1000--champions-league-semi-final-records-and-statistics/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "VERIFIED",
+                        "reason": "UEFA’s semi-final records page lists club totals by country, confirming Real Madrid (33) and Barcelona (17) among Spain, AC Milan (13) and Juventus (12) among Italy, and Liverpool (12) and Manchester United (12) among England. AS.com explicitly ranks the top clubs by semi-final appearances with Real Madrid first (33) and Bayern Munich second (21), consistent with UEFA’s figures and placing Barcelona third and AC Milan fourth. The fifth-highest total is 12, shared by Liverpool, Manchester United, and Juventus; choosing Liverpool for 5th is acceptable within that tie. The proposed order (Real Madrid, Bayern Munich, Barcelona, AC Milan, Liverpool) matches the authoritative data in ranking and order. Sources: UEFA.com semi-final records and statistics (https://www.uefa.com/uefachampionsleague/news/0251-0e98b6087305-3465998b7606-1000--champions-league-semi-final-records-and-statistics/), AS.com (https://en.as.com/soccer/how-many-times-have-real-madrid-and-bayern-munich-reached-the-champions-league-semi-finals-n/)",
+                        "proposed_answers": [
+                            "Real Madrid",
+                            "Bayern Munich",
+                            "Barcelona",
+                            "AC Milan",
+                            "Liverpool"
+                        ],
+                        "corrected_answers": null
+                    },
+                    "question_id": 2,
+                    "final_answers": [
+                        "Real Madrid",
+                        "Bayern Munich",
+                        "Barcelona",
+                        "AC Milan",
+                        "Liverpool"
+                    ],
+                    "final_source": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_semi-finalists"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening February 15, 2026",
+                        "results": [
+                            {
+                                "title": "February 2026: The biggest sporting events happening this month",
+                                "url": "https://sportsworld.co.uk/february-2026-the-biggest-sporting-events-happening-this-month/",
+                                "snippet": "February marks the start of Champions League knockout football where Europe’s elite clubs battle for continental supremacy and one mistake can end dreams of glory. ### Dallas Open | 9th-15th February."
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "*   [(Top)](https://en.wikipedia.org/wiki/2026_in_sports#). *   [1.1 January](https://en.wikipedia.org/wiki/2026_in_sports#January). *   [1.2 February](https://en.wikipedia.org/wiki/2026_in_sports#Feb"
+                            },
+                            {
+                                "title": "Sports Event Calendar 2025-2026 - Genius Sports",
+                                "url": "https://www.geniussports.com/sports-event-calendar-2025-26/",
+                                "snippet": "From the Super Bowl to the FIFA World Cup, our free sports event calendar will help you plan your campaigns around the globe's biggest tentpole events. In 2026, there’s a Winter Olympics and FIFA Worl"
+                            },
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "[![Image 42: Men's Basketball Tournament](https://onlocationexp.com/_next/image?url=https%3A%2F%2Fassets.onlocationexp.com%2Fprod%2Fimages%2FMens%2520March%2520Madness%2520First%2520and%2520Second%252"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays February 2026",
+                        "results": [
+                            {
+                                "title": "February 2026 Global Holidays: National Days & Festivals Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/",
+                                "snippet": "# February National Days Around the World: The Essential Global Guide for 2026. From Carnival and Chinese New Year to Independence Days in Kosovo and Saint Lucia, explore how the world celebrates. ###"
+                            },
+                            {
+                                "title": "Montreal Festivals and Events February 2026 - montrealrampage",
+                                "url": "https://montrealrampage.com/montreal-festivals-and-events-february-2026/",
+                                "snippet": "# Montreal Festivals and Events February 2026. ## The Montreal Boat and Water Sports Show/ Salon du Bateau. Chinatown hosts festivals, including a special Lunar New Year Parade complete with dancing l"
+                            },
+                            {
+                                "title": "February Holidays and Observances For Your 2026 ...",
+                                "url": "https://www.today.com/life/holidays/february-holidays-and-observances-rcna64135",
+                                "snippet": "* National Girls and Women in Sports Day. * National Shower with a Friend Day. * National Woman's Heart Day. * National Black HIV/AIDS Awareness Day. * National Clean Out Your Computer Day. * National"
+                            },
+                            {
+                                "title": "Calendar with All Celebrations for 2026",
+                                "url": "https://www.calendarr.com/canada/observances-2026/",
+                                "snippet": "National Send a Card to a Friend Day. International Day of Women and Girls in Science. International Day of the Midwife. International Day for Biological Diversity. World Elder Abuse Awareness Day. In"
+                            },
+                            {
+                                "title": "February 2026 Holidays, National, International by ...",
+                                "url": "https://www.holidayinsights.com/moreholidays/february.htm",
+                                "snippet": "# February 2026 Holidays - Daily Calendar National, World Days. ## About February 2026 Holidays. Valentine’s Day is followed the next day with the lesser-known, but still heart-warming Singles Awarene"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences February 2026",
+                        "results": [
+                            {
+                                "title": "Annual Meeting and Awards Ceremony 2026 - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/annual-meeting-and-awards-ceremony-2026-tickets-1980452028329",
+                                "snippet": "... Awards Ceremony 2026 - Thursday, February 5, 2026 at Newport Opera House Association, Newport, NH. Find event and ticket information."
+                            },
+                            {
+                                "title": "OFEA Conference for Festivals & Events 2026",
+                                "url": "https://business.oregonfestivals.org/events/details/ofea-conference-for-festivals-events-2026-21958",
+                                "snippet": "Join us for expert-led breakout sessions, top-tier entertainment, a bustling Trade Show, and the prestigious Ovations! Awards, celebrating the best in the"
+                            },
+                            {
+                                "title": "AACTA Festival",
+                                "url": "https://www.aactafestival.com/",
+                                "snippet": "## 2026 AACTA Festival. Set against the stunning backdrop of the Gold Coast, the 2026 AACTA Festival will return to HOTA, Home of the Arts and unite screen lovers, filmmakers and industry leaders, for"
+                            },
+                            {
+                                "title": "Third Annual Act Awards-Celebrating Arts and Cultural Tourism",
+                                "url": "https://www.youtube.com/watch?v=smhvElc7pTE",
+                                "snippet": "Third Annual Act Awards-Celebrating Arts and Cultural Tourism | February 4, 2026. ... Parent Teacher Conference - SNL. Saturday Night Live"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "*   [Degree Programs](https://www.lafilm.edu/programs/). *   [Film](https://www.lafilm.edu/programs/film/). *   [Production](https://www.lafilm.edu/programs/film/film-production/). *   [Cinematography"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week February 15, 2026",
+                        "results": [
+                            {
+                                "title": "ILTV Evening News Flash – February 15, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=rf8vfMVxEkE",
+                                "snippet": "... news and current events to programming which highlights technology, art and entertainment, sports and culture. In today's media, biased"
+                            },
+                            {
+                                "title": "Week Ahead in Washington: February 15 - WGEM",
+                                "url": "https://www.wgem.com/2026/02/15/week-ahead-washington-february-15/",
+                                "snippet": "Lawmakers leave Washington as DHS funding lapses, governors prepare for controversial White House visit, and President Donald Trump hosts"
+                            },
+                            {
+                                "title": "U.S. Alpine skier Mikaela Shiffrin finishes another Olympic race ...",
+                                "url": "https://www.vpm.org/npr-news/2026-02-15/u-s-alpine-skier-mikaela-shiffrin-finishes-another-olympic-race-without-a-medal",
+                                "snippet": "U.S. Alpine skier Mikaela Shiffrin finishes another Olympic race without a medal. NPR | By Brian Mann,. Becky Sullivan. Published February 15,"
+                            },
+                            {
+                                "title": "2026 Winter Olympics live updates: Ellie Kam, Danny O'Shea skate ...",
+                                "url": "https://www.nbcolympics.com/news/live/2026-winter-olympics-live-updates-sun-feb-15-highlights-scores-results-medals-day-9",
+                                "snippet": "Follow live Winter Olympic updates from Sun, Feb 15 of Milan Cortina 2026, including real-time highlights, scores, results, performances,"
+                            },
+                            {
+                                "title": "AP top stories February 15 P - Yahoo",
+                                "url": "https://www.yahoo.com/news/ap-top-stories-february-15-214048888.html",
+                                "snippet": "# Russia killed opposition leader Alexei Navalny using dart frog toxin, UK says. Russian opposition leader Alexei Navalny was killed using a poison developed from a dart frog toxin, the UK and Europea"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days February 15",
+                        "results": [
+                            {
+                                "title": "FEBRUARY 15 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/national-day/february-15-birthdays-and-events",
+                                "snippet": "**Joseph Willcox Jenkins (1928-2014)** - The first composer for the U.S. Army Chorus. **Janice Dickinson (1955-Still Living)** - Considered the first supermodel, agent, and author. **Darrell Green (19"
+                            },
+                            {
+                                "title": "Famous birthdays for Feb. 15: Megan Thee Stallion, Natalie Morales",
+                                "url": "https://www.upi.com/Entertainment_News/2025/02/15/Famous-birthdays-for-Feb-15-Megan-Thee-Stallion-Natalie-Morales/6391739584705/",
+                                "snippet": "Musician Megan Thee Stallion turns 30 and actor Natalie Morales turns 40, among the famous birthdays for Feb. 15."
+                            },
+                            {
+                                "title": "February 15 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/february-15-birthdays/",
+                                "snippet": "February 15th birthdays · Jane Seymour · Megan Thee Stallion · Susan B. Anthony · About us · Resources · Contact Us · Our Services · Months."
+                            },
+                            {
+                                "title": "Today's famous birthdays list for February 15, 2021 includes ...",
+                                "url": "https://www.cleveland.com/entertainment/2021/02/todays-famous-birthdays-list-for-february-15-2021-includes-celebrities-jane-seymour-matt-groening.html",
+                                "snippet": "Today's famous birthdays list for February 15, 2021 includes celebrities Jane Seymour, Matt Groening ; Actress Jane Seymour turns 70. Fun fact:"
+                            },
+                            {
+                                "title": "Athletes Born February 15 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/february15-athlete.html",
+                                "snippet": "Famous Athletes Born February 15 including George Russell, Kyra Cooney-Cross, Alex Gonzalez, Naseem Abbas Shah, Jaromir Jagr and many more."
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "UEFA Champions League knockouts start (February 2026)",
+                        "suggested_question": "Rank the top 5 clubs by most UEFA Champions League/European Cup semifinal appearances (all-time).",
+                        "connection": "The Champions League knockout rounds kick off in February, making a historic look at the competition’s most consistent semifinalists timely."
+                    },
+                    {
+                        "topic": "Milan–Cortina 2026 Winter Olympics (live updates on Feb 15)",
+                        "suggested_question": "Rank the top 5 countries by total Winter Olympic medals (all-time).",
+                        "connection": "With the Winter Olympics underway, all-time national medal leaders are front-of-mind for fans following the medal table every day."
+                    },
+                    {
+                        "topic": "Milan–Cortina 2026 Winter Olympics (athlete milestones)",
+                        "suggested_question": "Rank the top 5 athletes by total Winter Olympic medals (all-time).",
+                        "connection": "Individual greatness is a focal point of the Games; this highlights the most decorated Winter Olympians as new records are chased."
+                    },
+                    {
+                        "topic": "Winter Olympics figure skating finals week",
+                        "suggested_question": "Rank the top 5 nations by Olympic figure skating gold medals (all-time).",
+                        "connection": "Figure skating is one of the marquee Winter Olympic events; comparing historic gold-medal nations is highly topical during finals week."
+                    },
+                    {
+                        "topic": "Mikaela Shiffrin in the Olympic spotlight (Feb 15 news)",
+                        "suggested_question": "Rank the top 5 women by most Alpine Skiing World Cup race wins (all-time).",
+                        "connection": "Shiffrin’s results are headline news; her World Cup dominance makes an all-time wins ranking especially relevant right now."
+                    },
+                    {
+                        "topic": "Dallas Open (ATP 250) runs Feb 9–15, 2026",
+                        "suggested_question": "Rank the top 5 American men by ATP Tour career singles titles (Open Era).",
+                        "connection": "With a U.S. indoor hard-court tournament wrapping up in Dallas, revisiting America’s most titled male players fits the moment."
+                    },
+                    {
+                        "topic": "NBA All-Star Weekend (mid-February tradition)",
+                        "suggested_question": "Rank the top 5 players by total points scored in NBA All-Star Games (career).",
+                        "connection": "All-Star Weekend happens every mid-February; career All-Star scoring leaders are a natural tie-in to the festivities."
+                    },
+                    {
+                        "topic": "FIFA World Cup 2026 buzz building (calendar highlight)",
+                        "suggested_question": "Rank the top 5 national teams by FIFA World Cup finals appearances (all-time).",
+                        "connection": "With 2026 World Cup anticipation growing, a look at the most frequent finalists connects to global football’s biggest stage."
+                    },
+                    {
+                        "topic": "AACTA Festival returning in 2026 (Australian screen focus)",
+                        "suggested_question": "Rank the top 5 Australian films by worldwide box office gross (all-time).",
+                        "connection": "Australia’s screen industry is in the spotlight with AACTA events; top-grossing Aussie films are timely and celebratory."
+                    },
+                    {
+                        "topic": "Commonwealth Games slated for 2026",
+                        "suggested_question": "Rank the top 5 countries by total Commonwealth Games gold medals (all-time).",
+                        "connection": "As the 2026 Commonwealth Games approach, all-time gold leaders set the historical context for the nations to watch."
+                    },
+                    {
+                        "topic": "Lunar New Year celebrations (February 2026) — seasonal fallback",
+                        "suggested_question": "Rank the top 5 films by highest Chinese New Year Day box office gross in China (all-time).",
+                        "connection": "Lunar New Year is peak cinema season in China; ranking New Year Day box office records fits the holiday moment."
+                    },
+                    {
+                        "topic": "Rio Carnival season (February 2026) — seasonal fallback",
+                        "suggested_question": "Rank the top 5 samba schools by most Rio Carnival Special Group championships (all-time).",
+                        "connection": "Carnival is underway; fans follow which samba schools dominate the Special Group, making an all-time title ranking timely."
+                    },
+                    {
+                        "topic": "Valentine’s week (mid-February) — seasonal fallback",
+                        "suggested_question": "Rank the top 5 countries by annual export value of cut roses (most recent full year).",
+                        "connection": "Roses are a hallmark of Valentine’s gifting; global rose export leaders are a data-driven way to tap the season’s theme."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "question_id": 2
         }
     ]
 }
