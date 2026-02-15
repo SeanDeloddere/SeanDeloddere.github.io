@@ -34,41 +34,6 @@
                 "Pakistan"
             ],
             "source": "https://www.worldometers.info/world-population/population-by-country/"
-        },
-        {
-            "id": 2,
-            "date": "2026-02-15",
-            "question": "Which are the 5 largest countries by land area?",
-            "options": [
-                "Russia",
-                "Canada",
-                "China",
-                "USA",
-                "Brazil",
-                "Australia",
-                "India",
-                "Argentina",
-                "Kazakhstan",
-                "Algeria",
-                "DR Congo",
-                "Saudi Arabia",
-                "Mexico",
-                "Indonesia",
-                "Sudan",
-                "Libya",
-                "Iran",
-                "Mongolia",
-                "Peru",
-                "Chad"
-            ],
-            "answers": [
-                "Russia",
-                "Canada",
-                "USA",
-                "China",
-                "Brazil"
-            ],
-            "source": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
         }
     ]
 }
