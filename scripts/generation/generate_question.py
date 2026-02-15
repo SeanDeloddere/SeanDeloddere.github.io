@@ -409,10 +409,9 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
                     "right order?\n\n"
                     "Respond with ONLY a JSON object:\n"
                     "- \"status\": one of \"VERIFIED\", \"CORRECTED\", or \"UNVERIFIABLE\"\n"
+                    "- \"best_source\": the URL of the most authoritative source used\n"
                     "- \"corrected_answers\": (only if CORRECTED) array of 5 answers in "
                     "the correct order\n"
-                    "- \"corrected_source\": (only if CORRECTED) the URL of the most "
-                    "authoritative source used for correction\n"
                     "- \"reason\": detailed explanation of your finding, including what "
                     "the sources say\n\n"
                     "Use VERIFIED if the answers match the sources in both "
@@ -435,6 +434,7 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
             "reason": result.get("reason"),
             "proposed_answers": list(answers),
             "corrected_answers": result.get("corrected_answers"),
+            "best_source": result.get("best_source"),
         }
         return result
     except (json.JSONDecodeError, IndexError):
@@ -779,6 +779,11 @@ def run(dry_run=False):
 
             if status == "VERIFIED":
                 print("  ✅ Answers verified!")
+                # Use the best source from verification, not the LLM's suggested source
+                if check_result.get("best_source"):
+                    source_url = check_result["best_source"]
+                elif sources:
+                    source_url = sources[0]["url"]
                 verified = True
                 break
 
@@ -803,9 +808,12 @@ def run(dry_run=False):
                 if re_status == "CONFIRMED":
                     print("  ✅ Corrected order confirmed!")
                     current_answers = corrected
-                    source_url = re_verify.get("best_source", source_url)
-                    if check_result.get("corrected_source"):
-                        source_url = check_result["corrected_source"]
+                    # Prefer re-verify best_source, then cross-check best_source
+                    source_url = (
+                        re_verify.get("best_source")
+                        or check_result.get("best_source")
+                        or source_url
+                    )
                     verified = True
                     break
                 else:
