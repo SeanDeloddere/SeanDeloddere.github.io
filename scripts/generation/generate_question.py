@@ -211,7 +211,6 @@ def discover_topics(llm, search, run_log):
                 ),
             },
         ],
-        temperature=0.8,
         response_format={"type": "json_object"},
     )
 
@@ -278,7 +277,6 @@ def is_too_similar(llm, topic, suggested_question, previous_summary, attempt_log
                 ),
             },
         ],
-        temperature=0.0,
         response_format={"type": "json_object"},
     )
 
@@ -331,7 +329,6 @@ def generate_question(llm, topic, suggested_question):
                 ),
             },
         ],
-        temperature=0.3,
         response_format={"type": "json_object"},
     )
 
@@ -427,7 +424,6 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
                 ),
             },
         ],
-        temperature=0.0,
         response_format={"type": "json_object"},
     )
 
@@ -499,7 +495,6 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
                 ),
             },
         ],
-        temperature=0.0,
         response_format={"type": "json_object"},
     )
 
