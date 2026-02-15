@@ -1,3 +1,45 @@
 {
-    "runs": []
+    "runs": [
+        {
+            "date": "2026-02-15",
+            "topics_discovered": [
+                "Top 5 countries by GDP",
+                "Top 5 Olympic gold medal winners in skiing",
+                "Top 5 most populous countries",
+                "Top 5 U.S. states by population",
+                "Top 5 largest economies in the world",
+                "Top 5 highest mountains in the world",
+                "Top 5 largest animals on land",
+                "Top 5 longest rivers in the world"
+            ],
+            "attempts": [
+                {
+                    "topic": "Top 5 countries by GDP",
+                    "status": "correction_rejected",
+                    "reason": "The corrected order lists Japan as the third-largest economy, but the sources indicate that Germany is the third-largest economy, followed by Japan in fifth place."
+                },
+                {
+                    "topic": "Top 5 Olympic gold medal winners in skiing",
+                    "status": "correction_rejected",
+                    "reason": "The corrected order is incorrect as Kjetil André Aamodt is the most decorated Olympic alpine skier, but the other athletes listed do not have the correct ranking based on gold medals won."
+                },
+                {
+                    "topic": "Top 5 most populous countries",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question"
+                },
+                {
+                    "topic": "Top 5 U.S. states by population",
+                    "status": "validation_failed",
+                    "reason": "Expected 20 options, got 21; Duplicate options found"
+                },
+                {
+                    "topic": "Top 5 largest economies in the world",
+                    "status": "correction_rejected",
+                    "reason": "The corrected order lists Germany in 4th place, but the sources indicate that Germany is ranked 3rd, while Japan is ranked 4th."
+                }
+            ],
+            "result": "backup"
+        }
+    ]
 }
