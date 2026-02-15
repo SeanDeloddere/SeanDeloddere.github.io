@@ -10,20 +10,51 @@
     <script type="module" src="/scripts/factle.js"></script>
 </head>
 <body>
+    <div id="nav-placeholder"></div>
     <div id="game-container">
-        <div id="nav-placeholder"></div>
-        <h1>Factle</h1>
-        <div class="factle-description">Daily trivia. Get 5 chances to guess the 5 correct answers in order.</div>
+        <div class="factle-header">
+            <h1 class="factle-title">Factle</h1>
+            <div class="factle-description">Rank the top 5 in order. You have 5 guesses.</div>
+            <button class="factle-help-btn" id="help-btn" title="How to play">?</button>
+        </div>
+
+        <!-- How to play modal -->
+        <div class="factle-modal" id="help-modal">
+            <div class="factle-modal-content">
+                <button class="factle-modal-close" id="help-close">&times;</button>
+                <h2>How to Play</h2>
+                <p>Guess the <strong>top 5 answers</strong> in the correct order.</p>
+                <div class="factle-help-colors">
+                    <div class="factle-help-row">
+                        <span class="factle-help-tile tile-correct">India</span>
+                        <span>Correct answer in the correct position</span>
+                    </div>
+                    <div class="factle-help-row">
+                        <span class="factle-help-tile tile-present">Brazil</span>
+                        <span>Correct answer but wrong position</span>
+                    </div>
+                    <div class="factle-help-row">
+                        <span class="factle-help-tile tile-absent">Japan</span>
+                        <span>Not in the top 5</span>
+                    </div>
+                </div>
+                <p class="factle-help-note">Select 5 options from below, then press <strong>Guess</strong>. A new question appears every day!</p>
+            </div>
+        </div>
+
         <div id="question">Loading question...</div>
+
         <div class="grid-container">
-            <div class="grid">
-                <div></div>
+            <!-- Column headers -->
+            <div class="grid grid-header-row">
+                <div class="grid-label"></div>
                 <div class="grid-header">1st</div>
                 <div class="grid-header">2nd</div>
                 <div class="grid-header">3rd</div>
                 <div class="grid-header">4th</div>
                 <div class="grid-header">5th</div>
             </div>
+            <!-- Attempt rows -->
             <div class="grid" id="attempt1">
                 <div class="attempt-label">1</div>
                 <div class="feedback"></div>
@@ -65,18 +96,27 @@
                 <div class="feedback"></div>
             </div>
         </div>
+
+        <!-- Toast notification -->
+        <div class="factle-toast" id="toast"></div>
+
         <div class="options-container" id="options">
             <!-- Options will be generated here -->
         </div>
         <div class="button-container">
-            <button class="game-button" id="backspace">Backspace</button>
-            <button class="game-button" id="submit">Guess</button>
+            <button class="game-button btn-backspace" id="backspace">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 4H8l-7 8 7 8h13a2 2 0 002-2V6a2 2 0 00-2-2z"/><line x1="18" y1="9" x2="12" y2="15"/><line x1="12" y1="9" x2="18" y2="15"/></svg>
+                Backspace
+            </button>
+            <button class="game-button btn-guess" id="submit">Guess</button>
         </div>
+
         <div id="game-results" style="display: none;">
             <div class="result-message"></div>
             <h3>Correct Answers:</h3>
             <ol class="correct-answers-list"></ol>
-            <a class="source-link game-button" href="#" target="_blank" style="display: none;">View Source</a>
+            <a class="source-link" href="#" target="_blank" style="display: none;">View Source</a>
+            <button class="share-btn" id="share-btn">Share Result</button>
         </div>
     </div>
     <div id="footer-placeholder"></div>
