@@ -32,7 +32,6 @@ from tavily import TavilyClient
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 QUESTIONS_FILE = REPO_ROOT / "factle" / "questions.json"
-BACKUP_FILE = REPO_ROOT / "factle" / "backup_questions.json"
 LOG_FILE = REPO_ROOT / "factle" / "generation_log.json"
 
 MAX_TOPIC_ATTEMPTS = 5
@@ -588,34 +587,39 @@ def save_log(log):
 
 
 # ---------------------------------------------------------------------------
-# Backup fallback
+# Fallback topic ideas (used when current-events discovery fails)
+# These are EXAMPLE questions — the LLM generates fresh answers
+# and they go through the full verification pipeline.
 # ---------------------------------------------------------------------------
 
+FALLBACK_TOPIC_IDEAS = [
+    {"topic": "Geography", "suggested_question": "Which are the 5 largest countries by land area?", "connection": "Evergreen geography question"},
+    {"topic": "Mountains", "suggested_question": "Which are the 5 tallest mountains in the world?", "connection": "Classic geography trivia"},
+    {"topic": "Rivers", "suggested_question": "Which are the 5 longest rivers in the world?", "connection": "Classic geography trivia"},
+    {"topic": "Oceans", "suggested_question": "Which are the 5 largest oceans and seas by area?", "connection": "Classic geography trivia"},
+    {"topic": "Languages", "suggested_question": "Which are the 5 most spoken languages by total speakers?", "connection": "Interesting cultural question"},
+    {"topic": "Solar System", "suggested_question": "Which planets in our solar system are the 5 largest by diameter?", "connection": "Science trivia"},
+    {"topic": "FIFA World Cup", "suggested_question": "Which countries have won the most FIFA World Cup titles?", "connection": "Sports trivia"},
+    {"topic": "Films", "suggested_question": "Which are the 5 highest-grossing films of all time?", "connection": "Entertainment trivia"},
+    {"topic": "Coffee", "suggested_question": "Which countries produce the most coffee in the world?", "connection": "Fun food & culture question"},
+    {"topic": "Olympics", "suggested_question": "Which countries have the most Olympic gold medals all time (Summer)?", "connection": "Sports trivia"},
+    {"topic": "Music", "suggested_question": "Which artists have sold the most music records worldwide?", "connection": "Entertainment trivia"},
+    {"topic": "Chocolate", "suggested_question": "Which countries consume the most chocolate per capita?", "connection": "Fun food question"},
+    {"topic": "UNESCO", "suggested_question": "Which countries have the most UNESCO World Heritage Sites?", "connection": "Culture & travel trivia"},
+    {"topic": "Market Cap", "suggested_question": "Which companies have the highest market capitalization?", "connection": "Business trivia"},
+    {"topic": "Airports", "suggested_question": "Which are the 5 busiest airports in the world by passenger traffic?", "connection": "Travel trivia"},
+]
 
-def use_backup_question(date_str, next_id, questions):
-    """Pick a backup question that hasn't been used yet."""
-    if not BACKUP_FILE.exists():
-        return None
 
-    with open(BACKUP_FILE, "r", encoding="utf-8") as f:
-        backup_data = json.load(f)
-
-    used_questions = {q["question"] for q in questions}
-    backups = backup_data.get("questions", [])
-
-    for backup in backups:
-        if backup["question"] not in used_questions:
-            entry = {
-                "id": next_id,
-                "date": date_str,
-                "question": backup["question"],
-                "options": backup["options"],
-                "answers": backup["answers"],
-                "source": backup["source"],
-            }
-            return entry
-
-    return None
+def get_fallback_topics(questions):
+    """Return fallback topic ideas that haven't been used as questions yet."""
+    used_questions_lower = {q["question"].lower() for q in questions}
+    fallbacks = []
+    for idea in FALLBACK_TOPIC_IDEAS:
+        # Skip if a very similar question was already used
+        if idea["suggested_question"].lower() not in used_questions_lower:
+            fallbacks.append(idea)
+    return fallbacks[:MAX_TOPIC_ATTEMPTS]
 
 
 # ---------------------------------------------------------------------------
@@ -661,20 +665,17 @@ def run(dry_run=False):
     topics = discover_topics(llm, search, run_log)
 
     if not topics:
-        print("ERROR: No topics discovered. Using backup.")
-        entry = use_backup_question(date_str, next_id, questions)
-        if entry:
-            run_log["result"] = "backup_no_topics"
+        print("WARNING: No topics discovered from current events.")
+        print("Using fallback topic ideas (still verified through pipeline).")
+        topics = get_fallback_topics(questions)
+        run_log["fallback_used"] = True
+        if not topics:
+            run_log["result"] = "failed_no_topics"
+            print("CRITICAL: No topics available at all!")
+            log["runs"].append(run_log)
             if not dry_run:
-                save_question(entry, questions)
-            print(f"Backup question saved: {entry['question']}")
-        else:
-            run_log["result"] = "failed_no_backup"
-            print("CRITICAL: No backup questions available either!")
-        log["runs"].append(run_log)
-        if not dry_run:
-            save_log(log)
-        return
+                save_log(log)
+            sys.exit(1)
 
     run_log["topics_discovered"] = [
         {
@@ -865,21 +866,134 @@ def run(dry_run=False):
         break
 
     # ------------------------------------------------------------------
-    # Fallback to backup
+    # Fallback: try fallback topic ideas through the same pipeline
     # ------------------------------------------------------------------
+    if not success and not run_log.get("fallback_used"):
+        print("\n--- All current-events topics failed. Trying fallback topics. ---")
+        fallback_topics = get_fallback_topics(questions)
+        run_log["fallback_used"] = True
+
+        for attempt_idx, topic_info in enumerate(fallback_topics):
+            topic = topic_info.get("topic", "")
+            suggested_q = topic_info.get("suggested_question", "")
+            attempt_log = {
+                "topic": topic,
+                "suggested_question": suggested_q,
+                "connection": "fallback",
+                "status": "pending",
+                "reason": "",
+                "verify_iterations": 0,
+                "is_fallback": True,
+            }
+
+            print(f"\n{'='*50}")
+            print(f"Fallback attempt {attempt_idx + 1}/{len(fallback_topics)}: {topic}")
+            print(f"Question: {suggested_q}")
+            print(f"{'='*50}")
+
+            # Similarity check
+            if is_too_similar(llm, topic, suggested_q, previous_summary, attempt_log):
+                print("  ❌ Too similar to a previous question. Skipping.")
+                attempt_log["status"] = "skipped_similar"
+                run_log["attempts"].append(attempt_log)
+                continue
+
+            # Generate question
+            question_data = generate_question(llm, topic, suggested_q)
+            if not question_data or "answers" not in question_data or len(question_data.get("answers", [])) != 5:
+                print("  ❌ Failed to generate valid question. Skipping.")
+                attempt_log["status"] = "generation_failed"
+                run_log["attempts"].append(attempt_log)
+                continue
+
+            question_text = question_data["question"]
+            attempt_log["generated_question"] = {
+                "question": question_text,
+                "answers": question_data["answers"],
+                "distractors": question_data.get("distractors", []),
+            }
+
+            # Verification loop (same as main loop)
+            current_answers = list(question_data["answers"])
+            source_url = question_data.get("source", "")
+            verified = False
+
+            for verify_iter in range(MAX_VERIFY_RETRIES):
+                attempt_log["verify_iterations"] = verify_iter + 1
+                sources = search_for_verification(search, question_data, attempt_log, iteration=verify_iter)
+                if not sources:
+                    continue
+
+                check_result = cross_check(
+                    llm, question_text, current_answers, sources,
+                    attempt_log, iteration=verify_iter
+                )
+                status = check_result.get("status", "UNVERIFIABLE")
+
+                if status == "VERIFIED":
+                    if check_result.get("best_source"):
+                        source_url = check_result["best_source"]
+                    elif sources:
+                        source_url = sources[0]["url"]
+                    verified = True
+                    break
+                elif status == "CORRECTED":
+                    corrected = check_result.get("corrected_answers", [])
+                    if len(corrected) != 5:
+                        continue
+                    re_verify = re_verify_correction(
+                        llm, search, question_text, corrected,
+                        attempt_log, iteration=verify_iter
+                    )
+                    if re_verify.get("status") == "CONFIRMED":
+                        current_answers = corrected
+                        source_url = (
+                            re_verify.get("best_source")
+                            or check_result.get("best_source")
+                            or source_url
+                        )
+                        verified = True
+                        break
+                    else:
+                        current_answers = corrected
+                        continue
+                else:
+                    question_data["search_query"] = (
+                        f"{question_text} {current_answers[0]} {current_answers[1]} ranking"
+                    )
+                    continue
+
+            if not verified:
+                attempt_log["status"] = "verification_exhausted"
+                run_log["attempts"].append(attempt_log)
+                continue
+
+            final_entry = assemble_question_entry(
+                date_str, question_data, current_answers, source_url, next_id
+            )
+            validation_errors = validate_question_entry(final_entry)
+            if validation_errors:
+                attempt_log["status"] = "validation_failed"
+                attempt_log["reason"] = "; ".join(validation_errors)
+                run_log["attempts"].append(attempt_log)
+                continue
+
+            print("  ✅ Fallback question verified and validated!")
+            attempt_log["status"] = "success"
+            attempt_log["question_id"] = next_id
+            attempt_log["final_answers"] = current_answers
+            attempt_log["final_source"] = source_url
+            run_log["attempts"].append(attempt_log)
+            success = True
+            break
+
     if not success:
-        print("\n--- All attempts failed. Using backup question. ---")
-        final_entry = use_backup_question(date_str, next_id, questions)
-        if final_entry:
-            run_log["result"] = "backup"
-            print(f"Backup question: {final_entry['question']}")
-        else:
-            run_log["result"] = "failed"
-            print("CRITICAL: No backup questions available!")
-            log["runs"].append(run_log)
-            if not dry_run:
-                save_log(log)
-            sys.exit(1)
+        run_log["result"] = "failed"
+        print("\nCRITICAL: All attempts (current events + fallbacks) failed verification!")
+        log["runs"].append(run_log)
+        if not dry_run:
+            save_log(log)
+        sys.exit(1)
     else:
         run_log["result"] = "success"
         run_log["question_id"] = next_id
