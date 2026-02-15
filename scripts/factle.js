@@ -158,9 +158,12 @@ function submitGuess() {
         }, index * 200);
     });
 
+    // Capture current guess before clearing
+    const currentGuess = [...selectedOptions];
+
     // After all tiles revealed, check win/lose
     setTimeout(() => {
-        if (selectedOptions.every((option, index) => option === correctAnswers[index])) {
+        if (currentGuess.every((option, index) => option === correctAnswers[index])) {
             endGame(true);
         } else if (attempts >= 5) {
             endGame(false);
