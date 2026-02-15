@@ -69,6 +69,41 @@
                 "Liverpool"
             ],
             "source": "https://www.uefa.com/uefachampionsleague/news/0251-0e98b6087305-3465998b7606-1000--champions-league-semi-final-records-and-statistics/"
+        },
+        {
+            "id": 3,
+            "date": "2026-02-16",
+            "question": "Rank the top 5 countries by total Winter Olympic gold medals (through Beijing 2022).",
+            "options": [
+                "Norway",
+                "United States",
+                "Germany",
+                "Soviet Union",
+                "Canada",
+                "Austria",
+                "Sweden",
+                "Switzerland",
+                "Netherlands",
+                "Finland",
+                "Italy",
+                "Russia",
+                "France",
+                "China",
+                "South Korea",
+                "Japan",
+                "Great Britain",
+                "Poland",
+                "Czech Republic",
+                "East Germany"
+            ],
+            "answers": [
+                "Norway",
+                "United States",
+                "Germany",
+                "Soviet Union",
+                "Canada"
+            ],
+            "source": "http://www.allcompetitions.com/ogwin_table.php"
         }
     ]
 }
