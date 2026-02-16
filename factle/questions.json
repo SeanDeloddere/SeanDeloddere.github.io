@@ -104,6 +104,41 @@
                 "Canada"
             ],
             "source": "http://www.allcompetitions.com/ogwin_table.php"
+        },
+        {
+            "id": 4,
+            "date": "2026-02-17",
+            "question": "Rank the top 5 clubs by most UEFA Champions League titles (European Cup/Champions League), all-time.",
+            "options": [
+                "Real Madrid",
+                "AC Milan",
+                "Liverpool",
+                "Bayern Munich",
+                "Barcelona",
+                "Ajax",
+                "Manchester United",
+                "Inter Milan",
+                "Juventus",
+                "Chelsea",
+                "Porto",
+                "Benfica",
+                "Nottingham Forest",
+                "Manchester City",
+                "Borussia Dortmund",
+                "PSV Eindhoven",
+                "Celtic",
+                "Feyenoord",
+                "Marseille",
+                "Red Star Belgrade"
+            ],
+            "answers": [
+                "Real Madrid",
+                "AC Milan",
+                "Liverpool",
+                "Bayern Munich",
+                "Barcelona"
+            ],
+            "source": "https://www.facebook.com/groups/227145604694718/posts/2112015469541046/"
         }
     ]
 }
