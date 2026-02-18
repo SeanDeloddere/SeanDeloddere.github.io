@@ -139,41 +139,6 @@
                 "Barcelona"
             ],
             "source": "https://www.facebook.com/groups/227145604694718/posts/2112015469541046/"
-        },
-        {
-            "id": 5,
-            "date": "2026-02-18",
-            "question": "Which are the 5 largest countries by land area?",
-            "options": [
-                "Russia",
-                "Canada",
-                "United States",
-                "China",
-                "Brazil",
-                "Australia",
-                "India",
-                "Argentina",
-                "Kazakhstan",
-                "Algeria",
-                "Democratic Republic of the Congo",
-                "Saudi Arabia",
-                "Mexico",
-                "Indonesia",
-                "Sudan",
-                "Libya",
-                "Iran",
-                "Mongolia",
-                "Peru",
-                "Chad"
-            ],
-            "answers": [
-                "Russia",
-                "Canada",
-                "United States",
-                "China",
-                "Brazil"
-            ],
-            "source": "https://www.nationalbeefwire.com/ranking-of-countries-by-area-sq-miles-acres-russia-is-the-largest-country-in-the-world-10-995-of-the-world-s-land-mass-followed-by-canada-the-united-states-china-brazil"
         }
     ]
 }
