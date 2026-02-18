@@ -23,7 +23,7 @@ import argparse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
 from tavily import TavilyClient
 
 # ---------------------------------------------------------------------------
@@ -40,7 +40,32 @@ CET = timezone(timedelta(hours=1))
 
 # GitHub Models endpoint
 GITHUB_MODELS_ENDPOINT = "https://models.inference.ai.azure.com"
-LLM_MODEL = "gpt-5"
+LLM_MODEL_CREATIVE = "gpt-5"       # Topic discovery + question generation (12 req/day limit)
+LLM_MODEL_VERIFY = "gpt-4o"        # Similarity checks, cross-checks, re-verification (high limit)
+LLM_MODEL_FALLBACK = "gpt-4o"      # Automatic fallback if creative model is rate-limited
+
+# ---------------------------------------------------------------------------
+# LLM call wrapper with automatic rate-limit downgrade
+# ---------------------------------------------------------------------------
+
+def llm_create(llm, model, **kwargs):
+    """Call llm.chat.completions.create with automatic fallback on rate limit.
+
+    If the requested model returns a 429 RateLimitError, the call is
+    automatically retried with LLM_MODEL_FALLBACK so the pipeline never
+    fails just because the premium model's daily quota is exhausted.
+    """
+    try:
+        return llm.chat.completions.create(model=model, **kwargs)
+    except RateLimitError as exc:
+        if model == LLM_MODEL_FALLBACK:
+            raise  # already on fallback — nothing more to try
+        print(
+            f"  ⚠ Rate-limited on {model}, downgrading to "
+            f"{LLM_MODEL_FALLBACK}: {exc}"
+        )
+        return llm.chat.completions.create(model=LLM_MODEL_FALLBACK, **kwargs)
+
 
 # Topics to filter out — sensitive, violent, or inappropriate
 BLOCKED_TOPICS = [
@@ -155,8 +180,9 @@ def discover_topics(llm, search, run_log):
     )
 
     # Ask LLM to extract and rank creative, topical questions
-    response = llm.chat.completions.create(
-        model=LLM_MODEL,
+    response = llm_create(
+        llm,
+        model=LLM_MODEL_CREATIVE,
         messages=[
             {
                 "role": "system",
@@ -252,8 +278,9 @@ def is_too_similar(llm, topic, suggested_question, previous_summary, attempt_log
         attempt_log["similarity_check"] = {"skipped": True, "reason": "No previous questions"}
         return False
 
-    response = llm.chat.completions.create(
-        model=LLM_MODEL,
+    response = llm_create(
+        llm,
+        model=LLM_MODEL_VERIFY,
         messages=[
             {
                 "role": "system",
@@ -295,8 +322,9 @@ def is_too_similar(llm, topic, suggested_question, previous_summary, attempt_log
 
 def generate_question(llm, topic, suggested_question):
     """Generate a full Factle question with answers and distractors."""
-    response = llm.chat.completions.create(
-        model=LLM_MODEL,
+    response = llm_create(
+        llm,
+        model=LLM_MODEL_CREATIVE,
         messages=[
             {
                 "role": "system",
@@ -307,6 +335,10 @@ def generate_question(llm, topic, suggested_question):
                     "- Exactly 5 correct answers in the RIGHT ORDER (1st to 5th)\n"
                     "- Exactly 15 plausible but incorrect distractor options\n"
                     "- A suggested source URL where the answer can be verified\n\n"
+                    "IMPORTANT TIEBREAKER RULE: If two or more items share the same "
+                    "value/score/count, they MUST be ordered alphabetically by name. "
+                    "For example, if countries X and Y both have 10 gold medals, the "
+                    "one that comes first alphabetically is ranked higher.\n\n"
                     "The distractors should be from the same category and realistic "
                     "enough that someone might confuse them with the correct answers. "
                     "All 20 options (5 correct + 15 distractors) must be unique."
@@ -376,8 +408,9 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
         f"Source: {s['title']} ({s['url']})\n{s['content']}" for s in sources
     )
 
-    response = llm.chat.completions.create(
-        model=LLM_MODEL,
+    response = llm_create(
+        llm,
+        model=LLM_MODEL_VERIFY,
         messages=[
             {
                 "role": "system",
@@ -389,6 +422,9 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
                     "different order, you MUST correct it. If you can verify some "
                     "answers but not the exact order, try to provide the correct "
                     "order from the source data.\n\n"
+                    "IMPORTANT TIEBREAKER RULE: If two or more items share the exact "
+                    "same value/score/count, they MUST be ordered alphabetically by "
+                    "name. Apply this rule when correcting or verifying order.\n\n"
                     "If the source data contains enough information to determine the "
                     "correct answers and order, use it — don't give up too easily."
                 ),
@@ -462,8 +498,9 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
         for r in results.get("results", [])
     )
 
-    response = llm.chat.completions.create(
-        model=LLM_MODEL,
+    response = llm_create(
+        llm,
+        model=LLM_MODEL_VERIFY,
         messages=[
             {
                 "role": "system",
@@ -471,7 +508,10 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
                     "You are a fact-checker performing a SECOND verification of a "
                     "corrected trivia answer. A previous check corrected the order "
                     "of answers. You must confirm or reject this corrected order "
-                    "using the new source data provided. Be very strict about ordering."
+                    "using the new source data provided. Be very strict about ordering.\n\n"
+                    "IMPORTANT TIEBREAKER RULE: If two or more items share the exact "
+                    "same value/score/count, they MUST be ordered alphabetically by "
+                    "name. Apply this rule when verifying the order."
                 ),
             },
             {
