@@ -1297,6 +1297,1462 @@
                 "filtered_count": 0
             },
             "question_id": 4
+        },
+        {
+            "date": "2026-02-18",
+            "topics_discovered": [
+                {
+                    "topic": "UEFA Champions League knockouts begin in February",
+                    "suggested_question": "Top 5 players with most UEFA Champions League knockout-stage goals (all-time)",
+                    "connection": "Europe’s elite clubs enter the do-or-die phase now, so ranking the greatest knockout scorers is a timely way to spotlight players who historically decide these matches."
+                },
+                {
+                    "topic": "Rugby Six Nations 2026 (Feb 5–Mar 14)",
+                    "suggested_question": "Top 5 rugby stadiums by seating capacity among 2026 Six Nations venues",
+                    "connection": "With the Six Nations underway, fans are flocking to iconic grounds. Ranking the biggest current tournament venues ties directly to the ongoing championship."
+                },
+                {
+                    "topic": "Milano Cortina 2026 Winter Olympics cross-country spotlight (U.S. wins silver Feb 18)",
+                    "suggested_question": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined)",
+                    "connection": "Cross-country is in the headlines today. This list contextualizes which nations dominate the sport historically during the very Olympics hosting these races."
+                },
+                {
+                    "topic": "Ski Jumping normal hill event in Val di Fiemme (Feb 12–15)",
+                    "suggested_question": "Top 5 male ski jumpers with most FIS Ski Jumping World Cup wins (all-time)",
+                    "connection": "As ski jumping events wrap in Italy, it’s fitting to highlight the most successful World Cup winners ever in the discipline being contested right now."
+                },
+                {
+                    "topic": "Skeleton events in Cortina d’Ampezzo",
+                    "suggested_question": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined)",
+                    "connection": "Skeleton has been in action this week at Cortina. This ranks national success in the exact sport competing at the Winter Games venue."
+                },
+                {
+                    "topic": "Dallas Open (ATP 250) concluded Feb 15",
+                    "suggested_question": "Top 5 ATP players with most career aces recorded (ATP official stats, all surfaces)",
+                    "connection": "With a hard-court event just finished in Dallas, serve dominance is front-of-mind. Ranking ace leaders connects to what often decides matches on these courts."
+                },
+                {
+                    "topic": "2026 Awards Season (Oscars approaching)",
+                    "suggested_question": "Top 5 films with most Academy Awards won (all-time)",
+                    "connection": "Awards season is in full swing. This celebrates the most decorated films ever just as the industry gears up for the year’s biggest ceremony."
+                },
+                {
+                    "topic": "International Feature Oscar relevance (Italy in global spotlight via Winter Olympics)",
+                    "suggested_question": "Top 5 countries with most Oscars for Best International Feature Film (formerly Best Foreign Language Film)",
+                    "connection": "With Italy hosting the Games and awards season active, this ranks national success in the Oscars’ international category—merging cultural and current headlines."
+                },
+                {
+                    "topic": "FIFA World Cup 2026 on the horizon",
+                    "suggested_question": "Top 5 national teams with most FIFA World Cup titles (men’s)",
+                    "connection": "World Cup anticipation is building in 2026. This list spotlights the most successful nations ever ahead of the tournament cycle."
+                },
+                {
+                    "topic": "Monaco Grand Prix on the 2026 sporting calendar",
+                    "suggested_question": "Top 5 Formula 1 drivers with most Monaco Grand Prix victories",
+                    "connection": "As fans plan for marquee events, Monaco’s street classic looms large. Ranking its most successful drivers is a perfect tie-in to the year’s motorsport calendar."
+                },
+                {
+                    "topic": "Seasonal fallback – Valentine’s season movie watching",
+                    "suggested_question": "Top 5 highest-grossing romantic comedies worldwide (unadjusted box office)",
+                    "connection": "February viewing often leans romantic. This ranks the biggest rom-com box office hits—ideal for the Valentine’s window."
+                },
+                {
+                    "topic": "Seasonal fallback – Valentine’s chocolate",
+                    "suggested_question": "Top 5 countries by per-capita chocolate consumption (kg per person per year)",
+                    "connection": "Chocolate spikes in February. This objective ranking fits the season’s sweet-tooth trend."
+                },
+                {
+                    "topic": "Seasonal fallback – Awards month music buzz (Grammys within awards season)",
+                    "suggested_question": "Top 5 artists with most Grammy Awards won (all-time)",
+                    "connection": "With awards season in full swing, music fans track Grammy records. This ranks all-time winners as the trophy talk peaks."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "UEFA Champions League knockouts begin in February",
+                    "suggested_question": "Top 5 players with most UEFA Champions League knockout-stage goals (all-time)",
+                    "connection": "Europe’s elite clubs enter the do-or-die phase now, so ranking the greatest knockout scorers is a timely way to spotlight players who historically decide these matches.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on individual players in UEFA Champions League knockout stages, whereas the previous questions about UEFA Champions League are about clubs and overall titles or appearances, addressing distinctly different specifics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 players with the most UEFA Champions League knockout-stage goals (all-time).",
+                        "answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Karim Benzema",
+                            "Robert Lewandowski",
+                            "Thomas Müller"
+                        ],
+                        "distractors": [
+                            "Kylian Mbappé",
+                            "Mohamed Salah",
+                            "Neymar",
+                            "Raúl",
+                            "Erling Haaland",
+                            "Thierry Henry",
+                            "Didier Drogba",
+                            "Sergio Agüero",
+                            "Wayne Rooney",
+                            "Antoine Griezmann",
+                            "Luis Suárez",
+                            "Gonzalo Higuaín",
+                            "Andriy Shevchenko",
+                            "Gareth Bale",
+                            "Arjen Robben"
+                        ],
+                        "suggested_source": "https://theanalyst.com/eu/2024/09/champions-league-all-time-records-stats/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most UEFA Champions League knockout stage goals all time Ronaldo Messi Benzema Lewandowski Muller Opta",
+                        "sources_found": [
+                            {
+                                "title": "UCL Knockout stage record : (56) Ronaldo, (38) Messi, (21) Muller ...",
+                                "url": "https://www.reddit.com/r/soccer/comments/7z01oa/ucl_knockout_stage_record_56_ronaldo_38_messi_21/"
+                            },
+                            {
+                                "title": "Most goals scored in the Champions League knockout stage: 67 goals",
+                                "url": "https://x.com/CristianoXtra_/status/1511812857784004610"
+                            },
+                            {
+                                "title": "Most Goals In Champions League Knockout Stage Ever | StatMuse",
+                                "url": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                            },
+                            {
+                                "title": "Most goals scored in the knockout stages of the modern Champions ...",
+                                "url": "https://www.facebook.com/groups/845012560293876/posts/1349465509848576/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The most authoritative source (StatMuse) states that Cristiano Ronaldo has scored 67 goals, Messi has 49, Benzema has 32, and Lewandowski has 29 in the Champions League knockout stage. Although Thomas Müller is not explicitly mentioned in these sources, other sources suggest his tally is lower than Lewandowski at 21 goals. The proposed order incorrectly places Robert Lewandowski above Karim Benzema, whereas Benzema has a higher total. The corrected ranking reflects the counts provided by the sources.",
+                        "proposed_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Karim Benzema",
+                            "Robert Lewandowski",
+                            "Thomas Müller"
+                        ],
+                        "corrected_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Karim Benzema",
+                            "Robert Lewandowski",
+                            "Thomas Müller"
+                        ],
+                        "best_source": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 players with the most UEFA Champions League knockout-stage goals (all-time). Cristiano Ronaldo vs Lionel Messi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Messi vs Ronaldo - Champions League - Knockout Goals and - Stats",
+                                "url": "https://www.messivsronaldo.app/club-stats/champions-league/"
+                            },
+                            {
+                                "title": "Ranking the seven players with most knockout stage goals in UCL ...",
+                                "url": "https://thefootballfaithful.com/players-most-knockout-stage-goals-ucl-history/"
+                            },
+                            {
+                                "title": "List of UEFA Champions League top scorers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_UEFA_Champions_League_top_scorers"
+                            },
+                            {
+                                "title": "10 Players With the Most Champions League Knockout Round Goals",
+                                "url": "https://www.givemesport.com/10-players-with-the-most-champions-league-knockout-round-goals/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not follow the tie-breaking alphabetical rule for players with identical knockout-stage goal totals. Multiple sources show Cristiano Ronaldo has the most goals, followed by Messi, but Benzema, Lewandowski, and Müller are tied with 34 goals. They must be ordered alphabetically.",
+                        "best_source": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "most UEFA Champions League knockout stage goals all time Ronaldo Messi Benzema Lewandowski Muller Opta",
+                        "sources_found": [
+                            {
+                                "title": "UCL Knockout stage record : (56) Ronaldo, (38) Messi, (21) Muller ...",
+                                "url": "https://www.reddit.com/r/soccer/comments/7z01oa/ucl_knockout_stage_record_56_ronaldo_38_messi_21/"
+                            },
+                            {
+                                "title": "Most goals scored in the Champions League knockout stage: 67 goals",
+                                "url": "https://x.com/CristianoXtra_/status/1511812857784004610"
+                            },
+                            {
+                                "title": "Most Goals In Champions League Knockout Stage Ever | StatMuse",
+                                "url": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                            },
+                            {
+                                "title": "Most goals scored in the knockout stages of the modern Champions ...",
+                                "url": "https://www.facebook.com/groups/845012560293876/posts/1349465509848576/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source data explicitly states the number of UEFA Champions League knockout-stage goals scored by Ronaldo (67), Messi (49), Lewandowski (29), and Benzema (26). Müller is confirmed to have 21 knockout-stage goals, placing him fifth. The proposed answers are correct in containing the top five players, but the order is incorrect because Lewandowski (29) should be ahead of Benzema (26) in third position. Thus, the corrected order is Ronaldo, Messi, Lewandowski, Benzema, Müller.",
+                        "proposed_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Karim Benzema",
+                            "Robert Lewandowski",
+                            "Thomas Müller"
+                        ],
+                        "corrected_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Robert Lewandowski",
+                            "Karim Benzema",
+                            "Thomas Müller"
+                        ],
+                        "best_source": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 players with the most UEFA Champions League knockout-stage goals (all-time). Cristiano Ronaldo vs Lionel Messi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Messi vs Ronaldo - Champions League - Knockout Goals and - Stats",
+                                "url": "https://www.messivsronaldo.app/club-stats/champions-league/"
+                            },
+                            {
+                                "title": "Ranking the seven players with most knockout stage goals in UCL ...",
+                                "url": "https://thefootballfaithful.com/players-most-knockout-stage-goals-ucl-history/"
+                            },
+                            {
+                                "title": "List of UEFA Champions League top scorers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_UEFA_Champions_League_top_scorers"
+                            },
+                            {
+                                "title": "10 Players With the Most Champions League Knockout Round Goals",
+                                "url": "https://www.givemesport.com/10-players-with-the-most-champions-league-knockout-round-goals/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect because the source data shows Cristiano Ronaldo, Lionel Messi, and Robert Lewandowski tied with 34 goals each, but the tiebreaker rule of ordering alphabetically was not followed.",
+                        "best_source": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "most UEFA Champions League knockout stage goals all time Ronaldo Messi Benzema Lewandowski Muller Opta",
+                        "sources_found": [
+                            {
+                                "title": "UCL Knockout stage record : (56) Ronaldo, (38) Messi, (21) Muller ...",
+                                "url": "https://www.reddit.com/r/soccer/comments/7z01oa/ucl_knockout_stage_record_56_ronaldo_38_messi_21/"
+                            },
+                            {
+                                "title": "Most goals scored in the Champions League knockout stage: 67 goals",
+                                "url": "https://x.com/CristianoXtra_/status/1511812857784004610"
+                            },
+                            {
+                                "title": "Most Goals In Champions League Knockout Stage Ever | StatMuse",
+                                "url": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                            },
+                            {
+                                "title": "Most goals scored in the knockout stages of the modern Champions ...",
+                                "url": "https://www.facebook.com/groups/845012560293876/posts/1349465509848576/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source data confirms the ranking but assigns specific knockout stage goal totals. Cristiano Ronaldo is correctly ranked first with 67 goals, followed by Lionel Messi with 49 goals. Robert Lewandowski has 29 goals, making him third, Karim Benzema has 26 goals, placing him fourth, and Thomas Müller has 21 goals, ranking fifth. The proposed answers are correct in terms of content, but the total goal values validate that this is indeed the correct ranking, confirming the correctness of the answers.",
+                        "proposed_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Robert Lewandowski",
+                            "Karim Benzema",
+                            "Thomas Müller"
+                        ],
+                        "corrected_answers": [
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Robert Lewandowski",
+                            "Karim Benzema",
+                            "Thomas Müller"
+                        ],
+                        "best_source": "https://www.statmuse.com/fc/ask/most-goals-in-champions-league-knockout-stage-ever"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 players with the most UEFA Champions League knockout-stage goals (all-time). Cristiano Ronaldo vs Lionel Messi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Messi vs Ronaldo - Champions League - Knockout Goals and - Stats",
+                                "url": "https://www.messivsronaldo.app/club-stats/champions-league/"
+                            },
+                            {
+                                "title": "Ranking the seven players with most knockout stage goals in UCL ...",
+                                "url": "https://thefootballfaithful.com/players-most-knockout-stage-goals-ucl-history/"
+                            },
+                            {
+                                "title": "List of UEFA Champions League top scorers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_UEFA_Champions_League_top_scorers"
+                            },
+                            {
+                                "title": "10 Players With the Most Champions League Knockout Round Goals",
+                                "url": "https://www.givemesport.com/10-players-with-the-most-champions-league-knockout-round-goals/"
+                            },
+                            {
+                                "title": "Most goals scored in Champions League knock-out stage games: 34",
+                                "url": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The source data indicates that Cristiano Ronaldo is first with 67 knockout-stage goals, followed by Lionel Messi with 49. Robert Lewandowski, Karim Benzema, and Thomas Müller all have 34 goals each, and by alphabetical tiebreaker, Benzema should be ranked third, Lewandowski fourth, and Müller fifth.",
+                        "best_source": "https://www.facebook.com/SoccerWorldHQ/posts/most-goals-scored-in-champions-league-knock-out-stage-games-34-cristiano-ronaldo/1205378398264770/"
+                    }
+                },
+                {
+                    "topic": "Rugby Six Nations 2026 (Feb 5–Mar 14)",
+                    "suggested_question": "Top 5 rugby stadiums by seating capacity among 2026 Six Nations venues",
+                    "connection": "With the Six Nations underway, fans are flocking to iconic grounds. Ranking the biggest current tournament venues ties directly to the ongoing championship.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about rugby stadiums focuses on venues and seating capacity, which is different from previous questions about population, sports achievements, and Olympic medals."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five rugby stadiums by seating capacity among the venues hosting the 2026 Six Nations (Feb 5–Mar 14).",
+                        "answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Principality Stadium",
+                            "Stadio Olimpico",
+                            "Murrayfield Stadium"
+                        ],
+                        "distractors": [
+                            "Aviva Stadium",
+                            "Croke Park",
+                            "Wembley Stadium",
+                            "Tottenham Hotspur Stadium",
+                            "Stade Vélodrome",
+                            "Groupama Stadium",
+                            "Decathlon Arena – Stade Pierre-Mauroy",
+                            "Paris La Défense Arena",
+                            "Stadio Artemio Franchi",
+                            "Stadio Olimpico Grande Torino",
+                            "Hampden Park",
+                            "Kingspan Stadium",
+                            "Thomond Park",
+                            "Stadio Flaminio",
+                            "Twickenham Stoop"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_rugby_union_stadiums_by_capacity"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Six Nations venues capacities Twickenham Stade de France Principality Murrayfield Stadio Olimpico Aviva",
+                        "sources_found": [
+                            {
+                                "title": "Six Nations 2026 Fixtures Guide",
+                                "url": "https://www.six-nations-guide.co.uk/2026/"
+                            },
+                            {
+                                "title": "The Ultimate Six Nations Away Day Guide for 2026 - SeatPick",
+                                "url": "https://seatpick.com/blog/the-ultimate-six-nations-away-day-guide-for-2026"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.co.uk/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            },
+                            {
+                                "title": "The Six Nations returns in February 2026, and with matches across ...",
+                                "url": "https://www.instagram.com/p/DUWNPvzAXXo/"
+                            },
+                            {
+                                "title": "Stadiums Of The Six Nations - DTB Sports and Events",
+                                "url": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data confirms seating capacities for several venues directly or by reputation. Twickenham Stadium is clearly the largest with a capacity of 82,000. Stade de France follows with a capacity of 81,338. The Principality Stadium comes next with a capacity of approximately 74,500. Stadio Olimpico is slightly smaller at around 70,634. Finally, Murrayfield Stadium has an official capacity of 67,144, confirmed by one of the sources. Aviva Stadium (51,700) and Decathlon Arena Lille (50,186) do not rank in the top five, so the proposed answer set (venues and order) is correct except for minor verification tweaks to confirm exact capacity rankings.",
+                        "proposed_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Principality Stadium",
+                            "Stadio Olimpico",
+                            "Murrayfield Stadium"
+                        ],
+                        "corrected_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Principality Stadium",
+                            "Stadio Olimpico",
+                            "Murrayfield Stadium"
+                        ],
+                        "best_source": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top five rugby stadiums by seating capacity among the venues hosting the 2026 Six Nations (Feb 5–Mar 14). Twickenham Stadium vs Stade de France ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Ranking The Best Six Nations Stadiums In Rugby - 888Sport",
+                                "url": "https://www.888sport.com/blog/rugby/six-nations-stadiums-guide"
+                            },
+                            {
+                                "title": "New study ranks the best and worst Six Nations stadiums to visit",
+                                "url": "https://www.ruck.co.uk/new-study-ranks-the-besting-worst-six-nations-stadiums-to-visit/2/"
+                            },
+                            {
+                                "title": "New study ranks the best Six Nations stadiums to visit - RugbyLAD",
+                                "url": "https://rugbylad.ie/best-six-nations-stadiums/"
+                            },
+                            {
+                                "title": "Six Nations: Which is the tournament's greatest stadium? - BBC Sport",
+                                "url": "https://www.bbc.com/sport/rugby-union/60464941"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the seating capacities of the stadiums based on the source data. Specifically, Stade de France should precede Twickenham Stadium in seating capacity.",
+                        "best_source": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Six Nations venues capacities Twickenham Stade de France Principality Murrayfield Stadio Olimpico Aviva",
+                        "sources_found": [
+                            {
+                                "title": "Six Nations 2026 Fixtures Guide",
+                                "url": "https://www.six-nations-guide.co.uk/2026/"
+                            },
+                            {
+                                "title": "The Ultimate Six Nations Away Day Guide for 2026 - SeatPick",
+                                "url": "https://seatpick.com/blog/the-ultimate-six-nations-away-day-guide-for-2026"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.co.uk/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            },
+                            {
+                                "title": "The Six Nations returns in February 2026, and with matches across ...",
+                                "url": "https://www.instagram.com/p/DUWNPvzAXXo/"
+                            },
+                            {
+                                "title": "Stadiums Of The Six Nations - DTB Sports and Events",
+                                "url": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from DTB Sports and Events confirms that Twickenham Stadium has a capacity of 82,000, making it the largest. Stade de France follows with a capacity of 81,338. For Stadio Olimpico, the generally-accepted capacity is 70,634 (based on other Rugby World Rankings references not provided here), which places it third. Principality Stadium (capacity 73,931 according to outside reliable references) is fourth, slightly smaller than Stadio Olimpico, and Murrayfield Stadium (capacity 67,144 as explicitly cited in the Six Nations attendance data) ranks fifth. The original proposed order incorrectly placed Principality above Stadio Olimpico.",
+                        "proposed_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Principality Stadium",
+                            "Stadio Olimpico",
+                            "Murrayfield Stadium"
+                        ],
+                        "corrected_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Stadio Olimpico",
+                            "Principality Stadium",
+                            "Murrayfield Stadium"
+                        ],
+                        "best_source": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top five rugby stadiums by seating capacity among the venues hosting the 2026 Six Nations (Feb 5–Mar 14). Twickenham Stadium vs Stade de France ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Ranking The Best Six Nations Stadiums In Rugby - 888Sport",
+                                "url": "https://www.888sport.com/blog/rugby/six-nations-stadiums-guide"
+                            },
+                            {
+                                "title": "New study ranks the best and worst Six Nations stadiums to visit",
+                                "url": "https://www.ruck.co.uk/new-study-ranks-the-besting-worst-six-nations-stadiums-to-visit/2/"
+                            },
+                            {
+                                "title": "New study ranks the best Six Nations stadiums to visit - RugbyLAD",
+                                "url": "https://rugbylad.ie/best-six-nations-stadiums/"
+                            },
+                            {
+                                "title": "Six Nations: Which is the tournament's greatest stadium? - BBC Sport",
+                                "url": "https://www.bbc.com/sport/rugby-union/60464941"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order inaccurately ranks the seating capacities according to the sources. For example, Stade de France has a larger capacity than Twickenham Stadium.",
+                        "best_source": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Six Nations venues capacities Twickenham Stade de France Principality Murrayfield Stadio Olimpico Aviva",
+                        "sources_found": [
+                            {
+                                "title": "Six Nations 2026 Fixtures Guide",
+                                "url": "https://www.six-nations-guide.co.uk/2026/"
+                            },
+                            {
+                                "title": "The Ultimate Six Nations Away Day Guide for 2026 - SeatPick",
+                                "url": "https://seatpick.com/blog/the-ultimate-six-nations-away-day-guide-for-2026"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.co.uk/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            },
+                            {
+                                "title": "The Six Nations returns in February 2026, and with matches across ...",
+                                "url": "https://www.instagram.com/p/DUWNPvzAXXo/"
+                            },
+                            {
+                                "title": "Stadiums Of The Six Nations - DTB Sports and Events",
+                                "url": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source data, Twickenham Stadium is confirmed to have a capacity of 82,000, making it the largest. Stade de France has a capacity of 81,338. Stadio Olimpico, while exact capacity is not provided in the sources, is well-documented to have approximately 70,634 seats for rugby matches. Murrayfield Stadium's capacity is explicitly stated as 67,144 in the provided source, while the Principality Stadium, according to widely known information, has a capacity of around 74,500. The proposed order incorrectly places the Principality Stadium before Murrayfield, while the corrected order reflects their true capacities.",
+                        "proposed_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Stadio Olimpico",
+                            "Principality Stadium",
+                            "Murrayfield Stadium"
+                        ],
+                        "corrected_answers": [
+                            "Twickenham Stadium",
+                            "Stade de France",
+                            "Stadio Olimpico",
+                            "Murrayfield Stadium",
+                            "Principality Stadium"
+                        ],
+                        "best_source": "https://www.dtbsportsandevents.com/blog/stadiums-of-the-six-nations"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top five rugby stadiums by seating capacity among the venues hosting the 2026 Six Nations (Feb 5–Mar 14). Twickenham Stadium vs Stade de France ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Ranking The Best Six Nations Stadiums In Rugby - 888Sport",
+                                "url": "https://www.888sport.com/blog/rugby/six-nations-stadiums-guide"
+                            },
+                            {
+                                "title": "New study ranks the best and worst Six Nations stadiums to visit",
+                                "url": "https://www.ruck.co.uk/new-study-ranks-the-besting-worst-six-nations-stadiums-to-visit/2/"
+                            },
+                            {
+                                "title": "New study ranks the best Six Nations stadiums to visit - RugbyLAD",
+                                "url": "https://rugbylad.ie/best-six-nations-stadiums/"
+                            },
+                            {
+                                "title": "Six Nations: Which is the tournament's greatest stadium? - BBC Sport",
+                                "url": "https://www.bbc.com/sport/rugby-union/60464941"
+                            },
+                            {
+                                "title": "Six Nations rugby stadiums: Locations and history - ESPN",
+                                "url": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not match the verified seating capacities from the sources. For example, Stade de France has a higher capacity than Twickenham, and Principality Stadium has a lower capacity than Murrayfield.",
+                        "best_source": "https://www.espn.com/rugby/story/_/id/43263056/six-nations-rugby-stadiums-locations-history"
+                    }
+                },
+                {
+                    "topic": "Milano Cortina 2026 Winter Olympics cross-country spotlight (U.S. wins silver Feb 18)",
+                    "suggested_question": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined)",
+                    "connection": "Cross-country is in the headlines today. This list contextualizes which nations dominate the sport historically during the very Olympics hosting these races.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on cross-country skiing Olympic medal counts, which is a distinct topic from any previously used question and not similar to population rankings, UEFA Champions League achievements, or overall Winter Olympic medal counts."
+                    },
+                    "generated_question": {
+                        "question": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined)",
+                        "answers": [
+                            "Norway",
+                            "Sweden",
+                            "Finland",
+                            "Soviet Union",
+                            "Russia"
+                        ],
+                        "distractors": [
+                            "Germany",
+                            "Italy",
+                            "Switzerland",
+                            "Poland",
+                            "Austria",
+                            "United States",
+                            "Canada",
+                            "Czechoslovakia",
+                            "Czech Republic",
+                            "Belarus",
+                            "Kazakhstan",
+                            "Estonia",
+                            "France",
+                            "Slovenia",
+                            "Japan"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_Winter_Olympics#All-time_medal_table"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Cross-country skiing Winter Olympics all-time medal table by nation Wikipedia",
+                        "sources_found": [
+                            {
+                                "title": "Cross-country skiing at the Winter Olympics",
+                                "url": "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_Winter_Olympics"
+                            },
+                            {
+                                "title": "All-time Olympic Games medal table",
+                                "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
+                            },
+                            {
+                                "title": "List of Olympic medalists in cross-country skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                            },
+                            {
+                                "title": "The countries that dominate the Winter Olympics - and how they do it",
+                                "url": "https://bfarrell27.substack.com/p/the-countries-that-dominate-the-winter"
+                            },
+                            {
+                                "title": "Which Country Has Won The Most Winter Olympic Medals? The 14",
+                                "url": "https://www.facebook.com/brilliantmaps/photos/can-you-guess-which-country-has-won-the-most-winter-olympic-medals-hint-its-not-/1271135208462420/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers erroneously list Russia as 5th, but sources indicate Germany has earned more total cross-country medals all-time than Russia. Norway is the clear leader, followed by Sweden, Finland, and the Soviet Union in order, based on medal counts provided in the Wikipedia lists for cross-country medalists. The tie-breaking rule was not used since the counts allowed clear ordering.",
+                        "proposed_answers": [
+                            "Norway",
+                            "Sweden",
+                            "Finland",
+                            "Soviet Union",
+                            "Russia"
+                        ],
+                        "corrected_answers": [
+                            "Norway",
+                            "Sweden",
+                            "Finland",
+                            "Soviet Union",
+                            "Germany"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined) Norway vs Sweden ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of Olympic medalists in cross-country skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                            },
+                            {
+                                "title": "Olympic Medals by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
+                            },
+                            {
+                                "title": "Cross Country at Nordic Ski World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/index.php/en/nordic-ski-world-championships-sports-cross-country-medal-table"
+                            },
+                            {
+                                "title": "What's the 2026 medal count after Feb. 13 events? - AOL.com",
+                                "url": "https://www.aol.com/articles/olympic-medals-today-whats-2026-231842040.html?utm_source=spotim&utm_medium=spotim_recirculation&spot_im_comment_id=sp_IjnMf2Jd_23501346_c_4CW0lC&spot_im_highlight_immediate=true"
+                            },
+                            {
+                                "title": "Norway tops all-time winter Olympic gold medal rankings",
+                                "url": "https://worldvisualized.com/article/norway-tops-all-time-winter-olympic-gold-medal-rankings"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not contain comprehensive medal counts specific to Olympic cross-country skiing for all-time. Without precise medal counts for Norway, Sweden, Finland, Soviet Union, and Germany, the corrected order cannot be fully confirmed.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Cross-country skiing Winter Olympics all-time medal table by nation Wikipedia",
+                        "sources_found": [
+                            {
+                                "title": "Cross-country skiing at the Winter Olympics",
+                                "url": "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_Winter_Olympics"
+                            },
+                            {
+                                "title": "All-time Olympic Games medal table",
+                                "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
+                            },
+                            {
+                                "title": "List of Olympic medalists in cross-country skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                            },
+                            {
+                                "title": "The countries that dominate the Winter Olympics - and how they do it",
+                                "url": "https://bfarrell27.substack.com/p/the-countries-that-dominate-the-winter"
+                            },
+                            {
+                                "title": "Which Country Has Won The Most Winter Olympic Medals? The 14",
+                                "url": "https://www.facebook.com/brilliantmaps/photos/can-you-guess-which-country-has-won-the-most-winter-olympic-medals-hint-its-not-/1271135208462420/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source 'List of Olympic medalists in cross-country skiing,' Norway leads in total cross-country skiing medals, followed by Sweden, the Soviet Union, Finland, and Germany. The initial proposed order had Finland and the Soviet Union swapped. The corrected order reflects verified medal counts from authoritative source data. Alphabetical tiebreaker was not needed as medal counts clearly differentiated rankings.",
+                        "proposed_answers": [
+                            "Norway",
+                            "Sweden",
+                            "Finland",
+                            "Soviet Union",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "Norway",
+                            "Sweden",
+                            "Soviet Union",
+                            "Finland",
+                            "Germany"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined) Norway vs Sweden ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of Olympic medalists in cross-country skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                            },
+                            {
+                                "title": "Olympic Medals by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
+                            },
+                            {
+                                "title": "Cross Country at Nordic Ski World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/index.php/en/nordic-ski-world-championships-sports-cross-country-medal-table"
+                            },
+                            {
+                                "title": "What's the 2026 medal count after Feb. 13 events? - AOL.com",
+                                "url": "https://www.aol.com/articles/olympic-medals-today-whats-2026-231842040.html?utm_source=spotim&utm_medium=spotim_recirculation&spot_im_comment_id=sp_IjnMf2Jd_23501346_c_4CW0lC&spot_im_highlight_immediate=true"
+                            },
+                            {
+                                "title": "Norway tops all-time winter Olympic gold medal rankings",
+                                "url": "https://worldvisualized.com/article/norway-tops-all-time-winter-olympic-gold-medal-rankings"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not confirm the exact ordering of the corrected answers for total Olympic cross-country skiing medals. Medal counts across men and women combined are inconsistent or incomplete, and authoritative data is lacking.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Cross-country skiing Winter Olympics all-time medal table by nation Wikipedia",
+                        "sources_found": [
+                            {
+                                "title": "Cross-country skiing at the Winter Olympics",
+                                "url": "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_Winter_Olympics"
+                            },
+                            {
+                                "title": "All-time Olympic Games medal table",
+                                "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
+                            },
+                            {
+                                "title": "List of Olympic medalists in cross-country skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_cross-country_skiing"
+                            },
+                            {
+                                "title": "The countries that dominate the Winter Olympics - and how they do it",
+                                "url": "https://bfarrell27.substack.com/p/the-countries-that-dominate-the-winter"
+                            },
+                            {
+                                "title": "Which Country Has Won The Most Winter Olympic Medals? The 14",
+                                "url": "https://www.facebook.com/brilliantmaps/photos/can-you-guess-which-country-has-won-the-most-winter-olympic-medals-hint-its-not-/1271135208462420/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source data does not include a definitive, all-time ranking of countries based on total Olympic cross-country skiing medals, for both men and women combined. Specific medal counts and rankings are not clearly listed, making it impossible to confirm or correct the proposed answers.",
+                        "proposed_answers": [
+                            "Norway",
+                            "Sweden",
+                            "Soviet Union",
+                            "Finland",
+                            "Germany"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/Cross-country_skiing_at_the_Winter_Olympics"
+                    }
+                },
+                {
+                    "topic": "Ski Jumping normal hill event in Val di Fiemme (Feb 12–15)",
+                    "suggested_question": "Top 5 male ski jumpers with most FIS Ski Jumping World Cup wins (all-time)",
+                    "connection": "As ski jumping events wrap in Italy, it’s fitting to highlight the most successful World Cup winners ever in the discipline being contested right now.",
+                    "status": "validation_failed",
+                    "reason": "Duplicate options found",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ski jumpers and FIS World Cup wins, which is unrelated to the topics of population, football clubs, or Olympic gold medals in the previously used questions."
+                    },
+                    "generated_question": {
+                        "question": "Top 5 male ski jumpers with most FIS Ski Jumping World Cup wins (all-time)",
+                        "answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Janne Ahonen"
+                        ],
+                        "distractors": [
+                            "Stefan Kraft",
+                            "Ryoyu Kobayashi",
+                            "Jens Weißflog",
+                            "Martin Schmitt",
+                            "Peter Prevc",
+                            "Andreas Felder",
+                            "Thomas Morgenstern",
+                            "Noriaki Kasai",
+                            "Simon Ammann",
+                            "Sven Hannawald",
+                            "Halvor Egner Granerud",
+                            "Anders Jacobsen",
+                            "Domen Prevc",
+                            "Daiki Ito",
+                            "Robert Johansson"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup#Records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most FIS Ski Jumping World Cup wins men all-time Gregor Schlierenzauer 53 Matti Nykänen 46",
+                        "sources_found": [
+                            {
+                                "title": "Gregor Schlierenzauer",
+                                "url": "https://en.wikipedia.org/wiki/Gregor_Schlierenzauer"
+                            },
+                            {
+                                "title": "Gregor Schlierenzauer Facts for Kids",
+                                "url": "https://kids.kiddle.co/Gregor_Schlierenzauer"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "Ski Jumping🎿 - Most individual World Cup ...",
+                                "url": "https://x.com/GracenoteGold/status/1761797619129413906"
+                            },
+                            {
+                                "title": "On This Day in Sport & Leisure History – Ski Jumping",
+                                "url": "https://www.playingpasts.co.uk/this-week-in-sport-leisure-history/on-this-day-in-sport-leisure-history-ski-jumping/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers are mostly accurate but not entirely in the correct order. The authoritative source shows that Gregor Schlierenzauer is first with 53 wins and Matti Nykänen is second with 46 wins, which matches the proposed answers. However, Stefan Kraft is tied with Matti Nykänen in third place with 46 wins as well and should be ranked ahead due to alphabetical tiebreaker rules. Adam Małysz and Kamil Stoch are both tied with 39 wins, and their order is correct in the original list as Adam Małysz comes before Kamil Stoch alphabetically. Janne Ahonen has 36 wins, which puts him below the top 5 and thus does not appear on the corrected list.",
+                        "proposed_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Janne Ahonen"
+                        ],
+                        "corrected_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Stefan Kraft",
+                            "Adam Małysz",
+                            "Kamil Stoch"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Top 5 male ski jumpers with most FIS Ski Jumping World Cup wins (all-time) Gregor Schlierenzauer vs Matti Nykänen ranking list",
+                        "sources_found": [
+                            {
+                                "title": "FIS Ski Jumping World Cup",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "The Top Ranked Ski Jumpers of All-Time #'s 1- ...",
+                                "url": "https://www.ainsworthsports.com/ski_jumping_athlete_rankings_all_time_1_to_1000.htm"
+                            },
+                            {
+                                "title": "The Greatest ski jumpers : r/Skijumping",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/ay3yx5/the_greatest_ski_jumpers/"
+                            },
+                            {
+                                "title": "Ski Jumping World Cup 2025-2026 | Schedule & Results",
+                                "url": "https://etusuora.com/en/ski-jumping/world-cup"
+                            },
+                            {
+                                "title": "Stats: Ski Jump: World Cup Winners",
+                                "url": "https://www.jetpunk.com/user-quizzes/144264/ski-jump-world-cup-winners/stats"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the win counts provided in the most authoritative source (Wikipedia data). Additionally, the tiebreaker rule for alphabetical ordering between Stefan Kraft and Matti Nykänen was correctly applied.",
+                        "best_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                    }
+                },
+                {
+                    "topic": "Skeleton events in Cortina d’Ampezzo",
+                    "suggested_question": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined)",
+                    "connection": "Skeleton has been in action this week at Cortina. This ranks national success in the exact sport competing at the Winter Games venue.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on Olympic skeleton medals, a distinct topic from any of the previously used questions, which cover general population, soccer, and Winter Olympic gold medals, but not skeleton specifically."
+                    },
+                    "generated_question": {
+                        "question": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined)",
+                        "answers": [
+                            "Great Britain",
+                            "United States",
+                            "Germany",
+                            "Canada",
+                            "Switzerland"
+                        ],
+                        "distractors": [
+                            "Russia",
+                            "Latvia",
+                            "South Korea",
+                            "Italy",
+                            "Austria",
+                            "China",
+                            "Australia",
+                            "Netherlands",
+                            "France",
+                            "Japan",
+                            "Norway",
+                            "Sweden",
+                            "Poland",
+                            "Czech Republic",
+                            "Spain"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Skeleton_at_the_Winter_Olympics#Medal_table"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Skeleton at the Winter Olympics medal table by nation total medals site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "Skeleton at the 2002 Winter Olympics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Skeleton_at_the_2002_Winter_Olympics"
+                            },
+                            {
+                                "title": "Skeleton at the 1948 Winter Olympics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Skeleton_at_the_1948_Winter_Olympics"
+                            },
+                            {
+                                "title": "Skeleton at the 2022 Winter Olympics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Skeleton_at_the_2022_Winter_Olympics"
+                            },
+                            {
+                                "title": "Skeleton at the Winter Olympics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Skeleton_at_the_Winter_Olympics"
+                            },
+                            {
+                                "title": "Skeleton at the 2010 Winter Olympics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Skeleton_at_the_2010_Winter_Olympics"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources contain information about specific Olympic skeleton events and medal tallies for certain games. However, none of them compile comprehensive data for total Olympic skeleton medals by country, nor confirm the order of the proposed answers. To verify or correct this ranking, a complete medal tally database of all-time Olympic skeleton results is needed, which isn't present in the sources.",
+                        "proposed_answers": [
+                            "Great Britain",
+                            "United States",
+                            "Germany",
+                            "Canada",
+                            "Switzerland"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/Skeleton_at_the_Winter_Olympics"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined) Great Britain United States ranking",
+                        "sources_found": [
+                            {
+                                "title": "List of Olympic medalists in skeleton - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_skeleton"
+                            },
+                            {
+                                "title": "All-Time Olympic Medal Count Rankings by Country Summer Games",
+                                "url": "https://www.topendsports.com/events/summer/medal-tally/all-time-all.htm"
+                            },
+                            {
+                                "title": "See the Olympic medal count for the 2026 Winter Games - AOL.com",
+                                "url": "https://www.aol.com/articles/olympic-medals-today-whats-2026-231842040.html?utm_content=sp_IjnMf2Jd_089d0e30-56c5-38b3-8896-cc2880b82448_c_2x5FV9eLgoEVNSLtsMwwzJyiiFu&spot_im_redirect_source=share&spot_im_comment_id=sp_IjnMf2Jd_089d0e30-56c5-38b3-8896-cc2880b82448_c_2x5FV9eLgoEVNSLtsMwwzJyiiFu&spot_im_highlight_immediate=true&utm_medium=Share&ow_module=conversation"
+                            },
+                            {
+                                "title": "Most Olympic Medals by Countries in Skeleton - YouTube",
+                                "url": "https://www.youtube.com/watch?v=SIztGRWs96Q"
+                            },
+                            {
+                                "title": "all-time skeleton medal tally by country - Winter Olympics - Statista",
+                                "url": "https://www.statista.com/statistics/802174/medal-table-country-winter-olympics-skeleton/?srsltid=AfmBOoqHuUbwg02e3XpZT2ZkQ3Egbc6xYoSaWN9RZZ95JXiTCPPA2bZX"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "Despite reviewing the provided sources, there was insufficient detailed and organized information about the all-time skeleton medal counts by country. The Wikipedia page mentions Great Britain's success but does not present a clear ranking or totals for other countries to verify or correct the order. The other sources either misalign with the topic or are irrelevant to skeleton medals specifically.",
+                        "proposed_answers": [
+                            "Great Britain",
+                            "United States",
+                            "Germany",
+                            "Canada",
+                            "Switzerland"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_skeleton"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined) Great Britain United States ranking",
+                        "sources_found": [
+                            {
+                                "title": "List of Olympic medalists in skeleton - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_skeleton"
+                            },
+                            {
+                                "title": "All-Time Olympic Medal Count Rankings by Country Summer Games",
+                                "url": "https://www.topendsports.com/events/summer/medal-tally/all-time-all.htm"
+                            },
+                            {
+                                "title": "See the Olympic medal count for the 2026 Winter Games - AOL.com",
+                                "url": "https://www.aol.com/articles/olympic-medals-today-whats-2026-231842040.html?utm_content=sp_IjnMf2Jd_089d0e30-56c5-38b3-8896-cc2880b82448_c_2x5FV9eLgoEVNSLtsMwwzJyiiFu&spot_im_redirect_source=share&spot_im_comment_id=sp_IjnMf2Jd_089d0e30-56c5-38b3-8896-cc2880b82448_c_2x5FV9eLgoEVNSLtsMwwzJyiiFu&spot_im_highlight_immediate=true&utm_medium=Share&ow_module=conversation"
+                            },
+                            {
+                                "title": "Most Olympic Medals by Countries in Skeleton - YouTube",
+                                "url": "https://www.youtube.com/watch?v=SIztGRWs96Q"
+                            },
+                            {
+                                "title": "all-time skeleton medal tally by country - Winter Olympics - Statista",
+                                "url": "https://www.statista.com/statistics/802174/medal-table-country-winter-olympics-skeleton/?srsltid=AfmBOoqHuUbwg02e3XpZT2ZkQ3Egbc6xYoSaWN9RZZ95JXiTCPPA2bZX"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources contain fragmented, incomplete, or unrelated details about Olympic skeleton medal counts, making it impossible to verify or correct the order of the proposed answers. A specific tally of medals by country combined across men and women is not clearly provided.",
+                        "proposed_answers": [
+                            "Great Britain",
+                            "United States",
+                            "Germany",
+                            "Canada",
+                            "Switzerland"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_skeleton"
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question is about the largest countries by land area, which is distinct from previous questions that focus on population, sports, or Olympic achievements."
+                    },
+                    "generated_question": {
+                        "question": "Which are the 5 largest countries by land area?",
+                        "answers": [
+                            "Russia",
+                            "China",
+                            "United States",
+                            "Canada",
+                            "Brazil"
+                        ],
+                        "distractors": [
+                            "Australia",
+                            "India",
+                            "Argentina",
+                            "Kazakhstan",
+                            "Algeria",
+                            "Democratic Republic of the Congo",
+                            "Saudi Arabia",
+                            "Mexico",
+                            "Indonesia",
+                            "Sudan",
+                            "Libya",
+                            "Iran",
+                            "Mongolia",
+                            "Peru",
+                            "Chad"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "largest countries by land area ranking Russia China United States Canada Brazil",
+                        "sources_found": [
+                            {
+                                "title": "Ranked: The 15 Largest Countries in the World by Land Area",
+                                "url": "https://www.visualcapitalist.com/ranked-the-15-largest-countries-in-the-world-by-land-area/"
+                            },
+                            {
+                                "title": "Ranking Of Countries By Area (Sq. Miles & Acres) - National Beef Wire",
+                                "url": "https://www.nationalbeefwire.com/ranking-of-countries-by-area-sq-miles-acres-russia-is-the-largest-country-in-the-world-10-995-of-the-world-s-land-mass-followed-by-canada-the-united-states-china-brazil"
+                            },
+                            {
+                                "title": "Top 10 Largest Countries in the World by Population, GDP & Area",
+                                "url": "https://spmiasacademy.com/currentaffairs/top-10-largest-countries-in-the-world/"
+                            },
+                            {
+                                "title": "Largest Countries in the World by Area - Worldometer",
+                                "url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+                            },
+                            {
+                                "title": "List of the world's largest countries and dependencies by area",
+                                "url": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data from Britannica clearly ranks the largest countries by area, with Russia being the largest, followed by Canada, the United States, China, and Brazil. This order contradicts the proposed answers where China is ranked above the United States and Canada. Other sources also align with this corrected order.",
+                        "proposed_answers": [
+                            "Russia",
+                            "China",
+                            "United States",
+                            "Canada",
+                            "Brazil"
+                        ],
+                        "corrected_answers": [
+                            "Russia",
+                            "Canada",
+                            "United States",
+                            "China",
+                            "Brazil"
+                        ],
+                        "best_source": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Which are the 5 largest countries by land area? Russia vs Canada ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Largest Countries In The World - World Atlas",
+                                "url": "https://www.worldatlas.com/geography/the-largest-countries-in-the-world.html"
+                            },
+                            {
+                                "title": "List of the world's largest countries and dependencies by area",
+                                "url": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
+                            },
+                            {
+                                "title": "Largest Countries in the World by Area - Worldometer",
+                                "url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+                            },
+                            {
+                                "title": "Largest countries by land area revealed! Russia leads the way with ...",
+                                "url": "https://www.instagram.com/p/DUcX5WMDSfZ/"
+                            },
+                            {
+                                "title": "Ranked: The 15 Largest Countries in the World by Land Area",
+                                "url": "https://www.visualcapitalist.com/ranked-the-15-largest-countries-in-the-world-by-land-area/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places the United States ahead of China, but the source data consistently ranks China as larger than the United States by land area. Incorrect ranking of 3rd and 4th positions.",
+                        "best_source": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "largest countries by land area ranking Russia China United States Canada Brazil",
+                        "sources_found": [
+                            {
+                                "title": "Ranked: The 15 Largest Countries in the World by Land Area",
+                                "url": "https://www.visualcapitalist.com/ranked-the-15-largest-countries-in-the-world-by-land-area/"
+                            },
+                            {
+                                "title": "Ranking Of Countries By Area (Sq. Miles & Acres) - National Beef Wire",
+                                "url": "https://www.nationalbeefwire.com/ranking-of-countries-by-area-sq-miles-acres-russia-is-the-largest-country-in-the-world-10-995-of-the-world-s-land-mass-followed-by-canada-the-united-states-china-brazil"
+                            },
+                            {
+                                "title": "Top 10 Largest Countries in the World by Population, GDP & Area",
+                                "url": "https://spmiasacademy.com/currentaffairs/top-10-largest-countries-in-the-world/"
+                            },
+                            {
+                                "title": "Largest Countries in the World by Area - Worldometer",
+                                "url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+                            },
+                            {
+                                "title": "List of the world's largest countries and dependencies by area",
+                                "url": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "VERIFIED",
+                        "reason": "The sources clearly verify the largest countries by land area as Russia, Canada, United States, China, and Brazil in this exact order. Multiple authoritative sources, including National Beef Wire and Worldometer, confirm this ranking.",
+                        "proposed_answers": [
+                            "Russia",
+                            "Canada",
+                            "United States",
+                            "China",
+                            "Brazil"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.nationalbeefwire.com/ranking-of-countries-by-area-sq-miles-acres-russia-is-the-largest-country-in-the-world-10-995-of-the-world-s-land-mass-followed-by-canada-the-united-states-china-brazil"
+                    },
+                    "question_id": 5,
+                    "final_answers": [
+                        "Russia",
+                        "Canada",
+                        "United States",
+                        "China",
+                        "Brazil"
+                    ],
+                    "final_source": "https://www.nationalbeefwire.com/ranking-of-countries-by-area-sq-miles-acres-russia-is-the-largest-country-in-the-world-10-995-of-the-world-s-land-mass-followed-by-canada-the-united-states-china-brazil"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening February 18, 2026",
+                        "results": [
+                            {
+                                "title": "February 2026: The biggest sporting events happening this month",
+                                "url": "https://sportsworld.co.uk/february-2026-the-biggest-sporting-events-happening-this-month/",
+                                "snippet": "February marks the start of Champions League knockout football where Europe’s elite clubs battle for continental supremacy and one mistake can end dreams of glory. ### Dallas Open | 9th-15th February."
+                            },
+                            {
+                                "title": "Calendar of the major sporting events of the year 2026",
+                                "url": "https://www.the-sports.org/sport-calendar-2026-p0-62026.html",
+                                "snippet": "Calendar of the major sporting events of the year 2026 ; 5 February - 14 March 2026, Rugby - VI Nations ; 5th - 18 February 2026, Italy, Snowboarding - Olympic"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "AllSportDB - Sports Calendar And Event Database (16 - 22 February ...",
+                                "url": "https://allsportdb.com/",
+                                "snippet": "|  | -13 | 🛷 Skeleton | Italy   Cortina d'Ampezzo |  |  |  |  |  |  |  |  |  | 1 | 2 | 3 | 4 |  | finish today | 12 - 15 February 2026 |  |. |  | -13 | 🎿 Ski Jumping Normal hill | Italy   Val di Fiemm"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays February 2026",
+                        "results": [
+                            {
+                                "title": "February 2026 Global Holidays: National Days & Festivals Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/",
+                                "snippet": "*   [![Image 3](blob:http://localhost/d883beb4362fe84660fab16ca0c3a516)English (US)English (US)](https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/ \"English (US)\"). *   "
+                            },
+                            {
+                                "title": "Diversity Calendar 2026: DEI Inclusion Events, Cultural Months",
+                                "url": "https://www.diversityresources.com/diversity-calendar-2026/",
+                                "snippet": "A Diversity Calendar 2026 helps teams plan ahead, recognize important cultural and religious observances, and build awareness throughout the year. Our diversity and inclusion calendar highlights key D"
+                            },
+                            {
+                                "title": "2026 February Holidays Information from Holidays and Observances",
+                                "url": "https://www.holidays-and-observances.com/february-holidays.html",
+                                "snippet": "* National Freedom Day - February 1. * National Get Up Day - February 1. * National Catcher Day - February 2. * National River Day - February 2. * National Carrot Day - February 3. * National Trevor D"
+                            },
+                            {
+                                "title": "Multicultural Calendar - February 2026 | Inclusive Excellence",
+                                "url": "https://excellence.ucdavis.edu/events/multicultural-calendar-february-2026",
+                                "snippet": "The Multicultural Calendar serves as a resource for students, staff, and faculty to plan events, activities, meetings, retreats, and courses throughout the year"
+                            },
+                            {
+                                "title": "February Holidays and Observances For Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/february-holidays-and-observances-rcna64135",
+                                "snippet": "February 10. All the News That's Fit to Print Day; Extraterrestrial Culture Day; International Cribbage Day; International Day of the Arabian"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences February 2026",
+                        "results": [
+                            {
+                                "title": "CELESTE BARBER TO HOST THE 2026 AACTA AWARDS",
+                                "url": "https://www.aacta.org/our-news/media-room/celeste-barber-to-host-the-2026-aacta-awards/",
+                                "snippet": "Wednesday 4 February 2026. AACTA Festival Industry Conference Day: Thursday 5 February 2026. AACTA Awards Ceremony & Official After Party: Friday 6 February"
+                            },
+                            {
+                                "title": "Arts Ottawa Awards Ceremony | Thu, Feb 5, 2026, 7:00 pm",
+                                "url": "https://nac-cna.ca/en/event/40309",
+                                "snippet": "This annual event honours the outstanding work of local artists and arts leaders, shining a spotlight on creativity, innovation, and leadership across"
+                            },
+                            {
+                                "title": "Golden Ora Danca Awards 2026 - Eventbrite",
+                                "url": "https://www.eventbrite.ca/e/golden-ora-danca-awards-2026-tickets-1978760031521",
+                                "snippet": "Eventbrite - Iraj Aghakhani presents Golden Ora Danca Awards 2026 - Sunday, February 15, 2026 at 73 York St, Ottawa, ON. Find event and ticket information."
+                            },
+                            {
+                                "title": "SUSTAIN Conference - Forum Festivals and Events Ontario",
+                                "url": "https://members.festivalsandeventsontario.com/sustain-conference",
+                                "snippet": "## Kitchener, Ontario. ### 2026 FEO \"SUSTAIN\" Conference. ## February 23 - 25, 2026. ##### Countdown to 2026 FEO \"SUSTAIN\" Conference. ### Great News! The 2026 FEO \"SUSTAIN\" Conference IS Happening. F"
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "# 2026 Awards Season Calendar: Dates For Oscars, Guilds, Tonys & More. **UPDATED with latest:** It’s a new calendar year, and film awards season is in full swing — time to look at what’s ahead trophy "
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week February 18, 2026",
+                        "results": [
+                            {
+                                "title": "Surprise four-legged Olympic competitor wows cross-country fans",
+                                "url": "https://www.npr.org/2026/02/18/nx-s1-5718025/surprise-four-legged-olympic-competitor-wows-cross-country-fans",
+                                "snippet": "A dog wanders on the ski trail during the women's team cross country free sprint qualification event of the Milano Cortina 2026 Winter Olympic Games at Tesero Cross-Country Skiing Stadium in Lago di T"
+                            },
+                            {
+                                "title": "The Christian Science Monitor Daily for February 18, 2026",
+                                "url": "https://www.csmonitor.com/Daily/2026/20260218",
+                                "snippet": "It’s an interesting thought exercise to adapt a line quoted in the editorial: “Having high expectations means we believe all students [and athletes, citizens, and diplomats] can learn at exceedingly h"
+                            },
+                            {
+                                "title": "Ogden, Schumacher grab silver for U.S. in Olympic cross-country ...",
+                                "url": "https://www.vpm.org/npr-news/2026-02-18/ogden-schumacher-grab-silver-for-u-s-in-olympic-cross-country-team-sprint-diggins-falls-short",
+                                "snippet": "Ogden, Schumacher grab silver for U.S. in Olympic cross-country team sprint, Diggins falls short. NPR | By Brian Mann. Published February 18,"
+                            },
+                            {
+                                "title": "Latest news bulletin | February 18th, 2026 – Morning - YouTube",
+                                "url": "https://www.youtube.com/watch?v=8S8otepw-94",
+                                "snippet": "[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/"
+                            },
+                            {
+                                "title": "What Happens on February 18, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/february/18",
+                                "snippet": "# What Happens on February 18, 2026. ## About February 18, 2026. **Day of the Week:** Wednesday. **How Far Away?** 1 day. ## No Entries for February 18, 2026. * See 70 things that happened in **Februa"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days February 18",
+                        "results": [
+                            {
+                                "title": "FEBRUARY 18 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/february/february-18-birthdays-and-events",
+                                "snippet": "Notable Birthdays for February 18: Louis Malesherbes Goldsborough (1805-1877) - Admiral for the Union Navy. Walter Page Lane (1817-1892) - Brigadier General"
+                            },
+                            {
+                                "title": "February 18 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/february-18-birthdays/",
+                                "snippet": "February 18th birthdays · Damien Prince · Dr. Dre · Hansol Vernon Chwe · John Travolta · Vanna White · Yoko Ono · About us · Resources."
+                            },
+                            {
+                                "title": "Famous Birthdays on February 18 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/february/18",
+                                "snippet": "# Famous Birthdays on February 18. * 1374 Jadwiga of Poland, Saint and Queen of Poland whose marriage with Jogaila, formed the Lithuanian-Polish Union, restored Kraków university, born in Breda, Hunga"
+                            },
+                            {
+                                "title": "Today's famous birthdays list for February 18, 2021 includes ...",
+                                "url": "https://www.cleveland.com/entertainment/2021/02/todays-famous-birthdays-list-for-february-18-2021-includes-celebrities-john-travolta-vanna-white.html",
+                                "snippet": "Today's famous birthdays list for February 18, 2021 includes celebrities John Travolta, Vanna White · Yoko Ono · Cybill Shepherd · John Travolta"
+                            },
+                            {
+                                "title": "February 18 History - Famous Daily",
+                                "url": "http://www.famousdaily.com/february18.html",
+                                "snippet": "February 18 Birthdays ; 1965 -, Dr. Dre ; 1992 -, Damien Prince ; 1954 -, John Travolta."
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "UEFA Champions League knockouts begin in February",
+                        "suggested_question": "Top 5 players with most UEFA Champions League knockout-stage goals (all-time)",
+                        "connection": "Europe’s elite clubs enter the do-or-die phase now, so ranking the greatest knockout scorers is a timely way to spotlight players who historically decide these matches."
+                    },
+                    {
+                        "topic": "Rugby Six Nations 2026 (Feb 5–Mar 14)",
+                        "suggested_question": "Top 5 rugby stadiums by seating capacity among 2026 Six Nations venues",
+                        "connection": "With the Six Nations underway, fans are flocking to iconic grounds. Ranking the biggest current tournament venues ties directly to the ongoing championship."
+                    },
+                    {
+                        "topic": "Milano Cortina 2026 Winter Olympics cross-country spotlight (U.S. wins silver Feb 18)",
+                        "suggested_question": "Top 5 countries by total Olympic cross-country skiing medals (all-time, men and women combined)",
+                        "connection": "Cross-country is in the headlines today. This list contextualizes which nations dominate the sport historically during the very Olympics hosting these races."
+                    },
+                    {
+                        "topic": "Ski Jumping normal hill event in Val di Fiemme (Feb 12–15)",
+                        "suggested_question": "Top 5 male ski jumpers with most FIS Ski Jumping World Cup wins (all-time)",
+                        "connection": "As ski jumping events wrap in Italy, it’s fitting to highlight the most successful World Cup winners ever in the discipline being contested right now."
+                    },
+                    {
+                        "topic": "Skeleton events in Cortina d’Ampezzo",
+                        "suggested_question": "Top 5 countries by total Olympic skeleton medals (all-time, men + women combined)",
+                        "connection": "Skeleton has been in action this week at Cortina. This ranks national success in the exact sport competing at the Winter Games venue."
+                    },
+                    {
+                        "topic": "Dallas Open (ATP 250) concluded Feb 15",
+                        "suggested_question": "Top 5 ATP players with most career aces recorded (ATP official stats, all surfaces)",
+                        "connection": "With a hard-court event just finished in Dallas, serve dominance is front-of-mind. Ranking ace leaders connects to what often decides matches on these courts."
+                    },
+                    {
+                        "topic": "2026 Awards Season (Oscars approaching)",
+                        "suggested_question": "Top 5 films with most Academy Awards won (all-time)",
+                        "connection": "Awards season is in full swing. This celebrates the most decorated films ever just as the industry gears up for the year’s biggest ceremony."
+                    },
+                    {
+                        "topic": "International Feature Oscar relevance (Italy in global spotlight via Winter Olympics)",
+                        "suggested_question": "Top 5 countries with most Oscars for Best International Feature Film (formerly Best Foreign Language Film)",
+                        "connection": "With Italy hosting the Games and awards season active, this ranks national success in the Oscars’ international category—merging cultural and current headlines."
+                    },
+                    {
+                        "topic": "FIFA World Cup 2026 on the horizon",
+                        "suggested_question": "Top 5 national teams with most FIFA World Cup titles (men’s)",
+                        "connection": "World Cup anticipation is building in 2026. This list spotlights the most successful nations ever ahead of the tournament cycle."
+                    },
+                    {
+                        "topic": "Monaco Grand Prix on the 2026 sporting calendar",
+                        "suggested_question": "Top 5 Formula 1 drivers with most Monaco Grand Prix victories",
+                        "connection": "As fans plan for marquee events, Monaco’s street classic looms large. Ranking its most successful drivers is a perfect tie-in to the year’s motorsport calendar."
+                    },
+                    {
+                        "topic": "Seasonal fallback – Valentine’s season movie watching",
+                        "suggested_question": "Top 5 highest-grossing romantic comedies worldwide (unadjusted box office)",
+                        "connection": "February viewing often leans romantic. This ranks the biggest rom-com box office hits—ideal for the Valentine’s window."
+                    },
+                    {
+                        "topic": "Seasonal fallback – Valentine’s chocolate",
+                        "suggested_question": "Top 5 countries by per-capita chocolate consumption (kg per person per year)",
+                        "connection": "Chocolate spikes in February. This objective ranking fits the season’s sweet-tooth trend."
+                    },
+                    {
+                        "topic": "Seasonal fallback – Awards month music buzz (Grammys within awards season)",
+                        "suggested_question": "Top 5 artists with most Grammy Awards won (all-time)",
+                        "connection": "With awards season in full swing, music fans track Grammy records. This ranks all-time winners as the trophy talk peaks."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "fallback_used": true,
+            "question_id": 5
         }
     ]
 }
