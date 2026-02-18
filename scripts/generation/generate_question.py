@@ -67,6 +67,25 @@ def llm_create(llm, model, **kwargs):
         return llm.chat.completions.create(model=LLM_MODEL_FALLBACK, **kwargs)
 
 
+# Untrusted source domains — prefer authoritative sources over these
+UNTRUSTED_SOURCE_DOMAINS = [
+    "facebook.com", "reddit.com", "twitter.com", "x.com",
+    "instagram.com", "tiktok.com", "pinterest.com",
+    "quora.com", "yahoo.answers", "answers.com",
+    "blogspot.com", "wordpress.com", "medium.com",
+    "fandom.com", "wikia.com",
+    "youtube.com",
+]
+
+
+def is_source_trustworthy(url):
+    """Check if a source URL comes from a trustworthy domain."""
+    if not url:
+        return False
+    url_lower = url.lower()
+    return not any(domain in url_lower for domain in UNTRUSTED_SOURCE_DOMAINS)
+
+
 # Topics to filter out — sensitive, violent, or inappropriate
 BLOCKED_TOPICS = [
     "shooting", "murder", "killing", "terrorism", "terrorist",
@@ -214,7 +233,16 @@ def discover_topics(llm, search, run_log):
                     "- 'Top 5 most populated countries'\n"
                     "- 'Top 5 largest countries by area'\n"
                     "- 'Top 5 biggest economies'\n"
-                    "- 'Top 5 tallest mountains'\n"
+                    "- 'Top 5 tallest mountains'\n\n"
+                    "CRITICAL DIVERSITY RULE:\n"
+                    "Each suggested topic MUST be from a DIFFERENT domain/category. "
+                    "Never suggest two topics in the same area. For example:\n"
+                    "- Champions League + FIFA World Cup = BOTH football → only pick one\n"
+                    "- Winter Olympics medals + Summer Olympics medals = BOTH Olympics → only pick one\n"
+                    "- Grammy Awards + Billboard charts = BOTH music → only pick one\n"
+                    "- Two different film ranking questions = BOTH cinema → only pick one\n"
+                    "Spread your suggestions across sports, science, geography, entertainment, "
+                    "food & drink, technology, history, culture, business, etc.\n"
                 ),
             },
             {
@@ -335,10 +363,6 @@ def generate_question(llm, topic, suggested_question):
                     "- Exactly 5 correct answers in the RIGHT ORDER (1st to 5th)\n"
                     "- Exactly 15 plausible but incorrect distractor options\n"
                     "- A suggested source URL where the answer can be verified\n\n"
-                    "IMPORTANT TIEBREAKER RULE: If two or more items share the same "
-                    "value/score/count, they MUST be ordered alphabetically by name. "
-                    "For example, if countries X and Y both have 10 gold medals, the "
-                    "one that comes first alphabetically is ranked higher.\n\n"
                     "The distractors should be from the same category and realistic "
                     "enough that someone might confuse them with the correct answers. "
                     "All 20 options (5 correct + 15 distractors) must be unique."
@@ -422,9 +446,11 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
                     "different order, you MUST correct it. If you can verify some "
                     "answers but not the exact order, try to provide the correct "
                     "order from the source data.\n\n"
-                    "IMPORTANT TIEBREAKER RULE: If two or more items share the exact "
-                    "same value/score/count, they MUST be ordered alphabetically by "
-                    "name. Apply this rule when correcting or verifying order.\n\n"
+                    "SOURCE QUALITY: For 'best_source', strongly prefer authoritative "
+                    "and official sources (e.g. Wikipedia, official organization sites, "
+                    "government databases, established news outlets, sports governing "
+                    "bodies). NEVER return social media links (Facebook, Reddit, Twitter, "
+                    "Instagram) or personal blogs as best_source.\n\n"
                     "If the source data contains enough information to determine the "
                     "correct answers and order, use it — don't give up too easily."
                 ),
@@ -445,8 +471,13 @@ def cross_check(llm, question_text, answers, sources, attempt_log, iteration=0):
                     "Respond with ONLY a JSON object:\n"
                     "- \"status\": one of \"VERIFIED\", \"CORRECTED\", or \"UNVERIFIABLE\"\n"
                     "- \"best_source\": the URL of the most authoritative source used\n"
+                    "- \"answer_values\": array of 5 numbers, the actual numeric values "
+                    "for each answer (e.g. medal counts, population, revenue). Use the "
+                    "same unit for all. If values are unknown, use null.\n"
                     "- \"corrected_answers\": (only if CORRECTED) array of 5 answers in "
                     "the correct order\n"
+                    "- \"corrected_values\": (only if CORRECTED) array of 5 numeric values "
+                    "matching corrected_answers\n"
                     "- \"reason\": detailed explanation of your finding, including what "
                     "the sources say\n\n"
                     "Use VERIFIED if the answers match the sources in both "
@@ -508,10 +539,7 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
                     "You are a fact-checker performing a SECOND verification of a "
                     "corrected trivia answer. A previous check corrected the order "
                     "of answers. You must confirm or reject this corrected order "
-                    "using the new source data provided. Be very strict about ordering.\n\n"
-                    "IMPORTANT TIEBREAKER RULE: If two or more items share the exact "
-                    "same value/score/count, they MUST be ordered alphabetically by "
-                    "name. Apply this rule when verifying the order."
+                    "using the new source data provided. Be very strict about ordering."
                 ),
             },
             {
@@ -530,7 +558,9 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
                     "Respond with ONLY a JSON object:\n"
                     "- \"status\": \"CONFIRMED\" or \"REJECTED\"\n"
                     "- \"reason\": brief explanation\n"
-                    "- \"best_source\": URL of the most authoritative source"
+                    "- \"best_source\": URL of the most authoritative source\n"
+                    "- \"answer_values\": array of 5 numbers, the actual numeric "
+                    "values for each answer. If values are unknown, use null."
                 ),
             },
         ],
@@ -554,6 +584,59 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
     except (json.JSONDecodeError, IndexError):
         attempt_log[f"re_verify_iter{iteration}"] = {"error": "Failed to parse response"}
         return {"status": "REJECTED", "reason": "Failed to parse re-verification response"}
+
+
+# ---------------------------------------------------------------------------
+# Step 2f: Deterministic tiebreaker (post-processing)
+# ---------------------------------------------------------------------------
+
+
+def enforce_tiebreaker(answers, values):
+    """If any adjacent answers share the same numeric value, sort that tied
+    group alphabetically.  This is a hard-coded post-processing step so we
+    never rely on the LLM to handle ties correctly.
+
+    Args:
+        answers: list of 5 answer strings (ranked 1st…5th)
+        values:  list of 5 numeric values (or None/null for unknown)
+
+    Returns:
+        (new_answers, changed): the possibly-reordered list and whether
+        anything changed.
+    """
+    if not values or len(values) != len(answers):
+        return list(answers), False
+
+    # Convert None / non-numeric to a sentinel so they don't match
+    cleaned = []
+    for v in values:
+        try:
+            cleaned.append(float(v))
+        except (TypeError, ValueError):
+            cleaned.append(None)
+
+    # Group consecutive items that share the same value
+    paired = list(zip(answers, cleaned))
+    result = []
+    i = 0
+    changed = False
+    while i < len(paired):
+        # Find the extent of the tied group starting at i
+        j = i + 1
+        while j < len(paired) and paired[j][1] is not None and paired[j][1] == paired[i][1]:
+            j += 1
+        group = paired[i:j]
+        if len(group) > 1 and group[0][1] is not None:
+            # Sort the tied group alphabetically by name
+            sorted_group = sorted(group, key=lambda x: x[0])
+            if sorted_group != group:
+                changed = True
+            result.extend(sorted_group)
+        else:
+            result.extend(group)
+        i = j
+
+    return [name for name, _ in result], changed
 
 
 # ---------------------------------------------------------------------------
@@ -821,10 +904,23 @@ def run(dry_run=False):
             if status == "VERIFIED":
                 print("  ✅ Answers verified!")
                 # Use the best source from verification, not the LLM's suggested source
-                if check_result.get("best_source"):
-                    source_url = check_result["best_source"]
-                elif sources:
-                    source_url = sources[0]["url"]
+                candidate_source = check_result.get("best_source", "")
+                if candidate_source and is_source_trustworthy(candidate_source):
+                    source_url = candidate_source
+                else:
+                    # Pick first trustworthy source from search results
+                    trustworthy = [s["url"] for s in sources if is_source_trustworthy(s["url"])]
+                    if trustworthy:
+                        source_url = trustworthy[0]
+                    elif candidate_source:
+                        source_url = candidate_source  # fallback to untrusted if nothing else
+                    elif sources:
+                        source_url = sources[0]["url"]
+                # Deterministic tiebreaker post-processing
+                answer_values = check_result.get("answer_values")
+                current_answers, tb_changed = enforce_tiebreaker(current_answers, answer_values)
+                if tb_changed:
+                    print(f"  🔤 Tiebreaker applied (alphabetical): {current_answers}")
                 verified = True
                 break
 
@@ -849,12 +945,27 @@ def run(dry_run=False):
                 if re_status == "CONFIRMED":
                     print("  ✅ Corrected order confirmed!")
                     current_answers = corrected
-                    # Prefer re-verify best_source, then cross-check best_source
-                    source_url = (
-                        re_verify.get("best_source")
-                        or check_result.get("best_source")
-                        or source_url
+                    # Deterministic tiebreaker post-processing
+                    answer_values = (
+                        re_verify.get("answer_values")
+                        or check_result.get("corrected_values")
+                        or check_result.get("answer_values")
                     )
+                    current_answers, tb_changed = enforce_tiebreaker(current_answers, answer_values)
+                    if tb_changed:
+                        print(f"  🔤 Tiebreaker applied (alphabetical): {current_answers}")
+                    # Prefer re-verify best_source, then cross-check best_source
+                    # but only if trustworthy
+                    candidates = [
+                        re_verify.get("best_source", ""),
+                        check_result.get("best_source", ""),
+                        source_url,
+                    ]
+                    picked = next(
+                        (u for u in candidates if u and is_source_trustworthy(u)),
+                        next((u for u in candidates if u), source_url),
+                    )
+                    source_url = picked
                     verified = True
                     break
                 else:
