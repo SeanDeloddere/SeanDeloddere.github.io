@@ -139,6 +139,41 @@
                 "Barcelona"
             ],
             "source": "https://www.facebook.com/groups/227145604694718/posts/2112015469541046/"
+        },
+        {
+            "id": 5,
+            "date": "2026-02-18",
+            "question": "Rank the five largest Six Nations 2026 match venues by seating capacity (largest to smallest).",
+            "options": [
+                "Twickenham Stadium (London)",
+                "Stade de France (Saint-Denis)",
+                "Principality Stadium (Cardiff)",
+                "Stadio Olimpico (Rome)",
+                "Murrayfield Stadium (Edinburgh)",
+                "Aviva Stadium (Dublin)",
+                "Croke Park (Dublin)",
+                "Stade Vélodrome (Marseille)",
+                "Groupama Stadium (Lyon)",
+                "Decathlon Arena – Stade Pierre-Mauroy (Lille)",
+                "Stadio Flaminio (Rome)",
+                "Parc des Princes (Paris)",
+                "Tottenham Hotspur Stadium (London)",
+                "Wembley Stadium (London)",
+                "Hampden Park (Glasgow)",
+                "Celtic Park (Glasgow)",
+                "Thomond Park (Limerick)",
+                "St James' Park (Newcastle)",
+                "Stadio Artemio Franchi (Florence)",
+                "Matmut Atlantique (Bordeaux)"
+            ],
+            "answers": [
+                "Twickenham Stadium (London)",
+                "Stade de France (Saint-Denis)",
+                "Principality Stadium (Cardiff)",
+                "Stadio Olimpico (Rome)",
+                "Murrayfield Stadium (Edinburgh)"
+            ],
+            "source": "https://en.wikipedia.org/wiki/List_of_rugby_union_stadiums_by_capacity"
         }
     ]
 }
