@@ -174,6 +174,41 @@
                 "Murrayfield Stadium (Edinburgh)"
             ],
             "source": "https://en.wikipedia.org/wiki/List_of_rugby_union_stadiums_by_capacity"
+        },
+        {
+            "id": 6,
+            "date": "2026-02-19",
+            "question": "Rank the top 5 golfers by most career LPGA Tour victories (all-time).",
+            "options": [
+                "Kathy Whitworth",
+                "Mickey Wright",
+                "Annika Sörenstam",
+                "Louise Suggs",
+                "Patty Berg",
+                "Betsy Rawls",
+                "Nancy Lopez",
+                "JoAnne Carner",
+                "Babe Didrikson Zaharias",
+                "Karrie Webb",
+                "Sandra Haynie",
+                "Carol Mann",
+                "Betsy King",
+                "Juli Inkster",
+                "Amy Alcott",
+                "Patty Sheehan",
+                "Donna Caponi",
+                "Lorena Ochoa",
+                "Se Ri Pak",
+                "Inbee Park"
+            ],
+            "answers": [
+                "Kathy Whitworth",
+                "Mickey Wright",
+                "Annika Sörenstam",
+                "Louise Suggs",
+                "Patty Berg"
+            ],
+            "source": "https://www.liveabout.com/career-wins-on-the-lpga-tour-1561090"
         }
     ]
 }
