@@ -209,6 +209,41 @@
                 "Patty Berg"
             ],
             "source": "https://www.liveabout.com/career-wins-on-the-lpga-tour-1561090"
+        },
+        {
+            "id": 7,
+            "date": "2026-02-20",
+            "question": "Rank the top 5 Canadian provinces by the share of electricity generated from renewable sources (latest available year).",
+            "options": [
+                "Prince Edward Island",
+                "Manitoba",
+                "British Columbia",
+                "Newfoundland and Labrador",
+                "Quebec",
+                "Ontario",
+                "Alberta",
+                "Saskatchewan",
+                "Nova Scotia",
+                "New Brunswick",
+                "Yukon",
+                "Northwest Territories",
+                "Nunavut",
+                "Atlantic Canada",
+                "The Maritimes",
+                "Central Canada",
+                "Western Canada",
+                "Northern Canada",
+                "Prairie Provinces",
+                "National Capital Region"
+            ],
+            "answers": [
+                "Prince Edward Island",
+                "Manitoba",
+                "British Columbia",
+                "Newfoundland and Labrador",
+                "Quebec"
+            ],
+            "source": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-canada.html"
         }
     ]
 }
