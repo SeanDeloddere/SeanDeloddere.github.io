@@ -244,6 +244,41 @@
                 "Quebec"
             ],
             "source": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-canada.html"
+        },
+        {
+            "id": 8,
+            "date": "2026-02-21",
+            "question": "Rank the top 5 countries by total Grand Slams in the Five/Six Nations (all-time).",
+            "options": [
+                "England",
+                "Wales",
+                "France",
+                "Ireland",
+                "Scotland",
+                "Italy",
+                "New Zealand",
+                "Australia",
+                "South Africa",
+                "Argentina",
+                "Japan",
+                "Georgia",
+                "Romania",
+                "Spain",
+                "Portugal",
+                "Russia",
+                "United States",
+                "Canada",
+                "Fiji",
+                "Samoa"
+            ],
+            "answers": [
+                "England",
+                "Wales",
+                "France",
+                "Ireland",
+                "Scotland"
+            ],
+            "source": "https://www.thesun.co.uk/sport/17620414/which-country-won-most-six-nations-titles/"
         }
     ]
 }
