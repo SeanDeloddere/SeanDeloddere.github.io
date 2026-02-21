@@ -146,6 +146,116 @@ def get_previous_questions_summary(questions):
     )
 
 
+def get_recent_questions(questions, days=7):
+    """Get questions from the last N days."""
+    cutoff = (datetime.now(CET) - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [q for q in questions if q.get("date", "") >= cutoff]
+
+
+def get_recent_topics_summary(recent_questions):
+    """Build a summary of topics covered in recent questions."""
+    if not recent_questions:
+        return ""
+    return "\n".join(
+        f"- [{q['date']}] {q['question']}" for q in recent_questions
+    )
+
+
+def filter_recently_covered_topics(llm, topics, recent_questions, run_log):
+    """Filter out topics whose broad theme has been covered in the last 7 days.
+
+    This is a coarser check than the per-question similarity check — it
+    compares the broad topic/theme (e.g. 'Six Nations rugby') rather than
+    the exact question wording.  Two different questions about the same
+    subject area within 7 days hurt variety, so we drop them early (before
+    the expensive generate-and-verify loop).
+    """
+    if not recent_questions:
+        run_log["step1b_topic_dedup"] = {"skipped": True, "reason": "No recent questions"}
+        return topics
+
+    recent_summary = get_recent_topics_summary(recent_questions)
+    filtered = []
+    dedup_log = []
+
+    for topic_info in topics:
+        topic = topic_info.get("topic", "")
+        suggested_q = topic_info.get("suggested_question", "")
+
+        response = llm_create(
+            llm,
+            model=LLM_MODEL_VERIFY,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You check whether a proposed trivia topic covers the same "
+                        "broad theme or subject area as any recently used question. "
+                        "This is about TOPIC diversity, not exact question duplication.\n\n"
+                        "Examples of SAME-topic overlaps (should be filtered):\n"
+                        "- 'Six Nations stadium capacities' and 'Six Nations Grand Slams' "
+                        "→ SAME topic (Six Nations rugby)\n"
+                        "- 'Champions League semi-finalists' and 'Champions League titles' "
+                        "→ SAME topic (Champions League)\n"
+                        "- 'Winter Olympics gold medals by country' and 'Most decorated "
+                        "Winter Olympians' → SAME topic (Winter Olympics)\n"
+                        "- 'Grammy Award winners' and 'Most Grammys in a single night' "
+                        "→ SAME topic (Grammy Awards)\n\n"
+                        "Examples of DIFFERENT topics (should NOT be filtered):\n"
+                        "- 'Grammy Award winners' and 'Billboard chart records' "
+                        "→ DIFFERENT (awards vs charts)\n"
+                        "- 'Tennis Grand Slam titles' and 'FIFA World Cup winners' "
+                        "→ DIFFERENT (tennis vs football)\n"
+                        "- 'Winter Olympics medals' and 'Summer Olympics medals' "
+                        "→ BORDERLINE but acceptable (different Games)\n"
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"Proposed topic: {topic}\n"
+                        f"Suggested question: {suggested_q}\n\n"
+                        f"Questions used in the past 7 days:\n{recent_summary}\n\n"
+                        "Does this proposed topic cover the same broad theme/subject "
+                        "area as any of the recent questions? Respond with ONLY a "
+                        "JSON object: {\"recently_covered\": true/false, "
+                        "\"reason\": \"brief explanation\", "
+                        "\"overlaps_with\": \"the recent question it overlaps with, or null\"}"
+                    ),
+                },
+            ],
+            response_format={"type": "json_object"},
+        )
+
+        try:
+            result = json.loads(response.choices[0].message.content)
+            entry = {
+                "topic": topic,
+                "suggested_question": suggested_q,
+                **result,
+            }
+            dedup_log.append(entry)
+
+            if result.get("recently_covered", False):
+                print(f"  ⏭ Skipping '{topic}' — topic recently covered")
+                print(f"    Reason: {result.get('reason', 'N/A')}")
+            else:
+                filtered.append(topic_info)
+        except (json.JSONDecodeError, IndexError, KeyError):
+            # If parsing fails, keep the topic to be safe
+            dedup_log.append({"topic": topic, "error": "Failed to parse response"})
+            filtered.append(topic_info)
+
+    run_log["step1b_topic_dedup"] = {
+        "recent_questions_count": len(recent_questions),
+        "topics_before": len(topics),
+        "topics_after": len(filtered),
+        "details": dedup_log,
+    }
+
+    return filtered
+
+
 # ---------------------------------------------------------------------------
 # Step 1: Discover current topics
 # ---------------------------------------------------------------------------
@@ -157,7 +267,7 @@ def is_topic_appropriate(topic_text):
     return not any(blocked in lower for blocked in BLOCKED_TOPICS)
 
 
-def discover_topics(llm, search, run_log):
+def discover_topics(llm, search, run_log, recent_questions=None):
     """Search for current events, celebrations, and cultural moments, then
     rank them for Factle suitability with creative question ideas."""
     today = datetime.now(CET)
@@ -250,7 +360,16 @@ def discover_topics(llm, search, run_log):
                 "content": (
                     f"Today is {today_str}. Here are current events and happenings:\n\n"
                     f"{search_context}\n\n"
-                    "Based on these events, suggest 8-10 creative Factle questions that "
+                    + (
+                        "IMPORTANT: The following topics/themes have ALREADY been used "
+                        "in the past 7 days. Do NOT suggest questions in the same "
+                        "broad topic area:\n"
+                        + get_recent_topics_summary(recent_questions or [])
+                        + "\n\n"
+                        if recent_questions
+                        else ""
+                    )
+                    + "Based on these events, suggest 8-10 creative Factle questions that "
                     "are DIRECTLY inspired by what's happening right now. Each question "
                     "must have objectively verifiable, ordered answers.\n\n"
                     "For each suggestion, explain the connection to current events.\n\n"
@@ -785,7 +904,8 @@ def run(dry_run=False):
     # Step 1: Discover topics
     # ------------------------------------------------------------------
     print("\n--- Step 1: Discovering current topics ---")
-    topics = discover_topics(llm, search, run_log)
+    recent_questions = get_recent_questions(questions, days=7)
+    topics = discover_topics(llm, search, run_log, recent_questions=recent_questions)
 
     if not topics:
         print("WARNING: No topics discovered from current events.")
@@ -812,6 +932,26 @@ def run(dry_run=False):
     for i, t in enumerate(topics):
         print(f"  {i+1}. [{t.get('topic', 'N/A')}] {t.get('suggested_question', 'N/A')}")
         print(f"      Connection: {t.get('connection', 'N/A')}")
+
+    # ------------------------------------------------------------------
+    # Step 1b: Filter topics covered in the last 7 days
+    # ------------------------------------------------------------------
+    print("\n--- Step 1b: Filtering recently covered topics (7-day window) ---")
+    recent_questions = get_recent_questions(questions, days=7)
+    print(f"Found {len(recent_questions)} questions from the past 7 days")
+    if recent_questions:
+        for rq in recent_questions:
+            print(f"  - [{rq['date']}] {rq['question']}")
+
+    topics = filter_recently_covered_topics(llm, topics, recent_questions, run_log)
+    print(f"Topics remaining after dedup: {len(topics)}")
+
+    if not topics:
+        print("WARNING: All topics filtered by recent coverage check.")
+        if not run_log.get("fallback_used"):
+            print("Falling through to fallback topics.")
+        # Let the attempt loop handle the empty list — it will fall
+        # through to the fallback section below.
 
     # ------------------------------------------------------------------
     # Step 2: Attempt loop (outer: topics, inner: verify retries)
