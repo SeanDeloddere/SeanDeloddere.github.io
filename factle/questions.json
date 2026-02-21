@@ -279,6 +279,41 @@
                 "Scotland"
             ],
             "source": "https://www.thesun.co.uk/sport/17620414/which-country-won-most-six-nations-titles/"
+        },
+        {
+            "id": 9,
+            "date": "2026-02-22",
+            "question": "Rank the top 5 artists by total Grammy Awards won (career, all-time, as of Feb 1, 2026).",
+            "options": [
+                "Beyoncé",
+                "Georg Solti",
+                "Chick Corea",
+                "Quincy Jones",
+                "Alison Krauss",
+                "Pierre Boulez",
+                "John Williams",
+                "Stevie Wonder",
+                "Vladimir Horowitz",
+                "Jay-Z",
+                "Kanye West",
+                "U2",
+                "Pat Metheny",
+                "Bruce Springsteen",
+                "Henry Mancini",
+                "Aretha Franklin",
+                "Adele",
+                "Paul Simon",
+                "Taylor Swift",
+                "Lady Gaga"
+            ],
+            "answers": [
+                "Beyoncé",
+                "Georg Solti",
+                "Chick Corea",
+                "Quincy Jones",
+                "Alison Krauss"
+            ],
+            "source": "https://people.com/see-the-top-artists-with-the-most-grammy-wins-11895561"
         }
     ]
 }
