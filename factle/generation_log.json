@@ -5948,6 +5948,1098 @@
                 ]
             },
             "question_id": 9
+        },
+        {
+            "date": "2026-02-23",
+            "topics_discovered": [
+                {
+                    "topic": "ICC Men’s T20 World Cup (this week on the sports calendar)",
+                    "suggested_question": "Rank the top 5 run-scorers in men’s T20 Internationals all-time (career runs, highest to lowest).",
+                    "connection": "With the ICC Men’s T20 World Cup appearing on this week’s calendar, an all-time T20I batting leaders challenge is timely and sports-focused without overlapping recent rugby/football topics."
+                },
+                {
+                    "topic": "Awards season (February guilds run the show; Oscars approaching)",
+                    "suggested_question": "Rank the top 5 films with the most Academy Award (Oscar) wins ever; if tied, order by earlier release year first.",
+                    "connection": "February is peak awards season per the 2026 awards calendars, so spotlighting historic Oscar haul leaders fits the moment (and avoids the music/Grammy domain used yesterday)."
+                },
+                {
+                    "topic": "Mobile World Congress (late-February tech showcase)",
+                    "suggested_question": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest).",
+                    "connection": "MWC typically lands in late February, and the prior year’s shipment leaderboard frames the industry narrative heading into the show."
+                },
+                {
+                    "topic": "Streaming platforms during awards and festival month",
+                    "suggested_question": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest).",
+                    "connection": "With film/TV festivals and guild awards dominating February, it’s timely to see which streamers command the largest audiences."
+                },
+                {
+                    "topic": "Black History Month (February)",
+                    "suggested_question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year, largest to smallest).",
+                    "connection": "February recognizes Black History Month, making an HBCU-focused, data-driven education ranking relevant and celebratory."
+                },
+                {
+                    "topic": "AACTA Festival on the Gold Coast",
+                    "suggested_question": "Rank the top 5 tallest buildings on Australia’s Gold Coast (by architectural height, tallest to shortest).",
+                    "connection": "The AACTA Festival is set on the Gold Coast; a skyline ranking ties directly to the host city’s landscape."
+                },
+                {
+                    "topic": "Lent season (Ash Wednesday was Feb 18, 2026)",
+                    "suggested_question": "Rank the top 5 aquatic species by global aquaculture production volume (latest FAO year, highest to lowest).",
+                    "connection": "With Lent underway and fish consumption in focus, a look at which farmed species dominate globally is seasonally apt and data-verifiable."
+                },
+                {
+                    "topic": "Global travel around late-Feb sports and festivals",
+                    "suggested_question": "Rank the top 5 airports by international passenger traffic for 2025 (highest to lowest).",
+                    "connection": "This week features international tournaments and festivals; it’s a good moment to see which hubs move the most international travelers."
+                },
+                {
+                    "topic": "Leap Day 2026 (February 29 arrives this week) — Seasonal fallback",
+                    "suggested_question": "Rank the five planets with the longest orbital periods (planets only, longest to shortest).",
+                    "connection": "Leap Day highlights our orbital calendar, making a planetary year-length comparison a timely science tie-in."
+                },
+                {
+                    "topic": "Lantern Festival (end of Lunar New Year season, Feb 28, 2026) — Seasonal fallback",
+                    "suggested_question": "Rank the top 5 countries by total number of elements inscribed on UNESCO’s Intangible Cultural Heritage lists (highest to lowest); if tied, order by earliest first inscription year.",
+                    "connection": "The Lantern Festival caps Lunar New Year festivities this week, so a heritage-themed global ranking fits the cultural moment."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "ICC Men’s T20 World Cup (this week on the sports calendar)",
+                    "suggested_question": "Rank the top 5 run-scorers in men’s T20 Internationals all-time (career runs, highest to lowest).",
+                    "connection": "With the ICC Men’s T20 World Cup appearing on this week’s calendar, an all-time T20I batting leaders challenge is timely and sports-focused without overlapping recent rugby/football topics.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on individual run-scorers in T20 cricket, which is a distinct topic from any of the previously used questions. None of the existing questions cover cricket or individual player achievements in this format."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 run-scorers in men's T20 Internationals all-time (career runs, highest to lowest).",
+                        "answers": [
+                            "Babar Azam",
+                            "Rohit Sharma",
+                            "Virat Kohli",
+                            "Paul Stirling",
+                            "Mohammad Rizwan"
+                        ],
+                        "distractors": [
+                            "Martin Guptill",
+                            "Jos Buttler",
+                            "David Warner",
+                            "Aaron Finch",
+                            "Kane Williamson",
+                            "Glenn Maxwell",
+                            "Shakib Al Hasan",
+                            "Eoin Morgan",
+                            "Mohammad Nabi",
+                            "Shoaib Malik",
+                            "KL Rahul",
+                            "Quinton de Kock",
+                            "Chris Gayle",
+                            "Suryakumar Yadav",
+                            "Mushfiqur Rahim"
+                        ],
+                        "suggested_source": "https://stats.espncricinfo.com/ci/engine/stats/records/batting/most_runs_career.html?class=3;id=0;type=batting"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most runs in men's T20I career all time ESPNcricinfo",
+                        "sources_found": [
+                            {
+                                "title": "Test+ODI+T20I matches | Batting records | Most runs in career",
+                                "url": "https://www.espncricinfo.com/records/most-runs-in-career-284269"
+                            },
+                            {
+                                "title": "Most runs in career in T20s - Batting records - ESPNcricinfo",
+                                "url": "https://www.espncricinfo.com/records/most-runs-in-career-284267"
+                            },
+                            {
+                                "title": "ICC Men's T20 World Cup Trophy batting most runs career",
+                                "url": "https://www.espncricinfo.com/records/trophy/batting-most-runs-career/icc-men-s-t20-world-cup-89"
+                            },
+                            {
+                                "title": "Most hundreds in a career - Batting records - ESPNcricinfo",
+                                "url": "https://www.espncricinfo.com/records/most-hundreds-in-a-career-1412856"
+                            },
+                            {
+                                "title": "India T20I matches batting most runs career",
+                                "url": "https://www.espncricinfo.com/records/team/batting-most-runs-career/india-6/twenty20-internationals-3"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain relevant or complete data to rank the top 5 run-scorers in men's T20 Internationals by career runs. The sources referenced include records for various cricket formats or specific statistics that do not pertain to the all-time career runs in T20 Internationals. Without accurate data or rankings explicitly specifying the top run-scorers and their respective numbers, it's not possible to verify or correct the proposed answers.",
+                        "proposed_answers": [
+                            "Babar Azam",
+                            "Rohit Sharma",
+                            "Virat Kohli",
+                            "Paul Stirling",
+                            "Mohammad Rizwan"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.espncricinfo.com/records/most-runs-in-career-284267"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 run-scorers in men's T20 Internationals all-time (career runs, highest to lowest). Babar Azam Rohit Sharma ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most runs in T20 World Cup 2026 - list of highest scorers",
+                                "url": "https://www.olympics.com/en/news/t20-world-cup-2026-most-runs-highest-scorer-top-batters-list"
+                            },
+                            {
+                                "title": "MOST RUNS IN T20I INTERNATIONAL cricket IN 2026 - Facebook",
+                                "url": "https://www.facebook.com/crinewsworlds/posts/most-runs-in-t20i-international-cricket-in-2026/1410160637276167/"
+                            },
+                            {
+                                "title": "Most runs in career in T20Is - Batting records - ESPNcricinfo",
+                                "url": "https://www.espncricinfo.com/records/most-runs-in-career-282827"
+                            },
+                            {
+                                "title": "Men's T20 World Cup tables, top run-scorers & wicket-takers - BBC",
+                                "url": "https://www.bbc.com/sport/cricket/articles/crl433ljkw4o"
+                            },
+                            {
+                                "title": "Top 10 batters with most T20I runs till January 20, 2026 - CREX",
+                                "url": "https://crex.com/cricket-listicles/top-10-batters-with-most-t20i-runs-till-january-20-2026-696f78bbc7dd6fa55b14e50a"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain the relevant information necessary to verify or correct the ranking of the top 5 run-scorers in men's T20 Internationals all-time. The sources focus on other cricket statistics, such as runs scored in T20 World Cup 2026 or general T20 cricket records, and do not provide an authoritative or conclusive list of all-time T20I top run-scorers.",
+                        "proposed_answers": [
+                            "Babar Azam",
+                            "Rohit Sharma",
+                            "Virat Kohli",
+                            "Paul Stirling",
+                            "Mohammad Rizwan"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 run-scorers in men's T20 Internationals all-time (career runs, highest to lowest). Babar Azam Rohit Sharma ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most runs in T20 World Cup 2026 - list of highest scorers",
+                                "url": "https://www.olympics.com/en/news/t20-world-cup-2026-most-runs-highest-scorer-top-batters-list"
+                            },
+                            {
+                                "title": "MOST RUNS IN T20I INTERNATIONAL cricket IN 2026 - Facebook",
+                                "url": "https://www.facebook.com/crinewsworlds/posts/most-runs-in-t20i-international-cricket-in-2026/1410160637276167/"
+                            },
+                            {
+                                "title": "Most runs in career in T20Is - Batting records - ESPNcricinfo",
+                                "url": "https://www.espncricinfo.com/records/most-runs-in-career-282827"
+                            },
+                            {
+                                "title": "Men's T20 World Cup tables, top run-scorers & wicket-takers - BBC",
+                                "url": "https://www.bbc.com/sport/cricket/articles/crl433ljkw4o"
+                            },
+                            {
+                                "title": "Top 10 batters with most T20I runs till January 20, 2026 - CREX",
+                                "url": "https://crex.com/cricket-listicles/top-10-batters-with-most-t20i-runs-till-january-20-2026-696f78bbc7dd6fa55b14e50a"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources contain definitive or relevant information about the all-time top 5 run-scorers in men's T20 Internationals. The sources either focus on T20 World Cup statistics or are unrelated to the specific question. Thus, accurate confirmation or correction of the proposed answers is not possible based on the information provided.",
+                        "proposed_answers": [
+                            "Babar Azam",
+                            "Rohit Sharma",
+                            "Virat Kohli",
+                            "Paul Stirling",
+                            "Mohammad Rizwan"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    }
+                },
+                {
+                    "topic": "Mobile World Congress (late-February tech showcase)",
+                    "suggested_question": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest).",
+                    "connection": "MWC typically lands in late February, and the prior year’s shipment leaderboard frames the industry narrative heading into the show.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking smartphone makers by global shipments focuses on technology and market performance, which is distinct from all existing questions that revolve around demographics, sports, renewable energy, or awards."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest).",
+                        "answers": [
+                            "Samsung",
+                            "Apple",
+                            "Xiaomi",
+                            "Transsion",
+                            "OPPO"
+                        ],
+                        "distractors": [
+                            "vivo",
+                            "Huawei",
+                            "Honor",
+                            "Motorola",
+                            "Realme",
+                            "OnePlus",
+                            "Google",
+                            "Sony",
+                            "Asus",
+                            "TCL",
+                            "ZTE",
+                            "Tecno",
+                            "Infinix",
+                            "itel",
+                            "Nothing"
+                        ],
+                        "suggested_source": "https://www.counterpointresearch.com/insights/global-smartphone-share/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Counterpoint full-year 2025 global smartphone shipments top vendors ranking",
+                        "sources_found": [
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html"
+                            },
+                            {
+                                "title": "Smartphone shipment growth by vendor 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/668604/global-smartphone-shipments-by-vendor/?srsltid=AfmBOoqlhAZzeEq-Vg84coQUSbzDHN0eoG9IQqOAs7SxY0ln4VFGlHQv"
+                            },
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                            },
+                            {
+                                "title": "2025 Mobile Phone Battle: Huawei Leads in Sales, Apple Clings to ...",
+                                "url": "https://eu.36kr.com/en/p/3645694457515911"
+                            },
+                            {
+                                "title": "2025 Smartphone Market: Apple & Samsung Lead, HONOR Surges",
+                                "url": "https://www.linkedin.com/posts/sameer-dixit-25b86b95_smartphone-samsung-apple-activity-7425173985023389696-I4vz"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers and their order are incorrect. According to the strongest source (Wiky.com citing Counterpoint), Apple leads the global smartphone market in 2025 with a 20% share, followed by Samsung with 19%, and Xiaomi with 13%. Another source establishes that Huawei is ranked fourth with 16.4%, and Vivo is fifth with 16.2%. The proposed answer includes Transsion and OPPO, but there is no evidence in the authoritative sources supporting their placement in the top 5.",
+                        "proposed_answers": [
+                            "Samsung",
+                            "Apple",
+                            "Xiaomi",
+                            "Transsion",
+                            "OPPO"
+                        ],
+                        "corrected_answers": [
+                            "Apple",
+                            "Samsung",
+                            "Xiaomi",
+                            "Huawei",
+                            "Vivo"
+                        ],
+                        "best_source": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest). Apple vs Samsung ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Apple led global smartphone market in 2025, overtaking Samsung ...",
+                                "url": "https://www.digitalcameraworld.com/tech/phones/apple-led-global-smartphone-market-in-2025-overtaking-samsung-at-the-post"
+                            },
+                            {
+                                "title": "Apple Takes Top Spot as Global Smartphone Leader in 2025",
+                                "url": "https://finance.yahoo.com/news/apple-takes-top-spot-global-165025897.html"
+                            },
+                            {
+                                "title": "Smartphone Shipments To Decline In 2026 As Apple & Samsung ...",
+                                "url": "https://www.channelnews.com.au/smartphone-shipments-to-decline-in-2026-as-apple-samsung-battle-for-growth/"
+                            },
+                            {
+                                "title": "Counterpoint: Apple was #1 in 2025 in terms of smartphone ...",
+                                "url": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                            },
+                            {
+                                "title": "Apple iPhone surpasses Samsung Galaxy in 2025 as Nothing and ...",
+                                "url": "https://www.notebookcheck.net/Apple-iPhone-surpasses-Samsung-Galaxy-in-2025-as-Nothing-and-Google-see-strong-growth.1202742.0.html"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Huawei in 4th and Vivo in 5th, but the source data collectively indicates that Oppo was ranked in the top 5 rather than Huawei. None of the sources list Huawei in the top 5, which conflicts with the corrected order.",
+                        "best_source": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Counterpoint full-year 2025 global smartphone shipments top vendors ranking",
+                        "sources_found": [
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html"
+                            },
+                            {
+                                "title": "Smartphone shipment growth by vendor 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/668604/global-smartphone-shipments-by-vendor/?srsltid=AfmBOoqlhAZzeEq-Vg84coQUSbzDHN0eoG9IQqOAs7SxY0ln4VFGlHQv"
+                            },
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                            },
+                            {
+                                "title": "2025 Mobile Phone Battle: Huawei Leads in Sales, Apple Clings to ...",
+                                "url": "https://eu.36kr.com/en/p/3645694457515911"
+                            },
+                            {
+                                "title": "2025 Smartphone Market: Apple & Samsung Lead, HONOR Surges",
+                                "url": "https://www.linkedin.com/posts/sameer-dixit-25b86b95_smartphone-samsung-apple-activity-7425173985023389696-I4vz"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answer order is incorrect based on the sourced data. The Counterpoint data in the provided source states that Apple had the highest market share in 2025 (20%), followed by Samsung (19%). While Xiaomi is mentioned as having a 13% market share, Huawei is stated to have a 16.4% share, placing Huawei in third. Vivo's share is 16.2%, which slightly trails Huawei (16.4%), so Vivo takes the fifth position. The corrected order is: Apple, Samsung, Huawei, Xiaomi, and Vivo.",
+                        "proposed_answers": [
+                            "Apple",
+                            "Samsung",
+                            "Xiaomi",
+                            "Huawei",
+                            "Vivo"
+                        ],
+                        "corrected_answers": [
+                            "Apple",
+                            "Samsung",
+                            "Huawei",
+                            "Xiaomi",
+                            "Vivo"
+                        ],
+                        "best_source": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest). Apple vs Samsung ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Apple led global smartphone market in 2025, overtaking Samsung ...",
+                                "url": "https://www.digitalcameraworld.com/tech/phones/apple-led-global-smartphone-market-in-2025-overtaking-samsung-at-the-post"
+                            },
+                            {
+                                "title": "Apple Takes Top Spot as Global Smartphone Leader in 2025",
+                                "url": "https://finance.yahoo.com/news/apple-takes-top-spot-global-165025897.html"
+                            },
+                            {
+                                "title": "Smartphone Shipments To Decline In 2026 As Apple & Samsung ...",
+                                "url": "https://www.channelnews.com.au/smartphone-shipments-to-decline-in-2026-as-apple-samsung-battle-for-growth/"
+                            },
+                            {
+                                "title": "Counterpoint: Apple was #1 in 2025 in terms of smartphone ...",
+                                "url": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                            },
+                            {
+                                "title": "Apple iPhone surpasses Samsung Galaxy in 2025 as Nothing and ...",
+                                "url": "https://www.notebookcheck.net/Apple-iPhone-surpasses-Samsung-Galaxy-in-2025-as-Nothing-and-Google-see-strong-growth.1202742.0.html"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "One source (gsmarena.com) lists Xiaomi as #3 and Vivo as #4, which conflicts with the corrected order that places Huawei as #3 and Xiaomi as #4. Additionally, no source explicitly mentions Huawei in the top five for 2025, further undermining the corrected order.",
+                        "best_source": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Counterpoint full-year 2025 global smartphone shipments top vendors ranking",
+                        "sources_found": [
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://finance.yahoo.com/news/apple-leads-global-smartphone-market-064420012.html"
+                            },
+                            {
+                                "title": "Smartphone shipment growth by vendor 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/668604/global-smartphone-shipments-by-vendor/?srsltid=AfmBOoqlhAZzeEq-Vg84coQUSbzDHN0eoG9IQqOAs7SxY0ln4VFGlHQv"
+                            },
+                            {
+                                "title": "Apple leads global smartphone market with 20% share in 2025 ...",
+                                "url": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                            },
+                            {
+                                "title": "2025 Mobile Phone Battle: Huawei Leads in Sales, Apple Clings to ...",
+                                "url": "https://eu.36kr.com/en/p/3645694457515911"
+                            },
+                            {
+                                "title": "2025 Smartphone Market: Apple & Samsung Lead, HONOR Surges",
+                                "url": "https://www.linkedin.com/posts/sameer-dixit-25b86b95_smartphone-samsung-apple-activity-7425173985023389696-I4vz"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The sources provide clear information that Apple led the global smartphone market with a 20% share, Samsung ranked second with a 19% share, and Xiaomi ranked third with a 13% share in 2025, according to Counterpoint Research. Huawei and Vivo are also mentioned as major players, but their specific global market share rankings are either unclear or omitted. Based on the available credible data, the order is corrected to Apple, Samsung, Xiaomi, Huawei, and Vivo.",
+                        "proposed_answers": [
+                            "Apple",
+                            "Samsung",
+                            "Huawei",
+                            "Xiaomi",
+                            "Vivo"
+                        ],
+                        "corrected_answers": [
+                            "Apple",
+                            "Samsung",
+                            "Xiaomi",
+                            "Huawei",
+                            "Vivo"
+                        ],
+                        "best_source": "https://wiky.com/2026/01/12/apple-leads-global-smartphone-market-with-20-share-in-2025-says-counterpoint/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest). Apple vs Samsung ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Apple led global smartphone market in 2025, overtaking Samsung ...",
+                                "url": "https://www.digitalcameraworld.com/tech/phones/apple-led-global-smartphone-market-in-2025-overtaking-samsung-at-the-post"
+                            },
+                            {
+                                "title": "Apple Takes Top Spot as Global Smartphone Leader in 2025",
+                                "url": "https://finance.yahoo.com/news/apple-takes-top-spot-global-165025897.html"
+                            },
+                            {
+                                "title": "Smartphone Shipments To Decline In 2026 As Apple & Samsung ...",
+                                "url": "https://www.channelnews.com.au/smartphone-shipments-to-decline-in-2026-as-apple-samsung-battle-for-growth/"
+                            },
+                            {
+                                "title": "Counterpoint: Apple was #1 in 2025 in terms of smartphone ...",
+                                "url": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                            },
+                            {
+                                "title": "Apple iPhone surpasses Samsung Galaxy in 2025 as Nothing and ...",
+                                "url": "https://www.notebookcheck.net/Apple-iPhone-surpasses-Samsung-Galaxy-in-2025-as-Nothing-and-Google-see-strong-growth.1202742.0.html"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order incorrectly places Huawei in 4th position, while authoritative sources like Counterpoint Research confirm vivo as 4th, followed by Oppo in 5th place. Huawei is not listed in the top 5 for 2025.",
+                        "best_source": "https://www.gsmarena.com/counterpoint_apple_was_1_in_2025_in_terms_of_smartphone_shipments_samsung_fell_to_2-news-71063.php"
+                    }
+                },
+                {
+                    "topic": "Streaming platforms during awards and festival month",
+                    "suggested_question": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest).",
+                    "connection": "With film/TV festivals and guild awards dominating February, it’s timely to see which streamers command the largest audiences.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking video streaming services by global paid subscribers, which is distinct from any of the previously used questions that primarily deal with countries, sports, or individual achievements in specific domains."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest).",
+                        "answers": [
+                            "Netflix",
+                            "Amazon Prime Video",
+                            "Disney+",
+                            "Tencent Video",
+                            "iQIYI"
+                        ],
+                        "distractors": [
+                            "Max",
+                            "Paramount+",
+                            "Hulu",
+                            "Apple TV+",
+                            "Peacock",
+                            "Youku",
+                            "DAZN",
+                            "ESPN+",
+                            "Crunchyroll",
+                            "Discovery+",
+                            "Viaplay",
+                            "Starz",
+                            "NOW (Sky)",
+                            "Shahid VIP",
+                            "Stan"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_streaming_media_services#Subscribers"
+                    },
+                    "verification_search_iter0": {
+                        "query": "end of 2025 global paid subscribers ranking streaming services Netflix Amazon Prime Video Disney+ Tencent Video iQIYI site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "List of streaming media services - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_streaming_media_services"
+                            },
+                            {
+                                "title": "Wikipedia:WikiProject Computing/Recognized content",
+                                "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Computing/Recognized_content"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source does not contain any specific or comprehensive data ranking the top 5 video streaming services by global paid subscribers as of the end of 2025. The information provided in the source relates to subscriber counts for individual platforms at different points in time, and does not specify data for 2025. Furthermore, the source does not allow for determining the precise ranking, compared to the proposed answers, for the desired timeframe.",
+                        "proposed_answers": [
+                            "Netflix",
+                            "Amazon Prime Video",
+                            "Disney+",
+                            "Tencent Video",
+                            "iQIYI"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_streaming_media_services"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest). Netflix Amazon Prime Video ranking",
+                        "sources_found": [
+                            {
+                                "title": "The Best Video Streaming Services We've Tested for 2026 | PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-video-streaming-services"
+                            },
+                            {
+                                "title": "Streaming Service Market Share 2026 (By Platforms) - Evoca TV",
+                                "url": "https://evoca.tv/streaming-service-market-share/"
+                            },
+                            {
+                                "title": "Streaming Services Statistics and Facts (2026) - Market.us Scoop",
+                                "url": "https://scoop.market.us/streaming-services-statistics/"
+                            },
+                            {
+                                "title": "Best Streaming Services of 2026 - CNET",
+                                "url": "https://www.cnet.com/tech/services-and-software/best-streaming-service/"
+                            },
+                            {
+                                "title": "Video App Revenue and Usage Statistics (2026) - Business of Apps",
+                                "url": "https://www.businessofapps.com/data/video-streaming-app-market/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific or verifiable information about the global paid subscriber numbers of the top 5 streaming services for the end of 2025. The data in the sources either pertains to market share, general service reviews, or unrelated statistics, and no clear ranking or subscriber values are presented.",
+                        "proposed_answers": [
+                            "Netflix",
+                            "Amazon Prime Video",
+                            "Disney+",
+                            "Tencent Video",
+                            "iQIYI"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest). Netflix Amazon Prime Video ranking",
+                        "sources_found": [
+                            {
+                                "title": "The Best Video Streaming Services We've Tested for 2026 | PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-video-streaming-services"
+                            },
+                            {
+                                "title": "Streaming Service Market Share 2026 (By Platforms) - Evoca TV",
+                                "url": "https://evoca.tv/streaming-service-market-share/"
+                            },
+                            {
+                                "title": "Streaming Services Statistics and Facts (2026) - Market.us Scoop",
+                                "url": "https://scoop.market.us/streaming-services-statistics/"
+                            },
+                            {
+                                "title": "Best Streaming Services of 2026 - CNET",
+                                "url": "https://www.cnet.com/tech/services-and-software/best-streaming-service/"
+                            },
+                            {
+                                "title": "Video App Revenue and Usage Statistics (2026) - Business of Apps",
+                                "url": "https://www.businessofapps.com/data/video-streaming-app-market/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not contain specific or authoritative information about the global paid subscriber numbers or rankings of video streaming services at the end of 2025. Additionally, no data from the sources specifies numerical subscriber counts or allows for a comparison of rankings between Netflix, Amazon Prime Video, Disney+, Tencent Video, and iQIYI in the given time frame.",
+                        "proposed_answers": [
+                            "Netflix",
+                            "Amazon Prime Video",
+                            "Disney+",
+                            "Tencent Video",
+                            "iQIYI"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    }
+                },
+                {
+                    "topic": "Black History Month (February)",
+                    "suggested_question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year, largest to smallest).",
+                    "connection": "February recognizes Black History Month, making an HBCU-focused, data-driven education ranking relevant and celebratory.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking HBCUs by undergraduate enrollment, which is a specific topic in education and unrelated to any of the previously used questions focused on geography, sports, music, or energy."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year), largest to smallest.",
+                        "answers": [
+                            "North Carolina A&T State University",
+                            "Howard University",
+                            "Prairie View A&M University",
+                            "Florida A&M University",
+                            "Morgan State University"
+                        ],
+                        "distractors": [
+                            "Southern University and A&M College",
+                            "Texas Southern University",
+                            "North Carolina Central University",
+                            "Alabama A&M University",
+                            "Jackson State University",
+                            "Tennessee State University",
+                            "Savannah State University",
+                            "Norfolk State University",
+                            "Bowie State University",
+                            "Virginia State University",
+                            "Grambling State University",
+                            "South Carolina State University",
+                            "Alcorn State University",
+                            "Bethune-Cookman University",
+                            "Hampton University"
+                        ],
+                        "suggested_source": "https://www.usnews.com/education/best-colleges/hbcu/articles/largest-hbcus"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Largest HBCUs by undergraduate enrollment site:usnews.com",
+                        "sources_found": [
+                            {
+                                "title": "Best Historically Black Colleges and Universities (HBCU) Rankings",
+                                "url": "https://www.usnews.com/best-colleges/rankings/hbcu"
+                            },
+                            {
+                                "title": "Top 20 Historically Black Colleges and Universities",
+                                "url": "https://www.usnews.com/education/best-colleges/slideshows/top-10-historically-black-colleges-and-universities"
+                            },
+                            {
+                                "title": "20 HBCUs With the Highest Four-Year Graduation Rates | Education",
+                                "url": "https://www.usnews.com/education/articles/hbcus-with-the-highest-four-year-graduation-rates"
+                            },
+                            {
+                                "title": "Universities With the Most Undergraduates",
+                                "url": "https://www.usnews.com/education/best-colleges/slideshows/universities-with-the-most-undergraduates"
+                            },
+                            {
+                                "title": "College & University Rankings and Lists - U.S. News & World Report",
+                                "url": "https://www.usnews.com/best-colleges/rankings"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources contain detailed, up-to-date enrollment numbers for U.S. HBCUs, nor do they specify a ranking based on undergraduate enrollment. The sources primarily focus on rankings, tuition, graduation rates, or general institutional data without enrollment figures. Thus, it is not possible to verify or correct the provided list or determine the enrollment numbers accurately.",
+                        "proposed_answers": [
+                            "North Carolina A&T State University",
+                            "Howard University",
+                            "Prairie View A&M University",
+                            "Florida A&M University",
+                            "Morgan State University"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year), largest to smallest. North Carolina A&T State University Howard University ranking",
+                        "sources_found": [
+                            {
+                                "title": "Largest HBCU in the Nation: Top 5 by Enrollment in 2025",
+                                "url": "https://hbculifestyle.com/largest-hbcu-by-enrollment/"
+                            },
+                            {
+                                "title": "HBCU Rankings | Historically Black Colleges And Universities",
+                                "url": "https://www.edsmart.org/best-colleges-universities/hbcu/"
+                            },
+                            {
+                                "title": "Best HBCU Colleges | Historically Black Colleges and Universities",
+                                "url": "https://www.collegeadvisor.com/resources/hbcu-colleges/"
+                            },
+                            {
+                                "title": "HBCU Alum - Facebook",
+                                "url": "https://www.facebook.com/hbcualum/posts/us-news-world-report-released-its-annual-best-colleges-listings-and-spelman-coll/1818217375719884/"
+                            },
+                            {
+                                "title": "Best Historically Black Colleges and Universities (HBCU) Rankings",
+                                "url": "https://www.usnews.com/best-colleges/rankings/hbcu"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain comprehensive, consistent, or clear data specifically ranking the top 5 HBCUs by undergraduate enrollment in the latest available year. The sources either focus on general rankings (not based on enrollment) or do not provide complete enrollment data or an ordered list. Therefore, the correctness and order of the proposed answers cannot be verified.",
+                        "proposed_answers": [
+                            "North Carolina A&T State University",
+                            "Howard University",
+                            "Prairie View A&M University",
+                            "Florida A&M University",
+                            "Morgan State University"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year), largest to smallest. North Carolina A&T State University Howard University ranking",
+                        "sources_found": [
+                            {
+                                "title": "Largest HBCU in the Nation: Top 5 by Enrollment in 2025",
+                                "url": "https://hbculifestyle.com/largest-hbcu-by-enrollment/"
+                            },
+                            {
+                                "title": "HBCU Rankings | Historically Black Colleges And Universities",
+                                "url": "https://www.edsmart.org/best-colleges-universities/hbcu/"
+                            },
+                            {
+                                "title": "A look at historically Black colleges and universities in the ...",
+                                "url": "https://www.pewresearch.org/short-reads/2024/10/02/a-look-at-historically-black-colleges-and-universities-in-the-u-s/"
+                            },
+                            {
+                                "title": "2026 Best HBCU - Historically Black Schools",
+                                "url": "https://www.niche.com/colleges/search/best-hbcu-schools/"
+                            },
+                            {
+                                "title": "2026 Best HBCU Rankings - Colleges",
+                                "url": "https://www.usnews.com/best-colleges/rankings/hbcu"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source clearly ranks the top HBCUs by undergraduate enrollment (latest available year). North Carolina A&T State University is confirmed as the largest, followed by Howard University, Prairie View A&M University, Florida A&M University, and Morgan State University, in that order. The proposed answer order is correct, as supported by the enrollment data listed on the authoritative HBCU Lifestyle site.",
+                        "proposed_answers": [
+                            "North Carolina A&T State University",
+                            "Howard University",
+                            "Prairie View A&M University",
+                            "Florida A&M University",
+                            "Morgan State University"
+                        ],
+                        "corrected_answers": [
+                            "North Carolina A&T State University",
+                            "Howard University",
+                            "Prairie View A&M University",
+                            "Florida A&M University",
+                            "Morgan State University"
+                        ],
+                        "best_source": "https://hbculifestyle.com/largest-hbcu-by-enrollment/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year), largest to smallest. North Carolina A&T State University vs Howard University ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 HBCUs in the U.S. & Rankings 2026 - Learn.org",
+                                "url": "https://learn.org/resources/best-hbcus-us"
+                            },
+                            {
+                                "title": "HBCU Rankings 2026: Top 25 Best Colleges for Black Excellence",
+                                "url": "https://hbculifestyle.com/hbcu-rankings-2026-the-top-25-leading-colleges/"
+                            },
+                            {
+                                "title": "Celebrating Historically Black Colleges and Universities for 2026",
+                                "url": "https://research.com/universities-colleges/celebrating-historically-black-colleges-and-universities"
+                            },
+                            {
+                                "title": "Top 10 BEST BLACK Colleges - HBCUs 2026 Ranking - YouTube",
+                                "url": "https://www.youtube.com/watch?v=DszwTVPDKGk"
+                            },
+                            {
+                                "title": "Best Historically Black Colleges and Universities (HBCU) Rankings",
+                                "url": "https://www.usnews.com/best-colleges/rankings/hbcu"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The provided sources corroborate the corrected order with North Carolina A&T State University being consistently listed as the largest HBCU by enrollment. Howard University, Prairie View A&M University, Florida A&M University, and Morgan State University are also ranked in descending order of enrollment in various sources.",
+                        "best_source": "https://hbculifestyle.com/hbcu-rankings-2026-the-top-25-leading-colleges/"
+                    },
+                    "question_id": 10,
+                    "final_answers": [
+                        "North Carolina A&T State University",
+                        "Howard University",
+                        "Prairie View A&M University",
+                        "Florida A&M University",
+                        "Morgan State University"
+                    ],
+                    "final_source": "https://hbculifestyle.com/hbcu-rankings-2026-the-top-25-leading-colleges/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening February 23, 2026",
+                        "results": [
+                            {
+                                "title": "Sports Calendar And Event Database (23 February - 1 March 2026)",
+                                "url": "https://allsportdb.com/?week=1",
+                                "snippet": "23 February - 1 March 2026 · ICC Cricket Men's T20 World Cup · World Table Tennis Series - Grand Smash · Fencing Cadet European Championships · FIH Hockey Men's Pro"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "Sports Event Calendar 2025-2026 - Genius Sports",
+                                "url": "https://www.geniussports.com/sports-event-calendar-2025-26/",
+                                "snippet": "From the Super Bowl to the FIFA World Cup, our free sports event calendar will help you plan your campaigns around the globe's biggest tentpole events. In 2026, there’s a Winter Olympics and FIFA Worl"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "*   [(Top)](https://en.wikipedia.org/wiki/2026_in_sports#). *   [1.1 January](https://en.wikipedia.org/wiki/2026_in_sports#January). *   [1.2 February](https://en.wikipedia.org/wiki/2026_in_sports#Feb"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays February 2026",
+                        "results": [
+                            {
+                                "title": "Important february celebrations in 2026 - Facebook",
+                                "url": "https://www.facebook.com/groups/2297531780465364/posts/4267282326823623/",
+                                "snippet": "Important Celebrations This February 2026 FEB 02 CANDLEMAS FEB 11 OUR LADY OF LOURDES FEB 18 ASH WEDNESDAY FEB 22 1st SUNDAY OF LENT."
+                            },
+                            {
+                                "title": "February 2026 Holidays - Daily Calendar National, World Days",
+                                "url": "https://www.holidayinsights.com/moreholidays/february.htm",
+                                "snippet": "Celebrate all of the February National holidays and International Holidays, along with some really fun special, and even wacky days. February Special Events."
+                            },
+                            {
+                                "title": "February 2026 Global Holidays: National Days & Festivals Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/",
+                                "snippet": "*   [![Image 3](blob:http://localhost/d883beb4362fe84660fab16ca0c3a516)English (US)English (US)](https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/ \"English (US)\"). *   "
+                            },
+                            {
+                                "title": "February 2026 Calendar (With Holidays) - Calendarr",
+                                "url": "https://www.calendarr.com/united-states/calendar-february-2026/",
+                                "snippet": "February 2026 Holidays and National Days · 1 Sun. National Freedom Day · 1 Sun. Black History Month · 1 Sun. Tu Bishvat · 1 Sun. National Get Up Day · 1 Sun. World"
+                            },
+                            {
+                                "title": "Diversity Calendar 2026: DEI Inclusion Events, Cultural Months",
+                                "url": "https://www.diversityresources.com/diversity-calendar-2026/",
+                                "snippet": "February recognizes Black History Month, celebrating the achievements, history, and impact of Black Americans. The month includes cultural,"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences February 2026",
+                        "results": [
+                            {
+                                "title": "AACTA Festival",
+                                "url": "https://www.aactafestival.com/",
+                                "snippet": "## 2026 AACTA Festival. Set against the stunning backdrop of the Gold Coast, the 2026 AACTA Festival will return to HOTA, Home of the Arts and unite screen lovers, filmmakers and industry leaders, for"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "February 1 – 68th Annual Grammy Awards · February 4-14 – Santa Barbara International Film Festival · February 6 – Australian Academy of Cinema and Television Arts"
+                            },
+                            {
+                                "title": "Festival About",
+                                "url": "https://slamdance.com/festival/",
+                                "snippet": "# Festival About. ## ABOUT THE FILM FESTIVAL. **Slamdance 2026 will take place from February 19th – 25th in Los Angeles, CA.**. Slamdance is a community, an experience and a statement. Established by "
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "February 2026: Guilds Run the Show. Date. Event. February 1. Grammy Awards. February 6. SCL Awards. February 7. Directors Guild Awards. February"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week February 23, 2026",
+                        "results": [
+                            {
+                                "title": "Today's Happenings: February 23, 2026 - South Peace News",
+                                "url": "https://www.southpeacenews.com/todays-happenings-february-23-2026/",
+                                "snippet": "It's the first title in league history for a Slave Lake team. The league was founded in 1997-98. This Day in World History – February 23, 2026."
+                            },
+                            {
+                                "title": "What Happens on February 23, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/february/23",
+                                "snippet": "# What Happens on February 23, 2026. ## About February 23, 2026. **Day of the Week:** Monday. **How Far Away?** 5 days. ## No Entries for February 23, 2026. * See 71 things that happened in **February"
+                            },
+                            {
+                                "title": "NZ Herald Morning Headlines | Monday, February 23, 2026",
+                                "url": "https://www.nzherald.co.nz/video/herald-now/nz-herald-morning-headlines-monday-february-23-2026/R2672VTBOFRLCKCIPVIFBGCA5I/",
+                                "snippet": "### NZ Herald Morning Headlines | Monday, February 23, 2026Morning Headlines | Concern over new move on order and new McSkimming scandal details emerge | Monday, February 23, 2026. # NZ Herald Morning"
+                            },
+                            {
+                                "title": "774 HEADLINES - February 23, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=qeuVzos16r4",
+                                "snippet": "774 Headlines with Bryan Quitoriano February 23, 2026 Subscribe: bit.ly/dwww774."
+                            },
+                            {
+                                "title": "Top 5 News Stories --- Monday, February 23, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=oMDStBt0xX0",
+                                "snippet": "Top 5 News Stories --- Monday, February 23, 2026\nHornet Studios\n3590 subscribers\n\n12 views\n21 Feb 2026\nFederal Reserve Bank of New York report shows Americans are paying for Presidents Trumps’ tariffs"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days February 23",
+                        "results": [
+                            {
+                                "title": "FEBRUARY 23 | Birthdays and Events",
+                                "url": "https://www.nationaldaycalendar.com/february/february-23-birthdays-and-events",
+                                "snippet": "Notable Birthdays for February 23. Emma Willard (1787-1870) - Founder of the first higher education school for women. Lewis Cass Hunt (1824-1886)"
+                            },
+                            {
+                                "title": "Today's famous birthdays list for February 23, 2022 includes ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/02/todays-famous-birthdays-list-for-february-23-2022-includes-celebrities-dakota-fanning-emily-blunt.html",
+                                "snippet": "Actor Marc Price (“Family Ties”) is 54. TV personality Daymond John (“Shark Tank”) is 53. Actor Niecy Nash (“The Soul Man,” “Reno 911!”) is 52."
+                            },
+                            {
+                                "title": "February 23 Birthdays",
+                                "url": "https://www.famousbirthdays.com/february23.html",
+                                "snippet": "popular   trending   video   trivia   random. ## February 23 Birthdays. George Frideric Handel (1685-1759). February 23 by Profession February 23 In Entertainment. February 23 Horoscope February Birth"
+                            },
+                            {
+                                "title": "February 23 | Holidays, Birthdays, Events",
+                                "url": "https://nationaltoday.com/february-23-birthdays/",
+                                "snippet": "Popular Holidays. National Girlfriend Day · Day of the Dead · National Boyfriend Day · National Sons Day · Mexican Independence Day · Pride Month · National"
+                            },
+                            {
+                                "title": "Famous birthdays for Feb. 23: Kristin Davis, Niecy Nash",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-feb-23-kristin-080006421.html",
+                                "snippet": "Those born on this day are under the sign of Pisces. They include: Pope Paul II in 1417, Writer Samuel Pepys in 1633, Musician George Frideric Handel in 1685."
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "ICC Men’s T20 World Cup (this week on the sports calendar)",
+                        "suggested_question": "Rank the top 5 run-scorers in men’s T20 Internationals all-time (career runs, highest to lowest).",
+                        "connection": "With the ICC Men’s T20 World Cup appearing on this week’s calendar, an all-time T20I batting leaders challenge is timely and sports-focused without overlapping recent rugby/football topics."
+                    },
+                    {
+                        "topic": "Awards season (February guilds run the show; Oscars approaching)",
+                        "suggested_question": "Rank the top 5 films with the most Academy Award (Oscar) wins ever; if tied, order by earlier release year first.",
+                        "connection": "February is peak awards season per the 2026 awards calendars, so spotlighting historic Oscar haul leaders fits the moment (and avoids the music/Grammy domain used yesterday)."
+                    },
+                    {
+                        "topic": "Mobile World Congress (late-February tech showcase)",
+                        "suggested_question": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest).",
+                        "connection": "MWC typically lands in late February, and the prior year’s shipment leaderboard frames the industry narrative heading into the show."
+                    },
+                    {
+                        "topic": "Streaming platforms during awards and festival month",
+                        "suggested_question": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest).",
+                        "connection": "With film/TV festivals and guild awards dominating February, it’s timely to see which streamers command the largest audiences."
+                    },
+                    {
+                        "topic": "Black History Month (February)",
+                        "suggested_question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year, largest to smallest).",
+                        "connection": "February recognizes Black History Month, making an HBCU-focused, data-driven education ranking relevant and celebratory."
+                    },
+                    {
+                        "topic": "AACTA Festival on the Gold Coast",
+                        "suggested_question": "Rank the top 5 tallest buildings on Australia’s Gold Coast (by architectural height, tallest to shortest).",
+                        "connection": "The AACTA Festival is set on the Gold Coast; a skyline ranking ties directly to the host city’s landscape."
+                    },
+                    {
+                        "topic": "Lent season (Ash Wednesday was Feb 18, 2026)",
+                        "suggested_question": "Rank the top 5 aquatic species by global aquaculture production volume (latest FAO year, highest to lowest).",
+                        "connection": "With Lent underway and fish consumption in focus, a look at which farmed species dominate globally is seasonally apt and data-verifiable."
+                    },
+                    {
+                        "topic": "Global travel around late-Feb sports and festivals",
+                        "suggested_question": "Rank the top 5 airports by international passenger traffic for 2025 (highest to lowest).",
+                        "connection": "This week features international tournaments and festivals; it’s a good moment to see which hubs move the most international travelers."
+                    },
+                    {
+                        "topic": "Leap Day 2026 (February 29 arrives this week) — Seasonal fallback",
+                        "suggested_question": "Rank the five planets with the longest orbital periods (planets only, longest to shortest).",
+                        "connection": "Leap Day highlights our orbital calendar, making a planetary year-length comparison a timely science tie-in."
+                    },
+                    {
+                        "topic": "Lantern Festival (end of Lunar New Year season, Feb 28, 2026) — Seasonal fallback",
+                        "suggested_question": "Rank the top 5 countries by total number of elements inscribed on UNESCO’s Intangible Cultural Heritage lists (highest to lowest); if tied, order by earliest first inscription year.",
+                        "connection": "The Lantern Festival caps Lunar New Year festivities this week, so a heritage-themed global ranking fits the cultural moment."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 10,
+                "topics_after": 9,
+                "details": [
+                    {
+                        "topic": "ICC Men’s T20 World Cup (this week on the sports calendar)",
+                        "suggested_question": "Rank the top 5 run-scorers in men’s T20 Internationals all-time (career runs, highest to lowest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on cricket and international T20 statistics, which does not overlap with any of the recent questions that cover Winter Olympics, football, rugby, golf, renewable energy, or music awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season (February guilds run the show; Oscars approaching)",
+                        "suggested_question": "Rank the top 5 films with the most Academy Award (Oscar) wins ever; if tied, order by earlier release year first.",
+                        "recently_covered": true,
+                        "reason": "The Oscars question relates to major entertainment awards, which overlaps with the Grammy Awards topic recently covered.",
+                        "overlaps_with": "Rank the top 5 artists by total Grammy Awards won (career, all-time, as of Feb 1, 2026)"
+                    },
+                    {
+                        "topic": "Mobile World Congress (late-February tech showcase)",
+                        "suggested_question": "Rank the top 5 smartphone makers by global shipments for full-year 2025 (highest to lowest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on technology and smartphone industry trends, which is distinct from the subjects of sports, renewable energy, and music awards in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Streaming platforms during awards and festival month",
+                        "suggested_question": "Rank the top 5 video streaming services by global paid subscribers at the end of 2025 (highest to lowest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on streaming platforms and subscriber counts, which is unrelated to recent topics covering sports events, renewable energy, and Grammy Awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Black History Month (February)",
+                        "suggested_question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year, largest to smallest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. Historically Black Colleges and Universities (HBCUs), which is unrelated to any of the recent questions that cover sports, renewable energy, or Grammy awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "AACTA Festival on the Gold Coast",
+                        "suggested_question": "Rank the top 5 tallest buildings on Australia’s Gold Coast (by architectural height, tallest to shortest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about tallest buildings on the Gold Coast focuses on architecture and geography, which is unrelated to any of the recent topics like sports, music awards, or renewable energy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lent season (Ash Wednesday was Feb 18, 2026)",
+                        "suggested_question": "Rank the top 5 aquatic species by global aquaculture production volume (latest FAO year, highest to lowest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on global aquaculture production volume relates to fisheries and food production, which is distinct from any of the recent topics focused on sports, renewable energy, and entertainment awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Global travel around late-Feb sports and festivals",
+                        "suggested_question": "Rank the top 5 airports by international passenger traffic for 2025 (highest to lowest).",
+                        "recently_covered": false,
+                        "reason": "The topic of international airport traffic for 2025 does not overlap with any of the recently used questions, which cover sports, energy, and awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Leap Day 2026 (February 29 arrives this week) — Seasonal fallback",
+                        "suggested_question": "Rank the five planets with the longest orbital periods (planets only, longest to shortest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about planetary orbital periods is unrelated to any of the recent topics, which cover themes like sports, renewable energy, and award achievements.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lantern Festival (end of Lunar New Year season, Feb 28, 2026) — Seasonal fallback",
+                        "suggested_question": "Rank the top 5 countries by total number of elements inscribed on UNESCO’s Intangible Cultural Heritage lists (highest to lowest); if tied, order by earliest first inscription year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic covers UNESCO’s Intangible Cultural Heritage lists, which is unrelated to sports, energy, or Grammy Awards, the themes of the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 10
         }
     ]
 }
