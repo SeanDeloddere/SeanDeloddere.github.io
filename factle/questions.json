@@ -349,6 +349,41 @@
                 "India"
             ],
             "source": "https://sportstar.thehindu.com/hockey/fih-world-cup-which-team-has-won-most-titles-pakistan-australia-netherlands/article66329538.ece"
+        },
+        {
+            "id": 11,
+            "date": "2026-02-24",
+            "question": "Rank the top 5 nations by most Davis Cup titles (all-time), from most to fewest.",
+            "options": [
+                "United States",
+                "Australia",
+                "France",
+                "Great Britain",
+                "Sweden",
+                "Spain",
+                "Germany",
+                "Russia",
+                "Italy",
+                "Czech Republic",
+                "Czechoslovakia",
+                "Croatia",
+                "Serbia",
+                "Switzerland",
+                "Argentina",
+                "Canada",
+                "Slovakia",
+                "Belgium",
+                "India",
+                "Romania"
+            ],
+            "answers": [
+                "United States",
+                "Australia",
+                "France",
+                "Great Britain",
+                "Sweden"
+            ],
+            "source": "https://www.topendsports.com/events/tennis/davis-cup/winners.htm"
         }
     ]
 }
