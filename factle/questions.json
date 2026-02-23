@@ -314,41 +314,6 @@
                 "Alison Krauss"
             ],
             "source": "https://people.com/see-the-top-artists-with-the-most-grammy-wins-11895561"
-        },
-        {
-            "id": 10,
-            "date": "2026-02-23",
-            "question": "Rank the top 5 U.S. Historically Black Colleges and Universities (HBCUs) by undergraduate enrollment (latest available year), largest to smallest.",
-            "options": [
-                "North Carolina A&T State University",
-                "Howard University",
-                "Prairie View A&M University",
-                "Florida A&M University",
-                "Morgan State University",
-                "Southern University and A&M College",
-                "Texas Southern University",
-                "North Carolina Central University",
-                "Alabama A&M University",
-                "Jackson State University",
-                "Tennessee State University",
-                "Savannah State University",
-                "Norfolk State University",
-                "Bowie State University",
-                "Virginia State University",
-                "Grambling State University",
-                "South Carolina State University",
-                "Alcorn State University",
-                "Bethune-Cookman University",
-                "Hampton University"
-            ],
-            "answers": [
-                "North Carolina A&T State University",
-                "Howard University",
-                "Prairie View A&M University",
-                "Florida A&M University",
-                "Morgan State University"
-            ],
-            "source": "https://hbculifestyle.com/hbcu-rankings-2026-the-top-25-leading-colleges/"
         }
     ]
 }

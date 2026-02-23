@@ -92,6 +92,7 @@ BLOCKED_TOPICS = [
     "epstein", "abuse", "assault", "scandal", "death toll",
     "massacre", "genocide", "suicide", "rape", "trafficking",
     "war crime", "hate crime", "extremism", "conspiracy",
+    "race", "racial", "ethnicity", "ethnic",
 ]
 
 # ---------------------------------------------------------------------------
