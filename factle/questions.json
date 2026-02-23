@@ -314,6 +314,41 @@
                 "Alison Krauss"
             ],
             "source": "https://people.com/see-the-top-artists-with-the-most-grammy-wins-11895561"
+        },
+        {
+            "id": 10,
+            "date": "2026-02-23",
+            "question": "Rank the top 5 national teams by most Men's Hockey World Cup titles (all-time).",
+            "options": [
+                "Pakistan",
+                "Australia",
+                "Germany",
+                "Netherlands",
+                "India",
+                "Belgium",
+                "Spain",
+                "England",
+                "Argentina",
+                "South Korea",
+                "New Zealand",
+                "Malaysia",
+                "South Africa",
+                "France",
+                "Japan",
+                "China",
+                "Ireland",
+                "Canada",
+                "Scotland",
+                "Wales"
+            ],
+            "answers": [
+                "Pakistan",
+                "Australia",
+                "Germany",
+                "Netherlands",
+                "India"
+            ],
+            "source": "https://sportstar.thehindu.com/hockey/fih-world-cup-which-team-has-won-most-titles-pakistan-australia-netherlands/article66329538.ece"
         }
     ]
 }
