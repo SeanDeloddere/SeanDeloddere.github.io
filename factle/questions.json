@@ -384,6 +384,41 @@
                 "Sweden"
             ],
             "source": "https://www.topendsports.com/events/tennis/davis-cup/winners.htm"
+        },
+        {
+            "id": 12,
+            "date": "2026-02-25",
+            "question": "Rank the top 5 athletes by total Winter Olympic medals (all-time, through Beijing 2022). Use total medals; break ties by most golds, then silvers.",
+            "options": [
+                "Marit Bjørgen",
+                "Ireen Wüst",
+                "Ole Einar Bjørndalen",
+                "Bjorn Dæhlie",
+                "Raisa Smetanina",
+                "Stefania Belmondo",
+                "Claudia Pechstein",
+                "Lyubov Yegorova",
+                "Uschi Disl",
+                "Sven Kramer",
+                "Sixten Jernberg",
+                "Kjetil André Aamodt",
+                "Apolo Anton Ohno",
+                "Ricco Groß",
+                "Sven Fischer",
+                "Felix Loch",
+                "Johannes Thingnes Bø",
+                "Martin Fourcade",
+                "Marja-Liisa Kirvesniemi",
+                "Natalie Geisenberger"
+            ],
+            "answers": [
+                "Marit Bjørgen",
+                "Ireen Wüst",
+                "Ole Einar Bjørndalen",
+                "Bjorn Dæhlie",
+                "Raisa Smetanina"
+            ],
+            "source": "https://www.statista.com/statistics/266628/winter-olympic-games-the-most-successful-athletes/?srsltid=AfmBOooIQ1MyqCuT1vx-bOMspVeMTztGXaYh2qutaZEIMnBhZb4J81WU"
         }
     ]
 }
