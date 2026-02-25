@@ -419,6 +419,41 @@
                 "Raisa Smetanina"
             ],
             "source": "https://www.statista.com/statistics/266628/winter-olympic-games-the-most-successful-athletes/?srsltid=AfmBOooIQ1MyqCuT1vx-bOMspVeMTztGXaYh2qutaZEIMnBhZb4J81WU"
+        },
+        {
+            "id": 13,
+            "date": "2026-02-26",
+            "question": "Rank the five largest countries by land area from largest to smallest.",
+            "options": [
+                "Russia",
+                "Canada",
+                "United States",
+                "China",
+                "Brazil",
+                "Australia",
+                "India",
+                "Argentina",
+                "Kazakhstan",
+                "Algeria",
+                "Democratic Republic of the Congo",
+                "Saudi Arabia",
+                "Mexico",
+                "Indonesia",
+                "Sudan",
+                "Libya",
+                "Iran",
+                "Mongolia",
+                "Peru",
+                "Chad"
+            ],
+            "answers": [
+                "Russia",
+                "Canada",
+                "United States",
+                "China",
+                "Brazil"
+            ],
+            "source": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
         }
     ]
 }
