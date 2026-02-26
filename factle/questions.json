@@ -454,6 +454,41 @@
                 "Brazil"
             ],
             "source": "https://www.britannica.com/topic/list-of-the-total-areas-of-the-worlds-countries-dependencies-and-territories-2130540"
+        },
+        {
+            "id": 14,
+            "date": "2026-02-27",
+            "question": "Rank the top 5 golfers by most Masters Tournament victories (all-time), from most to fewer; if tied on wins, break ties by the earliest year of the golfer's first Masters win (earlier first win ranks higher).",
+            "options": [
+                "Jack Nicklaus",
+                "Tiger Woods",
+                "Arnold Palmer",
+                "Jimmy Demaret",
+                "Sam Snead",
+                "Gary Player",
+                "Nick Faldo",
+                "Phil Mickelson",
+                "Ben Hogan",
+                "Tom Watson",
+                "Seve Ballesteros",
+                "Byron Nelson",
+                "Bernhard Langer",
+                "José María Olazábal",
+                "Bubba Watson",
+                "Jordan Spieth",
+                "Dustin Johnson",
+                "Scottie Scheffler",
+                "Vijay Singh",
+                "Adam Scott"
+            ],
+            "answers": [
+                "Jack Nicklaus",
+                "Tiger Woods",
+                "Arnold Palmer",
+                "Jimmy Demaret",
+                "Sam Snead"
+            ],
+            "source": "https://sports.betmgm.ca/en/blog/pga/who-has-most-masters-wins-in-golf-history-bm21/"
         }
     ]
 }
