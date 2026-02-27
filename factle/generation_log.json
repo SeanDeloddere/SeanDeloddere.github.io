@@ -11833,6 +11833,692 @@
                 ]
             },
             "question_id": 14
+        },
+        {
+            "date": "2026-02-28",
+            "topics_discovered": [
+                {
+                    "topic": "2026 FIFA World Cup betting markets open",
+                    "suggested_question": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer.",
+                    "connection": "With the 2026 World Cup hype building and betting markets opening, this list spotlights historic World Cup performance as fans look ahead."
+                },
+                {
+                    "topic": "Weekend skywatching: Moon near Regulus and Spica in February",
+                    "suggested_question": "Rank the top 5 brightest stars in the night sky by apparent magnitude (excluding the Sun), from brightest to less bright.",
+                    "connection": "Regulus (Leo) and Spica (Virgo) are highlighted in February observing guides, making a brightness ranking timely for skywatchers."
+                },
+                {
+                    "topic": "Awards season: The Actor Awards (formerly SAG Awards) on March 1",
+                    "suggested_question": "Rank the top 5 performers by most individual SAG Awards wins (career, across film and TV acting categories).",
+                    "connection": "With the SAG Awards imminent, this celebrates all-time leaders in acting honors during peak awards season."
+                },
+                {
+                    "topic": "Feb 28: National Public Speaking Day",
+                    "suggested_question": "Rank the top 5 most-viewed TED Talks on TED.com as of Feb 28, 2026, from most to fewer views.",
+                    "connection": "Public Speaking Day is a perfect moment to highlight the most-watched talks that exemplify effective communication."
+                },
+                {
+                    "topic": "Mexico in the spotlight: ATP Acapulco and UFC Fight Night in Mexico City",
+                    "suggested_question": "Rank the top 5 Mexican states by number of UNESCO World Heritage Sites, from most to fewer.",
+                    "connection": "With major events in Mexico this week, this cultural geography ranking connects audiences to Mexico’s heritage hotspots."
+                },
+                {
+                    "topic": "Meta in headlines",
+                    "suggested_question": "Rank the top 5 social platforms by global monthly active users (MAUs) as of early 2026, from most to fewer.",
+                    "connection": "Meta-related news puts social media scale in focus; MAU rankings are a timely tech/business metric."
+                },
+                {
+                    "topic": "Feb 27: National Polar Bear Day",
+                    "suggested_question": "Rank the top 5 countries by estimated wild polar bear population, from largest to smaller populations.",
+                    "connection": "Polar Bear Day invites a nature-focused look at where polar bears live, grounded in conservation estimates."
+                },
+                {
+                    "topic": "United Center, Chicago hosting WWE Elimination Chamber on Feb 28",
+                    "suggested_question": "Rank the top 5 largest indoor arenas in the United States by maximum seating capacity for basketball, from largest to smaller.",
+                    "connection": "With a marquee event at the United Center, it’s a timely moment to compare America’s biggest indoor venues."
+                },
+                {
+                    "topic": "2026 Commonwealth Games approaching",
+                    "suggested_question": "Rank the top 5 countries by total Commonwealth Games gold medals (all-time), from most to fewer.",
+                    "connection": "As the Commonwealth Games near, this highlights historical leaders across the multi-sport event’s long history."
+                },
+                {
+                    "topic": "Winter Paralympics 2026 on the horizon",
+                    "suggested_question": "Rank the top 5 nations by total Winter Paralympic gold medals (all-time through 2022), from most to fewer.",
+                    "connection": "With the Winter Paralympics approaching, this honors countries with standout performances in Paralympic winter sports."
+                },
+                {
+                    "topic": "Seasonal fallback: Pokémon Day (Feb 27)",
+                    "suggested_question": "Rank the top 5 best-selling Pokémon video game titles worldwide, from most to fewer units sold.",
+                    "connection": "Pokémon Day just passed, making a sales-based gaming ranking a fun, timely cultural tie-in."
+                },
+                {
+                    "topic": "Seasonal fallback: Valentine’s season",
+                    "suggested_question": "Rank the top 5 countries that spend the most on Valentine’s Day, from highest to lower total spend.",
+                    "connection": "February is Valentine’s month; comparing national spending levels taps into seasonal consumer trends."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "2026 FIFA World Cup betting markets open",
+                    "suggested_question": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer.",
+                    "connection": "With the 2026 World Cup hype building and betting markets opening, this list spotlights historic World Cup performance as fans look ahead.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on FIFA World Cup match wins by men's national teams, a specific topic in football history. None of the existing questions cover this specific metric or focus."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer.",
+                        "answers": [
+                            "Brazil",
+                            "Germany",
+                            "Argentina",
+                            "Italy",
+                            "France"
+                        ],
+                        "distractors": [
+                            "Spain",
+                            "Netherlands",
+                            "England",
+                            "Uruguay",
+                            "Mexico",
+                            "Portugal",
+                            "Belgium",
+                            "Sweden",
+                            "Hungary",
+                            "Russia",
+                            "Poland",
+                            "Chile",
+                            "Romania",
+                            "Croatia",
+                            "Switzerland"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics#Team_records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "FIFA World Cup most matches won by national team men all-time through 2022 site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+                            },
+                            {
+                                "title": "FIFA World Cup records and statistics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                            },
+                            {
+                                "title": "2022 FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+                            },
+                            {
+                                "title": "National team appearances in the FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup"
+                            },
+                            {
+                                "title": "List of men's footballers with 100 or more international caps",
+                                "url": "https://en.wikipedia.org/wiki/List_of_men%27s_footballers_with_100_or_more_international_caps"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers are partially correct, but the order is incorrect. Based on the source, Brazil leads with 76 wins, followed by Germany (68 wins), Italy (45 wins), Argentina (47 wins), and France (34 wins). The source provides clear data on the total match wins at the FIFA World Cup up to 2022. Consequently, the corrected list rearranges the nations in the proper order based on their win total.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Argentina",
+                            "Italy",
+                            "France"
+                        ],
+                        "corrected_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer. Brazil vs Germany ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All time World Cup team rankings 2022",
+                                "url": "https://www.statista.com/statistics/262903/all-time-standings-of-national-soccer-teams-at-the-world-cup-since-1930/?srsltid=AfmBOoq1TK6EykiKRB_fbKkDPXau-W6S9D3TXwLeMlw5YJRSxCY8F8KK"
+                            },
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most World Cups by Country 2025",
+                                "url": "https://worldpopulationreview.com/country-rankings/most-world-cups-by-country"
+                            },
+                            {
+                                "title": "Most FIFA World Cup Wins Till 2024",
+                                "url": "https://www.jagranjosh.com/general-knowledge/most-fifa-world-cup-wins-1728452895-1"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The sources provided discuss the number of World Cup titles won but do not directly specify the all-time number of World Cup match wins. The corrected order cannot be confirmed conclusively from this data.",
+                        "best_source": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                    },
+                    "verification_search_iter1": {
+                        "query": "FIFA World Cup most matches won by national team men all-time through 2022 site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+                            },
+                            {
+                                "title": "FIFA World Cup records and statistics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                            },
+                            {
+                                "title": "2022 FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+                            },
+                            {
+                                "title": "National team appearances in the FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup"
+                            },
+                            {
+                                "title": "List of men's footballers with 100 or more international caps",
+                                "url": "https://en.wikipedia.org/wiki/List_of_men%27s_footballers_with_100_or_more_international_caps"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources include information about records and statistics for the FIFA World Cup, but none explicitly address the ranking of the top 5 national teams by most FIFA World Cup match wins through 2022. As a result, I cannot verify the accuracy of the proposed answers or their order using the provided data.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer. Brazil Germany ranking",
+                        "sources_found": [
+                            {
+                                "title": "Teams with the most FIFA World Cup wins",
+                                "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-victories-wins"
+                            },
+                            {
+                                "title": "All time World Cup team rankings 2022 - Statista",
+                                "url": "https://www.statista.com/statistics/262903/all-time-standings-of-national-soccer-teams-at-the-world-cup-since-1930/?srsltid=AfmBOoqAPe5m9ELItYrzSmhRELmpJDO-Hmuc-nTjUWyQhQ4B-zRZTCWm"
+                            },
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most FIFA World Cup Wins Till 2024: Teams with the Most Titles",
+                                "url": "https://www.jagranjosh.com/general-knowledge/most-fifa-world-cup-wins-1728452895-1"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The FIFA source explicitly states match win counts for Brazil (76), Germany (68), and Argentina (47). From additional research, Italy has 45 match wins, and France has 34 match wins. The original proposed order incorrectly had Italy placed above Argentina, but the actual match win data places Argentina above Italy. The corrected order based on match wins is: Brazil, Germany, Italy, Argentina, France.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "corrected_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "best_source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-victories-wins"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer. Brazil vs Germany ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All time World Cup team rankings 2022",
+                                "url": "https://www.statista.com/statistics/262903/all-time-standings-of-national-soccer-teams-at-the-world-cup-since-1930/?srsltid=AfmBOoq1TK6EykiKRB_fbKkDPXau-W6S9D3TXwLeMlw5YJRSxCY8F8KK"
+                            },
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most World Cups by Country 2025",
+                                "url": "https://worldpopulationreview.com/country-rankings/most-world-cups-by-country"
+                            },
+                            {
+                                "title": "Most FIFA World Cup Wins Till 2024",
+                                "url": "https://www.jagranjosh.com/general-knowledge/most-fifa-world-cup-wins-1728452895-1"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The provided sources focus on total World Cup titles won rather than all-time FIFA World Cup match wins. Therefore, the corrected order cannot be confirmed based on the current data.",
+                        "best_source": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                    }
+                },
+                {
+                    "topic": "Weekend skywatching: Moon near Regulus and Spica in February",
+                    "suggested_question": "Rank the top 5 brightest stars in the night sky by apparent magnitude (excluding the Sun), from brightest to less bright.",
+                    "connection": "Regulus (Leo) and Spica (Virgo) are highlighted in February observing guides, making a brightness ranking timely for skywatchers.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking the brightest stars by apparent magnitude, which is an astronomy-specific topic and does not overlap with any of the previously used questions that are primarily about rankings in sports, countries, or achievements."
+                    },
+                    "generated_question": {
+                        "question": "Rank the five brightest stars in the night sky (excluding the Sun) by apparent magnitude, from brightest to less bright.",
+                        "answers": [
+                            "Sirius",
+                            "Canopus",
+                            "Alpha Centauri",
+                            "Arcturus",
+                            "Vega"
+                        ],
+                        "distractors": [
+                            "Capella",
+                            "Rigel",
+                            "Procyon",
+                            "Achernar",
+                            "Betelgeuse",
+                            "Altair",
+                            "Aldebaran",
+                            "Spica",
+                            "Antares",
+                            "Pollux",
+                            "Fomalhaut",
+                            "Deneb",
+                            "Regulus",
+                            "Castor",
+                            "Acrux"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_brightest_stars"
+                    },
+                    "verification_search_iter0": {
+                        "query": "top 5 brightest stars apparent magnitude ranking Sirius Canopus Alpha Centauri Arcturus Vega",
+                        "sources_found": [
+                            {
+                                "title": "Brightest Stars in the Sky",
+                                "url": "https://labelstars.com/en/blog/brightest-stars-in-the-sky.html"
+                            },
+                            {
+                                "title": "What are the 10 brightest stars in the sky? - Facebook",
+                                "url": "https://www.facebook.com/groups/seestar/posts/363353013143654/"
+                            },
+                            {
+                                "title": "The 10 Brightest Stars in the Night Sky",
+                                "url": "https://penningtonplanetarium.wordpress.com/2016/02/04/the-10-brightest-stars/"
+                            },
+                            {
+                                "title": "The 10 Brightest Stars In The Sky - Farmers' Almanac",
+                                "url": "https://www.farmersalmanac.com/10-brightest-stars"
+                            },
+                            {
+                                "title": "Brightest Stars - JIM KALER",
+                                "url": "http://stars.astro.illinois.edu/sow/bright.html"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "VERIFIED",
+                        "reason": "The Pennington Planetarium source confirms the five proposed answers are correct and in the right order based on their apparent magnitude: Sirius (-1.46), Canopus (-0.72), Alpha Centauri (-0.27), Arcturus (-0.05), and Vega (0.03). The ranking matches the source data.",
+                        "proposed_answers": [
+                            "Sirius",
+                            "Canopus",
+                            "Alpha Centauri",
+                            "Arcturus",
+                            "Vega"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://penningtonplanetarium.wordpress.com/2016/02/04/the-10-brightest-stars/"
+                    },
+                    "question_id": 15,
+                    "final_answers": [
+                        "Sirius",
+                        "Canopus",
+                        "Alpha Centauri",
+                        "Arcturus",
+                        "Vega"
+                    ],
+                    "final_source": "https://labelstars.com/en/blog/brightest-stars-in-the-sky.html"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening February 28, 2026",
+                        "results": [
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "Elimination ChamberFeb 28, 2026United CenterChicago, IL · UFC Fight Night: Moreno vs KavanaghFeb 28, 2026Arena CDMX Mexico"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "Sports Events Calendar - Score and Change",
+                                "url": "https://www.scoreandchange.com/sports_events/",
+                                "snippet": "21 – 28 February 2026 | Acapulco, Mexico | website. Dubai Duty Free Tennis Championships (tennis men) 23 – 28 February 2026 | Dubai, United Arab Emirates |"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "| 10–18 | Ice hockey | 2026 IIHF U18 Women's World Championship | International | United States |. | 12–18 | Bandy | 2026 Bandy World Championship  2026 Women's Bandy World Championship | Internationa"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays February 2026",
+                        "results": [
+                            {
+                                "title": "DEI Observances in February",
+                                "url": "https://www.cultureally.com/blog/observances-in-february",
+                                "snippet": "# February 2026 Observances. February brings a mix of observances, from celebrating love on Valentine’s Day to honoring the legacy and impact of Black History Month. * **February 1-28** **Black Histor"
+                            },
+                            {
+                                "title": "February 2026 Global Holidays: National Days & Festivals Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/",
+                                "snippet": "*   [![Image 3](blob:http://localhost/d883beb4362fe84660fab16ca0c3a516)English (US)English (US)](https://www.remitly.com/blog/lifestyle-culture/february-national-global-holidays/ \"English (US)\"). *   "
+                            },
+                            {
+                                "title": "Diversity Calendar 2026: DEI Inclusion Events, Cultural ...",
+                                "url": "https://www.diversityresources.com/diversity-calendar-2026/",
+                                "snippet": "February recognizes Black History Month, celebrating the achievements, history, and impact of Black Americans. The month includes cultural,"
+                            },
+                            {
+                                "title": "February Awareness & Heritage Months: A Complete 2026 Guide",
+                                "url": "https://www.verbate.io/knowledge-center/february-awareness-heritage-months",
+                                "snippet": "[Anisha Nandi](https://www.verbate.io/knowledge-center/february-awareness-heritage-months#). [Awareness Months](https://www.verbate.io/knowledge-center/february-awareness-heritage-months#). [Heritage "
+                            },
+                            {
+                                "title": "Important february celebrations in 2026 - Facebook",
+                                "url": "https://www.facebook.com/groups/2297531780465364/posts/4267282326823623/",
+                                "snippet": "Important february celebrations in 2026. Summarized by AI from the post below. · January 31 at 2:39 PM ·. Image 2: May be an image of ‎text that says '‎עעהווס Important Celebrations This February 2026"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences February 2026",
+                        "results": [
+                            {
+                                "title": "HCM Excellence Award Ceremony and Gala - Brandon Hall Awards",
+                                "url": "https://excellenceawards.brandonhall.com/gala/",
+                                "snippet": "# THE AWARDS CEREMONY & GALA. #### AT THE ANNUAL HCM EXCELLENCE CONFERENCE. The annual HCM Excellence Conference returns February 9 – 12, 2026 to honor winners of the 2025 Excellence Awards Spring and"
+                            },
+                            {
+                                "title": "Chandler International Film Festival Award Ceremony",
+                                "url": "https://chandlercenter.org/events/chandler-international-film-festival-award-ceremony-0",
+                                "snippet": "# Chandler International Film Festival Award Ceremony. BUY TICKETSfor Chandler International Film Festival Award Ceremony. ### Join Us for the 2026 Chandler International Film Festival Gala Dinner & A"
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026 Awards Season Calendar: Dates For Oscars, Guilds, Tonys & More · February. 26: Artios Awards · March. 1: The Actor Awards (fka SAG Awards)."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "AACTA Festival",
+                                "url": "https://www.aactafestival.com/",
+                                "snippet": "## Explore 2026 Gallery. See the highlights of five days of industry-leading discussions, workshops and events. ###### Romeo + Juliet (1996) 30th Anniversary. ###### Australian Premiere – EPiC: Elvis "
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week February 28, 2026",
+                        "results": [
+                            {
+                                "title": "Read the full article in Weekend Witness on Saturday, February 28 ...",
+                                "url": "https://www.facebook.com/WitnessKZN/posts/read-the-full-article-in-weekend-witness-on-saturday-february-28-2026/1506540644807504/",
+                                "snippet": "Other notable events include: - *Moon near Beehive Cluster*: February - *Moon near Regulus*: February 3 - *Moon near Spica*: February 7"
+                            },
+                            {
+                                "title": "Read the full article in Weekend Witness on Saturday, February 28 ...",
+                                "url": "https://www.facebook.com/WitnessKZN/posts/read-the-full-article-in-weekend-witness-on-saturday-february-28-2026/1506540978140804/",
+                                "snippet": "Other notable events include: - *Moon near Beehive Cluster*: February - *Moon near Regulus*: February 3 - *Moon near Spica*: February 7"
+                            },
+                            {
+                                "title": "5 things to know for Feb. 28: Minerals deal, Mass firings ...",
+                                "url": "https://www.cnn.com/2025/02/28/us/5-things-to-know-for-feb-28-minerals-deal-mass-firings-tropical-cyclone-meta-oscars",
+                                "snippet": "# 5 things to know for Feb. 28: Minerals deal, Mass firings, Tropical cyclone, Meta, Oscars. Ukrainian President Volodymyr Zelensky is set to meet with President Donald Trump at the White House today "
+                            },
+                            {
+                                "title": "Top news headlines for Friday, February 28 - Yahoo",
+                                "url": "https://www.yahoo.com/news/top-news-headlines-friday-february-144930888.html",
+                                "snippet": "Judge blocks release of special counsel Jack Smith's report on Trump classified documents case. WASHINGTON (AP) — A federal judge on Monday permanently barred the release of a report by special counse"
+                            },
+                            {
+                                "title": "What Happens on February 28, 2026",
+                                "url": "https://www.onthisday.com/date/2026/february/28",
+                                "snippet": "# What Happens on February 28, 2026. ## About February 28, 2026. **Day of the Week:** Saturday. **How Far Away?** 4 days. ## No Entries for February 28, 2026. * See 110 things that happened in **Febru"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days February 28",
+                        "results": [
+                            {
+                                "title": "Who all birthday is on February 28th? - Facebook",
+                                "url": "https://www.facebook.com/groups/733788986805952/posts/2963668677151294/",
+                                "snippet": "Feb. 28 National Public Speaking Day - birthdays: 1533 - Michel de Montaigne (French philosopher and essayist (Essais)) / 1833 – Alfred von"
+                            },
+                            {
+                                "title": "Famous birthdays for Feb. 28: Mario Andretti, Cindy Wilson - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-feb-28-mario-080006378.html",
+                                "snippet": "File Photo by James Atoa/UPI. File Photo by Jim Ruymen/UPI. -- International Motorsports Hall of Fame member Mario Andretti in 1940 (age 85). -- Actor Kelly Bishop in 1944 (age 81). -- Actor Bernadett"
+                            },
+                            {
+                                "title": "Today's famous birthdays list for February 28, 2022 includes ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/02/todays-famous-birthdays-list-for-february-28-2022-includes-celebrities-john-turturro-jason-aldean.html",
+                                "snippet": "Today's famous birthdays list for February 28, 2022 includes celebrities John Turturro, Jason Aldean ... Actor True O'Brien (“Days of Our Lives”)"
+                            },
+                            {
+                                "title": "February 28 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/february-28-birthdays/",
+                                "snippet": "February 28th birthdays. Feb28. Country Singer. Jason Aldean. Feb28. YouTube Star. LunarEclipse. 6,184 Days celebrated; 18,552 Ways to celebrate"
+                            },
+                            {
+                                "title": "FEBRUARY 28 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/february/february-28-birthdays-and-events",
+                                "snippet": "Notable Birthdays for February 28 · Memorable Events for February 28 · FEBRUARY 27, 2026 | NATIONAL POLAR BEAR DAY | POKÉMON DAY | NATIONAL RETRO DAY | NATIONAL"
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "2026 FIFA World Cup betting markets open",
+                        "suggested_question": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer.",
+                        "connection": "With the 2026 World Cup hype building and betting markets opening, this list spotlights historic World Cup performance as fans look ahead."
+                    },
+                    {
+                        "topic": "Weekend skywatching: Moon near Regulus and Spica in February",
+                        "suggested_question": "Rank the top 5 brightest stars in the night sky by apparent magnitude (excluding the Sun), from brightest to less bright.",
+                        "connection": "Regulus (Leo) and Spica (Virgo) are highlighted in February observing guides, making a brightness ranking timely for skywatchers."
+                    },
+                    {
+                        "topic": "Awards season: The Actor Awards (formerly SAG Awards) on March 1",
+                        "suggested_question": "Rank the top 5 performers by most individual SAG Awards wins (career, across film and TV acting categories).",
+                        "connection": "With the SAG Awards imminent, this celebrates all-time leaders in acting honors during peak awards season."
+                    },
+                    {
+                        "topic": "Feb 28: National Public Speaking Day",
+                        "suggested_question": "Rank the top 5 most-viewed TED Talks on TED.com as of Feb 28, 2026, from most to fewer views.",
+                        "connection": "Public Speaking Day is a perfect moment to highlight the most-watched talks that exemplify effective communication."
+                    },
+                    {
+                        "topic": "Mexico in the spotlight: ATP Acapulco and UFC Fight Night in Mexico City",
+                        "suggested_question": "Rank the top 5 Mexican states by number of UNESCO World Heritage Sites, from most to fewer.",
+                        "connection": "With major events in Mexico this week, this cultural geography ranking connects audiences to Mexico’s heritage hotspots."
+                    },
+                    {
+                        "topic": "Meta in headlines",
+                        "suggested_question": "Rank the top 5 social platforms by global monthly active users (MAUs) as of early 2026, from most to fewer.",
+                        "connection": "Meta-related news puts social media scale in focus; MAU rankings are a timely tech/business metric."
+                    },
+                    {
+                        "topic": "Feb 27: National Polar Bear Day",
+                        "suggested_question": "Rank the top 5 countries by estimated wild polar bear population, from largest to smaller populations.",
+                        "connection": "Polar Bear Day invites a nature-focused look at where polar bears live, grounded in conservation estimates."
+                    },
+                    {
+                        "topic": "United Center, Chicago hosting WWE Elimination Chamber on Feb 28",
+                        "suggested_question": "Rank the top 5 largest indoor arenas in the United States by maximum seating capacity for basketball, from largest to smaller.",
+                        "connection": "With a marquee event at the United Center, it’s a timely moment to compare America’s biggest indoor venues."
+                    },
+                    {
+                        "topic": "2026 Commonwealth Games approaching",
+                        "suggested_question": "Rank the top 5 countries by total Commonwealth Games gold medals (all-time), from most to fewer.",
+                        "connection": "As the Commonwealth Games near, this highlights historical leaders across the multi-sport event’s long history."
+                    },
+                    {
+                        "topic": "Winter Paralympics 2026 on the horizon",
+                        "suggested_question": "Rank the top 5 nations by total Winter Paralympic gold medals (all-time through 2022), from most to fewer.",
+                        "connection": "With the Winter Paralympics approaching, this honors countries with standout performances in Paralympic winter sports."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Pokémon Day (Feb 27)",
+                        "suggested_question": "Rank the top 5 best-selling Pokémon video game titles worldwide, from most to fewer units sold.",
+                        "connection": "Pokémon Day just passed, making a sales-based gaming ranking a fun, timely cultural tie-in."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Valentine’s season",
+                        "suggested_question": "Rank the top 5 countries that spend the most on Valentine’s Day, from highest to lower total spend.",
+                        "connection": "February is Valentine’s month; comparing national spending levels taps into seasonal consumer trends."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 12,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "2026 FIFA World Cup betting markets open",
+                        "suggested_question": "Rank the top 5 national teams by most FIFA World Cup match wins (men’s, all-time through 2022), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to FIFA World Cup match wins, which is unrelated to the themes of rugby, music awards, field hockey, tennis, Winter Olympics, countries by land area, or golf covered in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Weekend skywatching: Moon near Regulus and Spica in February",
+                        "suggested_question": "Rank the top 5 brightest stars in the night sky by apparent magnitude (excluding the Sun), from brightest to less bright.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about brightest stars in the night sky focuses on astronomy, which is unrelated to any of the recently covered topics that center around sports, awards, and geography.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season: The Actor Awards (formerly SAG Awards) on March 1",
+                        "suggested_question": "Rank the top 5 performers by most individual SAG Awards wins (career, across film and TV acting categories).",
+                        "recently_covered": true,
+                        "reason": "The proposed topic about SAG Awards overlaps with the recent question on total Grammy Awards, as both are focused on awards for artistic achievements in entertainment.",
+                        "overlaps_with": "[2026-02-22] Rank the top 5 artists by total Grammy Awards won (career, all-time, as of Feb 1, 2026)."
+                    },
+                    {
+                        "topic": "Feb 28: National Public Speaking Day",
+                        "suggested_question": "Rank the top 5 most-viewed TED Talks on TED.com as of Feb 28, 2026, from most to fewer views.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on TED Talk viewership, which is unrelated to sports, awards, geography, or Olympic achievements covered in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Mexico in the spotlight: ATP Acapulco and UFC Fight Night in Mexico City",
+                        "suggested_question": "Rank the top 5 Mexican states by number of UNESCO World Heritage Sites, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Mexican states and UNESCO World Heritage Sites, which is unrelated to any of the recent questions that focus on sports achievements, Grammy Awards, or geography on a global scale.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Meta in headlines",
+                        "suggested_question": "Rank the top 5 social platforms by global monthly active users (MAUs) as of early 2026, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about global social platform usage, which is unrelated to the sports, geography, and awards topics of recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Feb 27: National Polar Bear Day",
+                        "suggested_question": "Rank the top 5 countries by estimated wild polar bear population, from largest to smaller populations.",
+                        "recently_covered": false,
+                        "reason": "Polar bear populations are a wildlife and ecological topic, which is distinct from the sports, music, and geography themes of the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "United Center, Chicago hosting WWE Elimination Chamber on Feb 28",
+                        "suggested_question": "Rank the top 5 largest indoor arenas in the United States by maximum seating capacity for basketball, from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on indoor arena capacities in the United States, which does not overlap with any of the recent questions, as none addressed indoor arenas or related topics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "2026 Commonwealth Games approaching",
+                        "suggested_question": "Rank the top 5 countries by total Commonwealth Games gold medals (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic covers Commonwealth Games history, which is distinct from the themes of any recent questions. None of the recent questions involve the Commonwealth Games or similar multi-sport international competitions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Winter Paralympics 2026 on the horizon",
+                        "suggested_question": "Rank the top 5 nations by total Winter Paralympic gold medals (all-time through 2022), from most to fewer.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic focuses on rankings related to Winter Paralympics, which overlaps in subject area with the recent question on Winter Olympics medals - both share the Winter sports and global competition theme.",
+                        "overlaps_with": "[2026-02-25] Rank the top 5 athletes by total Winter Olympic medals (all-time, through Beijing 2022)."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Pokémon Day (Feb 27)",
+                        "suggested_question": "Rank the top 5 best-selling Pokémon video game titles worldwide, from most to fewer units sold.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Pokémon video game sales, which is unrelated to the recent questions that cover sports, awards, geography, and the Olympics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Valentine’s season",
+                        "suggested_question": "Rank the top 5 countries that spend the most on Valentine’s Day, from highest to lower total spend.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Valentine’s Day spending focuses on consumer habits and holidays, which is unrelated to the sports, geography, or awards themes of the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 15
         }
     ]
 }

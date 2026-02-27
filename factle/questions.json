@@ -489,6 +489,41 @@
                 "Sam Snead"
             ],
             "source": "https://sports.betmgm.ca/en/blog/pga/who-has-most-masters-wins-in-golf-history-bm21/"
+        },
+        {
+            "id": 15,
+            "date": "2026-02-28",
+            "question": "Rank the five brightest stars in the night sky (excluding the Sun) by apparent magnitude, from brightest to less bright.",
+            "options": [
+                "Sirius",
+                "Canopus",
+                "Alpha Centauri",
+                "Arcturus",
+                "Vega",
+                "Capella",
+                "Rigel",
+                "Procyon",
+                "Achernar",
+                "Betelgeuse",
+                "Altair",
+                "Aldebaran",
+                "Spica",
+                "Antares",
+                "Pollux",
+                "Fomalhaut",
+                "Deneb",
+                "Regulus",
+                "Castor",
+                "Acrux"
+            ],
+            "answers": [
+                "Sirius",
+                "Canopus",
+                "Alpha Centauri",
+                "Arcturus",
+                "Vega"
+            ],
+            "source": "https://labelstars.com/en/blog/brightest-stars-in-the-sky.html"
         }
     ]
 }
