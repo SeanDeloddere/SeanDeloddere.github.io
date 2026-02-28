@@ -524,6 +524,41 @@
                 "Vega"
             ],
             "source": "https://labelstars.com/en/blog/brightest-stars-in-the-sky.html"
+        },
+        {
+            "id": 16,
+            "date": "2026-03-01",
+            "question": "Rank the top 5 World Marathon Majors courses by fastest men's official course record times (as of March 1, 2026), from fastest to slower.",
+            "options": [
+                "Chicago Marathon",
+                "Berlin Marathon",
+                "London Marathon",
+                "Tokyo Marathon",
+                "Boston Marathon",
+                "New York City Marathon",
+                "Valencia Marathon",
+                "Rotterdam Marathon",
+                "Amsterdam Marathon",
+                "Dubai Marathon",
+                "Paris Marathon",
+                "Seville Marathon",
+                "Frankfurt Marathon",
+                "Prague Marathon",
+                "Hamburg Marathon",
+                "Milan Marathon",
+                "Lake Biwa Marathon",
+                "Fukuoka Marathon",
+                "Seoul Marathon",
+                "Shanghai Marathon"
+            ],
+            "answers": [
+                "Chicago Marathon",
+                "Berlin Marathon",
+                "London Marathon",
+                "Tokyo Marathon",
+                "Boston Marathon"
+            ],
+            "source": "https://www.sub3-marathon.com/world-marathon-rankings-2026/"
         }
     ]
 }
