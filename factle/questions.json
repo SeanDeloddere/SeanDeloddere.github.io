@@ -559,6 +559,41 @@
                 "Boston Marathon"
             ],
             "source": "https://www.sub3-marathon.com/world-marathon-rankings-2026/"
+        },
+        {
+            "id": 17,
+            "date": "2026-03-02",
+            "question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+            "options": [
+                "Novak Djokovic",
+                "Roger Federer",
+                "Jimmy Connors",
+                "Michael Chang",
+                "Rafael Nadal",
+                "Pete Sampras",
+                "Lleyton Hewitt",
+                "Andre Agassi",
+                "Carlos Alcaraz",
+                "Taylor Fritz",
+                "Cameron Norrie",
+                "Dominic Thiem",
+                "Juan Martín del Potro",
+                "Ivan Ljubicic",
+                "Marcelo Ríos",
+                "Alex Corretja",
+                "Mark Philippoussis",
+                "Stefan Edberg",
+                "Boris Becker",
+                "Andy Murray"
+            ],
+            "answers": [
+                "Novak Djokovic",
+                "Roger Federer",
+                "Jimmy Connors",
+                "Michael Chang",
+                "Rafael Nadal"
+            ],
+            "source": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
         }
     ]
 }

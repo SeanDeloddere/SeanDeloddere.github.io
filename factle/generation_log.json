@@ -13072,6 +13072,648 @@
                 ]
             },
             "question_id": 16
+        },
+        {
+            "date": "2026-03-02",
+            "topics_discovered": [
+                {
+                    "topic": "Indian Wells (BNP Paribas Open) starts today, Mar 2–15, 2026",
+                    "suggested_question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+                    "connection": "Indian Wells begins today, making a historical ranking of its most successful champions timely and relevant."
+                },
+                {
+                    "topic": "SXSW 2026 (Mar 12–18) featuring Steven Spielberg’s keynote",
+                    "suggested_question": "Rank the top 5 highest-grossing Steven Spielberg-directed films worldwide (unadjusted), from highest to lower.",
+                    "connection": "Spielberg is headlining at SXSW this month; ranking his biggest box-office hits connects directly to current festival buzz."
+                },
+                {
+                    "topic": "Innovation season around SXSW",
+                    "suggested_question": "Rank the top 5 companies by the number of U.S. utility patents granted in 2025, from most to fewer.",
+                    "connection": "SXSW spotlights innovation and tech; patent leaders are a concrete way to track who led in new inventions last year."
+                },
+                {
+                    "topic": "Global travel spike for March festivals and events",
+                    "suggested_question": "Rank the top 5 airlines by total passengers carried in 2025 worldwide, from most to fewer.",
+                    "connection": "With major March events (Indian Wells, SXSW, Holi) drawing travelers, airline passenger rankings are timely and measurable."
+                },
+                {
+                    "topic": "Holi (Mar 4) and global celebrations",
+                    "suggested_question": "Rank the top 5 countries with the largest Indian diaspora populations (per India’s Ministry of External Affairs latest figures), from largest to smaller.",
+                    "connection": "Holi is celebrated worldwide by Indian communities; diaspora size by country is an objective way to reflect its global reach."
+                },
+                {
+                    "topic": "Sunshine Week and Sunshine Fest (Mar 16–17)",
+                    "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at year-end 2025, from highest to lower.",
+                    "connection": "Sunshine Week spotlights transparency and energy discussions; solar capacity leaders are a timely, data-driven clean energy ranking."
+                },
+                {
+                    "topic": "National Banana Cream Pie Day (Mar 2)",
+                    "suggested_question": "Rank the top 5 countries by banana production (latest FAO reported year), from most to less.",
+                    "connection": "A food-and-agribusiness angle tied to today’s banana-themed observance, using globally verified production data."
+                },
+                {
+                    "topic": "Read Across America / Dr. Seuss Day (Mar 2)",
+                    "suggested_question": "Rank the top 5 Dr. Seuss books by estimated lifetime copies sold, from most to fewer.",
+                    "connection": "Dr. Seuss Day makes a sales-based ranking of his most popular titles topical and fun for readers."
+                },
+                {
+                    "topic": "Spring migration season",
+                    "suggested_question": "Rank the top 5 bird species by longest recorded migratory round-trip distances, from longest to shorter.",
+                    "connection": "As spring approaches, highlighting extreme bird migrations connects seasonal nature watching with objective records."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — St. Patrick’s Day (Mar 17)",
+                    "suggested_question": "Rank the top 5 U.S. states by the highest share of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                    "connection": "With St. Patrick’s Day imminent, U.S. Irish ancestry by state is a culturally relevant, data-backed ranking."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — Maple sugaring season (March)",
+                    "suggested_question": "Rank the top 5 Canadian provinces by maple syrup production volume (latest year), from most to less.",
+                    "connection": "March is peak sugaring season; production rankings reflect timely food-and-agriculture data tied to the season."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by percentage of women in the lower house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                    "connection": "March is Women’s History Month; representation rankings are a timely, objective measure of global gender parity in politics."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Indian Wells (BNP Paribas Open) starts today, Mar 2–15, 2026",
+                    "suggested_question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+                    "connection": "Indian Wells begins today, making a historical ranking of its most successful champions timely and relevant.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking players by Indian Wells titles, which is unique as none of the previous questions address tennis tournaments or specific event-related rankings."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+                        "answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Rafael Nadal",
+                            "Jim Courier",
+                            "Michael Chang"
+                        ],
+                        "distractors": [
+                            "Pete Sampras",
+                            "Lleyton Hewitt",
+                            "Andre Agassi",
+                            "Carlos Alcaraz",
+                            "Taylor Fritz",
+                            "Cameron Norrie",
+                            "Dominic Thiem",
+                            "Juan Martín del Potro",
+                            "Ivan Ljubicic",
+                            "Marcelo Ríos",
+                            "Alex Corretja",
+                            "Mark Philippoussis",
+                            "Stefan Edberg",
+                            "Boris Becker",
+                            "Andy Murray"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Indian_Wells_Masters"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Indian Wells Masters men's singles most titles multiple winners Federer Djokovic Nadal Courier Chang Sampras Hewitt champions list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Most Titles at Indian Wells Masters | Tennis Records - TennisMyLife",
+                                "url": "https://stats.tennismylife.org/tournaments/indian-wells-masters/records/count/titles"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Champions by Year",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_year.htm"
+                            },
+                            {
+                                "title": "[PDF] Most ATP Masters 1000 Titles No. Player Titles 1 Novak Djokovic 39 ...",
+                                "url": "https://www.atptour.com/-/media/ed07aec5838f407cb738cbae9f3ec1b6.pdf"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the sources, Roger Federer and Novak Djokovic are tied with the most titles at Indian Wells (5 each). The tie is broken using the year of the first title — Federer first won in 2004, while Djokovic's first win was in 2008. Michael Chang and Jim Courier both have 3 titles, but Chang won his first title earlier, so he ranks higher. Rafael Nadal appears to have fewer than 3 titles (sources did not report a specific count for him, while Chang and Courier are confirmed to have 3); thus, he is ranked lower.",
+                        "proposed_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Rafael Nadal",
+                            "Jim Courier",
+                            "Michael Chang"
+                        ],
+                        "corrected_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Michael Chang",
+                            "Jim Courier",
+                            "Rafael Nadal"
+                        ],
+                        "best_source": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title. Roger Federer vs Novak Djokovic ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "BNP Paribas Open: Which men had the best decade at Indian Wells ...",
+                                "url": "https://www.desertsun.com/in-depth/sports/tennis/bnp/2020/03/06/bnp-paribas-open-which-men-had-best-decade-indian-wells-these-did/4602629002/"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Summary and Data",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_data.htm"
+                            },
+                            {
+                                "title": "Streaks, records, milestones and more: Seven things at stake in ...",
+                                "url": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect as Novak Djokovic and Roger Federer are tied with the most Indian Wells titles (5), indicating they should both rank equally in first place. Additionally, there are discrepancies in the ranking regarding Rafael Nadal, Michael Chang, and Jim Courier based on available data showing that multiple players, including Nadal and Chang, have 3 titles. Jim Courier does not appear to rank among the top 5.",
+                        "best_source": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Indian Wells Masters men's singles most titles multiple winners Federer Djokovic Nadal Courier Chang Sampras Hewitt champions list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Most Titles at Indian Wells Masters | Tennis Records - TennisMyLife",
+                                "url": "https://stats.tennismylife.org/tournaments/indian-wells-masters/records/count/titles"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Champions by Year",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_year.htm"
+                            },
+                            {
+                                "title": "[PDF] Most ATP Masters 1000 Titles No. Player Titles 1 Novak Djokovic 39 ...",
+                                "url": "https://www.atptour.com/-/media/ed07aec5838f407cb738cbae9f3ec1b6.pdf"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on multiple authoritative sources, Roger Federer and Novak Djokovic both have five Indian Wells titles. Jimmy Connors and Michael Chang have three titles each, which places them afterward, but Connors won his first Indian Wells title earlier than Chang (1984 vs. 1992). Rafael Nadal also has three titles but won his first in 2007, placing him fifth. The original answer list is incorrect in the ranking and misses Jimmy Connors entirely.",
+                        "proposed_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Michael Chang",
+                            "Jim Courier",
+                            "Rafael Nadal"
+                        ],
+                        "corrected_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Jimmy Connors",
+                            "Michael Chang",
+                            "Rafael Nadal"
+                        ],
+                        "best_source": "https://stats.tennismylife.org/tournaments/indian-wells-masters/records/count/titles"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title. Roger Federer vs Novak Djokovic ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "BNP Paribas Open: Which men had the best decade at Indian Wells ...",
+                                "url": "https://www.desertsun.com/in-depth/sports/tennis/bnp/2020/03/06/bnp-paribas-open-which-men-had-best-decade-indian-wells-these-did/4602629002/"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Summary and Data",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_data.htm"
+                            },
+                            {
+                                "title": "Streaks, records, milestones and more: Seven things at stake in ...",
+                                "url": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inaccurate because Rafael Nadal, Michael Chang, and Jimmy Connors each hold three titles, not two, and should be ordered by the earliest year of their first title, which remains unaddressed in sources.",
+                        "best_source": "https://www.landoftennis.com/tournaments_men/indian_wells_data.htm"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Indian Wells Masters men's singles most titles multiple winners Federer Djokovic Nadal Courier Chang Sampras Hewitt champions list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Most Titles at Indian Wells Masters | Tennis Records - TennisMyLife",
+                                "url": "https://stats.tennismylife.org/tournaments/indian-wells-masters/records/count/titles"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Champions by Year",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_year.htm"
+                            },
+                            {
+                                "title": "[PDF] Most ATP Masters 1000 Titles No. Player Titles 1 Novak Djokovic 39 ...",
+                                "url": "https://www.atptour.com/-/media/ed07aec5838f407cb738cbae9f3ec1b6.pdf"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The best source confirms that Roger Federer and Novak Djokovic have won 5 titles each, tied for the most. Since Federer won his first Indian Wells title in 2004 and Djokovic in 2008, Federer is ranked higher. Michael Chang and Jimmy Connors both won 3 titles, but Chang won his first title in 1992, earlier than Connors' first in 1976, positioning Chang above Connors. Rafael Nadal also has 3 titles, but he won his first title in 2007, later than both Chang and Connors, placing him fifth.",
+                        "proposed_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Jimmy Connors",
+                            "Michael Chang",
+                            "Rafael Nadal"
+                        ],
+                        "corrected_answers": [
+                            "Roger Federer",
+                            "Novak Djokovic",
+                            "Michael Chang",
+                            "Jimmy Connors",
+                            "Rafael Nadal"
+                        ],
+                        "best_source": "https://stats.tennismylife.org/tournaments/indian-wells-masters/records/count/titles"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title. Roger Federer vs Novak Djokovic ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The men with most Indian Wells titles - led by Djokovic, Federer ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-most-indian-wells-titles"
+                            },
+                            {
+                                "title": "BNP Paribas Open: Which men had the best decade at Indian Wells ...",
+                                "url": "https://www.desertsun.com/in-depth/sports/tennis/bnp/2020/03/06/bnp-paribas-open-which-men-had-best-decade-indian-wells-these-did/4602629002/"
+                            },
+                            {
+                                "title": "Indian Wells Masters: Titles by Player, All Men's Singles Champions",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_by_player.htm"
+                            },
+                            {
+                                "title": "Men's Tennis: Indian Wells Masters, Singles Summary and Data",
+                                "url": "https://www.landoftennis.com/tournaments_men/indian_wells_data.htm"
+                            },
+                            {
+                                "title": "Streaks, records, milestones and more: Seven things at stake in ...",
+                                "url": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the source data, confirming Federer and Djokovic tied with 5 titles each, and Michael Chang, Jimmy Connors, and Rafael Nadal with 3 titles each. The tie between Chang, Connors, and Nadal is broken by the earliest title year.",
+                        "best_source": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                    },
+                    "question_id": 17,
+                    "final_answers": [
+                        "Novak Djokovic",
+                        "Roger Federer",
+                        "Jimmy Connors",
+                        "Michael Chang",
+                        "Rafael Nadal"
+                    ],
+                    "final_source": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 02, 2026",
+                        "results": [
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events",
+                                "snippet": "Final qualification matches for the 2026 World Cup, the FIFA World Cup itself, the Drift Masters series, and Inter Europol’s participation in endurance racing – these are just some of the sports event"
+                            },
+                            {
+                                "title": "Sports Events in March 2026 - Full Schedule & Calendar - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various. March 2, 2026 – March 15, 2026· Indian Wells, CA. March 5, 2026 – March 17, 2026· Japan, Puerto Rico & USA. March 5, 2026 – March 8, 2026· Heerenveen, Nethe"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "Sports in 2026 describes the year's events in world sport. The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Days of Significance: Cultural, Social and Religious Holidays",
+                                "url": "https://www.aspercsa.com/days-of-significance-cultural-social-and-religious-holidays/",
+                                "snippet": "Eid Al-Fitr · 2026: March 19 – March 20 · What is it: “The Festival of the Breaking of the Feast” – marks the end of Ramadan · Traditions: Fitr celebrates end of"
+                            },
+                            {
+                                "title": "Events for March 2026 - Tourism Nova Scotia",
+                                "url": "https://novascotia.com/all-events/month/2026-03/",
+                                "snippet": "Everyone is invited to the town of Windsor, Nova Scotia on Saturday, March 7 for a celebration of winter during the third annual WinterThing. 7:30 pm - 9:00"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy ...",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "March Inclusive Religious Calendar · March 4 – Hindu: Holi The festival of colors, celebrating the arrival of spring. · March 4 – Sikh: Hola"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2025: Full Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. * National Get Over It Day. * National Women and Girls HIV/AIDS Awareness Day. * National Shoe The World Day. * Nati"
+                            },
+                            {
+                                "title": "The Month of March 2025: Holidays, Fun Facts, Folklore",
+                                "url": "https://www.almanac.com/content/month-march-holidays-fun-facts-folklore",
+                                "snippet": "# The Month of March 2026: Holidays, Fun Facts, Folklore. ## Everything You Should Know About March. However, we think of it as the beginning of spring, as March brings the vernal equinox, the Full Wo"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "### Live From SXSW! The Big Picture with the legendary Steven Spielberg. Announcing 350+ artists added to the 2026 Music Festival including Miss Bashful, Kairo Keyz, Charley Crockett, and Passion Pit."
+                            },
+                            {
+                                "title": "SXSW 2026: South by Southwest Conference & Festivals",
+                                "url": "https://www.austintexas.org/events/sxsw/",
+                                "snippet": "# SXSW 2026: South by Southwest Conference & Festivals. Bringing thousands of visitors to Austin each March, SXSW is one of the world's premier events showcasing music, film and innovative media. The "
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "2025-2026 Awards Season Calendar: Oscars, Emmys ...",
+                                "url": "https://www.hollywoodreporter.com/movies/movie-news/2025-2026-awards-season-calendar-oscars-emmys-dates-1235872190/",
+                                "snippet": "The dates of major awards shows for 2025-2026, including the Oscars, Emmys, Grammys, Tonys and more awards ceremonies."
+                            },
+                            {
+                                "title": "Sunshine Fest 2026 – March 16-17, 2026, Washington, D.C.",
+                                "url": "https://sunshineweek.org/sunshine-fest/",
+                                "snippet": "In recognition of Sunshine Week, the University of Florida Brechner Freedom of Information Project, MuckRock, and the National Freedom of Information Coalition are organizing the second-annual in-pers"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week March 02, 2026",
+                        "results": [
+                            {
+                                "title": "Headlines for February 02, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/2/2/headlines",
+                                "snippet": "[](https://www.facebook.com/sharer/sharer.php?u=https://www.democracynow.org/2026/2/2/headlines/federal_judge_denies_request_by_minnesota_officials_to_temporarily_block_surge_of_immigration_agents \"Sh"
+                            },
+                            {
+                                "title": "CNN breaks down notable Trump remarks on Iran operation",
+                                "url": "https://www.cnn.com/2026/02/28/us/video/trump-video-us-massive-operation-iran-what-it-means-hnk-digvid",
+                                "snippet": "[Immigration](https://www.cnn.com/us/immigration). [Education](https://www.cnn.com/us/education). [Transportation](https://www.cnn.com/us/transportation). [More](https://www.cnn.com/2026/02/28/us/vide"
+                            },
+                            {
+                                "title": "AP Top Stories for March 2 P - Yahoo",
+                                "url": "https://www.yahoo.com/news/ap-top-stories-march-2-230857662.html",
+                                "snippet": "Here's the latest for Sunday, March 2: British Prime Minister Keir Starmer hosts European leaders to discuss Russia Ukraine war."
+                            },
+                            {
+                                "title": "U.S. News and National Top Stories - NPR",
+                                "url": "https://www.npr.org/sections/national/",
+                                "snippet": "March 1, 2026 • The deaths of three U.S. servicemen mark the first American casualties since the start of operation 'Epic Fury' on Saturday."
+                            },
+                            {
+                                "title": "Video. Footage shows destruction in Iran following US-Israeli strikes",
+                                "url": "https://www.euronews.com/video/2026/02/28/footage-shows-destruction-in-iran-following-us-israeli-strikes",
+                                "snippet": "People watch as smoke rises on the skyline after an explosion in Tehran, Iran, Saturday, Feb. 28, 2026.(AP Photo)  Now playing Next. Europe News Europe reacts to US and Israeli attack on Iran as confl"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days March 02",
+                        "results": [
+                            {
+                                "title": "MARCH 2 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-2-birthdays-and-events",
+                                "snippet": "MARCH 2 | Birthdays and Events. March 2 | Birthdays and Events. # MARCH 2 | Birthdays and Events. Birthdays and Events for March 2. Birthdays and Events for March 2. ## Notable Birthdays for March 2. "
+                            },
+                            {
+                                "title": "MARCH 2ND: National Holidays,Observances & Famous Birthdays",
+                                "url": "https://www.listofnationaldays.com/march-2nd/",
+                                "snippet": "MARCH 2ND HOLIDAYS & OBSERVANCES: American Citizenship Day · Dr. Seuss Day · International Rescue Cat Day · National Banana Cream Pie Day"
+                            },
+                            {
+                                "title": "March 2 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-2-birthdays/",
+                                "snippet": "March 2nd birthdays. Mar02. 736 Shares. Novelist. Dr. Seuss. Mar02. Pop Singer. Becky G. Mar02. Model. Cindy Mello. Mar02. Movie Actress. Janhvi Kapoor."
+                            },
+                            {
+                                "title": "Famous birthdays for March 2: Reggie Bush, Daniel Craig - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-2-reggie-080006307.html",
+                                "snippet": "Ex-NFL player Reggie Bush turns 40 and actor Daniel Craig turns 57, among the famous birthdays for March 2."
+                            },
+                            {
+                                "title": "Famous Birthdays on March 2 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/2",
+                                "snippet": "* 1816 Alexander Bullock, American lawyer, politician, and 26th Governor of Massachusetts, born in Royalston, Massachusetts (d. * 1862 John Jay Chapman, American poet, and writer (Learning & Other Ess"
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Indian Wells (BNP Paribas Open) starts today, Mar 2–15, 2026",
+                        "suggested_question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+                        "connection": "Indian Wells begins today, making a historical ranking of its most successful champions timely and relevant."
+                    },
+                    {
+                        "topic": "SXSW 2026 (Mar 12–18) featuring Steven Spielberg’s keynote",
+                        "suggested_question": "Rank the top 5 highest-grossing Steven Spielberg-directed films worldwide (unadjusted), from highest to lower.",
+                        "connection": "Spielberg is headlining at SXSW this month; ranking his biggest box-office hits connects directly to current festival buzz."
+                    },
+                    {
+                        "topic": "Innovation season around SXSW",
+                        "suggested_question": "Rank the top 5 companies by the number of U.S. utility patents granted in 2025, from most to fewer.",
+                        "connection": "SXSW spotlights innovation and tech; patent leaders are a concrete way to track who led in new inventions last year."
+                    },
+                    {
+                        "topic": "Global travel spike for March festivals and events",
+                        "suggested_question": "Rank the top 5 airlines by total passengers carried in 2025 worldwide, from most to fewer.",
+                        "connection": "With major March events (Indian Wells, SXSW, Holi) drawing travelers, airline passenger rankings are timely and measurable."
+                    },
+                    {
+                        "topic": "Holi (Mar 4) and global celebrations",
+                        "suggested_question": "Rank the top 5 countries with the largest Indian diaspora populations (per India’s Ministry of External Affairs latest figures), from largest to smaller.",
+                        "connection": "Holi is celebrated worldwide by Indian communities; diaspora size by country is an objective way to reflect its global reach."
+                    },
+                    {
+                        "topic": "Sunshine Week and Sunshine Fest (Mar 16–17)",
+                        "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at year-end 2025, from highest to lower.",
+                        "connection": "Sunshine Week spotlights transparency and energy discussions; solar capacity leaders are a timely, data-driven clean energy ranking."
+                    },
+                    {
+                        "topic": "National Banana Cream Pie Day (Mar 2)",
+                        "suggested_question": "Rank the top 5 countries by banana production (latest FAO reported year), from most to less.",
+                        "connection": "A food-and-agribusiness angle tied to today’s banana-themed observance, using globally verified production data."
+                    },
+                    {
+                        "topic": "Read Across America / Dr. Seuss Day (Mar 2)",
+                        "suggested_question": "Rank the top 5 Dr. Seuss books by estimated lifetime copies sold, from most to fewer.",
+                        "connection": "Dr. Seuss Day makes a sales-based ranking of his most popular titles topical and fun for readers."
+                    },
+                    {
+                        "topic": "Spring migration season",
+                        "suggested_question": "Rank the top 5 bird species by longest recorded migratory round-trip distances, from longest to shorter.",
+                        "connection": "As spring approaches, highlighting extreme bird migrations connects seasonal nature watching with objective records."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — St. Patrick’s Day (Mar 17)",
+                        "suggested_question": "Rank the top 5 U.S. states by the highest share of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                        "connection": "With St. Patrick’s Day imminent, U.S. Irish ancestry by state is a culturally relevant, data-backed ranking."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Maple sugaring season (March)",
+                        "suggested_question": "Rank the top 5 Canadian provinces by maple syrup production volume (latest year), from most to less.",
+                        "connection": "March is peak sugaring season; production rankings reflect timely food-and-agriculture data tied to the season."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by percentage of women in the lower house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                        "connection": "March is Women’s History Month; representation rankings are a timely, objective measure of global gender parity in politics."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "Indian Wells (BNP Paribas Open) starts today, Mar 2–15, 2026",
+                        "suggested_question": "Rank the top 5 men's singles players by most Indian Wells titles (BNP Paribas Open, all-time), from most to fewer; break ties by the earliest year of the player's first Indian Wells title.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Indian Wells titles in tennis, which is a different subject area from the recent questions covering hockey, Davis Cup, Winter Olympics, golf, geography, astronomy, and marathons.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 (Mar 12–18) featuring Steven Spielberg’s keynote",
+                        "suggested_question": "Rank the top 5 highest-grossing Steven Spielberg-directed films worldwide (unadjusted), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Steven Spielberg's films focuses on cinema and box office achievements, which is not closely related to any recently asked questions that cover sports, geography, astronomy, or events.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Innovation season around SXSW",
+                        "suggested_question": "Rank the top 5 companies by the number of U.S. utility patents granted in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about U.S. utility patents and innovation does not overlap with any of the recently covered topics, which are focused on sports, geography, and astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Global travel spike for March festivals and events",
+                        "suggested_question": "Rank the top 5 airlines by total passengers carried in 2025 worldwide, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on global airline passenger statistics, which does not overlap with any recent topics related to sports, geography, astronomy, or marathon records.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Holi (Mar 4) and global celebrations",
+                        "suggested_question": "Rank the top 5 countries with the largest Indian diaspora populations (per India’s Ministry of External Affairs latest figures), from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Indian diaspora and global celebrations, which is unrelated to themes like sports achievements, geography, astronomy, or athletic events covered by recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Sunshine Week and Sunshine Fest (Mar 16–17)",
+                        "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at year-end 2025, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on solar PV capacity relates to renewable energy and does not overlap with the recently covered topics, which focused on sports, geography, astronomy, and athletic achievements.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Banana Cream Pie Day (Mar 2)",
+                        "suggested_question": "Rank the top 5 countries by banana production (latest FAO reported year), from most to less.",
+                        "recently_covered": false,
+                        "reason": "Banana production aligns with agriculture and food topics, none of which have been addressed in recent questions; the recent questions focus on sports, geography, astronomy, and medals.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Read Across America / Dr. Seuss Day (Mar 2)",
+                        "suggested_question": "Rank the top 5 Dr. Seuss books by estimated lifetime copies sold, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on literature and children's books, while none of the recent questions cover this subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring migration season",
+                        "suggested_question": "Rank the top 5 bird species by longest recorded migratory round-trip distances, from longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of bird migration is unrelated to any of the recently covered questions, which focus on sports, geography, and astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — St. Patrick’s Day (Mar 17)",
+                        "suggested_question": "Rank the top 5 U.S. states by the highest share of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Irish ancestry in the U.S. relates to demographics and cultural heritage, which is entirely different from the sports, geography, astronomy, and similar themes covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Maple sugaring season (March)",
+                        "suggested_question": "Rank the top 5 Canadian provinces by maple syrup production volume (latest year), from most to less.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on maple syrup production is about Canadian provinces and agriculture, which is distinctly different from the recent questions focused on sports, geography, astronomy, and race records.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by percentage of women in the lower house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on women's representation in national parliaments, which is unrelated to any of the recently covered topics such as sports, geography, or astronomy.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 17
         }
     ]
 }
