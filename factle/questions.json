@@ -594,6 +594,41 @@
                 "Rafael Nadal"
             ],
             "source": "https://www.tennis.com/news/articles/seven-things-at-stake-at-indian-wells-alcaraz-sinner-djokovic-sabalenka-swiatek"
+        },
+        {
+            "id": 18,
+            "date": "2026-03-03",
+            "question": "Rank the top 5 U.S. cities by average annual percent possible sunshine, from sunniest to less sunny.",
+            "options": [
+                "Yuma, Arizona",
+                "Redding, California",
+                "Las Vegas, Nevada",
+                "Phoenix, Arizona",
+                "Tucson, Arizona",
+                "El Paso, Texas",
+                "Fresno, California",
+                "Reno, Nevada",
+                "Flagstaff, Arizona",
+                "Albuquerque, New Mexico",
+                "Sacramento, California",
+                "San Diego, California",
+                "Los Angeles, California",
+                "Bakersfield, California",
+                "Riverside, California",
+                "Salt Lake City, Utah",
+                "Denver, Colorado",
+                "San Antonio, Texas",
+                "Dallas, Texas",
+                "Tampa, Florida"
+            ],
+            "answers": [
+                "Yuma, Arizona",
+                "Redding, California",
+                "Las Vegas, Nevada",
+                "Phoenix, Arizona",
+                "Tucson, Arizona"
+            ],
+            "source": "https://theweatherstationexperts.com/sunniest-us-cities/"
         }
     ]
 }
