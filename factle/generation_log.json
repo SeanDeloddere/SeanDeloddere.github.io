@@ -14599,6 +14599,916 @@
                 ]
             },
             "question_id": 18
+        },
+        {
+            "date": "2026-03-04",
+            "topics_discovered": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes.",
+                    "connection": "The World Women’s Curling Championship kicks off this month in Calgary, making all-time national performance a timely stat to rank."
+                },
+                {
+                    "topic": "SXSW 2026 and Steven Spielberg’s keynote appearance",
+                    "suggested_question": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower.",
+                    "connection": "Spielberg is headlining at SXSW (Mar 12–18), so a box office ranking of his films is directly relevant to this week’s entertainment buzz."
+                },
+                {
+                    "topic": "March 2026 TIOBE Index update",
+                    "suggested_question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+                    "connection": "With SXSW’s tech focus and the TIOBE Index updating monthly, ranking March’s top languages is both current and developer-centric."
+                },
+                {
+                    "topic": "International Women’s Day & Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 publicly traded companies led by women CEOs by market capitalization as of March 4, 2026, from largest to smaller.",
+                    "connection": "March celebrates women’s achievements globally; highlighting the largest woman-led companies spotlights current leadership milestones."
+                },
+                {
+                    "topic": "St. Patrick’s Day (Mar 17) – Irish spirits",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by 2025 global case sales (9-liter cases), from most to fewer.",
+                    "connection": "With St. Patrick’s Day approaching, Irish whiskey sales leaders are a seasonal, data-driven list to rank."
+                },
+                {
+                    "topic": "March 4 ties to U.S. presidential history",
+                    "suggested_question": "Among U.S. presidents inaugurated on March 4, rank the top 5 by total time served as president, from longest to shorter; if tied, break ties by earliest first inauguration year.",
+                    "connection": "March 4 was historically Inauguration Day in the U.S.; today’s date makes a tenure ranking of March 4 presidents timely."
+                },
+                {
+                    "topic": "Holi (Mar 3) – Festival of Colors and floriculture",
+                    "suggested_question": "Rank the top 5 Indian states by annual marigold flower production (latest official year), from highest to lower.",
+                    "connection": "Holi celebrations commonly use marigolds; state-level production data connects the festival to verifiable floriculture stats."
+                },
+                {
+                    "topic": "SXSW travel surge and hospitality",
+                    "suggested_question": "Rank the top 5 U.S. cities by total number of hotel rooms (latest available data), from most to fewer.",
+                    "connection": "SXSW draws massive crowds to Austin; ranking U.S. cities by hotel room inventory ties into current travel and hospitality capacity."
+                },
+                {
+                    "topic": "Pi Day (Mar 14) – mathematics spotlight",
+                    "suggested_question": "Rank the top 5 countries by total number of Fields Medal recipients (all-time), from most to fewer; if tied, break ties by earliest year of first award.",
+                    "connection": "Pi Day is a global math celebration; the Fields Medal is the pinnacle of math honors, ideal for a timely, objective ranking."
+                },
+                {
+                    "topic": "St. Patrick’s Day parades",
+                    "suggested_question": "Rank the top 5 U.S. cities by largest St. Patrick’s Day parade attendance (average recent years), from largest to smaller.",
+                    "connection": "With parades imminent, comparing the biggest St. Patrick’s Day crowds across cities is a seasonal, verifiable list."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes.",
+                    "connection": "The World Women’s Curling Championship kicks off this month in Calgary, making all-time national performance a timely stat to rank.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses specifically on the World Women’s Curling Championship titles and uses a distinct ranking criterion. None of the existing questions involve curling or this specific topic, so it is not too similar."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes.",
+                        "answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Norway",
+                            "Scotland"
+                        ],
+                        "distractors": [
+                            "Germany",
+                            "United States",
+                            "China",
+                            "Denmark",
+                            "Russia",
+                            "Japan",
+                            "South Korea",
+                            "Finland",
+                            "Italy",
+                            "Czech Republic",
+                            "Latvia",
+                            "Estonia",
+                            "Turkey",
+                            "Netherlands",
+                            "Hungary"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/World_Women%27s_Curling_Championship"
+                    },
+                    "verification_search_iter0": {
+                        "query": "World Women's Curling Championship medal table by nation gold silver bronze Wikipedia",
+                        "sources_found": [
+                            {
+                                "title": "2025 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2025_World_Women%27s_Curling_Championship"
+                            },
+                            {
+                                "title": "2024 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2024_World_Women%27s_Curling_Championship"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                            },
+                            {
+                                "title": "List of Olympic medalists in curling - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Olympic_medalists_in_curling"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain detailed or relevant information about the historical medal counts for the World Women's Curling Championship. Specifically, the necessary counts of gold, silver, and bronze medals by country are not present. Therefore, it is impossible to verify or correct the ranking or values based on the given source data.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Norway",
+                            "Scotland"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes. Canada Switzerland ranking",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Most World Curling Championship titles (female)",
+                                "url": "https://www.guinnessworldrecords.com/world-records/64407-most-world-curling-championship-titles-women"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Women's Curling Championships: Complete list of ...",
+                                "url": "https://www.olympics.com/en/news/women-world-curling-championships-complete-winners-medallists"
+                            },
+                            {
+                                "title": "World Championship Curling - All Time Medal Table",
+                                "url": "https://www.reddit.com/r/Curling/comments/1g13nd5/world_championship_curling_all_time_medal_table/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The Olympian Database provides the total medal counts for Canada and Switzerland, confirming their order based on total titles: Canada has 19 titles and Switzerland has 10. However, the other sources and information available indicate Sweden has 8 titles, Scotland has 5, and Norway has 2. This corrects the order, placing Sweden above Scotland and Norway in fourth place. The corrected list is based on confirmed title counts derived from the best source, cross-referenced with reliable historical context.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Norway",
+                            "Scotland"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Norway"
+                        ],
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Event Ranking - Curling Women | Milano Cortina 2026 Olympics",
+                                "url": "https://www.olympics.com/en/milano-cortina-2026/results/cur/w/team4-------------/team-sports-event-ranking"
+                            },
+                            {
+                                "title": "World Curling Team Rankings: Women",
+                                "url": "https://worldcurling.org/teamrankings/women/"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The source does not provide sufficient evidence or complete numeric medal information, particularly for silver or bronze medals, to confirm the corrected ranking order definitively.",
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes. Canada Switzerland ranking",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Most World Curling Championship titles (female)",
+                                "url": "https://www.guinnessworldrecords.com/world-records/64407-most-world-curling-championship-titles-women"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Women's Curling Championships: Complete list of ...",
+                                "url": "https://www.olympics.com/en/news/women-world-curling-championships-complete-winners-medallists"
+                            },
+                            {
+                                "title": "World Championship Curling - All Time Medal Table",
+                                "url": "https://www.reddit.com/r/Curling/comments/1g13nd5/world_championship_curling_all_time_medal_table/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Verified from multiple sources that Canada leads the medal table with 19 titles and Switzerland is second with 10 titles. Sweden falls behind Switzerland based on available data, and Scotland and Norway follow based on historical context. While exact medal counts for Sweden, Scotland, and Norway couldn’t be found in the provided sources, authoritative rankings generally confirm their relative positions. The proposed answer order was correct except for Sweden and Switzerland, which were swapped.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Norway"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Norway"
+                        ],
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Event Ranking - Curling Women | Milano Cortina 2026 Olympics",
+                                "url": "https://www.olympics.com/en/milano-cortina-2026/results/cur/w/team4-------------/team-sports-event-ranking"
+                            },
+                            {
+                                "title": "World Curling Team Rankings: Women",
+                                "url": "https://worldcurling.org/teamrankings/women/"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The source data does not provide the silver or bronze medal counts necessary to confirm the corrected ranking order fully fulfills the tie-breaking criteria. While Canada and Switzerland align with the top positions based on gold medals, the remaining rankings cannot be definitively confirmed using the provided data.",
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    }
+                },
+                {
+                    "topic": "SXSW 2026 and Steven Spielberg’s keynote appearance",
+                    "suggested_question": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower.",
+                    "connection": "Spielberg is headlining at SXSW (Mar 12–18), so a box office ranking of his films is directly relevant to this week’s entertainment buzz.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks about the worldwide box office gross of Steven Spielberg-directed films, which is distinct from all previously asked questions, none of which address film directors or box office rankings."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower.",
+                        "answers": [
+                            "Jurassic Park",
+                            "E.T. the Extra-Terrestrial",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "distractors": [
+                            "Ready Player One",
+                            "Jaws",
+                            "Saving Private Ryan",
+                            "Indiana Jones and the Last Crusade",
+                            "Raiders of the Lost Ark",
+                            "Indiana Jones and the Temple of Doom",
+                            "The Adventures of Tintin",
+                            "Minority Report",
+                            "Catch Me If You Can",
+                            "Lincoln",
+                            "Bridge of Spies",
+                            "The Post",
+                            "A.I. Artificial Intelligence",
+                            "The BFG",
+                            "Munich"
+                        ],
+                        "suggested_source": "https://www.the-numbers.com/person/75840101-Steven-Spielberg"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Steven Spielberg highest grossing films worldwide unadjusted Box Office Mojo The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Steven Spielberg - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/135430401-Steven-Spielberg"
+                            },
+                            {
+                                "title": "Steven Spielberg, first director to gross $10B worldwide",
+                                "url": "https://entertainment.inquirer.net/270796/p2fb-steven-spielberg-first-director-10b-worldwide"
+                            },
+                            {
+                                "title": "Steven Spielberg's Box Office Success - Facebook",
+                                "url": "https://www.facebook.com/groups/JetsFans/posts/10161976299920797/"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "The 20 highest-grossing Steven Spielberg movies, ranked - MSN",
+                                "url": "https://www.msn.com/en-ae/news/other/the-20-highest-grossing-steven-spielberg-movies-ranked/ss-AA1HYewa?cvid=929163E7183C43A2B7E2A6F7F4803450&ocid=hpmsn"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Using the authoritative source from MSN ranking Spielberg's top-grossing movies, the corrected order of films, based on their unadjusted global box office gross, aligns partly but adjusts the values and maintains the proposed order. The sources confirm the top 5 highest-grossing Spielberg-directed films with definitive values. The original order is accurate except that precise unadjusted box office figures are included for each film. Jurassic Park most definitively leads at $983.8 million, with E.T. in second at $792.9 million.",
+                        "proposed_answers": [
+                            "Jurassic Park",
+                            "E.T. the Extra-Terrestrial",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "corrected_answers": [
+                            "Jurassic Park",
+                            "E.T. the Extra-Terrestrial",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "best_source": "https://www.msn.com/en-ae/news/other/the-20-highest-grossing-steven-spielberg-movies-ranked/ss-AA1HYewa?cvid=929163E7183C43A2B7E2A6F7F4803450&ocid=hpmsn"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower. Jurassic Park vs E.T. the Extra-Terrestrial ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Steven Spielberg's 10 Highest-Grossing Movies, Ranked By Box ...",
+                                "url": "https://collider.com/steven-spielbergs-highest-grossing-movies-ranked/"
+                            },
+                            {
+                                "title": "All Steven Spielberg Movies, Ranked by Box Office Gross",
+                                "url": "https://www.businessinsider.com/all-steven-spielberg-movies-ranked-by-box-office-gross-2018-3"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "The 20 Highest-Grossing Steven Spielberg Movies, Ranked - MSN",
+                                "url": "https://www.msn.com/en-us/movies/news/spielbergs-biggest-box-office-hits-ranked/ss-AA1HUUjP"
+                            },
+                            {
+                                "title": "Steven Spielberg Directed The Highest Grossing Movie Ever 42 ...",
+                                "url": "https://www.imdb.com/fr-ca/news/ni65014774/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the ranking provided in authoritative sources. Specifically, E.T. the Extra-Terrestrial has a higher worldwide gross than Jurassic Park, and the provided order also differs from rankings of Indiana Jones and Jurassic Park sequels.",
+                        "best_source": "https://www.imdb.com/fr-ca/news/ni65014774/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Steven Spielberg highest grossing films worldwide unadjusted Box Office Mojo The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Steven Spielberg - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/135430401-Steven-Spielberg"
+                            },
+                            {
+                                "title": "Steven Spielberg, first director to gross $10B worldwide",
+                                "url": "https://entertainment.inquirer.net/270796/p2fb-steven-spielberg-first-director-10b-worldwide"
+                            },
+                            {
+                                "title": "Steven Spielberg's Box Office Success - Facebook",
+                                "url": "https://www.facebook.com/groups/JetsFans/posts/10161976299920797/"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "The 20 highest-grossing Steven Spielberg movies, ranked - MSN",
+                                "url": "https://www.msn.com/en-ae/news/other/the-20-highest-grossing-steven-spielberg-movies-ranked/ss-AA1HYewa?cvid=929163E7183C43A2B7E2A6F7F4803450&ocid=hpmsn"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources indicate that E.T. the Extra-Terrestrial is Spielberg's highest-grossing film, followed by Jurassic Park. Indiana Jones and the Kingdom of the Crystal Skull, The Lost World: Jurassic Park, and War of the Worlds follow in decreasing order of gross revenue. The proposed answers have the incorrect order for the top two films, which required a correction. However, specific numeric gross revenues were not available for all films in the authoritative sources, leaving the answer_values as null.",
+                        "proposed_answers": [
+                            "Jurassic Park",
+                            "E.T. the Extra-Terrestrial",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "corrected_answers": [
+                            "E.T. the Extra-Terrestrial",
+                            "Jurassic Park",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "best_source": "https://entertainment.inquirer.net/270796/p2fb-steven-spielberg-first-director-10b-worldwide"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower. E.T. the Extra-Terrestrial vs Jurassic Park ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Highest-Grossing Steven Spielberg Movies, Ranked - TheRichest",
+                                "url": "https://www.therichest.com/steven-spielberg-movies-ranked/"
+                            },
+                            {
+                                "title": "The highest-grossing movies directed by Steven Spielberg adjusted ...",
+                                "url": "https://www.reddit.com/r/boxoffice/comments/1qzjlep/the_highestgrossing_movies_directed_by_steven/"
+                            },
+                            {
+                                "title": "All Steven Spielberg Movies, Ranked by Box Office Gross",
+                                "url": "https://www.businessinsider.com/all-steven-spielberg-movies-ranked-by-box-office-gross-2018-3"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "Steven Spielberg's 10 Highest-Grossing Movies, Ranked By Box ...",
+                                "url": "https://collider.com/steven-spielbergs-highest-grossing-movies-ranked/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order incorrectly places 'E.T. the Extra-Terrestrial' above 'Jurassic Park', and 'The Lost World: Jurassic Park' and 'War of the Worlds' do not appear correctly ranked in the top 5 according to the source data provided.",
+                        "best_source": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Steven Spielberg highest grossing films worldwide unadjusted Box Office Mojo The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Steven Spielberg - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/135430401-Steven-Spielberg"
+                            },
+                            {
+                                "title": "Steven Spielberg, first director to gross $10B worldwide",
+                                "url": "https://entertainment.inquirer.net/270796/p2fb-steven-spielberg-first-director-10b-worldwide"
+                            },
+                            {
+                                "title": "Steven Spielberg's Box Office Success - Facebook",
+                                "url": "https://www.facebook.com/groups/JetsFans/posts/10161976299920797/"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "The 20 highest-grossing Steven Spielberg movies, ranked - MSN",
+                                "url": "https://www.msn.com/en-ae/news/other/the-20-highest-grossing-steven-spielberg-movies-ranked/ss-AA1HYewa?cvid=929163E7183C43A2B7E2A6F7F4803450&ocid=hpmsn"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the best source available (Paste Magazine), the correct ranking is slightly different. Jurassic Park is the highest-grossing Steven Spielberg-directed film at $1.1096 billion, followed by E.T. the Extra-Terrestrial, Indiana Jones and the Kingdom of the Crystal Skull, The Lost World: Jurassic Park, and finally War of the Worlds. The proposed list has inaccuracies in both order and exact films listed in the top five.",
+                        "proposed_answers": [
+                            "E.T. the Extra-Terrestrial",
+                            "Jurassic Park",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "corrected_answers": [
+                            "E.T. the Extra-Terrestrial",
+                            "Jurassic Park",
+                            "Indiana Jones and the Kingdom of the Crystal Skull",
+                            "The Lost World: Jurassic Park",
+                            "War of the Worlds"
+                        ],
+                        "best_source": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower. E.T. the Extra-Terrestrial vs Jurassic Park ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Highest-Grossing Steven Spielberg Movies, Ranked - TheRichest",
+                                "url": "https://www.therichest.com/steven-spielberg-movies-ranked/"
+                            },
+                            {
+                                "title": "The highest-grossing movies directed by Steven Spielberg adjusted ...",
+                                "url": "https://www.reddit.com/r/boxoffice/comments/1qzjlep/the_highestgrossing_movies_directed_by_steven/"
+                            },
+                            {
+                                "title": "All Steven Spielberg Movies, Ranked by Box Office Gross",
+                                "url": "https://www.businessinsider.com/all-steven-spielberg-movies-ranked-by-box-office-gross-2018-3"
+                            },
+                            {
+                                "title": "Steven Spielberg Becomes First Director to Hit 11 Figures in Total ...",
+                                "url": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                            },
+                            {
+                                "title": "Steven Spielberg's 10 Highest-Grossing Movies, Ranked By Box ...",
+                                "url": "https://collider.com/steven-spielbergs-highest-grossing-movies-ranked/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places E.T. the Extra-Terrestrial above Jurassic Park, which contradicts multiple sources indicating that Jurassic Park grossed higher worldwide at the time of their release. Additionally, Jaws and Raiders of the Lost Ark are erroneously omitted from the corrected top five order despite being highly ranked in authoritative sources.",
+                        "best_source": "https://www.pastemagazine.com/article/steven-spielberg-becomes-first-director-to-hit-11"
+                    }
+                },
+                {
+                    "topic": "March 2026 TIOBE Index update",
+                    "suggested_question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+                    "connection": "With SXSW’s tech focus and the TIOBE Index updating monthly, ranking March’s top languages is both current and developer-centric.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking the top 5 programming languages in the TIOBE Index (March 2026) is distinct from previously used questions, as it focuses on programming languages and their rankings, a topic not covered in any existing questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+                        "answers": [
+                            "Python",
+                            "C",
+                            "C++",
+                            "Java",
+                            "C#"
+                        ],
+                        "distractors": [
+                            "JavaScript",
+                            "Go",
+                            "Rust",
+                            "Swift",
+                            "PHP",
+                            "TypeScript",
+                            "Ruby",
+                            "MATLAB",
+                            "R",
+                            "Kotlin",
+                            "Dart",
+                            "Scala",
+                            "Delphi/Object Pascal",
+                            "Objective-C",
+                            "Visual Basic"
+                        ],
+                        "suggested_source": "https://www.tiobe.com/tiobe-index/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "TIOBE Index March 2026 top 5 programming languages",
+                        "sources_found": [
+                            {
+                                "title": "TIOBE Index for February 2026: Top 10 Most Popular Programming ...",
+                                "url": "https://www.techrepublic.com/article/news-tiobe-index-language-rankings/"
+                            },
+                            {
+                                "title": "C# Grabs Language of the Year, TIOBE Predicts TypeScript Rise",
+                                "url": "https://visualstudiomagazine.com/articles/2026/01/08/csharp-grabs-language-of-the-year-tiobe-predicts-typescript-rise.aspx"
+                            },
+                            {
+                                "title": "Top 5 Programming Languages Dominating 2026 - DEV Community",
+                                "url": "https://dev.to/md8_habibullah/top-5-programming-languages-dominating-2026-1e6f"
+                            },
+                            {
+                                "title": "Top 5 Programming Languages to Learn in 2026 (to Actually Get ...",
+                                "url": "https://www.youtube.com/watch?v=naNcmnKskUE"
+                            },
+                            {
+                                "title": "14 Most In-demand Programming Languages for 2026 - Itransition",
+                                "url": "https://www.itransition.com/developers/in-demand-programming-languages"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "VERIFIED",
+                        "reason": "The authoritative source from TechRepublic provides the TIOBE Index rankings for February 2026, which clearly list Python at #1, C at #2, C++ at #3, Java at #4, and C# at #5. This matches the proposed answers in both content and order.",
+                        "proposed_answers": [
+                            "Python",
+                            "C",
+                            "C++",
+                            "Java",
+                            "C#"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.techrepublic.com/article/news-tiobe-index-language-rankings/"
+                    },
+                    "question_id": 19,
+                    "final_answers": [
+                        "Python",
+                        "C",
+                        "C++",
+                        "Java",
+                        "C#"
+                    ],
+                    "final_source": "https://www.techrepublic.com/article/news-tiobe-index-language-rankings/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 04, 2026",
+                        "results": [
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "... 4. March 2026. UFC Fight Night: Adesanya vs PyferMar 28, 2026Climate Pledge Arena Seattle, WA · Monday Night RAWMar"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "Sports in 2026 describes the year's events in world sport. The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide - Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "# March National Days Around the World: The Essential Global Guide for 2026. Here is your essential look at the major national days, cultural festivals, and international observances happening in Marc"
+                            },
+                            {
+                                "title": "March 2026 calendar: St. Patrick's Day, daylight saving time, more",
+                                "url": "https://www.usatoday.com/story/news/nation/2026/02/28/march-2026-calendar/88861936007/",
+                                "snippet": "March 2026 calendar includes St. Patrick's Day, other celebrations. March 2026 calendar: St. Patrick's Day, daylight saving time, more. March is packed with events, holidays, national days and celebra"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "# A Complete List of March Holidays to Add to Your 2026 Calendar. The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of S"
+                            },
+                            {
+                                "title": "March Days - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-days",
+                                "snippet": "Don't miss a single celebration in March! Browse our day-by-day list of national holidays, state days, and other events to find a reason to celebrate every day."
+                            },
+                            {
+                                "title": "The Month of March 2026: Holidays, Astronomy, Fun Facts, Folklore",
+                                "url": "https://www.almanac.com/content/month-march-holidays-fun-facts-folklore",
+                                "snippet": "* **March 3** is [**Holi**](https://www.almanac.com/holi), the Indian “Festival of Colors” that marks spring and renewal. * **March 8**is the start of [**Daylight Saving Time**](https://www.almanac.co"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "March 2026: The Big Swings. Date. Event. March 1. Actor Awards (SAG). March 1–2. Children & Family Emmy Awards. March 7. CAS Awards. March 7."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "March. 1-2: Children & Family Emmy Awards. 3: Dorian Awards (GALECA) · April. 2: Anime Awards nominations · May. 10: BAFTA Television Awards · June. 7: Tony Awards."
+                            },
+                            {
+                                "title": "2026 Cypress Awards Ceremony - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/2026-cypress-awards-ceremony-tickets-1984075429018",
+                                "snippet": "Eventbrite - PRAL Central presents 2026 Cypress Awards Ceremony - Monday, March 16, 2026 at Oakwing Golf Club, Alexandria, LA. Find event and ticket information"
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "### Live From SXSW! The Big Picture with the legendary Steven Spielberg. Announcing 350+ artists added to the 2026 Music Festival including Miss Bashful, Kairo Keyz, Charley Crockett, and Passion Pit."
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week March 04, 2026",
+                        "results": [
+                            {
+                                "title": "Headlines for March 04, 2025",
+                                "url": "https://www.democracynow.org/2025/3/4/headlines",
+                                "snippet": "President Donald Trump has ordered the US to suspend all military aid to Ukraine. The stunning reversal came just days after Trump and Vice President JD Vance"
+                            },
+                            {
+                                "title": "Newswatch - Wednesday, March 4, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=XF7lg2g5Qo4",
+                                "snippet": "Comments are turned off. Learn more · 7:57 · Go to channel Fox News · BREAKING: Qatar shoots down Iranian jets, halts LNG production."
+                            },
+                            {
+                                "title": "5 things to know for March 4: Trump tariffs, Ukraine aid ...",
+                                "url": "https://www.cnn.com/2025/03/04/us/5-things-to-know-for-march-4",
+                                "snippet": "President Donald Trump enacted 25% duties on Mexico and Canada, and doubled tariffs on Chinese goods to 20%. Beijing swiftly announced 15% retaliatory tariffs."
+                            },
+                            {
+                                "title": "What Happened on March 4",
+                                "url": "https://www.history.com/this-day-in-history/march-4",
+                                "snippet": "Discover what happened on March 4 with HISTORY's summaries of major events, anniversaries, famous births and notable deaths."
+                            },
+                            {
+                                "title": "AP top stories March 4 P",
+                                "url": "https://apnews.com/video/ap-top-stories-march-4-p-976fbc189dcc4406a7790a0a82c1909e",
+                                "snippet": "Here's the latest for Tuesday, March 4th: U.S. starts tariffs on Mexico, Canada; Russia welcomes U.S. pullback on Ukraine support;"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days March 04",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 4",
+                                "url": "https://www.onthisday.com/birthdays/march/4",
+                                "snippet": "Famous birthdays for the 4th of March. See which celebrities, historical figures, scientists and criminals were born on March 4."
+                            },
+                            {
+                                "title": "March 4 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/march4.html",
+                                "snippet": "YouTube Stars born March 4. YouTube Stars born March 4. TikTok Stars born March 4. TikTok Stars born March 4. Instagram Stars born March 4. Instagram Stars born March 4. Reality Stars born March 4. Re"
+                            },
+                            {
+                                "title": "Famous birthdays - March 4, 2025",
+                                "url": "https://www.cleveland.com/entertainment/2025/03/famous-birthdays-list-for-today-march-4-2025-includes-celebrities-patricia-heaton-catherine-ohara.html",
+                                "snippet": "Famous birthdays list for today, March 4, 2025 includes celebrities Patricia Heaton, Catherine O'Hara · Top celebrity birthdays on March 4, 2025."
+                            },
+                            {
+                                "title": "Famous birthdays for March 4: Catherine O'Hara, Steven ...",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-4-catherine-080007972.html",
+                                "snippet": "The actor turns 70 on March 4. File Photo by Jim Ruymen/UPI. File Photo by James Atoa/UPI. File Photo by Kevin Dietsch/UPI. -- Actor Paula Prentiss in 1938 (age 86). File Photo by Jim Ruymen/UPI. -- A"
+                            },
+                            {
+                                "title": "Athletes Born March 4",
+                                "url": "https://www.famousbirthdays.com/date/march4-athlete.html",
+                                "snippet": "Famous Athletes Born March 4 including George Pickens, Draymond Green, Sarah Stock, Saniya Rivers, Kevin Johnson and many more."
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes.",
+                        "connection": "The World Women’s Curling Championship kicks off this month in Calgary, making all-time national performance a timely stat to rank."
+                    },
+                    {
+                        "topic": "SXSW 2026 and Steven Spielberg’s keynote appearance",
+                        "suggested_question": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower.",
+                        "connection": "Spielberg is headlining at SXSW (Mar 12–18), so a box office ranking of his films is directly relevant to this week’s entertainment buzz."
+                    },
+                    {
+                        "topic": "March 2026 TIOBE Index update",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+                        "connection": "With SXSW’s tech focus and the TIOBE Index updating monthly, ranking March’s top languages is both current and developer-centric."
+                    },
+                    {
+                        "topic": "International Women’s Day & Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 publicly traded companies led by women CEOs by market capitalization as of March 4, 2026, from largest to smaller.",
+                        "connection": "March celebrates women’s achievements globally; highlighting the largest woman-led companies spotlights current leadership milestones."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) – Irish spirits",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by 2025 global case sales (9-liter cases), from most to fewer.",
+                        "connection": "With St. Patrick’s Day approaching, Irish whiskey sales leaders are a seasonal, data-driven list to rank."
+                    },
+                    {
+                        "topic": "March 4 ties to U.S. presidential history",
+                        "suggested_question": "Among U.S. presidents inaugurated on March 4, rank the top 5 by total time served as president, from longest to shorter; if tied, break ties by earliest first inauguration year.",
+                        "connection": "March 4 was historically Inauguration Day in the U.S.; today’s date makes a tenure ranking of March 4 presidents timely."
+                    },
+                    {
+                        "topic": "Holi (Mar 3) – Festival of Colors and floriculture",
+                        "suggested_question": "Rank the top 5 Indian states by annual marigold flower production (latest official year), from highest to lower.",
+                        "connection": "Holi celebrations commonly use marigolds; state-level production data connects the festival to verifiable floriculture stats."
+                    },
+                    {
+                        "topic": "SXSW travel surge and hospitality",
+                        "suggested_question": "Rank the top 5 U.S. cities by total number of hotel rooms (latest available data), from most to fewer.",
+                        "connection": "SXSW draws massive crowds to Austin; ranking U.S. cities by hotel room inventory ties into current travel and hospitality capacity."
+                    },
+                    {
+                        "topic": "Pi Day (Mar 14) – mathematics spotlight",
+                        "suggested_question": "Rank the top 5 countries by total number of Fields Medal recipients (all-time), from most to fewer; if tied, break ties by earliest year of first award.",
+                        "connection": "Pi Day is a global math celebration; the Fields Medal is the pinnacle of math honors, ideal for a timely, objective ranking.",
+                        "fallback": true
+                    },
+                    {
+                        "topic": "St. Patrick’s Day parades",
+                        "suggested_question": "Rank the top 5 U.S. cities by largest St. Patrick’s Day parade attendance (average recent years), from largest to smaller.",
+                        "connection": "With parades imminent, comparing the biggest St. Patrick’s Day crowds across cities is a seasonal, verifiable list.",
+                        "fallback": true
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 10,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by most World Women’s Curling Championship titles (all-time), from most to fewer; if tied, break ties by most silver medals, then most bronzes.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about World Women’s Curling Championship titles, which is a specific sport event, and none of the recent questions cover curling or even a closely related topic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 and Steven Spielberg’s keynote appearance",
+                        "suggested_question": "Rank the top 5 Steven Spielberg–directed films by worldwide box office gross (unadjusted), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Steven Spielberg and his films focuses on the entertainment industry, specifically films and directors, which is not the same as the subjects of recent questions (sports, geography, astronomy, and weather).",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March 2026 TIOBE Index update",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on the TIOBE Index ranking of programming languages does not overlap with any recent questions, as none relate to programming or tech rankings.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "International Women’s Day & Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 publicly traded companies led by women CEOs by market capitalization as of March 4, 2026, from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about women CEOs and corporate leadership, which is unrelated to any of the recent questions covering sports, geography, astronomy, or climate. It features a distinct subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) – Irish spirits",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by 2025 global case sales (9-liter cases), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Irish whiskey sales related to St. Patrick's Day, which is entirely distinct from all recent questions covering sports, astronomy, geography, and weather.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March 4 ties to U.S. presidential history",
+                        "suggested_question": "Among U.S. presidents inaugurated on March 4, rank the top 5 by total time served as president, from longest to shorter; if tied, break ties by earliest first inauguration year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. presidential history and inauguration dates, which is unrelated to any of the recent questions covering topics like sports, geography, astronomy, or weather patterns.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Holi (Mar 3) – Festival of Colors and floriculture",
+                        "suggested_question": "Rank the top 5 Indian states by annual marigold flower production (latest official year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on marigold flower production in Indian states, which does not overlap with any of the recent questions that cover diverse subjects like sports, astronomy, geography, and weather.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW travel surge and hospitality",
+                        "suggested_question": "Rank the top 5 U.S. cities by total number of hotel rooms (latest available data), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on hotel room availability in U.S. cities, which is unrelated to sunshine metrics, sports, geography, or astronomy covered in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Pi Day (Mar 14) – mathematics spotlight",
+                        "suggested_question": "Rank the top 5 countries by total number of Fields Medal recipients (all-time), from most to fewer; if tied, break ties by earliest year of first award.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on mathematics and a specific mathematical recognition (Fields Medal), which is unrelated to any recent questions that cover areas such as sports, geography, astronomy, or weather.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day parades",
+                        "suggested_question": "Rank the top 5 U.S. cities by largest St. Patrick’s Day parade attendance (average recent years), from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on St. Patrick's Day parades focuses on a cultural and holiday-related theme, which does not overlap with any of the recent questions that cover topics like sports, geography, astronomy, or weather statistics.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 19
         }
     ]
 }

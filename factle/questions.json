@@ -629,6 +629,41 @@
                 "Tucson, Arizona"
             ],
             "source": "https://theweatherstationexperts.com/sunniest-us-cities/"
+        },
+        {
+            "id": 19,
+            "date": "2026-03-04",
+            "question": "Rank the top 5 programming languages in the TIOBE Index (March 2026) from #1 to #5.",
+            "options": [
+                "Python",
+                "C",
+                "C++",
+                "Java",
+                "C#",
+                "JavaScript",
+                "Go",
+                "Rust",
+                "Swift",
+                "PHP",
+                "TypeScript",
+                "Ruby",
+                "MATLAB",
+                "R",
+                "Kotlin",
+                "Dart",
+                "Scala",
+                "Delphi/Object Pascal",
+                "Objective-C",
+                "Visual Basic"
+            ],
+            "answers": [
+                "Python",
+                "C",
+                "C++",
+                "Java",
+                "C#"
+            ],
+            "source": "https://www.techrepublic.com/article/news-tiobe-index-language-rankings/"
         }
     ]
 }
