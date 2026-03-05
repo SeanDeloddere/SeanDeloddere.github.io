@@ -15509,6 +15509,765 @@
                 ]
             },
             "question_id": 19
+        },
+        {
+            "date": "2026-03-06",
+            "topics_discovered": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer.",
+                    "connection": "The World Women’s Curling Championship is happening this month in Calgary, making an all-time medals ranking timely for curling fans."
+                },
+                {
+                    "topic": "Oscars 2026 (Mar 15, 2026)",
+                    "suggested_question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+                    "connection": "With the Oscars days away, a ranking of the most-nominated people in Academy history connects directly to awards season."
+                },
+                {
+                    "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                    "suggested_question": "Rank the top 5 countries by number of international patent applications (PCT filings) in 2025, from most to fewer.",
+                    "connection": "SXSW spotlights innovation—PCT filings are a globally tracked, objective measure of inventive activity, fitting the conference theme."
+                },
+                {
+                    "topic": "Holi and Hola Mohalla (early March 2026)",
+                    "suggested_question": "Rank the top 5 countries outside India with the largest Hindu populations, from largest to smaller.",
+                    "connection": "Holi and Hola Mohalla are celebrated this week; ranking Hindu populations outside India highlights the global community during these festivals."
+                },
+                {
+                    "topic": "Commonwealth Day (Mar 9, 2026)",
+                    "suggested_question": "Rank the top 5 longest-reigning British monarchs by length of reign (in days), from longest to shorter.",
+                    "connection": "Commonwealth Day draws attention to the monarchy’s history, making a precise, data-driven reign-length ranking relevant."
+                },
+                {
+                    "topic": "Peace Corps Day (Mar 1, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. universities by total number of Peace Corps volunteers produced (all-time), from most to fewer.",
+                    "connection": "Peace Corps Day celebrates service; the organization publishes annual rankings of universities by volunteer totals—perfect for an objective top-5."
+                },
+                {
+                    "topic": "National Peanut Butter Lovers’ Day (Mar 1, 2026)",
+                    "suggested_question": "Rank the top 5 countries by peanut production (latest FAO-reported year), from most to fewer.",
+                    "connection": "March features Peanut Butter Lovers’ Day; peanut production stats are publicly reported, enabling a verifiable global ranking."
+                },
+                {
+                    "topic": "Commonwealth Day—Cultural Heritage focus",
+                    "suggested_question": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites, from most to fewer.",
+                    "connection": "Commonwealth Day also celebrates culture; UNESCO maintains official site counts per country, allowing an objective cultural ranking."
+                },
+                {
+                    "topic": "Global clean energy momentum (innovation tie-in during March events)",
+                    "suggested_question": "Rank the top 5 countries by total installed wind power capacity (GW) at the end of 2025, from most to fewer.",
+                    "connection": "With innovation conferences in March, clean energy capacity is a topical, objective metric tracked by industry bodies and agencies."
+                },
+                {
+                    "topic": "Monaco Grand Prix 2026 season hype (auto racing calendars)",
+                    "suggested_question": "Rank the top 5 Formula 1 drivers by most Monaco Grand Prix wins (all-time), from most to fewer.",
+                    "connection": "Auto racing calendars highlight the 2026 Monaco GP; historic win totals at Monaco are a classic, verifiable motorsport stat."
+                },
+                {
+                    "topic": "Seasonal fallback: Pi Day (Mar 14)",
+                    "suggested_question": "Rank the top 5 countries by number of Fields Medal recipients (all-time), from most to fewer.",
+                    "connection": "Pi Day celebrates mathematics; the Fields Medal is math’s highest honor, and recipient counts by country are well documented."
+                },
+                {
+                    "topic": "Seasonal fallback: Early spring travel (March)",
+                    "suggested_question": "Rank the top 5 U.S. national parks by total March visitor counts (most recent full year), from most to fewer.",
+                    "connection": "Spring travel ramps up in March; the National Park Service publishes monthly visitation data, enabling an objective ranking."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer.",
+                    "connection": "The World Women’s Curling Championship is happening this month in Calgary, making an all-time medals ranking timely for curling fans.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ranking countries by Women’s World Curling Championship titles, which is a unique topic not covered by any existing question. Although other questions involve ranking top entities in various sports, the specific event and scope (Women’s World Curling Championship) are entirely distinct."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer.",
+                        "answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Germany"
+                        ],
+                        "distractors": [
+                            "United States",
+                            "China",
+                            "Denmark",
+                            "Norway",
+                            "Japan",
+                            "South Korea",
+                            "Russia",
+                            "Finland",
+                            "Italy",
+                            "Czech Republic",
+                            "Latvia",
+                            "Estonia",
+                            "Netherlands",
+                            "Hungary",
+                            "Spain"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/World_Women%27s_Curling_Championship#Medal_table"
+                    },
+                    "verification_search_iter0": {
+                        "query": "World Women's Curling Championship medal table titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/world-women-s-curling-championship-standings-1.1928318"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Curling Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Curling_Championships"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the Grokipedia source, Canada has won the most Women's World Curling Championship titles with 19, followed by Switzerland and Sweden each with 8 titles. Germany is listed with 2 titles, as is Scotland. The originally provided list had the correct countries but the wrong ranking for Scotland and Germany, which are tied at 2 titles each.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Women's World Rankings",
+                                "url": "https://worldcurling.org/worldrankings/womens-rankings/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Team Rankings: Women",
+                                "url": "https://worldcurling.org/teamrankings/women/"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The additional sources provided do not include a clear historical count of Women's World Curling Championship titles, which is required to confirm the corrected order. Rankings and recent results do not necessarily reflect historical cumulative title counts.",
+                        "best_source": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "World Women's Curling Championship medal table titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/world-women-s-curling-championship-standings-1.1928318"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Curling Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Curling_Championships"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The Grokipedia source explicitly states Canada leads with 19 titles, followed by Switzerland and Sweden both with 8 titles, Germany with 3 titles, and Scotland with 2 titles. The proposed answer order was correct but omitted the title counts. The correction adds verified title counts to match the factual data.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Women's World Rankings",
+                                "url": "https://worldcurling.org/worldrankings/womens-rankings/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Team Rankings: Women",
+                                "url": "https://worldcurling.org/teamrankings/women/"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not include definitive data on the historical all-time totals of Women’s World Curling Championship titles per country, making it impossible to confirm the corrected order.",
+                        "best_source": "https://worldcurling.org/worldrankings/womens-rankings/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "World Women's Curling Championship medal table titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/world-women-s-curling-championship-standings-1.1928318"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Curling Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Curling_Championships"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The sources provide clear data confirming Canada has most Women's World Curling Championship titles with 19. Switzerland and Sweden are tied with 8 championships each, followed by Germany with 6 and Scotland with 2. The original answers have the correct countries but lack precise ranking due to equal counts for Switzerland and Sweden. Grokipedia offers the most reliable numeric medal count data per country for verification.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Women's World Rankings",
+                                "url": "https://worldcurling.org/worldrankings/womens-rankings/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Team Rankings: Women",
+                                "url": "https://worldcurling.org/teamrankings/women/"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://m.facebook.com/worldcurling/photos/take-a-look-at-the-current-womens-world-rankings-curling/1106588314848480/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "None of the provided sources directly list or confirm the all-time title counts for the Women’s World Curling Championship by country, and the rankings discussed in the sources pertain to current or recent rankings, not historical achievements.",
+                        "best_source": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                    }
+                },
+                {
+                    "topic": "Oscars 2026 (Mar 15, 2026)",
+                    "suggested_question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+                    "connection": "With the Oscars days away, a ranking of the most-nominated people in Academy history connects directly to awards season.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on Oscars and Academy Award nominations, which is distinct from any of the listed topics that cover sports, geography, science, or other awards like Grammys."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+                        "answers": [
+                            "Walt Disney",
+                            "John Williams",
+                            "Alfred Newman",
+                            "Cedric Gibbons",
+                            "Edith Head"
+                        ],
+                        "distractors": [
+                            "Max Steiner",
+                            "Sammy Cahn",
+                            "Meryl Streep",
+                            "Steven Spielberg",
+                            "Woody Allen",
+                            "Randy Newman",
+                            "Thomas Newman",
+                            "Roger Deakins",
+                            "Charles B. Lang Jr.",
+                            "Leon Shamroy",
+                            "Kevin O’Connell",
+                            "Dennis Muren",
+                            "Alan Menken",
+                            "Colleen Atwood",
+                            "John Barry"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most Academy Award nominations individuals Walt Disney John Williams Alfred Newman Cedric Gibbons Edith Head site:wikipedia.org",
+                        "sources_found": []
+                    },
+                    "verify_iter0_result": "no_sources",
+                    "verification_search_iter1": {
+                        "query": "most Academy Award nominations individuals Walt Disney John Williams Alfred Newman Cedric Gibbons Edith Head site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "List of Academy Award records - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award_records"
+                            },
+                            {
+                                "title": "Statistiche e record dei Premi Oscar - Wikipedia",
+                                "url": "https://it.wikipedia.org/wiki/Statistiche_e_record_dei_Premi_Oscar"
+                            },
+                            {
+                                "title": "Anexo:Estadísticas de los Premios Óscar - Wikipedia",
+                                "url": "https://es.wikipedia.org/wiki/Anexo:Estad%C3%ADsticas_de_los_Premios_%C3%93scar"
+                            },
+                            {
+                                "title": "26. ceremonia wręczenia Oscarów – Wikipedia, wolna encyklopedia",
+                                "url": "https://pl.wikipedia.org/wiki/26._ceremonia_wr%C4%99czenia_Oscar%C3%B3w"
+                            },
+                            {
+                                "title": "Óscar – Wikipédia, a enciclopédia livre",
+                                "url": "https://pt.wikipedia.org/wiki/%C3%93scar"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the best source (List of Academy Award records - Wikipedia), the numbers of nominations for Walt Disney (59), John Williams (54), Alfred Newman (43), and Cedric Gibbons (38) can be confirmed. Edith Head's number of nominations isn't explicitly listed in the provided sources, so her exact placement or value is unclear. The corrected order is determined based on the numerical nominations provided, and Edith Head is left in the fifth position despite her count being unspecified in the sources.",
+                        "proposed_answers": [
+                            "Walt Disney",
+                            "John Williams",
+                            "Alfred Newman",
+                            "Cedric Gibbons",
+                            "Edith Head"
+                        ],
+                        "corrected_answers": [
+                            "Walt Disney",
+                            "John Williams",
+                            "Alfred Newman",
+                            "Cedric Gibbons",
+                            "Edith Head"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Academy_Award_records"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer. Walt Disney vs John Williams ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Fifty-one Oscar nominations. Five wins. Which John Williams score ...",
+                                "url": "https://www.facebook.com/TheAcademy/posts/fifty-one-oscar-nominations-five-wins-which-john-williams-score-are-you-still-hu/10155864284961406/"
+                            },
+                            {
+                                "title": "Most Oscar nominations (living) | Guinness World Records",
+                                "url": "https://www.guinnessworldrecords.com/world-records/most-oscar-nominations-living-person"
+                            },
+                            {
+                                "title": "Top Oscar wins and nominees of all time: Who holds the record?",
+                                "url": "https://www.deseret.com/entertainment/2025/02/19/most-oscar-wins/"
+                            },
+                            {
+                                "title": "Who has the most Oscar nominations of all time? | Metro News",
+                                "url": "https://metro.co.uk/2024/03/08/oscar-nominations-time-20425086/"
+                            },
+                            {
+                                "title": "Films, people with most Oscar wins, actors with most nominations",
+                                "url": "https://abc30.com/post/most-oscars-wins-nominations-academy-awards-history/14483060/"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the source data, where Walt Disney has 59 nominations, John Williams has 54, Alfred Newman is widely recognized as having 43 nominations, Cedric Gibbons with 39, and Edith Head with 35.",
+                        "best_source": "https://www.guinnessworldrecords.com/world-records/most-oscar-nominations-living-person"
+                    },
+                    "question_id": 20,
+                    "final_answers": [
+                        "Walt Disney",
+                        "John Williams",
+                        "Alfred Newman",
+                        "Cedric Gibbons",
+                        "Edith Head"
+                    ],
+                    "final_source": "https://www.guinnessworldrecords.com/world-records/most-oscar-nominations-living-person"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 06, 2026",
+                        "results": [
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "*   [2026 Monaco Grand Prix](https://www.roadtrips.com/auto-racing-packages/monaco-grand-prix/). *   [2026 Indianapolis 500](https://www.roadtrips.com/auto-racing-packages/indy-500/). *   [Auto Racing"
+                            },
+                            {
+                                "title": "Sports Event Calendar 2025-2026 - Genius Sports",
+                                "url": "https://www.geniussports.com/sports-event-calendar-2025-26/",
+                                "snippet": "In 2026, there's a Winter Olympics and FIFA World Cup to look forward to amongst annual favourites like the Super Bowl, Champions League final, and March"
+                            },
+                            {
+                                "title": "Major Sports Calendar March 2026 - Facebook",
+                                "url": "https://www.facebook.com/bhaveshdarji.mota/posts/march-2026-major-sports-calendarmarch-2026-biggest-sports-events-sportscalendar-/2513499542432144/",
+                                "snippet": "Bhavesh Chauhan - March 2026 – Major Sports Calendar... [Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fbhaveshdarji.mota%2Fpo"
+                            },
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events",
+                                "snippet": "The final qualifying matches for the 2026 World Cup, the World Cup, the Drift Masters competition – the next 12 months promise many exciting experiences!"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "*   14-22 Mar: [Curling](https://www.olympics.com/en/milano-cortina-2026/sports/curling) – World Women’s Curling Championship (Calgary, Canada). *   21-25 Mar: [Alpine Skiing](https://www.olympics.com"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March 2026 Holidays, National, International.",
+                                "url": "https://www.holidayinsights.com/moreholidays/march.htm",
+                                "snippet": "March 2026 Calendar with Holidays ; March 1. Namesake Day · National Pig Day · Peace Corps Day · Peanut Butter Lovers' Day ; March 9. Barbie Day · Get Over It Day."
+                            },
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOopSX3upK7qaJrBM5ThpJk4OLKKrgL-zS8LB30GH3ChrJ02Uko9_",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2025: Full Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "March 3. 33 Flavors Day; Caregiver Appreciation Day; International Irish Whiskey Day; Lantern Festival; March Worm Moon; National Anthem Day; National Canadian"
+                            },
+                            {
+                                "title": "March 2026 Calendar (With Holidays)",
+                                "url": "https://www.calendarr.com/united-states/calendar-march-2026/",
+                                "snippet": "March 2026 Holidays and National Days · National Wedding Planning Day · National Pig Day · World Candle Day · National Peanut Butter Lover's Day · Self-Injury"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy ...",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "March Inclusive Religious Calendar · March 4 – Hindu: Holi The festival of colors, celebrating the arrival of spring. · March 4 – Sikh: Hola"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "Award Season Calendar Schedule - CalendarX",
+                                "url": "https://www.calendarx.com/schedule/award-season-calendar",
+                                "snippet": "The 98th Academy Awards (Oscars 2026) will be held on Sunday, March 15, 2026, live from the Dolby Theatre in Los Angeles. The star-studded ceremony will air on"
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "March 2026: The Big Swings ; March 1. Actor Awards (SAG) ; March 1–2. Children & Family Emmy Awards ; March 7. CAS Awards ; March 7. SOC Awards."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "Innovation Conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/innovation-conference/",
+                                "snippet": "The SXSW Innovation Conference provides an opportunity for the global community of creatives to encounter cutting-edge ideas, discover new interests, and network with other professionals who share a s"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week March 06, 2026",
+                        "results": [
+                            {
+                                "title": "AP top stories March 6 P - Yahoo",
+                                "url": "https://www.yahoo.com/news/ap-top-stories-march-6-212840423.html",
+                                "snippet": "Bill Clinton testifies · Pakistan and Afghanistan escalation · Texas drone shooting · Minnesota Medicaid freeze · Cuba speedboat shooting · '"
+                            },
+                            {
+                                "title": "Portal:Current events - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+                                "snippet": "March 2026 lunar eclipse. A total lunar eclipse occurs in eastern Asia, Oceania, Pacific, and the Americas. · Astronomers announce the discovery 1,900 light-"
+                            },
+                            {
+                                "title": "March 2026 | News Headlines - Page Six",
+                                "url": "https://pagesix.com/2026/03/",
+                                "snippet": "Read the celebrity news from March 2026 on Page Six."
+                            },
+                            {
+                                "title": "What Happens on March 6, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/6",
+                                "snippet": "# What Happens on March 6, 2026. ## About March 6, 2026. **Day of the Week:** Friday. **How Far Away?** 6 days. ## No Entries for March 6, 2026. * View highlights from  **year 2026**. * Browse our **l"
+                            },
+                            {
+                                "title": "Key takeaways on Day 6 of Iran war - YouTube",
+                                "url": "https://www.youtube.com/watch?v=yVM6rA1Fu-8",
+                                "snippet": "Top U.S. & World Headlines — March 5, 2026. Democracy Now! New. 237K ... Middle East war expands after Iran strikes | World News Tonight."
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days March 06",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 6: D.L. Hughley, Connie Britton - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-6-d-080006928.html",
+                                "snippet": "Comedian D.L. Hughley turns 62 and actor Connie Britton turns 58, among the famous birthdays for March 6."
+                            },
+                            {
+                                "title": "MARCH 6 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-6-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 6: Anna Claypoole Peale (1791-1878) - Painter of miniatures. Aaron Lufkin Dennison (1812-1895) - Considered the \"Father of"
+                            },
+                            {
+                                "title": "Famous birthdays for March 6: Tom Arnold, Millicent Simmonds - UPI",
+                                "url": "https://www.upi.com/Entertainment_News/2024/03/06/Famous-birthdays-for-March-6-Tom-Arnold-Millicent-Simmonds/6571709693561/",
+                                "snippet": "-- Actor Tom Arnold in 1959 (age 65). March 5 (UPI) -- NBC released a hilarious video showing \"Barbie\" and \"Project Hail Mary\" star Ryan Gosling making a bit of a fool of himself on the \"SNL\" set. Mar"
+                            },
+                            {
+                                "title": "March 6 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-6/",
+                                "snippet": "**Tip:** Click the free famous birthday ninja poster above to save the high quality version. #### Famous Birthdays By Month. Famous birthday celebrants include Judy Loe, Hannah Taylor-Gordon, Guy Garv"
+                            },
+                            {
+                                "title": "Famous birthdays list for today, March 6, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/03/famous-birthdays-list-for-today-march-6-2025-includes-celebrities-rob-reiner-dl-hughley.html",
+                                "snippet": "# Famous birthdays list for today, March 6, 2025 includes celebrities Rob Reiner, D.L. Hughley. Rob Reiner and D.L. Hughley celebrate birthdays on March 6, 2025.AP. Birthday wishes go out to Rob Reine"
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer.",
+                        "connection": "The World Women’s Curling Championship is happening this month in Calgary, making an all-time medals ranking timely for curling fans."
+                    },
+                    {
+                        "topic": "Oscars 2026 (Mar 15, 2026)",
+                        "suggested_question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+                        "connection": "With the Oscars days away, a ranking of the most-nominated people in Academy history connects directly to awards season."
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 countries by number of international patent applications (PCT filings) in 2025, from most to fewer.",
+                        "connection": "SXSW spotlights innovation—PCT filings are a globally tracked, objective measure of inventive activity, fitting the conference theme."
+                    },
+                    {
+                        "topic": "Holi and Hola Mohalla (early March 2026)",
+                        "suggested_question": "Rank the top 5 countries outside India with the largest Hindu populations, from largest to smaller.",
+                        "connection": "Holi and Hola Mohalla are celebrated this week; ranking Hindu populations outside India highlights the global community during these festivals."
+                    },
+                    {
+                        "topic": "Commonwealth Day (Mar 9, 2026)",
+                        "suggested_question": "Rank the top 5 longest-reigning British monarchs by length of reign (in days), from longest to shorter.",
+                        "connection": "Commonwealth Day draws attention to the monarchy’s history, making a precise, data-driven reign-length ranking relevant."
+                    },
+                    {
+                        "topic": "Peace Corps Day (Mar 1, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. universities by total number of Peace Corps volunteers produced (all-time), from most to fewer.",
+                        "connection": "Peace Corps Day celebrates service; the organization publishes annual rankings of universities by volunteer totals—perfect for an objective top-5."
+                    },
+                    {
+                        "topic": "National Peanut Butter Lovers’ Day (Mar 1, 2026)",
+                        "suggested_question": "Rank the top 5 countries by peanut production (latest FAO-reported year), from most to fewer.",
+                        "connection": "March features Peanut Butter Lovers’ Day; peanut production stats are publicly reported, enabling a verifiable global ranking."
+                    },
+                    {
+                        "topic": "Commonwealth Day—Cultural Heritage focus",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites, from most to fewer.",
+                        "connection": "Commonwealth Day also celebrates culture; UNESCO maintains official site counts per country, allowing an objective cultural ranking."
+                    },
+                    {
+                        "topic": "Global clean energy momentum (innovation tie-in during March events)",
+                        "suggested_question": "Rank the top 5 countries by total installed wind power capacity (GW) at the end of 2025, from most to fewer.",
+                        "connection": "With innovation conferences in March, clean energy capacity is a topical, objective metric tracked by industry bodies and agencies."
+                    },
+                    {
+                        "topic": "Monaco Grand Prix 2026 season hype (auto racing calendars)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Monaco Grand Prix wins (all-time), from most to fewer.",
+                        "connection": "Auto racing calendars highlight the 2026 Monaco GP; historic win totals at Monaco are a classic, verifiable motorsport stat."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Pi Day (Mar 14)",
+                        "suggested_question": "Rank the top 5 countries by number of Fields Medal recipients (all-time), from most to fewer.",
+                        "connection": "Pi Day celebrates mathematics; the Fields Medal is math’s highest honor, and recipient counts by country are well documented."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Early spring travel (March)",
+                        "suggested_question": "Rank the top 5 U.S. national parks by total March visitor counts (most recent full year), from most to fewer.",
+                        "connection": "Spring travel ramps up in March; the National Park Service publishes monthly visitation data, enabling an objective ranking."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 12,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by most Women’s World Curling Championship titles (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about Women's World Curling Championship titles, which is a distinct subject not covered by any of the recent questions that focus on golf, astronomy, marathons, tennis, weather, and programming.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Oscars 2026 (Mar 15, 2026)",
+                        "suggested_question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Academy Awards, which is unrelated to the themes of any recent questions, such as sports, astronomy, weather, or programming.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 countries by number of international patent applications (PCT filings) in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to international patent applications, which is distinct from the themes of recent questions such as sports, astronomy, weather, or programming languages. There is no overlap with any recent question topics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Holi and Hola Mohalla (early March 2026)",
+                        "suggested_question": "Rank the top 5 countries outside India with the largest Hindu populations, from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Hindu populations by country, which is unrelated to any recent themes such as sports, astronomy, programming, or weather.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day (Mar 9, 2026)",
+                        "suggested_question": "Rank the top 5 longest-reigning British monarchs by length of reign (in days), from longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on British monarchs pertains to historical and royal themes, which none of the recent questions addressed.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Peace Corps Day (Mar 1, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. universities by total number of Peace Corps volunteers produced (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to the Peace Corps and focuses on volunteer statistics by university, which is unrelated to any of the recent topics, as they cover sports, astronomy, climate, and programming.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Peanut Butter Lovers’ Day (Mar 1, 2026)",
+                        "suggested_question": "Rank the top 5 countries by peanut production (latest FAO-reported year), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on peanut production and agriculture, which is unrelated to any recent questions' topics (sports, astronomy, weather, or technology).",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day—Cultural Heritage focus",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on UNESCO World Heritage Sites within the Commonwealth, which is unrelated to any of the recent themes such as sports, astronomy, weather, or programming.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Global clean energy momentum (innovation tie-in during March events)",
+                        "suggested_question": "Rank the top 5 countries by total installed wind power capacity (GW) at the end of 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic 'wind power capacity by country' relates to clean energy and renewable energy sources, which does not overlap with any of the recent questions covering unrelated topics like golf, astronomy, marathon records, tennis, sunshine, or programming languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Monaco Grand Prix 2026 season hype (auto racing calendars)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Monaco Grand Prix wins (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Formula 1 and auto racing, which is unrelated to any of the recent questions that cover golf, astronomy, marathons, tennis, sunshine, or programming languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Pi Day (Mar 14)",
+                        "suggested_question": "Rank the top 5 countries by number of Fields Medal recipients (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about Fields Medal recipients (mathematics awards), which does not overlap with any recent topics such as sports tournaments, astronomy, sunshine studies, or programming rankings.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Early spring travel (March)",
+                        "suggested_question": "Rank the top 5 U.S. national parks by total March visitor counts (most recent full year), from most to fewer.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic relates to U.S. destinations and travel insights (March visitation), which overlaps with the recent question about U.S. cities ranked by annual sunshine.",
+                        "overlaps_with": "Rank the top 5 U.S. cities by average annual percent possible sunshine, from sunniest to less sunny."
+                    }
+                ]
+            },
+            "question_id": 20
         }
     ]
 }

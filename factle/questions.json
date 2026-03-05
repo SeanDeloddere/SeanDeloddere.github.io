@@ -664,6 +664,41 @@
                 "C#"
             ],
             "source": "https://www.techrepublic.com/article/news-tiobe-index-language-rankings/"
+        },
+        {
+            "id": 20,
+            "date": "2026-03-06",
+            "question": "Rank the top 5 individuals by most Academy Award nominations (all-time), from most to fewer.",
+            "options": [
+                "Walt Disney",
+                "John Williams",
+                "Alfred Newman",
+                "Cedric Gibbons",
+                "Edith Head",
+                "Max Steiner",
+                "Sammy Cahn",
+                "Meryl Streep",
+                "Steven Spielberg",
+                "Woody Allen",
+                "Randy Newman",
+                "Thomas Newman",
+                "Roger Deakins",
+                "Charles B. Lang Jr.",
+                "Leon Shamroy",
+                "Kevin O’Connell",
+                "Dennis Muren",
+                "Alan Menken",
+                "Colleen Atwood",
+                "John Barry"
+            ],
+            "answers": [
+                "Walt Disney",
+                "John Williams",
+                "Alfred Newman",
+                "Cedric Gibbons",
+                "Edith Head"
+            ],
+            "source": "https://www.guinnessworldrecords.com/world-records/most-oscar-nominations-living-person"
         }
     ]
 }
