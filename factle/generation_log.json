@@ -16268,6 +16268,1409 @@
                 ]
             },
             "question_id": 20
+        },
+        {
+            "date": "2026-03-07",
+            "topics_discovered": [
+                {
+                    "topic": "Formula 1 season opener in Melbourne (Mar 6–8, 2026)",
+                    "suggested_question": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories (World Championship era), from most to fewer.",
+                    "connection": "The 2026 F1 season kicks off this weekend in Melbourne, making Australia-focused F1 records timely."
+                },
+                {
+                    "topic": "Major Social Security change going into effect this weekend",
+                    "suggested_question": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS data), from highest to lower.",
+                    "connection": "A change impacting Social Security recipients is in the news; states with the oldest populations provide relevant, objective context."
+                },
+                {
+                    "topic": "David Gilmour’s birthday (Mar 6) and March 7 celebrity birthdays",
+                    "suggested_question": "Rank the top 5 Pink Floyd albums by highest RIAA U.S. certification (units certified), from highest to lower; break ties by earliest certification date.",
+                    "connection": "With David Gilmour’s birthday just passed and celebrity birthdays highlighted for March 7, a Pink Floyd milestone list is fitting and verifiable."
+                },
+                {
+                    "topic": "150th anniversary of the telephone patent (Alexander Graham Bell, Mar 7, 1876)",
+                    "suggested_question": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer.",
+                    "connection": "On the anniversary of the telephone patent, a telecom subscriber leaderboard connects history to today’s communications landscape."
+                },
+                {
+                    "topic": "Daylight Saving Time begins in the U.S. on Mar 8, 2026",
+                    "suggested_question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+                    "connection": "With clocks changing this weekend in the U.S., a time-zone challenge is timely and globally comparative."
+                },
+                {
+                    "topic": "International Women’s Day (Mar 8)",
+                    "suggested_question": "Rank the top 5 countries with the highest percentage of women in national parliaments (single or lower house), as of March 2026, from highest to lower.",
+                    "connection": "IWD spotlights representation; this ranking uses current IPU data and is objectively verifiable."
+                },
+                {
+                    "topic": "Lantern Festival was celebrated this week (Mar 3)",
+                    "suggested_question": "Rank the top 5 countries by fireworks export value in 2024 (USD), from highest to lower.",
+                    "connection": "Fireworks often feature in Lantern Festival celebrations; recent trade data offers a clear, factual ranking tied to the week’s festivities."
+                },
+                {
+                    "topic": "Community media awards and industry ceremonies this month",
+                    "suggested_question": "Rank the top 5 U.S. newspapers by average Sunday print circulation in 2025, from largest to smaller.",
+                    "connection": "With media awards on the March calendar, a circulation-based snapshot of major Sunday papers is timely and measurable."
+                },
+                {
+                    "topic": "National Reading Month (March)",
+                    "suggested_question": "Rank the top 5 authors by total number of translations worldwide (all-time), from most to fewer.",
+                    "connection": "March highlights reading and publishing; UNESCO translation counts provide an objective, literature-focused ranking."
+                },
+                {
+                    "topic": "Fallback (Seasonal): Pi Day (Mar 14) approaching",
+                    "suggested_question": "Rank the top 5 digits by frequency in the first 10,000 digits of pi (π), from most frequent to less frequent.",
+                    "connection": "Pi Day is next week; digit frequency in pi is a fun, fully objective math challenge."
+                },
+                {
+                    "topic": "Fallback (Seasonal): Spring Break travel surge (mid-to-late March)",
+                    "suggested_question": "Rank the top 5 U.S. airports by total TSA passenger throughput in March 2025, from most to fewer.",
+                    "connection": "Spring Break drives March air travel; TSA throughput offers a clear, data-driven airport ranking."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Formula 1 season opener in Melbourne (Mar 6–8, 2026)",
+                    "suggested_question": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories (World Championship era), from most to fewer.",
+                    "connection": "The 2026 F1 season kicks off this weekend in Melbourne, making Australia-focused F1 records timely.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ranking Formula 1 drivers by most Australian Grand Prix victories, whereas none of the previous questions relate to Formula 1 or Australian Grand Prix statistics. It is a unique topic not covered by previous questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories in the World Championship era (since 1985), from most to fewer.",
+                        "answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Damon Hill",
+                            "Sebastian Vettel",
+                            "Gerhard Berger"
+                        ],
+                        "distractors": [
+                            "Lewis Hamilton",
+                            "Alain Prost",
+                            "Ayrton Senna",
+                            "Kimi Raikkonen",
+                            "Nico Rosberg",
+                            "David Coulthard",
+                            "Fernando Alonso",
+                            "Max Verstappen",
+                            "Charles Leclerc",
+                            "Valtteri Bottas",
+                            "Carlos Sainz",
+                            "Mika Hakkinen",
+                            "Nigel Mansell",
+                            "Daniel Ricciardo",
+                            "Mark Webber"
+                        ],
+                        "suggested_source": "https://www.statsf1.com/en/statistiques/pilote/victoire/gp/australie.aspx"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Australian Grand Prix most wins drivers World Championship era site:statsf1.com",
+                        "sources_found": [
+                            {
+                                "title": "STATS F1",
+                                "url": "https://www.statsf1.com/en/default.aspx"
+                            },
+                            {
+                                "title": "STATS F1",
+                                "url": "https://www.statsf1.com/en/default.aspx?webSyncID=ce46e9e6-ec7a-49da-b6a0-cbad059329ad&sessionGUID=883c9d90-2bc9-993c-ed26-8bead49a2853"
+                            },
+                            {
+                                "title": "STATS F1",
+                                "url": "https://www.statsf1.com/en/default.aspx?webSyncID=64db1c77-620c-89a0-ce46-e9e6ec7a49da&sessionGUID=b6a0cbad-0593-29ad-883c-9d902bc9993c"
+                            },
+                            {
+                                "title": "Daniel RICCIARDO - STATS F1",
+                                "url": "https://www.statsf1.com/en/daniel-ricciardo.aspx"
+                            },
+                            {
+                                "title": "Lewis HAMILTON - STATS F1",
+                                "url": "https://www.statsf1.com/en/lewis-hamilton.aspx"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources from STATS F1 do not contain specific data regarding the number of Australian Grand Prix wins by drivers in the World Championship era. Without relevant data on victories, I cannot verify or correct the proposed answers.",
+                        "proposed_answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Damon Hill",
+                            "Sebastian Vettel",
+                            "Gerhard Berger"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statsf1.com/en/default.aspx"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories in the World Championship era (since 1985), from most to fewer. Michael Schumacher Jenson Button ranking",
+                        "sources_found": [
+                            {
+                                "title": "Every Australian Grand Prix F1 Winner | Complete List",
+                                "url": "https://www.formulaonehistory.com/every-australian-grand-prix-f1-winner/"
+                            },
+                            {
+                                "title": "F1 Australian Grand Prix winners: The complete all-time list",
+                                "url": "https://www.gpfans.com/en/f1-news/1077052/f1-australian-grand-prix-winners-alltime-list/"
+                            },
+                            {
+                                "title": "In numbers - the Australian Grand Prix - F1",
+                                "url": "https://www.formula1.com/en/latest/article/in-numbers-the-australian-grand-prix.5ESNHWNGx55OK2zceW8np7"
+                            },
+                            {
+                                "title": "Motor Sport magazine",
+                                "url": "https://x.com/Motor_Sport/status/2028468659291632081"
+                            },
+                            {
+                                "title": "List of Formula One Grand Prix winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_winners"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from Motor Sport magazine confirms that Michael Schumacher has 4 Australian GP wins (2000, 2001, 2002, 2004). Jenson Button has 3 wins (2009, 2010, 2012) as confirmed by F1 statistics and other sources. Sebastian Vettel also has 4 wins (2011, 2017, 2018, and 2019), making him on par with Schumacher. Damon Hill and Gerhard Berger each have 2 wins, based on historical F1 data. Therefore, the proposed order is incorrect, as Vettel's record equals Schumacher and should rank above Damon Hill and Gerhard Berger.",
+                        "proposed_answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Damon Hill",
+                            "Sebastian Vettel",
+                            "Gerhard Berger"
+                        ],
+                        "corrected_answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Sebastian Vettel",
+                            "Damon Hill",
+                            "Gerhard Berger"
+                        ],
+                        "best_source": "https://x.com/Motor_Sport/status/2028468659291632081"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories in the World Championship era (since 1985), from most to fewer. Michael Schumacher vs Jenson Button ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Every Australian Grand Prix F1 Winner | Complete List",
+                                "url": "https://www.formulaonehistory.com/every-australian-grand-prix-f1-winner/"
+                            },
+                            {
+                                "title": "F1 Australian Grand Prix winners: The complete all-time list",
+                                "url": "https://www.gpfans.com/en/f1-news/1077052/f1-australian-grand-prix-winners-alltime-list/"
+                            },
+                            {
+                                "title": "Australian Grand Prix F1 statistics - GP Racing Stats",
+                                "url": "https://gpracingstats.com/grands-prix/australia/statistics/"
+                            },
+                            {
+                                "title": "Motor Sport magazine",
+                                "url": "https://x.com/Motor_Sport/status/2028468659291632081"
+                            },
+                            {
+                                "title": "Top 5 most successful F1 drivers (feat. Lewis Hamilton) at the ...",
+                                "url": "https://www.sportskeeda.com/f1/top-5-successful-f1-drivers-feat-lewis-hamilton-australian-gp"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not match the new source data. Michael Schumacher has 4 wins, Jenson Button has 3 wins, Sebastian Vettel has 3 wins, Damon Hill has 2 wins, and Gerhard Berger has 2 wins. The corrected order did not correctly reflect the ranking by number of wins.",
+                        "best_source": "https://x.com/Motor_Sport/status/2028468659291632081"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories in the World Championship era (since 1985), from most to fewer. Michael Schumacher Jenson Button ranking",
+                        "sources_found": [
+                            {
+                                "title": "Every Australian Grand Prix F1 Winner | Complete List",
+                                "url": "https://www.formulaonehistory.com/every-australian-grand-prix-f1-winner/"
+                            },
+                            {
+                                "title": "F1 Australian Grand Prix winners: The complete all-time list",
+                                "url": "https://www.gpfans.com/en/f1-news/1077052/f1-australian-grand-prix-winners-alltime-list/"
+                            },
+                            {
+                                "title": "In numbers - the Australian Grand Prix - F1",
+                                "url": "https://www.formula1.com/en/latest/article/in-numbers-the-australian-grand-prix.5ESNHWNGx55OK2zceW8np7"
+                            },
+                            {
+                                "title": "Motor Sport magazine",
+                                "url": "https://x.com/Motor_Sport/status/2028468659291632081"
+                            },
+                            {
+                                "title": "List of Formula One Grand Prix winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_winners"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source confirms that Michael Schumacher has won the Australian Grand Prix four times. Jenson Button and Sebastian Vettel both have three victories, but there is no evidence to suggest a specific order between them other than the tie, so their order does not need correction from the proposed list. Damon Hill and Gerhard Berger both have two wins, and their order remains unchanged as there is no information requiring it to be swapped.",
+                        "proposed_answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Sebastian Vettel",
+                            "Damon Hill",
+                            "Gerhard Berger"
+                        ],
+                        "corrected_answers": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Sebastian Vettel",
+                            "Damon Hill",
+                            "Gerhard Berger"
+                        ],
+                        "best_source": "https://x.com/Motor_Sport/status/2028468659291632081"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories in the World Championship era (since 1985), from most to fewer. Michael Schumacher vs Jenson Button ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Every Australian Grand Prix F1 Winner | Complete List",
+                                "url": "https://www.formulaonehistory.com/every-australian-grand-prix-f1-winner/"
+                            },
+                            {
+                                "title": "F1 Australian Grand Prix winners: The complete all-time list",
+                                "url": "https://www.gpfans.com/en/f1-news/1077052/f1-australian-grand-prix-winners-alltime-list/"
+                            },
+                            {
+                                "title": "Australian Grand Prix F1 statistics - GP Racing Stats",
+                                "url": "https://gpracingstats.com/grands-prix/australia/statistics/"
+                            },
+                            {
+                                "title": "Motor Sport magazine",
+                                "url": "https://x.com/Motor_Sport/status/2028468659291632081"
+                            },
+                            {
+                                "title": "Top 5 most successful F1 drivers (feat. Lewis Hamilton) at the ...",
+                                "url": "https://www.sportskeeda.com/f1/top-5-successful-f1-drivers-feat-lewis-hamilton-australian-gp"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order failed to account for multiple discrepancies in win counts from authoritative sources. Gerhard Berger does not appear in the top 5 based on the win statistics, and Lewis Hamilton should take one of the spots due to his verified two wins.",
+                        "best_source": "https://gpracingstats.com/grands-prix/australia/statistics/"
+                    }
+                },
+                {
+                    "topic": "Major Social Security change going into effect this weekend",
+                    "suggested_question": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS data), from highest to lower.",
+                    "connection": "A change impacting Social Security recipients is in the news; states with the oldest populations provide relevant, objective context.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on U.S. states ranked by percentage of residents aged 65 and over, which is distinct from any of the previous questions that cover various topics like sports, geography, energy, and entertainment awards. No prior question addresses population demographics specifically by age or U.S. states."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS 1-year estimates), from highest to lower.",
+                        "answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "distractors": [
+                            "Montana",
+                            "New Hampshire",
+                            "Pennsylvania",
+                            "South Carolina",
+                            "Arizona",
+                            "Hawaii",
+                            "New Mexico",
+                            "Connecticut",
+                            "Michigan",
+                            "Wisconsin",
+                            "Oregon",
+                            "Rhode Island",
+                            "Arkansas",
+                            "Alabama",
+                            "Iowa"
+                        ],
+                        "suggested_source": "https://data.census.gov/table?q=S0101&y=2023"
+                    },
+                    "verification_search_iter0": {
+                        "query": "ACS S0101 percent 65 years and over by state 2023 site:data.census.gov",
+                        "sources_found": [
+                            {
+                                "title": "S0101: Age and Sex - Census Bureau Table",
+                                "url": "https://data.census.gov/table/ACSST5Y2023.S0101?q=age"
+                            },
+                            {
+                                "title": "S0103: Population 65 Years and Over ... - Census Bureau Table",
+                                "url": "https://data.census.gov/table/ACSST5Y2023.S0103"
+                            },
+                            {
+                                "title": "S1101: Households and Families - Census Bureau Table",
+                                "url": "https://data.census.gov/table/ACSST5Y2023.S1101?q=15333"
+                            },
+                            {
+                                "title": "C18108: Age by Number of Disabilities - Census Bureau Table",
+                                "url": "https://data.census.gov/table?tid=ACSDT5Y2023.C18108"
+                            },
+                            {
+                                "title": "population by age by state - Census Bureau Tables",
+                                "url": "https://data.census.gov/cedsci/table?q=population%20by%20age%20by%20state"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not include the specific rankings of U.S. states based on the percentage of residents aged 65 and over. While they contain broad demographic data, the exact order of states based on this specific metric is not clear or directly extractable from the cited tables. Therefore, I cannot verify or correct the rankings.",
+                        "proposed_answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://data.census.gov/table/ACSST5Y2023.S0101?q=age"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS 1-year estimates), from highest to lower. Maine Florida ranking",
+                        "sources_found": [
+                            {
+                                "title": "Elderly Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/elderly-population-by-state"
+                            },
+                            {
+                                "title": "Map: U.S. States by Share of Older Adults (65+) - Visual Capitalist",
+                                "url": "https://www.visualcapitalist.com/cp/map-u-s-states-by-share-of-older-adults-65/"
+                            },
+                            {
+                                "title": "Which U.S. States Have the Oldest Populations? | PRB",
+                                "url": "https://www.prb.org/resources/which-us-states-are-the-oldest/"
+                            },
+                            {
+                                "title": "Senior Population By State - Key Statistics And Trends - CarePatrol",
+                                "url": "https://carepatrol.com/blog/senior-population-by-state/"
+                            },
+                            {
+                                "title": "Florida Ranks #2! See Which States Have the Highest 65+ ...",
+                                "url": "https://www.facebook.com/rnewjindia/posts/-florida-ranks-2-see-which-states-have-the-highest-65-population-in-the-us/1482463293495230/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the most authoritative source, Maine has the highest percentage of residents 65+ (21.2%), followed by Florida (20.7%), West Virginia (19.4%), and Vermont (18.8%). There is no specific data supporting Delaware as having a percentage close enough to Vermont for inclusion in the top 5. The provided order needed to be corrected to match the verified rankings.",
+                        "proposed_answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "corrected_answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "best_source": "https://www.visualcapitalist.com/cp/map-u-s-states-by-share-of-older-adults-65/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS 1-year estimates), from highest to lower. Maine vs Florida ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Elderly Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/elderly-population-by-state"
+                            },
+                            {
+                                "title": "Older adults now outnumber children in 11 states - Stateline",
+                                "url": "https://stateline.org/2025/06/26/older-adults-now-outnumber-children-in-11-states/"
+                            },
+                            {
+                                "title": "Senior Population By State - Key Statistics And Trends - CarePatrol",
+                                "url": "https://carepatrol.com/blog/senior-population-by-state/"
+                            },
+                            {
+                                "title": "Where Do Seniors Live in the United States? - Towncare Dental",
+                                "url": "https://www.towncaredental.com/where-do-seniors-live-united-states"
+                            },
+                            {
+                                "title": "Which states have the largest elderly populations? - USAFacts",
+                                "url": "https://usafacts.org/articles/america-is-getting-older-which-states-have-the-largest-elderly-populations/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order lists Maine as higher than Florida, but multiple sources, including the most authoritative sources, show that Florida consistently has the highest percentage of seniors, followed by Maine. The other states' positions also do not fully align with the source data.",
+                        "best_source": "https://worldpopulationreview.com/state-rankings/elderly-population-by-state"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS 1-year estimates), from highest to lower. Maine Florida ranking",
+                        "sources_found": [
+                            {
+                                "title": "Elderly Population by State 2025",
+                                "url": "https://worldpopulationreview.com/state-rankings/elderly-population-by-state"
+                            },
+                            {
+                                "title": "Senior Population By State - Key Statistics And Trends",
+                                "url": "https://carepatrol.com/blog/senior-population-by-state/"
+                            },
+                            {
+                                "title": "Map: U.S. States by Share of Older Adults (65+)",
+                                "url": "https://www.visualcapitalist.com/cp/map-u-s-states-by-share-of-older-adults-65/"
+                            },
+                            {
+                                "title": "Which U.S. States Have the Oldest Populations?",
+                                "url": "https://www.prb.org/news/which-us-states-are-the-oldest/"
+                            },
+                            {
+                                "title": "Explore Population - Age 65+ in the United States | AHR",
+                                "url": "https://www.americashealthrankings.org/explore/measures/pct_65plus"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm that Maine has the highest percentage of residents aged 65+ at 21.2%, followed by Florida at 20.7%, West Virginia at 20.0%, and Vermont at 19.2%. Delaware also ranks in the top 5 but has a slightly lower percentage of 18.7% compared to Vermont. The proposed order needs to adjust Vermont and Delaware to comply with accurate percentage rankings. The most authoritative source, as of 2022, is the one from Visual Capitalist because it provides the updated percentage values for each state.",
+                        "proposed_answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "corrected_answers": [
+                            "Maine",
+                            "Florida",
+                            "West Virginia",
+                            "Vermont",
+                            "Delaware"
+                        ],
+                        "best_source": "https://www.visualcapitalist.com/cp/map-u-s-states-by-share-of-older-adults-65/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS 1-year estimates), from highest to lower. Maine vs Florida ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Elderly Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/elderly-population-by-state"
+                            },
+                            {
+                                "title": "Older adults now outnumber children in 11 states - Stateline",
+                                "url": "https://stateline.org/2025/06/26/older-adults-now-outnumber-children-in-11-states/"
+                            },
+                            {
+                                "title": "Senior Population By State - Key Statistics And Trends - CarePatrol",
+                                "url": "https://carepatrol.com/blog/senior-population-by-state/"
+                            },
+                            {
+                                "title": "Which states have the largest elderly populations? - USAFacts",
+                                "url": "https://usafacts.org/articles/america-is-getting-older-which-states-have-the-largest-elderly-populations/"
+                            },
+                            {
+                                "title": "Florida Breaks Into America's Top 5 for Immigrant Aging With 22.4 ...",
+                                "url": "https://worldhealth.net/news/florida-breaks-immigrant-aging-22-4-past-65/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Maine over Florida, but multiple sources indicate that Florida has a higher percentage of elderly residents than Maine in recent data. Specifically, Florida is cited as having 22.4% elderly while Maine is consistently lower.",
+                        "best_source": "https://worldhealth.net/news/florida-breaks-immigrant-aging-22-4-past-65/"
+                    }
+                },
+                {
+                    "topic": "David Gilmour’s birthday (Mar 6) and March 7 celebrity birthdays",
+                    "suggested_question": "Rank the top 5 Pink Floyd albums by highest RIAA U.S. certification (units certified), from highest to lower; break ties by earliest certification date.",
+                    "connection": "With David Gilmour’s birthday just passed and celebrity birthdays highlighted for March 7, a Pink Floyd milestone list is fitting and verifiable.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question is about ranking Pink Floyd albums by RIAA U.S. certification and release date, which is a specific music-related query distinct from any of the previously listed questions. None of the existing questions address album certifications or rankings within the music domain."
+                    },
+                    "generated_question": {
+                        "question": "Rank these Pink Floyd albums by their highest RIAA U.S. certification (units certified), from highest to lower; break ties by the earliest certification date.",
+                        "answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "A Momentary Lapse of Reason",
+                            "Animals"
+                        ],
+                        "distractors": [
+                            "The Division Bell",
+                            "Meddle",
+                            "The Final Cut",
+                            "The Piper at the Gates of Dawn",
+                            "A Saucerful of Secrets",
+                            "More",
+                            "Ummagumma",
+                            "Atom Heart Mother",
+                            "Obscured by Clouds",
+                            "The Endless River",
+                            "Delicate Sound of Thunder",
+                            "Pulse",
+                            "Echoes: The Best of Pink Floyd",
+                            "Relics",
+                            "A Collection of Great Dance Songs"
+                        ],
+                        "suggested_source": "https://www.riaa.com/gold-platinum/?tab_active=default-award&ar=Pink+Floyd"
+                    },
+                    "verification_search_iter0": {
+                        "query": "RIAA Pink Floyd Gold & Platinum certifications The Wall 23x Platinum Dark Side of the Moon 15x",
+                        "sources_found": [
+                            {
+                                "title": "Pink Floyd RIAA Platinum Award for ''The Dark Side of the Moon ...",
+                                "url": "https://natedsanders.com/LotDetail.aspx?inventoryid=46632"
+                            },
+                            {
+                                "title": "Pink Floyd Archives-U.S R.I.A.A. Record Award Discography",
+                                "url": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                            },
+                            {
+                                "title": "Gold & Platinum - RIAA",
+                                "url": "http://www.riaa.com/gold-platinum/?tab_active=default-award&se=Pink"
+                            },
+                            {
+                                "title": "PINK FLOYD THE DARK SIDE OF THE MOON LP MULTI ... - eBay",
+                                "url": "https://m.ebay.com/itm/PINK-FLOYD-DARK-SIDE-OF-THE-MOON-LP-MULTI-PLATINUM-DISC-RECORD-AWARD-ALBUM-/311452337148"
+                            },
+                            {
+                                "title": "Gold & Platinum - RIAA",
+                                "url": "http://www.riaa.com/gold-platinum/?advance_search=1&tab_active=awards_by_album&awardal=&formatal=Single&typeal=ST&type_optional=ST"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not include concrete, comparable information about the RIAA U.S. certification levels for these albums, nor the exact certification dates necessary to determine the order. While the source at pinkfloydarchives.com may detail some certifications, the exact rankings and unit numbers for the proposed albums cannot be determined from the snippets or listed sources. Additional official resources with specific album certifications are needed to verify or correct the ranking.",
+                        "proposed_answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "A Momentary Lapse of Reason",
+                            "Animals"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank these Pink Floyd albums by their highest RIAA U.S. certification (units certified), from highest to lower; break ties by the earliest certification date. The Wall The Dark Side of the Moon ranking",
+                        "sources_found": [
+                            {
+                                "title": "Pink Floyd Albums Ranked : r/pinkfloyd - Reddit",
+                                "url": "https://www.reddit.com/r/pinkfloyd/comments/px3ood/pink_floyd_albums_ranked/"
+                            },
+                            {
+                                "title": "Pink Floyd discography ranked - Facebook",
+                                "url": "https://www.facebook.com/groups/281441667398958/posts/1185292573680525/"
+                            },
+                            {
+                                "title": "Pink Floyd discography",
+                                "url": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked and Dark Side of the Moon Giveaway",
+                                "url": "https://www.youtube.com/watch?v=oODkl69IDPE"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked Best to Worst",
+                                "url": "https://www.neptunepinkfloyd.co.uk/pink-floyd-albums-ranked-best-to-worst"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Using the RIAA certification data provided on the Wikipedia page for the Pink Floyd discography, the certifications for the indicated albums are as follows: 'The Wall' is certified 23× Platinum, 'The Dark Side of the Moon' is 15× Platinum, 'Wish You Were Here' is 6× Platinum, while both 'Animals' and 'A Momentary Lapse of Reason' are 4× Platinum. Tiebreaker is determined by the earliest certification date, and 'Animals' was certified Platinum earlier than 'A Momentary Lapse of Reason'. Thus, the correct ranking has been adjusted accordingly.",
+                        "proposed_answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "A Momentary Lapse of Reason",
+                            "Animals"
+                        ],
+                        "corrected_answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "Animals",
+                            "A Momentary Lapse of Reason"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank these Pink Floyd albums by their highest RIAA U.S. certification (units certified), from highest to lower; break ties by the earliest certification date. The Wall vs The Dark Side of the Moon ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Pink Floyd Albums Ranked : r/pinkfloyd - Reddit",
+                                "url": "https://www.reddit.com/r/pinkfloyd/comments/px3ood/pink_floyd_albums_ranked/"
+                            },
+                            {
+                                "title": "See Pink Floyd's 15 Albums Ranked From Highest to Lowest Charting",
+                                "url": "https://www.billboard.com/pro/pink-floyd-15-albums-ranked-highest-to-lowest-charting/"
+                            },
+                            {
+                                "title": "Pink Floyd Archives-U.S R.I.A.A. Record Award Discography",
+                                "url": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked and Dark Side of the Moon Giveaway",
+                                "url": "https://www.youtube.com/watch?v=oODkl69IDPE"
+                            },
+                            {
+                                "title": "Pink Floyd discography - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order could not be verified due to incomplete certification values provided in the available sources.",
+                        "best_source": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank these Pink Floyd albums by their highest RIAA U.S. certification (units certified), from highest to lower; break ties by the earliest certification date. The Wall The Dark Side of the Moon ranking",
+                        "sources_found": [
+                            {
+                                "title": "Pink Floyd Albums Ranked : r/pinkfloyd - Reddit",
+                                "url": "https://www.reddit.com/r/pinkfloyd/comments/px3ood/pink_floyd_albums_ranked/"
+                            },
+                            {
+                                "title": "Pink Floyd discography ranked - Facebook",
+                                "url": "https://www.facebook.com/groups/281441667398958/posts/1185292573680525/"
+                            },
+                            {
+                                "title": "Pink Floyd discography",
+                                "url": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked and Dark Side of the Moon Giveaway",
+                                "url": "https://www.youtube.com/watch?v=oODkl69IDPE"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked Best to Worst",
+                                "url": "https://www.neptunepinkfloyd.co.uk/pink-floyd-albums-ranked-best-to-worst"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order was close but not entirely correct. Based on the RIAA certifications available on the authoritative Wikipedia page for Pink Floyd's discography, 'The Wall' is the highest certified album at 23x Platinum, followed by 'The Dark Side of the Moon' at 15x Platinum, and 'Wish You Were Here' at 14x Platinum. Next comes 'Animals' and 'A Momentary Lapse of Reason' both at 4x Platinum. To break ties, 'Animals,' being released earlier (1977), ranks higher than 'A Momentary Lapse of Reason' (1987).",
+                        "proposed_answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "Animals",
+                            "A Momentary Lapse of Reason"
+                        ],
+                        "corrected_answers": [
+                            "The Wall",
+                            "The Dark Side of the Moon",
+                            "Wish You Were Here",
+                            "Animals",
+                            "A Momentary Lapse of Reason"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank these Pink Floyd albums by their highest RIAA U.S. certification (units certified), from highest to lower; break ties by the earliest certification date. The Wall vs The Dark Side of the Moon ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Pink Floyd Albums Ranked : r/pinkfloyd - Reddit",
+                                "url": "https://www.reddit.com/r/pinkfloyd/comments/px3ood/pink_floyd_albums_ranked/"
+                            },
+                            {
+                                "title": "See Pink Floyd's 15 Albums Ranked From Highest to Lowest Charting",
+                                "url": "https://www.billboard.com/pro/pink-floyd-15-albums-ranked-highest-to-lowest-charting/"
+                            },
+                            {
+                                "title": "Pink Floyd Archives-U.S R.I.A.A. Record Award Discography",
+                                "url": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                            },
+                            {
+                                "title": "Pink Floyd Albums Ranked and Dark Side of the Moon Giveaway",
+                                "url": "https://www.youtube.com/watch?v=oODkl69IDPE"
+                            },
+                            {
+                                "title": "Pink Floyd discography - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Pink_Floyd_discography"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order cannot be confirmed because the supporting source data provided does not explicitly list RIAA certification levels in descending order corresponding to the albums listed.",
+                        "best_source": "http://pinkfloydarchives.com/DUSRIAA.htm"
+                    }
+                },
+                {
+                    "topic": "150th anniversary of the telephone patent (Alexander Graham Bell, Mar 7, 1876)",
+                    "suggested_question": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer.",
+                    "connection": "On the anniversary of the telephone patent, a telecom subscriber leaderboard connects history to today’s communications landscape.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about mobile network operators focuses on telecom and subscriber counts, which is distinct from all previous questions that cover topics such as geography, sports, science, entertainment, or energy sources."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer.",
+                        "answers": [
+                            "China Mobile",
+                            "Bharti Airtel",
+                            "Reliance Jio",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "distractors": [
+                            "Vodafone Group",
+                            "América Móvil",
+                            "Telefónica Group",
+                            "MTN Group",
+                            "Orange S.A.",
+                            "Deutsche Telekom Group",
+                            "VEON Ltd.",
+                            "Telenor Group",
+                            "Axiata Group",
+                            "e& (Etisalat Group)",
+                            "Zain Group",
+                            "Ooredoo Group",
+                            "Telkom Indonesia (Telkomsel)",
+                            "Vodafone Idea",
+                            "KDDI Corporation"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_mobile_network_operators_of_the_world_by_number_of_subscribers"
+                    },
+                    "verification_search_iter0": {
+                        "query": "top mobile network operator groups by total subscribers 2023 China Mobile Bharti Airtel Reliance Jio China Telecom China Unicom",
+                        "sources_found": [
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            },
+                            {
+                                "title": "Top Telecom Companies by Subscriber Base 2024-2025 - LinkedIn",
+                                "url": "https://www.linkedin.com/posts/harshadshah1953_worlds-largest-mobile-companies-by-mobile-activity-7421423754171498496-_Dau"
+                            },
+                            {
+                                "title": "Top 10 Mobile Telecom Services globally 2024 - Straits Research",
+                                "url": "https://straitsresearch.com/statistic/top-10-mobile-telecom-services-globally-2024"
+                            },
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "BY SUBSCRIPTIONS! From connecting villages to powering smart ...",
+                                "url": "https://www.facebook.com/100094188680565/posts/-worlds-biggest-telecom-giants-by-subscriptions-from-connecting-villages-to-powe/675972178885732/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources provide clear data on subscriber numbers for the top operators. Based on the best source, China Mobile is the largest with over 1 billion subscribers (~1004 million). Reliance Jio is second with 481.8 million subscribers, while Bharti Airtel follows it in third place with 370 million. China Telecom, with 391 million subscribers, ranks fourth. China Unicom rounds out the top 5 with 319.8 million subscriptions. The proposed answers were incorrect in the order after the first entry.",
+                        "proposed_answers": [
+                            "China Mobile",
+                            "Bharti Airtel",
+                            "Reliance Jio",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "corrected_answers": [
+                            "China Mobile",
+                            "Reliance Jio",
+                            "Bharti Airtel",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "best_source": "https://straitsresearch.com/statistic/top-10-mobile-telecom-services-globally-2024"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer. China Mobile vs Reliance Jio ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            },
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "Jio surpasses China Unicom 5G numbers - Mobile World Live",
+                                "url": "https://www.mobileworldlive.com/reliance/jio-5g-beats-china-unicom-5g-users/"
+                            },
+                            {
+                                "title": "Global Mobile Trends 2026 | GSMA Intelligence",
+                                "url": "https://www.gsmaintelligence.com/research/global-mobile-trends-2026"
+                            },
+                            {
+                                "title": "Telecoms | Reports - Brandirectory",
+                                "url": "https://brandirectory.com/reports/telecoms"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "Sources confirm China Mobile is the largest operator by subscribers, but the corrected order is not fully corroborated for ranks 2 to 5. Alternative rankings place Reliance Jio ahead of China Unicom in 5G, but total subscriber data is inconclusive for placement of China Unicom relative to other groups.",
+                        "best_source": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "top mobile network operator groups by total subscribers 2023 China Mobile Bharti Airtel Reliance Jio China Telecom China Unicom",
+                        "sources_found": [
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            },
+                            {
+                                "title": "Top Telecom Companies by Subscriber Base 2024-2025 - LinkedIn",
+                                "url": "https://www.linkedin.com/posts/harshadshah1953_worlds-largest-mobile-companies-by-mobile-activity-7421423754171498496-_Dau"
+                            },
+                            {
+                                "title": "Top 10 Mobile Telecom Services globally 2024 - Straits Research",
+                                "url": "https://straitsresearch.com/statistic/top-10-mobile-telecom-services-globally-2024"
+                            },
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "BY SUBSCRIPTIONS! From connecting villages to powering smart ...",
+                                "url": "https://www.facebook.com/100094188680565/posts/-worlds-biggest-telecom-giants-by-subscriptions-from-connecting-villages-to-powe/675972178885732/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources consistently verify that China Mobile ranks first with over 1 billion subscribers (1.004 billion based on the most authoritative source). Reliance Jio is second with approximately 481.8 million subscribers according to the Straits Research source. Bharti Airtel is confirmed as third in multiple sources. However, the exact subscription numbers for China Telecom and China Unicom were not provided in the sources. Their order (4th and 5th respectively) aligns with the general ranking provided by GlobalData. The original proposed order was incorrect because it placed Bharti Airtel after China Telecom and China Unicom, but Airtel is evidently higher in rank than both, based on sources.",
+                        "proposed_answers": [
+                            "China Mobile",
+                            "Reliance Jio",
+                            "Bharti Airtel",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "corrected_answers": [
+                            "China Mobile",
+                            "Reliance Jio",
+                            "Bharti Airtel",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "best_source": "https://straitsresearch.com/statistic/top-10-mobile-telecom-services-globally-2024"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer. China Mobile vs Reliance Jio ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            },
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "Jio surpasses China Unicom 5G numbers - Mobile World Live",
+                                "url": "https://www.mobileworldlive.com/reliance/jio-5g-beats-china-unicom-5g-users/"
+                            },
+                            {
+                                "title": "Telecoms | Reports - Brandirectory",
+                                "url": "https://brandirectory.com/reports/telecoms"
+                            },
+                            {
+                                "title": "Top 12 telecom giants of the world ranked by subscriber base, with ...",
+                                "url": "https://www.facebook.com/TechInformer.in/posts/top-12-telecom-giants-of-the-world-ranked-by-subscriber-base-with-india-making-a/1214812180666703/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Reliance Jio ahead of Bharti Airtel and China Telecom, which is inconsistent with subscriber numbers as per authoritative sources. Specifically, China Mobile remains the largest, followed by Bharti Airtel, and Reliance Jio surpassing China Unicom only recently in 5G subscribers but not overall users.",
+                        "best_source": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "top mobile network operator groups by total subscribers 2023 China Mobile Bharti Airtel Reliance Jio China Telecom China Unicom",
+                        "sources_found": [
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            },
+                            {
+                                "title": "Top Telecom Companies by Subscriber Base 2024-2025 - LinkedIn",
+                                "url": "https://www.linkedin.com/posts/harshadshah1953_worlds-largest-mobile-companies-by-mobile-activity-7421423754171498496-_Dau"
+                            },
+                            {
+                                "title": "Top 10 Mobile Telecom Services globally 2024 - Straits Research",
+                                "url": "https://straitsresearch.com/statistic/top-10-mobile-telecom-services-globally-2024"
+                            },
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "BY SUBSCRIPTIONS! From connecting villages to powering smart ...",
+                                "url": "https://www.facebook.com/100094188680565/posts/-worlds-biggest-telecom-giants-by-subscriptions-from-connecting-villages-to-powe/675972178885732/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source data confirms that China Mobile has the largest number of subscribers globally, followed by Reliance Jio. Bharti Airtel ranks third, China Telecom fourth, and China Unicom fifth (as seen explicitly in multiple sources). The sources do not mention specific numeric values for Bharti Airtel, China Telecom, and China Unicom, except that Reliance Jio has approximately 480 million subscribers and China Mobile has 1.1 billion (reported as 1109.806 million). The provided order in the proposed answers incorrectly places Bharti Airtel above China Telecom and China Unicom above Bharti Airtel. Therefore, the corrected order was adjusted based on the verified rankings given in the sources.",
+                        "proposed_answers": [
+                            "China Mobile",
+                            "Reliance Jio",
+                            "Bharti Airtel",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "corrected_answers": [
+                            "China Mobile",
+                            "Reliance Jio",
+                            "Bharti Airtel",
+                            "China Telecom",
+                            "China Unicom"
+                        ],
+                        "best_source": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer. China Mobile vs Reliance Jio ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Telecommunications Industry Statistics (2026) - Tridens",
+                                "url": "https://tridenstechnology.com/telecommunications-industry-statistics/"
+                            },
+                            {
+                                "title": "Mobile Monsters: The World's Biggest Operators - Resources",
+                                "url": "https://resources.telegeography.com/mobile-monsters-the-worlds-biggest-operators"
+                            },
+                            {
+                                "title": "Top Telecom Titans of 2025 The global telecommunications industry ...",
+                                "url": "https://www.facebook.com/61556633195201/posts/top-telecom-titans-of-2025-the-global-telecommunications-industry-continues-to-b/122264403344221106/"
+                            },
+                            {
+                                "title": "Jio surpasses China Unicom 5G numbers - Mobile World Live",
+                                "url": "https://www.mobileworldlive.com/reliance/jio-5g-beats-china-unicom-5g-users/?ID=00QNz00000alYnkMAE&JobID=2579131&utm_source=sfmc&utm_medium=email&utm_campaign=MWL_20260119&utm_content=Read+more"
+                            },
+                            {
+                                "title": "Telecom Operators by Mobile Subscriptions - GlobalData",
+                                "url": "https://www.globaldata.com/companies/top-companies-by-sector/technology-media-and-telecom/global-companies-by-mobile-subscriptions/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The corrected order erroneously places Bharti Airtel as 3rd ahead of China Telecom, despite source data indicating that China Telecom has a larger subscriber base.",
+                        "best_source": "https://resources.telegeography.com/mobile-monsters-the-worlds-biggest-operators"
+                    }
+                },
+                {
+                    "topic": "Daylight Saving Time begins in the U.S. on Mar 8, 2026",
+                    "suggested_question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+                    "connection": "With clocks changing this weekend in the U.S., a time-zone challenge is timely and globally comparative.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about countries ranked by the number of time zones is distinct from previously used questions, as none specifically address time zones or similar geographic concepts."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+                        "answers": [
+                            "France",
+                            "Russia",
+                            "United States",
+                            "United Kingdom",
+                            "Australia"
+                        ],
+                        "distractors": [
+                            "Canada",
+                            "Brazil",
+                            "Mexico",
+                            "Indonesia",
+                            "China",
+                            "India",
+                            "Denmark",
+                            "Netherlands",
+                            "Spain",
+                            "Portugal",
+                            "New Zealand",
+                            "Chile",
+                            "Ecuador",
+                            "Argentina",
+                            "Japan"
+                        ],
+                        "suggested_source": "https://www.britannica.com/story/which-country-has-the-most-time-zones"
+                    },
+                    "verification_search_iter0": {
+                        "query": "countries with the most time zones including territories France 12 Russia 11 United States 11 United Kingdom 9 Australia 8 Britannica",
+                        "sources_found": [
+                            {
+                                "title": "Countries with Most time zones: France: 12 Russia: 11 USA",
+                                "url": "https://www.facebook.com/WorldofFactsFB/posts/countries-with-most-time-zones-france-12-russia-11-usa-11-australia-9-uk-9-antar/1375673220875519/"
+                            },
+                            {
+                                "title": "Countries with the Most Time Zones 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/country-with-most-time-zones"
+                            },
+                            {
+                                "title": "Most time zones by country: France: 12 Russia: 11 USA",
+                                "url": "https://x.com/stats_feed/status/2025885645990748224"
+                            },
+                            {
+                                "title": "Which country has the most time zones (including overseas ...",
+                                "url": "https://www.facebook.com/groups/355731256819830/posts/947926317600318/"
+                            },
+                            {
+                                "title": "List of Countries With the Most Time Zones, Country Wise Time zone",
+                                "url": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources consistently indicate that France spans 12 time zones, Russia and the United States each span 11, while Australia and the United Kingdom each span 9. However, the proposed order incorrectly lists the United Kingdom ahead of Australia. The correct order, verified by multiple sources including the best authoritative source, is France, Russia, United States, Australia, and United Kingdom.",
+                        "proposed_answers": [
+                            "France",
+                            "Russia",
+                            "United States",
+                            "United Kingdom",
+                            "Australia"
+                        ],
+                        "corrected_answers": [
+                            "France",
+                            "Russia",
+                            "United States",
+                            "Australia",
+                            "United Kingdom"
+                        ],
+                        "best_source": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer. France vs Russia ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Countries with the Most Time Zones 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/country-with-most-time-zones"
+                            },
+                            {
+                                "title": "Most time zones by country: France: 12 Russia: 11 USA - X",
+                                "url": "https://x.com/Globalstats11/status/1884577270876058004"
+                            },
+                            {
+                                "title": "List of Countries With the Most Time Zones, Country Wise Time zone",
+                                "url": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
+                            },
+                            {
+                                "title": "France has the highest number of time zones among ... - Instagram",
+                                "url": "https://www.instagram.com/p/DRv2GJ0knIY/?hl=en"
+                            },
+                            {
+                                "title": "A ranking of countries with the most time zones — counting all ...",
+                                "url": "https://www.facebook.com/geoallday/posts/a-ranking-of-countries-with-the-most-time-zones-counting-all-legally-recognized-/1239382368337680/"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order accurately ranks the top 5 countries by the number of time zones, including overseas territories, as confirmed by multiple sources. France has 12, Russia 11, the US 11, Australia 9, and the UK 9.",
+                        "best_source": "https://x.com/Globalstats11/status/1884577270876058004"
+                    },
+                    "question_id": 21,
+                    "final_answers": [
+                        "France",
+                        "Russia",
+                        "United States",
+                        "Australia",
+                        "United Kingdom"
+                    ],
+                    "final_source": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 07, 2026",
+                        "results": [
+                            {
+                                "title": "San Antonio Sporting Events 2026–2027 | Sports Tickets",
+                                "url": "https://san-antonio.events/sports/",
+                                "snippet": "Sports Events: 17. Toyota Field - TX. Mar 7, 2026 7:30 PM. UIL Boys Basketball Tournament. Sports Events: 1. Alamodome. Mar 12, 2026 3:30 AM."
+                            },
+                            {
+                                "title": "Major Sports Calendar March 2026 - Facebook",
+                                "url": "https://www.facebook.com/bhaveshdarji.mota/posts/march-2026-major-sports-calendarmarch-2026-biggest-sports-events-sportscalendar-/2513499542432144/",
+                                "snippet": "*2026 Formula 1 World Championship Calendar* March 6–8 – Australia, Melbourne March 13–15 – China, Shanghai March 27–29 – Japan, Suzuka April 10"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "Category:March 2026 sports events in the United States - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Category:March_2026_sports_events_in_the_United_States",
+                                "snippet": "2026 CAA men's basketball tournament · 2026 CAA women's basketball tournament · 2026 CCHA men's ice hockey tournament · 2026 Conference USA men's basketball"
+                            },
+                            {
+                                "title": "Sports Events in March 2026 - Full Schedule & Calendar - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Europe. March 2, 2026 – March 15, 2026· Indian Wells, CA· USA. March 15, 2026 – March 29, 2026· Miami, FL· USA. March 17, 2026 – March 18, 2026· Dayton· USA"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "Global Holidays and Traditions - March 2026 - LinkedIn",
+                                "url": "https://www.linkedin.com/pulse/global-holidays-traditions-march-2026-pete-karolczak-8pohc",
+                                "snippet": "This year, we celebrate on March 3rd. On the night of the Chinese Lantern Festival, streets are decorated with colorful lanterns, often with"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy ...",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "March Inclusive Religious Calendar · March 4 – Hindu: Holi The festival of colors, celebrating the arrival of spring. · March 4 – Sikh: Hola"
+                            },
+                            {
+                                "title": "March 2026 Calendar (With Holidays)",
+                                "url": "https://www.calendarr.com/united-states/calendar-march-2026/",
+                                "snippet": "March 2026 Holidays and National Days · National Wedding Planning Day · National Pig Day · World Candle Day · National Peanut Butter Lover's Day · Self-Injury"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2025: Full Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "March Weekly Observances 2026 · American Chocolate Week (March 15 to March 21) · Butchers' Week (March 2 to March 8) · Celebrate Your Name Week (March 1 to March 7)"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026 Awards Season Calendar: Dates For Oscars, Guilds, Tonys & More · March. 7: CAS Awards (Cinema Audio Society). 7: SOC Awards (Society of Camera Operators)."
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            },
+                            {
+                                "title": "2026 Excellence in Community Media Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/2026-excellence-in-community-media-awards-tickets-1982292738944",
+                                "snippet": "The awards ceremony and luncheon will take place on Friday, March 13, 2026, from 11 a.m. to 2 p.m. at The College of New Jersey (TCNJ)."
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "### Live From SXSW! The Big Picture with the legendary Steven Spielberg. Announcing 350+ artists added to the 2026 Music Festival including Miss Bashful, Kairo Keyz, Charley Crockett, and Passion Pit."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week March 07, 2026",
+                        "results": [
+                            {
+                                "title": "Major Social Security Change Goes Into Effect This Weekend",
+                                "url": "https://www.newsweek.com/major-social-security-change-this-weekend-11628329",
+                                "snippet": "[More](https://www.newsweek.com/#). Beginning Saturday, [Social Security recipients](https://www.newsweek.com/social-security-announces-major-update-changes-benefitting-recipients-2115061) will no lon"
+                            },
+                            {
+                                "title": "What Happens on March 7, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/7",
+                                "snippet": "# What Happens on March 7, 2026. ## About March 7, 2026. **Day of the Week:** Saturday. **How Far Away?** 7 days. ## No Entries for March 7, 2026. * View highlights from  **year 2026**. * Browse our *"
+                            },
+                            {
+                                "title": "Headlines for March 06, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/3/6/headlines",
+                                "snippet": "*   ![Image 11](https://assets.democracynow.org/assets/icons/video_square-b2d9809b2d8e28a669aec9b9b6ca59ee3dd8813834e8b7151c783b16a503c3f4.png)Story Mar 05, 2026 [“Why Are We Going to War?”: Former U."
+                            },
+                            {
+                                "title": "Portal:Current events/2026 March 7 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_7",
+                                "snippet": "March 7, 2026 (2026-03-07) (Saturday). edit · history · watch · Month. March 2026 · Previous day. March 6 · Next day. March 8 · Last edited just now by"
+                            },
+                            {
+                                "title": "This Week in History March 3rd, 2026 – March 9th, 2026 - LinkedIn",
+                                "url": "https://www.linkedin.com/pulse/week-history-march-3rd-2026-9th-dr-jason-edwards-dm-cissp-crisc-kv97e",
+                                "snippet": "March 7th, 1945 — United States troops seize the Ludendorff Bridge at Remagen: In the closing months of the Second World War in Europe, the"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days March 07",
+                        "results": [
+                            {
+                                "title": "MARCH 7 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-7-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 7: Increase A. Lapham (1811-1875) - Founder of the Wisconsin Natural History Association. Henry DeLamar Clayton (1827-1889) - Major"
+                            },
+                            {
+                                "title": "Famous birthdays for March 7: Wanda Sykes, Tobias Menzies - UPI",
+                                "url": "https://www.upi.com/Entertainment_News/2024/03/07/Famous-birthdays-for-March-7-Wanda-Sykes-Tobias-Menzies/6751709776701/",
+                                "snippet": "The actor turns 60 on March 7. March 6 (UPI) -- \"Heated Rivalry\" and \"Kiss of the Spider Woman\" were among the titles to win GLAAD Media Awards Thursday. March 6 (UPI) -- Musician David Gilmour turns "
+                            },
+                            {
+                                "title": "Famous Birthdays on March 7 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/7",
+                                "snippet": "* 1715 Ephraim Williams, American philanthropist, born in Newton, Massachusetts (d. * 1831 John Bratton [Old Reliable], American physician and Brigadier-General (Confederate Army), born in Winnsboro, "
+                            },
+                            {
+                                "title": "Famous birthdays for March 7: Haley Lu Richardson, Rachel Weisz",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-7-haley-080006991.html",
+                                "snippet": "Actor Haley Lu Richardson turns 30 and actor Rachel Weisz turns 55, among the famous birthdays for March 7."
+                            },
+                            {
+                                "title": "Athletes Born March 7 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march7-athlete.html",
+                                "snippet": "Famous Athletes Born March 7 including Jordan Pickford, David King, Gerwyn Price, Mary Earps, Tyler Bate and many more."
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Formula 1 season opener in Melbourne (Mar 6–8, 2026)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories (World Championship era), from most to fewer.",
+                        "connection": "The 2026 F1 season kicks off this weekend in Melbourne, making Australia-focused F1 records timely."
+                    },
+                    {
+                        "topic": "Major Social Security change going into effect this weekend",
+                        "suggested_question": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS data), from highest to lower.",
+                        "connection": "A change impacting Social Security recipients is in the news; states with the oldest populations provide relevant, objective context."
+                    },
+                    {
+                        "topic": "David Gilmour’s birthday (Mar 6) and March 7 celebrity birthdays",
+                        "suggested_question": "Rank the top 5 Pink Floyd albums by highest RIAA U.S. certification (units certified), from highest to lower; break ties by earliest certification date.",
+                        "connection": "With David Gilmour’s birthday just passed and celebrity birthdays highlighted for March 7, a Pink Floyd milestone list is fitting and verifiable."
+                    },
+                    {
+                        "topic": "150th anniversary of the telephone patent (Alexander Graham Bell, Mar 7, 1876)",
+                        "suggested_question": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer.",
+                        "connection": "On the anniversary of the telephone patent, a telecom subscriber leaderboard connects history to today’s communications landscape."
+                    },
+                    {
+                        "topic": "Daylight Saving Time begins in the U.S. on Mar 8, 2026",
+                        "suggested_question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+                        "connection": "With clocks changing this weekend in the U.S., a time-zone challenge is timely and globally comparative."
+                    },
+                    {
+                        "topic": "International Women’s Day (Mar 8)",
+                        "suggested_question": "Rank the top 5 countries with the highest percentage of women in national parliaments (single or lower house), as of March 2026, from highest to lower.",
+                        "connection": "IWD spotlights representation; this ranking uses current IPU data and is objectively verifiable."
+                    },
+                    {
+                        "topic": "Lantern Festival was celebrated this week (Mar 3)",
+                        "suggested_question": "Rank the top 5 countries by fireworks export value in 2024 (USD), from highest to lower.",
+                        "connection": "Fireworks often feature in Lantern Festival celebrations; recent trade data offers a clear, factual ranking tied to the week’s festivities."
+                    },
+                    {
+                        "topic": "Community media awards and industry ceremonies this month",
+                        "suggested_question": "Rank the top 5 U.S. newspapers by average Sunday print circulation in 2025, from largest to smaller.",
+                        "connection": "With media awards on the March calendar, a circulation-based snapshot of major Sunday papers is timely and measurable."
+                    },
+                    {
+                        "topic": "National Reading Month (March)",
+                        "suggested_question": "Rank the top 5 authors by total number of translations worldwide (all-time), from most to fewer.",
+                        "connection": "March highlights reading and publishing; UNESCO translation counts provide an objective, literature-focused ranking."
+                    },
+                    {
+                        "topic": "Fallback (Seasonal): Pi Day (Mar 14) approaching",
+                        "suggested_question": "Rank the top 5 digits by frequency in the first 10,000 digits of pi (π), from most frequent to less frequent.",
+                        "connection": "Pi Day is next week; digit frequency in pi is a fun, fully objective math challenge."
+                    },
+                    {
+                        "topic": "Fallback (Seasonal): Spring Break travel surge (mid-to-late March)",
+                        "suggested_question": "Rank the top 5 U.S. airports by total TSA passenger throughput in March 2025, from most to fewer.",
+                        "connection": "Spring Break drives March air travel; TSA throughput offers a clear, data-driven airport ranking."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "Formula 1 season opener in Melbourne (Mar 6–8, 2026)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Australian Grand Prix victories (World Championship era), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Formula 1 racing, which is entirely unrelated to any of the recent questions covering diverse topics like astronomy, marathons, tennis, weather, programming, and film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Major Social Security change going into effect this weekend",
+                        "suggested_question": "Rank the top 5 U.S. states by the highest percentage of residents aged 65 and over (latest ACS data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on demographic data of U.S. states, specifically residents aged 65 and over, which does not overlap with themes of astronomy, sports, weather, programming, or entertainment found in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "David Gilmour’s birthday (Mar 6) and March 7 celebrity birthdays",
+                        "suggested_question": "Rank the top 5 Pink Floyd albums by highest RIAA U.S. certification (units certified), from highest to lower; break ties by earliest certification date.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Pink Floyd albums and RIAA certifications, which pertains to music sales and band discography. None of the recent questions cover music-related themes or topics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "150th anniversary of the telephone patent (Alexander Graham Bell, Mar 7, 1876)",
+                        "suggested_question": "Rank the top 5 mobile network operator groups by total mobile subscribers worldwide (latest full-year data), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about mobile network operators and telephone history does not overlap with any recent questions, which covered astronomy, sports, weather, programming, and film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Daylight Saving Time begins in the U.S. on Mar 8, 2026",
+                        "suggested_question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to geography and time zones, which is unrelated to the themes of the recent questions, such as bright stars, marathon courses, tennis titles, sunshine in cities, programming languages, and Academy Awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "International Women’s Day (Mar 8)",
+                        "suggested_question": "Rank the top 5 countries with the highest percentage of women in national parliaments (single or lower house), as of March 2026, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on women's representation in parliaments, which is a distinct subject area unrelated to any of the recently used questions on stars, marathons, tennis, weather, programming, or the Academy Awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lantern Festival was celebrated this week (Mar 3)",
+                        "suggested_question": "Rank the top 5 countries by fireworks export value in 2024 (USD), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on fireworks export value does not overlap with any recent topics, which cover subjects like stars, marathons, tennis, sunshine, programming languages, and Academy Awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Community media awards and industry ceremonies this month",
+                        "suggested_question": "Rank the top 5 U.S. newspapers by average Sunday print circulation in 2025, from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about U.S. newspapers' circulation relates to media and publishing, which is different from the subjects of the recent questions that cover astronomy, sports, climate, programming, and film industry awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Reading Month (March)",
+                        "suggested_question": "Rank the top 5 authors by total number of translations worldwide (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to authors and literary translations, which does not overlap with any recent themes such as stars, sports, weather, programming, or awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Fallback (Seasonal): Pi Day (Mar 14) approaching",
+                        "suggested_question": "Rank the top 5 digits by frequency in the first 10,000 digits of pi (π), from most frequent to less frequent.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on mathematical constants and digit frequency analysis, which is distinct from the themes of recent questions that cover astronomy, sports, climate, technology, and entertainment.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Fallback (Seasonal): Spring Break travel surge (mid-to-late March)",
+                        "suggested_question": "Rank the top 5 U.S. airports by total TSA passenger throughput in March 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Spring Break travel and TSA passenger throughput is about U.S. travel trends and airport data, which does not overlap thematically with any of the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 21
         }
     ]
 }

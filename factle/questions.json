@@ -699,6 +699,41 @@
                 "Edith Head"
             ],
             "source": "https://www.guinnessworldrecords.com/world-records/most-oscar-nominations-living-person"
+        },
+        {
+            "id": 21,
+            "date": "2026-03-07",
+            "question": "Rank the top 5 countries by the number of time zones they span (including overseas territories), from most to fewer.",
+            "options": [
+                "France",
+                "Russia",
+                "United States",
+                "Australia",
+                "United Kingdom",
+                "Canada",
+                "Brazil",
+                "Mexico",
+                "Indonesia",
+                "China",
+                "India",
+                "Denmark",
+                "Netherlands",
+                "Spain",
+                "Portugal",
+                "New Zealand",
+                "Chile",
+                "Ecuador",
+                "Argentina",
+                "Japan"
+            ],
+            "answers": [
+                "France",
+                "Russia",
+                "United States",
+                "Australia",
+                "United Kingdom"
+            ],
+            "source": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
         }
     ]
 }
