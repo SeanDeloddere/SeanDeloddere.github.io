@@ -734,6 +734,41 @@
                 "United Kingdom"
             ],
             "source": "https://vajiramandravi.com/current-affairs/list-of-countries-with-the-most-time-zones/"
+        },
+        {
+            "id": 22,
+            "date": "2026-03-08",
+            "question": "Rank the top 5 operational optical telescopes by primary mirror diameter (single-mirror equivalent), from largest to smaller. Break ties by earliest commissioning (first light) year.",
+            "options": [
+                "Gran Telescopio Canarias (GTC)",
+                "Keck I",
+                "Keck II",
+                "Southern African Large Telescope (SALT)",
+                "Hobby–Eberly Telescope (HET)",
+                "Large Binocular Telescope (LBT)",
+                "Subaru Telescope",
+                "Very Large Telescope UT1 (Antu)",
+                "Very Large Telescope UT2 (Kueyen)",
+                "Very Large Telescope UT3 (Melipal)",
+                "Very Large Telescope UT4 (Yepun)",
+                "Gemini North",
+                "Gemini South",
+                "Magellan Baade",
+                "Magellan Clay",
+                "MMT Observatory",
+                "BTA-6 (Bolshoi Teleskop Azimultalnyi)",
+                "Hale Telescope (Palomar)",
+                "William Herschel Telescope",
+                "Blanco 4-m Telescope (CTIO)"
+            ],
+            "answers": [
+                "Gran Telescopio Canarias (GTC)",
+                "Keck I",
+                "Keck II",
+                "Southern African Large Telescope (SALT)",
+                "Hobby–Eberly Telescope (HET)"
+            ],
+            "source": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
         }
     ]
 }

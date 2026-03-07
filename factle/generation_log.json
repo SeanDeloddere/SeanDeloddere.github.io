@@ -17671,6 +17671,696 @@
                 ]
             },
             "question_id": 21
+        },
+        {
+            "date": "2026-03-08",
+            "topics_discovered": [
+                {
+                    "topic": "International Women’s Day (Mar 8)",
+                    "suggested_question": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower.",
+                    "connection": "International Women’s Day spotlights representation; current IPU data provides an objective way to compare countries’ legislative gender balance."
+                },
+                {
+                    "topic": "Alvan Clark’s birthday (Mar 8) — historic telescope maker",
+                    "suggested_question": "Rank the top 5 operational optical telescopes by primary mirror diameter, from largest to smaller (use single-mirror equivalent diameter; break ties by earliest commissioning year).",
+                    "connection": "Alvan Clark built the largest telescope of his era; honoring his birthday with a modern largest-telescope ranking connects the date to contemporary astronomy."
+                },
+                {
+                    "topic": "Meta APEX event in Las Vegas (Mar 14)",
+                    "suggested_question": "Rank the top 5 AR/VR headset brands by global shipments in 2025, from most units shipped to fewer.",
+                    "connection": "With Meta hosting a major event, comparing the latest annual AR/VR shipment leaders ties directly to current tech industry buzz."
+                },
+                {
+                    "topic": "Famous birthdays — Micky Dolenz (Mar 8), The Monkees",
+                    "suggested_question": "Rank the top 5 The Monkees songs by highest Billboard Hot 100 peak position (break ties by earliest charting year).",
+                    "connection": "Micky Dolenz turns 80 today; chart rankings of The Monkees’ hits provide an objective, music-history angle tied to his birthday."
+                },
+                {
+                    "topic": "St. Patrick’s Day approaching (Mar 17)",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest full-year data), from most to fewer.",
+                    "connection": "With St. Patrick’s Day around the corner, Irish whiskey sales rankings offer a timely, verifiable food-and-drink list."
+                },
+                {
+                    "topic": "International Women’s Day social buzz",
+                    "suggested_question": "Rank the top 5 most-followed women on Instagram (global), from most followers to fewer.",
+                    "connection": "IWD drives online conversation about influential women; Instagram follower counts are current, public, and objectively rankable."
+                },
+                {
+                    "topic": "Event industry month (CAS/SOC awards, SXSW, conferences)",
+                    "suggested_question": "Rank the top 5 Las Vegas hotels by number of guest rooms, from most to fewer.",
+                    "connection": "Las Vegas is a major destination for March events and conferences; hotel room counts are an objective way to reflect the city’s capacity."
+                },
+                {
+                    "topic": "Spring travel surge and major 2026 events",
+                    "suggested_question": "Rank the top 5 global airlines by total passengers carried in 2025, from most to fewer.",
+                    "connection": "With March travel ramping up and big 2026 events on the calendar, last year’s passenger totals provide a current, verifiable aviation snapshot."
+                },
+                {
+                    "topic": "Pi Day approaching (Mar 14)",
+                    "suggested_question": "Rank the top 5 institutions (universities) by number of Fields Medal recipients, from most to fewer (count medals by laureate affiliation at time of award).",
+                    "connection": "Pi Day celebrates mathematics; Fields Medal counts per institution are an objective way to honor mathematical excellence."
+                },
+                {
+                    "topic": "Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by earliest year granting women the right to vote in national elections, from earliest to later (use the first nationwide suffrage year).",
+                    "connection": "Women’s History Month highlights milestones in equality; suffrage dates are well-documented historical facts suitable for ranking."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "International Women’s Day (Mar 8)",
+                    "suggested_question": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower.",
+                    "connection": "International Women’s Day spotlights representation; current IPU data provides an objective way to compare countries’ legislative gender balance.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question asks about countries ranked by the percentage of women in their national parliaments, which is not covered by any of the existing questions. The topic is unique and does not overlap in substance or focus with others."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower.",
+                        "answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "distractors": [
+                            "Iceland",
+                            "Sweden",
+                            "South Africa",
+                            "Norway",
+                            "Finland",
+                            "Spain",
+                            "Costa Rica",
+                            "Namibia",
+                            "Belgium",
+                            "Argentina",
+                            "Senegal",
+                            "Andorra",
+                            "Switzerland",
+                            "North Macedonia",
+                            "Mozambique"
+                        ],
+                        "suggested_source": "https://data.ipu.org/women-ranking"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Inter-Parliamentary Union world classification women in national parliaments March 2026 lower or single house ranking",
+                        "sources_found": [
+                            {
+                                "title": "Share of women in parliament",
+                                "url": "https://ourworldindata.org/grapher/share-of-women-in-parliament-ipu"
+                            },
+                            {
+                                "title": "[XLS] Worksheet - Inter-Parliamentary Union",
+                                "url": "https://data.ipu.org/export-report/women-ranking/xlsx/?date_month=01&date_year=2026"
+                            },
+                            {
+                                "title": "Monthly ranking of women in national parliaments | IPU Parline",
+                                "url": "https://data.ipu.org/women-ranking/"
+                            },
+                            {
+                                "title": "Women's representation in parliament sees sluggish gains",
+                                "url": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains"
+                            },
+                            {
+                                "title": "Women in parliament in 2025 | Inter-Parliamentary Union",
+                                "url": "https://www.ipu.org/resources/publications/reports/2026-02/women-in-parliament-in-2025"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The source data provided does not include specific percentages or an ordered list of the top countries with the highest percentage of women in their national parliaments as of March 2026. Without access to specific data or a clear ranking from an authoritative source, it is not possible to verify or correct the given answers.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://data.ipu.org/women-ranking/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower. Rwanda Cuba ranking",
+                        "sources_found": [
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "Proportion of seats held by women in national parliaments (%) - Sub",
+                                "url": "https://data.worldbank.org/indicator/SG.GEN.PARL.ZS?locations=ZG"
+                            },
+                            {
+                                "title": "Share of women in parliament - Our World in Data",
+                                "url": "https://ourworldindata.org/grapher/share-of-women-in-parliament"
+                            },
+                            {
+                                "title": "One-third of parliamentarians across the EU are women",
+                                "url": "https://ec.europa.eu/eurostat/product?code=edn-20260305-1"
+                            },
+                            {
+                                "title": "Women's representation in parliament sees sluggish gains",
+                                "url": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources, including the Inter-Parliamentary Union (IPU) report and other data, do not offer clear information or specific rankings for the proportion of women in the national parliaments of Cuba, Nicaragua, Mexico, or the United Arab Emirates as of March 2026. While it is mentioned that Rwanda has the highest percentage (63.8%), the rest of the information required to validate or correct the order from sources is absent or insufficient for this time period.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower. Rwanda Cuba ranking",
+                        "sources_found": [
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "Proportion of seats held by women in national parliaments (%) - Sub",
+                                "url": "https://data.worldbank.org/indicator/SG.GEN.PARL.ZS?locations=ZG"
+                            },
+                            {
+                                "title": "Share of women in parliament - Our World in Data",
+                                "url": "https://ourworldindata.org/grapher/share-of-women-in-parliament"
+                            },
+                            {
+                                "title": "One-third of parliamentarians across the EU are women",
+                                "url": "https://ec.europa.eu/eurostat/product?code=edn-20260305-1"
+                            },
+                            {
+                                "title": "Women's representation in parliament sees sluggish gains",
+                                "url": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains"
+                            }
+                        ]
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not contain enough detailed information to rank the top five countries by the percentage of women in their national parliaments for March 2026. While Rwanda is confirmed to have the highest percentage (63.8%) from one source, no specific data is available for Cuba, Nicaragua, Mexico, or the United Arab Emirates for comparative ranking with certainty. Additionally, the data for January 2026 is mentioned, but not comprehensive for verification of the given list or order.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains"
+                    }
+                },
+                {
+                    "topic": "Alvan Clark’s birthday (Mar 8) — historic telescope maker",
+                    "suggested_question": "Rank the top 5 operational optical telescopes by primary mirror diameter, from largest to smaller (use single-mirror equivalent diameter; break ties by earliest commissioning year).",
+                    "connection": "Alvan Clark built the largest telescope of his era; honoring his birthday with a modern largest-telescope ranking connects the date to contemporary astronomy.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question is about ranking optical telescopes by primary mirror diameter, which is a distinct and specific topic not covered by any of the previously used questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 operational optical telescopes by primary mirror diameter (single-mirror equivalent), from largest to smaller. Break ties by earliest commissioning (first light) year.",
+                        "answers": [
+                            "Gran Telescopio Canarias (GTC)",
+                            "Keck I",
+                            "Keck II",
+                            "Hobby–Eberly Telescope (HET)",
+                            "Southern African Large Telescope (SALT)"
+                        ],
+                        "distractors": [
+                            "Large Binocular Telescope (LBT)",
+                            "Subaru Telescope",
+                            "Very Large Telescope UT1 (Antu)",
+                            "Very Large Telescope UT2 (Kueyen)",
+                            "Very Large Telescope UT3 (Melipal)",
+                            "Very Large Telescope UT4 (Yepun)",
+                            "Gemini North",
+                            "Gemini South",
+                            "Magellan Baade",
+                            "Magellan Clay",
+                            "MMT Observatory",
+                            "BTA-6 (Bolshoi Teleskop Azimultalnyi)",
+                            "Hale Telescope (Palomar)",
+                            "William Herschel Telescope",
+                            "Blanco 4-m Telescope (CTIO)"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_largest_optical_reflecting_telescopes"
+                    },
+                    "verification_search_iter0": {
+                        "query": "largest operational optical reflecting telescopes effective aperture GTC Keck HET SALT list",
+                        "sources_found": [
+                            {
+                                "title": "List of largest optical reflecting telescopes - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                            },
+                            {
+                                "title": "The Global Network of Operational Optical Telescopes",
+                                "url": "https://newspaceeconomy.ca/2026/01/12/the-global-network-of-operational-optical-telescopes/"
+                            },
+                            {
+                                "title": "Current Telescopes: GTC, Keck, and SALT",
+                                "url": "https://futurism.com/current-telescopes-gtc-keck-salt-2"
+                            },
+                            {
+                                "title": "10 Largest Optical Telescopes in the World",
+                                "url": "https://www.go-astronomy.com/10-largest-telescopes.htm"
+                            },
+                            {
+                                "title": "7 Telescopes that make every astrophysicist go Wow!",
+                                "url": "https://www.lindau-nobel.org/7-telescopes-that-make-every-astrophysicist-go-wow/"
+                            }
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm that the Gran Telescopio Canarias (GTC) has the largest primary mirror diameter of 10.4 meters. Keck I and Keck II have equivalent diameters of 10.0 meters. The Hobby–Eberly Telescope (HET) also has a diameter of 10.0 meters but is stated to have an effective aperture of 9.2 meters. Since ties are broken by commissioning year, Keck I (1993) precedes both Keck II (1996) and the HET (1996). Lastly, the Southern African Large Telescope (SALT) has an effective diameter of 9.2 meters, which places it fifth. The proposed answers had the correct telescopes but incorrectly ordered Keck II and HET. The corrected list matches the data, factoring in tie-breaking by first light year.",
+                        "proposed_answers": [
+                            "Gran Telescopio Canarias (GTC)",
+                            "Keck I",
+                            "Keck II",
+                            "Hobby–Eberly Telescope (HET)",
+                            "Southern African Large Telescope (SALT)"
+                        ],
+                        "corrected_answers": [
+                            "Gran Telescopio Canarias (GTC)",
+                            "Keck I",
+                            "Keck II",
+                            "Hobby–Eberly Telescope (HET)",
+                            "Southern African Large Telescope (SALT)"
+                        ],
+                        "best_source": "https://newspaceeconomy.ca/2026/01/12/the-global-network-of-operational-optical-telescopes/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 operational optical telescopes by primary mirror diameter (single-mirror equivalent), from largest to smaller. Break ties by earliest commissioning (first light) year. Gran Telescopio Canarias (GTC) vs Keck I ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of largest optical reflecting telescopes - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                            },
+                            {
+                                "title": "Largest Optical Telescopes",
+                                "url": "https://skyandtelescope.org/sky-and-telescope-magazine/largest-optical-telescopes/"
+                            },
+                            {
+                                "title": "File:Comparison optical telescope primary mirrors.svg",
+                                "url": "https://commons.wikimedia.org/wiki/File:Comparison_optical_telescope_primary_mirrors.svg"
+                            },
+                            {
+                                "title": "Largest and the Most Powerful Telescopes in the World",
+                                "url": "https://www.historyoftelescope.com/telescope-facts/largest-telescopes/"
+                            },
+                            {
+                                "title": "7 Telescopes that make every astrophysicist go Wow!",
+                                "url": "https://www.lindau-nobel.org/7-telescopes-that-make-every-astrophysicist-go-wow/"
+                            }
+                        ],
+                        "status": "REJECTED",
+                        "reason": "The Hobby–Eberly Telescope (HET) should not be ranked higher than Southern African Large Telescope (SALT) as its effective primary mirror area is smaller.",
+                        "best_source": "https://skyandtelescope.org/sky-and-telescope-magazine/largest-optical-telescopes/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "largest operational optical reflecting telescopes effective aperture GTC Keck HET SALT list",
+                        "sources_found": [
+                            {
+                                "title": "List of largest optical reflecting telescopes - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                            },
+                            {
+                                "title": "Current Telescopes: GTC, Keck, and SALT - Futurism",
+                                "url": "https://futurism.com/current-telescopes-gtc-keck-salt-2"
+                            },
+                            {
+                                "title": "10 Largest Optical Telescopes in the World - Go-Astronomy.com",
+                                "url": "https://www.go-astronomy.com/10-largest-telescopes.htm"
+                            },
+                            {
+                                "title": "The 3 Largest Telescopes on Earth | by Space - Medium",
+                                "url": "https://medium.com/@deep.space/the-3-largest-telescopes-on-earth-56218b7dc0e1"
+                            },
+                            {
+                                "title": "Large Reflecting Telescopes - The University of Arizona",
+                                "url": "http://abell.as.arizona.edu/~hill/list/bigtel99.htm"
+                            }
+                        ]
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The Grokipedia source provides a clear ranking of the largest telescopes based on the primary mirror diameter. The Gran Telescopio Canarias (GTC) has the largest primary mirror diameter (10.4 m). Keck I and Keck II both have 10-meters mirrors, as confirmed by multiple sources. When there's a tie in diameter, the tie-breaking criterion is the earliest commissioning (first light) date: Keck I (1993) is older than Keck II (1996). The Southern African Large Telescope (SALT) also has a 10-meter primary mirror, operational after the Kecks (2005), so is ranked next. Finally, the Hobby–Eberly Telescope (HET) has a 9.2-meter mirror, placing it fifth. The initial proposed order incorrectly placed HET ahead of SALT and didn't account for the ties between SALT, Keck I, and Keck II properly.",
+                        "proposed_answers": [
+                            "Gran Telescopio Canarias (GTC)",
+                            "Keck I",
+                            "Keck II",
+                            "Hobby–Eberly Telescope (HET)",
+                            "Southern African Large Telescope (SALT)"
+                        ],
+                        "corrected_answers": [
+                            "Gran Telescopio Canarias (GTC)",
+                            "Keck I",
+                            "Keck II",
+                            "Southern African Large Telescope (SALT)",
+                            "Hobby–Eberly Telescope (HET)"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 operational optical telescopes by primary mirror diameter (single-mirror equivalent), from largest to smaller. Break ties by earliest commissioning (first light) year. Gran Telescopio Canarias (GTC) vs Keck I ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of largest optical reflecting telescopes - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                            },
+                            {
+                                "title": "Largest Optical Telescopes",
+                                "url": "https://skyandtelescope.org/sky-and-telescope-magazine/largest-optical-telescopes/"
+                            },
+                            {
+                                "title": "File:Comparison optical telescope primary mirrors.svg",
+                                "url": "https://commons.wikimedia.org/wiki/File:Comparison_optical_telescope_primary_mirrors.svg"
+                            },
+                            {
+                                "title": "Largest and the Most Powerful Telescopes in the World",
+                                "url": "https://www.historyoftelescope.com/telescope-facts/largest-telescopes/"
+                            },
+                            {
+                                "title": "7 Telescopes that make every astrophysicist go Wow!",
+                                "url": "https://www.lindau-nobel.org/7-telescopes-that-make-every-astrophysicist-go-wow/"
+                            }
+                        ],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order follows logical ranking by primary mirror diameter, with ties resolved by commissioning year as per the Grokipedia and additional sources.",
+                        "best_source": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                    },
+                    "question_id": 22,
+                    "final_answers": [
+                        "Gran Telescopio Canarias (GTC)",
+                        "Keck I",
+                        "Keck II",
+                        "Southern African Large Telescope (SALT)",
+                        "Hobby–Eberly Telescope (HET)"
+                    ],
+                    "final_source": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 08, 2026",
+                        "results": [
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "... Mar 08, 2026Phoenix RacewayAvondale, AZ. UFC Fight Night: Emmett vs VallejosMar 14, 2026Meta APEXLas Vegas, NV."
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Major events for this 2026 calendar include the FIFA World Cup (with betting markets now open - check the best World Cup Betting US Sites), Winter Olympics, Winter Paralympics, Commonwealth Games, Asi"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "Calendar of the major sporting events of the year 2026",
+                                "url": "https://www.the-sports.org/sport-calendar-2026-p0-62026.html",
+                                "snippet": "Calendar of the major sporting events of the year 2026 ; 5 February - 14 March 2026, Rugby - VI Nations ; 5th - 18 February 2026, Italy, Snowboarding - Olympic"
+                            },
+                            {
+                                "title": "2026 calendar of sport: Month-by-month guide to huge year of action",
+                                "url": "https://www.espn.com/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
+                                "snippet": "3: Football -- England women vs Ukraine, TBC. 7: Football -- England women vs Iceland, TBC. 9: Rugby Union -- England women vs Italy, TBC. 10: Cricket -- England vs New Zealand 1st women's ODI, Durham"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March 2026 calendar: St. Patrick's Day, daylight saving time, more",
+                                "url": "https://www.usatoday.com/story/news/nation/2026/02/28/march-2026-calendar/88861936007/",
+                                "snippet": "March 2026 calendar: St. Patrick's Day, daylight saving time, more. # March 2026 calendar: St. Patrick's Day, daylight saving time, more. March is packed with events, holidays, national days and celeb"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. ## March Daily Holidays and Observances 2026. ## March Weekly Holidays and Observances. ## March Monthly Holidays and Observances. Sh"
+                            },
+                            {
+                                "title": "March 2026 Observances - CultureAlly",
+                                "url": "https://www.cultureally.com/blog/march-observances",
+                                "snippet": "* **March 1** **International Wheelchair Day** began in 2008 and is recognized globally. * **March 8** **International Women’s Day**amplifies the call for gender equality and **women's empowerment****"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. * National Read Across America Day. * National Get Over It Day. * National Women and Girls HIV/AIDS Awareness Day. *"
+                            },
+                            {
+                                "title": "March Holidays, Celebrations 2026: Daily, Weekly, Monthly - Parade",
+                                "url": "https://parade.com/living/march-holidays-observances",
+                                "snippet": "St. Patrick's Day, Mardi Gras, Ash Wednesday and Women's History Month are in March. But there are more holidays and observances in March to"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "Award Season Calendar Schedule - CalendarX",
+                                "url": "https://www.calendarx.com/schedule/award-season-calendar",
+                                "snippet": "The 98th Academy Awards (Oscars 2026) will be held on Sunday, March 15, 2026, live from the Dolby Theatre in Los Angeles. The star-studded ceremony will air on"
+                            },
+                            {
+                                "title": "Music Festival & Conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/music-festival/",
+                                "snippet": "The SXSW Music Festival & Conference brings together artists, industry professionals, creatives, and music lovers from around the world to make connections, elevate their careers, and celebrate the ma"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026 Awards Season Calendar: Dates For Oscars, Guilds, Tonys & More · March. 7: CAS Awards (Cinema Audio Society). 7: SOC Awards (Society of"
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            }
+                        ]
+                    },
+                    {
+                        "query": "notable events news highlights past week March 08, 2026",
+                        "results": [
+                            {
+                                "title": "What Happens on March 8, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/8",
+                                "snippet": "[<<](/date/2026/march/4 \"Previous Date\"). # What Happens on March 8, 2026. [>>](/date/2061/july/28 \"Next Date\"). * [By Year](/dates-by-year.php). * [S 1](/date/2026/march/1). * [M 2](/date/2026/march/"
+                            },
+                            {
+                                "title": "Top news March 8 - Click2Houston",
+                                "url": "https://www.click2houston.com/video/news/2026/03/06/top-news-march-8/",
+                                "snippet": "Here are your top stories this morning."
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – March 8 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=ZLUFq0z3p7s",
+                                "snippet": "President Biden delivers an energized State of the Union speech where he calls for an immediate temporary cease-fire in the Israel-Hamas war"
+                            },
+                            {
+                                "title": "Seven days of war in the Middle East: how the first week unfolded",
+                                "url": "https://www.theguardian.com/world/video/2026/mar/07/seven-days-of-war-in-the-middle-east-how-the-first-week-unfolded-video-timeline",
+                                "snippet": "[Skip to navigation](#navigation)[Skip to navigation](#navigation). [Print subscriptions](https://support.theguardian.com/subscribe/weekly?REFPVID=undefined&INTCMP=undefined&acquisitionData=%7B%22sour"
+                            },
+                            {
+                                "title": "Video. Latest news bulletin | March 8th – Evening - Euronews",
+                                "url": "https://www.euronews.com/video/2025/03/08/latest-news-bulletin-march-8th-evening",
+                                "snippet": "Latest news bulletin | March 7th, 2026 – Midday  Now playing Next. Top News Stories Today Latest news bulletin | March 7th, 2026 – Midday. Latest news bulletin | March 8th – Evening  Now playing Next."
+                            }
+                        ]
+                    },
+                    {
+                        "query": "famous birthdays national days March 08",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 8 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/8",
+                                "snippet": "* 1804 Alvan Clark, American astronomer and maker of the Dearborn Observatory telescope, the largest telescope in the world at the time, born in Ashfield, Massachusetts (d. * 1911 Alan Hovhaness, Arme"
+                            },
+                            {
+                                "title": "Famous birthdays for March 8: Leon, Micky Dolenz - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-8-leon-080006811.html",
+                                "snippet": "Actor Leon turns 63 and musician Micky Dolenz turns 80, among the famous birthdays for March 8."
+                            },
+                            {
+                                "title": "Famous birthdays list for today, March 8, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/03/famous-birthdays-list-for-today-march-8-2025-includes-celebrities-james-van-der-beek-camryn-manheim.html",
+                                "snippet": "Famous birthdays list for today, March 8, 2025 includes celebrities James Van Der Beek, Camryn Manheim - cleveland.com."
+                            },
+                            {
+                                "title": "Athletes Born March 8 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march8-athlete.html",
+                                "snippet": "Famous Athletes Born March 8 including David Lee, Chad Gable, Warren Zaïre-Emery, Kenny Smith, Drew Allar and many more."
+                            },
+                            {
+                                "title": "March 08 - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-8",
+                                "snippet": "# March 08. DAYLIGHT SAVING TIME  Second Sunday in March. ## DAYLIGHT SAVING TIME | Second Sunday in March. National I Am Day | Second Sunday in March. ## NATIONAL I AM DAY | Second Sunday in March. F"
+                            }
+                        ]
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "International Women’s Day (Mar 8)",
+                        "suggested_question": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower.",
+                        "connection": "International Women’s Day spotlights representation; current IPU data provides an objective way to compare countries’ legislative gender balance."
+                    },
+                    {
+                        "topic": "Alvan Clark’s birthday (Mar 8) — historic telescope maker",
+                        "suggested_question": "Rank the top 5 operational optical telescopes by primary mirror diameter, from largest to smaller (use single-mirror equivalent diameter; break ties by earliest commissioning year).",
+                        "connection": "Alvan Clark built the largest telescope of his era; honoring his birthday with a modern largest-telescope ranking connects the date to contemporary astronomy."
+                    },
+                    {
+                        "topic": "Meta APEX event in Las Vegas (Mar 14)",
+                        "suggested_question": "Rank the top 5 AR/VR headset brands by global shipments in 2025, from most units shipped to fewer.",
+                        "connection": "With Meta hosting a major event, comparing the latest annual AR/VR shipment leaders ties directly to current tech industry buzz."
+                    },
+                    {
+                        "topic": "Famous birthdays — Micky Dolenz (Mar 8), The Monkees",
+                        "suggested_question": "Rank the top 5 The Monkees songs by highest Billboard Hot 100 peak position (break ties by earliest charting year).",
+                        "connection": "Micky Dolenz turns 80 today; chart rankings of The Monkees’ hits provide an objective, music-history angle tied to his birthday."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day approaching (Mar 17)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest full-year data), from most to fewer.",
+                        "connection": "With St. Patrick’s Day around the corner, Irish whiskey sales rankings offer a timely, verifiable food-and-drink list."
+                    },
+                    {
+                        "topic": "International Women’s Day social buzz",
+                        "suggested_question": "Rank the top 5 most-followed women on Instagram (global), from most followers to fewer.",
+                        "connection": "IWD drives online conversation about influential women; Instagram follower counts are current, public, and objectively rankable."
+                    },
+                    {
+                        "topic": "Event industry month (CAS/SOC awards, SXSW, conferences)",
+                        "suggested_question": "Rank the top 5 Las Vegas hotels by number of guest rooms, from most to fewer.",
+                        "connection": "Las Vegas is a major destination for March events and conferences; hotel room counts are an objective way to reflect the city’s capacity."
+                    },
+                    {
+                        "topic": "Spring travel surge and major 2026 events",
+                        "suggested_question": "Rank the top 5 global airlines by total passengers carried in 2025, from most to fewer.",
+                        "connection": "With March travel ramping up and big 2026 events on the calendar, last year’s passenger totals provide a current, verifiable aviation snapshot."
+                    },
+                    {
+                        "topic": "Pi Day approaching (Mar 14)",
+                        "suggested_question": "Rank the top 5 institutions (universities) by number of Fields Medal recipients, from most to fewer (count medals by laureate affiliation at time of award).",
+                        "connection": "Pi Day celebrates mathematics; Fields Medal counts per institution are an objective way to honor mathematical excellence."
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by earliest year granting women the right to vote in national elections, from earliest to later (use the first nationwide suffrage year).",
+                        "connection": "Women’s History Month highlights milestones in equality; suffrage dates are well-documented historical facts suitable for ranking."
+                    }
+                ],
+                "filtered_count": 1
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 10,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "International Women’s Day (Mar 8)",
+                        "suggested_question": "Rank the top 5 countries by the percentage of women in their national parliaments (lower or single house), as of March 2026, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about women's representation in national parliaments does not overlap with the recent topics, which cover sports, geography, programming, and entertainment. The subject areas are distinct.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Alvan Clark’s birthday (Mar 8) — historic telescope maker",
+                        "suggested_question": "Rank the top 5 operational optical telescopes by primary mirror diameter, from largest to smaller (use single-mirror equivalent diameter; break ties by earliest commissioning year).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on operational optical telescopes, which does not fall under the same broad themes as any of the recent questions, such as sports, geography, programming, cinema, or geography-related rankings.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Meta APEX event in Las Vegas (Mar 14)",
+                        "suggested_question": "Rank the top 5 AR/VR headset brands by global shipments in 2025, from most units shipped to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on AR/VR headset shipments for 2025 does not share a broad theme with any of the recent questions, which cover sports, weather, programming, cinema, and geography.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Famous birthdays — Micky Dolenz (Mar 8), The Monkees",
+                        "suggested_question": "Rank the top 5 The Monkees songs by highest Billboard Hot 100 peak position (break ties by earliest charting year).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about The Monkees and their songs relates to music and Billboard chart performance, which does not overlap with any of the recent questions from unrelated domains such as sports, geography, technology, or cinema awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day approaching (Mar 17)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest full-year data), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Irish whiskey sales for St. Patrick’s Day does not overlap with any recent questions covering marathon records, tennis titles, sunshine in U.S. cities, programming languages, Academy Awards, or global time zones.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "International Women’s Day social buzz",
+                        "suggested_question": "Rank the top 5 most-followed women on Instagram (global), from most followers to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to social media and popular individuals, which is not covered by any of the recent questions that focus on sports, geography, technology, or the Oscars.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Event industry month (CAS/SOC awards, SXSW, conferences)",
+                        "suggested_question": "Rank the top 5 Las Vegas hotels by number of guest rooms, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Las Vegas hotels by guest room count, which relates to travel and hospitality. None of the recent questions cover the same broad theme or subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel surge and major 2026 events",
+                        "suggested_question": "Rank the top 5 global airlines by total passengers carried in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on global airlines and passenger statistics pertains to the airline/travel sector, which has not been covered by any recent questions focused on sports, weather, programming, films, or geography.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Pi Day approaching (Mar 14)",
+                        "suggested_question": "Rank the top 5 institutions (universities) by number of Fields Medal recipients, from most to fewer (count medals by laureate affiliation at time of award).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Fields Medal recipients focuses on academic institutions and mathematics, which is unrelated to any of the recent questions covering marathons, tennis, weather, programming languages, film awards, or time zones.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by earliest year granting women the right to vote in national elections, from earliest to later (use the first nationwide suffrage year).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about countries granting women the right to vote relates to historical women's rights and suffrage, which does not overlap with any of the recent questions covering sports, geography, programming, or entertainment awards.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 22
         }
     ]
 }
