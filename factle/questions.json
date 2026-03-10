@@ -804,6 +804,41 @@
                 "Nico Rosberg"
             ],
             "source": "https://www.formulaonehistory.com/every-chinese-grand-prix-f1-winner/"
+        },
+        {
+            "id": 24,
+            "date": "2026-03-11",
+            "question": "Rank the top 5 men's pole vaulters by absolute personal-best clearance (any venue—indoor or outdoor), from highest to lower. If tied on height, rank by the earliest date achieved.",
+            "options": [
+                "Armand Duplantis",
+                "Renaud Lavillenie",
+                "Sergey Bubka",
+                "Sam Kendricks",
+                "Steve Hooker",
+                "Dmitri Markov",
+                "Maksim Tarasov",
+                "Chris Nilsen",
+                "Thiago Braz",
+                "Jeff Hartwig",
+                "Piotr Lisek",
+                "Okkert Brits",
+                "Björn Otto",
+                "Radion Gataullin",
+                "Tim Lobinger",
+                "Ernest John Obiena",
+                "Romain Mesnil",
+                "Raphael Holzdeppe",
+                "Konstadinos Filippidis",
+                "Timur Morgunov"
+            ],
+            "answers": [
+                "Armand Duplantis",
+                "Renaud Lavillenie",
+                "Sergey Bubka",
+                "Sam Kendricks",
+                "Steve Hooker"
+            ],
+            "source": "https://www.alltime-athletics.com/mpoleok.htm"
         }
     ]
 }
