@@ -20,6 +20,7 @@ import json
 import os
 import sys
 import argparse
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -36,6 +37,8 @@ LOG_FILE = REPO_ROOT / "factle" / "generation_log.json"
 
 MAX_TOPIC_ATTEMPTS = 5
 MAX_VERIFY_RETRIES = 3  # inner retries per question before moving to next topic
+MAX_SEARCH_RETRIES = 3
+SEARCH_RETRY_BASE_DELAY_SECONDS = 2
 CET = timezone(timedelta(hours=1))
 
 # GitHub Models endpoint
@@ -287,19 +290,17 @@ def discover_topics(llm, search, run_log, recent_questions=None):
     raw_search_log = []
 
     for query in search_queries:
-        try:
-            results = search.search(query=query, max_results=5)
-            items = results.get("results", [])
-            all_search_results.extend(items)
-            raw_search_log.append({
-                "query": query,
-                "results": [
-                    {"title": r.get("title", ""), "url": r.get("url", ""), "snippet": r.get("content", "")[:200]}
-                    for r in items
-                ],
-            })
-        except Exception as e:
-            raw_search_log.append({"query": query, "error": str(e)})
+        results, search_errors = tavily_search_with_retries(search, query=query, max_results=5)
+        items = results.get("results", [])
+        all_search_results.extend(items)
+        raw_search_log.append({
+            "query": query,
+            "results": [
+                {"title": r.get("title", ""), "url": r.get("url", ""), "snippet": r.get("content", "")[:200]}
+                for r in items
+            ],
+            "search_errors": search_errors,
+        })
 
     run_log["step1_topic_discovery"] = {"searches": raw_search_log}
 
@@ -513,6 +514,25 @@ def generate_question(llm, topic, suggested_question):
         return None
 
 
+def tavily_search_with_retries(search, query, max_results=5):
+    """Run Tavily search with bounded retries so transient timeouts don't crash runs."""
+    errors = []
+
+    for attempt in range(1, MAX_SEARCH_RETRIES + 1):
+        try:
+            return search.search(query=query, max_results=max_results), errors
+        except Exception as exc:
+            err_msg = f"attempt {attempt}/{MAX_SEARCH_RETRIES}: {type(exc).__name__}: {exc}"
+            errors.append(err_msg)
+            print(f"  ⚠ Tavily search failed ({err_msg})")
+
+            if attempt < MAX_SEARCH_RETRIES:
+                delay = SEARCH_RETRY_BASE_DELAY_SECONDS * attempt
+                time.sleep(delay)
+
+    return {"results": []}, errors
+
+
 # ---------------------------------------------------------------------------
 # Step 2c: Verify via search
 # ---------------------------------------------------------------------------
@@ -521,7 +541,7 @@ def generate_question(llm, topic, suggested_question):
 def search_for_verification(search, question_data, attempt_log, iteration=0):
     """Search the web for authoritative sources to verify the answer."""
     query = question_data.get("search_query", question_data.get("question", ""))
-    results = search.search(query=query, max_results=5)
+    results, search_errors = tavily_search_with_retries(search, query=query, max_results=5)
 
     sources = []
     for r in results.get("results", []):
@@ -535,6 +555,7 @@ def search_for_verification(search, question_data, attempt_log, iteration=0):
     attempt_log[log_key] = {
         "query": query,
         "sources_found": [{"title": s["title"], "url": s["url"]} for s in sources],
+        "search_errors": search_errors,
     }
 
     return sources
@@ -643,7 +664,9 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
         f"{top_two[0]} vs {top_two[1]} ranking list"
     )
 
-    results = search.search(query=specific_query, max_results=5)
+    results, search_errors = tavily_search_with_retries(
+        search, query=specific_query, max_results=5
+    )
     sources_text = "\n\n".join(
         f"Source: {r.get('title', '')} ({r.get('url', '')})\n{r.get('content', '')[:500]}"
         for r in results.get("results", [])
@@ -696,6 +719,7 @@ def re_verify_correction(llm, search, question_text, corrected_answers, attempt_
                 {"title": r.get("title", ""), "url": r.get("url", "")}
                 for r in results.get("results", [])
             ],
+            "search_errors": search_errors,
             "status": result.get("status"),
             "reason": result.get("reason"),
             "best_source": result.get("best_source"),
