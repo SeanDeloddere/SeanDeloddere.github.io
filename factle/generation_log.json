@@ -18361,6 +18361,530 @@
                 ]
             },
             "question_id": 22
+        },
+        {
+            "date": "2026-03-10",
+            "topics_discovered": [
+                {
+                    "topic": "2026 Formula 1 Chinese Grand Prix (Mar 13–15)",
+                    "suggested_question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix wins (all-time), from most to fewer.",
+                    "connection": "Shanghai returns to the F1 calendar this weekend, making all-time Chinese GP winners a timely ranking."
+                },
+                {
+                    "topic": "2026 NCAA March Madness and conference tournaments",
+                    "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer.",
+                    "connection": "Conference tournaments are underway today and Selection Sunday is imminent, so March Madness history is front and center."
+                },
+                {
+                    "topic": "IPL 2026 season kickoff in March",
+                    "suggested_question": "Rank the top 5 Indian Premier League franchises by total titles won (through the 2025 season), from most to fewer.",
+                    "connection": "The 2026 IPL begins this month; looking at all-time champions sets the stage for the new season."
+                },
+                {
+                    "topic": "World Women's Curling Championship (Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by World Women's Curling Championship gold medals (all-time), from most to fewer.",
+                    "connection": "With the women's worlds starting this week in Calgary, historical dominance in the event is highly relevant."
+                },
+                {
+                    "topic": "Pasadena ArtNight (Mar 13, 2026)",
+                    "suggested_question": "Rank the top 5 most-visited art museums in the United States by annual attendance (latest TEA–AECOM Museum Index), from most to fewer.",
+                    "connection": "ArtNight spotlights museum-going; ranking U.S. art museums by attendance ties directly into this cultural weekend."
+                },
+                {
+                    "topic": "SXSW 2026 (Mar 12–18) — startups and innovation",
+                    "suggested_question": "Rank the top 5 cities in the Global Startup Ecosystem Ranking (latest GSER) from #1 to #5.",
+                    "connection": "SXSW’s startup and innovation tracks kick off this week; the GSER city rankings are a timely benchmark."
+                },
+                {
+                    "topic": "ICG Publicists Awards (Mar 13, 2026)",
+                    "suggested_question": "Rank the top 5 companies by worldwide advertising spend (latest full year), from highest to lower.",
+                    "connection": "With publicists and campaigns being honored, spotlighting the world’s top ad spenders aligns with the PR/marketing focus."
+                },
+                {
+                    "topic": "Daylight Saving Time began in the U.S. (Mar 8, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. states by highest residential electricity consumption per household (latest year), from highest to lower.",
+                    "connection": "DST reignites energy debates; household electricity use by state offers a data-driven angle tied to the time change."
+                },
+                {
+                    "topic": "Spring theatre season and WATCH Awards (Mar 22, 2026)",
+                    "suggested_question": "Rank the top 5 Broadway productions by total number of Tony Awards won, from most to fewer.",
+                    "connection": "With regional theatre awards and spring productions in focus, Broadway’s most decorated shows are timely trivia."
+                },
+                {
+                    "topic": "Spring break travel peak in March",
+                    "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in 2025, from most to fewer.",
+                    "connection": "March is a peak travel month for spring break; airport passenger rankings are especially relevant now."
+                },
+                {
+                    "topic": "Seasonal fallback — St. Patrick’s Day (Mar 17)",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest year), from highest to lower.",
+                    "connection": "St. Patrick’s Day festivities put Irish whiskey in the spotlight; brand sales are objectively ranked."
+                },
+                {
+                    "topic": "Seasonal fallback — Pi Day (Mar 14)",
+                    "suggested_question": "Rank the top 5 pie flavors by U.S. retail sales (latest full year), from highest to lower.",
+                    "connection": "Pi Day celebrations often involve actual pie; retail sales data makes for a fun, verifiable ranking."
+                },
+                {
+                    "topic": "Seasonal fallback — Nowruz (Persian New Year, ~Mar 20)",
+                    "suggested_question": "Rank the top 5 countries by saffron production (latest available year), from highest to lower.",
+                    "connection": "Saffron features in many Nowruz dishes; production by country is a timely and measurable list."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "2026 Formula 1 Chinese Grand Prix (Mar 13–15)",
+                    "suggested_question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix wins (all-time), from most to fewer.",
+                    "connection": "Shanghai returns to the F1 calendar this weekend, making all-time Chinese GP winners a timely ranking.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question pertains specifically to Formula 1 and the Chinese Grand Prix, which is a distinct and unique topic not covered by any previous question in the list."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix race wins (all-time), from most to fewer. If tied on wins, rank the driver with the more recent Chinese GP victory higher.",
+                        "answers": [
+                            "Lewis Hamilton",
+                            "Nico Rosberg",
+                            "Fernando Alonso",
+                            "Max Verstappen",
+                            "Daniel Ricciardo"
+                        ],
+                        "distractors": [
+                            "Michael Schumacher",
+                            "Jenson Button",
+                            "Kimi Räikkönen",
+                            "Sebastian Vettel",
+                            "Rubens Barrichello",
+                            "Valtteri Bottas",
+                            "Charles Leclerc",
+                            "Sergio Pérez",
+                            "Lando Norris",
+                            "George Russell",
+                            "Mark Webber",
+                            "Felipe Massa",
+                            "Carlos Sainz",
+                            "Nico Hülkenberg",
+                            "David Coulthard"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Chinese_Grand_Prix"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Chinese Grand Prix most wins drivers",
+                        "sources_found": [
+                            {
+                                "title": "F1 Chinese GP: Top 5 drivers with the most wins - Sportskeeda",
+                                "url": "https://www.sportskeeda.com/f1/f1-chinese-gp-top-5-drivers-wins"
+                            },
+                            {
+                                "title": "Chinese Grand Prix",
+                                "url": "https://en.wikipedia.org/wiki/Chinese_Grand_Prix"
+                            },
+                            {
+                                "title": "Chinese Grand Prix Winners and Formula 1 World Drivers ...",
+                                "url": "https://www.facebook.com/groups/FullRaces/posts/1620890348548870/"
+                            },
+                            {
+                                "title": "Which F1 Drivers Have Won the Most Chinese Grands ... - YouTube",
+                                "url": "https://www.youtube.com/watch?v=mhISVslA1XM"
+                            },
+                            {
+                                "title": "Q: Who holds the lap records in China, both over a race distance ...",
+                                "url": "https://www.reddit.com/r/formula1/comments/1jgempo/q_who_holds_the_lap_records_in_china_both_over_a/"
+                            }
+                        ],
+                        "search_errors": [
+                            "attempt 1/3: TimeoutError: Request timed out after 60 seconds."
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data confirms Lewis Hamilton has the most Chinese GP wins with 6 (verified by Wikipedia). Nico Rosberg and Fernando Alonso both have 2 wins, but Alonso's last victory is more recent (2013 vs. 2012), so Alonso ranks higher. For single wins, Daniel Ricciardo won in 2018, making him the next most recent winner compared to Max Verstappen, whose single win came later in 2019. Therefore, the order has been corrected to follow the tie-breaking rule of favoring the more recent winner.",
+                        "proposed_answers": [
+                            "Lewis Hamilton",
+                            "Nico Rosberg",
+                            "Fernando Alonso",
+                            "Max Verstappen",
+                            "Daniel Ricciardo"
+                        ],
+                        "corrected_answers": [
+                            "Lewis Hamilton",
+                            "Fernando Alonso",
+                            "Nico Rosberg",
+                            "Daniel Ricciardo",
+                            "Max Verstappen"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Chinese_Grand_Prix"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix race wins (all-time), from most to fewer. If tied on wins, rank the driver with the more recent Chinese GP victory higher. Lewis Hamilton vs Fernando Alonso ranking list",
+                        "sources_found": [
+                            {
+                                "title": "F1 Chinese GP: Top 5 drivers with the most wins - Sportskeeda",
+                                "url": "https://www.sportskeeda.com/f1/f1-chinese-gp-top-5-drivers-wins"
+                            },
+                            {
+                                "title": "F1 Chinese GP: Top 5 drivers with the most wins - Facebook",
+                                "url": "https://www.facebook.com/SportskeedaF1/posts/formula1-f1-chinese-gp-top-5-drivers-with-the-most-wins/1142061761264080/"
+                            },
+                            {
+                                "title": "Every Chinese Grand Prix F1 Winner | Complete List - F1 History",
+                                "url": "https://www.formulaonehistory.com/every-chinese-grand-prix-f1-winner/"
+                            },
+                            {
+                                "title": "In numbers - the Chinese Grand Prix - F1",
+                                "url": "https://www.formula1.com/en/latest/article/f1-chinese-grand-prix-statistics.2OD9g4WVDEAcGnpIKheDMD"
+                            },
+                            {
+                                "title": "Formula One statistics for the Chinese Grand Prix | Reuters",
+                                "url": "https://www.reuters.com/sports/formula1/formula-one-statistics-chinese-grand-prix-2024-04-17/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order is consistent with the sources provided. Lewis Hamilton is clearly in first place with six wins. Fernando Alonso has two wins, followed by Nico Rosberg with one win (more recent than Ricciardo's). Ricciardo also has one win, as does Max Verstappen, but Ricciardo's win came later than Verstappen's.",
+                        "best_source": "https://www.formulaonehistory.com/every-chinese-grand-prix-f1-winner/"
+                    },
+                    "question_id": 23,
+                    "final_answers": [
+                        "Lewis Hamilton",
+                        "Fernando Alonso",
+                        "Daniel Ricciardo",
+                        "Max Verstappen",
+                        "Nico Rosberg"
+                    ],
+                    "final_source": "https://www.formulaonehistory.com/every-chinese-grand-prix-f1-winner/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 10, 2026",
+                        "results": [
+                            {
+                                "title": "Sports Events in March 2026 - Full Schedule & Calendar - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "March 2026 has 63 sporting events across 6 sports including Rugby, Soccer, Cricket, Football, Motorsport, Athletics. Notable events: IPL 2026 ("
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            },
+                            {
+                                "title": "Sports Events Calendar - Score and Change",
+                                "url": "https://www.scoreandchange.com/sports_events/",
+                                "snippet": "6 – 8 March 2026| Melbourne, Australia | [website](https://www.formula1.com/en/racing/2026/australia). **Formula 1 Grand Prix Shanghai (Formula 1)******13 – 15 March 2026 | Shanghai, China | [website]"
+                            },
+                            {
+                                "title": "2026 NCAA March Madness - Midwest Regional - United Center",
+                                "url": "https://www.unitedcenter.com/events/2026/03/27/ncaa-march-madness-midwest-regional/",
+                                "snippet": "Let us know. Events & Tickets · Upcoming Events · MAR 10 - 2026 TIAA Big Ten Men's Basketball Tournament · MAR 21 - Cardi B · MAR 27 - 2026 NCAA"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide - Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "*   [Skip to main content](https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/#main-content). *   [English (US)](https://www.remitly.com/blog/lifestyle-culture/march-nationa"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Of course, the big holiday is St. Patrick’s Day (March 17), a good occasion to let your inner party lion roar. ## March Monthly Holid"
+                            },
+                            {
+                                "title": "A Big List of Things To Do This March in L.A. [2026]",
+                                "url": "https://www.welikela.com/a-big-list-of-things-to-do-this-march-in-l-a-2026/",
+                                "snippet": "**Pasadena ArtNight** (March 13) – ********M******** ******FA****** > The spring edition of Pasadena ArtNight offers free admission and special activations at 19 of the city’s arts and culture institu"
+                            },
+                            {
+                                "title": "March 2026 Calendar (With Holidays) - Calendarr",
+                                "url": "https://www.calendarr.com/united-states/calendar-march-2026/",
+                                "snippet": "# March 2026 Calendar of the United States of America. March 2026 Calendar with Holidays and Celebrations of the United States. | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |"
+                            },
+                            {
+                                "title": "The Month of March 2026: Holidays, Astronomy, Fun Facts, Folklore",
+                                "url": "https://www.almanac.com/content/month-march-holidays-fun-facts-folklore",
+                                "snippet": "* **March 3** is [**Holi**](https://www.almanac.com/holi), the Indian “Festival of Colors” that marks spring and renewal. * **March 8**is the start of [**Daylight Saving Time**](https://www.almanac.co"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "WATCH Awards Ceremony Tickets Mar 22, 2026 Alexandria, VA",
+                                "url": "https://www.ticketmaster.com/watch-awards-ceremony-alexandria-virginia-03-22-2026/event/1500642EB595874B",
+                                "snippet": "Buy WATCH Awards Ceremony tickets at the Birchmere in Alexandria, VA for Mar 22, 2026 at Ticketmaster."
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "### Live From SXSW! The Big Picture with the legendary Steven Spielberg. Announcing 350+ artists added to the 2026 Music Festival including Miss Bashful, Kairo Keyz, Charley Crockett, and Passion Pit."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026 Awards Season Calendar: Dates For Oscars, Guilds, Tonys & More · March. 13: ICG Publicists Awards. 15: Academy Awards · April. 2: Anime Awards nominations."
+                            },
+                            {
+                                "title": "Being a spectator in the city isn't the same as being a key delegate ...",
+                                "url": "https://www.instagram.com/reel/DVd9ZI8ijUy/?hl=ar",
+                                "snippet": "➡️ Unlock unique experiences - From the Opening Reception to award ceremonies ... 🗓️ 09–13 March 2026 🎟️ via the link in our bio- use code"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 10, 2026",
+                        "results": [
+                            {
+                                "title": "What Happens on March 10, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/10",
+                                "snippet": "# What Happens on March 10, 2026. ## About March 10, 2026. **Day of the Week:** Tuesday. **How Far Away?** 5 days. ## No Entries for March 10, 2026. * See 8 things that happened in **March 2026**. * V"
+                            },
+                            {
+                                "title": "Top News Headlines for Monday night, March 10 | Watch - MSN",
+                                "url": "https://www.msn.com/en-us/news/us/top-news-headlines-for-monday-night-march-10/vi-AA1AE0Bi",
+                                "snippet": "Luigi Mangione, who is accused of murdering UnitedHealthcare CEO Brian Thompson, yelled out in court after a judge set his New York trial start"
+                            },
+                            {
+                                "title": "Portal:Current events/2026 March 10 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_10",
+                                "snippet": "This page was last edited on 9 March 2026, at 03:30 (UTC). · Content is available under CC BY-SA 4.0 unless otherwise noted."
+                            },
+                            {
+                                "title": "WATCH LIVE: State House Today - March 10, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=0_J-8g9SILM",
+                                "snippet": "![Image 4](https://www.youtube.com/watch?v=0_J-8g9SILM). ![Image 6](https://www.youtube.com/watch?v=0_J-8g9SILM). [5:22 Princess Of Boogie Woogie Delights Everyone Brendan Kavanagh 1.6M views • 3 mont"
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – March 10 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=2hb7s8614zg",
+                                "snippet": "For more context and news coverage of the most important stories of ... This Morning's Top Headlines – March 10 | Morning News NOW. 144K"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 10",
+                        "results": [
+                            {
+                                "title": "March 10 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-10/",
+                                "snippet": "Famous Mar 10 birthday celebrants include Jon Hamm, Robin Thicke, Danny Pudi, Betty Amann, Richard Haydn, Keke Wyatt, Oscar Quitak, Matt Barlow. The following"
+                            },
+                            {
+                                "title": "Famous birthdays for March 10: Bad Bunny, Chuck Norris - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-10-bad-070006281.html",
+                                "snippet": "File Photo by Jim Ruymen/UPI. -- Actor Chuck Norris in 1940 (age 85). -- Actor Richard Gant in 1944 (age 81). -- Actor Katharine Houghton in 1945 (age 80). File Photo by Jim Ruymen/UPI. -- Actor Aloma"
+                            },
+                            {
+                                "title": "Family Members Born March 10 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march10-familymember.html",
+                                "snippet": "popular   trending   video   trivia   random. ## Family Members Born March 10. Edward Baker Lincoln (1846-1850). Shane O'Connor (2004-2022). Dulce Maria Ospina Sterling, 15. Elizabeth Ann D'Agostino, "
+                            },
+                            {
+                                "title": "March 10 Celebrity Birthdays",
+                                "url": "https://www.famousbirthdays.com/march10.html",
+                                "snippet": "## March 10 Birthdays. Prince Edward, Duke of Edinburgh. Prince Edward, Duke of Edinburgh, 61. © FamousBirthdays.com - use subject to the practices disclosed in our privacy policy Privacy Manager."
+                            },
+                            {
+                                "title": "March 10 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/march10.html",
+                                "snippet": "YouTube Stars born March 10. YouTube Stars born March 10. TikTok Stars born March 10. TikTok Stars born March 10. Family Members born March 10. Family Members born March 10. Instagram Stars born March"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "2026 Formula 1 Chinese Grand Prix (Mar 13–15)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix wins (all-time), from most to fewer.",
+                        "connection": "Shanghai returns to the F1 calendar this weekend, making all-time Chinese GP winners a timely ranking."
+                    },
+                    {
+                        "topic": "2026 NCAA March Madness and conference tournaments",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer.",
+                        "connection": "Conference tournaments are underway today and Selection Sunday is imminent, so March Madness history is front and center."
+                    },
+                    {
+                        "topic": "IPL 2026 season kickoff in March",
+                        "suggested_question": "Rank the top 5 Indian Premier League franchises by total titles won (through the 2025 season), from most to fewer.",
+                        "connection": "The 2026 IPL begins this month; looking at all-time champions sets the stage for the new season."
+                    },
+                    {
+                        "topic": "World Women's Curling Championship (Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by World Women's Curling Championship gold medals (all-time), from most to fewer.",
+                        "connection": "With the women's worlds starting this week in Calgary, historical dominance in the event is highly relevant."
+                    },
+                    {
+                        "topic": "Pasadena ArtNight (Mar 13, 2026)",
+                        "suggested_question": "Rank the top 5 most-visited art museums in the United States by annual attendance (latest TEA–AECOM Museum Index), from most to fewer.",
+                        "connection": "ArtNight spotlights museum-going; ranking U.S. art museums by attendance ties directly into this cultural weekend."
+                    },
+                    {
+                        "topic": "SXSW 2026 (Mar 12–18) — startups and innovation",
+                        "suggested_question": "Rank the top 5 cities in the Global Startup Ecosystem Ranking (latest GSER) from #1 to #5.",
+                        "connection": "SXSW’s startup and innovation tracks kick off this week; the GSER city rankings are a timely benchmark."
+                    },
+                    {
+                        "topic": "ICG Publicists Awards (Mar 13, 2026)",
+                        "suggested_question": "Rank the top 5 companies by worldwide advertising spend (latest full year), from highest to lower.",
+                        "connection": "With publicists and campaigns being honored, spotlighting the world’s top ad spenders aligns with the PR/marketing focus."
+                    },
+                    {
+                        "topic": "Daylight Saving Time began in the U.S. (Mar 8, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by highest residential electricity consumption per household (latest year), from highest to lower.",
+                        "connection": "DST reignites energy debates; household electricity use by state offers a data-driven angle tied to the time change."
+                    },
+                    {
+                        "topic": "Spring theatre season and WATCH Awards (Mar 22, 2026)",
+                        "suggested_question": "Rank the top 5 Broadway productions by total number of Tony Awards won, from most to fewer.",
+                        "connection": "With regional theatre awards and spring productions in focus, Broadway’s most decorated shows are timely trivia."
+                    },
+                    {
+                        "topic": "Spring break travel peak in March",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in 2025, from most to fewer.",
+                        "connection": "March is a peak travel month for spring break; airport passenger rankings are especially relevant now."
+                    },
+                    {
+                        "topic": "Seasonal fallback — St. Patrick’s Day (Mar 17)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest year), from highest to lower.",
+                        "connection": "St. Patrick’s Day festivities put Irish whiskey in the spotlight; brand sales are objectively ranked."
+                    },
+                    {
+                        "topic": "Seasonal fallback — Pi Day (Mar 14)",
+                        "suggested_question": "Rank the top 5 pie flavors by U.S. retail sales (latest full year), from highest to lower.",
+                        "connection": "Pi Day celebrations often involve actual pie; retail sales data makes for a fun, verifiable ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback — Nowruz (Persian New Year, ~Mar 20)",
+                        "suggested_question": "Rank the top 5 countries by saffron production (latest available year), from highest to lower.",
+                        "connection": "Saffron features in many Nowruz dishes; production by country is a timely and measurable list."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 5,
+                "topics_before": 13,
+                "topics_after": 13,
+                "details": [
+                    {
+                        "topic": "2026 Formula 1 Chinese Grand Prix (Mar 13–15)",
+                        "suggested_question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix wins (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to Formula 1 and motorsport, which is not covered by any of the recent questions, as they focus on weather, programming, cinema, geography, and astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "2026 NCAA March Madness and conference tournaments",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on NCAA basketball does not overlap with any recently covered subjects such as sunshine metrics, programming languages, Academy Awards, time zones, or telescope sizes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "IPL 2026 season kickoff in March",
+                        "suggested_question": "Rank the top 5 Indian Premier League franchises by total titles won (through the 2025 season), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on IPL franchises and titles does not overlap with any of the recent questions, as they cover weather, programming, movies, geography, and telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Women's Curling Championship (Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by World Women's Curling Championship gold medals (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about the World Women's Curling Championship, which pertains to sports, whereas none of the recent questions cover sports or curling specifically.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Pasadena ArtNight (Mar 13, 2026)",
+                        "suggested_question": "Rank the top 5 most-visited art museums in the United States by annual attendance (latest TEA–AECOM Museum Index), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to art museum attendance, which is unrelated to any of the recent questions covering subjects such as weather, programming, cinema, geography, or astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 (Mar 12–18) — startups and innovation",
+                        "suggested_question": "Rank the top 5 cities in the Global Startup Ecosystem Ranking (latest GSER) from #1 to #5.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to startups and innovation, which is distinct from all recent questions focused on sunshine, programming languages, Academy Awards, time zones, and telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "ICG Publicists Awards (Mar 13, 2026)",
+                        "suggested_question": "Rank the top 5 companies by worldwide advertising spend (latest full year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on worldwide advertising spend by companies, which is unrelated to any recently covered topics such as sunshine, programming languages, Academy Awards, time zones, or telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Daylight Saving Time began in the U.S. (Mar 8, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by highest residential electricity consumption per household (latest year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed question focuses on residential electricity consumption in U.S. states, which does not overlap with any of the recently covered topics such as sunshine, programming languages, Academy Awards, time zones, or telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring theatre season and WATCH Awards (Mar 22, 2026)",
+                        "suggested_question": "Rank the top 5 Broadway productions by total number of Tony Awards won, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Tony Awards and Broadway productions does not overlap with any of the recent questions, which cover sunshine, programming languages, Academy Awards, time zones, and telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring break travel peak in March",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to travel and passenger traffic in airports, which does not overlap with the recent questions covering sunshine, programming languages, Academy Awards, time zones, or telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — St. Patrick’s Day (Mar 17)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual case sales (latest year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Irish whiskey sales focuses on alcoholic beverages and St. Patrick's Day, which does not overlap with any of the recent questions covering diverse themes like sunshine, programming, awards, time zones, or telescopes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — Pi Day (Mar 14)",
+                        "suggested_question": "Rank the top 5 pie flavors by U.S. retail sales (latest full year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to retail sales of pie flavors, which does not overlap with any recent themes such as weather, programming, awards, geography, or astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — Nowruz (Persian New Year, ~Mar 20)",
+                        "suggested_question": "Rank the top 5 countries by saffron production (latest available year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on saffron production and its association with Nowruz does not overlap with any recently used topics covering sunshine, programming languages, Academy Awards, time zones, or optical telescopes.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 23
         }
     ]
 }

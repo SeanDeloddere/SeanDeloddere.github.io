@@ -769,6 +769,41 @@
                 "Hobby–Eberly Telescope (HET)"
             ],
             "source": "https://grokipedia.com/page/List_of_largest_optical_reflecting_telescopes"
+        },
+        {
+            "id": 23,
+            "date": "2026-03-10",
+            "question": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix race wins (all-time), from most to fewer. If tied on wins, rank the driver with the more recent Chinese GP victory higher.",
+            "options": [
+                "Lewis Hamilton",
+                "Fernando Alonso",
+                "Daniel Ricciardo",
+                "Max Verstappen",
+                "Nico Rosberg",
+                "Michael Schumacher",
+                "Jenson Button",
+                "Kimi Räikkönen",
+                "Sebastian Vettel",
+                "Rubens Barrichello",
+                "Valtteri Bottas",
+                "Charles Leclerc",
+                "Sergio Pérez",
+                "Lando Norris",
+                "George Russell",
+                "Mark Webber",
+                "Felipe Massa",
+                "Carlos Sainz",
+                "Nico Hülkenberg",
+                "David Coulthard"
+            ],
+            "answers": [
+                "Lewis Hamilton",
+                "Fernando Alonso",
+                "Daniel Ricciardo",
+                "Max Verstappen",
+                "Nico Rosberg"
+            ],
+            "source": "https://www.formulaonehistory.com/every-chinese-grand-prix-f1-winner/"
         }
     ]
 }
