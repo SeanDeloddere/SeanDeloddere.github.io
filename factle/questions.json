@@ -839,6 +839,41 @@
                 "Steve Hooker"
             ],
             "source": "https://www.alltime-athletics.com/mpoleok.htm"
+        },
+        {
+            "id": 25,
+            "date": "2026-03-12",
+            "question": "Which are the 5 tallest mountains in the world?",
+            "options": [
+                "Mount Everest",
+                "K2",
+                "Kangchenjunga",
+                "Lhotse",
+                "Makalu",
+                "Cho Oyu",
+                "Dhaulagiri I",
+                "Manaslu",
+                "Nanga Parbat",
+                "Annapurna I",
+                "Gasherbrum I",
+                "Broad Peak",
+                "Gasherbrum II",
+                "Shishapangma",
+                "Gyachung Kang",
+                "Aconcagua",
+                "Denali",
+                "Mount Kilimanjaro",
+                "Mount Elbrus",
+                "Nuptse"
+            ],
+            "answers": [
+                "Mount Everest",
+                "K2",
+                "Kangchenjunga",
+                "Lhotse",
+                "Makalu"
+            ],
+            "source": "https://www.nepalhikingteam.com/highest-5-mountains"
         }
     ]
 }
