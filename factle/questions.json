@@ -874,6 +874,41 @@
                 "Makalu"
             ],
             "source": "https://www.nepalhikingteam.com/highest-5-mountains"
+        },
+        {
+            "id": 26,
+            "date": "2026-03-13",
+            "question": "Rank the top 5 female solo artists by number of Billboard Hot 100 No. 1 singles (all-time). If tied, rank by the more recent No. 1.",
+            "options": [
+                "Mariah Carey",
+                "Rihanna",
+                "Taylor Swift",
+                "Madonna",
+                "Whitney Houston",
+                "Janet Jackson",
+                "Katy Perry",
+                "Ariana Grande",
+                "Beyoncé",
+                "Diana Ross",
+                "Barbra Streisand",
+                "Britney Spears",
+                "Lady Gaga",
+                "Adele",
+                "Cher",
+                "Celine Dion",
+                "Christina Aguilera",
+                "Nicki Minaj",
+                "Miley Cyrus",
+                "Olivia Rodrigo"
+            ],
+            "answers": [
+                "Mariah Carey",
+                "Rihanna",
+                "Taylor Swift",
+                "Madonna",
+                "Whitney Houston"
+            ],
+            "source": "https://www.threads.com/@aboutmusicyt/post/DOzJBn4iA9v/female-artists-with-the-most-number-1-songs-in-billboard-hot-100-history1-mariah"
         }
     ]
 }
