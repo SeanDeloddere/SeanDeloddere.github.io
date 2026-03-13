@@ -909,6 +909,41 @@
                 "Whitney Houston"
             ],
             "source": "https://www.threads.com/@aboutmusicyt/post/DOzJBn4iA9v/female-artists-with-the-most-number-1-songs-in-billboard-hot-100-history1-mariah"
+        },
+        {
+            "id": 27,
+            "date": "2026-03-14",
+            "question": "Rank the top 5 films with the most Academy Award (Oscar) wins all-time, from most to fewer. If tied on wins, rank by the earlier ceremony year.",
+            "options": [
+                "Ben-Hur",
+                "The Lord of the Rings: The Return of the King",
+                "Titanic",
+                "West Side Story",
+                "Gigi",
+                "The Last Emperor",
+                "The English Patient",
+                "Gone with the Wind",
+                "Cabaret",
+                "Gandhi",
+                "Amadeus",
+                "Slumdog Millionaire",
+                "From Here to Eternity",
+                "On the Waterfront",
+                "My Fair Lady",
+                "Lawrence of Arabia",
+                "Schindler's List",
+                "The Bridge on the River Kwai",
+                "Dances with Wolves",
+                "Gravity"
+            ],
+            "answers": [
+                "Ben-Hur",
+                "The Lord of the Rings: The Return of the King",
+                "Titanic",
+                "West Side Story",
+                "Gigi"
+            ],
+            "source": "https://www.britannica.com/topic/What-Movies-Have-Won-the-Most-Oscars"
         }
     ]
 }
