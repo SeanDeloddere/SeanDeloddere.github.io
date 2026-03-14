@@ -23217,6 +23217,1643 @@
                 ]
             },
             "question_id": 27
+        },
+        {
+            "date": "2026-03-15",
+            "topics_discovered": [
+                {
+                    "topic": "NCAA March Madness (men's tournament begins mid-March)",
+                    "suggested_question": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer.",
+                    "connection": "March Madness is one of the biggest March 2026 events; a historical ranking ties directly to the tournament tipping off."
+                },
+                {
+                    "topic": "MLB Opening Day (late March)",
+                    "suggested_question": "Rank the top 5 MLB franchises by most Opening Day wins all-time, from most to fewer.",
+                    "connection": "MLB Opening Day is highlighted on March sports calendars; this focuses on teams’ historical Opening Day success."
+                },
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer.",
+                    "connection": "The Women’s Worlds are underway right now, making a titles leaderboard timely and relevant."
+                },
+                {
+                    "topic": "Shanghai in the spotlight this weekend (major international event host city)",
+                    "suggested_question": "Rank the top 5 busiest container ports in the world by annual throughput in TEUs (most recent full year), from highest to lower.",
+                    "connection": "With Shanghai hosting a marquee global event this weekend, it’s a good moment to spotlight its status as a freight powerhouse."
+                },
+                {
+                    "topic": "Winter storms knocking out power in the U.S. Northeast",
+                    "suggested_question": "Rank the top 5 U.S. states by installed grid-scale battery storage capacity (MW), from highest to lower (latest available data).",
+                    "connection": "Severe March storms and outages put grid resilience in focus; battery storage capacity is a timely, objective metric."
+                },
+                {
+                    "topic": "St. Patrick’s Day (Mar 17) and Irish American Heritage Month",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from most to fewer.",
+                    "connection": "With St. Patrick’s Day days away, Irish whiskey tops sales charts—perfect for a festive, verifiable business-of-spirits ranking."
+                },
+                {
+                    "topic": "Ramadan/Eid al-Fitr observances in March 2026",
+                    "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (most recent FAO data), from most to fewer.",
+                    "connection": "Dates are a staple for iftar; a production ranking connects directly to seasonal cultural practices."
+                },
+                {
+                    "topic": "Awards season buzz (Oscars Mar 15; Tonys set for June)",
+                    "suggested_question": "Rank the top 5 Broadway productions with the most Tony Award wins (single production in a single year), from most to fewer.",
+                    "connection": "With awards season peaking this week, theater’s biggest winners are timely as the Tonys approach."
+                },
+                {
+                    "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22)",
+                    "suggested_question": "Rank the top 5 Polish export products by total export value (most recent year), from highest to lower.",
+                    "connection": "Poland gets the global stage next week; a country export leaderboard offers a timely, objective economic tie-in."
+                },
+                {
+                    "topic": "Seasonal fallback: Daylight Saving Time shifts in March",
+                    "suggested_question": "Rank the top 5 countries with the most time zones (including overseas territories), from most to fewer.",
+                    "connection": "Clocks changing this month puts timekeeping in focus; time-zone counts are a clear, verifiable ranking."
+                },
+                {
+                    "topic": "Seasonal fallback: Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by total number of female Nobel laureates (all prize categories combined), from most to fewer.",
+                    "connection": "March spotlights women’s achievements; Nobel counts offer a rigorous, objective way to recognize historic milestones."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "NCAA March Madness (men's tournament begins mid-March)",
+                    "suggested_question": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer.",
+                    "connection": "March Madness is one of the biggest March 2026 events; a historical ranking ties directly to the tournament tipping off.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on NCAA Tournament wins in men's college basketball, which is distinct from any previous questions, as none address basketball or NCAA statistics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer.",
+                        "answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Kansas",
+                            "Duke",
+                            "UCLA"
+                        ],
+                        "distractors": [
+                            "Michigan State",
+                            "Indiana",
+                            "Villanova",
+                            "Louisville",
+                            "Connecticut",
+                            "Syracuse",
+                            "Arizona",
+                            "Michigan",
+                            "Ohio State",
+                            "Gonzaga",
+                            "Arkansas",
+                            "Oklahoma State",
+                            "Florida",
+                            "Notre Dame",
+                            "Illinois"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/NCAA_Division_I_men%27s_basketball_tournament_records#Team_records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most NCAA Tournament wins by school all time 2025 North Carolina Kentucky Kansas Duke UCLA site:ncaa.com",
+                        "sources_found": [
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "NCAA men's basketball champions from 1939 to today",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/ncaa-mens-basketball-champions-1939-today"
+                            },
+                            {
+                                "title": "The teams with the most men's NCAA tournament No. 1 seeds",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-03-16/division-i-mens-basketball-teams-most-ncaa-tournament-no-1-seeds"
+                            },
+                            {
+                                "title": "The longest active NCAA tournament streaks",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-03-19/college-basketball-longest-active-ncaa-tournament-streaks"
+                            },
+                            {
+                                "title": "NCAA tournament: All-time No. 1 seeds, teams, history",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/ncaa-tournament-all-time-no-1-seeds-teams-history"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain any data about NCAA tournament win totals for men's college basketball programs. They focus on other statistics, such as championship wins, specific tournament results, and seeding history, but do not address all-time NCAA tournament victory totals or provide rankings. Thus, it is not possible to verify or correct the provided answers.",
+                        "proposed_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Kansas",
+                            "Duke",
+                            "UCLA"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer. North Carolina Kentucky ranking",
+                        "sources_found": [
+                            {
+                                "title": "Top 5 Winningest College Basketball Programs - Facebook",
+                                "url": "https://www.facebook.com/groups/716200076286470/posts/1282479552991850/"
+                            },
+                            {
+                                "title": "2025-26 Men's College Basketball Rankings - ESPN",
+                                "url": "https://www.espn.com/mens-college-basketball/rankings"
+                            },
+                            {
+                                "title": "List of teams with the most victories in NCAA Division I men's college ...",
+                                "url": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                            },
+                            {
+                                "title": "The Greatest College Basketball Programs Ever: Ranking the top ...",
+                                "url": "https://www.cbssports.com/college-basketball/news/the-greatest-college-basketball-programs-ever-ranking-the-top-teams-of-all-time/"
+                            },
+                            {
+                                "title": "Men's March Madness 2026 auto-bids tracker: UMBC dancing for ...",
+                                "url": "https://www.nytimes.com/athletic/7097219/2026/03/14/march-madness-2026-mens-ncaa-tournament-auto-bid-tracker/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources directly rank the top 5 men's college basketball programs by total NCAA Tournament wins through the 2025 tournament. Some sources discuss overall program success or all-time wins, but they do not specifically focus on NCAA Tournament victories or provide the exact data for that metric. Therefore, the order could not be verified or corrected.",
+                        "proposed_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Kansas",
+                            "Duke",
+                            "UCLA"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer. North Carolina Kentucky ranking",
+                        "sources_found": [
+                            {
+                                "title": "Ranking 40 years of men's NCAA Tournament champions, from ...",
+                                "url": "https://www.nytimes.com/athletic/6173864/2025/03/05/mens-basketball-ncaa-tournament-champions-rankings-history/"
+                            },
+                            {
+                                "title": "NCAA Men's Basketball. Kentucky & Texas top the list from the SEC ...",
+                                "url": "https://www.facebook.com/groups/secsuperconference/posts/1377103230913158/"
+                            },
+                            {
+                                "title": "The Greatest College Basketball Programs Ever: Ranking the top ...",
+                                "url": "https://www.cbssports.com/college-basketball/news/the-greatest-college-basketball-programs-ever-ranking-the-top-teams-of-all-time/"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "Where Triangle teams rank among the 'most valuable' programs in ...",
+                                "url": "https://www.cbs17.com/ncaa/ncaa-basketball/north-carolina-tar-heels-duke-blue-devils-most-valuable-programs-college-basketball-study/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific or detailed data about the total NCAA Tournament wins for men's college basketball programs as of 2025, nor a verified ranking based on this criterion. Sources reference national championships or other metrics like win percentage, but not cumulative tournament victories. Reliable information specific to NCAA Tournament wins across these schools is absent in the provided sources.",
+                        "proposed_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Kansas",
+                            "Duke",
+                            "UCLA"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                    }
+                },
+                {
+                    "topic": "MLB Opening Day (late March)",
+                    "suggested_question": "Rank the top 5 MLB franchises by most Opening Day wins all-time, from most to fewer.",
+                    "connection": "MLB Opening Day is highlighted on March sports calendars; this focuses on teams’ historical Opening Day success.",
+                    "status": "validation_failed",
+                    "reason": "Duplicate options found",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about MLB Opening Day wins is unique and does not overlap with any existing questions, as it pertains specifically to baseball history and team performance, a topic not addressed in the previous questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 MLB franchises by most Opening Day wins all-time (1 = most wins).",
+                        "answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "Los Angeles Dodgers",
+                            "St. Louis Cardinals"
+                        ],
+                        "distractors": [
+                            "New York Yankees",
+                            "Cincinnati Reds",
+                            "Atlanta Braves",
+                            "Philadelphia Phillies",
+                            "Detroit Tigers",
+                            "Boston Red Sox",
+                            "Chicago White Sox",
+                            "Cleveland Guardians",
+                            "Oakland Athletics",
+                            "Minnesota Twins",
+                            "Baltimore Orioles",
+                            "Los Angeles Angels",
+                            "Texas Rangers",
+                            "Toronto Blue Jays",
+                            "San Diego Padres"
+                        ],
+                        "suggested_source": "https://www.statmuse.com/mlb/ask?q=most+opening+day+wins+by+team"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most Opening Day wins by MLB franchise all time",
+                        "sources_found": [
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins Of All-time",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins-of-all-time"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "Opening Day",
+                                "url": "https://baseballhall.org/discover-more/stories/baseball-history/opening-day"
+                            },
+                            {
+                                "title": "The highest scoring Opening Day game in modern MLB history ...",
+                                "url": "https://www.reddit.com/r/baseball/comments/1jkpndo/the_highest_scoring_opening_day_game_in_modern/"
+                            },
+                            {
+                                "title": "By the numbers: Breaking down the magic of baseball's Opening Day",
+                                "url": "https://fansided.com/opening-day-by-the-numbers-best-stats-records-more"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources give a list or specific details about the MLB teams ranked by their total number of Opening Day wins. The StatMuse links refer to all-time wins, not specifically Opening Day wins, and the remaining sources are either unrelated or insufficient for determining the answer.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "Los Angeles Dodgers",
+                            "St. Louis Cardinals"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins-of-all-time"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 MLB franchises by most Opening Day wins all-time (1 = most wins). Chicago Cubs Pittsburgh Pirates ranking",
+                        "sources_found": [
+                            {
+                                "title": "5 MLB teams with the Best Opening Day records",
+                                "url": "https://www.sportskeeda.com/baseball/news-5-mlb-teams-best-opening-day-records"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "2026 MLB Franchise Rankings: Dodgers overtake Yankees as No. 1 ...",
+                                "url": "https://www.nytimes.com/athletic/7109244/2026/03/12/2026-mlb-25-year-franchise-rankings/"
+                            },
+                            {
+                                "title": "Best Opening Day winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "Top MLB Teams on Opening Day: Highest 10 Win Percentages Ranked",
+                                "url": "https://www.sportsgrid.com/mlb/article/top-mlb-teams-on-opening-day-highest-10-win-percentages-ranked"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order does not match the rankings in the authoritative StatMuse source. According to StatMuse, the MLB franchises ranked by most Opening Day wins are: 1) Giants, 2) Dodgers, 3) Cubs, 4) Braves, and 5) Cardinals. Other sources discuss winning percentages rather than total wins, which makes StatMuse most authoritative for this specific ranking.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "Los Angeles Dodgers",
+                            "St. Louis Cardinals"
+                        ],
+                        "corrected_answers": [
+                            "San Francisco Giants",
+                            "Los Angeles Dodgers",
+                            "Chicago Cubs",
+                            "Atlanta Braves",
+                            "St. Louis Cardinals"
+                        ],
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 MLB franchises by most Opening Day wins all-time (1 = most wins). San Francisco Giants vs Los Angeles Dodgers ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2026 MLB Franchise Rankings: Dodgers overtake Yankees as No. 1 ...",
+                                "url": "https://www.nytimes.com/athletic/7109244/2026/03/12/2026-mlb-25-year-franchise-rankings/"
+                            },
+                            {
+                                "title": "Best Opening Day winning percentage - MLB.com",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "MLB Team Win % - All Games - TeamRankings.com",
+                                "url": "https://www.teamrankings.com/mlb/stat/win-pct-all-games"
+                            },
+                            {
+                                "title": "Top MLB Teams on Opening Day: Highest 10 Win Percentages ...",
+                                "url": "https://www.sportsgrid.com/mlb/article/top-mlb-teams-on-opening-day-highest-10-win-percentages-ranked"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the data from the most authoritative source (StatMuse), which lists the Giants, Dodgers, Cubs, Braves, and Cardinals in the correct order of most Opening Day wins.",
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                    }
+                },
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer.",
+                    "connection": "The Women’s Worlds are underway right now, making a titles leaderboard timely and relevant.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses specifically on World Women’s Curling Championship titles, which is distinct from other sports-related rankings like Winter Olympic medals, hockey, or golf. No previous question directly overlaps with this subject."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer.",
+                        "answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Norway",
+                            "Germany"
+                        ],
+                        "distractors": [
+                            "Scotland",
+                            "United States",
+                            "Denmark",
+                            "China",
+                            "Japan",
+                            "South Korea",
+                            "Russia",
+                            "Finland",
+                            "Italy",
+                            "Netherlands",
+                            "Latvia",
+                            "Czech Republic",
+                            "Estonia",
+                            "Hungary",
+                            "Spain"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/World_Women%27s_Curling_Championship"
+                    },
+                    "verification_search_iter0": {
+                        "query": "World Women's Curling Championship medal table gold titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Sweden beats Switzerland for gold in women's curling - TSN",
+                                "url": "https://www.tsn.ca/olympics/article/sweden-beats-switzerland-for-gold-in-womens-curling/"
+                            },
+                            {
+                                "title": "Sweden wins fourth women's curling gold medal; Switzerland takes ...",
+                                "url": "https://www.nbcolympics.com/news/sweden-wins-fourth-womens-curling-gold-medal-switzerland-takes-third-silver"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Championship Curling - All Time Medal Table - Reddit",
+                                "url": "https://www.reddit.com/r/Curling/comments/1g13nd5/world_championship_curling_all_time_medal_table/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order was partially incorrect based on the data from Grokipedia. Canada is confirmed to have the most titles with 19. Sweden and Switzerland each have 8 titles, but Sweden has a longer history of finishing in the top in championships, making them second. Norway and Germany both have 2 titles, and it's unclear which of the two has more silver and bronze medals from the sources provided. Thus, the corrected rank reflects the available data from the best source.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Norway",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Sweden",
+                            "Switzerland",
+                            "Norway",
+                            "Germany"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer. Canada vs Sweden ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Championships",
+                                "url": "https://results.worldcurling.org/championship/Type/1"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship: Standings, schedule ...",
+                                "url": "https://www.thegrandslamofcurling.com/news/2026-world-womens-curling-championship-standings-schedule-and-results"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Additional source data does not provide sufficient numerical rankings or values for all countries to confirm the corrected order. The Wikipedia list details specific champions but does not clearly rank the countries by title counts.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                    },
+                    "verification_search_iter1": {
+                        "query": "World Women's Curling Championship medal table gold titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Sweden beats Switzerland for gold in women's curling - TSN",
+                                "url": "https://www.tsn.ca/olympics/article/sweden-beats-switzerland-for-gold-in-womens-curling/"
+                            },
+                            {
+                                "title": "Sweden wins fourth women's curling gold medal; Switzerland takes ...",
+                                "url": "https://www.nbcolympics.com/news/sweden-wins-fourth-womens-curling-gold-medal-switzerland-takes-third-silver"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Championship Curling - All Time Medal Table - Reddit",
+                                "url": "https://www.reddit.com/r/Curling/comments/1g13nd5/world_championship_curling_all_time_medal_table/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The Grokipedia source provides clear data that Canada has the most World Women’s Curling Championship titles with 19. Sweden follows with 9 titles, and Switzerland ranks third with 8 titles. Both Germany and Norway have 2 titles each. Therefore, Germany should rank 4th and Norway 5th, as they have the same number of titles. The original order of Germany (5th) and Norway (4th) was incorrect based on this tiebreaker logic. Moreover, the original values for the number of championships won were incorrect, and they have been updated accordingly.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Sweden",
+                            "Switzerland",
+                            "Norway",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Sweden",
+                            "Switzerland",
+                            "Germany",
+                            "Norway"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer. Canada vs Sweden ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Championships",
+                                "url": "https://results.worldcurling.org/championship/Type/1"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship: Standings, schedule ...",
+                                "url": "https://www.thegrandslamofcurling.com/news/2026-world-womens-curling-championship-standings-schedule-and-results"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order could not be fully verified as accurate due to insufficient specific total titles or rankings for all countries in the provided credible sources.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                    },
+                    "verification_search_iter2": {
+                        "query": "World Women's Curling Championship medal table gold titles by country",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "Sweden beats Switzerland for gold in women's curling - TSN",
+                                "url": "https://www.tsn.ca/olympics/article/sweden-beats-switzerland-for-gold-in-womens-curling/"
+                            },
+                            {
+                                "title": "Sweden wins fourth women's curling gold medal; Switzerland takes ...",
+                                "url": "https://www.nbcolympics.com/news/sweden-wins-fourth-womens-curling-gold-medal-switzerland-takes-third-silver"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                            },
+                            {
+                                "title": "World Championship Curling - All Time Medal Table - Reddit",
+                                "url": "https://www.reddit.com/r/Curling/comments/1g13nd5/world_championship_curling_all_time_medal_table/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The Grokipedia source provides the most reliable and updated medal counts for the World Women’s Curling Championships. According to this source, Canada leads with 19 titles, followed by Sweden with 9 titles, Switzerland with 8 titles, Germany with 4 titles, and Norway with 2 titles. The proposed order was incorrect for the counts of Sweden and Switzerland, as well as numbers themselves. The corrected order and values are based on the Grokipedia data.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Sweden",
+                            "Switzerland",
+                            "Germany",
+                            "Norway"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Sweden",
+                            "Switzerland",
+                            "Germany",
+                            "Norway"
+                        ],
+                        "best_source": "https://grokipedia.com/page/List_of_World_Women's_Curling_Champions"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer. Canada vs Sweden ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "World Curling Championships",
+                                "url": "https://results.worldcurling.org/championship/Type/1"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship: Standings, schedule ...",
+                                "url": "https://www.thegrandslamofcurling.com/news/2026-world-womens-curling-championship-standings-schedule-and-results"
+                            },
+                            {
+                                "title": "List of World Women's Curling Champions - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide a clear and detailed breakdown of total World Women's Curling Championship titles for the corrected order of countries, making it impossible to confirm the exact ranking.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_World_Women%27s_Curling_Champions"
+                    }
+                },
+                {
+                    "topic": "Winter storms knocking out power in the U.S. Northeast",
+                    "suggested_question": "Rank the top 5 U.S. states by installed grid-scale battery storage capacity (MW), from highest to lower (latest available data).",
+                    "connection": "Severe March storms and outages put grid resilience in focus; battery storage capacity is a timely, objective metric.",
+                    "status": "validation_failed",
+                    "reason": "Duplicate options found",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks about U.S. states ranked by installed grid-scale battery storage capacity, which is distinct from any of the previous questions that cover topics like population, sports, awards, or geographic features. No prior question covers energy infrastructure or similar metrics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by installed utility-scale (grid-scale) battery storage nameplate power capacity (MW), from highest to lower (latest available data).",
+                        "answers": [
+                            "California",
+                            "Texas",
+                            "Arizona",
+                            "Nevada",
+                            "Florida"
+                        ],
+                        "distractors": [
+                            "New York",
+                            "Massachusetts",
+                            "Hawaii",
+                            "Illinois",
+                            "Colorado",
+                            "New Jersey",
+                            "New Mexico",
+                            "North Carolina",
+                            "Louisiana",
+                            "Oklahoma",
+                            "Utah",
+                            "Oregon",
+                            "Washington",
+                            "Pennsylvania",
+                            "Georgia"
+                        ],
+                        "suggested_source": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_02"
+                    },
+                    "verification_search_iter0": {
+                        "query": "EIA Table 6.2 battery nameplate power capacity by state MW",
+                        "sources_found": [
+                            {
+                                "title": "[XLS] Contents - EIA",
+                                "url": "https://www.eia.gov/analysis/studies/electricity/batterystorage/xls/2024%20Battery%20Storage%20Figures.xlsx"
+                            },
+                            {
+                                "title": "Electric Power Monthly - U.S. Energy Information Administration (EIA)",
+                                "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_05"
+                            },
+                            {
+                                "title": "[XLS] Table_6_06 - EIA",
+                                "url": "https://www.eia.gov/electricity/monthly/xls/table_6_06.xlsx"
+                            },
+                            {
+                                "title": "Electric Power Monthly - U.S. Energy Information Administration (EIA)",
+                                "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=table_6_03"
+                            },
+                            {
+                                "title": "Cumulative United States Utility-Scale Battery Power Capacity",
+                                "url": "https://www.mitchellwilliamslaw.com/cumulative-united-states-utility-scale-battery-power-capacity-us-energy-information-administration-report-addresses-2011-2025-timeframe"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain clear or well-organized information about the top U.S. states ranked by utility-scale battery storage nameplate capacity (MW). While some sources mention battery storage statistics broadly, they either do not offer conclusive rank-ordered data or specific figures for each individual state. Additionally, there is no aggregated or updated comparative data for all states from a single source in the provided links.",
+                        "proposed_answers": [
+                            "California",
+                            "Texas",
+                            "Arizona",
+                            "Nevada",
+                            "Florida"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_05"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by installed utility-scale (grid-scale) battery storage nameplate power capacity (MW), from highest to lower (latest available data). California Texas ranking",
+                        "sources_found": [
+                            {
+                                "title": "Texas tops US states for renewable energy and battery capacity",
+                                "url": "https://www.reuters.com/business/energy/texas-tops-us-states-renewable-energy-battery-capacity-maguire-2025-01-09/"
+                            },
+                            {
+                                "title": "US States ranked by installed battery capacity - CTRM Center",
+                                "url": "https://www.ctrmcenter.com/blog/industry-news/us-states-ranked-by-installed-battery-capacity/"
+                            },
+                            {
+                                "title": "These 10 U.S. states have the most battery storage capacity installed",
+                                "url": "https://www.teslarati.com/10-u-s-states-most-battery-storage-capacity/"
+                            },
+                            {
+                                "title": "Top 10 Public Energy Storage Projects Worldwide in 2026 ...",
+                                "url": "https://sz-usun.com/top-10-public-energy-storage-projects-worldwide-in-2026-comparative-analysis/"
+                            },
+                            {
+                                "title": "Which states are poised to lead on battery storage?",
+                                "url": "https://environmentamerica.org/center/articles/which-states-are-poised-to-lead-on-battery-storage/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers' order is incorrect according to the sources. The most authoritative source, Teslarati, clearly indicates California leads with 7,302 MW, followed by Texas. Florida, Arizona, and Colorado are consistently mentioned as prominent states, but exact numeric capacity for these is unavailable in other sources. Nevada does not rank in the top 5. Thus, the ranking is corrected based on reliable details from Teslarati and corroborating references.",
+                        "proposed_answers": [
+                            "California",
+                            "Texas",
+                            "Arizona",
+                            "Nevada",
+                            "Florida"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "Arizona",
+                            "Colorado"
+                        ],
+                        "best_source": "https://www.teslarati.com/10-u-s-states-most-battery-storage-capacity/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by installed utility-scale (grid-scale) battery storage nameplate power capacity (MW), from highest to lower (latest available data). California vs Texas ranking list",
+                        "sources_found": [
+                            {
+                                "title": "US States ranked by installed battery capacity",
+                                "url": "https://www.comtechadvisory.com/blog/us-states-ranked-by-installed-battery-capacity/"
+                            },
+                            {
+                                "title": "Texas Tops US States for Renewable Energy and Battery Capacity",
+                                "url": "https://poweralliance.org/2025/01/09/texas-tops-us-states-for-renewable-energy-and-battery-capacity/"
+                            },
+                            {
+                                "title": "Which states are poised to lead on battery storage?",
+                                "url": "https://environmentamerica.org/center/articles/which-states-are-poised-to-lead-on-battery-storage/"
+                            },
+                            {
+                                "title": "Texas is about to overtake California in battery storage | Electrek",
+                                "url": "https://electrek.co/2026/02/23/texas-is-about-to-overtake-california-in-battery-storage/"
+                            },
+                            {
+                                "title": "Which states have the most grid batteries? - Yahoo Finance",
+                                "url": "https://finance.yahoo.com/news/states-most-grid-batteries-073000810.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the source data, which consistently ranks California and Texas as the top two states in installed battery capacity, followed by Florida, Arizona, and Colorado.",
+                        "best_source": "https://poweralliance.org/2025/01/09/texas-tops-us-states-for-renewable-energy-and-battery-capacity/"
+                    }
+                },
+                {
+                    "topic": "St. Patrick’s Day (Mar 17) and Irish American Heritage Month",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from most to fewer.",
+                    "connection": "With St. Patrick’s Day days away, Irish whiskey tops sales charts—perfect for a festive, verifiable business-of-spirits ranking.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about top Irish whiskey brands is unique and does not overlap with any previously listed questions, as the topic focuses on alcohol sales rather than any broadly similar categories like geography, sports, or awards."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from highest to lower.",
+                        "answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "distractors": [
+                            "Powers",
+                            "Kilbeggan",
+                            "Teeling",
+                            "Redbreast",
+                            "Green Spot",
+                            "Yellow Spot",
+                            "Writers' Tears",
+                            "The Irishman",
+                            "The Sexton",
+                            "Connemara",
+                            "Knappogue Castle",
+                            "Slane",
+                            "Roe & Co",
+                            "West Cork",
+                            "The Dubliner"
+                        ],
+                        "suggested_source": "https://www.thespiritsbusiness.com/2024/06/top-10-best-selling-irish-whiskey-brands-2023/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Top 10 best-selling Irish whiskey brands 2023 9-litre case sales The Spirits Business Jameson Tullamore DEW Proper No. Twelve Bushmills Paddy",
+                        "sources_found": [
+                            {
+                                "title": "World Spirits Report 2023: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2023/12/world-spirits-report-2023-irish-whiskey/"
+                            },
+                            {
+                                "title": "The Top-Selling Irish Whiskey Brands - Union",
+                                "url": "https://getunion.com/onprem-insights/the-top-selling-irish-whiskey-brands/"
+                            },
+                            {
+                                "title": "Leading brands of Irish whiskey by sales volume U.S. 2023",
+                                "url": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOorwyQ-Ep55bObWb3CABzm1wMHjLrgYzKeShVGjTTsFueGXzPnKO"
+                            },
+                            {
+                                "title": "Irish Whiskey Holds Its Own – - Market Watch",
+                                "url": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                            },
+                            {
+                                "title": "Irish Whiskey Brands: A Complete Guide",
+                                "url": "https://drinxmarket.com/2026/01/20/irish-whiskey-brands/?srsltid=AfmBOopQdstSo9Z-ZimptGCuaWFJqw-IL12UL-ttUsoQtV31ZW_D4jpz"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm that Jameson is the top-selling Irish whiskey globally, followed by Tullamore DEW and Proper No. Twelve, which saw significant growth in case sales. The rankings were corrected based on consistent mentions across the sources, including the identified growth figures for Proper No. Twelve. The numeric sales data for the other brands was not provided, but their rankings could be inferred.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "corrected_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "best_source": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from highest to lower. Jameson vs Tullamore DEW ranking list",
+                        "sources_found": [
+                            {
+                                "title": "World Spirits Report 2025: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2025/12/world-spirits-report-2025-irish-whiskey/"
+                            },
+                            {
+                                "title": "Top 10 Best Selling Whiskey Brands Worldwide 2025 - Accio",
+                                "url": "https://www.accio.com/business/top-10-best-selling-whiskey-brands-worldwide"
+                            },
+                            {
+                                "title": "Top Irish Whiskey Companies & How to Compare Them (2025)",
+                                "url": "https://www.linkedin.com/pulse/top-irish-whiskey-companies-how-compare-them-2025-oxhze/"
+                            },
+                            {
+                                "title": "Best Irish Whiskeys to Try in 2025 – Tullamore, Jameson & More!",
+                                "url": "https://www.tennesseecrown.com/best-irish-whiskeys-to-try-in-2025-tullamore-jameson-more/"
+                            },
+                            {
+                                "title": "Best Selling Irish Whiskey in the World 2025 - Accio",
+                                "url": "https://www.accio.com/business/best_selling_irish_whiskey_in_the_world"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not clearly confirm the corrected order of the answers. Specifically, no source explicitly lists the global 9-liter case sales for all top 5 brands in order. Furthermore, some mentioned brands, such as Redbreast and St. Brendan’s, suggest a different ranking.",
+                        "best_source": "https://www.accio.com/business/best_selling_irish_whiskey_in_the_world"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Top 10 best-selling Irish whiskey brands 2023 9-litre case sales The Spirits Business Jameson Tullamore DEW Proper No. Twelve Bushmills Paddy",
+                        "sources_found": [
+                            {
+                                "title": "World Spirits Report 2023: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2023/12/world-spirits-report-2023-irish-whiskey/"
+                            },
+                            {
+                                "title": "The Top-Selling Irish Whiskey Brands - Union",
+                                "url": "https://getunion.com/onprem-insights/the-top-selling-irish-whiskey-brands/"
+                            },
+                            {
+                                "title": "Leading brands of Irish whiskey by sales volume U.S. 2023",
+                                "url": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOorwyQ-Ep55bObWb3CABzm1wMHjLrgYzKeShVGjTTsFueGXzPnKO"
+                            },
+                            {
+                                "title": "Irish Whiskey Holds Its Own – - Market Watch",
+                                "url": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                            },
+                            {
+                                "title": "Irish Whiskey Brands: A Complete Guide",
+                                "url": "https://drinxmarket.com/2026/01/20/irish-whiskey-brands/?srsltid=AfmBOopQdstSo9Z-ZimptGCuaWFJqw-IL12UL-ttUsoQtV31ZW_D4jpz"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm Jameson as the global leader in Irish whiskey sales. Proper No. Twelve grew to 309,000 cases in the latest reported year. The other brands (Tullamore DEW, Bushmills, and Paddy) are mentioned as prominent brands, but exact case numbers are not available or explicitly ranked, so the proposed order could not be independently verified for these. However, based on the sources indicating that Jameson is the top brand, and Proper No. Twelve surpassing others in growth last year, the proposed ranking is corrected to follow logical positioning supported by the data.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "corrected_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "best_source": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from highest to lower. Jameson vs Tullamore DEW ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top Selling Irish Whiskey Brands 2025 - Accio",
+                                "url": "https://www.accio.com/business/top-selling-irish-whiskey-brands"
+                            },
+                            {
+                                "title": "The World's Best Irish Whiskeys, According To The Irish ... - Forbes",
+                                "url": "https://www.forbes.com/sites/joemicallef/2025/11/06/the-worlds-best-irish-whiskeys-according-to-the-irish-whiskey-awards/"
+                            },
+                            {
+                                "title": "Top Irish Whiskey Companies & How to Compare Them (2025)",
+                                "url": "https://www.linkedin.com/pulse/top-irish-whiskey-companies-how-compare-them-2025-oxhze/"
+                            },
+                            {
+                                "title": "Best Selling Irish Whiskey in the World 2025 - Accio",
+                                "url": "https://www.accio.com/business/best_selling_irish_whiskey_in_the_world"
+                            },
+                            {
+                                "title": "Top 5 Irish whiskey brands worldwide - List Wire - USA Today",
+                                "url": "https://thelistwire.usatoday.com/story/life/food-dining/2022/03/16/top-5-irish-whiskey-jameson-tullamore-dew/81254108007/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the additional data provided, specifically differing placements for Bushmills and Proper No. Twelve.",
+                        "best_source": "https://thelistwire.usatoday.com/story/life/food-dining/2022/03/16/top-5-irish-whiskey-jameson-tullamore-dew/81254108007/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Top 10 best-selling Irish whiskey brands 2023 9-litre case sales The Spirits Business Jameson Tullamore DEW Proper No. Twelve Bushmills Paddy",
+                        "sources_found": [
+                            {
+                                "title": "World Spirits Report 2023: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2023/12/world-spirits-report-2023-irish-whiskey/"
+                            },
+                            {
+                                "title": "The Top-Selling Irish Whiskey Brands - Union",
+                                "url": "https://getunion.com/onprem-insights/the-top-selling-irish-whiskey-brands/"
+                            },
+                            {
+                                "title": "Leading brands of Irish whiskey by sales volume U.S. 2023",
+                                "url": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOorwyQ-Ep55bObWb3CABzm1wMHjLrgYzKeShVGjTTsFueGXzPnKO"
+                            },
+                            {
+                                "title": "Irish Whiskey Holds Its Own – - Market Watch",
+                                "url": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                            },
+                            {
+                                "title": "Irish Whiskey Brands: A Complete Guide",
+                                "url": "https://drinxmarket.com/2026/01/20/irish-whiskey-brands/?srsltid=AfmBOopQdstSo9Z-ZimptGCuaWFJqw-IL12UL-ttUsoQtV31ZW_D4jpz"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source data, it is confirmed that Jameson is the top-selling Irish whiskey globally with 10.3 million cases, followed by Tullamore DEW with 1.8 million cases and Proper No. Twelve at 309,000 cases. There is no exact data found for Bushmills or Paddy sales but their positions in the original list seem plausible given their brand recognition and market presence. The corrected order and values are derived from the best available data.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "corrected_answers": [
+                            "Jameson",
+                            "Tullamore DEW",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Paddy"
+                        ],
+                        "best_source": "https://www.marketwatchmag.com/irish-whiskey-holds-its-own/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from highest to lower. Jameson vs Tullamore DEW ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top Selling Irish Whiskey Brands 2025 - Accio",
+                                "url": "https://www.accio.com/business/top-selling-irish-whiskey-brands"
+                            },
+                            {
+                                "title": "World Spirits Report 2025: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2025/12/world-spirits-report-2025-irish-whiskey/"
+                            },
+                            {
+                                "title": "Top Irish Whiskey Companies & How to Compare Them (2025)",
+                                "url": "https://www.linkedin.com/pulse/top-irish-whiskey-companies-how-compare-them-2025-oxhze/"
+                            },
+                            {
+                                "title": "Best Selling Irish Whiskey in the World 2025 - Accio",
+                                "url": "https://www.accio.com/business/best_selling_irish_whiskey_in_the_world"
+                            },
+                            {
+                                "title": "Irish Whiskey Global Trade Report 2025",
+                                "url": "https://www.irishwhiskeymagazine.com/news/latest-news/irish-whiskey-global-trade-report-2025/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order cannot be confirmed due to a lack of specific sales data for Bushmills, Tullamore DEW, Proper No. Twelve, and Paddy across the sources provided. Jameson is confirmed as the top-selling brand, but precise ranking for others is unclear.",
+                        "best_source": "https://www.accio.com/business/best_selling_irish_whiskey_in_the_world"
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is too similar to question ID 13, as both ask for the five largest countries by land area, effectively requesting the same information."
+                    }
+                },
+                {
+                    "topic": "Rivers",
+                    "suggested_question": "Which are the 5 longest rivers in the world?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 3,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about the longest rivers in the world is in the broad category of geography, but it specifically focuses on rivers, which is different from all the previous questions that cover topics such as population, sports, energy, awards, and other geographic features like mountains. There is no overlap in subject or specific query."
+                    },
+                    "generated_question": {
+                        "question": "Which are the five longest rivers in the world (by total length), from longest to fifth-longest?",
+                        "answers": [
+                            "Nile",
+                            "Amazon",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "distractors": [
+                            "Yellow (Huang He)",
+                            "Ob–Irtysh",
+                            "Congo–Chambeshi",
+                            "Amur–Argun",
+                            "Lena",
+                            "Mekong",
+                            "Mackenzie–Slave–Peace–Finlay",
+                            "Niger",
+                            "Murray–Darling",
+                            "Tocantins–Araguaia",
+                            "Volga",
+                            "Indus",
+                            "Paraná",
+                            "Orinoco",
+                            "Danube"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "site:wikipedia.org list of rivers by length longest rivers in the world",
+                        "sources_found": [
+                            {
+                                "title": "List of river systems by length - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                            },
+                            {
+                                "title": "List of rivers of the Americas - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_the_Americas"
+                            },
+                            {
+                                "title": "List of longest undammed rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_longest_undammed_rivers"
+                            },
+                            {
+                                "title": "List of largest unfragmented rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_largest_unfragmented_rivers"
+                            },
+                            {
+                                "title": "Category:Lists of longest rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Category:Lists_of_longest_rivers"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The Wikipedia source provides length data that indicates the order of the rivers based on their total lengths is incorrect. The Amazon River system is longer than the Nile, making it the longest river in the world. Corrected answers and corresponding values are derived directly from the sourced information.",
+                        "proposed_answers": [
+                            "Nile",
+                            "Amazon",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "corrected_answers": [
+                            "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                            "Nile",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Which are the five longest rivers in the world (by total length), from longest to fifth-longest? Amazon–Ucayali–Tambo–Ene–Mantaro vs Nile ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top five longest rivers in the world",
+                                "url": "https://iasscore.in/current-affairs/prelims/top-five-longest-rivers-in-the-world"
+                            },
+                            {
+                                "title": "Top 10 longest rivers in the world 2024",
+                                "url": "https://www.sciencefocus.com/planet-earth/longest-river-in-the-world"
+                            },
+                            {
+                                "title": "World's longest rivers | Description & Facts",
+                                "url": "https://www.britannica.com/science/worlds-longest-rivers-2225894"
+                            },
+                            {
+                                "title": "What Is the Longest River in the World? Top 5 Longest Rivers",
+                                "url": "https://www.thecollector.com/what-are-the-longest-rivers-in-the-world/"
+                            },
+                            {
+                                "title": "The 9 Longest Rivers in the World: From the Nile ...",
+                                "url": "https://science.howstuffworks.com/environmental/earth/geophysics/9-longest-rivers-in-world.htm"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Sources disagree on the ranking of Amazon and Nile as the longest river, with some placing the Nile first. Additionally, specific numeric values for lengths are inconsistent or incomplete, preventing confirmation of the exact order.",
+                        "best_source": "https://www.thecollector.com/what-are-the-longest-rivers-in-the-world/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "site:wikipedia.org list of rivers by length longest rivers in the world",
+                        "sources_found": [
+                            {
+                                "title": "List of river systems by length - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                            },
+                            {
+                                "title": "List of rivers of the Americas - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_the_Americas"
+                            },
+                            {
+                                "title": "List of longest undammed rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_longest_undammed_rivers"
+                            },
+                            {
+                                "title": "List of largest unfragmented rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_largest_unfragmented_rivers"
+                            },
+                            {
+                                "title": "Category:Lists of longest rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Category:Lists_of_longest_rivers"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The order of the rivers given in the proposed answers does not match the data in the best source. According to the Wikipedia page 'List of river systems by length', the correct order based on total length is: 1) Nile river (6,650 km), 2) Amazon–Ucayali–Tambo–Ene–Mantaro system (6,575 km), 3) Yangtze River (6,300 km), 4) Mississippi–Missouri–Jefferson system (6,275 km), 5) Yenisey–Angara–Selenge–Ider system (5,539 km). The provided answers mistakenly ranked the Amazon river system as first instead of second, and the Nile as second instead of first.",
+                        "proposed_answers": [
+                            "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                            "Nile",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "corrected_answers": [
+                            "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                            "Nile",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Which are the five longest rivers in the world (by total length), from longest to fifth-longest? Amazon–Ucayali–Tambo–Ene–Mantaro vs Nile ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top five longest rivers in the world",
+                                "url": "https://iasscore.in/current-affairs/prelims/top-five-longest-rivers-in-the-world"
+                            },
+                            {
+                                "title": "Top 10 longest rivers in the world 2024",
+                                "url": "https://www.sciencefocus.com/planet-earth/longest-river-in-the-world"
+                            },
+                            {
+                                "title": "World's longest rivers | Description & Facts",
+                                "url": "https://www.britannica.com/science/worlds-longest-rivers-2225894"
+                            },
+                            {
+                                "title": "What Is the Longest River in the World? Top 5 Longest Rivers",
+                                "url": "https://www.thecollector.com/what-are-the-longest-rivers-in-the-world/"
+                            },
+                            {
+                                "title": "The 9 Longest Rivers in the World: From the Nile ...",
+                                "url": "https://science.howstuffworks.com/environmental/earth/geophysics/9-longest-rivers-in-world.htm"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order lists the Amazon River as the longest, but credible sources such as Britannica and The Collector indicate the Nile River is the longest, followed by the Amazon. Additionally, discrepancies are found in the precise lengths and ordering of other rivers compared to authoritative sources.",
+                        "best_source": "https://www.thecollector.com/what-are-the-longest-rivers-in-the-world/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "site:wikipedia.org list of rivers by length longest rivers in the world",
+                        "sources_found": [
+                            {
+                                "title": "List of river systems by length - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                            },
+                            {
+                                "title": "List of rivers of the Americas - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_the_Americas"
+                            },
+                            {
+                                "title": "List of longest undammed rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_longest_undammed_rivers"
+                            },
+                            {
+                                "title": "List of largest unfragmented rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_largest_unfragmented_rivers"
+                            },
+                            {
+                                "title": "Category:Lists of longest rivers - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Category:Lists_of_longest_rivers"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The order of the proposed answers is not correct according to the authoritative source. The Nile River is listed as the longest river system at 6,653 km, followed by the Amazon–Ucayali–Tambo–Ene–Mantaro at 6,575 km. The Yangtze is the third-longest at 6,300 km, and the Mississippi–Missouri–Jefferson system is fourth at 6,275 km. The Yenisey–Angara–Selenge–Ider system comes in fifth at 5,539 km.",
+                        "proposed_answers": [
+                            "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                            "Nile",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "corrected_answers": [
+                            "Nile",
+                            "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                            "Yangtze",
+                            "Mississippi–Missouri–Jefferson",
+                            "Yenisey–Angara–Selenge–Ider"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Which are the five longest rivers in the world (by total length), from longest to fifth-longest? Nile vs Amazon–Ucayali–Tambo–Ene–Mantaro ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top five longest rivers in the world - GS Score",
+                                "url": "https://iasscore.in/current-affairs/prelims/top-five-longest-rivers-in-the-world"
+                            },
+                            {
+                                "title": "World's longest rivers | Description & Facts | Britannica",
+                                "url": "https://www.britannica.com/science/worlds-longest-rivers-2225894"
+                            },
+                            {
+                                "title": "The 10 Longest Rivers In The World",
+                                "url": "https://www.worldatlas.com/rivers/the-10-longest-rivers-in-the-world.html"
+                            },
+                            {
+                                "title": "Top 5 longest rivers in the World 1. Nile River – Africa (flows through ...",
+                                "url": "https://www.facebook.com/groups/1559424487918075/posts/2177136389480212/"
+                            },
+                            {
+                                "title": "Top 10 longest rivers in the world 2023 | BBC Science Focus",
+                                "url": "https://www.sciencefocus.com/planet-earth/longest-river-in-the-world"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "All reliable sources agree on the top five longest rivers by total length in the provided corrected order: Nile, Amazon, Yangtze, Mississippi–Missouri, and Yenisey–Angara.",
+                        "best_source": "https://www.worldatlas.com/rivers/the-10-longest-rivers-in-the-world.html"
+                    },
+                    "question_id": 28,
+                    "final_answers": [
+                        "Nile",
+                        "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                        "Yangtze",
+                        "Mississippi–Missouri–Jefferson",
+                        "Yenisey–Angara–Selenge–Ider"
+                    ],
+                    "final_source": "https://www.worldatlas.com/rivers/the-10-longest-rivers-in-the-world.html"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 15, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Holloway vs Oliveira 2, UFC Fight Night: Emmett vs"
+                            },
+                            {
+                                "title": "Major Sports Calendar March 2026 - Facebook",
+                                "url": "https://www.facebook.com/bhaveshdarji.mota/posts/march-2026-major-sports-calendarmarch-2026-biggest-sports-events-sportscalendar-/2513499542432144/",
+                                "snippet": "*2026 Formula 1 World Championship Calendar* March 6–8 – Australia, Melbourne March 13–15 – China, Shanghai March 27–29 – Japan, Suzuka April 10"
+                            },
+                            {
+                                "title": "2026 Sports Preview: Major Events Coming to Greater Raleigh",
+                                "url": "https://www.visitraleigh.com/media/press-release/post/2026-sports-preview-major-events-coming-to-greater-raleigh/",
+                                "snippet": "Greater Raleigh is gearing up for an exciting year of sports in 2026, with world-class events that will draw athletes, fans and visitors from across the country and beyond. From NCAA championships to "
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 20-22 Mar: Athletics – World Athletics Indoor Championships (Torun, Poland). * 28 Mar to 5 Apr: Curling – World Men’s Cur"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Diversity Calendar 2026: DEI Inclusion Events, Cultural Months",
+                                "url": "https://www.diversityresources.com/diversity-calendar-2026/",
+                                "snippet": "March 4 – Hindu: Holi The festival of colors, celebrating spring, community, and renewal. · March 4 – Sikh: Hola Mohalla · March 8 – International"
+                            },
+                            {
+                                "title": "March Awareness & Heritage Months: A Complete 2026 Guide",
+                                "url": "https://www.verbate.io/knowledge-center/march-awareness-heritage-months",
+                                "snippet": "From **Women’s History Month** and **Irish American Heritage Month** to **Purim**, **Holi**, and **Eid al-Fitr**, March gives ERG leaders and people teams a powerful opportunity to blend education wit"
+                            },
+                            {
+                                "title": "2026 March Holidays Information from Holidays and Observances",
+                                "url": "https://www.holidays-and-observances.com/march-holidays.html",
+                                "snippet": "* National Pig Day - March 1. * National Anthem Day - March 3. * National Jackson Day - March 3. * National Robin Day - March 3. * National Grammar Day - March 4. * National Snack Day - March 4. * Nat"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "March Daily Holidays and Observances 2026 · March 1: National Peanut Butter Lover's Day, World Compliment Day, National Pig Day · March 2: Purim ("
+                            },
+                            {
+                                "title": "March 2026 Observances",
+                                "url": "https://www.cultureally.com/blog/march-observances",
+                                "snippet": "* **March 1** **International Wheelchair Day** began in 2008 and is recognized globally. * **March 8** **International Women’s Day**amplifies the call for gender equality and **women's empowerment****"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Dates For Oscars, Grammys, Guilds ...",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "March. 13: ICG Publicists Awards. 15: Academy Awards · April. 2: Anime Awards nominations · May. 10: BAFTA Television Awards · June. 7: Tony Awards."
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            },
+                            {
+                                "title": "Schmid College of Science and Technology Events",
+                                "url": "https://events.chapman.edu/schmid/index.php?trumbaEmbed=view%3Devent%26eventid%3D1372614689",
+                                "snippet": "OCSEF Awards CeremonySunday, March 22, 2026, 1 – 6:30pm. This is the award ceremony of OCSEF for after the Science Fair. Location:MH Lobby, Memorial Hall"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 15, 2026",
+                        "results": [
+                            {
+                                "title": "This week on \"Sunday Morning\" (March 15)",
+                                "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-march-15-2026/",
+                                "snippet": "# This week on \"Sunday Morning\" (March 15). **MOVIES: A tribute to documentarian Frederick Wiseman**Acclaimed filmmaker Frederick Wiseman, who died in February at age 96, revolutionized the art of doc"
+                            },
+                            {
+                                "title": "Here's a look at events from March 12 through 15, 2026",
+                                "url": "https://www.yahoo.com/news/videos/look-events-march-12-15-142602657.html",
+                                "snippet": "Top Stories: Iran war updates · Michigan synagogue attack · Old Dominion shooting · Iran school strike · Stryker cyberattack · TSA staff"
+                            },
+                            {
+                                "title": "U.S. and World News Headlines",
+                                "url": "https://www.npr.org/sections/news/",
+                                "snippet": "## [In South Carolina, measles shows how far apart neighbors can be on vaccines](https://www.npr.org/2026/03/14/nx-s1-5734051/measles-outbreak-parents-south-carolina-vaccines). [******Listen**   **·  "
+                            },
+                            {
+                                "title": "What Happens on March 15, 2026",
+                                "url": "https://www.onthisday.com/date/2026/march/15",
+                                "snippet": "# What Happens on March 15, 2026. ## About March 15, 2026. **Day of the Week:** Sunday. **How Far Away?** 6 days. ## No Entries for March 15, 2026. * See 24 things that happened in **March 2026**. * V"
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – March 15",
+                                "url": "https://www.youtube.com/watch?v=boYSqacFh3M",
+                                "snippet": "Thousands of people in the Northeast are without power after a series of winter storms, the Department of Justice and the SEC launch"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 15",
+                        "results": [
+                            {
+                                "title": "MARCH 15 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/birthdays-and-events/march-15-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 15: Andrew Jackson (1767-1845) - The 7th President of the US Liberty; Hyde Bailey (1858-1954) - Co-founder of the American Society"
+                            },
+                            {
+                                "title": "March 15 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-15/",
+                                "snippet": "Famous Mar 15 birthday celebrants include Bret Michaels, John Duttine, Jimmy Swaggart, Caitlin Wachs, Frank Coghlan, Jr., Terence Trent D'Arby, Anna Shaffer,"
+                            },
+                            {
+                                "title": "March 15 Birthdays",
+                                "url": "https://www.famousbirthdays.com/march15.html",
+                                "snippet": "## March 15 Birthdays. Ruth Bader Ginsburg (1933-2020). Yo Yo Honey Singh, 42. © FamousBirthdays.com - use subject to the practices disclosed in our privacy policy Privacy Manager."
+                            },
+                            {
+                                "title": "March 15 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-15-birthdays/",
+                                "snippet": "March 15th birthdays · Alia Bhatt · Eva Longoria · I Hate Everything · Ruth Bader Ginsburg · Saint Nicholas · will.i.am · About us · Resources."
+                            },
+                            {
+                                "title": "Famous birthdays for March 15: will.i.am, Judd Hirsch - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-15-am-070007323.html",
+                                "snippet": "Musician will.i.am turns 50 and actor Judd Hirsch turns 90, among the famous birthdays for March 15."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "NCAA March Madness (men's tournament begins mid-March)",
+                        "suggested_question": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer.",
+                        "connection": "March Madness is one of the biggest March 2026 events; a historical ranking ties directly to the tournament tipping off."
+                    },
+                    {
+                        "topic": "MLB Opening Day (late March)",
+                        "suggested_question": "Rank the top 5 MLB franchises by most Opening Day wins all-time, from most to fewer.",
+                        "connection": "MLB Opening Day is highlighted on March sports calendars; this focuses on teams’ historical Opening Day success."
+                    },
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer.",
+                        "connection": "The Women’s Worlds are underway right now, making a titles leaderboard timely and relevant."
+                    },
+                    {
+                        "topic": "Shanghai in the spotlight this weekend (major international event host city)",
+                        "suggested_question": "Rank the top 5 busiest container ports in the world by annual throughput in TEUs (most recent full year), from highest to lower.",
+                        "connection": "With Shanghai hosting a marquee global event this weekend, it’s a good moment to spotlight its status as a freight powerhouse."
+                    },
+                    {
+                        "topic": "Winter storms knocking out power in the U.S. Northeast",
+                        "suggested_question": "Rank the top 5 U.S. states by installed grid-scale battery storage capacity (MW), from highest to lower (latest available data).",
+                        "connection": "Severe March storms and outages put grid resilience in focus; battery storage capacity is a timely, objective metric."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) and Irish American Heritage Month",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from most to fewer.",
+                        "connection": "With St. Patrick’s Day days away, Irish whiskey tops sales charts—perfect for a festive, verifiable business-of-spirits ranking."
+                    },
+                    {
+                        "topic": "Ramadan/Eid al-Fitr observances in March 2026",
+                        "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (most recent FAO data), from most to fewer.",
+                        "connection": "Dates are a staple for iftar; a production ranking connects directly to seasonal cultural practices."
+                    },
+                    {
+                        "topic": "Awards season buzz (Oscars Mar 15; Tonys set for June)",
+                        "suggested_question": "Rank the top 5 Broadway productions with the most Tony Award wins (single production in a single year), from most to fewer.",
+                        "connection": "With awards season peaking this week, theater’s biggest winners are timely as the Tonys approach."
+                    },
+                    {
+                        "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22)",
+                        "suggested_question": "Rank the top 5 Polish export products by total export value (most recent year), from highest to lower.",
+                        "connection": "Poland gets the global stage next week; a country export leaderboard offers a timely, objective economic tie-in."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Daylight Saving Time shifts in March",
+                        "suggested_question": "Rank the top 5 countries with the most time zones (including overseas territories), from most to fewer.",
+                        "connection": "Clocks changing this month puts timekeeping in focus; time-zone counts are a clear, verifiable ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by total number of female Nobel laureates (all prize categories combined), from most to fewer.",
+                        "connection": "March spotlights women’s achievements; Nobel counts offer a rigorous, objective way to recognize historic milestones."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 9,
+                "details": [
+                    {
+                        "topic": "NCAA March Madness (men's tournament begins mid-March)",
+                        "suggested_question": "Rank the top 5 men's college basketball programs by total NCAA Tournament wins all-time (through the 2025 tournament), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on NCAA men's basketball, which does not overlap with any of the recent topics such as telescopes, Formula 1, athletics, mountains, music charts, or Academy Awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "MLB Opening Day (late March)",
+                        "suggested_question": "Rank the top 5 MLB franchises by most Opening Day wins all-time, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic 'MLB Opening Day' pertains to baseball, which does not overlap with any of the recent questions covering astronomy, Formula 1, athletics, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic, World Women’s Curling Championship, focuses on curling, which does not overlap with any of the recently covered topics such as astronomy, Formula 1, athletics, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Shanghai in the spotlight this weekend (major international event host city)",
+                        "suggested_question": "Rank the top 5 busiest container ports in the world by annual throughput in TEUs (most recent full year), from highest to lower.",
+                        "recently_covered": true,
+                        "reason": "The question about busiest container ports overlaps in theme with the Chinese Grand Prix question due to its focus on China-related content and Shanghai being a key focus in both cases.",
+                        "overlaps_with": "Rank the top 5 Formula 1 drivers by most Chinese Grand Prix race wins (all-time), from most to fewer."
+                    },
+                    {
+                        "topic": "Winter storms knocking out power in the U.S. Northeast",
+                        "suggested_question": "Rank the top 5 U.S. states by installed grid-scale battery storage capacity (MW), from highest to lower (latest available data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on U.S. battery storage capacity relates to energy infrastructure, which is distinct from any of the recent questions' themes like astronomy, sports, mountains, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) and Irish American Heritage Month",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the most recent reported year, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Irish whiskey and Irish heritage does not overlap with any recent question themes, which include astronomy, motorsport, athletics, geography, music, and film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Ramadan/Eid al-Fitr observances in March 2026",
+                        "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (most recent FAO data), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on date (Phoenix dactylifera) production relates to agriculture and food production, which has no overlap with the themes of the recent questions such as astronomy, sports, mountains, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season buzz (Oscars Mar 15; Tonys set for June)",
+                        "suggested_question": "Rank the top 5 Broadway productions with the most Tony Award wins (single production in a single year), from most to fewer.",
+                        "recently_covered": true,
+                        "reason": "The proposed question about Tony Awards overlaps with the broad theme of entertainment award achievements, which was recently covered by the Oscars question.",
+                        "overlaps_with": "Rank the top 5 films with the most Academy Award (Oscar) wins all-time, from most to fewer."
+                    },
+                    {
+                        "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22)",
+                        "suggested_question": "Rank the top 5 Polish export products by total export value (most recent year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Polish export products, which is unrelated to any of the themes of the recent questions, such as astronomy, Formula 1, pole vaulting, mountains, music charts, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Daylight Saving Time shifts in March",
+                        "suggested_question": "Rank the top 5 countries with the most time zones (including overseas territories), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to time zones and Daylight Saving Time, which is unrelated to telescopes, Formula 1, pole vaulting, mountains, Billboard charts, or Oscars.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by total number of female Nobel laureates (all prize categories combined), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on female Nobel laureates, which involves achievements across different fields like science, literature, and peace, and does not overlap with any recent themes such as telescopes, motorsports, athletics, geography, music, or films.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "fallback_used": true,
+            "question_id": 28
         }
     ]
 }

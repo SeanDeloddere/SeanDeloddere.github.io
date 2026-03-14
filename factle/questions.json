@@ -944,6 +944,41 @@
                 "Gigi"
             ],
             "source": "https://www.britannica.com/topic/What-Movies-Have-Won-the-Most-Oscars"
+        },
+        {
+            "id": 28,
+            "date": "2026-03-15",
+            "question": "Which are the five longest rivers in the world (by total length), from longest to fifth-longest?",
+            "options": [
+                "Nile",
+                "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                "Yangtze",
+                "Mississippi–Missouri–Jefferson",
+                "Yenisey–Angara–Selenge–Ider",
+                "Yellow (Huang He)",
+                "Ob–Irtysh",
+                "Congo–Chambeshi",
+                "Amur–Argun",
+                "Lena",
+                "Mekong",
+                "Mackenzie–Slave–Peace–Finlay",
+                "Niger",
+                "Murray–Darling",
+                "Tocantins–Araguaia",
+                "Volga",
+                "Indus",
+                "Paraná",
+                "Orinoco",
+                "Danube"
+            ],
+            "answers": [
+                "Nile",
+                "Amazon–Ucayali–Tambo–Ene–Mantaro",
+                "Yangtze",
+                "Mississippi–Missouri–Jefferson",
+                "Yenisey–Angara–Selenge–Ider"
+            ],
+            "source": "https://www.worldatlas.com/rivers/the-10-longest-rivers-in-the-world.html"
         }
     ]
 }
