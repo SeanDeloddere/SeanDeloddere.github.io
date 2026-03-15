@@ -24854,6 +24854,1525 @@
             },
             "fallback_used": true,
             "question_id": 28
+        },
+        {
+            "date": "2026-03-16",
+            "topics_discovered": [
+                {
+                    "topic": "March Madness (NCAA men’s basketball, mid-March 2026)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, rank by the more recent title.",
+                    "connection": "The NCAA Tournament dominates March sports; this ranks the blue-blood programs as March Madness heats up."
+                },
+                {
+                    "topic": "Apple’s March 2026 event buzz",
+                    "suggested_question": "Rank Apple's top 5 product categories by revenue in fiscal year 2025, from highest to lower (iPhone, Services, Mac, Wearables/Home/Accessories, iPad).",
+                    "connection": "Apple’s spring announcements are a March staple; this focuses on the company’s latest revenue mix."
+                },
+                {
+                    "topic": "Anniversary of Goddard’s first liquid-fuel rocket (March 16, 1926)",
+                    "suggested_question": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts.",
+                    "connection": "On this date in 1926, Goddard launched the first liquid-fuel rocket; this looks at today’s leaders in orbital launches."
+                },
+                {
+                    "topic": "St. Patrick’s Day (March 17) in the U.S.",
+                    "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey, from highest to lower. If tied, rank by the larger number of residents reporting Irish ancestry.",
+                    "connection": "With St. Patrick’s Day tomorrow, this highlights where Irish heritage is most concentrated in the U.S."
+                },
+                {
+                    "topic": "Marketing/experiential awards season in March (Event Marketer deadlines, industry events)",
+                    "suggested_question": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower.",
+                    "connection": "March brings marketing awards and conferences; this ranks the industry’s biggest holding groups."
+                },
+                {
+                    "topic": "Lantern Festival earlier in March and global heritage focus",
+                    "suggested_question": "Rank the top 5 countries by number of elements inscribed on UNESCO’s Lists of Intangible Cultural Heritage (as of end-2025), from most to fewer.",
+                    "connection": "Following early-March Lantern Festival observances, this spotlights countries leading in safeguarded cultural traditions."
+                },
+                {
+                    "topic": "Awards season for film/TV writers and actors (SAG, WGA dates in March)",
+                    "suggested_question": "Rank the top 5 video streaming services by worldwide paid subscribers as of year-end 2025, from most to fewer. If tied, rank by earlier launch date.",
+                    "connection": "With March guild awards recognizing streaming-heavy content, this ranks the biggest global streamers."
+                },
+                {
+                    "topic": "Spring travel tied to major March/April events (Roadtrips calendar)",
+                    "suggested_question": "Rank the top 5 busiest airports in the world by total passenger traffic in 2025, from most to fewer.",
+                    "connection": "Major spring sports and events drive travel; this identifies the world’s top passenger hubs."
+                },
+                {
+                    "topic": "World Women’s Curling Championship in Calgary (Mar 14–22)",
+                    "suggested_question": "Rank the top 5 Canadian provinces by crude oil production in the most recent full year, from highest to lower.",
+                    "connection": "With the championship in Calgary—Canada’s energy hub—this connects the host city to Canada’s provincial oil output."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — St. Patrick’s Day",
+                    "suggested_question": "Rank the top 5 countries by per-capita beer consumption (liters per person per year), latest available data, from highest to lower.",
+                    "connection": "Beer is synonymous with St. Patrick’s Day celebrations; this compares nations’ beer drinking levels."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — World Poetry Day (March 21)",
+                    "suggested_question": "Rank the top 5 countries by total number of Nobel Prize in Literature laureates, from most to fewer. If tied, rank by the earlier first laureate year.",
+                    "connection": "Ahead of World Poetry Day, this honors literary achievement via a country-by-country Nobel tally."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — Spring equinox/clock changes",
+                    "suggested_question": "Rank the top 5 countries by total number of time zones (including overseas territories), from most to fewer.",
+                    "connection": "As we approach the spring equinox and recent clock changes, timekeeping takes center stage—so do countries with many time zones."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "March Madness (NCAA men’s basketball, mid-March 2026)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, rank by the more recent title.",
+                    "connection": "The NCAA Tournament dominates March sports; this ranks the blue-blood programs as March Madness heats up.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question is about ranking NCAA men's basketball programs by championships won, which is a unique topic not covered by any of the existing questions. None of the previous questions involve NCAA basketball or a similar measure of sports achievement."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, place the school with the more recent title higher.",
+                        "answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "Connecticut (UConn)",
+                            "North Carolina",
+                            "Duke"
+                        ],
+                        "distractors": [
+                            "Indiana",
+                            "Kansas",
+                            "Villanova",
+                            "Louisville",
+                            "Michigan State",
+                            "Florida",
+                            "North Carolina State",
+                            "Oklahoma State",
+                            "Cincinnati",
+                            "Arizona",
+                            "Arkansas",
+                            "Michigan",
+                            "Syracuse",
+                            "Georgetown",
+                            "UNLV"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_NCAA_Division_I_men%27s_basketball_champions#By_school"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most NCAA men's basketball championships by school UCLA 11 Kentucky 8 UConn 6 North Carolina 6 Duke 5",
+                        "sources_found": [
+                            {
+                                "title": "College basketball teams with the most national championships ...",
+                                "url": "https://www.facebook.com/groups/387323107017276/posts/950176187398629/"
+                            },
+                            {
+                                "title": "NCAA men's basketball championship: All-time winners list",
+                                "url": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                            },
+                            {
+                                "title": "Men's programs with most titles - The Athletic - The New York Times",
+                                "url": "https://www.nytimes.com/athletic/live-blogs/mens-march-madness-selection-sunday-live-updates-ncaa-tournament-bracket/NakgKo1oJqdx/MuzGoXHJurrJ/"
+                            },
+                            {
+                                "title": "Which School Has Won the Most NCAA Championships? - BetUS",
+                                "url": "https://www.betus.com.pa/college-basketball/news/which-school-has-won-the-most-ncaa-championships-scka/"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed answers incorrectly ordered North Carolina and Connecticut (UConn). Both programs have six championships. However, according to the cited sources, North Carolina's most recent title was in 2017, while UConn's most recent title was in 2014, making North Carolina's title more recent. Therefore, North Carolina should be ranked above UConn. The correct order is: UCLA (11), Kentucky (8), North Carolina (6), Connecticut (UConn) (6), and Duke (5).",
+                        "proposed_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "Connecticut (UConn)",
+                            "North Carolina",
+                            "Duke"
+                        ],
+                        "corrected_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "North Carolina",
+                            "Connecticut (UConn)",
+                            "Duke"
+                        ],
+                        "best_source": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, place the school with the more recent title higher. UCLA vs Kentucky ranking list",
+                        "sources_found": [
+                            {
+                                "title": "March Madness championships by team 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/219821/teams-with-the-most-ncaa-basketball-titles/?srsltid=AfmBOopLa3a5JwpJ5gg-9vtYxhLDhe2k9xApJNhcrXrxjUzgJcapmQWY"
+                            },
+                            {
+                                "title": "Ranking 40 years of men's NCAA Tournament champions, from ...",
+                                "url": "https://www.nytimes.com/athletic/6173864/2025/03/05/mens-basketball-ncaa-tournament-champions-rankings-history/"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "Kentucky men's basketball program achievements - Facebook",
+                                "url": "https://www.facebook.com/groups/secsuperconference/posts/1314461113844037/"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not match the championship counts for the top 5 teams as presented in the updated source data, which has UConn and North Carolina tied but UConn listed higher due to their more recent title.",
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                    },
+                    "verification_search_iter1": {
+                        "query": "most NCAA men's basketball championships by school UCLA 11 Kentucky 8 UConn 6 North Carolina 6 Duke 5",
+                        "sources_found": [
+                            {
+                                "title": "College basketball teams with the most national championships ...",
+                                "url": "https://www.facebook.com/groups/387323107017276/posts/950176187398629/"
+                            },
+                            {
+                                "title": "NCAA men's basketball championship: All-time winners list",
+                                "url": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                            },
+                            {
+                                "title": "Men's programs with most titles - The Athletic - The New York Times",
+                                "url": "https://www.nytimes.com/athletic/live-blogs/mens-march-madness-selection-sunday-live-updates-ncaa-tournament-bracket/NakgKo1oJqdx/MuzGoXHJurrJ/"
+                            },
+                            {
+                                "title": "Which School Has Won the Most NCAA Championships? - BetUS",
+                                "url": "https://www.betus.com.pa/college-basketball/news/which-school-has-won-the-most-ncaa-championships-scka/"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The order provided in the proposed answers is incorrect based on the authoritative source from ESPN. Both North Carolina and UConn have 6 championships each, but North Carolina's latest title was in 2017, which is more recent than UConn's latest championship. Thus, North Carolina should be ranked higher than UConn. Correct order is: UCLA (11 titles), Kentucky (8 titles), North Carolina (6 titles, most recent 2017), UConn (6 titles), and Duke (5 titles).",
+                        "proposed_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "North Carolina",
+                            "Connecticut (UConn)",
+                            "Duke"
+                        ],
+                        "corrected_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "North Carolina",
+                            "Connecticut (UConn)",
+                            "Duke"
+                        ],
+                        "best_source": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, place the school with the more recent title higher. UCLA vs Kentucky ranking list",
+                        "sources_found": [
+                            {
+                                "title": "March Madness championships by team 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/219821/teams-with-the-most-ncaa-basketball-titles/?srsltid=AfmBOop9VtDKBpT3gVqxcmqR4sffAmiUqrfGYjQlqnhqFficM03pYUrs"
+                            },
+                            {
+                                "title": "Ranking 40 years of men's NCAA Tournament champions, from ...",
+                                "url": "https://www.nytimes.com/athletic/6173864/2025/03/05/mens-basketball-ncaa-tournament-champions-rankings-history/"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            },
+                            {
+                                "title": "NCAA Men's Basketball NET Rankings",
+                                "url": "https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect because UConn (6 titles) has more championships than North Carolina (6 titles) based on more recent titles, and they should therefore be ranked higher.",
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                    },
+                    "verification_search_iter2": {
+                        "query": "most NCAA men's basketball championships by school UCLA 11 Kentucky 8 UConn 6 North Carolina 6 Duke 5",
+                        "sources_found": [
+                            {
+                                "title": "College basketball teams with the most national championships ...",
+                                "url": "https://www.facebook.com/groups/387323107017276/posts/950176187398629/"
+                            },
+                            {
+                                "title": "NCAA men's basketball championship: All-time winners list",
+                                "url": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                            },
+                            {
+                                "title": "Men's programs with most titles - The Athletic - The New York Times",
+                                "url": "https://www.nytimes.com/athletic/live-blogs/mens-march-madness-selection-sunday-live-updates-ncaa-tournament-bracket/NakgKo1oJqdx/MuzGoXHJurrJ/"
+                            },
+                            {
+                                "title": "Which School Has Won the Most NCAA Championships? - BetUS",
+                                "url": "https://www.betus.com.pa/college-basketball/news/which-school-has-won-the-most-ncaa-championships-scka/"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The original order listed 'North Carolina' before 'Connecticut (UConn)', but both schools have won six championships. To break the tie, the school with the more recent title is ranked higher. UConn's most recent championship was in 2023, while North Carolina's was in 2017. Therefore, UConn is correctly ranked ahead of North Carolina. The most authoritative source is the ESPN list, which confirms the number of titles and provides the years of the championships.",
+                        "proposed_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "North Carolina",
+                            "Connecticut (UConn)",
+                            "Duke"
+                        ],
+                        "corrected_answers": [
+                            "UCLA",
+                            "Kentucky",
+                            "North Carolina",
+                            "Connecticut (UConn)",
+                            "Duke"
+                        ],
+                        "best_source": "https://www.espn.com/mens-college-basketball/story/_/id/39445992/ncaa-mens-basketball-championship-all-winners-list"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, place the school with the more recent title higher. UCLA vs Kentucky ranking list",
+                        "sources_found": [
+                            {
+                                "title": "March Madness championships by team 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/219821/teams-with-the-most-ncaa-basketball-titles/?srsltid=AfmBOoqghmfFDeA8jXYOPYDgLV8dER7xHTAYHkHXjHriBfvSJI9Je6Ed"
+                            },
+                            {
+                                "title": "NCAA Division I men's basketball tournament - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/NCAA_Division_I_men%27s_basketball_tournament"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "2025-26 Men's College Basketball Rankings - ESPN",
+                                "url": "https://www.espn.com/mens-college-basketball/rankings"
+                            },
+                            {
+                                "title": "NCAA Men's Basketball. Kentucky & Texas top the list from the SEC ...",
+                                "url": "https://www.facebook.com/groups/secsuperconference/posts/1377103230913158/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the most authoritative source indicating UConn and North Carolina are tied with 6 championships each, but UConn has the more recent title as of 2025, placing them above North Carolina.",
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                    }
+                },
+                {
+                    "topic": "Apple’s March 2026 event buzz",
+                    "suggested_question": "Rank Apple's top 5 product categories by revenue in fiscal year 2025, from highest to lower (iPhone, Services, Mac, Wearables/Home/Accessories, iPad).",
+                    "connection": "Apple’s spring announcements are a March staple; this focuses on the company’s latest revenue mix.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ranking Apple's product categories by revenue in a specific fiscal year, which is distinct from any existing question, as none of the previous questions address technology companies, product revenue, or anything in that domain."
+                    },
+                    "generated_question": {
+                        "question": "Rank Apple’s top five product categories by revenue in fiscal year 2025, from highest to lower.",
+                        "answers": [
+                            "iPhone",
+                            "Services",
+                            "Wearables, Home and Accessories",
+                            "Mac",
+                            "iPad"
+                        ],
+                        "distractors": [
+                            "Apple Watch",
+                            "AirPods",
+                            "Apple TV+",
+                            "Apple Music",
+                            "Apple Arcade",
+                            "Apple News+",
+                            "Apple Pay",
+                            "iCloud",
+                            "App Store",
+                            "AppleCare",
+                            "Beats",
+                            "HomePod",
+                            "Apple TV",
+                            "Vision Pro",
+                            "Apple One"
+                        ],
+                        "suggested_source": "https://www.apple.com/newsroom/2025/11/apple-reports-fourth-quarter-results/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Apple fiscal 2025 net sales by product category iPhone Services Wearables Home and Accessories Mac iPad site:apple.com newsroom fourth quarter results",
+                        "sources_found": [
+                            {
+                                "title": "Apple reports fourth quarter results - Apple (NG)",
+                                "url": "https://www.apple.com/ng/newsroom/2025/10/apple-reports-fourth-quarter-results"
+                            },
+                            {
+                                "title": "Apple reports fourth quarter results - Apple (IN)",
+                                "url": "https://www.apple.com/in/newsroom/2025/10/apple-reports-fourth-quarter-results"
+                            },
+                            {
+                                "title": "Apple reports fourth quarter results - Apple",
+                                "url": "https://apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results"
+                            },
+                            {
+                                "title": "Apple reports fourth quarter results - Apple (HU)",
+                                "url": "https://www.apple.com/hu/newsroom/2025/10/apple-reports-fourth-quarter-results/"
+                            },
+                            {
+                                "title": "Apple reports fourth quarter results - Apple (BW)",
+                                "url": "https://www.apple.com/bw/newsroom/2025/10/apple-reports-fourth-quarter-results"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific revenue figures or rankings for Apple's product categories in fiscal year 2025. While the sources mention records for iPhone revenue and all-time high Services revenue, they do not provide enough information to determine the exact ranking or revenue values for the top five product categories.",
+                        "proposed_answers": [
+                            "iPhone",
+                            "Services",
+                            "Wearables, Home and Accessories",
+                            "Mac",
+                            "iPad"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank Apple’s top five product categories by revenue in fiscal year 2025, from highest to lower. iPhone Services ranking",
+                        "sources_found": [
+                            {
+                                "title": "Apple's Desperate Pivot From Glass To Dopamine - Forbes",
+                                "url": "https://www.forbes.com/sites/jonmarkman/2026/01/13/apples-desperate-pivot-from-glass-to-dopamine/"
+                            },
+                            {
+                                "title": "Apple witnessed the highest revenue growth among the top five ...",
+                                "url": "https://www.threads.com/@appleworldtoday/post/DUI4olIkT8_/apple-witnessed-the-highest-revenue-growth-among-the-top-five-brands-in-the"
+                            },
+                            {
+                                "title": "Ranking Every Apple Product of 2025! - YouTube",
+                                "url": "https://www.youtube.com/watch?v=bZ2cTvJozog"
+                            },
+                            {
+                                "title": "Apple Statistics (2026) - Business of Apps",
+                                "url": "https://www.businessofapps.com/data/apple-statistics/"
+                            },
+                            {
+                                "title": "2025 marked a record-breaking year for Apple services",
+                                "url": "https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from bullfincher.io reveals that Apple's Services revenue was $109.16 billion in FY2025. Even though the exact revenue values for other product categories were not available, it's widely documented across reliable sources that the iPhone remains Apple's top revenue generator and is thus ranked first here. Services, as reported, is likely the second highest. Based on historical trends from official reports, Mac generally generates higher revenue than Wearables and iPad, and Wearables tends to outperform iPad, especially with the increasing popularity of products like the Apple Watch and AirPods. This results in the corrected order of iPhone, Services, Mac, Wearables/Home/Accessories, and iPad.",
+                        "proposed_answers": [
+                            "iPhone",
+                            "Services",
+                            "Wearables, Home and Accessories",
+                            "Mac",
+                            "iPad"
+                        ],
+                        "corrected_answers": [
+                            "iPhone",
+                            "Services",
+                            "Mac",
+                            "Wearables, Home and Accessories",
+                            "iPad"
+                        ],
+                        "best_source": "https://bullfincher.io/companies/apple/reve"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank Apple’s top five product categories by revenue in fiscal year 2025, from highest to lower. iPhone vs Services ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Apple's Desperate Pivot From Glass To Dopamine - Forbes",
+                                "url": "https://www.forbes.com/sites/jonmarkman/2026/01/13/apples-desperate-pivot-from-glass-to-dopamine/"
+                            },
+                            {
+                                "title": "Apple announces all-time record in revenue, iPhone sales - Six Colors",
+                                "url": "https://sixcolors.com/post/2026/01/apple-announces-all-time-quarterly-record-of-143-8b/"
+                            },
+                            {
+                                "title": "Apple Statistics (2026) - Business of Apps",
+                                "url": "https://www.businessofapps.com/data/apple-statistics/"
+                            },
+                            {
+                                "title": "2025 Apple Product Tier List - Basic Apple Guy",
+                                "url": "https://basicappleguy.com/basicappleblog/appleproducttierlist2025"
+                            },
+                            {
+                                "title": "Apple Products Tier List – 2025 - Volatile Inputs",
+                                "url": "https://volatileinputs.com/2026/01/apple-products-tier-list-2025/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data provided does not explicitly confirm or clearly rank the revenue order of Apple's top five product categories for fiscal year 2025.",
+                        "best_source": "https://sixcolors.com/post/2026/01/apple-announces-all-time-quarterly-record-of-143-8b/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank Apple’s top five product categories by revenue in fiscal year 2025, from highest to lower. iPhone Services ranking",
+                        "sources_found": [
+                            {
+                                "title": "Apple's Desperate Pivot From Glass To Dopamine - Forbes",
+                                "url": "https://www.forbes.com/sites/jonmarkman/2026/01/13/apples-desperate-pivot-from-glass-to-dopamine/"
+                            },
+                            {
+                                "title": "Apple witnessed the highest revenue growth among the top five ...",
+                                "url": "https://www.threads.com/@appleworldtoday/post/DUI4olIkT8_/apple-witnessed-the-highest-revenue-growth-among-the-top-five-brands-in-the"
+                            },
+                            {
+                                "title": "Ranking Every Apple Product of 2025! - YouTube",
+                                "url": "https://www.youtube.com/watch?v=bZ2cTvJozog"
+                            },
+                            {
+                                "title": "Apple Statistics (2026) - Business of Apps",
+                                "url": "https://www.businessofapps.com/data/apple-statistics/"
+                            },
+                            {
+                                "title": "2025 marked a record-breaking year for Apple services",
+                                "url": "https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "While the sources provide information on Apple's revenue and the performance of specific product categories such as Services and iPhone, there is insufficient specific data to rank the top five product categories by revenue in fiscal year 2025 with both content and correct order. The required breakdown of revenue by product category and ranking from highest to lowest is absent in the provided sources.",
+                        "proposed_answers": [
+                            "iPhone",
+                            "Services",
+                            "Mac",
+                            "Wearables, Home and Accessories",
+                            "iPad"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.apple.com/newsroom/2026/01/2025-marked-a-record-breaking-year-for-apple-services/"
+                    }
+                },
+                {
+                    "topic": "Anniversary of Goddard’s first liquid-fuel rocket (March 16, 1926)",
+                    "suggested_question": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts.",
+                    "connection": "On this date in 1926, Goddard launched the first liquid-fuel rocket; this looks at today’s leaders in orbital launches.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ranking countries by successful orbital launch attempts in 2025, which is a unique topic not covered by any of the existing questions. No other question addresses space launches or related metrics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts.",
+                        "answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "distractors": [
+                            "Iran",
+                            "North Korea",
+                            "South Korea",
+                            "Israel",
+                            "New Zealand",
+                            "United Kingdom",
+                            "France",
+                            "Germany",
+                            "Italy",
+                            "Spain",
+                            "Canada",
+                            "Brazil",
+                            "Australia",
+                            "United Arab Emirates",
+                            "Kazakhstan"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/2025_in_spaceflight"
+                    },
+                    "verification_search_iter0": {
+                        "query": "2025 in spaceflight orbital launches by country successful",
+                        "sources_found": [
+                            {
+                                "title": "The Ill-Defined Space Global Orbital Launch Summary: 2025",
+                                "url": "https://www.illdefined.space/the-ill-defined-space-global-orbital-launch-summary-2025/"
+                            },
+                            {
+                                "title": "Launch Roundup: Orbital launches from five countries planned",
+                                "url": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/"
+                            },
+                            {
+                                "title": "2025 Orbital Launch Attempts by Country - Payload Space",
+                                "url": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                            },
+                            {
+                                "title": "Orbital launches by country / organization in 2025 : r/spaceflight",
+                                "url": "https://www.reddit.com/r/spaceflight/comments/1q5gz0a/orbital_launches_by_country_organization_in_2025/"
+                            },
+                            {
+                                "title": "Orbital launches in 2025 - Space Stats",
+                                "url": "https://spacestatsonline.com/launches/year/2025/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The Payload Space source provides clear data that the United States had 192 successful orbital launches in 2025, followed by China with 164. Russia conducted 17 launches successfully, marking it as third. India successfully launched 9 rockets, and Japan had 8. The order in the proposed answers matches the corrected ranking, but specific values were not originally provided, and the answer has been updated with accurate numbers.",
+                        "proposed_answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "corrected_answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "best_source": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts. United States vs China ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Ill-Defined Space Global Orbital Launch Summary: 2025",
+                                "url": "https://www.illdefined.space/the-ill-defined-space-global-orbital-launch-summary-2025/"
+                            },
+                            {
+                                "title": "USA AND CHINA DOMINATE, NEW ZEALAND TIES RUSSIA ... - X",
+                                "url": "https://x.com/MarioNawfal/status/2007327312359108940"
+                            },
+                            {
+                                "title": "New record of US orbital launches in 2025 - Facebook",
+                                "url": "https://www.facebook.com/groups/spaceXverse/posts/3818293411808989/"
+                            },
+                            {
+                                "title": "Number of space rocket launches by country 2025",
+                                "url": "https://statranker.org/economy/number-of-space-rocket-launches-by-country-2025/"
+                            },
+                            {
+                                "title": "SpaceX, China drive new record for orbital launches in 2025",
+                                "url": "https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inconsistent with the additional source data. The United States had the highest number of successful launches (192), followed by China with 35 successful launches. Russia and New Zealand tied with 17 successful launches each, which contradicts the ranking of India and Japan in the corrected list. No data is provided regarding India and Japan's launch counts, but based on the existing data, they should not be ranked ahead of Russia.",
+                        "best_source": "https://www.facebook.com/groups/spaceXverse/posts/3818293411808989/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "2025 in spaceflight orbital launches by country successful",
+                        "sources_found": [
+                            {
+                                "title": "The Ill-Defined Space Global Orbital Launch Summary: 2025",
+                                "url": "https://www.illdefined.space/the-ill-defined-space-global-orbital-launch-summary-2025/"
+                            },
+                            {
+                                "title": "Launch Roundup: Orbital launches from five countries planned",
+                                "url": "https://www.nasaspaceflight.com/2025/05/launch-roundup-051225/"
+                            },
+                            {
+                                "title": "2025 Orbital Launch Attempts by Country - Payload Space",
+                                "url": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                            },
+                            {
+                                "title": "Orbital launches by country / organization in 2025 : r/spaceflight",
+                                "url": "https://www.reddit.com/r/spaceflight/comments/1q5gz0a/orbital_launches_by_country_organization_in_2025/"
+                            },
+                            {
+                                "title": "Orbital launches in 2025 - Space Stats",
+                                "url": "https://spacestatsonline.com/launches/year/2025/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not clearly compare the number of successful orbital launches of all five countries in 2025 or give their exact rankings. While information about the United States (192 successful launches) and some data on Russia and China's launch activities are mentioned, complete data for India and Japan are missing or unclear, preventing verification or correction of the rankings.",
+                        "proposed_answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts. United States China ranking",
+                        "sources_found": [
+                            {
+                                "title": "New record of US orbital launches in 2025 - Facebook",
+                                "url": "https://www.facebook.com/groups/spaceXverse/posts/3818293411808989/"
+                            },
+                            {
+                                "title": "The Ill-Defined Space Global Orbital Launch Summary: 2025",
+                                "url": "https://www.illdefined.space/the-ill-defined-space-global-orbital-launch-summary-2025/"
+                            },
+                            {
+                                "title": "Number of space rocket launches by country 2025",
+                                "url": "https://statranker.org/economy/number-of-space-rocket-launches-by-country-2025/"
+                            },
+                            {
+                                "title": "Orbital launches by country / organization in 2025 : r/spaceflight",
+                                "url": "https://www.reddit.com/r/spaceflight/comments/1q5gz0a/orbital_launches_by_country_organization_in_2025/"
+                            },
+                            {
+                                "title": "2025 Orbital Launch Attempts by Country - Payload Space",
+                                "url": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source from Payload Space provided clear data: the United States led with 192 successful orbital launches, followed by China with 35 successful launches, and then Russia with 17. No detailed data was found for India and Japan in any authoritative source, leaving their values unconfirmed. The corrected order reflects the ranking based on the available data while noting gaps for India and Japan.",
+                        "proposed_answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "corrected_answers": [
+                            "United States",
+                            "China",
+                            "Russia",
+                            "India",
+                            "Japan"
+                        ],
+                        "best_source": "https://payloadspace.com/2025-orbital-launch-attempts-by-country/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts. United States vs China ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Ill-Defined Space Global Orbital Launch Summary: 2025",
+                                "url": "https://www.illdefined.space/the-ill-defined-space-global-orbital-launch-summary-2025/"
+                            },
+                            {
+                                "title": "USA AND CHINA DOMINATE, NEW ZEALAND TIES RUSSIA ... - X",
+                                "url": "https://x.com/MarioNawfal/status/2007327312359108940"
+                            },
+                            {
+                                "title": "New record of US orbital launches in 2025 - Facebook",
+                                "url": "https://www.facebook.com/groups/spaceXverse/posts/3818293411808989/"
+                            },
+                            {
+                                "title": "Number of space rocket launches by country 2025",
+                                "url": "https://statranker.org/economy/number-of-space-rocket-launches-by-country-2025/"
+                            },
+                            {
+                                "title": "SpaceX, China drive new record for orbital launches in 2025",
+                                "url": "https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected rank does not account for the fact that New Zealand had tied with Russia in number of successful launches, while India and Japan's launch data is not explicitly supported by the sources.",
+                        "best_source": "https://x.com/MarioNawfal/status/2007327312359108940"
+                    }
+                },
+                {
+                    "topic": "St. Patrick’s Day (March 17) in the U.S.",
+                    "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey, from highest to lower. If tied, rank by the larger number of residents reporting Irish ancestry.",
+                    "connection": "With St. Patrick’s Day tomorrow, this highlights where Irish heritage is most concentrated in the U.S.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on the percentage of U.S. residents reporting Irish ancestry, which is unrelated to any previous questions in terms of topic or ranking criteria. None of the existing questions address ancestry or population percentages specific to ethnic groups."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey (ACS), from highest to lower. If percentages are tied, rank the state with the larger number of residents reporting Irish ancestry higher.",
+                        "answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "distractors": [
+                            "Connecticut",
+                            "Pennsylvania",
+                            "Delaware",
+                            "New Jersey",
+                            "New York",
+                            "Illinois",
+                            "Iowa",
+                            "Minnesota",
+                            "Wisconsin",
+                            "Ohio",
+                            "Montana",
+                            "Nebraska",
+                            "South Dakota",
+                            "Missouri",
+                            "Michigan"
+                        ],
+                        "suggested_source": "https://www.census.gov/newsroom/stories/st-patricks-day.html"
+                    },
+                    "verification_search_iter0": {
+                        "query": "site:census.gov Irish ancestry percent by state ACS DP02 2023",
+                        "sources_found": [
+                            {
+                                "title": "[PDF] Explore Foreign-Born and Ancestry Population Data - Presentation",
+                                "url": "https://www2.census.gov/about/training-workshops/2023/2023-09-21-ancestry-presentation.pdf"
+                            },
+                            {
+                                "title": "St. Patrick's Day: March 17 - Census Bureau",
+                                "url": "https://www.census.gov/newsroom/facts-for-features/2015/cb15-ff04.html"
+                            },
+                            {
+                                "title": "January 2024: Alaska and Its People - Census Bureau",
+                                "url": "https://www.census.gov/about/history/stories/monthly/2024/january-2024.html"
+                            },
+                            {
+                                "title": "https://www2.census.gov/programs-surveys/acs/data/...",
+                                "url": "https://www2.census.gov/programs-surveys/acs/data/covid_19/Data_Profiles_for_HHS/050-County_By_State/dp02_co.csv"
+                            },
+                            {
+                                "title": "https://www2.census.gov/programs-surveys/acs/data/...",
+                                "url": "https://www2.census.gov/programs-surveys/acs/data/covid_19/Data_Profiles_for_HHS/050-County_By_State/dp02_il.csv"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not directly establish the top 5 U.S. states ranked by the percentage of residents reporting Irish ancestry. While the sources mention Massachusetts having a high percentage, none provide sufficient details on percentages for other states or their rankings. Thus, the correctness of the proposed answers cannot be determined.",
+                        "proposed_answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.census.gov/newsroom/facts-for-features/2015/cb15-ff04.html"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey (ACS), from highest to lower. If percentages are tied, rank the state with the larger number of residents reporting Irish ancestry higher. Massachusetts New Hampshire ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most Irish States in the US: Where Heritage Runs Deepest | Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/the-most-irish-states-in-the-us/"
+                            },
+                            {
+                                "title": "Irish Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/irish-population-by-state"
+                            },
+                            {
+                                "title": "States With the Most Americans of Irish Descent | U.S. News",
+                                "url": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                            },
+                            {
+                                "title": "Maps: How Irish is your state? - KXAN Austin",
+                                "url": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                            },
+                            {
+                                "title": "How many Americans claim Irish heritage? See map - USA Today",
+                                "url": "https://www.usatoday.com/story/graphics/2025/03/15/irish-population-in-us-by-state/82381152007/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from U.S. News reports that New Hampshire has the highest percentage of residents claiming Irish ancestry at 20.4%, followed by Massachusetts at 18.3%, Vermont at 16.5%, Rhode Island at 16.2%, and Maine at 15.4%. The proposed answers were not in the correct order, and New Hampshire should rank first instead of Massachusetts due to having a higher percentage of Irish ancestry.",
+                        "proposed_answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "corrected_answers": [
+                            "New Hampshire",
+                            "Massachusetts",
+                            "Vermont",
+                            "Rhode Island",
+                            "Maine"
+                        ],
+                        "best_source": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey (ACS), from highest to lower. If percentages are tied, rank the state with the larger number of residents reporting Irish ancestry higher. New Hampshire vs Massachusetts ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Irish Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/irish-population-by-state"
+                            },
+                            {
+                                "title": "States With the Most Americans of Irish Descent",
+                                "url": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                            },
+                            {
+                                "title": "Maps: How Irish is your state?",
+                                "url": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                            },
+                            {
+                                "title": "Maine, New Hampshire Rank in Top 5 for Most Irish States ...",
+                                "url": "https://wjbq.com/maine-new-hampshire-massachusetts-most-irish-states-us/"
+                            },
+                            {
+                                "title": "According to U.S. Census data, about 14% of our state's ...",
+                                "url": "https://www.facebook.com/WTNH8/posts/according-to-us-census-data-about-14-of-our-states-population-reported-being-iri/1414050004100654/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected ranking does not fully match the percentages in the source data provided. Based on the most complete and authoritative source, corrected rankings for Rhode Island and Vermont percentages were not in proper order.",
+                        "best_source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey (ACS), from highest to lower. If percentages are tied, rank the state with the larger number of residents reporting Irish ancestry higher. Massachusetts New Hampshire ranking",
+                        "sources_found": [
+                            {
+                                "title": "How the Irish population in Mass. ranks against other states",
+                                "url": "https://www.boston.com/news/local-news/2022/03/27/massachusetts-states-irish-population-descendants-ancestry/"
+                            },
+                            {
+                                "title": "Irish Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/irish-population-by-state"
+                            },
+                            {
+                                "title": "States With the Most Americans of Irish Descent",
+                                "url": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                            },
+                            {
+                                "title": "Most Irish States in the US: Where Heritage Runs Deepest",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/the-most-irish-states-in-the-us/"
+                            },
+                            {
+                                "title": "Maps: How Irish is your state?",
+                                "url": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "According to the US News article, the states are ranked based on the percentage of residents reporting Irish ancestry, with New Hampshire leading at 20.4%, followed by Massachusetts at 19.8%, Rhode Island at 18%, Vermont at 17%, and Maine at 16.6%. This order differs from the proposed answers, which incorrectly ranked Vermont higher than Rhode Island, and omitted the specific numeric percentages. Based on the authoritative source, the corrected order and values are provided.",
+                        "proposed_answers": [
+                            "New Hampshire",
+                            "Massachusetts",
+                            "Vermont",
+                            "Rhode Island",
+                            "Maine"
+                        ],
+                        "corrected_answers": [
+                            "New Hampshire",
+                            "Massachusetts",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "best_source": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey (ACS), from highest to lower. If percentages are tied, rank the state with the larger number of residents reporting Irish ancestry higher. New Hampshire vs Massachusetts ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The states with the highest percentage of people with Irish ancestry ...",
+                                "url": "https://www.facebook.com/groups/EastBostonNetwork/posts/2697697507064373/"
+                            },
+                            {
+                                "title": "States With the Most Americans of Irish Descent | U.S. News",
+                                "url": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                            },
+                            {
+                                "title": "Maine and New Hampshire Rank Among America's Most Irish States",
+                                "url": "https://wjbq.com/maine-new-hampshire-massachusetts-most-irish-states-us/"
+                            },
+                            {
+                                "title": "Most Irish States in the US: Where Heritage Runs Deepest | Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/the-most-irish-states-in-the-us/"
+                            },
+                            {
+                                "title": "NH named state with most Irish heritage - WMUR",
+                                "url": "https://www.wmur.com/article/new-hampshire-most-irish-heritage-dover/64192795"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The source data indicates discrepancies in the ranking, particularly between Massachusetts and New Hampshire, and does not confirm the corrected order. Specifically, Massachusetts appears to be the most Irish state based on percentages per the detailed information in the sources, conflicting with the corrected list that places New Hampshire as first.",
+                        "best_source": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                    }
+                },
+                {
+                    "topic": "Marketing/experiential awards season in March (Event Marketer deadlines, industry events)",
+                    "suggested_question": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower.",
+                    "connection": "March brings marketing awards and conferences; this ranks the industry’s biggest holding groups.",
+                    "status": "validation_failed",
+                    "reason": "Duplicate options found",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks about advertising holding companies ranked by revenue, which is distinct from any previously asked questions regarding topics like population, sports, geography, or entertainment awards."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower.",
+                        "answers": [
+                            "Publicis Groupe",
+                            "Omnicom Group",
+                            "WPP",
+                            "Interpublic Group (IPG)",
+                            "Dentsu Group"
+                        ],
+                        "distractors": [
+                            "Havas",
+                            "Hakuhodo DY Holdings",
+                            "Stagwell",
+                            "BlueFocus Communication Group",
+                            "Cheil Worldwide",
+                            "Innocean Worldwide",
+                            "S4 Capital",
+                            "ADK Holdings",
+                            "M&C Saatchi",
+                            "DJE Holdings (Edelman)",
+                            "Accenture Song",
+                            "Deloitte Digital",
+                            "IBM iX",
+                            "Capgemini Invent",
+                            "Hylink Digital Solutions"
+                        ],
+                        "suggested_source": "https://adage.com/agencyreport2025"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Ad Age Agency Report 2025 top global agency companies by 2024 revenue Publicis Omnicom WPP IPG Dentsu",
+                        "sources_found": [
+                            {
+                                "title": "2025 Top Agencies in the World by Revenue",
+                                "url": "https://agencymania.com/2025-top-agencies-in-the-world-by-revenue/"
+                            },
+                            {
+                                "title": "Agency Report 2025: Revenue growth - Ad Age",
+                                "url": "https://adage.com/datacenter/aa-agency-report-2025-revenue-growth/"
+                            },
+                            {
+                                "title": "Agency Report 2025: Biggest agency companies - Ad Age",
+                                "url": "https://adage.com/datacenter/aa-agency-report-2025-biggest-agency-companies/"
+                            },
+                            {
+                                "title": "Ad Age Agency Report 2025: rankings, stats and analysis",
+                                "url": "https://adage.com/datacenter/aa-agency-report-2025/"
+                            },
+                            {
+                                "title": "Top marketers and agency companies ranked—The Big List - Ad Age",
+                                "url": "https://adage.com/thebiglist/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data from Ad Age clearly indicates that Accenture Song surpassed WPP to become the largest global advertising holding company by 2024 revenue, with WPP falling to the second position. Publicis Groupe is placed behind Omnicom Group, and Interpublic Group (IPG) follows in fifth place. Dentsu Group is not mentioned in the top 5 for 2024. Therefore, the original order is incorrect, and the corrected ranking is provided based on the source.",
+                        "proposed_answers": [
+                            "Publicis Groupe",
+                            "Omnicom Group",
+                            "WPP",
+                            "Interpublic Group (IPG)",
+                            "Dentsu Group"
+                        ],
+                        "corrected_answers": [
+                            "Accenture Song",
+                            "WPP",
+                            "Omnicom Group",
+                            "Publicis Groupe",
+                            "Interpublic Group (IPG)"
+                        ],
+                        "best_source": "https://adage.com/datacenter/aa-agency-report-2025-biggest-agency-companies/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower. Accenture Song vs WPP ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2025 Top Agencies in the World by Revenue",
+                                "url": "https://agencymania.com/2025-top-agencies-in-the-world-by-revenue/"
+                            },
+                            {
+                                "title": "Top 10 Global Media & Advertising Holding Companies 2026",
+                                "url": "https://www.linkedin.com/posts/balaji-mohan-omnicom-global-solutions-04228824_mediaindustry-advertising-marketingleadership-activity-7425868217673506818-21Lw"
+                            },
+                            {
+                                "title": "Ad Age's definitive ranking of agency companies has a new leader ...",
+                                "url": "https://www.facebook.com/AdAge/posts/ad-ages-definitive-ranking-of-agency-companies-has-a-new-leader-and-no-its-not-o/1152621413563445/"
+                            },
+                            {
+                                "title": "Agency Holding Companies: A Visual Mapping - Eskimi",
+                                "url": "https://www.eskimi.com/blog/advertising-agency-holding-companies"
+                            },
+                            {
+                                "title": "2024 Top Agencies in the World by Revenue - WFA",
+                                "url": "https://wfanet.org/knowledge/item/2024/10/24/2024-top-agencies-in-the-world-by-revenue"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "Multiple reliable sources confirm Accenture Song overtaking WPP to become the highest-revenue global advertising agency by 2024, followed by WPP, Omnicom Group, Publicis Groupe, and Interpublic Group (IPG). Ordering aligns with the corrected answers.",
+                        "best_source": "https://www.facebook.com/AdAge/posts/ad-ages-definitive-ranking-of-agency-companies-has-a-new-leader-and-no-its-not-o/1152621413563445/"
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question 'Which are the 5 largest countries by land area?' is essentially the same as the previously used question with ID 13: 'Rank the five largest countries by land area from largest to smallest.' Both ask for the same information about the largest countries by land area."
+                    }
+                },
+                {
+                    "topic": "Rivers",
+                    "suggested_question": "Which are the 5 longest rivers in the world?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is essentially identical to question ID 28, which also asks for the five longest rivers in the world by total length."
+                    }
+                },
+                {
+                    "topic": "Oceans",
+                    "suggested_question": "Which are the 5 largest oceans and seas by area?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about the 5 largest oceans and seas by area is distinct from all previously asked questions, including those about geography such as tallest mountains or longest rivers, as it focuses specifically on oceans and seas."
+                    },
+                    "generated_question": {
+                        "question": "Which are the 5 largest oceans and seas by area?",
+                        "answers": [
+                            "Pacific Ocean",
+                            "Atlantic Ocean",
+                            "Indian Ocean",
+                            "Southern Ocean",
+                            "Arctic Ocean"
+                        ],
+                        "distractors": [
+                            "Philippine Sea",
+                            "Coral Sea",
+                            "Arabian Sea",
+                            "South China Sea",
+                            "Sargasso Sea",
+                            "Caribbean Sea",
+                            "Mediterranean Sea",
+                            "Bering Sea",
+                            "Sea of Okhotsk",
+                            "Weddell Sea",
+                            "Greenland Sea",
+                            "Norwegian Sea",
+                            "Tasman Sea",
+                            "Labrador Sea",
+                            "Scotia Sea"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "largest oceans and seas by area ranking",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 Largest Oceans on World Map",
+                                "url": "https://www.mapsofworld.com/world-top-ten/world-top-ten-largest-oceans-and-sea-map.html"
+                            },
+                            {
+                                "title": "World's Biggest Oceans & Seas | Pacific & Atlantic Oceans",
+                                "url": "https://www.livescience.com/29533-the-worlds-biggest-oceans-and-seas.html"
+                            },
+                            {
+                                "title": "Largest Sea in the World – List of Top 10 Seas by Size, ...",
+                                "url": "https://testbook.com/static-gk/largest-sea-in-the-world"
+                            },
+                            {
+                                "title": "📍Top 10 Largest Oceans & Seas",
+                                "url": "https://www.facebook.com/PlusPoint641/posts/top-10-largest-oceans-seas/1180919127575227/"
+                            },
+                            {
+                                "title": "The Oceans Of The World By Size",
+                                "url": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "VERIFIED",
+                        "reason": "The sources confirm the ranking order as proposed: 1) Pacific Ocean (168,723,000 sq km) 2) Atlantic Ocean (85,133,000 sq km) 3) Indian Ocean (70,560,000 sq km) 4) Southern Ocean (21,960,000 sq km) 5) Arctic Ocean (15,558,000 sq km). This matches the proposed answer order and areas.",
+                        "proposed_answers": [
+                            "Pacific Ocean",
+                            "Atlantic Ocean",
+                            "Indian Ocean",
+                            "Southern Ocean",
+                            "Arctic Ocean"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
+                    },
+                    "question_id": 29,
+                    "final_answers": [
+                        "Pacific Ocean",
+                        "Atlantic Ocean",
+                        "Indian Ocean",
+                        "Southern Ocean",
+                        "Arctic Ocean"
+                    ],
+                    "final_source": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 16, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "Sports Calendar And Event Database (16 - 22 March 2026)",
+                                "url": "https://allsportdb.com/?week=1",
+                                "snippet": "16 - 22 March 2026 · AFC Football Women's Asian Cup · World Baseball Classic · FIS Snowboard Junior World Championships - Snowboard Cross · World Women's Curling"
+                            },
+                            {
+                                "title": "List of the top sporting events occurring over the next 3 months",
+                                "url": "https://www.thebiglead.com/list-of-the-top-sporting-events-occurring-over-the-next-3-months-v/",
+                                "snippet": "From international tournaments to major postseason battles and milestone seasonal openings, this period captures the energy of spring sports at its very best. Whether you follow baseball, basketball, "
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 20-22 Mar: Athletics – World Athletics Indoor Championships (Torun, Poland). * 28 Mar to 5 Apr: Curling – World Men’s Cur"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Global Holidays and Traditions - March 2026 - LinkedIn",
+                                "url": "https://www.linkedin.com/pulse/global-holidays-traditions-march-2026-pete-karolczak-8pohc",
+                                "snippet": "This year, we celebrate on March 3rd. On the night of the Chinese Lantern Festival, streets are decorated with colorful lanterns, often with"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Time marches on, but the third month reminds us every day is an occasion. Beyond the more official occasions, March, like every other"
+                            },
+                            {
+                                "title": "March 2026 Holidays, National, International. - Holiday Insights",
+                                "url": "https://www.holidayinsights.com/moreholidays/march.htm",
+                                "snippet": "March 2026 Calendar with Holidays ; March 1. Namesake Day · National Pig Day · Peace Corps Day · Peanut Butter Lovers' Day ; March 9. Barbie Day · Get Over It Day."
+                            },
+                            {
+                                "title": "Spring Forward: March 2026 Holidays and Observances",
+                                "url": "https://ideas.hallmark.com/articles/calendar-ideas/march-holidays-and-celebrations/",
+                                "snippet": "From the wearin' of the green and more sunny fun to colorful Holi festivals and celebrating crayons, this month is the full spectrum of happy."
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. There are plenty of other notable dates throughout the month, and we've got them all right here in this comprehensiv"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "Hotel Info - Charleston, SC - 2026 Reed Awards & Conference",
+                                "url": "https://thereedawards.com/hotel-info/",
+                                "snippet": "Event Details. March 11-12, 2026; Charleston Gaillard Center 95 Calhoun St, Charleston, SC 29401. Get Tickets · Code of Conduct · Ticket Policy · Privacy Policy"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "WATCH Awards Ceremony Tickets Mar 22, 2026 Alexandria, VA",
+                                "url": "https://www.ticketmaster.com/watch-awards-ceremony-alexandria-virginia-03-22-2026/event/1500642EB595874B",
+                                "snippet": "Buy WATCH Awards Ceremony tickets at the Birchmere in Alexandria, VA for Mar 22, 2026 at Ticketmaster."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 16, 2026",
+                        "results": [
+                            {
+                                "title": "This Day in History: March 16, 2026",
+                                "url": "https://www.infoplease.com/dayinhistory/march-16",
+                                "snippet": "# This Day in History. The first liquid-fuel rocket was successfully launched by Prof. Robert Goddard at Auburn, Massachuse. ### Ancestor of the Space Age. The first liquid-fuel rocket was successfull"
+                            },
+                            {
+                                "title": "Houston Matters Full Episode - March 16, 2026",
+                                "url": "https://www.youtube.com/watch?v=5u5FT1M76hI",
+                                "snippet": "Houston Matters Full Episode - March 16, 2026 ; LIVE | Trump Declares EMERGENCY From Whitehouse; Drops NUCLEAR Bombshell On Iran, Russia, China."
+                            },
+                            {
+                                "title": "Race Highlights: 2026 Chinese Grand Prix",
+                                "url": "https://www.formula1.com/en/video/race-highlights-2026-chinese-grand-prix.1859720122095299762",
+                                "snippet": "[![Image 3](https://media.formula1.com/image/upload/c_lfill,w_720/q_auto/v1740000000/fom-website/static-assets/2026/races/card/bahrain.webp)ROUND 4 Bahrain 10 - 12 APR](https://www.formula1.com/en/rac"
+                            },
+                            {
+                                "title": "What Happens on March 16, 2026",
+                                "url": "https://www.onthisday.com/date/2026/march/16",
+                                "snippet": "# What Happens on March 16, 2026. ## About March 16, 2026. **Day of the Week:** Monday. **How Far Away?** 18 days. ## No Entries for March 16, 2026. * View highlights from  **year 2026**. * Browse our"
+                            },
+                            {
+                                "title": "Apple March 2026 Event and Global Tech Updates Lead ...",
+                                "url": "https://www.facebook.com/primetimeresearch/posts/-apple-march-2026-event-and-global-tech-updates-lead-todays-headlinesapples-marc/1379292660878520/",
+                                "snippet": "Notable highlights at MWC 2025 include the anticipated launch of the Nothing Phone (3a) series, TCL's new products, Lenovo's innovative laptop"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 16",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 16: Camilo, Alexandra Daddario - UPI",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/16/Famous-birthdays-for-March-16-Camilo-Alexandra-Daddario/7061742001413/",
+                                "snippet": "Musician Camilo turns 31 and actor Alexandra Daddario turns 39, among the famous birthdays for March 16."
+                            },
+                            {
+                                "title": "March 16 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-16/",
+                                "snippet": "Famous Mar 16 birthday celebrants include Erik Estrada, Blu Cantrell, Jenny Eclair, Ray Benson, Brooke Burns, Tyrel Jackson Williams, Alexandra Daddario, Edward"
+                            },
+                            {
+                                "title": "Famous Birthdays on March 16 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/16",
+                                "snippet": "# Famous Birthdays on March 16. * 1338 Thomas Beauchamp, 12th Earl of Warwick, English medieval nobleman and primary opponent of Richard II, born in England (d. * 1399 Xuande, 5th Ming Emperor of Chin"
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 16, 2021 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2021/03/todays-famous-birthdays-list-for-march-16-2021-includes-celebrities-alan-tudyk-erik-estrada.html",
+                                "snippet": "Today's famous birthdays list for March 16, 2021 includes celebrities Alan Tudyk, Erik Estrada ; Actor Erik Estrada turns 72. Fun fact: Provided"
+                            },
+                            {
+                                "title": "March 16 Celebrity Birthdays",
+                                "url": "https://www.famousbirthdays.com/march16.html",
+                                "snippet": "March 16 Birthdays ; Fernando Líndez, 25. TV Actor. 21 ; Domani Harris, 24. Instagram Star. 22 ; Hudson Deegan, 14. Motorcycle Racer. 23 ; Blake Griffin, 36."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "March Madness (NCAA men’s basketball, mid-March 2026)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, rank by the more recent title.",
+                        "connection": "The NCAA Tournament dominates March sports; this ranks the blue-blood programs as March Madness heats up."
+                    },
+                    {
+                        "topic": "Apple’s March 2026 event buzz",
+                        "suggested_question": "Rank Apple's top 5 product categories by revenue in fiscal year 2025, from highest to lower (iPhone, Services, Mac, Wearables/Home/Accessories, iPad).",
+                        "connection": "Apple’s spring announcements are a March staple; this focuses on the company’s latest revenue mix."
+                    },
+                    {
+                        "topic": "Anniversary of Goddard’s first liquid-fuel rocket (March 16, 1926)",
+                        "suggested_question": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts.",
+                        "connection": "On this date in 1926, Goddard launched the first liquid-fuel rocket; this looks at today’s leaders in orbital launches."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (March 17) in the U.S.",
+                        "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey, from highest to lower. If tied, rank by the larger number of residents reporting Irish ancestry.",
+                        "connection": "With St. Patrick’s Day tomorrow, this highlights where Irish heritage is most concentrated in the U.S."
+                    },
+                    {
+                        "topic": "Marketing/experiential awards season in March (Event Marketer deadlines, industry events)",
+                        "suggested_question": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower.",
+                        "connection": "March brings marketing awards and conferences; this ranks the industry’s biggest holding groups."
+                    },
+                    {
+                        "topic": "Lantern Festival earlier in March and global heritage focus",
+                        "suggested_question": "Rank the top 5 countries by number of elements inscribed on UNESCO’s Lists of Intangible Cultural Heritage (as of end-2025), from most to fewer.",
+                        "connection": "Following early-March Lantern Festival observances, this spotlights countries leading in safeguarded cultural traditions."
+                    },
+                    {
+                        "topic": "Awards season for film/TV writers and actors (SAG, WGA dates in March)",
+                        "suggested_question": "Rank the top 5 video streaming services by worldwide paid subscribers as of year-end 2025, from most to fewer. If tied, rank by earlier launch date.",
+                        "connection": "With March guild awards recognizing streaming-heavy content, this ranks the biggest global streamers."
+                    },
+                    {
+                        "topic": "Spring travel tied to major March/April events (Roadtrips calendar)",
+                        "suggested_question": "Rank the top 5 busiest airports in the world by total passenger traffic in 2025, from most to fewer.",
+                        "connection": "Major spring sports and events drive travel; this identifies the world’s top passenger hubs."
+                    },
+                    {
+                        "topic": "World Women’s Curling Championship in Calgary (Mar 14–22)",
+                        "suggested_question": "Rank the top 5 Canadian provinces by crude oil production in the most recent full year, from highest to lower.",
+                        "connection": "With the championship in Calgary—Canada’s energy hub—this connects the host city to Canada’s provincial oil output."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — St. Patrick’s Day",
+                        "suggested_question": "Rank the top 5 countries by per-capita beer consumption (liters per person per year), latest available data, from highest to lower.",
+                        "connection": "Beer is synonymous with St. Patrick’s Day celebrations; this compares nations’ beer drinking levels."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — World Poetry Day (March 21)",
+                        "suggested_question": "Rank the top 5 countries by total number of Nobel Prize in Literature laureates, from most to fewer. If tied, rank by the earlier first laureate year.",
+                        "connection": "Ahead of World Poetry Day, this honors literary achievement via a country-by-country Nobel tally."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Spring equinox/clock changes",
+                        "suggested_question": "Rank the top 5 countries by total number of time zones (including overseas territories), from most to fewer.",
+                        "connection": "As we approach the spring equinox and recent clock changes, timekeeping takes center stage—so do countries with many time zones."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "March Madness (NCAA men’s basketball, mid-March 2026)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by number of NCAA Tournament championships won (through the 2025 tournament), from most to fewer. If tied, rank by the more recent title.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to NCAA men's basketball, which does not overlap with the themes of motorsport, athletics, geography, music, film, or rivers from the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Apple’s March 2026 event buzz",
+                        "suggested_question": "Rank Apple's top 5 product categories by revenue in fiscal year 2025, from highest to lower (iPhone, Services, Mac, Wearables/Home/Accessories, iPad).",
+                        "recently_covered": false,
+                        "reason": "The proposed question focuses on Apple's revenue and product categories, which is unrelated to any recent questions that cover sports, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Anniversary of Goddard’s first liquid-fuel rocket (March 16, 1926)",
+                        "suggested_question": "Rank the top 5 countries by number of successful orbital launch attempts in 2025, from most to fewer. If tied on successful launches, rank by total launch attempts.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to space exploration and orbital launches, which is distinct from any of the recently covered topics (sports, natural geography, music, and film).",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (March 17) in the U.S.",
+                        "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry in the latest American Community Survey, from highest to lower. If tied, rank by the larger number of residents reporting Irish ancestry.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about St. Patrick's Day and Irish ancestry in the U.S. does not overlap with any of the recent questions, which cover sports, geography, music, and film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Marketing/experiential awards season in March (Event Marketer deadlines, industry events)",
+                        "suggested_question": "Rank the top 5 global advertising holding companies by 2024 revenue (USD), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about advertising and revenue, which does not overlap with any recent topics covering sports, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lantern Festival earlier in March and global heritage focus",
+                        "suggested_question": "Rank the top 5 countries by number of elements inscribed on UNESCO’s Lists of Intangible Cultural Heritage (as of end-2025), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic involves UNESCO's Intangible Cultural Heritage, which is unrelated to any of the recent questions that focus on sports, geography, entertainment, or awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season for film/TV writers and actors (SAG, WGA dates in March)",
+                        "suggested_question": "Rank the top 5 video streaming services by worldwide paid subscribers as of year-end 2025, from most to fewer. If tied, rank by earlier launch date.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about video streaming services does not overlap with any recent questions, which focus on sports achievements, natural wonders, music charts, and film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel tied to major March/April events (Roadtrips calendar)",
+                        "suggested_question": "Rank the top 5 busiest airports in the world by total passenger traffic in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on airport passenger traffic, which is unrelated to any of the recently used topics such as Formula 1, pole vaulting, mountains, music charts, Oscars, or rivers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Women’s Curling Championship in Calgary (Mar 14–22)",
+                        "suggested_question": "Rank the top 5 Canadian provinces by crude oil production in the most recent full year, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to crude oil production by Canadian provinces, which does not overlap with any recent topics such as Formula 1, athletics, mountains, music, awards, or rivers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — St. Patrick’s Day",
+                        "suggested_question": "Rank the top 5 countries by per-capita beer consumption (liters per person per year), latest available data, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to per-capita beer consumption, which does not overlap thematically with any recent questions. None of the recent topics cover alcohol consumption, rankings by country, or similar cultural themes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — World Poetry Day (March 21)",
+                        "suggested_question": "Rank the top 5 countries by total number of Nobel Prize in Literature laureates, from most to fewer. If tied, rank by the earlier first laureate year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to Nobel Prize in Literature laureates, whereas none of the recent questions focus on literature or awards in this domain.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Spring equinox/clock changes",
+                        "suggested_question": "Rank the top 5 countries by total number of time zones (including overseas territories), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains to time zones and geography, while none of the recent questions involve this theme or subject area.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "fallback_used": true,
+            "question_id": 29
         }
     ]
 }

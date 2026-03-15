@@ -979,6 +979,41 @@
                 "Yenisey–Angara–Selenge–Ider"
             ],
             "source": "https://www.worldatlas.com/rivers/the-10-longest-rivers-in-the-world.html"
+        },
+        {
+            "id": 29,
+            "date": "2026-03-16",
+            "question": "Which are the 5 largest oceans and seas by area?",
+            "options": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Southern Ocean",
+                "Arctic Ocean",
+                "Philippine Sea",
+                "Coral Sea",
+                "Arabian Sea",
+                "South China Sea",
+                "Sargasso Sea",
+                "Caribbean Sea",
+                "Mediterranean Sea",
+                "Bering Sea",
+                "Sea of Okhotsk",
+                "Weddell Sea",
+                "Greenland Sea",
+                "Norwegian Sea",
+                "Tasman Sea",
+                "Labrador Sea",
+                "Scotia Sea"
+            ],
+            "answers": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Southern Ocean",
+                "Arctic Ocean"
+            ],
+            "source": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
         }
     ]
 }
