@@ -1014,6 +1014,41 @@
                 "Arctic Ocean"
             ],
             "source": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
+        },
+        {
+            "id": 30,
+            "date": "2026-03-17",
+            "question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+            "options": [
+                "New Hampshire",
+                "Massachusetts",
+                "Vermont",
+                "Rhode Island",
+                "Maine",
+                "Pennsylvania",
+                "Connecticut",
+                "New York",
+                "New Jersey",
+                "Delaware",
+                "Ohio",
+                "Illinois",
+                "Wisconsin",
+                "Minnesota",
+                "Michigan",
+                "Iowa",
+                "Missouri",
+                "North Dakota",
+                "South Dakota",
+                "Nebraska"
+            ],
+            "answers": [
+                "New Hampshire",
+                "Massachusetts",
+                "Vermont",
+                "Rhode Island",
+                "Maine"
+            ],
+            "source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
         }
     ]
 }

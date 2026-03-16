@@ -26373,6 +26373,948 @@
             },
             "fallback_used": true,
             "question_id": 29
+        },
+        {
+            "date": "2026-03-17",
+            "topics_discovered": [
+                {
+                    "topic": "March Madness 2026 (NCAA Tournament)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher.",
+                    "connection": "It's peak March Madness, and program legacies are a hot talking point during the tournament."
+                },
+                {
+                    "topic": "American Chocolate Week (March 15–21, 2026)",
+                    "suggested_question": "Rank the top 5 countries by cocoa bean production in the most recent full crop year, from highest to lower.",
+                    "connection": "American Chocolate Week is underway, making cocoa output a timely, tasty topic."
+                },
+                {
+                    "topic": "St. Patrick's Day (March 17)",
+                    "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                    "connection": "With St. Patrick’s Day celebrations today, Irish heritage across the U.S. is in the spotlight."
+                },
+                {
+                    "topic": "Sunshine Week / Sunshine Fest 2026 (Washington, D.C., March 15–17)",
+                    "suggested_question": "Rank the top 5 U.S. daily newspapers by average weekday circulation (most recent audited data), from largest to smaller.",
+                    "connection": "Sunshine Week highlights transparency and journalism; newspaper reach is a relevant metric."
+                },
+                {
+                    "topic": "Spring Equinox week (March 20, 2026)",
+                    "suggested_question": "Rank the top 5 planets by longest rotation period (length of a day), from longest to shorter.",
+                    "connection": "As we mark the equinox and think about day length on Earth, it's a perfect time to compare 'days' across planets."
+                },
+                {
+                    "topic": "Spring Break travel surge (March 2026)",
+                    "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in March (most recent year available), from most to fewer.",
+                    "connection": "March is peak Spring Break travel; airport throughput is a timely travel stat."
+                },
+                {
+                    "topic": "2026 soccer kit unveil buzz (sportswear in the news)",
+                    "suggested_question": "Rank the top 5 publicly traded sportswear companies by market capitalization as of March 2026, from largest to smaller.",
+                    "connection": "With national team uniforms unveiled for 2026 soccer, sportswear brands are trending—perfect for a market-cap ranking."
+                },
+                {
+                    "topic": "SXSW 2026 (Gaming/Interactive, March 12–18)",
+                    "suggested_question": "Rank the top 5 best-selling video game consoles of all time by cumulative units sold, from most to fewer.",
+                    "connection": "SXSW celebrates interactive entertainment; console sales leaders fit the festival’s gaming buzz."
+                },
+                {
+                    "topic": "Spring SAT testing season (March 2026)",
+                    "suggested_question": "Rank the top 5 U.S. states by highest average SAT total score (most recent year), from highest to lower.",
+                    "connection": "Many students sit for the SAT in March, making state score comparisons timely."
+                },
+                {
+                    "topic": "World Poetry Day (March 21) — fallback",
+                    "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (by country of citizenship at the time of award), from most to fewer. If tied, rank by the earlier average award year.",
+                    "connection": "World Poetry Day spotlights literature; Nobel counts are a clear, verifiable cultural yardstick."
+                },
+                {
+                    "topic": "Earth Hour (March 28) — fallback",
+                    "suggested_question": "Rank the top 5 countries by installed wind power capacity (GW), as of the latest global report prior to March 2026, from highest to lower.",
+                    "connection": "Earth Hour focuses on energy awareness; wind capacity rankings highlight clean energy leadership."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "March Madness 2026 (NCAA Tournament)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher.",
+                    "connection": "It's peak March Madness, and program legacies are a hot talking point during the tournament.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about NCAA Tournament wins is unique and does not overlap with any existing questions, as none of the previous ones address NCAA basketball or a similar topic in sports."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher.",
+                        "answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "distractors": [
+                            "Michigan State",
+                            "Indiana",
+                            "Villanova",
+                            "Arizona",
+                            "Syracuse",
+                            "Louisville",
+                            "UConn",
+                            "Gonzaga",
+                            "Ohio State",
+                            "Michigan",
+                            "Florida",
+                            "Arkansas",
+                            "Maryland",
+                            "Purdue",
+                            "Oklahoma"
+                        ],
+                        "suggested_source": "https://www.ncaa.com/news/basketball-men/article/2021-03-25/college-basketball-teams-most-ncaa-tournament-wins"
+                    },
+                    "verification_search_iter0": {
+                        "query": "NCAA men’s basketball most NCAA Tournament wins by school all-time site:ncaa.com",
+                        "sources_found": [
+                            {
+                                "title": "The 7 DI men's basketball teams with the most NCAA tournament wins",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2019-07-24/7-di-mens-basketball-teams-most-ncaa-tournament-wins"
+                            },
+                            {
+                                "title": "College basketball's 9 winningest teams - NCAA.com",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2023-07-27/college-basketballs-9-winningest-teams"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "What school has the most college basketball national championships?",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2023-04-03/schools-most-ncaa-college-basketball-national-championships"
+                            },
+                            {
+                                "title": "NCAA men's basketball champions from 1939 to today",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/ncaa-mens-basketball-champions-1939-today"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not provide specific data on the total number of NCAA Tournament wins for each program, nor a definitive ranking of the programs by total tournament wins. Additionally, the sources seem incomplete or corrupted in some cases, making it impossible to verify or correct the proposed order.",
+                        "proposed_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2019-07-24/7-di-mens-basketball-teams-most-ncaa-tournament-wins"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher. North Carolina Kentucky ranking",
+                        "sources_found": [
+                            {
+                                "title": "The 7 DI men's basketball teams with the most ...",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2019-07-24/7-di-mens-basketball-teams-most-ncaa-tournament-wins"
+                            },
+                            {
+                                "title": "List of teams with the most victories in NCAA Division I ...",
+                                "url": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                            },
+                            {
+                                "title": "NCAA Division I men's basketball tournament all-time team ...",
+                                "url": "https://grokipedia.com/page/NCAA_Division_I_men's_basketball_tournament_all-time_team_records"
+                            },
+                            {
+                                "title": "Which teams have won the most NCAA men's basketball ...",
+                                "url": "https://www.latimes.com/sports/story/2024-03-18/ncaa-mens-basketball-champions-march-madness"
+                            },
+                            {
+                                "title": "2026 NET Rankings and Quad Wins",
+                                "url": "https://bballnet.com/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The NCAA.com article clearly ranks Kentucky as having the most all-time NCAA Tournament wins (131 as of the source's data), followed by North Carolina (129), Duke (118), Kansas (122), and then UCLA (111). The proposed answers were not in the correct order. By both number of tournament wins and date of most recent victories, the correct ranking aligns as Kentucky, North Carolina, Duke, Kansas, and UCLA.",
+                        "proposed_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "corrected_answers": [
+                            "Kentucky",
+                            "North Carolina",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2019-07-24/7-di-mens-basketball-teams-most-ncaa-tournament-wins"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher. Kentucky vs North Carolina ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Where Kentucky finished in NCAA Tournament seed rankings",
+                                "url": "https://sports.yahoo.com/articles/where-kentucky-finished-ncaa-tournament-100000439.html"
+                            },
+                            {
+                                "title": "NCAA Men's Basketball. Kentucky & Texas top the list from the SEC ...",
+                                "url": "https://www.facebook.com/groups/secsuperconference/posts/1377103230913158/"
+                            },
+                            {
+                                "title": "NCAA College Men's Basketball DI Standings",
+                                "url": "https://www.ncaa.com/standings/basketball-men/d1"
+                            },
+                            {
+                                "title": "List of teams with the most victories in NCAA Division I men's college ...",
+                                "url": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order cannot be confirmed since none of the sources directly rank the programs based on total NCAA Tournament wins, and specific win totals are not provided in any source.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher. North Carolina Kentucky ranking",
+                        "sources_found": [
+                            {
+                                "title": "NCAA Division I men's basketball tournament all-time team records",
+                                "url": "https://grokipedia.com/page/NCAA_Division_I_men's_basketball_tournament_all-time_team_records"
+                            },
+                            {
+                                "title": "Most March Madness wins by school: How Kentucky can leapfrog ...",
+                                "url": "https://www.sportingnews.com/us/ncaa-basketball/news/most-march-madness-wins-school-kentucky-unc/4e67936e578aa1d4d6e292b1"
+                            },
+                            {
+                                "title": "The 7 DI men's basketball teams with the most NCAA tournament wins",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2019-07-24/7-di-mens-basketball-teams-most-ncaa-tournament-wins"
+                            },
+                            {
+                                "title": "NCAA College Men's Basketball DI Standings",
+                                "url": "https://www.ncaa.com/standings/basketball-men/d1"
+                            },
+                            {
+                                "title": "Which team has won the most NCAA men's basketball tournament ...",
+                                "url": "https://www.latimes.com/sports/story/2024-03-18/ncaa-mens-basketball-champions-march-madness"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The source from Sporting News explicitly states that North Carolina has the most March Madness wins, with a total of 134 wins after their victory over San Diego State. Kentucky follows with 131 wins, Duke with 123, Kansas with 115, and UCLA with 111. The proposed answers were incorrect in both content and order, as Kentucky was incorrectly placed first despite trailing North Carolina. The corrected answers are based on the most authoritative source, reflecting the correct ranking by total NCAA Tournament wins.",
+                        "proposed_answers": [
+                            "Kentucky",
+                            "North Carolina",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "corrected_answers": [
+                            "North Carolina",
+                            "Kentucky",
+                            "Duke",
+                            "Kansas",
+                            "UCLA"
+                        ],
+                        "best_source": "https://www.sportingnews.com/us/ncaa-basketball/news/most-march-madness-wins-school-kentucky-unc/4e67936e578aa1d4d6e292b1"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher. North Carolina vs Kentucky ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All-time NCAA Tournament Success Rankings : r/CollegeBasketball",
+                                "url": "https://www.reddit.com/r/CollegeBasketball/comments/1o4jmda/alltime_ncaa_tournament_success_rankings/"
+                            },
+                            {
+                                "title": "NCAA Men's Basketball NET Rankings",
+                                "url": "https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings"
+                            },
+                            {
+                                "title": "List of teams with the most victories in NCAA Division I men's college ...",
+                                "url": "https://en.wikipedia.org/wiki/List_of_teams_with_the_most_victories_in_NCAA_Division_I_men%27s_college_basketball"
+                            },
+                            {
+                                "title": "The college basketball teams with the most national championships",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/college-basketball-teams-most-national-championships"
+                            },
+                            {
+                                "title": "Which schools have won the most NCAA Men's Tournament ...",
+                                "url": "https://www.foxsports.com/stories/college-basketball/most-national-championships-all-time-mens-tournament"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "None of the sources provided specific numbers for all-time NCAA Tournament wins per program in a consistent and definitive manner. Additionally, the corrected order does not align definitively with the most relevant data on successes and rankings.",
+                        "best_source": "https://www.reddit.com/r/CollegeBasketball/comments/1o4jmda/alltime_ncaa_tournament_success_rankings/"
+                    }
+                },
+                {
+                    "topic": "American Chocolate Week (March 15–21, 2026)",
+                    "suggested_question": "Rank the top 5 countries by cocoa bean production in the most recent full crop year, from highest to lower.",
+                    "connection": "American Chocolate Week is underway, making cocoa output a timely, tasty topic.",
+                    "status": "validation_failed",
+                    "reason": "Duplicate options found",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about ranking top cocoa bean-producing countries is distinct from all existing questions, focusing on agriculture and production data, which is not covered by any previous question in the set."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by cocoa bean production in the most recent full cocoa crop year, from highest to lower.",
+                        "answers": [
+                            "Côte d'Ivoire",
+                            "Ghana",
+                            "Ecuador",
+                            "Nigeria",
+                            "Cameroon"
+                        ],
+                        "distractors": [
+                            "Indonesia",
+                            "Brazil",
+                            "Peru",
+                            "Dominican Republic",
+                            "Colombia",
+                            "Mexico",
+                            "Venezuela",
+                            "Papua New Guinea",
+                            "Togo",
+                            "Sierra Leone",
+                            "Uganda",
+                            "Bolivia",
+                            "Guatemala",
+                            "Honduras",
+                            "Liberia"
+                        ],
+                        "suggested_source": "https://www.icco.org/statistics/quarterly-bulletin-of-cocoa-statistics/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "ICCO 2022/23 cocoa bean production by country ranking top producers",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 Cocoa Bean-Producing Countries in the World",
+                                "url": "https://radadinternational.com/top-cocoa-producing-countries-radad/"
+                            },
+                            {
+                                "title": "Top 8 Cocoa producing countries in the world. 2022. 1) Ivory Coast",
+                                "url": "https://www.facebook.com/Insideafricas/posts/top-8-cocoa-producing-countries-in-the-world-20221-ivory-coast-2200000-tons2-gha/502963041845662/"
+                            },
+                            {
+                                "title": "The Top Eleven Cocoa Producers in The World",
+                                "url": "https://provisioservices.com/top-cocoa-producers-world-2023/"
+                            },
+                            {
+                                "title": "Top 10 Cocoa Producing Countries in the World",
+                                "url": "https://www.worldatlas.com/industries/top-10-cocoa-producing-countries-in-the-world.html"
+                            },
+                            {
+                                "title": "List of countries by cocoa production - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed ranking incorrectly places Ecuador as the third largest cocoa producer ahead of Indonesia. Data from the authoritative Wikipedia source confirms the top producers as Côte d'Ivoire (2,377,442 tonnes), Ghana (800,000 tonnes), Indonesia (739,483 tonnes), Nigeria (340,163 tonnes), and Ecuador (327,903 tonnes). Cameroon, which was proposed fifth, is actually sixth with 290,000 tonnes. The corrected ranking places these countries in the right order based on production values.",
+                        "proposed_answers": [
+                            "Côte d'Ivoire",
+                            "Ghana",
+                            "Ecuador",
+                            "Nigeria",
+                            "Cameroon"
+                        ],
+                        "corrected_answers": [
+                            "Côte d'Ivoire",
+                            "Ghana",
+                            "Indonesia",
+                            "Nigeria",
+                            "Ecuador"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by cocoa bean production in the most recent full cocoa crop year, from highest to lower. Côte d'Ivoire vs Ghana ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Cocoa Production: Cote d'Ivoire Leads the World - Facebook",
+                                "url": "https://www.facebook.com/groups/2084227645186686/posts/4174420229500740/"
+                            },
+                            {
+                                "title": "Cocoa Producing Countries 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/cocoa-producing-countries"
+                            },
+                            {
+                                "title": "Cocoa facts and figures - Kakaoplattform",
+                                "url": "https://www.kakaoplattform.ch/about-cocoa/cocoa-facts-and-figures"
+                            },
+                            {
+                                "title": "Top 10 cocoa producing countries in 2026 + 65 smaller producers list",
+                                "url": "https://www.cocoaandheart.co.uk/top-10-cocoa-producing-countries/"
+                            },
+                            {
+                                "title": "Top 10 Cocoa Producing Countries in the World",
+                                "url": "https://www.worldatlas.com/industries/top-10-cocoa-producing-countries-in-the-world.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Ecuador fifth, but one of the sources (Kakaoplattform) states Ecuador is the third largest producer with 9% of global production, ahead of Indonesia. Therefore, the corrected order is not strictly accurate.",
+                        "best_source": "https://www.kakaoplattform.ch/about-cocoa/cocoa-facts-and-figures"
+                    },
+                    "verification_search_iter1": {
+                        "query": "ICCO 2022/23 cocoa bean production by country ranking top producers",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 Cocoa Bean-Producing Countries in the World",
+                                "url": "https://radadinternational.com/top-cocoa-producing-countries-radad/"
+                            },
+                            {
+                                "title": "Top 8 Cocoa producing countries in the world. 2022. 1) Ivory Coast",
+                                "url": "https://www.facebook.com/Insideafricas/posts/top-8-cocoa-producing-countries-in-the-world-20221-ivory-coast-2200000-tons2-gha/502963041845662/"
+                            },
+                            {
+                                "title": "The Top Eleven Cocoa Producers in The World",
+                                "url": "https://provisioservices.com/top-cocoa-producers-world-2023/"
+                            },
+                            {
+                                "title": "Top 10 Cocoa Producing Countries in the World",
+                                "url": "https://www.worldatlas.com/industries/top-10-cocoa-producing-countries-in-the-world.html"
+                            },
+                            {
+                                "title": "List of countries by cocoa production - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order of countries is correct according to the data provided in the selected best source. Côte d'Ivoire leads with 2,200,000 tons, followed by Ghana (800,000 tons), Indonesia (739,483 tons), Nigeria (340,163 tons), and Ecuador (327,903 tons). The production values align with the proposed order as listed.",
+                        "proposed_answers": [
+                            "Côte d'Ivoire",
+                            "Ghana",
+                            "Indonesia",
+                            "Nigeria",
+                            "Ecuador"
+                        ],
+                        "corrected_answers": [
+                            "Côte d'Ivoire",
+                            "Ghana",
+                            "Indonesia",
+                            "Nigeria",
+                            "Ecuador"
+                        ],
+                        "best_source": "https://www.facebook.com/Insideafricas/posts/top-8-cocoa-producing-countries-in-the-world-20221-ivory-coast-2200000-tons2-gha/502963041845662/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by cocoa bean production in the most recent full cocoa crop year, from highest to lower. Côte d'Ivoire vs Ghana ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2025: Which Country Produces Most Cacao » The Cocoa Circle",
+                                "url": "https://cocoacircle.com/fr/blogs/process/which-country-produces-most-cacao"
+                            },
+                            {
+                                "title": "Top largest producer of Cocoa Globally 1)- Côte d'Ivoire (Ivory Coast)",
+                                "url": "https://www.facebook.com/Greatafrica6/posts/top-largest-producer-of-cocoa-globally-1-c%C3%B4te-divoire-ivory-coast-237-million-to/1396618519142800/"
+                            },
+                            {
+                                "title": "Top 10 Cocoa Producing Countries in the World",
+                                "url": "https://www.worldatlas.com/industries/top-10-cocoa-producing-countries-in-the-world.html"
+                            },
+                            {
+                                "title": "List of countries by cocoa production - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production"
+                            },
+                            {
+                                "title": "Top 10 cocoa producing countries in 2026 + 65 smaller producers list",
+                                "url": "https://www.cocoaandheart.co.uk/top-10-cocoa-producing-countries/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The additional sources consistently rank Côte d'Ivoire as the top producer, followed by Ghana, Indonesia, Nigeria, and Ecuador, which matches the corrected order.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_countries_by_cocoa_production"
+                    }
+                },
+                {
+                    "topic": "St. Patrick's Day (March 17)",
+                    "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                    "connection": "With St. Patrick’s Day celebrations today, Irish heritage across the U.S. is in the spotlight.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on U.S. states by percentage of residents with Irish ancestry, which is distinct from any previously listed questions. None of the prior questions address this specific demographic topic or focus on U.S. states."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                        "answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "distractors": [
+                            "Pennsylvania",
+                            "Connecticut",
+                            "New York",
+                            "New Jersey",
+                            "Delaware",
+                            "Ohio",
+                            "Illinois",
+                            "Wisconsin",
+                            "Minnesota",
+                            "Michigan",
+                            "Iowa",
+                            "Missouri",
+                            "North Dakota",
+                            "South Dakota",
+                            "Nebraska"
+                        ],
+                        "suggested_source": "https://www.census.gov/library/visualizations/interactive/irish-ancestry-in-the-united-states.html"
+                    },
+                    "verification_search_iter0": {
+                        "query": "ACS B04006 Irish ancestry by state percentage top states site:census.gov",
+                        "sources_found": [
+                            {
+                                "title": "Irish-American Heritage Month & St. Patrick's Day - Census Bureau",
+                                "url": "https://www.census.gov/newsroom/facts-for-features/2016/cb16-ff04.html"
+                            },
+                            {
+                                "title": "[PDF] Explore Foreign-Born and Ancestry Population Data - Presentation",
+                                "url": "https://www2.census.gov/about/training-workshops/2023/2023-09-21-ancestry-presentation.pdf"
+                            },
+                            {
+                                "title": "Irish-American Heritage Month and St. Patrick  s Day: 2017",
+                                "url": "https://www.census.gov/newsroom/facts-for-features/2017/cb17-ff05.html"
+                            },
+                            {
+                                "title": "\"Thanksgiving Day: Nov. 26, 2015\" - Census Bureau",
+                                "url": "https://www.census.gov/newsroom/facts-for-features/2015/cb15-ff24.html"
+                            },
+                            {
+                                "title": "[PDF] 2015 Forum on Ethnic Groups from the Middle East and North Africa",
+                                "url": "https://www.census.gov/content/dam/Census/library/working-papers/2015/demo/MENA-Forum-Summary-and-Appendices.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain clear or complete information regarding the exact ranking of U.S. states by percentage of residents reporting Irish ancestry. Some partial data such as New Hampshire having over 20.9% is mentioned, but there is no detailed breakdown or ranking provided to verify or correct the proposed answers comprehensively.",
+                        "proposed_answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.census.gov/newsroom/facts-for-features/2016/cb16-ff04.html"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower. Massachusetts New Hampshire ranking",
+                        "sources_found": [
+                            {
+                                "title": "Irish immigrants in the United States 2024 This statistical ... - Facebook",
+                                "url": "https://www.facebook.com/100063614234778/posts/irish-immigrants-in-the-united-states-2024this-statistical-image-presents-the-di/1469130451884082/"
+                            },
+                            {
+                                "title": "Maps: How Irish is your state? - KXAN Austin",
+                                "url": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                            },
+                            {
+                                "title": "Americans with Irish ancestry comprise one of the ... - Instagram",
+                                "url": "https://www.instagram.com/p/DHoKiGWtI7F/"
+                            },
+                            {
+                                "title": "Most Irish States in the US: Where Heritage Runs Deepest | Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/the-most-irish-states-in-the-us/"
+                            },
+                            {
+                                "title": "How many Americans claim Irish heritage? See map - USA Today",
+                                "url": "https://www.usatoday.com/story/graphics/2025/03/15/irish-population-in-us-by-state/82381152007/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The best source, KXAN, provides specific percentages for states. The proposed order does not match these percentages. According to KXAN, New Hampshire has the highest percentage (19.2%), followed by Massachusetts (18.3%), Vermont (16.5%), Rhode Island (16.2%), and Maine (15.4%). This corrects the order and values based on authoritative data.",
+                        "proposed_answers": [
+                            "Massachusetts",
+                            "New Hampshire",
+                            "Rhode Island",
+                            "Vermont",
+                            "Maine"
+                        ],
+                        "corrected_answers": [
+                            "New Hampshire",
+                            "Massachusetts",
+                            "Vermont",
+                            "Rhode Island",
+                            "Maine"
+                        ],
+                        "best_source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower. New Hampshire vs Massachusetts ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Most Irish States in the US: Where Heritage Runs Deepest | Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/the-most-irish-states-in-the-us/"
+                            },
+                            {
+                                "title": "States With the Most Americans of Irish Descent",
+                                "url": "https://www.usnews.com/news/best-states/articles/the-most-irish-states"
+                            },
+                            {
+                                "title": "Maps: How Irish is your state? - KXAN Austin",
+                                "url": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                            },
+                            {
+                                "title": "Maine and New Hampshire Rank Among America's Most Irish States",
+                                "url": "https://wjbq.com/maine-new-hampshire-massachusetts-most-irish-states-us/"
+                            },
+                            {
+                                "title": "The most Irish state in America? It's not Massachusetts. - Reddit",
+                                "url": "https://www.reddit.com/r/massachusetts/comments/1besrpd/the_most_irish_state_in_america_its_not/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "Multiple sources consistently rank the states as New Hampshire, Massachusetts, Vermont, Rhode Island, and Maine based on percentage of residents reporting Irish ancestry.",
+                        "best_source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                    },
+                    "question_id": 30,
+                    "final_answers": [
+                        "New Hampshire",
+                        "Massachusetts",
+                        "Vermont",
+                        "Rhode Island",
+                        "Maine"
+                    ],
+                    "final_source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 17, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            },
+                            {
+                                "title": "2026 calendar of sport: Month-by-month guide to huge year of action",
+                                "url": "https://www.espn.com/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
+                                "snippet": "17: Cricket -- England vs Sri Lanka 2nd T20, Cardiff. 17 - 20: Golf -- PGA Championship, Virginia Water. 19: Cricket -- England vs Sri Lanka"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "What are the major festivals and cultural events in March 2026",
+                                "url": "https://stories.gaathastory.com/what-are-the-major-festivals-and-cultural-events-in-march-2026",
+                                "snippet": "# What are the major festivals and cultural events in March 2026. March is one of the most eventful months of the year: it carries end-of-winter celebrations, spring equinox traditions, major faith fe"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Time marches on, but the third month reminds us every day is an occasion. Beyond the more official occasions, March, like every other"
+                            },
+                            {
+                                "title": "March Awareness Months 2026 - Diversity Resources",
+                                "url": "https://www.diversityresources.com/march-awareness-and-heritage-months/",
+                                "snippet": "# March Awareness Months 2026. March Awareness and Heritage Months. *Below is just a sampling of March Awareness and Heritage Months 2026. *Looking for March Awareness months 2026? Here’s an overview "
+                            },
+                            {
+                                "title": "2026 March Holidays Information from Holidays and Observances",
+                                "url": "https://www.holidays-and-observances.com/march-holidays.html",
+                                "snippet": "* National Pig Day - March 1. * National Anthem Day - March 3. * National Jackson Day - March 3. * National Robin Day - March 3. * National Grammar Day - March 4. * National Snack Day - March 4. * Nat"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "March Weekly Observances 2026 · American Chocolate Week (March 15 to March 21) · Butchers' Week (March 2 to March 8) · Celebrate Your Name Week (March 1 to March 7)"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "film & tv festival & conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/film-tv-festival/",
+                                "snippet": "# film & tv festival  & conference march 12–18, 2026. The SXSW Film & TV Festival & Conference is known for its high-caliber and diverse program of film, TV, and XR projects, and serves as a global ga"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 24: BAFTA Television Awards nominations. 26: iHeartRadio Music Awards · April. 2: Anime Awards nominations."
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "Limited Presale — Get the lowest SXSW 2027 badge rate. ### SXSW 2026 Is Here! ### Discover the Experts Who Are Rewriting the Rules of Influence. ### SXSW 2026 Keynotes & Featured Speakers: See Headlin"
+                            },
+                            {
+                                "title": "Sunshine Fest 2026 – March 15-17, 2026, Washington, D.C.",
+                                "url": "https://sunshineweek.org/sunshine-fest/",
+                                "snippet": "In recognition of Sunshine Week, the University of Florida Brechner Freedom of Information Project, MuckRock, and the National Freedom of Information Coalition are organizing the second-annual in-pers"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 17, 2026",
+                        "results": [
+                            {
+                                "title": "Portal:Current events/2026 March 17 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_17",
+                                "snippet": "This page was last edited on 16 March 2026, at 03:30 (UTC). · Content is available under CC BY-SA 4.0 unless otherwise noted."
+                            },
+                            {
+                                "title": "What Happens on March 17, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/17",
+                                "snippet": "# What Happens on March 17, 2026. ## About March 17, 2026. **Day of the Week:** Tuesday. **How Far Away?** 7 days. **Holidays:** St. Patrick's Day (Ireland, United Kingdom). ## No Entries for March 17"
+                            },
+                            {
+                                "title": "ABC World News Tonight with David Muir Full Broadcast - YouTube",
+                                "url": "https://www.youtube.com/watch?v=7W3MgvOwfk0",
+                                "snippet": "[ABC World News Tonight with David Muir Full Broadcast - March 15, 2026](https://www.youtube.com/watch?v=7W3MgvOwfk0). The other was thrown into the deli's basement.](https://www.youtube.com/watch?v=7"
+                            },
+                            {
+                                "title": "Oscars 2026 Recap: See Biggest Wins, Emotional Tributes, More",
+                                "url": "https://www.today.com/video/oscars-2026-highlights-see-biggest-winners-tributes-and-more-259379269883",
+                                "snippet": "March Madness 2026 Brackets Revealed: See the Top Seeds. 03:30. Matt Freese Unveils US Uniforms for 2026 Soccer World ... Highlights. 02:26"
+                            },
+                            {
+                                "title": "USA vs. Dominican Republic 2026 World Baseball Classic - YouTube",
+                                "url": "https://www.youtube.com/watch?v=3NIjRNSsb7c",
+                                "snippet": "Check out Team USA take on Team Dominican Republic during the 2026 World Baseball Classic on March 15th, 2026. Don't forget to subscribe!"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 17",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 17: Rob Lowe, Patrick Duffy - UPI",
+                                "url": "https://www.upi.com/Entertainment_News/2024/03/17/Famous-birthdays-for-March-17-Rob-Lowe-Patrick-Duffy/2731710637336/",
+                                "snippet": "Actor Rob Lowe turns 60 and actor Patrick Duffy turns 75, among the famous birthdays for March 17."
+                            },
+                            {
+                                "title": "Famous Birthdays on March 17",
+                                "url": "https://www.onthisday.com/birthdays/march/17",
+                                "snippet": "* 1876 Frederic Ayres, American composer (From the Plains), born in Binghamton, New York (d. * 1879 Sid Grauman, American entrepreneur, established the Chinese Theatre and Egyptian Theatre, born in In"
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 17, 2021 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2021/03/todays-famous-birthdays-list-for-march-17-2021-includes-celebrities-rob-lowe-gary-sinise.html",
+                                "snippet": "Today's famous birthdays list for March 17, 2021 includes celebrities Rob Lowe, Gary Sinise ; Actor Patrick Duffy turns 72. Fun fact: His 1974"
+                            },
+                            {
+                                "title": "March 17 | Holidays, Birthdays, Events",
+                                "url": "https://nationaltoday.com/march-17-holidays/",
+                                "snippet": "March 17 birthdays ; Alev Aydin · Screenwriter ; Dwight Eubanks · Reality Star ; Grimes · Pop Singer ; Haley Cureton · Reality Star ; Hannah Dasher · Country Singer."
+                            },
+                            {
+                                "title": "March 17 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/march17.html",
+                                "snippet": "TikTok Stars born March 17. Singers born March 17. YouTube Stars born March 17. Roblox Stars born March 17. Reality Stars born March 17. Actors born March"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "March Madness 2026 (NCAA Tournament)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher.",
+                        "connection": "It's peak March Madness, and program legacies are a hot talking point during the tournament."
+                    },
+                    {
+                        "topic": "American Chocolate Week (March 15–21, 2026)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production in the most recent full crop year, from highest to lower.",
+                        "connection": "American Chocolate Week is underway, making cocoa output a timely, tasty topic."
+                    },
+                    {
+                        "topic": "St. Patrick's Day (March 17)",
+                        "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                        "connection": "With St. Patrick’s Day celebrations today, Irish heritage across the U.S. is in the spotlight."
+                    },
+                    {
+                        "topic": "Sunshine Week / Sunshine Fest 2026 (Washington, D.C., March 15–17)",
+                        "suggested_question": "Rank the top 5 U.S. daily newspapers by average weekday circulation (most recent audited data), from largest to smaller.",
+                        "connection": "Sunshine Week highlights transparency and journalism; newspaper reach is a relevant metric."
+                    },
+                    {
+                        "topic": "Spring Equinox week (March 20, 2026)",
+                        "suggested_question": "Rank the top 5 planets by longest rotation period (length of a day), from longest to shorter.",
+                        "connection": "As we mark the equinox and think about day length on Earth, it's a perfect time to compare 'days' across planets."
+                    },
+                    {
+                        "topic": "Spring Break travel surge (March 2026)",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in March (most recent year available), from most to fewer.",
+                        "connection": "March is peak Spring Break travel; airport throughput is a timely travel stat."
+                    },
+                    {
+                        "topic": "2026 soccer kit unveil buzz (sportswear in the news)",
+                        "suggested_question": "Rank the top 5 publicly traded sportswear companies by market capitalization as of March 2026, from largest to smaller.",
+                        "connection": "With national team uniforms unveiled for 2026 soccer, sportswear brands are trending—perfect for a market-cap ranking."
+                    },
+                    {
+                        "topic": "SXSW 2026 (Gaming/Interactive, March 12–18)",
+                        "suggested_question": "Rank the top 5 best-selling video game consoles of all time by cumulative units sold, from most to fewer.",
+                        "connection": "SXSW celebrates interactive entertainment; console sales leaders fit the festival’s gaming buzz."
+                    },
+                    {
+                        "topic": "Spring SAT testing season (March 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by highest average SAT total score (most recent year), from highest to lower.",
+                        "connection": "Many students sit for the SAT in March, making state score comparisons timely."
+                    },
+                    {
+                        "topic": "World Poetry Day (March 21) — fallback",
+                        "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (by country of citizenship at the time of award), from most to fewer. If tied, rank by the earlier average award year.",
+                        "connection": "World Poetry Day spotlights literature; Nobel counts are a clear, verifiable cultural yardstick."
+                    },
+                    {
+                        "topic": "Earth Hour (March 28) — fallback",
+                        "suggested_question": "Rank the top 5 countries by installed wind power capacity (GW), as of the latest global report prior to March 2026, from highest to lower.",
+                        "connection": "Earth Hour focuses on energy awareness; wind capacity rankings highlight clean energy leadership."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "March Madness 2026 (NCAA Tournament)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men's basketball programs by total NCAA Tournament wins (all-time), from most to fewer. If tied on wins, rank the school with the more recent tournament win higher.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on NCAA Tournament wins covers college basketball, which is a distinct topic not addressed by any of the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "American Chocolate Week (March 15–21, 2026)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production in the most recent full crop year, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "Cocoa bean production is unrelated to any of the recent topics, which cover sports, geography, music, film, and oceans/seas.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick's Day (March 17)",
+                        "suggested_question": "Rank the top 5 U.S. states by the percentage of residents reporting Irish ancestry (latest American Community Survey), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Irish ancestry in U.S. states for St. Patrick's Day is distinct from all recent questions, which cover subjects like sports, geography, music, movies, and natural features.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Sunshine Week / Sunshine Fest 2026 (Washington, D.C., March 15–17)",
+                        "suggested_question": "Rank the top 5 U.S. daily newspapers by average weekday circulation (most recent audited data), from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on newspaper circulation, which is unrelated to any of the recent topics that covered sports, geography, music, and film.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring Equinox week (March 20, 2026)",
+                        "suggested_question": "Rank the top 5 planets by longest rotation period (length of a day), from longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about planetary rotation periods involves astronomy, which was not covered in any of the recent questions focusing on sports, geography, music, or film.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring Break travel surge (March 2026)",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic in March (most recent year available), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic covers Spring Break travel trends and airport passenger traffic, which is unrelated to any of the recent questions focused on sports, geography, music, film, or awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "2026 soccer kit unveil buzz (sportswear in the news)",
+                        "suggested_question": "Rank the top 5 publicly traded sportswear companies by market capitalization as of March 2026, from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on market capitalization of sportswear companies, which is unrelated to the themes of athletics performance, geographic features, entertainment awards, or cinema in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 (Gaming/Interactive, March 12–18)",
+                        "suggested_question": "Rank the top 5 best-selling video game consoles of all time by cumulative units sold, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to video game hardware sales, which is distinct from any recent questions covering sports, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring SAT testing season (March 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by highest average SAT total score (most recent year), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about SAT scores relates to education and standardized testing, which is not covered by any of the recent topics focused on sports, geography, music, film, or natural features.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Poetry Day (March 21) — fallback",
+                        "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (by country of citizenship at the time of award), from most to fewer. If tied, rank by the earlier average award year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Nobel Prize in Literature laureates, which is unrelated to any recent themes such as sports, geography, music, or film awards.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Hour (March 28) — fallback",
+                        "suggested_question": "Rank the top 5 countries by installed wind power capacity (GW), as of the latest global report prior to March 2026, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on wind power capacity relates to renewable energy and global reports, which is unrelated to any of the recent questions on sports, geography, arts/entertainment, or natural features.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 30
         }
     ]
 }
