@@ -1049,6 +1049,41 @@
                 "Maine"
             ],
             "source": "https://www.kxan.com/news/national-news/maps-how-irish-is-your-state/"
+        },
+        {
+            "id": 31,
+            "date": "2026-03-18",
+            "question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+            "options": [
+                "UCLA Bruins",
+                "Kentucky Wildcats",
+                "North Carolina Tar Heels",
+                "Duke Blue Devils",
+                "UConn Huskies",
+                "Indiana Hoosiers",
+                "Kansas Jayhawks",
+                "Villanova Wildcats",
+                "Louisville Cardinals",
+                "Michigan State Spartans",
+                "Florida Gators",
+                "NC State Wolfpack",
+                "Cincinnati Bearcats",
+                "San Francisco Dons",
+                "Oklahoma State Cowboys",
+                "Arizona Wildcats",
+                "Michigan Wolverines",
+                "UNLV Runnin' Rebels",
+                "Syracuse Orange",
+                "Baylor Bears"
+            ],
+            "answers": [
+                "UCLA Bruins",
+                "Kentucky Wildcats",
+                "North Carolina Tar Heels",
+                "Duke Blue Devils",
+                "UConn Huskies"
+            ],
+            "source": "https://www.si.com/college-basketball/the-college-basketball-teams-with-the-most-national-championships"
         }
     ]
 }

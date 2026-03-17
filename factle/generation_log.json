@@ -27315,6 +27315,494 @@
                 ]
             },
             "question_id": 30
+        },
+        {
+            "date": "2026-03-18",
+            "topics_discovered": [
+                {
+                    "topic": "March Madness (NCAA Basketball)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+                    "connection": "March Madness is underway in March 2026, making college basketball history especially timely."
+                },
+                {
+                    "topic": "NASA ‘What’s Up’ and Artemis II buzz",
+                    "suggested_question": "Rank the top 5 countries by number of successful soft landings on the Moon (all-time), from most to fewer. If tied, rank by the earlier first soft landing.",
+                    "connection": "NASA’s March 2026 skywatching highlights and Artemis II updates put lunar exploration in the spotlight."
+                },
+                {
+                    "topic": "SXSW Innovation Conference (tech and startups)",
+                    "suggested_question": "Rank the top 5 smartphone manufacturers by global shipments in 2025 (full year), from most to fewer.",
+                    "connection": "SXSW’s Innovation Conference (March 12–18, 2026) focuses on tech trends—smartphone market leaders are a hot, measurable benchmark."
+                },
+                {
+                    "topic": "American Chocolate Week (March 15–21, 2026)",
+                    "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO statistics), from highest to lower.",
+                    "connection": "It’s American Chocolate Week, a perfect moment to spotlight the world’s top cocoa producers."
+                },
+                {
+                    "topic": "Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries with the highest percentage of women in the lower or single house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                    "connection": "Women’s History Month invites data-driven reflections on women’s representation in government."
+                },
+                {
+                    "topic": "Holi celebrations (March 2026)",
+                    "suggested_question": "Rank the top 5 countries by Hindu population (latest available estimates), from most to fewer.",
+                    "connection": "With Holi being celebrated in March, global Hindu demographics are timely and informative."
+                },
+                {
+                    "topic": "Sutton Foster’s 50th birthday (March 18)",
+                    "suggested_question": "Rank the top 5 performers by number of Tony Awards for acting, from most to fewer. If tied, rank by the earlier first acting Tony win.",
+                    "connection": "Broadway star Sutton Foster turns 50 today; ranking acting Tony leaders ties into theater’s awards legacy."
+                },
+                {
+                    "topic": "Sustainability themes highlighted in March events",
+                    "suggested_question": "Rank the top 5 countries by total installed solar photovoltaic capacity (GW, cumulative, latest year), from most to fewer.",
+                    "connection": "March features many innovation and sustainability conversations (including at SXSW), making solar capacity leaders a timely metric."
+                },
+                {
+                    "topic": "Global holidays and language observances in March",
+                    "suggested_question": "Rank the top 5 languages by the number of sovereign countries where they have official status, from most to fewer. If tied, rank by the greater total number of speakers.",
+                    "connection": "With numerous international observances in March, a global language lens is seasonally relevant and data-driven."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK – Spring travel season",
+                    "suggested_question": "Rank the top 5 U.S. national parks by annual visitors (latest National Park Service statistics), from most to fewer.",
+                    "connection": "Spring break travel ramps up in March; national park visitation leaders are timely and verifiable."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK – Aviation ramps for spring/summer travel",
+                    "suggested_question": "Rank the top 5 airlines by passengers carried worldwide (latest IATA year), from most to fewer.",
+                    "connection": "As travel season approaches, airline passenger leaders provide a clear, current benchmark."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "March Madness (NCAA Basketball)",
+                    "suggested_question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+                    "connection": "March Madness is underway in March 2026, making college basketball history especially timely.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about NCAA basketball championships is distinct both in topic (college basketball) and criteria (national championships won) from all previously used questions, which cover a wide variety of other subjects such as geography, entertainment, and different sports."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+                        "answers": [
+                            "UCLA Bruins",
+                            "Kentucky Wildcats",
+                            "UConn Huskies",
+                            "North Carolina Tar Heels",
+                            "Duke Blue Devils"
+                        ],
+                        "distractors": [
+                            "Indiana Hoosiers",
+                            "Kansas Jayhawks",
+                            "Villanova Wildcats",
+                            "Louisville Cardinals",
+                            "Michigan State Spartans",
+                            "Florida Gators",
+                            "NC State Wolfpack",
+                            "Cincinnati Bearcats",
+                            "San Francisco Dons",
+                            "Oklahoma State Cowboys",
+                            "Arizona Wildcats",
+                            "Michigan Wolverines",
+                            "UNLV Runnin' Rebels",
+                            "Syracuse Orange",
+                            "Baylor Bears"
+                        ],
+                        "suggested_source": "https://www.ncaa.com/news/basketball-men/article/2024-04-08/college-basketball-champions-complete-list-ncaa-mens-tournament-winners"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most NCAA men's basketball championships by school site:ncaa.com 2024",
+                        "sources_found": [
+                            {
+                                "title": "NCAA men's basketball champions from 1939 to today",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/ncaa-mens-basketball-champions-1939-today"
+                            },
+                            {
+                                "title": "UConn is the nation's top pick to win the 2024 NCAA men's ...",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2024-03-21/uconn-nations-top-pick-win-2024-ncaa-mens-basketball-tournament"
+                            },
+                            {
+                                "title": "2024 NCAA bracket: Scores, stats, for March Madness men's ...",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2024-12-06/2024-ncaa-bracket-scores-stats-march-madness-mens-tournament"
+                            },
+                            {
+                                "title": "NIT history | NCAA.com",
+                                "url": "https://www.ncaa.com/news/basketball-men/article/2024-02-05/nit-history"
+                            },
+                            {
+                                "title": "The most-picked March Madness champion every year since 2014",
+                                "url": "https://www.ncaa.com/news/basketball-men/quest-perfect-bracket/2025-04-15/most-picked-march-madness-champion-every-year-2014"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "From the NCAA official source, UCLA has 11 championships, Kentucky has 8, North Carolina and UConn both have 6, and Duke has 5. UConn most recently won in 2024, which is more recent than North Carolina's last championship in 2017, so UConn is ranked higher than North Carolina despite having the same number of championships. Therefore, the order provided in the question is incorrect and has been corrected.",
+                        "proposed_answers": [
+                            "UCLA Bruins",
+                            "Kentucky Wildcats",
+                            "UConn Huskies",
+                            "North Carolina Tar Heels",
+                            "Duke Blue Devils"
+                        ],
+                        "corrected_answers": [
+                            "UCLA Bruins",
+                            "Kentucky Wildcats",
+                            "North Carolina Tar Heels",
+                            "UConn Huskies",
+                            "Duke Blue Devils"
+                        ],
+                        "best_source": "https://www.ncaa.com/news/basketball-men/article/2025-04-07/ncaa-mens-basketball-champions-1939-today"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year. UCLA Bruins vs Kentucky Wildcats ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top NCAA Division I Men's Basketball Programs Ranked ... - 2aDays",
+                                "url": "https://www.2adays.com/blog/top-ncaa-division-i-mens-basketball-programs-ranked-by-championship-titles/"
+                            },
+                            {
+                                "title": "College Basketball Teams with the Most National Titles",
+                                "url": "https://hailfloridahail.com/college-basketball-teams-with-the-most-national-titles"
+                            },
+                            {
+                                "title": "The College Basketball Teams with the Most National Championships",
+                                "url": "https://www.si.com/college-basketball/the-college-basketball-teams-with-the-most-national-championships"
+                            },
+                            {
+                                "title": "List of schools with the most NCAA Division I men's basketball ...",
+                                "url": "https://www.britannica.com/sports/list-of-NCAA-Division-I-mens-basketball-champions"
+                            },
+                            {
+                                "title": "Who has won the most men's NCAA basketball championships?",
+                                "url": "https://www.espn.com/mens-college-basketball/story/_/id/39600567/who-won-most-mens-ncaa-basketball-championships"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the provided sources indicating UCLA (11 titles, most recent 1995), Kentucky (8 titles, most recent 2012), North Carolina (6 titles, most recent 2017), UConn (5 titles, most recent 2023), and Duke (5 titles, most recent 2015). The tie between UConn and Duke is resolved based on UConn's more recent championship.",
+                        "best_source": "https://www.si.com/college-basketball/the-college-basketball-teams-with-the-most-national-championships"
+                    },
+                    "question_id": 31,
+                    "final_answers": [
+                        "UCLA Bruins",
+                        "Kentucky Wildcats",
+                        "North Carolina Tar Heels",
+                        "Duke Blue Devils",
+                        "UConn Huskies"
+                    ],
+                    "final_source": "https://www.si.com/college-basketball/the-college-basketball-teams-with-the-most-national-championships"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 18, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Holloway vs Oliveira 2, UFC Fight Night: Emmett vs"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "Sports in 2026 describes the year's events in world sport. The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "MARCH ; 1-8, _, Bowling, PBA, U.S. Open, Indianapolis. ; 3-8, _, Ice skating, ISU Figure Skating Junior World Championships, Tallinn, Estonia. ; 4-"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Global Holidays and Traditions - March 2026",
+                                "url": "https://www.linkedin.com/pulse/global-holidays-traditions-march-2026-pete-karolczak-8pohc",
+                                "snippet": "This year, we celebrate on March 3rd. On the night of the Chinese Lantern Festival, streets are decorated with colorful lanterns, often with"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2026",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Time marches on, but the third month reminds us every day is an occasion. Beyond the more official occasions, March, like every other"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 ...",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "March Weekly Observances 2026 · American Chocolate Week (March 15 to March 21) · Butchers' Week (March 2 to March 8) · Celebrate Your Name Week (March 1 to March 7)"
+                            },
+                            {
+                                "title": "2026 March Holidays Information from ...",
+                                "url": "https://www.holidays-and-observances.com/march-holidays.html",
+                                "snippet": "* National Pig Day - March 1. * National Anthem Day - March 3. * National Jackson Day - March 3. * National Robin Day - March 3. * National Grammar Day - March 4. * National Snack Day - March 4. * Nat"
+                            },
+                            {
+                                "title": "March Awareness & Heritage Months: A Complete 2026 ...",
+                                "url": "https://www.verbate.io/knowledge-center/march-awareness-heritage-months",
+                                "snippet": "From **Women’s History Month** and **Irish American Heritage Month** to **Purim**, **Holi**, and **Eid al-Fitr**, March gives ERG leaders and people teams a powerful opportunity to blend education wit"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "The Majors 2026 – Conferences, Festivals, Galas and More To ...",
+                                "url": "https://asithappens.co/the-majors-conferences-festivals-galas-and-more-to-check-for-in-2026/",
+                                "snippet": "What: A two week-long celebration of film, art and culture, will take place February 9–16, 2026, in Los Angeles at the Cinemark Baldwin Hills & XD and Baldwin Hills Crenshaw Plaza with film screenings"
+                            },
+                            {
+                                "title": "Colossal ALL IN 2026 Awards Ceremony & Celebration - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/colossal-all-in-2026-awards-ceremony-celebration-tickets-1977670890872",
+                                "snippet": "The 12th Annual NOVA Fest Awards Ceremony. Sat, 11 April • 13:30 EDT ; She Builds Awards Ceremony & Annual Fundraiser. Fri, 27 March • 06:30 EDT."
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            },
+                            {
+                                "title": "WATCH Awards Ceremony Tickets Mar 22, 2026 Alexandria, VA",
+                                "url": "https://www.ticketmaster.com/watch-awards-ceremony-alexandria-virginia-03-22-2026/event/1500642EB595874B",
+                                "snippet": "Buy WATCH Awards Ceremony tickets at the Birchmere in Alexandria, VA for Mar 22, 2026 at Ticketmaster."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 18, 2026",
+                        "results": [
+                            {
+                                "title": "U.S. and World News Headlines : NPR",
+                                "url": "https://www.npr.org/sections/news/",
+                                "snippet": "## [Iran expert says Trump's 'war of choice' has morphed into a 'war of necessity'](https://www.npr.org/2026/03/17/nx-s1-5750397/iran-war-trump-karim-sadjadpour). understood what he was getting into.\""
+                            },
+                            {
+                                "title": "What's Up: March 2026 Skywatching Tips from NASA - NASA Science",
+                                "url": "https://science.nasa.gov/solar-system/whats-up-march-2026-skywatching-tips-from-nasa/",
+                                "snippet": "[![Image 3: Agenda diaria de la misión a la Luna de Artemis II de la NASA](https://www.nasa.gov/wp-content/uploads/2026/03/suit-patch.jpg?w=1024) 11 min read ### NASA’s Artemis II Moon Mission Daily A"
+                            },
+                            {
+                                "title": "World News Headlines - US News and World Report",
+                                "url": "https://www.usnews.com/news/world",
+                                "snippet": "[News](https://www.usnews.com/news). *   [News](https://www.usnews.com/news). *   [Capitol Chats](https://www.usnews.com/news/capitol-chats). *   [Elections](https://www.usnews.com/news/elections). * "
+                            },
+                            {
+                                "title": "Portal:Current events - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+                                "snippet": "Topics in the news · 2026 Iranian strikes on Saudi Arabia. Five U.S. warplanes are damaged in an Iranian drone strike on Prince Sultan Air Base, Saudi Arabia."
+                            },
+                            {
+                                "title": "Innovation Conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/innovation-conference/",
+                                "snippet": "*   [Events](https://sxsw.com/festivals/innovation-conference/#). *   [Innovation](https://sxsw.com/festivals/innovation-conference/). *   [Keynotes & Featured Sessions](https://sxsw.com/keynotes/). *"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 18",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 18",
+                                "url": "https://www.onthisday.com/birthdays/march/18",
+                                "snippet": "* 1887 Frank Moran, American heavyweight boxer and film actor, born in Cleveland, Ohio (d. * 1905 John Kirkpatrick, American pianist (Concord Sonata) and musicologist (Charles Ives Archives), born in "
+                            },
+                            {
+                                "title": "Famous birthdays for March 18: Sutton Foster, Thomas Ian ...",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/18/Famous-birthdays-for-March-18-Sutton-Foster-Thomas-Ian-Griffith/2061742263348/",
+                                "snippet": "Actor Sutton Foster turns 50 and actor Thomas Ian Griffith turns 63, among the famous birthdays for March 18."
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 18, 2022 includes ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/03/todays-famous-birthdays-list-for-march-18-2022-includes-celebrities-adam-levine-queen-latifah.html",
+                                "snippet": "Singer Irene Cara is 63. Keyboardist Karen Grotberg of The Jayhawks is 63. Actor Geoffrey Owens (“The Cosby Show”) is 61. Actor Thomas Ian"
+                            },
+                            {
+                                "title": "March 18 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-18/",
+                                "snippet": "Famous Mar 18 birthday celebrants include George Plimpton, Marvin Humes, Sutton Foster, Grant Hart, Vanessa L. Williams, John Macurdy, Jerry Cantrell, Luci"
+                            },
+                            {
+                                "title": "March 18 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/march18.html",
+                                "snippet": "YouTube Stars born March 18. Actresses born March 18. Singers born March 18. TikTok Stars born March 18. Instagram Stars born March 18. Rappers born March"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "March Madness (NCAA Basketball)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+                        "connection": "March Madness is underway in March 2026, making college basketball history especially timely."
+                    },
+                    {
+                        "topic": "NASA ‘What’s Up’ and Artemis II buzz",
+                        "suggested_question": "Rank the top 5 countries by number of successful soft landings on the Moon (all-time), from most to fewer. If tied, rank by the earlier first soft landing.",
+                        "connection": "NASA’s March 2026 skywatching highlights and Artemis II updates put lunar exploration in the spotlight."
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (tech and startups)",
+                        "suggested_question": "Rank the top 5 smartphone manufacturers by global shipments in 2025 (full year), from most to fewer.",
+                        "connection": "SXSW’s Innovation Conference (March 12–18, 2026) focuses on tech trends—smartphone market leaders are a hot, measurable benchmark."
+                    },
+                    {
+                        "topic": "American Chocolate Week (March 15–21, 2026)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO statistics), from highest to lower.",
+                        "connection": "It’s American Chocolate Week, a perfect moment to spotlight the world’s top cocoa producers."
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries with the highest percentage of women in the lower or single house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                        "connection": "Women’s History Month invites data-driven reflections on women’s representation in government."
+                    },
+                    {
+                        "topic": "Holi celebrations (March 2026)",
+                        "suggested_question": "Rank the top 5 countries by Hindu population (latest available estimates), from most to fewer.",
+                        "connection": "With Holi being celebrated in March, global Hindu demographics are timely and informative."
+                    },
+                    {
+                        "topic": "Sutton Foster’s 50th birthday (March 18)",
+                        "suggested_question": "Rank the top 5 performers by number of Tony Awards for acting, from most to fewer. If tied, rank by the earlier first acting Tony win.",
+                        "connection": "Broadway star Sutton Foster turns 50 today; ranking acting Tony leaders ties into theater’s awards legacy."
+                    },
+                    {
+                        "topic": "Sustainability themes highlighted in March events",
+                        "suggested_question": "Rank the top 5 countries by total installed solar photovoltaic capacity (GW, cumulative, latest year), from most to fewer.",
+                        "connection": "March features many innovation and sustainability conversations (including at SXSW), making solar capacity leaders a timely metric."
+                    },
+                    {
+                        "topic": "Global holidays and language observances in March",
+                        "suggested_question": "Rank the top 5 languages by the number of sovereign countries where they have official status, from most to fewer. If tied, rank by the greater total number of speakers.",
+                        "connection": "With numerous international observances in March, a global language lens is seasonally relevant and data-driven."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK – Spring travel season",
+                        "suggested_question": "Rank the top 5 U.S. national parks by annual visitors (latest National Park Service statistics), from most to fewer.",
+                        "connection": "Spring break travel ramps up in March; national park visitation leaders are timely and verifiable."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK – Aviation ramps for spring/summer travel",
+                        "suggested_question": "Rank the top 5 airlines by passengers carried worldwide (latest IATA year), from most to fewer.",
+                        "connection": "As travel season approaches, airline passenger leaders provide a clear, current benchmark."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "March Madness (NCAA Basketball)",
+                        "suggested_question": "Rank the top 5 NCAA Division I men’s basketball programs by number of national championships won (official NCAA-recognized titles), from most to fewer. If tied on titles, rank by the more recent championship year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on March Madness (NCAA Basketball) focuses on sports, specifically college basketball championships, which is not related to any of the recent topics that cover athletics (pole vaulting), geography, music, film awards, or demographics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "NASA ‘What’s Up’ and Artemis II buzz",
+                        "suggested_question": "Rank the top 5 countries by number of successful soft landings on the Moon (all-time), from most to fewer. If tied, rank by the earlier first soft landing.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to lunar exploration and successful soft landings on the Moon, which is unrelated to any of the recent questions covering sports, geography, music, film, or ancestry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (tech and startups)",
+                        "suggested_question": "Rank the top 5 smartphone manufacturers by global shipments in 2025 (full year), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on technology and startups at SXSW and smartphone manufacturers, which does not overlap with any of the broad themes of the recent questions, such as sports, geography, music, film, or ancestry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "American Chocolate Week (March 15–21, 2026)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO statistics), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on cocoa bean production and American Chocolate Week does not overlap with any recently covered topics, which ranged from sports and geography to entertainment and ancestry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries with the highest percentage of women in the lower or single house of national parliament (latest Inter-Parliamentary Union data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on women's representation in national parliaments, which is unrelated to any recent questions about sports, geography, music, film, or ancestry. It introduces a new theme centered on gender and political representation.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Holi celebrations (March 2026)",
+                        "suggested_question": "Rank the top 5 countries by Hindu population (latest available estimates), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Hindu population and cultural celebrations, which does not overlap thematically with any recent topics about sports, geography, music, film, ancestry, or natural features.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Sutton Foster’s 50th birthday (March 18)",
+                        "suggested_question": "Rank the top 5 performers by number of Tony Awards for acting, from most to fewer. If tied, rank by the earlier first acting Tony win.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Broadway and Tony Awards, which is unrelated to any of the recent questions covering athletics, geography, music, film awards, or demographics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Sustainability themes highlighted in March events",
+                        "suggested_question": "Rank the top 5 countries by total installed solar photovoltaic capacity (GW, cumulative, latest year), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on sustainability and solar energy, which has no thematic overlap with the recently used questions that cover sports, geography, entertainment, and ancestry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Global holidays and language observances in March",
+                        "suggested_question": "Rank the top 5 languages by the number of sovereign countries where they have official status, from most to fewer. If tied, rank by the greater total number of speakers.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about languages and their official status does not overlap with recently covered topics, which focus on sports, geography, music, films, and ancestry data.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK – Spring travel season",
+                        "suggested_question": "Rank the top 5 U.S. national parks by annual visitors (latest National Park Service statistics), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about U.S. national parks and their annual visitors focuses on tourism and nature statistics, which is not covered in any of the recent questions that dealt with sports, geography, entertainment, or ancestry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK – Aviation ramps for spring/summer travel",
+                        "suggested_question": "Rank the top 5 airlines by passengers carried worldwide (latest IATA year), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic deals with global airlines and passenger statistics, which does not overlap thematically with any of the recent questions that focused on athletics, geography, music, film, or ancestry demographics.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 31
         }
     ]
 }
