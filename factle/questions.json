@@ -1084,6 +1084,41 @@
                 "UConn Huskies"
             ],
             "source": "https://www.si.com/college-basketball/the-college-basketball-teams-with-the-most-national-championships"
+        },
+        {
+            "id": 32,
+            "date": "2026-03-19",
+            "question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production, according to the latest FAO data.",
+            "options": [
+                "Egypt",
+                "Saudi Arabia",
+                "Algeria",
+                "Iran",
+                "Iraq",
+                "Pakistan",
+                "United Arab Emirates",
+                "Oman",
+                "Tunisia",
+                "Sudan",
+                "Libya",
+                "Morocco",
+                "Yemen",
+                "Jordan",
+                "Israel",
+                "Syria",
+                "Qatar",
+                "Kuwait",
+                "Bahrain",
+                "Mauritania"
+            ],
+            "answers": [
+                "Egypt",
+                "Saudi Arabia",
+                "Algeria",
+                "Iran",
+                "Iraq"
+            ],
+            "source": "https://www.helgilibrary.com/charts/which-country-produces-the-most-dates-41/"
         }
     ]
 }

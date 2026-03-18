@@ -27803,6 +27803,1092 @@
                 ]
             },
             "question_id": 31
+        },
+        {
+            "date": "2026-03-19",
+            "topics_discovered": [
+                {
+                    "topic": "MLB Opening Day (late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB players by most career Opening Day home runs.",
+                    "connection": "MLB Opening Day is imminent, making Opening Day records a timely baseball topic."
+                },
+                {
+                    "topic": "BAFTA Television Awards (nominations on March 24, 2026)",
+                    "suggested_question": "Rank the top 5 TV series with the most BAFTA Television Awards wins (programme categories, all-time).",
+                    "connection": "With BAFTA TV nominations due this month, a look at historic TV winners is highly relevant."
+                },
+                {
+                    "topic": "Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data).",
+                    "connection": "March is Women’s History Month, spotlighting gender representation milestones in government."
+                },
+                {
+                    "topic": "Ramadan/Eid al-Fitr (March 2026)",
+                    "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (latest FAO data).",
+                    "connection": "Dates are a staple for breaking the fast during Ramadan, tying agriculture to seasonal observance."
+                },
+                {
+                    "topic": "Japan fiscal year end (March)",
+                    "suggested_question": "Rank the top 5 Japanese companies by market capitalization (as of the latest market close).",
+                    "connection": "Many Japanese firms close their fiscal year in March, putting market leaders in focus."
+                },
+                {
+                    "topic": "Commonwealth Day (March 9, 2026) context",
+                    "suggested_question": "Rank the top 5 British monarchs by length of reign (in days), from longest to shorter.",
+                    "connection": "Commonwealth Day prompts interest in the UK and its monarchy, making reign lengths topical."
+                },
+                {
+                    "topic": "World Poetry Day (March 21, 2026)",
+                    "suggested_question": "Rank the top 5 countries with the most Nobel Prize in Literature laureates (by citizenship at the time of award).",
+                    "connection": "World Poetry Day celebrates literary achievement, inviting a look at Nobel literature leaders."
+                },
+                {
+                    "topic": "SXSW’s startup focus (festival ran March 12–18, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. metro areas by number of unicorn startups headquartered there (latest CB Insights/Crunchbase counts).",
+                    "connection": "SXSW spotlights startups, so mapping where unicorns cluster is timely and tech-focused."
+                },
+                {
+                    "topic": "World Happiness Report (released around March 20 annually)",
+                    "suggested_question": "Rank the top 5 countries in the latest World Happiness Report (overall score), from highest to lower.",
+                    "connection": "The World Happiness Report is traditionally published in March, making its top-ranked countries timely."
+                },
+                {
+                    "topic": "Fallback – Nowruz (Persian New Year, around March 20)",
+                    "suggested_question": "Rank the top 5 countries by saffron production (latest available data).",
+                    "connection": "Nowruz cuisine commonly uses saffron, so a production ranking is a seasonal cultural fallback."
+                },
+                {
+                    "topic": "Fallback – International Day of Forests (March 21)",
+                    "suggested_question": "Rank the top 5 countries by net forest area gain over the most recent decade (FAO Global Forest Resources Assessment).",
+                    "connection": "Forests are highlighted this week, making an evidence-based forest recovery ranking a fitting fallback."
+                },
+                {
+                    "topic": "Fallback – Cherry blossom season (late March–April)",
+                    "suggested_question": "Rank the top 5 countries by sweet cherry production (latest FAO data).",
+                    "connection": "As cherry blossoms bloom, a cherry production ranking offers a seasonal, nature-themed fallback."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "MLB Opening Day (late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB players by most career Opening Day home runs.",
+                    "connection": "MLB Opening Day is imminent, making Opening Day records a timely baseball topic.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on MLB Opening Day home runs, which is a unique sports statistic not covered by any previous question."
+                    },
+                    "generated_question": {
+                        "question": "As of Opening Day 2026, rank the top 5 MLB players by most career Opening Day home runs.",
+                        "answers": [
+                            "Frank Robinson",
+                            "Ken Griffey Jr.",
+                            "Adam Dunn",
+                            "Eddie Mathews",
+                            "Gary Carter"
+                        ],
+                        "distractors": [
+                            "Babe Ruth",
+                            "Hank Aaron",
+                            "Willie Mays",
+                            "Mickey Mantle",
+                            "Mike Trout",
+                            "Bryce Harper",
+                            "Giancarlo Stanton",
+                            "Alex Rodriguez",
+                            "David Ortiz",
+                            "Nelson Cruz",
+                            "George Springer",
+                            "Derek Jeter",
+                            "Mookie Betts",
+                            "Aaron Judge",
+                            "Paul Goldschmidt"
+                        ],
+                        "suggested_source": "https://www.mlb.com/news/most-opening-day-home-runs-c268877542"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most Opening Day home runs MLB all time Frank Robinson Ken Griffey Jr Adam Dunn Eddie Mathews Gary Carter",
+                        "sources_found": [
+                            {
+                                "title": "Most career Opening Day home runs - MLB.com",
+                                "url": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                            }
+                        ],
+                        "search_errors": [
+                            "attempt 1/3: TimeoutError: Request timed out after 60 seconds."
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data indicates that Frank Robinson and Adam Dunn are tied for the most career Opening Day home runs with 8 each. Willie Mays follows with 7, and Barry Bonds and Gary Carter are tied at 6 home runs each. Since the original order was incorrect in general ranking and excluded Willie Mays and Barry Bonds, the correct ranking has been provided based on the data for the most Opening Day home runs.",
+                        "proposed_answers": [
+                            "Frank Robinson",
+                            "Ken Griffey Jr.",
+                            "Adam Dunn",
+                            "Eddie Mathews",
+                            "Gary Carter"
+                        ],
+                        "corrected_answers": [
+                            "Frank Robinson",
+                            "Adam Dunn",
+                            "Willie Mays",
+                            "Barry Bonds",
+                            "Gary Carter"
+                        ],
+                        "best_source": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "As of Opening Day 2026, rank the top 5 MLB players by most career Opening Day home runs. Frank Robinson vs Adam Dunn ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Good start: Opening Day's top performers - MLB.com",
+                                "url": "https://www.mlb.com/news/best-career-opening-day-performers"
+                            },
+                            {
+                                "title": "Top 10 MLB hitters with most Opening Day home runs - Sportskeeda",
+                                "url": "https://www.sportskeeda.com/baseball/top-10-mlb-hitters-opening-day-home-runs"
+                            },
+                            {
+                                "title": "Most career Opening Day home runs - MLB.com",
+                                "url": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                            },
+                            {
+                                "title": "Adam Dunn Stats, Age, Position, Height, Weight, Fantasy & News",
+                                "url": "https://www.mlb.com/player/adam-dunn-276055"
+                            },
+                            {
+                                "title": "MLB Home Runs All-Time Top 1,000 Leaders - Baseball Almanac",
+                                "url": "https://www.baseball-almanac.com/hitting/hihr1.shtml"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Frank Robinson at the top spot, but the sources indicate that both Adam Dunn, Frank Robinson, and Ken Griffey Jr. are tied with eight career Opening Day home runs. This tie affects the strict ordering of the answers. Furthermore, other claimed rankings (Willie Mays, Barry Bonds, Gary Carter) are not explicitly verifiable within the provided sources.",
+                        "best_source": "https://www.mlb.com/news/best-career-opening-day-performers"
+                    },
+                    "verification_search_iter1": {
+                        "query": "most Opening Day home runs MLB all time Frank Robinson Ken Griffey Jr Adam Dunn Eddie Mathews Gary Carter",
+                        "sources_found": [
+                            {
+                                "title": "Most career Opening Day home runs - MLB.com",
+                                "url": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source data does not offer clear information on the number of career Opening Day home runs or the ranking of players like Frank Robinson, Adam Dunn, Willie Mays, Barry Bonds, and Gary Carter. While the source mentions some details about individual performances, it does not explicitly list or rank players by Opening Day home runs. Therefore, it is not possible to verify or correct the proposed answers with the given information.",
+                        "proposed_answers": [
+                            "Frank Robinson",
+                            "Adam Dunn",
+                            "Willie Mays",
+                            "Barry Bonds",
+                            "Gary Carter"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                    },
+                    "verification_search_iter2": {
+                        "query": "As of Opening Day 2026, rank the top 5 MLB players by most career Opening Day home runs. Frank Robinson Adam Dunn ranking",
+                        "sources_found": [
+                            {
+                                "title": "MLB Rank 2026: Ranking baseball's top 100 players - TSN",
+                                "url": "https://www.tsn.ca/mlb/article/guerrero-jr-cease-among-five-blue-jays-to-crack-espns-top-100-mlb-players-for-2026-n1-48053802/"
+                            },
+                            {
+                                "title": "Most career Opening Day home runs - MLB.com",
+                                "url": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                            },
+                            {
+                                "title": "March 17, 2026 MLB Baseball Daily All Leaders - ESPN",
+                                "url": "http://www.espn.com/mlb/stats/dailyleaders"
+                            },
+                            {
+                                "title": "Best MLB Players by Position 2026 - Sportsnaut",
+                                "url": "https://sportsnaut.com/mlb/best-mlb-players-by-position-2026"
+                            },
+                            {
+                                "title": "Ranking 26 best MLB players in 2026 World Baseball Classic, from ...",
+                                "url": "https://www.sportingnews.com/us/mlb/news/ranking-mlb-players-2026-world-baseball-classic/fb01c6ed41ee29451b8eb5dd"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific data or rankings about the top 5 MLB players by most career Opening Day home runs as of Opening Day 2026. The MLB.com source reference seems relevant to the topic but does not give complete or clear specifics to verify the given answers or order.",
+                        "proposed_answers": [
+                            "Frank Robinson",
+                            "Adam Dunn",
+                            "Willie Mays",
+                            "Barry Bonds",
+                            "Gary Carter"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/most-career-opening-day-home-runs"
+                    }
+                },
+                {
+                    "topic": "BAFTA Television Awards (nominations on March 24, 2026)",
+                    "suggested_question": "Rank the top 5 TV series with the most BAFTA Television Awards wins (programme categories, all-time).",
+                    "connection": "With BAFTA TV nominations due this month, a look at historic TV winners is highly relevant.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about TV series with the most BAFTA Television Awards wins is focused on awards in the television industry, which is distinct from any previous question areas like geography, sports, or other award-related topics such as the Oscars or Grammys."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 TV series with the most BAFTA Television Awards wins in programme categories (all-time, as of March 24, 2026).",
+                        "answers": [
+                            "EastEnders",
+                            "Coronation Street",
+                            "Gogglebox",
+                            "Strictly Come Dancing",
+                            "Ant & Dec’s Saturday Night Takeaway"
+                        ],
+                        "distractors": [
+                            "The Graham Norton Show",
+                            "Top Gear",
+                            "The X Factor",
+                            "Britain’s Got Talent",
+                            "Emmerdale",
+                            "Casualty",
+                            "Holby City",
+                            "The Bill",
+                            "The Traitors",
+                            "Love Island",
+                            "The Great British Bake Off",
+                            "University Challenge",
+                            "Taskmaster",
+                            "The Crown",
+                            "Sherlock"
+                        ],
+                        "suggested_source": "https://awards.bafta.org/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "site:awards.bafta.org BAFTA Television Awards programme categories most wins EastEnders Coronation Street Gogglebox Strictly Come Dancing",
+                        "sources_found": [
+                            {
+                                "title": "Awards - Bafta",
+                                "url": "http://awards.bafta.org"
+                            },
+                            {
+                                "title": "Awards - Bafta",
+                                "url": "https://awards.bafta.org/award/2003/television/www.bafta.org/www.bafta.org/guru"
+                            },
+                            {
+                                "title": "Awards - Bafta",
+                                "url": "https://awards.bafta.org/award/1974/television"
+                            },
+                            {
+                                "title": "Awards - Bafta",
+                                "url": "http://awards.bafta.org/keyword-search?keywords=ennio+morricone"
+                            },
+                            {
+                                "title": "Awards - Bafta",
+                                "url": "http://awards.bafta.org/award/2016"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources from the BAFTA website do not contain clear data or rankings on the all-time top 5 TV series with the most BAFTA Television Awards wins in programme categories. The information needed to verify or correct the question, including specific programme category wins for each series, is not available in the listed sources.",
+                        "proposed_answers": [
+                            "EastEnders",
+                            "Coronation Street",
+                            "Gogglebox",
+                            "Strictly Come Dancing",
+                            "Ant & Dec’s Saturday Night Takeaway"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://awards.bafta.org/award/1974/television"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 TV series with the most BAFTA Television Awards wins in programme categories (all-time, as of March 24, 2026). EastEnders Coronation Street ranking",
+                        "sources_found": [
+                            {
+                                "title": "TV shows with the most BAFTAs of all-time : r/BritishTV",
+                                "url": "https://www.reddit.com/r/BritishTV/comments/1pw7rke/tv_shows_with_the_most_baftas_of_alltime/"
+                            },
+                            {
+                                "title": "Most National Television Awards for Best Serial Drama",
+                                "url": "https://www.guinnessworldrecords.com/world-records/725518-most-national-television-awards-for-best-serial-drama"
+                            },
+                            {
+                                "title": "BAFTA Winners - TV Shows",
+                                "url": "https://www.imdb.com/es/list/ls538625886/copy/"
+                            },
+                            {
+                                "title": "BAFTA TV Awards Winners: Complete List",
+                                "url": "https://www.yahoo.com/entertainment/bafta-tv-awards-winners-complete-list-205719364.html"
+                            },
+                            {
+                                "title": "Bafta's Best TV Drama winners ranked, from Happy Valley ...",
+                                "url": "https://www.aol.com/news/bafta-best-tv-drama-winners-050000907.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not contain sufficient data to rank the top 5 TV series with the most BAFTA Television Awards wins in programme categories. None of the sources list the number of BAFTA wins for the shows identified in the proposed answers, nor do they confirm their order. The closest sources discuss BAFTA wins for specific shows but not in a comprehensive or comparable format. Thus, it is not possible to verify or correct the proposed ordering.",
+                        "proposed_answers": [
+                            "EastEnders",
+                            "Coronation Street",
+                            "Gogglebox",
+                            "Strictly Come Dancing",
+                            "Ant & Dec’s Saturday Night Takeaway"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.imdb.com/es/list/ls538625886/copy/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 TV series with the most BAFTA Television Awards wins in programme categories (all-time, as of March 24, 2026). EastEnders Coronation Street ranking",
+                        "sources_found": [
+                            {
+                                "title": "TV shows with the most BAFTAs of all-time : r/BritishTV",
+                                "url": "https://www.reddit.com/r/BritishTV/comments/1pw7rke/tv_shows_with_the_most_baftas_of_alltime/"
+                            },
+                            {
+                                "title": "Most National Television Awards for Best Serial Drama",
+                                "url": "https://www.guinnessworldrecords.com/world-records/725518-most-national-television-awards-for-best-serial-drama"
+                            },
+                            {
+                                "title": "BAFTA Winners - TV Shows",
+                                "url": "https://www.imdb.com/es/list/ls538625886/copy/"
+                            },
+                            {
+                                "title": "BAFTA TV Awards Winners: Complete List",
+                                "url": "https://www.yahoo.com/entertainment/bafta-tv-awards-winners-complete-list-205719364.html"
+                            },
+                            {
+                                "title": "Bafta's Best TV Drama winners ranked, from Happy Valley ...",
+                                "url": "https://www.aol.com/news/bafta-best-tv-drama-winners-050000907.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources contain specific or comprehensive information about the all-time top 5 TV series with the most BAFTA Television Awards wins in programme categories. The sources cited either discuss unrelated award information (e.g., National Television Awards or specific BAFTA categories) or list general BAFTA wins without ranking for programme categories. As such, it is not possible to verify or correct the proposed answers or their order.",
+                        "proposed_answers": [
+                            "EastEnders",
+                            "Coronation Street",
+                            "Gogglebox",
+                            "Strictly Come Dancing",
+                            "Ant & Dec’s Saturday Night Takeaway"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    }
+                },
+                {
+                    "topic": "Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data).",
+                    "connection": "March is Women’s History Month, spotlighting gender representation milestones in government.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on women's representation in parliaments by percentage, which is unrelated to any previously used question. None of the earlier questions pertain to gender representation or parliamentary composition."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data).",
+                        "answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "distractors": [
+                            "New Zealand",
+                            "Iceland",
+                            "Sweden",
+                            "Finland",
+                            "South Africa",
+                            "Norway",
+                            "Spain",
+                            "Costa Rica",
+                            "Argentina",
+                            "Belgium",
+                            "Namibia",
+                            "Senegal",
+                            "Mozambique",
+                            "Netherlands",
+                            "France"
+                        ],
+                        "suggested_source": "https://data.ipu.org/women-ranking"
+                    },
+                    "verification_search_iter0": {
+                        "query": "IPU women in national parliaments ranking top countries latest data Rwanda Cuba Nicaragua Mexico United Arab Emirates",
+                        "sources_found": [
+                            {
+                                "title": "Countries with largest share of women in parliament 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/267028/women-in-selected-national-parliaments/?srsltid=AfmBOoqJJTCshY_v05Lkb2wR22bjHIc7DJy-uNbEKt1BBPhZ8277zvO1"
+                            },
+                            {
+                                "title": "Facts and figures: Women's leadership and political participation",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "Monthly ranking of women in national parliaments | IPU Parline",
+                                "url": "https://data.ipu.org/women-ranking/"
+                            },
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "In a year of slow progress, these countries are driving women's ...",
+                                "url": "https://www.ipu.org/news/news-in-brief/2026-03/in-year-slow-progress-these-countries-are-driving-womens-representation-forward"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The best source, UN Women, provides confirmed data for the percentage of women in lower or single houses of national parliaments for three countries: Rwanda (64%), Cuba (57%), and Nicaragua (value not specified but ranked third among countries exceeding 50%). The proposed order incorrectly ranks Mexico above Bolivia, as Bolivia is consistently mentioned as a top-ranking country, often just below Nicaragua. Exact data for Mexico and Bolivia was not available in the sources provided, but given their frequent inclusion in leading countries, they have been adjusted into the 4th and 5th positions, respectively.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "corrected_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "Bolivia"
+                        ],
+                        "best_source": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data). Rwanda vs Cuba ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Facts and figures: Women's leadership and political ...",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "Monthly ranking of women in national parliaments | IPU Parline",
+                                "url": "https://data.ipu.org/women-ranking/"
+                            },
+                            {
+                                "title": "IPU Report concludes that women's representation in ...",
+                                "url": "https://www.bgipu.org/activity-reports/ipu-report-concludes-that-womens-representation-in-parliament-sees-sluggish-gains/"
+                            },
+                            {
+                                "title": "Only 1 in 7 countries is led by a woman as global political ...",
+                                "url": "https://www.ipu.org/news/press-releases/2026-03/only-1-in-7-countries-led-woman-global-political-power-remains-dominated-men"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided source data supports Rwanda and Cuba as the top two countries but lacks adequate information to verify the full corrected order, especially for Nicaragua, Mexico, and Bolivia. Numeric values for rankings are incomplete, and the ordering cannot be strictly confirmed.",
+                        "best_source": "https://data.ipu.org/women-ranking/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "IPU women in national parliaments ranking top countries latest data Rwanda Cuba Nicaragua Mexico United Arab Emirates",
+                        "sources_found": [
+                            {
+                                "title": "In a year of slow progress, these countries are driving ...",
+                                "url": "https://www.ipu.org/news/news-in-brief/2026-03/in-year-slow-progress-these-countries-are-driving-womens-representation-forward"
+                            },
+                            {
+                                "title": "Facts and figures: Women's leadership and political ...",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "Countries with largest share of women in parliament 2025",
+                                "url": "https://www.statista.com/statistics/267028/women-in-selected-national-parliaments/?srsltid=AfmBOoojOvGdf6WZRo4CcNeFGA9TAiiyCjBCpkZK1HgveY-MgWnSc_XE"
+                            },
+                            {
+                                "title": "Monthly ranking of women in national parliaments | IPU Parline",
+                                "url": "https://data.ipu.org/women-ranking/"
+                            },
+                            {
+                                "title": "Proportion of seats held by women in national parliaments (%)",
+                                "url": "https://genderdata.worldbank.org/en/indicator/sg-gen-parl-zs"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "According to the best source (UN Women), Rwanda has 64% women in parliament, Cuba has 57%, and Nicaragua has 52%. Mexico and New Zealand both round out the top 5 with approximately 50%. Bolivia is not mentioned as one of the top 5 countries in the sources, but New Zealand is listed as a top contender with 50%. The proposed order incorrectly ranks some entries, so it is corrected here.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "Bolivia"
+                        ],
+                        "corrected_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "New Zealand"
+                        ],
+                        "best_source": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data). Rwanda vs Cuba ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Facts and figures: Women's leadership and political participation",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "Proportion of seats held by women in national parliaments (%) | World",
+                                "url": "https://genderdata.worldbank.org/en/indicator/sg-gen-parl-zs"
+                            },
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "IPU Report concludes that women's representation in parliament ...",
+                                "url": "https://www.bgipu.org/activity-reports/ipu-report-concludes-that-womens-representation-in-parliament-sees-sluggish-gains/"
+                            },
+                            {
+                                "title": "Data from the latest report by the Inter-Parliamentary Union and UN ...",
+                                "url": "https://www.facebook.com/globalgoalsUN/posts/data-from-the-latest-report-by-the-inter-parliamentary-union-and-un-women-shows-/1337406428433754/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order cannot be fully confirmed because no data about the proportions for Mexico and New Zealand, or Nicaragua explicitly ranking higher than Mexico and New Zealand, is provided or supported by sources, making their positions unverifiable.",
+                        "best_source": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                    },
+                    "verification_search_iter2": {
+                        "query": "IPU women in national parliaments ranking top countries latest data Rwanda Cuba Nicaragua Mexico United Arab Emirates",
+                        "sources_found": [
+                            {
+                                "title": "In a year of slow progress, these countries are driving women's ...",
+                                "url": "https://www.ipu.org/news/news-in-brief/2026-03/in-year-slow-progress-these-countries-are-driving-womens-representation-forward"
+                            },
+                            {
+                                "title": "Monthly ranking of women in national parliaments | IPU Parline",
+                                "url": "https://data.ipu.org/women-ranking/"
+                            },
+                            {
+                                "title": "Facts and figures: Women's leadership and political participation",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "Proportion of seats held by women in national parliaments (%) | World",
+                                "url": "https://genderdata.worldbank.org/en/indicator/sg-gen-parl-zs"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source data from UN Women, Rwanda leads with 64%, followed by Cuba with 57% and Nicaragua with 52%. Mexico and the United Arab Emirates both have 50% women in their national parliaments, which places them ahead of New Zealand. The provided ranking incorrectly placed New Zealand in the fifth position, whereas the UAE has a higher representation percentage. The order and values have been corrected accordingly.",
+                        "proposed_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "New Zealand"
+                        ],
+                        "corrected_answers": [
+                            "Rwanda",
+                            "Cuba",
+                            "Nicaragua",
+                            "Mexico",
+                            "United Arab Emirates"
+                        ],
+                        "best_source": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data). Rwanda vs Cuba ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Facts and figures: Women's leadership and political participation",
+                                "url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                            },
+                            {
+                                "title": "In a year of slow progress, these countries are driving women's ...",
+                                "url": "https://www.ipu.org/news/news-in-brief/2026-03/in-year-slow-progress-these-countries-are-driving-womens-representation-forward"
+                            },
+                            {
+                                "title": "IPU Report concludes that women's representation in parliament ...",
+                                "url": "https://www.bgipu.org/activity-reports/ipu-report-concludes-that-womens-representation-in-parliament-sees-sluggish-gains/"
+                            },
+                            {
+                                "title": "As of January 2026, women hold 27.5% of seats in national ...",
+                                "url": "https://www.facebook.com/InterParliamentaryUnion/posts/as-of-january-2026-women-hold-275-of-seats-in-national-parliaments-globally-up-a/1228678402745510/"
+                            },
+                            {
+                                "title": "Data from the latest report by the Inter-Parliamentary Union and UN ...",
+                                "url": "https://www.facebook.com/globalgoalsUN/posts/data-from-the-latest-report-by-the-inter-parliamentary-union-and-un-women-shows-/1337406428433754/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order cannot be confirmed because the percentage values for Mexico and the United Arab Emirates (4th and 5th positions) are not explicitly provided or verifiable in the given source data.",
+                        "best_source": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation"
+                    }
+                },
+                {
+                    "topic": "Ramadan/Eid al-Fitr (March 2026)",
+                    "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (latest FAO data).",
+                    "connection": "Dates are a staple for breaking the fast during Ramadan, tying agriculture to seasonal observance.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about the top 5 countries by annual date production (Phoenix dactylifera) is distinct from any previously used questions as it focuses specifically on agricultural production, which is not covered in any of the existing questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production, according to the latest FAO data.",
+                        "answers": [
+                            "Egypt",
+                            "Saudi Arabia",
+                            "Iran",
+                            "Algeria",
+                            "Iraq"
+                        ],
+                        "distractors": [
+                            "Pakistan",
+                            "United Arab Emirates",
+                            "Oman",
+                            "Tunisia",
+                            "Sudan",
+                            "Libya",
+                            "Morocco",
+                            "Yemen",
+                            "Jordan",
+                            "Israel",
+                            "Syria",
+                            "Qatar",
+                            "Kuwait",
+                            "Bahrain",
+                            "Mauritania"
+                        ],
+                        "suggested_source": "https://www.fao.org/faostat/en/#data/QCL"
+                    },
+                    "verification_search_iter0": {
+                        "query": "FAOSTAT dates production by country latest top producers Egypt Saudi Iran Algeria Iraq",
+                        "sources_found": [
+                            {
+                                "title": "Fresh Date production and top producing countries - Tridge",
+                                "url": "https://www.tridge.com/intelligences/dates/production"
+                            },
+                            {
+                                "title": "Top countries for Dates Production - Source FAO - NationMaster",
+                                "url": "https://www.nationmaster.com/nmx/ranking/dates-production"
+                            },
+                            {
+                                "title": "Top 10 Date-Producing Countries in 2025: An Analytical Overview",
+                                "url": "https://statranker.org/economy/top-10-date-producing-countries-in-2025-an-analytical-overview/"
+                            },
+                            {
+                                "title": "Top 10 largest producers of Dates in the world 1)- Egypt 2 - Facebook",
+                                "url": "https://www.facebook.com/Greatafrica6/posts/top-10-largest-producers-of-dates-in-the-world-1-egypt-2-saudi-arabia-3-algeria-/1389323849872267/"
+                            },
+                            {
+                                "title": "Which Country Produces the Most Dates? - Helgi Library",
+                                "url": "https://www.helgilibrary.com/charts/which-country-produces-the-most-dates-41/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order and values are incorrect according to the best source. Based on the Helgi Library and other supporting sources, the correct order for the top five countries producing dates (in tonnes) is: 1) Egypt (1,733,432 tonnes), 2) Saudi Arabia (1,640,000 tonnes), 3) Algeria (1,280,000 tonnes), 4) Iran (1,080,000 tonnes), and 5) Iraq (740,000 tonnes). The original order incorrectly ranked Iran above Algeria, contrary to the verified production amounts.",
+                        "proposed_answers": [
+                            "Egypt",
+                            "Saudi Arabia",
+                            "Iran",
+                            "Algeria",
+                            "Iraq"
+                        ],
+                        "corrected_answers": [
+                            "Egypt",
+                            "Saudi Arabia",
+                            "Algeria",
+                            "Iran",
+                            "Iraq"
+                        ],
+                        "best_source": "https://www.helgilibrary.com/charts/which-country-produces-the-most-dates-41/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 countries by annual date (Phoenix dactylifera) production, according to the latest FAO data. Egypt vs Saudi Arabia ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Egypt Leads the World in Date Production Dates, a ... - Instagram",
+                                "url": "https://www.instagram.com/p/DGxdlcjx3k0/"
+                            },
+                            {
+                                "title": "Date Production by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/date-production-by-country"
+                            },
+                            {
+                                "title": "Top countries for Dates Production - Source FAO - NationMaster",
+                                "url": "https://www.nationmaster.com/nmx/ranking/dates-production"
+                            },
+                            {
+                                "title": "[XLS + PDF] Global Dates Production by Country - ReportLinker",
+                                "url": "https://www.reportlinker.com/dataset/825805e1a92a38b54d90d4fa61866096c01ec667"
+                            },
+                            {
+                                "title": "Top 10 largest producers of Dates in the world 1)- Egypt 2 - Facebook",
+                                "url": "https://www.facebook.com/Greatafrica6/posts/top-10-largest-producers-of-dates-in-the-world-1-egypt-2-saudi-arabia-3-algeria-/1389323849872267/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "Multiple sources, including NationMaster and Facebook, corroborate the corrected order with Egypt first, followed by Saudi Arabia, Algeria, Iran, and Iraq. This matches the corrected ranking.",
+                        "best_source": "https://www.facebook.com/Greatafrica6/posts/top-10-largest-producers-of-dates-in-the-world-1-egypt-2-saudi-arabia-3-algeria-/1389323849872267/"
+                    },
+                    "question_id": 32,
+                    "final_answers": [
+                        "Egypt",
+                        "Saudi Arabia",
+                        "Algeria",
+                        "Iran",
+                        "Iraq"
+                    ],
+                    "final_source": "https://www.helgilibrary.com/charts/which-country-produces-the-most-dates-41/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 19, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "1, _, Auto racing, INDYCAR Series, Firestone Grand Prix of St. Petersburg, Streets of St. Petersburg, St. Petersburg, Fla."
+                            },
+                            {
+                                "title": "The biggest sport events in 2026",
+                                "url": "https://enetpulse.com/biggest-sport-events-2026/",
+                                "snippet": "● **FIFA World Cup:**11 June – 19 July 2026. ● **Australian Open:**18 January – 1 February 2026. ● **Wimbledon:**29 June – 12 July 2026. ● **Winter Olympics:** 6 – 22 February 2026 (Milano Cortina). ●"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOoqs4m0WbxULjdZfr1hYBQLtDQOC1gChN0PrCJhDUVcmEPGnIJ4p",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March Awareness & Heritage Months: A Complete 2026 Guide",
+                                "url": "https://www.verbate.io/knowledge-center/march-awareness-heritage-months",
+                                "snippet": "From **Women’s History Month** and **Irish American Heritage Month** to **Purim**, **Holi**, and **Eid al-Fitr**, March gives ERG leaders and people teams a powerful opportunity to blend education wit"
+                            },
+                            {
+                                "title": "March Observances - CultureAlly",
+                                "url": "https://www.cultureally.com/blog/march-observances",
+                                "snippet": "List of Observances in March 2026 ; March 1 International Wheelchair Day ; March 3 Māgha Pūjā Day ; March 3 World Hearing Day ; March 4 Holi ; March 8 International"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. * National Read Across America Day. * National Get Over It Day. * National Women and Girls HIV/AIDS Awareness Day. *"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy Days",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "March Inclusive Religious Calendar. March 4 – Hindu: Holi The festival of colors, celebrating the arrival of spring. This is one of the most"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "The Majors 2026 – Conferences, Festivals, Galas and More To ...",
+                                "url": "https://asithappens.co/the-majors-conferences-festivals-galas-and-more-to-check-for-in-2026/",
+                                "snippet": "What: A two week-long celebration of film, art and culture, will take place February 9–16, 2026, in Los Angeles at the Cinemark Baldwin Hills & XD and Baldwin Hills Crenshaw Plaza with film screenings"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 24: BAFTA Television Awards nominations. 26: iHeartRadio Music Awards · April. 2: Anime Awards nominations."
+                            },
+                            {
+                                "title": "Music Festival & Conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/music-festival/",
+                                "snippet": "The SXSW Music Festival & Conference brings together artists, industry professionals, creatives, and music lovers from around the world to make connections, elevate their careers, and celebrate the ma"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 19, 2026",
+                        "results": [
+                            {
+                                "title": "What Happens on March 19, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/19",
+                                "snippet": "# What Happens on March 19, 2026. ## About March 19, 2026. **Day of the Week:** Thursday. **How Far Away?** 1 day. ## No Entries for March 19, 2026. * See 64 things that happened in **March 2026**. * "
+                            },
+                            {
+                                "title": "Portal:Current events/2026 March 19 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_19",
+                                "snippet": "March 19, 2026 (2026-03-19) (Thursday). edit · history · watch · Month. March 2026 · Previous day. March 18 · Next day. March 20 · Last edited just now by"
+                            },
+                            {
+                                "title": "News & Updates | March 19, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=zU2ww3n2s8s",
+                                "snippet": "LIVE | News & Updates | March 19, 2026 at 6:30 AM PHT Click here to subscribe:"
+                            },
+                            {
+                                "title": "5 Big News Stories Overnight - Tuesday, March 17, 2026 - Facebook",
+                                "url": "https://www.facebook.com/GoLocalProv/posts/5-big-news-stories-overnight-tuesday-march-17-2026/1552827186845890/",
+                                "snippet": "GoLocalProv - 5 Big News Stories Overnight - Tuesday,... [Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2FGoLocalProv%2Fposts%2"
+                            },
+                            {
+                                "title": "World News Headlines - US News and World Report",
+                                "url": "https://www.usnews.com/news/world",
+                                "snippet": "# World News. ### Foreign Worker Killed in Israel After Iranian Missile Attack, Ambulance Authority Says. ### Man in Ohio Charged With Making Threats Against Mosque. ### Iraq's Kataib Hezbollah Says I"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 19",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 19 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/19",
+                                "snippet": "* 1819 David Henry Williams, American Brigadier General (Union Army), born in Allegheny County, Pennsylvania (d. * 1821 Francis Barretto Spinola, American politician and Brigadier General (Union Army)"
+                            },
+                            {
+                                "title": "Famous birthdays for March 19: Bruce Willis, Glenn Close - UPI.com",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/19/Famous-birthdays-for-March-19-Bruce-Willis-Glenn-Close/3421742346122/",
+                                "snippet": "-- Actor Bruce Willis in 1955 (age 70). March 14 (UPI) -- Sarah Michelle Gellar announced that her revival of Buffy, the Vampire Slayer -- she would have been training a new slayer -- is not moving fo"
+                            },
+                            {
+                                "title": "March 19 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-19/",
+                                "snippet": "**Tip:** Click the free famous birthday ninja poster above to save the high quality version. ## Famous Birthdays. Famous birthday celebrants include Abby Brammell, Peggy Ahern, Tige Andrews, Eric Chri"
+                            },
+                            {
+                                "title": "Famous People's Birthdays, March 19, United States Celebrity ...",
+                                "url": "https://www.bornglorious.com/united_states/birthday/?pd=0319",
+                                "snippet": "### **Famous People's 🎂 Birthdays, March 19, United States Celebrity Birthdays**. United States | March 19 | Sort By:. **Profession** **Birth Region** **Birth Place** **👉 Worldwide Celebrity Birthdays"
+                            },
+                            {
+                                "title": "March 19 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-19-holidays/",
+                                "snippet": "March 19 birthdays ; Bruce Willis · Movie Actor ; Gus Caleb Smyrnios · Reality Star ; Yandy Smith · Reality Star ; Yung Gravy · Rapper."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "MLB Opening Day (late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB players by most career Opening Day home runs.",
+                        "connection": "MLB Opening Day is imminent, making Opening Day records a timely baseball topic."
+                    },
+                    {
+                        "topic": "BAFTA Television Awards (nominations on March 24, 2026)",
+                        "suggested_question": "Rank the top 5 TV series with the most BAFTA Television Awards wins (programme categories, all-time).",
+                        "connection": "With BAFTA TV nominations due this month, a look at historic TV winners is highly relevant."
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data).",
+                        "connection": "March is Women’s History Month, spotlighting gender representation milestones in government."
+                    },
+                    {
+                        "topic": "Ramadan/Eid al-Fitr (March 2026)",
+                        "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (latest FAO data).",
+                        "connection": "Dates are a staple for breaking the fast during Ramadan, tying agriculture to seasonal observance."
+                    },
+                    {
+                        "topic": "Japan fiscal year end (March)",
+                        "suggested_question": "Rank the top 5 Japanese companies by market capitalization (as of the latest market close).",
+                        "connection": "Many Japanese firms close their fiscal year in March, putting market leaders in focus."
+                    },
+                    {
+                        "topic": "Commonwealth Day (March 9, 2026) context",
+                        "suggested_question": "Rank the top 5 British monarchs by length of reign (in days), from longest to shorter.",
+                        "connection": "Commonwealth Day prompts interest in the UK and its monarchy, making reign lengths topical."
+                    },
+                    {
+                        "topic": "World Poetry Day (March 21, 2026)",
+                        "suggested_question": "Rank the top 5 countries with the most Nobel Prize in Literature laureates (by citizenship at the time of award).",
+                        "connection": "World Poetry Day celebrates literary achievement, inviting a look at Nobel literature leaders."
+                    },
+                    {
+                        "topic": "SXSW’s startup focus (festival ran March 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. metro areas by number of unicorn startups headquartered there (latest CB Insights/Crunchbase counts).",
+                        "connection": "SXSW spotlights startups, so mapping where unicorns cluster is timely and tech-focused."
+                    },
+                    {
+                        "topic": "World Happiness Report (released around March 20 annually)",
+                        "suggested_question": "Rank the top 5 countries in the latest World Happiness Report (overall score), from highest to lower.",
+                        "connection": "The World Happiness Report is traditionally published in March, making its top-ranked countries timely."
+                    },
+                    {
+                        "topic": "Fallback – Nowruz (Persian New Year, around March 20)",
+                        "suggested_question": "Rank the top 5 countries by saffron production (latest available data).",
+                        "connection": "Nowruz cuisine commonly uses saffron, so a production ranking is a seasonal cultural fallback."
+                    },
+                    {
+                        "topic": "Fallback – International Day of Forests (March 21)",
+                        "suggested_question": "Rank the top 5 countries by net forest area gain over the most recent decade (FAO Global Forest Resources Assessment).",
+                        "connection": "Forests are highlighted this week, making an evidence-based forest recovery ranking a fitting fallback."
+                    },
+                    {
+                        "topic": "Fallback – Cherry blossom season (late March–April)",
+                        "suggested_question": "Rank the top 5 countries by sweet cherry production (latest FAO data).",
+                        "connection": "As cherry blossoms bloom, a cherry production ranking offers a seasonal, nature-themed fallback."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "MLB Opening Day (late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB players by most career Opening Day home runs.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on MLB Opening Day and career home runs, which does not overlap with any of the recent topics involving geography, music, film, ancestry, NCAA basketball, or other distinctly different subjects.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "BAFTA Television Awards (nominations on March 24, 2026)",
+                        "suggested_question": "Rank the top 5 TV series with the most BAFTA Television Awards wins (programme categories, all-time).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on BAFTA Television Awards, which is a specific TV-related awards subject, distinct from the Academy Awards (Oscars) covered in a recent question about films. The two questions pertain to different industries and award ceremonies.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by the percentage of women in the lower or single house of national parliaments (latest IPU data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on women's representation in national parliaments, which is distinct from any of the recently covered topics, including music, geography, ancestry, or sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Ramadan/Eid al-Fitr (March 2026)",
+                        "suggested_question": "Rank the top 5 countries by annual date (Phoenix dactylifera) production (latest FAO data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on date production relates to agricultural output and food, which is distinct from the recent questions on geography, entertainment, ancestry, and sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Japan fiscal year end (March)",
+                        "suggested_question": "Rank the top 5 Japanese companies by market capitalization (as of the latest market close).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Japanese companies and market capitalization, which is unrelated to any recent questions involving geography, entertainment, ancestry, or sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day (March 9, 2026) context",
+                        "suggested_question": "Rank the top 5 British monarchs by length of reign (in days), from longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about British monarchs by length of reign is a historical and royal topic, which does not overlap with any of the recent questions that cover geography, music, film, ancestry, basketball, and other unrelated subjects.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Poetry Day (March 21, 2026)",
+                        "suggested_question": "Rank the top 5 countries with the most Nobel Prize in Literature laureates (by citizenship at the time of award).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to Nobel Prize laureates in literature, focusing on a specific cultural and literary aspect, which is distinct from any of the recently covered topics such as geography, entertainment, ancestry, or sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW’s startup focus (festival ran March 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. metro areas by number of unicorn startups headquartered there (latest CB Insights/Crunchbase counts).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on startup ecosystems and unicorn companies, which is a business and technology subject. None of the recent questions are related to business or startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Happiness Report (released around March 20 annually)",
+                        "suggested_question": "Rank the top 5 countries in the latest World Happiness Report (overall score), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic (World Happiness Report rankings) focuses on global happiness measurements, which does not overlap with any of the recent questions that covered geography, music, awards, ancestry, or sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Fallback – Nowruz (Persian New Year, around March 20)",
+                        "suggested_question": "Rank the top 5 countries by saffron production (latest available data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on saffron production relates to agriculture and cultural practices, which have no overlap with themes like geography, music, film awards, demographics, or sports covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Fallback – International Day of Forests (March 21)",
+                        "suggested_question": "Rank the top 5 countries by net forest area gain over the most recent decade (FAO Global Forest Resources Assessment).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about forest areas and the environment does not overlap with any of the recent questions, which cover geography, music, film awards, ancestry, sports, and oceans.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Fallback – Cherry blossom season (late March–April)",
+                        "suggested_question": "Rank the top 5 countries by sweet cherry production (latest FAO data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about sweet cherry production relates to agricultural/food production statistics, which is a different subject area from any of the recent questions, none of which involve agriculture or food.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 32
         }
     ]
 }
