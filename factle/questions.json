@@ -1119,6 +1119,41 @@
                 "Iraq"
             ],
             "source": "https://www.helgilibrary.com/charts/which-country-produces-the-most-dates-41/"
+        },
+        {
+            "id": 33,
+            "date": "2026-03-20",
+            "question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+            "options": [
+                "Germany",
+                "Czechia",
+                "France",
+                "United Kingdom",
+                "Italy",
+                "Netherlands",
+                "United States",
+                "Spain",
+                "Russia",
+                "Sweden",
+                "Slovakia",
+                "Hungary",
+                "Belgium",
+                "Austria",
+                "Romania",
+                "China",
+                "Ukraine",
+                "Denmark",
+                "Norway",
+                "Lithuania"
+            ],
+            "answers": [
+                "Germany",
+                "Czechia",
+                "France",
+                "United Kingdom",
+                "Italy"
+            ],
+            "source": "https://www.tendata.com/blogs/export/6804.html"
         }
     ]
 }

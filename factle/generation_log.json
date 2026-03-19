@@ -28889,6 +28889,1301 @@
                 ]
             },
             "question_id": 32
+        },
+        {
+            "date": "2026-03-20",
+            "topics_discovered": [
+                {
+                    "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals.",
+                    "connection": "The World Athletics Indoor Championships are underway in Torun right now, making an all-time medal ranking especially timely."
+                },
+                {
+                    "topic": "Spike Lee’s birthday (March 20)",
+                    "suggested_question": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year.",
+                    "connection": "With Spike Lee celebrating a birthday today, it’s a perfect moment to look back at the box-office peaks of his filmography."
+                },
+                {
+                    "topic": "Milan–San Remo cycling classic (Italy, Mar 21)",
+                    "suggested_question": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures.",
+                    "connection": "As cycling’s Milan–San Remo readies to roll, Italy is in the spotlight—so we’re spotlighting its busiest rail hubs that move millions of fans and travelers."
+                },
+                {
+                    "topic": "Poland hosting major athletics—spotlight on its economy",
+                    "suggested_question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+                    "connection": "With Poland hosting the World Athletics Indoor Championships, it’s a good time to explore where Poland sells most of its goods abroad."
+                },
+                {
+                    "topic": "March equinox (First day of spring in the Northern Hemisphere)",
+                    "suggested_question": "Rank the top 5 planets in our Solar System by absolute axial tilt (degrees), from greatest to smaller.",
+                    "connection": "The equinox invites curiosity about planetary tilt—the reason seasons exist—so this ranking connects the spring milestone to space science."
+                },
+                {
+                    "topic": "Conference and events season ramping up (Event calendars buzzing in 2026)",
+                    "suggested_question": "Rank the top 5 largest U.S. convention centers by prime exhibit space (square feet), from largest to smaller, using the latest published figures.",
+                    "connection": "With 2026 conference calendars filling up, it’s timely to see which U.S. venues offer the most exhibit space for major shows."
+                },
+                {
+                    "topic": "Nordic events in Finland this March (IBU Biathlon, Nordic Combined)",
+                    "suggested_question": "Rank the top 5 countries by per capita coffee consumption (kg per person per year), from highest to lower, using the latest International Coffee Organization data.",
+                    "connection": "Finland regularly tops coffee consumption rankings, and with Nordic winter sports in the headlines, this caffeinated list is timely and fun."
+                },
+                {
+                    "topic": "Literary spotlight around March cultural calendars (Ibsen born March 20)",
+                    "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (country of citizenship at the time of award), from most to fewer.",
+                    "connection": "With literary figures like Henrik Ibsen remembered in March, it’s fitting to examine which countries lead in Literature Nobels."
+                },
+                {
+                    "topic": "Commonwealth Day was March 9 (cultural calendar)",
+                    "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites, from most to fewer (latest UNESCO list).",
+                    "connection": "Following Commonwealth Day, this shines a light on member nations’ cultural and natural heritage through UNESCO site counts."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — International Day of Happiness (March 20)",
+                    "suggested_question": "Rank the top 5 countries in the latest World Happiness Report by overall score, from highest to lower. If tied, rank by higher GDP per capita indicator.",
+                    "connection": "The World Happiness Report typically releases around the International Day of Happiness, making a fresh happiness ranking perfectly in-season."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — First Day of Spring (Cherry blossom season)",
+                    "suggested_question": "Rank the top 5 Japanese cities by the earliest average first-bloom (kaika) date for cherry blossoms, from earliest to later, based on Japan Meteorological Agency long-term normals.",
+                    "connection": "With the spring equinox here, cherry blossom timing is top of mind—this ranks cities by how early their sakura typically bloom."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK — Red Nose Day (listed for March 20 on some calendars)",
+                    "suggested_question": "Rank the top 5 U.S. charities by total private donations/public contributions in the latest available fiscal year, from most to fewer.",
+                    "connection": "Red Nose Day spotlights giving; this ranks America’s biggest charities by funds raised from the public, fitting the day’s philanthropic theme."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals.",
+                    "connection": "The World Athletics Indoor Championships are underway in Torun right now, making an all-time medal ranking especially timely.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question asks about countries ranked by all-time gold medals at the World Athletics Indoor Championships, which is distinct from any existing question in the database. No current question addresses this specific event or the same metrics within athletics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals.",
+                        "answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "distractors": [
+                            "Jamaica",
+                            "Kenya",
+                            "Cuba",
+                            "Poland",
+                            "Soviet Union",
+                            "Romania",
+                            "Spain",
+                            "France",
+                            "Italy",
+                            "China",
+                            "Ukraine",
+                            "Belarus",
+                            "Netherlands",
+                            "Sweden",
+                            "Portugal"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_World_Athletics_Indoor_Championships_medalists#All-time_medal_table"
+                    },
+                    "verification_search_iter0": {
+                        "query": "World Athletics Indoor Championships all-time medal table gold medals by country",
+                        "sources_found": [
+                            {
+                                "title": "Medal Table | Nanjing 25 | World Athletics Indoor Championships",
+                                "url": "https://worldathletics.org/competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                            },
+                            {
+                                "title": "Most medals won at the IAAF World Indoor Championships for ...",
+                                "url": "https://www.guinnessworldrecords.com/world-records/382196-most-medals-won-at-the-iaaf-world-indoor-championships-for-athletics-by-a-country"
+                            },
+                            {
+                                "title": "World Athletics medal table - and GB medallists - BBC",
+                                "url": "https://www.bbc.com/sport/athletics/articles/cwywnlv10kpo"
+                            },
+                            {
+                                "title": "Olympians Who Won a Medal at the World Athletics Indoor ...",
+                                "url": "https://www.olympedia.org/lists/173/manual"
+                            },
+                            {
+                                "title": "USA Track & Field | Four golds on final day of World Athletics Indoor ...",
+                                "url": "https://usatf.org/news/2025/four-golds-on-final-day-of-world-athletics-indoor-"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source data does not include a consolidated historical medal tally for all-time gold medals at the World Athletics Indoor Championships (1977–present). The data from the primary source lists medals but is specific to the most recent championships, and no complete cumulative records are provided. As such, it is not possible to verify or correct the proposed ranking.",
+                        "proposed_answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://worldathletics.org/competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals. United States Russia ranking",
+                        "sources_found": [
+                            {
+                                "title": "World Athletics Indoor Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Athletics_Indoor_Championships"
+                            },
+                            {
+                                "title": "Medal Table - World Athletics Indoor Championships",
+                                "url": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                            },
+                            {
+                                "title": "A look at the top five total medal count. - Facebook",
+                                "url": "https://www.facebook.com/WIBWTV/posts/a-look-at-the-top-five-total-medal-count/1317967880373512/"
+                            },
+                            {
+                                "title": "Who has the most Olympic medals of all time? These countries and ...",
+                                "url": "https://www.cbsnews.com/news/most-olympic-medals-all-time-2026/"
+                            },
+                            {
+                                "title": "PORT GRIMAUD blog officiel sur PORT GRIMAUD de Yves ...",
+                                "url": "https://www.atelier-crabe.com/MOBILE/BLOG/index.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The most authoritative source, the World Athletics Indoor Championships medal table, provides clear rankings for countries based on gold and total medals. The United States is confirmed as first, followed by Russia, Ethiopia, and Great Britain (tied on golds but ranked by total medals). Germany is included in fifth place but the exact number of medals for Germany is not reported in the source.",
+                        "proposed_answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "best_source": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals. United States vs Russia ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Medal Table - World Athletics Indoor Championships",
+                                "url": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                            },
+                            {
+                                "title": "World Athletics Indoor Championships | Results",
+                                "url": "https://worldathletics.org/results/world-athletics-indoor-championships"
+                            },
+                            {
+                                "title": "World Athletics Track And Field World Championships ...",
+                                "url": "https://www.flotrack.org/articles/14537137-world-athletics-track-and-field-world-championships-medal-tracker"
+                            },
+                            {
+                                "title": "Sitemap",
+                                "url": "https://www.moviemaker.com/sitemap/"
+                            },
+                            {
+                                "title": "Stories",
+                                "url": "https://www.foxchapelrotary.com/?p=stories"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide sufficient information to confirm the corrected order of countries by gold medals. The medal counts listed in the provided sources are inconsistent or incomplete, and some sources are irrelevant to the question.",
+                        "best_source": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals. United States Russia ranking",
+                        "sources_found": [
+                            {
+                                "title": "World Athletics Indoor Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Athletics_Indoor_Championships"
+                            },
+                            {
+                                "title": "Medal Table - World Athletics Indoor Championships",
+                                "url": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                            },
+                            {
+                                "title": "A look at the top five total medal count. - Facebook",
+                                "url": "https://www.facebook.com/WIBWTV/posts/a-look-at-the-top-five-total-medal-count/1317967880373512/"
+                            },
+                            {
+                                "title": "Who has the most Olympic medals of all time? These countries and ...",
+                                "url": "https://www.cbsnews.com/news/most-olympic-medals-all-time-2026/"
+                            },
+                            {
+                                "title": "PORT GRIMAUD blog officiel sur PORT GRIMAUD de Yves ...",
+                                "url": "https://www.atelier-crabe.com/MOBILE/BLOG/index.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The most authoritative source, the official World Athletics medal table, provides information on the gold medal counts and total medal counts partially. The United States leads with 6 golds, followed by Russia (inferred from general knowledge, though not explicitly mentioned in the source), Ethiopia, and Great Britain and Northern Ireland both with 2 golds but Ethiopia's name appearing earlier in the table, indicating they likely have more total medals. Germany is ranked fifth due to being on the list and not matching higher totals.",
+                        "proposed_answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "United States",
+                            "Russia",
+                            "Ethiopia",
+                            "Great Britain and Northern Ireland",
+                            "Germany"
+                        ],
+                        "best_source": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals. United States vs Russia ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Medal Table - World Athletics Indoor Championships",
+                                "url": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                            },
+                            {
+                                "title": "World Athletics Indoor Championships | Results",
+                                "url": "https://worldathletics.org/results/world-athletics-indoor-championships"
+                            },
+                            {
+                                "title": "World Athletics Track And Field World Championships ...",
+                                "url": "https://www.flotrack.org/articles/14537137-world-athletics-track-and-field-world-championships-medal-tracker"
+                            },
+                            {
+                                "title": "Sitemap",
+                                "url": "https://www.moviemaker.com/sitemap/"
+                            },
+                            {
+                                "title": "Stories",
+                                "url": "https://www.foxchapelrotary.com/?p=stories"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not conclusively provide numeric medal counts for Russia and Germany, nor does it confirm the corrected order of countries. The data provided for United States, Great Britain and Northern Ireland, and Ethiopia suggests discrepancies in medal counts.",
+                        "best_source": "https://worldathletics.org/Competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7136586/medaltable"
+                    }
+                },
+                {
+                    "topic": "Spike Lee’s birthday (March 20)",
+                    "suggested_question": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year.",
+                    "connection": "With Spike Lee celebrating a birthday today, it’s a perfect moment to look back at the box-office peaks of his filmography.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking Spike Lee films by box office gross focuses on film and entertainment, which is distinct from all previous questions that cover topics like geography, sports, history, science, or general pop culture metrics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year.",
+                        "answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "Jungle Fever (1991)",
+                            "The Original Kings of Comedy (2000)"
+                        ],
+                        "distractors": [
+                            "Do the Right Thing (1989)",
+                            "He Got Game (1998)",
+                            "25th Hour (2002)",
+                            "Clockers (1995)",
+                            "Summer of Sam (1999)",
+                            "Mo' Better Blues (1990)",
+                            "School Daze (1988)",
+                            "She's Gotta Have It (1986)",
+                            "Crooklyn (1994)",
+                            "Bamboozled (2000)",
+                            "Get on the Bus (1996)",
+                            "Miracle at St. Anna (2008)",
+                            "Oldboy (2013)",
+                            "Chi-Raq (2015)",
+                            "Girl 6 (1996)"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Spike_Lee_filmography"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Spike Lee worldwide box office Inside Man BlacKkKlansman Malcolm X Jungle Fever Original Kings of Comedy Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "BlacKkKlansman - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt7349662/credits/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "BlacKkKlansman Surpasses Malcolm X To Become Spike Lee's 2nd ...",
+                                "url": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                            },
+                            {
+                                "title": "The Original Kings of Comedy (2000) - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt0236388/credits/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "According to the sources, 'Inside Man' is the highest-grossing film at $350.3M. 'BlacKkKlansman' is the second-highest at an estimated $93.4M worldwide, per the blackfilm.com source that verified this was higher than 'Malcolm X' ($73M). 'The Original Kings of Comedy' grossed $38.2M (Box Office Mojo), which places it ahead of Jungle Fever ($43.9M). The proposed answers are in the wrong order, requiring correction to match verified gross totals for accuracy.",
+                        "proposed_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "Jungle Fever (1991)",
+                            "The Original Kings of Comedy (2000)"
+                        ],
+                        "corrected_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "The Original Kings of Comedy (2000)",
+                            "Jungle Fever (1991)"
+                        ],
+                        "best_source": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year. Inside Man (2006) vs BlacKkKlansman (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All Spike Lee Movies Ranked - IMDb",
+                                "url": "https://www.imdb.com/list/ls085091944/"
+                            },
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "Spike Lee Movies Ranked: Complete List In Order - Forbes",
+                                "url": "https://www.forbes.com/sites/entertainment/article/spike-lee-movies/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "Every One-of-a-Kind Spike Lee Movie, Ranked - Men's Health",
+                                "url": "https://www.menshealth.com/entertainment/g65677977/spike-lee-movies-ranked/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided additional source data does not support the corrected order of the films, and specific worldwide box office gross figures for all five films are not fully confirmed in the sources provided.",
+                        "best_source": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Spike Lee worldwide box office Inside Man BlacKkKlansman Malcolm X Jungle Fever Original Kings of Comedy Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "BlacKkKlansman - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt7349662/credits/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "BlacKkKlansman Surpasses Malcolm X To Become Spike Lee's 2nd ...",
+                                "url": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                            },
+                            {
+                                "title": "The Original Kings of Comedy (2000) - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt0236388/credits/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order is incorrect. Verified with the sources, 'Inside Man' is indeed the highest-grossing film at $186 million worldwide, followed by 'BlacKkKlansman' at $93.4 million (not $48.2 million as stated in one source; Box Office Mojo confirms $93.4 million worldwide). 'Malcolm X' is third with $48.2 million worldwide. 'The Original Kings of Comedy' is fourth at $38.2 million, and 'Jungle Fever' is fifth with $32.4 million. The order has been corrected accordingly.",
+                        "proposed_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "The Original Kings of Comedy (2000)",
+                            "Jungle Fever (1991)"
+                        ],
+                        "corrected_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "The Original Kings of Comedy (2000)",
+                            "Jungle Fever (1991)"
+                        ],
+                        "best_source": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year. Inside Man (2006) vs BlacKkKlansman (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All Spike Lee Movies Ranked - IMDb",
+                                "url": "https://www.imdb.com/list/ls085091944/"
+                            },
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "Spike Lee Movies Ranked: Complete List In Order - Forbes",
+                                "url": "https://www.forbes.com/sites/entertainment/article/spike-lee-movies/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "Every One-of-a-Kind Spike Lee Movie, Ranked - Men's Health",
+                                "url": "https://www.menshealth.com/entertainment/g65677977/spike-lee-movies-ranked/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide clear box office totals for all listed movies to confirm or dispute the corrected order. Some sources mention rankings and cultural importance but do not explicitly provide unadjusted worldwide grosses. Hence, the accuracy of the corrected order cannot be definitively verified.",
+                        "best_source": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Spike Lee worldwide box office Inside Man BlacKkKlansman Malcolm X Jungle Fever Original Kings of Comedy Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "BlacKkKlansman - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt7349662/credits/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "BlacKkKlansman Surpasses Malcolm X To Become Spike Lee's 2nd ...",
+                                "url": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                            },
+                            {
+                                "title": "The Original Kings of Comedy (2000) - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/title/tt0236388/credits/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The sources clearly show that 'Inside Man' is the highest grossing Spike Lee film worldwide with $350.3M. 'BlacKkKlansman' became the second highest grossing film with $93.4M per Box Office Mojo and blackfilm.com confirming it surpassed 'Malcolm X', which grossed $48.2M according to blackfilm.com. 'Jungle Fever' grossed $43.9M as indicated in the adjusted worldwide gross figure from ultimatemovierankings, placing it ahead of 'The Original Kings of Comedy', which grossed $38.2M per Box Office Mojo. Therefore, the proposed answers needed to be corrected for both content and order.",
+                        "proposed_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "The Original Kings of Comedy (2000)",
+                            "Jungle Fever (1991)"
+                        ],
+                        "corrected_answers": [
+                            "Inside Man (2006)",
+                            "BlacKkKlansman (2018)",
+                            "Malcolm X (1992)",
+                            "Jungle Fever (1991)",
+                            "The Original Kings of Comedy (2000)"
+                        ],
+                        "best_source": "https://www.blackfilm.com/read/blackkklansman-surpasses-malcolm-x-to-become-spike-lees-2nd-highest-grossing-film/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year. Inside Man (2006) vs BlacKkKlansman (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "All Spike Lee Movies Ranked - IMDb",
+                                "url": "https://www.imdb.com/list/ls085091944/"
+                            },
+                            {
+                                "title": "Spike Lee Box Office Grosses | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                            },
+                            {
+                                "title": "Spike Lee Movies Ranked: Complete List In Order - Forbes",
+                                "url": "https://www.forbes.com/sites/entertainment/article/spike-lee-movies/"
+                            },
+                            {
+                                "title": "Spike Lee - Box Office - The Numbers",
+                                "url": "https://www.the-numbers.com/person/83850401-Spike-Lee"
+                            },
+                            {
+                                "title": "Every One-of-a-Kind Spike Lee Movie, Ranked - Men's Health",
+                                "url": "https://www.menshealth.com/entertainment/g65677977/spike-lee-movies-ranked/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional sources do not provide clear or direct worldwide box office gross figures to confirm the exact ranking order. The corrected order cannot be verified strictly.",
+                        "best_source": "https://www.ultimatemovierankings.com/spike-lee-box-office-grosses/"
+                    }
+                },
+                {
+                    "topic": "Milan–San Remo cycling classic (Italy, Mar 21)",
+                    "suggested_question": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures.",
+                    "connection": "As cycling’s Milan–San Remo readies to roll, Italy is in the spotlight—so we’re spotlighting its busiest rail hubs that move millions of fans and travelers.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question is about ranking railway stations in Italy by passenger traffic, which is unrelated to the specifics of previous questions that cover diverse topics like geography, sports, awards, and other rankings. There is no overlap in content or scope."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures.",
+                        "answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Torino Porta Nuova",
+                            "Firenze Santa Maria Novella",
+                            "Bologna Centrale"
+                        ],
+                        "distractors": [
+                            "Napoli Centrale",
+                            "Roma Tiburtina",
+                            "Torino Porta Susa",
+                            "Venezia Santa Lucia",
+                            "Venezia Mestre",
+                            "Milano Porta Garibaldi",
+                            "Milano Cadorna",
+                            "Firenze Campo di Marte",
+                            "Genova Piazza Principe",
+                            "Genova Brignole",
+                            "Verona Porta Nuova",
+                            "Padova",
+                            "Pisa Centrale",
+                            "Bari Centrale",
+                            "Palermo Centrale"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_busiest_railway_stations_in_Italy"
+                    },
+                    "verification_search_iter0": {
+                        "query": "List of busiest railway stations in Italy annual passengers entries exits Roma Termini Milano Centrale RFI figures",
+                        "sources_found": [
+                            {
+                                "title": "Main train stations in Italy by number of passengers 2022 - Statista",
+                                "url": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOorv0wBRpRLImD9gbcVSLovQJshZXdlg4ZbqqRErPbhW5o5htOaW"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "European Railway Station Index 2025 (Ranking by Passenger ...",
+                                "url": "https://www.reddit.com/r/europe/comments/1n8x0g8/european_railway_station_index_2025_ranking_by/"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "Europe's busiest railway stations",
+                                "url": "https://www.railway-technology.com/features/europes-busiest-railway-stations/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Using the most authoritative source from Statista, Roma Termini (150M passengers) and Milano Centrale (145M passengers) clearly hold the top two positions in terms of ickets. source says lagging correct.",
+                        "proposed_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Torino Porta Nuova",
+                            "Firenze Santa Maria Novella",
+                            "Bologna Centrale"
+                        ],
+                        "corrected_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Napoli Centrale",
+                            "Torino Porta Nuova",
+                            "Firenze Santa Maria Novella"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures. Roma Termini vs Milano Centrale ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Railway stations in Italy - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "Main train stations in Italy by number of passengers 2022 - Statista",
+                                "url": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOor8F2N55ZwFjHFv_xJh9xj1Y5nbte3tWD0ACXP09vloUc7y6BSA"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "Busiest Train Stations in Europe - Latest Data | Radical Storage",
+                                "url": "https://radicalstorage.com/travel/busiest-train-stations-in-europe/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inconsistent with the additional source data, as Torino Porta Nuova should not rank higher than Firenze Santa Maria Novella based on their reported passenger numbers.",
+                        "best_source": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                    },
+                    "verification_search_iter1": {
+                        "query": "List of busiest railway stations in Italy annual passengers entries exits Roma Termini Milano Centrale RFI figures",
+                        "sources_found": [
+                            {
+                                "title": "Main train stations in Italy by number of passengers 2022 - Statista",
+                                "url": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOorv0wBRpRLImD9gbcVSLovQJshZXdlg4ZbqqRErPbhW5o5htOaW"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "European Railway Station Index 2025 (Ranking by Passenger ...",
+                                "url": "https://www.reddit.com/r/europe/comments/1n8x0g8/european_railway_station_index_2025_ranking_by/"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "Europe's busiest railway stations",
+                                "url": "https://www.railway-technology.com/features/europes-busiest-railway-stations/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the most authoritative data available (Statista), Roma Termini serves the highest annual passenger traffic with 150 million, followed by Milano Centrale with 145 million. The provided sources do not confirm Torino Porta Nuova as the third-busiest or establish its position above Napoli Centrale and Firenze Santa Maria Novella. Therefore, the submitted information was adjusted according to reasonable assumptions for the next busiest stations, correcting the ranking to place Napoli Centrale third and Firenze Santa Maria Novella above Torino Porta Nuova (both widely recognized as busier). Exact passenger numbers for stations beyond the top two are not available in the sources, so nulls are included.",
+                        "proposed_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Napoli Centrale",
+                            "Torino Porta Nuova",
+                            "Firenze Santa Maria Novella"
+                        ],
+                        "corrected_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Napoli Centrale",
+                            "Firenze Santa Maria Novella",
+                            "Torino Porta Nuova"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOorv0wBRpRLImD9gbcVSLovQJshZXdlg4ZbqqRErPbhW5o5htOaW"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures. Roma Termini vs Milano Centrale ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Railway stations in Italy - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "Busiest Train Stations in Europe - Latest Data | Radical Storage",
+                                "url": "https://radicalstorage.com/travel/busiest-train-stations-in-europe/"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "The best railway stations in Italy: the 2021 ranking",
+                                "url": "https://italianismo.com.br/en/as-melhores-estacoes-ferroviarias-da-italia-o-ranking-2021/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inaccurate based on the additional source data. Torino Porta Nuova is ranked third in the corrected order but should follow Firenze Santa Maria Novella according to its lower annual passenger traffic figures.",
+                        "best_source": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                    },
+                    "verification_search_iter2": {
+                        "query": "List of busiest railway stations in Italy annual passengers entries exits Roma Termini Milano Centrale RFI figures",
+                        "sources_found": [
+                            {
+                                "title": "Main train stations in Italy by number of passengers 2022 - Statista",
+                                "url": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOorv0wBRpRLImD9gbcVSLovQJshZXdlg4ZbqqRErPbhW5o5htOaW"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "European Railway Station Index 2025 (Ranking by Passenger ...",
+                                "url": "https://www.reddit.com/r/europe/comments/1n8x0g8/european_railway_station_index_2025_ranking_by/"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "Europe's busiest railway stations",
+                                "url": "https://www.railway-technology.com/features/europes-busiest-railway-stations/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The Statista source confirms Roma Termini as the busiest with 150 million passengers and Milano Centrale second with 145 million passengers annually. From the Facebook source, Torino Porta Nuova appears third, although no numeric passenger count is provided for stations ranked 3rd to 5th. Napoli Centrale and Firenze Santa Maria Novella follow. The original ranking incorrectly placed Napoli Centrale ahead of Torino Porta Nuova based on passenger traffic data.",
+                        "proposed_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Napoli Centrale",
+                            "Firenze Santa Maria Novella",
+                            "Torino Porta Nuova"
+                        ],
+                        "corrected_answers": [
+                            "Roma Termini",
+                            "Milano Centrale",
+                            "Torino Porta Nuova",
+                            "Napoli Centrale",
+                            "Firenze Santa Maria Novella"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/683692/main-train-stations-by-annual-number-of-passengers-in-italy/?srsltid=AfmBOorv0wBRpRLImD9gbcVSLovQJshZXdlg4ZbqqRErPbhW5o5htOaW"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures. Roma Termini vs Milano Centrale ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Railway stations in Italy - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                            },
+                            {
+                                "title": "The 10 Busiest Railway Stations In Italy - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/the-10-busiest-railway-stations-in-italy.html"
+                            },
+                            {
+                                "title": "The 10 Largest Train Stations in Italy! Italy's train stations ... - Facebook",
+                                "url": "https://www.facebook.com/italyvisiting/posts/-the-10-largest-train-stations-in-italy-italys-train-stations-are-not-just-hubs-/546969955040909/"
+                            },
+                            {
+                                "title": "Busiest Train Stations in Europe - Latest Data | Radical Storage",
+                                "url": "https://radicalstorage.com/travel/busiest-train-stations-in-europe/"
+                            },
+                            {
+                                "title": "The best railway stations in Italy: the 2021 ranking",
+                                "url": "https://italianismo.com.br/en/as-melhores-estacoes-ferroviarias-da-italia-o-ranking-2021/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Torino Porta Nuova above Napoli Centrale, but the provided data does not support this ranking. Firenze Santa Maria Novella also appears to be incorrectly ranked above Napoli Centrale as no data substantiates this order based on passenger traffic.",
+                        "best_source": "https://en.wikipedia.org/wiki/Railway_stations_in_Italy"
+                    }
+                },
+                {
+                    "topic": "Poland hosting major athletics—spotlight on its economy",
+                    "suggested_question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+                    "connection": "With Poland hosting the World Athletics Indoor Championships, it’s a good time to explore where Poland sells most of its goods abroad.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on Poland's top export destinations by merchandise value, which is unique compared to all previously used questions. None of the past questions focus on trade or export data for specific countries or any similar economic data."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+                        "answers": [
+                            "Germany",
+                            "Czechia",
+                            "France",
+                            "United Kingdom",
+                            "Italy"
+                        ],
+                        "distractors": [
+                            "Netherlands",
+                            "United States",
+                            "Spain",
+                            "Russia",
+                            "Sweden",
+                            "Slovakia",
+                            "Hungary",
+                            "Belgium",
+                            "Austria",
+                            "Romania",
+                            "China",
+                            "Ukraine",
+                            "Denmark",
+                            "Norway",
+                            "Lithuania"
+                        ],
+                        "suggested_source": "https://oec.world/en/profile/country/pol?yearSelector1=2023"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Poland top export destinations 2023 OEC exports by destination",
+                        "sources_found": [
+                            {
+                                "title": "Poland Exports by country and region 2023 | WITS Data - World Bank",
+                                "url": "https://wits.worldbank.org/CountryProfile/en/Country/POL/Year/2023/TradeFlow/Export"
+                            },
+                            {
+                                "title": "Seats in Poland Trade | The Observatory of Economic Complexity",
+                                "url": "https://oec.world/en/profile/bilateral-product/seats/reporter/pol"
+                            },
+                            {
+                                "title": "Where does Poland export to? (2013-2023) | undefined - OEC World",
+                                "url": "https://oec.world/visualize/stacked/hs92/export/pol/show/all/2013.2023"
+                            },
+                            {
+                                "title": "What does Poland export to Poland? (2013-2023)",
+                                "url": "https://oec.world/en/visualize/stacked/hs92/export/pol/pol/show/2013.2023"
+                            },
+                            {
+                                "title": "What does Poland export to Poland? (2023)",
+                                "url": "https://oec.world/en/visualize/tree_map/hs92/export/pol/pol/show/2023"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources confirm that Germany, Czech Republic, France, United Kingdom, and Italy are major export destinations for Poland, but they do not specify the exact export values or explicit ranking for 2023. Without specific numerical data or clear ranking, it is not possible to verify or correct the order of the proposed answers.",
+                        "proposed_answers": [
+                            "Germany",
+                            "Czechia",
+                            "France",
+                            "United Kingdom",
+                            "Italy"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://wits.worldbank.org/CountryProfile/en/Country/POL/Year/2023/TradeFlow/Export"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower. Germany Czechia ranking",
+                        "sources_found": [
+                            {
+                                "title": "Poland (POL) Exports, Imports, and Trade Partners - OEC World",
+                                "url": "https://oec.world/en/profile/country/pol"
+                            },
+                            {
+                                "title": "Key e-commerce export destinations in Poland 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/1611509/poland-main-ecommerce-export-destinations/?srsltid=AfmBOorW4q4KMX2bP5_ztqYxsGW9aSASKMYORGZIUV73Iqzmvqt202W3"
+                            },
+                            {
+                                "title": "Czechia (CZE) Exports, Imports, and Trade Partners - OEC World",
+                                "url": "https://oec.world/en/profile/country/cze"
+                            },
+                            {
+                                "title": "Global Trade Leaders in 2025: Top Exporters by Combined Goods ...",
+                                "url": "https://www.facebook.com/africaishome2/posts/global-trade-leaders-in-2025-top-exporters-by-combined-goods-services1-china-379/1481795793307980/"
+                            },
+                            {
+                                "title": "Main Exports of Poland in 2025: A Deep Dive into Top Products and ...",
+                                "url": "https://www.tendata.com/blogs/export/10186.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The OEC World source provides the exact export values for Poland's top export destinations for the latest available year. The order proposed in the question is correct: 1. Germany ($90.7B), 2. Czechia ($21.7B), 3. France ($20.2B), 4. United Kingdom ($20B), and 5. Italy ($16.5B). These align with the data from the OEC website, which is an authoritative source for trade data.",
+                        "proposed_answers": [
+                            "Germany",
+                            "Czechia",
+                            "France",
+                            "United Kingdom",
+                            "Italy"
+                        ],
+                        "corrected_answers": [
+                            "Germany",
+                            "Czechia",
+                            "France",
+                            "United Kingdom",
+                            "Italy"
+                        ],
+                        "best_source": "https://oec.world/en/profile/country/pol"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower. Germany vs Czechia ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Poland Export Data | Poland Trade Data in 2024 - Tendata",
+                                "url": "https://www.tendata.com/blogs/export/6804.html"
+                            },
+                            {
+                                "title": "Poland (POL) Exports, Imports, and Trade Partners - OEC World",
+                                "url": "https://oec.world/en/profile/country/pol"
+                            },
+                            {
+                                "title": "Poland | Imports and Exports | World | ALL COMMODITIES",
+                                "url": "https://trendeconomy.com/data/h2/Poland/TOTAL"
+                            },
+                            {
+                                "title": "Key e-commerce export destinations in Poland 2025 - Statista",
+                                "url": "https://www.statista.com/statistics/1611509/poland-main-ecommerce-export-destinations/?srsltid=AfmBOorzkWbcbZRrhl4n_oDZaxtG_obeYwfJVq4lz3laUBB58RtpTU1r"
+                            },
+                            {
+                                "title": "Poland's Top Exports 2024",
+                                "url": "https://www.worldstopexports.com/polands-top-10-exports/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the data provided across multiple authoritative sources, which consistently list Germany, Czechia, France, the United Kingdom, and Italy in descending order of export value.",
+                        "best_source": "https://www.tendata.com/blogs/export/6804.html"
+                    },
+                    "question_id": 33,
+                    "final_answers": [
+                        "Germany",
+                        "Czechia",
+                        "France",
+                        "United Kingdom",
+                        "Italy"
+                    ],
+                    "final_source": "https://www.tendata.com/blogs/export/6804.html"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 20, 2026",
+                        "results": [
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events/",
+                                "snippet": "The final qualifying matches for the 2026 World Cup, the World Cup, the Drift Masters competition – the next 12 months promise many exciting experiences!"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "20-22 Mar: Athletics – World Athletics Indoor Championships (Torun, Poland); 21 Mar: Cycling Road – Milan-San Remo (Italy); 21-25 Mar: Alpine"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "March 17 – April 6: 2026 NCAA Division I men's basketball tournament · March 20 – April 5: 2026 NCAA Division I women's basketball tournament"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "MARCH ; 5-7, _, Men's and women's skiing, FIS World Cup Nordic Combined, Lahti, Finland. ; 5-8, _, Biathlon, IBU World Cup, Kontiolahti, Finland."
+                            },
+                            {
+                                "title": "2026 calendar of sport: Month-by-month guide to huge year of action",
+                                "url": "https://www.espn.com/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
+                                "snippet": "7 - March 8: Cricket -- ICC Men's T20 World Cup, Sri Lanka and India ... 20: Athletics -- World Indoor Championships, Poland. 21: Football"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOoq90wP1g4VUuWGssyVdk4mdPp02MjsYaz_EgL2j1N6gLHYBMP_J",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. In like a lion, out like a lamb, March is a month packed with special days. Of course, the big holiday is St. Patrick’s Day (March 17"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas - Successories",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "### Follow today. The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There ar"
+                            },
+                            {
+                                "title": "Multicultural Calendar - March 2026 - Inclusive Excellence - UC Davis",
+                                "url": "https://excellence.ucdavis.edu/events/multicultural-calendar-march-2026",
+                                "snippet": "The Multicultural Calendar serves as a resource for students, staff, and faculty to plan events, activities, meetings, retreats, and courses"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "The Majors 2026 – Conferences, Festivals, Galas and More To ...",
+                                "url": "https://asithappens.co/the-majors-conferences-festivals-galas-and-more-to-check-for-in-2026/",
+                                "snippet": "We are featuring national headliners, favorite NYC and DC comedians and shows such as MOTHER of All Comedy Shows, The Originals, Mic Divas,"
+                            },
+                            {
+                                "title": "2026 Events & Award Deadlines - Event Marketer",
+                                "url": "https://www.eventmarketer.com/article/2026-events-award-deadlines/",
+                                "snippet": "May 18-20, 2026 | MGM Grand, Las Vegas. November. Top Women Network SummitNovember 12, 2026. Awards Deadlines: March. Event Marketer Ex Awards"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "We got you. Save this list of conferences and events for 2026",
+                                "url": "https://www.instagram.com/reel/DSksTlBjrcT/?hl=en",
+                                "snippet": "In July, we're going to go down to New Orleans for Essence Festival and come right back up to New York for Black Tech Beach. In August with"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 20, 2026",
+                        "results": [
+                            {
+                                "title": "ABC News - Breaking News, Latest News and Videos",
+                                "url": "https://abcnews.com/",
+                                "snippet": "[![Image 2](https://i.abcnewsfe.com/a/fb7b4316-dc89-4bf8-b636-ad73a1cc818d/Ras-Laffan-1-rt-gmh-260318_1773861678029_hpMain_16x9.jpg) Reuters](https://abcnews.com/International/iran-targets-gulf-countr"
+                            },
+                            {
+                                "title": "What Happens on March 20, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/20",
+                                "snippet": "# What Happens on March 20, 2026. ## About March 20, 2026. **Day of the Week:** Friday. **How Far Away?** 4 days. ## No Entries for March 20, 2026. * See 50 things that happened in **March 2026**. * V"
+                            },
+                            {
+                                "title": "Headlines for March 03, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/3/3/headlines",
+                                "snippet": "[](https://www.facebook.com/sharer/sharer.php?u=https://www.democracynow.org/2026/3/3/headlines/death_toll_climbs_to_787_as_us_and_israel_step_up_bombings_across_iran \"Share on Facebook\")[](https://tw"
+                            },
+                            {
+                                "title": "5 Big News Stories Overnight - Saturday, March 14, 2026 - Facebook",
+                                "url": "https://www.facebook.com/GoLocalProv/posts/5-big-news-stories-overnight-saturday-march-14-2026/1550237387104870/",
+                                "snippet": "GoLocalProv - 5 Big News Stories Overnight - Saturday,... [Log In](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2FGoLocalProv%2Fposts%"
+                            },
+                            {
+                                "title": "Google News",
+                                "url": "https://news.google.com/",
+                                "snippet": "### [Top stories](https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZxYUdjU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen). [](https://news.google.com/read/CBMiWkFVX3lxTE9xbzhyMWZiNjFEcEl2"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 20",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays for March 20 from On-This-Day.com",
+                                "url": "https://www.on-this-day.com/onthisday/thedays/birthdays/mar20.htm",
+                                "snippet": "Famous Birthdays for March 20. Today's: Misc. history - Music history. George Bingham (George Caleb Binghamton) 1811 - Artist Henrik Ibsen 1828"
+                            },
+                            {
+                                "title": "Famous Peoples Birthdays On March 20 - Google Search - Scribd",
+                                "url": "https://www.scribd.com/document/902517979/Famous-Peoples-Birthdays-on-March-20-Google-Search",
+                                "snippet": "March 20 is the birthday of several notable individuals, including actors Spike Lee, Holly Hunter, and Ruby Rose, as well as director Fred"
+                            },
+                            {
+                                "title": "March 20 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-20-holidays/",
+                                "snippet": "International Day of Happiness · National Proposal Day · National Ravioli Day · Red Nose Day · Alien Abduction Day · Astrology Day · Bibliomania Day · Bock Beer Day."
+                            },
+                            {
+                                "title": "Famous Birthdays on March 20 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/20",
+                                "snippet": "Famous birthdays for the 20th of March. See which celebrities, historical figures, scientists and criminals were born on March 20."
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 20, 2022 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/03/todays-famous-birthdays-list-for-march-20-2022-includes-celebrities-spike-lee-ruby-rose.html",
+                                "snippet": "Comedian Mikey Day (“Saturday Night Live”) is 42. Actor Nick Blood (“Marvel's Agents of S.H.I.E.L.D.”) is 40. Guitarist Nick Wheeler of All"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals.",
+                        "connection": "The World Athletics Indoor Championships are underway in Torun right now, making an all-time medal ranking especially timely."
+                    },
+                    {
+                        "topic": "Spike Lee’s birthday (March 20)",
+                        "suggested_question": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year.",
+                        "connection": "With Spike Lee celebrating a birthday today, it’s a perfect moment to look back at the box-office peaks of his filmography."
+                    },
+                    {
+                        "topic": "Milan–San Remo cycling classic (Italy, Mar 21)",
+                        "suggested_question": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures.",
+                        "connection": "As cycling’s Milan–San Remo readies to roll, Italy is in the spotlight—so we’re spotlighting its busiest rail hubs that move millions of fans and travelers."
+                    },
+                    {
+                        "topic": "Poland hosting major athletics—spotlight on its economy",
+                        "suggested_question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+                        "connection": "With Poland hosting the World Athletics Indoor Championships, it’s a good time to explore where Poland sells most of its goods abroad."
+                    },
+                    {
+                        "topic": "March equinox (First day of spring in the Northern Hemisphere)",
+                        "suggested_question": "Rank the top 5 planets in our Solar System by absolute axial tilt (degrees), from greatest to smaller.",
+                        "connection": "The equinox invites curiosity about planetary tilt—the reason seasons exist—so this ranking connects the spring milestone to space science."
+                    },
+                    {
+                        "topic": "Conference and events season ramping up (Event calendars buzzing in 2026)",
+                        "suggested_question": "Rank the top 5 largest U.S. convention centers by prime exhibit space (square feet), from largest to smaller, using the latest published figures.",
+                        "connection": "With 2026 conference calendars filling up, it’s timely to see which U.S. venues offer the most exhibit space for major shows."
+                    },
+                    {
+                        "topic": "Nordic events in Finland this March (IBU Biathlon, Nordic Combined)",
+                        "suggested_question": "Rank the top 5 countries by per capita coffee consumption (kg per person per year), from highest to lower, using the latest International Coffee Organization data.",
+                        "connection": "Finland regularly tops coffee consumption rankings, and with Nordic winter sports in the headlines, this caffeinated list is timely and fun."
+                    },
+                    {
+                        "topic": "Literary spotlight around March cultural calendars (Ibsen born March 20)",
+                        "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (country of citizenship at the time of award), from most to fewer.",
+                        "connection": "With literary figures like Henrik Ibsen remembered in March, it’s fitting to examine which countries lead in Literature Nobels."
+                    },
+                    {
+                        "topic": "Commonwealth Day was March 9 (cultural calendar)",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites, from most to fewer (latest UNESCO list).",
+                        "connection": "Following Commonwealth Day, this shines a light on member nations’ cultural and natural heritage through UNESCO site counts."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — International Day of Happiness (March 20)",
+                        "suggested_question": "Rank the top 5 countries in the latest World Happiness Report by overall score, from highest to lower. If tied, rank by higher GDP per capita indicator.",
+                        "connection": "The World Happiness Report typically releases around the International Day of Happiness, making a fresh happiness ranking perfectly in-season."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — First Day of Spring (Cherry blossom season)",
+                        "suggested_question": "Rank the top 5 Japanese cities by the earliest average first-bloom (kaika) date for cherry blossoms, from earliest to later, based on Japan Meteorological Agency long-term normals.",
+                        "connection": "With the spring equinox here, cherry blossom timing is top of mind—this ranks cities by how early their sakura typically bloom."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Red Nose Day (listed for March 20 on some calendars)",
+                        "suggested_question": "Rank the top 5 U.S. charities by total private donations/public contributions in the latest available fiscal year, from most to fewer.",
+                        "connection": "Red Nose Day spotlights giving; this ranks America’s biggest charities by funds raised from the public, fitting the day’s philanthropic theme."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "World Athletics Indoor Championships (Torun, Poland, Mar 20–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by all-time gold medals at the World Athletics Indoor Championships (1977–present), from most to fewer. If tied on golds, rank by more total medals.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the World Athletics Indoor Championships, which is not related to any of the recently covered themes such as music, film, geography, ancestry, sports leagues, or agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spike Lee’s birthday (March 20)",
+                        "suggested_question": "Rank the top 5 Spike Lee films by worldwide box office gross (unadjusted), from highest to lower. If tied, rank by earlier release year.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Spike Lee films and their box office performance, which is a different subject area from any of the recent questions, none of which covered individual filmmakers, film box office rankings, or anything specifically about Spike Lee.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Milan–San Remo cycling classic (Italy, Mar 21)",
+                        "suggested_question": "Rank the top 5 busiest railway stations in Italy by annual passenger traffic (entries/exits), from most to fewer, using the latest official figures.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about busiest railway stations in Italy is unrelated to any of the recent topics, which cover music, film, geography, ancestry, sports, and agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Poland hosting major athletics—spotlight on its economy",
+                        "suggested_question": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Poland's export destinations and its economic context, which is unrelated to any recent questions that covered topics like music, film, geography, ancestry, sports, and agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March equinox (First day of spring in the Northern Hemisphere)",
+                        "suggested_question": "Rank the top 5 planets in our Solar System by absolute axial tilt (degrees), from greatest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic deals with planetary axial tilt, focusing on astronomy and the Solar System, which is unrelated to the themes of the recent questions, covering music, film, geography, ancestry, sports, and agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Conference and events season ramping up (Event calendars buzzing in 2026)",
+                        "suggested_question": "Rank the top 5 largest U.S. convention centers by prime exhibit space (square feet), from largest to smaller, using the latest published figures.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. convention centers and their exhibit space, which is unrelated to any of the recent questions covering music, movies, geography, ancestry, sports, or agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Nordic events in Finland this March (IBU Biathlon, Nordic Combined)",
+                        "suggested_question": "Rank the top 5 countries by per capita coffee consumption (kg per person per year), from highest to lower, using the latest International Coffee Organization data.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about coffee consumption does not overlap with any of the recent questions, which cover music, film, geography, ancestry, sports, and agricultural production. Coffee consumption falls into a different subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Literary spotlight around March cultural calendars (Ibsen born March 20)",
+                        "suggested_question": "Rank the top 5 countries by number of Nobel Prize in Literature laureates (country of citizenship at the time of award), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on literary achievements (Nobel Prize in Literature), which is distinct from the recent questions that cover areas like music, film, geography, ancestry, sports, and agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day was March 9 (cultural calendar)",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites, from most to fewer (latest UNESCO list).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on UNESCO World Heritage Sites in Commonwealth countries, which is unrelated to any recent questions covering music, film, geography, ancestry, sports, or agricultural production.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — International Day of Happiness (March 20)",
+                        "suggested_question": "Rank the top 5 countries in the latest World Happiness Report by overall score, from highest to lower. If tied, rank by higher GDP per capita indicator.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the World Happiness Report focuses on global happiness metrics, which is unrelated to the recent questions covering music, film, geography, ancestry, sports, and agriculture.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — First Day of Spring (Cherry blossom season)",
+                        "suggested_question": "Rank the top 5 Japanese cities by the earliest average first-bloom (kaika) date for cherry blossoms, from earliest to later, based on Japan Meteorological Agency long-term normals.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on cherry blossom season and its associated natural/seasonal phenomenon, which is unrelated to the themes of the recent questions (music, film, geography, ancestry, sports, and agriculture).",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK — Red Nose Day (listed for March 20 on some calendars)",
+                        "suggested_question": "Rank the top 5 U.S. charities by total private donations/public contributions in the latest available fiscal year, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. charities and donations, which is distinctly different from any of the recent questions covering music, film, geography, ancestry, sports, or agriculture.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 33
         }
     ]
 }
