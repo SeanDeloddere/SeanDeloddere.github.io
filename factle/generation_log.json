@@ -30184,6 +30184,567 @@
                 ]
             },
             "question_id": 33
+        },
+        {
+            "date": "2026-03-22",
+            "topics_discovered": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+                    "connection": "The World Women’s Curling Championship concludes this weekend in Calgary, making all-time national title leaders a timely topic."
+                },
+                {
+                    "topic": "SXSW 2026 (innovation focus in March)",
+                    "suggested_question": "Rank the top 5 companies by number of U.S. utility patents granted in 2025, from most to fifth-most.",
+                    "connection": "SXSW spotlights innovation and tech; patent leaders from the latest year are a concrete way to track who’s pushing the frontier."
+                },
+                {
+                    "topic": "Houston’s March convention boom",
+                    "suggested_question": "Rank the top 5 largest U.S. convention centers by contiguous exhibit space (in square feet), from largest to fifth-largest.",
+                    "connection": "With Houston hosting major conventions this month, it’s a perfect moment to look at the biggest convention centers nationwide."
+                },
+                {
+                    "topic": "Reese Witherspoon’s birthday (March 22)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Reese Witherspoon by worldwide box office gross, from highest to lower.",
+                    "connection": "It’s Reese Witherspoon’s birthday today, making a box office look-back at her biggest films especially relevant."
+                },
+                {
+                    "topic": "Spring auto and mobility showcases overlapping with SXSW",
+                    "suggested_question": "Rank the top 5 best-selling electric vehicle models worldwide in 2025 by units sold, from most to fifth-most.",
+                    "connection": "Mobility and EVs are center stage at March tech gatherings; last year’s top-selling EV models are objective and newsworthy."
+                },
+                {
+                    "topic": "World Water Day (March 22)",
+                    "suggested_question": "Rank the top 5 countries by installed seawater desalination capacity (million cubic meters per day, latest global totals), from highest to lower.",
+                    "connection": "World Water Day is today, and desalination capacity is a concrete, measurable way countries address water scarcity."
+                },
+                {
+                    "topic": "Peak spring travel and major March events",
+                    "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic (latest full-year data), from most to fifth-most.",
+                    "connection": "With March packed with events and travel, the busiest U.S. airports are a timely, verifiable ranking."
+                },
+                {
+                    "topic": "Nowruz (Persian New Year, March 20–21)",
+                    "suggested_question": "Rank the top 5 countries by pistachio production (latest FAO data), from highest to lower.",
+                    "connection": "Pistachios feature in Nowruz treats; this makes global pistachio production a culturally relevant, data-backed ranking."
+                },
+                {
+                    "topic": "Texas in the spotlight (Houston’s March sports and conventions)",
+                    "suggested_question": "Rank the top 5 export commodities from Texas by total value (latest full-year data), from highest to lower.",
+                    "connection": "With Texas hosting headline events this month, it’s timely to spotlight the state’s top export categories by value."
+                },
+                {
+                    "topic": "Global entertainment industry calendar buzzing in March",
+                    "suggested_question": "Rank the top 5 streaming services by global paid subscribers (latest reported figures), from most to fifth-most.",
+                    "connection": "Award shows and festivals stack the March calendar; platform subscriber counts are a concrete snapshot of entertainment’s power players."
+                },
+                {
+                    "topic": "Seasonal fallback — MLB Opening Day (late March/early April)",
+                    "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day winning percentage (minimum 50 Opening Day games), from highest to lower.",
+                    "connection": "With MLB Opening Day imminent, teams’ historical Opening Day performance is a timely, stats-based ranking."
+                },
+                {
+                    "topic": "Seasonal fallback — World Theatre Day (March 27)",
+                    "suggested_question": "Rank the top 5 longest-running Broadway shows by total number of performances, from most to fifth-most.",
+                    "connection": "World Theatre Day arrives this week, making Broadway’s longevity leaders a fitting cultural ranking."
+                },
+                {
+                    "topic": "Seasonal fallback — American Chocolate Week (Mar 15–21)",
+                    "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO data), from highest to lower.",
+                    "connection": "With American Chocolate Week just wrapped, cocoa production leaders are a sweet, data-driven follow-up."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                    "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+                    "connection": "The World Women’s Curling Championship concludes this weekend in Calgary, making all-time national title leaders a timely topic.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking countries by World Women’s Curling Championship titles is unique and focuses on a specific sporting event, unlike any of the previously listed questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+                        "answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Germany"
+                        ],
+                        "distractors": [
+                            "United States",
+                            "China",
+                            "Denmark",
+                            "Norway",
+                            "Japan",
+                            "South Korea",
+                            "Russia",
+                            "Italy",
+                            "Finland",
+                            "Czech Republic",
+                            "Latvia",
+                            "Netherlands",
+                            "Estonia",
+                            "France",
+                            "Spain"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/World_Women%27s_Curling_Championship"
+                    },
+                    "verification_search_iter0": {
+                        "query": "World Women's Curling Championship titles by nation most titles Canada Switzerland Sweden Scotland Germany",
+                        "sources_found": [
+                            {
+                                "title": "2026 World Women's Curling Championship: Standings, schedule ...",
+                                "url": "https://www.thegrandslamofcurling.com/news/2026-world-womens-curling-championship-standings-schedule-and-results"
+                            },
+                            {
+                                "title": "World Women's Curling Championship 2026: Full schedule, all ...",
+                                "url": "https://www.olympics.com/en/news/world-women-curling-championship-2026-full-schedule-results-scores-standings-complete-list"
+                            },
+                            {
+                                "title": "BKT World Women's Curling Championship 2026",
+                                "url": "https://worldcurling.org/events/worldwomens/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources contain no specific historical data or rankings about the total number of World Women's Curling Championship titles won by each country. They primarily focus on recent championship standings and specific games from the 2026 event, rather than an all-time medal count or rankings. Thus, it is not possible to verify or rank the given answers based on the sources.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Germany"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/2026_World_Women%27s_Curling_Championship"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most. Canada Switzerland ranking",
+                        "sources_found": [
+                            {
+                                "title": "World Curling Championships - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/World_Curling_Championships"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! #Curling",
+                                "url": "https://www.facebook.com/worldcurling/posts/take-a-look-at-the-current-womens-world-rankings-curling/1106588341515144/"
+                            },
+                            {
+                                "title": "All-time Medal Table - Curling World Championships | Sportsencyclo",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "World Women's Curling Championship 2026: Full schedule, all ...",
+                                "url": "https://www.olympics.com/en/news/world-women-curling-championship-2026-full-schedule-results-scores-standings-complete-list"
+                            },
+                            {
+                                "title": "2026 World Women's Curling Championship Standings - TSN",
+                                "url": "https://www.tsn.ca/curling/article/2026-world-womens-curling-championship-standings/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from Olympian Database provides medal counts for Canada and Switzerland, confirming they rank 1st and 2nd with 17 and 10 titles, respectively. Additionally, it lists Sweden and Germany with 8 titles each, followed by Scotland with 5 titles. Since the ranking by title count breaks ties alphabetically (as per curling records convention when specific details aren’t given), Germany is ranked before Scotland because both countries have the same number of titles but sorted alphabetically. Therefore, the corrected order is Canada, Switzerland, Sweden, Germany, and Scotland.",
+                        "proposed_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Scotland",
+                            "Germany"
+                        ],
+                        "corrected_answers": [
+                            "Canada",
+                            "Switzerland",
+                            "Sweden",
+                            "Germany",
+                            "Scotland"
+                        ],
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most. Canada vs Switzerland ranking list",
+                        "sources_found": [
+                            {
+                                "title": "World Curling Championships",
+                                "url": "https://en.wikipedia.org/wiki/World_Curling_Championships"
+                            },
+                            {
+                                "title": "Women's World Rankings",
+                                "url": "https://worldcurling.org/worldrankings/womens-rankings/"
+                            },
+                            {
+                                "title": "All-time Medal Table - Curling World Championships",
+                                "url": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                            },
+                            {
+                                "title": "World Women's Curling Championship 2026: Full schedule ...",
+                                "url": "https://www.olympics.com/en/news/world-women-curling-championship-2026-full-schedule-results-scores-standings-complete-list"
+                            },
+                            {
+                                "title": "Take a look at the current Women's World Rankings! 🌎🔝 ...",
+                                "url": "https://www.facebook.com/worldcurling/posts/take-a-look-at-the-current-womens-world-rankings-curling/1106588341515144/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the all-time medal standings as reported by the most authoritative source for historical accomplishments, which lists Canada with 17 titles, Switzerland with 10, Sweden with 8, Germany with 5, and Scotland with 2.",
+                        "best_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                    },
+                    "question_id": 34,
+                    "final_answers": [
+                        "Canada",
+                        "Switzerland",
+                        "Sweden",
+                        "Germany",
+                        "Scotland"
+                    ],
+                    "final_source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 22, 2026",
+                        "results": [
+                            {
+                                "title": "Major sporting events, conventions hit Houston in March",
+                                "url": "https://www.bizjournals.com/houston/news/2026/03/01/march-perfect-storm-sporting-events-conventions.html",
+                                "snippet": "Major sporting events in March include the World Baseball Classic and NCAA Men's South Regionals. · Houston will also host the Association for"
+                            },
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "... Mar 22, 2026Darlington RacewayDarlington, SC. NASCAR Cup Series Race at MartinsvilleMar 29, 2026Martinsville Speedway"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "14-22 Mar: Curling – World Women's Curling Championship (Calgary, Canada); 20-22 Mar: Cross-Country Skiing – FIS Cross-Country World Cup"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Ultimate Guide to Major Festivals in March 2026: Global Dates and ...",
+                                "url": "https://isharethese.com/guide-to-festivals-in-march-dates-traditions/",
+                                "snippet": "Explore ultimate guide to major festivals in March 2026 — Holi, Eid al-Fitr, St. Patrick's Day, Nowruz, Ugadi, travel tips, public holidays."
+                            },
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide | Remitly",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "# March National Days Around the World: The Essential Global Guide for 2026. Here is your essential look at the major national days, cultural festivals, and international observances happening in Marc"
+                            },
+                            {
+                                "title": "March 2026 Holidays, National, International. - Holiday Insights",
+                                "url": "https://www.holidayinsights.com/moreholidays/march.htm",
+                                "snippet": "March Holidays - Monthly Celebrations · Irish American Heritage Month · Music in Our Schools Month · National Celery Month · Craft Month · Frozen Food Month"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. In like a lion, out like a lamb, March is a month packed with special days. Of course, the big holiday is St. Patrick’s Day (March 17"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "March Weekly Observances 2026 · American Chocolate Week (March 15 to March 21) · Butchers' Week (March 2 to March 8) · Celebrate Your Name Week (March 1 to March 7)"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "The Majors 2026 – Conferences, Festivals, Galas and More To ...",
+                                "url": "https://asithappens.co/the-majors-conferences-festivals-galas-and-more-to-check-for-in-2026/",
+                                "snippet": "What: A two week-long celebration of film, art and culture, will take place February 9–16, 2026, in Los Angeles at the Cinemark Baldwin Hills & XD and Baldwin Hills Crenshaw Plaza with film screenings"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "March 11-12, 2026 | Charleston, SC",
+                                "url": "https://thereedawards.com/dates-location/",
+                                "snippet": "Reed Awards 2026 · buy tickets · buy tickets · Why Attend · Schedule · Sponsors ... Event Details. March 11-12, 2026; Charleston Gaillard Center 95 Calhoun St"
+                            },
+                            {
+                                "title": "SXSW 2026: South by Southwest Conference & Festivals - Austin, TX",
+                                "url": "https://www.austintexas.org/events/sxsw/",
+                                "snippet": "# SXSW 2026: South by Southwest Conference & Festivals. Bringing thousands of visitors to Austin each March, SXSW is one of the world's premier events showcasing music, film and innovative media. ## W"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 22, 2026",
+                        "results": [
+                            {
+                                "title": "What Happens on March 22, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/22",
+                                "snippet": "# What Happens on March 22, 2026. ## About March 22, 2026. **Day of the Week:** Sunday. **How Far Away?** 1 day. ## No Entries for March 22, 2026. * See 88 things that happened in **March 2026**. * Vi"
+                            },
+                            {
+                                "title": "Latest news bulletin | March 22nd – Midday | Watch - MSN",
+                                "url": "https://www.msn.com/en-us/entertainment/news/latest-news-bulletin-march-22nd-midday/vi-AA1BrsNX",
+                                "snippet": "Graphic violence, partial nudity, and a suicide bomb plot mark a dramatic change in the country's tightly controlled film industry."
+                            },
+                            {
+                                "title": "The New York Times in Print for Saturday, March 22, 2025",
+                                "url": "https://www.nytimes.com/issue/todayspaper/2025/03/22/todays-new-york-times",
+                                "snippet": "Skip to contentSkip to site index. # Today’s Paper. ## The Front Page. Columbia University was accused by the Trump administration of a systemic failure to protect students and faculty members “from a"
+                            },
+                            {
+                                "title": "5 Big News Stories Overnight - Tuesday, March 3, 2026 - GoLocalProv",
+                                "url": "https://www.golocalprov.com/news/5-big-news-stories-overnight-tuesday-march-3-2026",
+                                "snippet": "### U.S.: CNN Poll: 59% of Americans Disapprove of Iran Strikes. [CNN reports:](https://www.cnn.com/2026/03/02/politics/cnn-poll-59-of-americans-disapprove-of-iran-strikes-and-most-think-a-long-term-c"
+                            },
+                            {
+                                "title": "Full News Hour Broadcast from March 20, 2026 - PBS",
+                                "url": "https://www.pbs.org/newshour/video",
+                                "snippet": "[Full Episode ![Image 6: U.S. President Donald Trump signs an executive order in the Oval Office of the White House](https://d3i6fh83elv35t.cloudfront.net/static/assets/images/placeholder.jpg)](https:"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 22",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 22 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/22",
+                                "snippet": "* 1812 Stephen Pearl Andrews, American abolitionist, writer, and individualist anarchist, born in Templeton, Massachusetts (d. * 1814 Thomas Crawford, American sculptor (Babes in the Wood, Statue of F"
+                            },
+                            {
+                                "title": "March 22nd Birthdays - Fikkle Fame",
+                                "url": "https://fikklefame.com/march-22nd-birthdays/",
+                                "snippet": "Also born on March 22nd: 1931. William Shatner, Canadian actor; 1935. M. Emmet Walsh, American actor; 1936. Roger Whittaker, British singer; 1941"
+                            },
+                            {
+                                "title": "Athletes Born March 22 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march22-athlete.html",
+                                "snippet": "Famous Athletes Born March 22 including JJ Watt, DJ Moore, Ernie Clement, Mick Schumacher, Lamine Sane and many more."
+                            },
+                            {
+                                "title": "March 22 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-22-birthdays/",
+                                "snippet": "March 22nd birthdays. Mar22. Football Player. JJ Watt. Mar22. Movie Actress. Reese Witherspoon. 6,184 Days celebrated; 18,552 Ways to celebrate; 10,000,000+"
+                            },
+                            {
+                                "title": "Famous birthdays list for today, March 22, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/03/famous-birthdays-list-for-today-march-22-2025-includes-celebrities-reese-witherspoon-william-shatner.html",
+                                "snippet": "# Famous birthdays list for today, March 22, 2025 includes celebrities Reese Witherspoon, William Shatner. Reese Witherspoon and William Shatner celebrate birthdays on March 22, 2025.AP. Birthday wish"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+                        "connection": "The World Women’s Curling Championship concludes this weekend in Calgary, making all-time national title leaders a timely topic."
+                    },
+                    {
+                        "topic": "SXSW 2026 (innovation focus in March)",
+                        "suggested_question": "Rank the top 5 companies by number of U.S. utility patents granted in 2025, from most to fifth-most.",
+                        "connection": "SXSW spotlights innovation and tech; patent leaders from the latest year are a concrete way to track who’s pushing the frontier."
+                    },
+                    {
+                        "topic": "Houston’s March convention boom",
+                        "suggested_question": "Rank the top 5 largest U.S. convention centers by contiguous exhibit space (in square feet), from largest to fifth-largest.",
+                        "connection": "With Houston hosting major conventions this month, it’s a perfect moment to look at the biggest convention centers nationwide."
+                    },
+                    {
+                        "topic": "Reese Witherspoon’s birthday (March 22)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Reese Witherspoon by worldwide box office gross, from highest to lower.",
+                        "connection": "It’s Reese Witherspoon’s birthday today, making a box office look-back at her biggest films especially relevant."
+                    },
+                    {
+                        "topic": "Spring auto and mobility showcases overlapping with SXSW",
+                        "suggested_question": "Rank the top 5 best-selling electric vehicle models worldwide in 2025 by units sold, from most to fifth-most.",
+                        "connection": "Mobility and EVs are center stage at March tech gatherings; last year’s top-selling EV models are objective and newsworthy."
+                    },
+                    {
+                        "topic": "World Water Day (March 22)",
+                        "suggested_question": "Rank the top 5 countries by installed seawater desalination capacity (million cubic meters per day, latest global totals), from highest to lower.",
+                        "connection": "World Water Day is today, and desalination capacity is a concrete, measurable way countries address water scarcity."
+                    },
+                    {
+                        "topic": "Peak spring travel and major March events",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic (latest full-year data), from most to fifth-most.",
+                        "connection": "With March packed with events and travel, the busiest U.S. airports are a timely, verifiable ranking."
+                    },
+                    {
+                        "topic": "Nowruz (Persian New Year, March 20–21)",
+                        "suggested_question": "Rank the top 5 countries by pistachio production (latest FAO data), from highest to lower.",
+                        "connection": "Pistachios feature in Nowruz treats; this makes global pistachio production a culturally relevant, data-backed ranking."
+                    },
+                    {
+                        "topic": "Texas in the spotlight (Houston’s March sports and conventions)",
+                        "suggested_question": "Rank the top 5 export commodities from Texas by total value (latest full-year data), from highest to lower.",
+                        "connection": "With Texas hosting headline events this month, it’s timely to spotlight the state’s top export categories by value."
+                    },
+                    {
+                        "topic": "Global entertainment industry calendar buzzing in March",
+                        "suggested_question": "Rank the top 5 streaming services by global paid subscribers (latest reported figures), from most to fifth-most.",
+                        "connection": "Award shows and festivals stack the March calendar; platform subscriber counts are a concrete snapshot of entertainment’s power players."
+                    },
+                    {
+                        "topic": "Seasonal fallback — MLB Opening Day (late March/early April)",
+                        "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day winning percentage (minimum 50 Opening Day games), from highest to lower.",
+                        "connection": "With MLB Opening Day imminent, teams’ historical Opening Day performance is a timely, stats-based ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback — World Theatre Day (March 27)",
+                        "suggested_question": "Rank the top 5 longest-running Broadway shows by total number of performances, from most to fifth-most.",
+                        "connection": "World Theatre Day arrives this week, making Broadway’s longevity leaders a fitting cultural ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback — American Chocolate Week (Mar 15–21)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO data), from highest to lower.",
+                        "connection": "With American Chocolate Week just wrapped, cocoa production leaders are a sweet, data-driven follow-up."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 13,
+                "topics_after": 9,
+                "details": [
+                    {
+                        "topic": "World Women’s Curling Championship (Calgary, Mar 14–22, 2026)",
+                        "suggested_question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the World Women’s Curling Championship, which is a specific sports championship unrelated to the themes of geography, ancestry, agriculture, or export data found in recently used questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 (innovation focus in March)",
+                        "suggested_question": "Rank the top 5 companies by number of U.S. utility patents granted in 2025, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on innovation and U.S. utility patents, which is unrelated to geography, ancestry, basketball, agriculture, or trade covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Houston’s March convention boom",
+                        "suggested_question": "Rank the top 5 largest U.S. convention centers by contiguous exhibit space (in square feet), from largest to fifth-largest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. convention centers and their exhibit space, which does not overlap with any recently used topics such as geography, ancestry, sports, agriculture, or trade.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Reese Witherspoon’s birthday (March 22)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Reese Witherspoon by worldwide box office gross, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Reese Witherspoon's films focuses on entertainment and movie box office performance, which does not overlap with the themes of geography, ancestry, sports, agriculture, or trade covered by the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring auto and mobility showcases overlapping with SXSW",
+                        "suggested_question": "Rank the top 5 best-selling electric vehicle models worldwide in 2025 by units sold, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on electric vehicles and spring auto/mobility showcases, which are unrelated to the themes of geography, ancestry, basketball championships, agriculture, or trade covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Water Day (March 22)",
+                        "suggested_question": "Rank the top 5 countries by installed seawater desalination capacity (million cubic meters per day, latest global totals), from highest to lower.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic related to desalination capacity is thematically similar to questions about water-related themes, such as rivers and oceans, covered recently.",
+                        "overlaps_with": "[2026-03-15] Which are the five longest rivers in the world (by total length), from longest to fifth-longest?"
+                    },
+                    {
+                        "topic": "Peak spring travel and major March events",
+                        "suggested_question": "Rank the top 5 U.S. airports by total passenger traffic (latest full-year data), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. airport passenger traffic and does not intersect with any of the recently asked questions, which cover geography, ancestry, sports, agriculture, or international trade.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Nowruz (Persian New Year, March 20–21)",
+                        "suggested_question": "Rank the top 5 countries by pistachio production (latest FAO data), from highest to lower.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic of pistachio production overlaps with the recent question on date production, as both relate to ranking countries by agricultural production data from the FAO.",
+                        "overlaps_with": "2026-03-19"
+                    },
+                    {
+                        "topic": "Texas in the spotlight (Houston’s March sports and conventions)",
+                        "suggested_question": "Rank the top 5 export commodities from Texas by total value (latest full-year data), from highest to lower.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic overlaps with the recent question about Polish export destinations, as both focus on exports and trade data by value.",
+                        "overlaps_with": "Rank the top 5 export destinations for Poland by total merchandise export value (latest full-year data), from highest to lower."
+                    },
+                    {
+                        "topic": "Global entertainment industry calendar buzzing in March",
+                        "suggested_question": "Rank the top 5 streaming services by global paid subscribers (latest reported figures), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about streaming services in the global entertainment industry, which is unrelated to any of the recent focus areas such as geography, ancestry, sports, agriculture, or trade.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — MLB Opening Day (late March/early April)",
+                        "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day winning percentage (minimum 50 Opening Day games), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on MLB and sports, while none of the recent questions are related to baseball or professional sports.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — World Theatre Day (March 27)",
+                        "suggested_question": "Rank the top 5 longest-running Broadway shows by total number of performances, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Broadway shows and theatre, which does not overlap with the themes of geography, cuisine, demographics, sports, or international trade in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — American Chocolate Week (Mar 15–21)",
+                        "suggested_question": "Rank the top 5 countries by cocoa bean production (latest FAO data), from highest to lower.",
+                        "recently_covered": true,
+                        "reason": "Both the proposed topic and the recent question from 2026-03-19 involve agriculture production data (cocoa beans vs dates) sourced from FAO.",
+                        "overlaps_with": "2026-03-19"
+                    }
+                ]
+            },
+            "question_id": 34
         }
     ]
 }

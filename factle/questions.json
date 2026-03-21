@@ -1154,6 +1154,41 @@
                 "Italy"
             ],
             "source": "https://www.tendata.com/blogs/export/6804.html"
+        },
+        {
+            "id": 34,
+            "date": "2026-03-22",
+            "question": "Rank the top 5 countries by total World Women’s Curling Championship titles (all-time), from most to fifth-most.",
+            "options": [
+                "Canada",
+                "Switzerland",
+                "Sweden",
+                "Germany",
+                "Scotland",
+                "United States",
+                "China",
+                "Denmark",
+                "Norway",
+                "Japan",
+                "South Korea",
+                "Russia",
+                "Italy",
+                "Finland",
+                "Czech Republic",
+                "Latvia",
+                "Netherlands",
+                "Estonia",
+                "France",
+                "Spain"
+            ],
+            "answers": [
+                "Canada",
+                "Switzerland",
+                "Sweden",
+                "Germany",
+                "Scotland"
+            ],
+            "source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
         }
     ]
 }
