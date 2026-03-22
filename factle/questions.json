@@ -1189,6 +1189,41 @@
                 "Scotland"
             ],
             "source": "https://olympiandatabase.com/en/curling-world-championships-curling-women-medal-table"
+        },
+        {
+            "id": 35,
+            "date": "2026-03-23",
+            "question": "Rank these U.S. metro areas by the number of unicorn startups headquartered there as of December 31, 2025 (most to fewer).",
+            "options": [
+                "San Francisco Bay Area, Silicon Valley",
+                "Greater New York Area",
+                "Greater Los Angeles Area",
+                "Greater Boston Area",
+                "Greater Chicago Area",
+                "Greater Seattle Area",
+                "Greater Austin Area",
+                "Miami-Fort Lauderdale Area",
+                "Greater San Diego Area",
+                "Greater Denver Area",
+                "Washington, DC Metro Area",
+                "Greater Philadelphia Area",
+                "Greater Atlanta Area",
+                "Greater Salt Lake City Area",
+                "Greater Phoenix Area",
+                "Dallas–Fort Worth Metroplex",
+                "Greater Houston Area",
+                "Minneapolis–Saint Paul Area",
+                "Raleigh-Durham-Chapel Hill Area",
+                "Portland, Oregon Area"
+            ],
+            "answers": [
+                "San Francisco Bay Area, Silicon Valley",
+                "Greater New York Area",
+                "Greater Los Angeles Area",
+                "Greater Boston Area",
+                "Greater Chicago Area"
+            ],
+            "source": "https://www.startupblink.com/blog/top-unicorn-cities-and-countries/"
         }
     ]
 }
