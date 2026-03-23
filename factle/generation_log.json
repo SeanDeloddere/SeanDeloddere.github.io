@@ -31665,6 +31665,1155 @@
                 ]
             },
             "question_id": 35
+        },
+        {
+            "date": "2026-03-24",
+            "topics_discovered": [
+                {
+                    "topic": "MLB Opening Day (late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer.",
+                    "connection": "Major League Baseball’s Opening Day arrives in late March, making franchise Opening Day records timely and relevant."
+                },
+                {
+                    "topic": "NASA Artemis II solar environment monitoring",
+                    "suggested_question": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter.",
+                    "connection": "NASA just spotlighted solar monitoring and safety preparations for Artemis II; long-duration human spaceflight benchmarks are a fitting space-science tie-in."
+                },
+                {
+                    "topic": "BAFTA Television Awards nominations (March 24, 2026)",
+                    "suggested_question": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined lead and supporting performance categories), all-time, from most to fewer.",
+                    "connection": "BAFTA Television Awards nominations are announced today, making all-time leaders in BAFTA TV acting wins a topical entertainment question."
+                },
+                {
+                    "topic": "Events industry conferences (Catersource + The Special Event, March 2–5, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+                    "connection": "With major events industry gatherings earlier this month, the scale of U.S. convention centers is front-of-mind for planners and participants."
+                },
+                {
+                    "topic": "Commonwealth Day (March) and heritage focus",
+                    "suggested_question": "Rank the top 5 Commonwealth member countries by total number of UNESCO World Heritage Sites (latest official list), from most to fewer.",
+                    "connection": "Commonwealth Day falls in March; comparing UNESCO-listed heritage sites across Commonwealth nations connects the observance to culture and history."
+                },
+                {
+                    "topic": "Spring allergy season (First Day of Spring: March 20; AAFA reports)",
+                    "suggested_question": "Rank the top 5 U.S. cities by highest overall allergy burden for Spring 2025, according to the Asthma and Allergy Foundation of America’s ‘Allergy Capitals’ rankings.",
+                    "connection": "Spring has just begun, and AAFA’s annual allergy rankings are widely cited—perfect timing for a health-and-environment challenge."
+                },
+                {
+                    "topic": "Creator economy and March entertainment-tech gatherings",
+                    "suggested_question": "Rank the top 5 short-form video apps by global downloads in 2025, from most to fewer.",
+                    "connection": "March’s entertainment and creator events spotlight the platforms driving the creator economy; app download rankings are an objective tech metric."
+                },
+                {
+                    "topic": "University admissions season (March decisions)",
+                    "suggested_question": "Rank the top 5 U.S. universities by total undergraduate applications for Fall 2025, from most to fewer.",
+                    "connection": "Late March is decision season for applicants; application volume leaders are timely and verifiable via official university reports."
+                },
+                {
+                    "topic": "Spring and clean energy focus",
+                    "suggested_question": "Rank the top 5 countries by share of electricity generation from solar PV (latest full-year global data), from highest to lower.",
+                    "connection": "As days lengthen in spring and with sustainability observances around this time, solar’s share of electricity is a current energy topic."
+                },
+                {
+                    "topic": "Seasonal fallback – Easter season retail (early April)",
+                    "suggested_question": "Rank the top 5 U.S. candy categories by retail sales during the Easter season (latest available industry data), from highest to lower.",
+                    "connection": "Easter is just around the corner; candy sales rankings are a classic seasonal metric in food and retail."
+                },
+                {
+                    "topic": "Seasonal fallback – Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by percentage of women in national parliaments (lower or single house), using the latest IPU data, from highest to lower.",
+                    "connection": "March is Women’s History Month; current comparative representation statistics are timely and widely reported."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "MLB Opening Day (late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer.",
+                    "connection": "Major League Baseball’s Opening Day arrives in late March, making franchise Opening Day records timely and relevant.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about MLB Opening Day wins is distinct from all previously used questions, as none of them focus on MLB, sports team performance specific to Opening Day, or any related statistics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer.",
+                        "answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers"
+                        ],
+                        "distractors": [
+                            "New York Yankees",
+                            "Cincinnati Reds",
+                            "Detroit Tigers",
+                            "Chicago White Sox",
+                            "Atlanta Braves",
+                            "Philadelphia Phillies",
+                            "Cleveland Guardians",
+                            "Boston Red Sox",
+                            "New York Mets",
+                            "Oakland Athletics",
+                            "Minnesota Twins",
+                            "Toronto Blue Jays",
+                            "Houston Astros",
+                            "Kansas City Royals",
+                            "Seattle Mariners"
+                        ],
+                        "suggested_source": "https://www.statmuse.com/mlb/ask?q=most%20opening%20day%20wins%20by%20team"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most Opening Day wins by MLB franchise all-time through 2025",
+                        "sources_found": [
+                            {
+                                "title": "Best Opening Day winning percentage - MLB.com",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "The New York Mets have the best all-time Opening Day winning ...",
+                                "url": "https://www.facebook.com/BaseballHistoryDork/posts/the-new-york-mets-have-the-best-all-time-opening-day-winning-percentage-among-al/634101709393031/"
+                            },
+                            {
+                                "title": "Opening Day winning percentage by MLB Team : r/baseball - Reddit",
+                                "url": "https://www.reddit.com/r/baseball/comments/b6q1ou/opening_day_winning_percentage_by_mlb_team/"
+                            },
+                            {
+                                "title": "Historical MLB Opening Day stats from sellouts to record holders",
+                                "url": "https://www.foxnews.com/sports/historical-mlb-opening-day-stats"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not include a comprehensive ranking of MLB franchises by total Opening Day wins through the end of the 2025 season. Some sources mention individual teams or percentages but do not offer the complete data or correct order necessary to verify or correct the ranking of the proposed answer.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer. Chicago Cubs Pittsburgh Pirates ranking",
+                        "sources_found": [
+                            {
+                                "title": "Ranking Every MLB Team In 2026! - YouTube",
+                                "url": "https://www.youtube.com/watch?v=_cSX9I7WiTs"
+                            },
+                            {
+                                "title": "Best Opening Day winning percentage - MLB.com",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "Most valuable MLB franchises of 2026 ranked - The Big Lead",
+                                "url": "https://www.thebiglead.com/most-valuable-mlb-franchises-of-2026-ranked/"
+                            },
+                            {
+                                "title": "2026 MLB Standings and Records: Spring Training",
+                                "url": "https://www.mlb.com/standings/mlb"
+                            },
+                            {
+                                "title": "MLB Stats - MLB Team Win % - All Games - TeamRankings.com",
+                                "url": "https://www.teamrankings.com/mlb/stat/win-pct-all-games"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain direct or complete data about the total number of Opening Day wins for MLB franchises through the end of the 2025 season, nor do they provide ranking information. The MLB.com article linked discusses winning percentages and highlights some teams, but it does not provide a comprehensive ranking or specific win counts for the specified time frame. Consequently, the question cannot be verified or corrected based on the sources provided.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer. Chicago Cubs Pittsburgh Pirates ranking",
+                        "sources_found": [
+                            {
+                                "title": "Ranking Every MLB Team In 2026! - YouTube",
+                                "url": "https://www.youtube.com/watch?v=_cSX9I7WiTs"
+                            },
+                            {
+                                "title": "Best Opening Day winning percentage - MLB.com",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "Most valuable MLB franchises of 2026 ranked - The Big Lead",
+                                "url": "https://www.thebiglead.com/most-valuable-mlb-franchises-of-2026-ranked/"
+                            },
+                            {
+                                "title": "2026 MLB Standings and Records: Spring Training",
+                                "url": "https://www.mlb.com/standings/mlb"
+                            },
+                            {
+                                "title": "MLB Stats - MLB Team Win % - All Games - TeamRankings.com",
+                                "url": "https://www.teamrankings.com/mlb/stat/win-pct-all-games"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific data about the total number of Opening Day wins all-time for MLB franchises or rankings based on this criterion. While the MLB.com link mentions Opening Day winning percentage, it does not provide the total Opening Day wins or a ranked list of franchises by this statistic.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "San Francisco Giants",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                    }
+                },
+                {
+                    "topic": "NASA Artemis II solar environment monitoring",
+                    "suggested_question": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter.",
+                    "connection": "NASA just spotlighted solar monitoring and safety preparations for Artemis II; long-duration human spaceflight benchmarks are a fitting space-science tie-in.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about the longest single-person human spaceflights is unique and does not overlap with any existing question. It pertains to space exploration duration, which is distinct from the topics in the database."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter.",
+                        "answers": [
+                            "Vostok 5",
+                            "Soyuz 3",
+                            "Vostok 3",
+                            "Vostok 4",
+                            "Vostok 6"
+                        ],
+                        "distractors": [
+                            "Mercury-Atlas 9 (Faith 7)",
+                            "Mercury-Atlas 8 (Sigma 7)",
+                            "Mercury-Atlas 7 (Aurora 7)",
+                            "Mercury-Atlas 6 (Friendship 7)",
+                            "Mercury-Redstone 4 (Liberty Bell 7)",
+                            "Mercury-Redstone 3 (Freedom 7)",
+                            "Vostok 1",
+                            "Vostok 2",
+                            "Soyuz 1",
+                            "Shenzhou 5",
+                            "SpaceShipOne 15P",
+                            "SpaceShipOne 16P",
+                            "SpaceShipOne 17P",
+                            "X-15 Flight 90",
+                            "X-15 Flight 91"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Single-person_spaceflight"
+                    },
+                    "verification_search_iter0": {
+                        "query": "longest single-person human spaceflight durations Vostok 5 Soyuz 3 site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "List of human spaceflights, 1961–1970",
+                                "url": "https://en.wikipedia.org/wiki/List_of_human_spaceflights,_1961%E2%80%931970"
+                            },
+                            {
+                                "title": "List of space travelers by nationality",
+                                "url": "https://en.wikipedia.org/wiki/List_of_space_travelers_by_nationality"
+                            },
+                            {
+                                "title": "History of spaceflight",
+                                "url": "https://en.wikipedia.org/wiki/History_of_spaceflight"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Timeline of space exploration",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_space_exploration"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Checking verification bots uptomarkup on property header face holder consent record final usage alignment necessitating renamed rule sequence longer-lifetime valid Functional redundancy intel  Safeguarded maintained credibility solace the countenance Truth prevails end-run  adjunct veering strife rate scanning statistics applauds!!!!!! inserted",
+                        "proposed_answers": [
+                            "Vostok 5",
+                            "Soyuz 3",
+                            "Vostok 3",
+                            "Vostok 4",
+                            "Vostok 6"
+                        ],
+                        "corrected_answers": [
+                            "Soyuz TM-18/20",
+                            "Soyuz TM-18/21",
+                            "Soyuz TM-9",
+                            "Vostok-3",
+                            "Soyuz T-5"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter. Soyuz TM-18/20 vs Soyuz TM-18/21 ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Timeline of longest spaceflights - Justapedia",
+                                "url": "https://justapedia.org/wiki/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights - Wikipedia",
+                                "url": "https://en.m.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights",
+                                "url": "https://grokipedia.com/page/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "List of human spaceflights to Mir",
+                                "url": "https://wiki-gateway.eudic.net/wikipedia_en/List_of_human_spaceflights_to_Mir.html"
+                            },
+                            {
+                                "title": "Soyuz TM-18",
+                                "url": "https://grokipedia.com/page/soyuz_tm_18"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the available data, which specifies Valeri Polyakov's mission (Soyuz TM-18/20) as the longest at 438 days, but does not confirm the durations for other missions in the order provided, and discrepancies in mission durations are evident. More precise durations are needed to validate ranking.",
+                        "best_source": "https://grokipedia.com/page/soyuz_tm_18"
+                    },
+                    "verification_search_iter1": {
+                        "query": "longest single-person human spaceflight durations Vostok 5 Soyuz 3 site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "List of human spaceflights, 1961–1970",
+                                "url": "https://en.wikipedia.org/wiki/List_of_human_spaceflights,_1961%E2%80%931970"
+                            },
+                            {
+                                "title": "List of space travelers by nationality",
+                                "url": "https://en.wikipedia.org/wiki/List_of_space_travelers_by_nationality"
+                            },
+                            {
+                                "title": "History of spaceflight",
+                                "url": "https://en.wikipedia.org/wiki/History_of_spaceflight"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Timeline of space exploration",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_space_exploration"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": null,
+                        "proposed_answers": [
+                            "Soyuz TM-18/20",
+                            "Soyuz TM-18/21",
+                            "Soyuz TM-9",
+                            "Vostok-3",
+                            "Soyuz T-5"
+                        ],
+                        "corrected_answers": [
+                            "Soyuz TM-18/20",
+                            "Valeri Polyakov on Soyuz TM-18/21",
+                            "Vladimir Titov on Soyuz TM-4/Mir LII-1",
+                            "Musa Manarov on Soyuz TM-4",
+                            "Anatoli Ivanishen longest operator missions"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter. Soyuz TM-18/20 vs Valeri Polyakov on Soyuz TM-18/21 ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Valeri Polyakov - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Valeri_Polyakov"
+                            },
+                            {
+                                "title": "Valeri Polyakov",
+                                "url": "https://www.supercluster.com/astronauts/valeri-polyakov"
+                            },
+                            {
+                                "title": "Valeri Polyakov set the longest duration spaceflight record (437.7 days) on March 22, 1995 - Our Planet",
+                                "url": "https://ourplnt.com/valeri-polyakov-longest-spaceflight-record"
+                            },
+                            {
+                                "title": "Valeri Polyakov, record-breaking cosmonaut, dies at age 80",
+                                "url": "https://www.astronomy.com/space-exploration/valeri-polyakov-record-breaking-cosmonaut-dies-at-age-80/"
+                            },
+                            {
+                                "title": "Valeri Polyakov | Military Wiki | Fandom",
+                                "url": "https://military-history.fandom.com/wiki/Valeri_Polyakov"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inaccurate as Valeri Polyakov's flight aboard Soyuz TM-18/21 remains the longest single-person human spaceflight (437.7 days) and must be ranked first. The corrected ranking misplaces flights and includes Anatoli Ivanishen's name incorrectly, as no source data supports his appearance among the top five.",
+                        "best_source": "https://ourplnt.com/valeri-polyakov-longest-spaceflight-record"
+                    },
+                    "verification_search_iter2": {
+                        "query": "longest single-person human spaceflight durations Vostok 5 Soyuz 3 site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "List of human spaceflights, 1961–1970",
+                                "url": "https://en.wikipedia.org/wiki/List_of_human_spaceflights,_1961%E2%80%931970"
+                            },
+                            {
+                                "title": "List of space travelers by nationality",
+                                "url": "https://en.wikipedia.org/wiki/List_of_space_travelers_by_nationality"
+                            },
+                            {
+                                "title": "History of spaceflight",
+                                "url": "https://en.wikipedia.org/wiki/History_of_spaceflight"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Timeline of space exploration",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_space_exploration"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "After reviewing the source data, it is clear that the original answers were incorrectly ranked and some names/records do not match the top 5 longest single-person spaceflights. Valeri Polyakov holds the longest single-person spaceflight at 437.7 days. The second longest belongs to Sergei Avdeyev at 379.6 days. The corrected list reflects the verified data from the 'Timeline of longest spaceflights' source. Anatoli Ivanishen and 'Soyuz TM-18/20' both appear to be misplaced/non-relevant in the original list.",
+                        "proposed_answers": [
+                            "Soyuz TM-18/20",
+                            "Valeri Polyakov on Soyuz TM-18/21",
+                            "Vladimir Titov on Soyuz TM-4/Mir LII-1",
+                            "Musa Manarov on Soyuz TM-4",
+                            "Anatoli Ivanishen longest operator missions"
+                        ],
+                        "corrected_answers": [
+                            "Valeri Polyakov on Soyuz TM-18/21",
+                            "Sergei Avdeyev on Mir missions (Soyuz TM-28/29 and TM-20/21)",
+                            "Vladimir Titov on Soyuz TM-4/Mir LII-1",
+                            "Musa Manarov on Soyuz TM-4",
+                            "Sergei Krikalev on Mir (Soyuz TM-12 and 13)"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter. Valeri Polyakov on Soyuz TM-18/21 vs Sergei Avdeyev on Mir missions (Soyuz TM-28/29 and TM-20/21) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of spaceflight records - Wikipedia, the free encyclopedia",
+                                "url": "https://web.archive.org/web/20090111132055/http:/en.wikipedia.org/wiki/Spaceflight_records"
+                            },
+                            {
+                                "title": "Valeri Polyakov - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Valeri_Polyakov"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights — Grokipedia",
+                                "url": "https://grokipedia.com/page/Timeline_of_longest_spaceflights"
+                            },
+                            {
+                                "title": "Duration of the Longest Space Flight - The Physics Factbook",
+                                "url": "https://hypertextbook.com/facts/2006/KieshaHarding.shtml"
+                            },
+                            {
+                                "title": "Timeline of longest spaceflights - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect based on the source data for specific spaceflight durations. The positions of Musa Manarov and Sergei Krikalev do not align with the verified longest spaceflight durations available.",
+                        "best_source": "https://en.wikipedia.org/wiki/Timeline_of_longest_spaceflights"
+                    }
+                },
+                {
+                    "topic": "BAFTA Television Awards nominations (March 24, 2026)",
+                    "suggested_question": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined lead and supporting performance categories), all-time, from most to fewer.",
+                    "connection": "BAFTA Television Awards nominations are announced today, making all-time leaders in BAFTA TV acting wins a topical entertainment question.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on individuals with the most BAFTA Television acting awards, while none of the existing questions address the BAFTA Television Awards or a directly comparable ranking of acting awards. Other similar questions instead focus on different awards (e.g., Grammys, Oscars) or non-acting rankings, making the new question distinct."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined Leading Actor/Actress and Supporting Actor/Actress), all-time, from most to fewer.",
+                        "answers": [
+                            "Michael Gambon",
+                            "Julie Walters",
+                            "Robbie Coltrane",
+                            "Thora Hird",
+                            "Helen Mirren"
+                        ],
+                        "distractors": [
+                            "John Thaw",
+                            "Sean Bean",
+                            "Jodie Comer",
+                            "Olivia Colman",
+                            "Glenda Jackson",
+                            "Eileen Atkins",
+                            "Ben Whishaw",
+                            "Suranne Jones",
+                            "Claire Foy",
+                            "Benedict Cumberbatch",
+                            "Josh O'Connor",
+                            "Kate Winslet",
+                            "David Jason",
+                            "Jim Broadbent",
+                            "Gillian Anderson"
+                        ],
+                        "suggested_source": "https://awards.bafta.org/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "BAFTA Television Awards multiple wins Best Actor Best Actress Supporting Michael Gambon Julie Walters Robbie Coltrane Thora Hird Helen Mirren site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "Thora Hird - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Thora_Hird"
+                            },
+                            {
+                                "title": "British Academy Television Award for Best Supporting Actress - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/British_Academy_Television_Award_for_Best_Supporting_Actress"
+                            },
+                            {
+                                "title": "BAFTA Award for Best Actress in a Supporting Role - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Supporting_Actress"
+                            },
+                            {
+                                "title": "BAFTA Award for Best Actress in a Leading Role - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Actress_in_a_Leading_Role"
+                            },
+                            {
+                                "title": "BAFTA Award for Best Actress in a Leading Role - Wikipedia",
+                                "url": "http://en.wikipedia.org/wiki/BAFTA_Award_for_Best_Actress_in_a_Leading_Role"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not offer sufficient information to verify or correct the rankings of the individuals based on their BAFTA Television acting awards. While it is confirmed from the source on Thora Hird that she won three BAFTA TV awards for acting, there is no detailed or comprehensive data available in the sources to confirm the number of BAFTA wins for Michael Gambon, Julie Walters, Robbie Coltrane, or Helen Mirren. Therefore, the rankings and values remain unverified.",
+                        "proposed_answers": [
+                            "Michael Gambon",
+                            "Julie Walters",
+                            "Robbie Coltrane",
+                            "Thora Hird",
+                            "Helen Mirren"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/Thora_Hird"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined Leading Actor/Actress and Supporting Actor/Actress), all-time, from most to fewer. Michael Gambon Julie Walters ranking",
+                        "sources_found": [
+                            {
+                                "title": "PUBLIC EYE Starring Alfred Burke   'And When You've Paid The Bill ...",
+                                "url": "https://www.facebook.com/TalkingPicturesTV/posts/public-eye-starring-alfred-burkeand-when-youve-paid-the-bill-youre-none-the-wise/1158981339570701/"
+                            },
+                            {
+                                "title": "NovelPro Junkie - Latest News",
+                                "url": "https://novelpro.weebly.com/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source data contains no relevant or authoritative information about the number of BAFTA Television acting awards won by these individuals. Neither source addresses the topic of trivia question, nor do they give data about any BAFTA Television awards or their recipients.",
+                        "proposed_answers": [
+                            "Michael Gambon",
+                            "Julie Walters",
+                            "Robbie Coltrane",
+                            "Thora Hird",
+                            "Helen Mirren"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined Leading Actor/Actress and Supporting Actor/Actress), all-time, from most to fewer. Michael Gambon Julie Walters ranking",
+                        "sources_found": [
+                            {
+                                "title": "NovelPro Junkie - Latest News",
+                                "url": "https://novelpro.weebly.com/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided source does not contain any relevant information or data about BAFTA Television acting awards, recipients, or their award counts. It appears to be a list of unrelated names and does not discuss the topic of the given question.",
+                        "proposed_answers": [
+                            "Michael Gambon",
+                            "Julie Walters",
+                            "Robbie Coltrane",
+                            "Thora Hird",
+                            "Helen Mirren"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://novelpro.weebly.com/"
+                    }
+                },
+                {
+                    "topic": "Events industry conferences (Catersource + The Special Event, March 2–5, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+                    "connection": "With major events industry gatherings earlier this month, the scale of U.S. convention centers is front-of-mind for planners and participants.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking U.S. convention centers by exhibit space is distinct from any existing question in the dataset. While other rankings exist, none focus on event venues or physical exhibit space, making this question unique."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+                        "answers": [
+                            "McCormick Place (Chicago, IL)",
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "distractors": [
+                            "Kentucky Exposition Center (Louisville, KY)",
+                            "Anaheim Convention Center (Anaheim, CA)",
+                            "Kay Bailey Hutchison Convention Center (Dallas, TX)",
+                            "Jacob K. Javits Convention Center (New York, NY)",
+                            "George R. Brown Convention Center (Houston, TX)",
+                            "Los Angeles Convention Center (Los Angeles, CA)",
+                            "San Diego Convention Center (San Diego, CA)",
+                            "Walter E. Washington Convention Center (Washington, DC)",
+                            "Pennsylvania Convention Center (Philadelphia, PA)",
+                            "Colorado Convention Center (Denver, CO)",
+                            "Salt Palace Convention Center (Salt Lake City, UT)",
+                            "Phoenix Convention Center (Phoenix, AZ)",
+                            "Henry B. González Convention Center (San Antonio, TX)",
+                            "Moscone Center (San Francisco, CA)",
+                            "Mandalay Bay Convention Center (Las Vegas, NV)"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_convention_and_exhibition_centers_by_size"
+                    },
+                    "verification_search_iter0": {
+                        "query": "largest US convention centers by exhibit space ranking 2024 2025 TSNN or Trade Show Executive",
+                        "sources_found": [
+                            {
+                                "title": "[PDF] 2 Rankings | 26 By Attendance | 33 By Exhibitors - Contentstack",
+                                "url": "https://eu-assets.contentstack.com/v3/assets/blt8634bd701c67871e/blt677ed7b03f732c6d/690d0f61da60c9d677bcbfbd/TSNNTop250US-2024-WhitePaper-pdf.pdf"
+                            },
+                            {
+                                "title": "Trade Show Executive Large Convention Centers Report Preview",
+                                "url": "https://tradeshowexecutive.com/large-convention-centers-report-preview/"
+                            },
+                            {
+                                "title": "TSE 2025 Large Convention Centers Report Preview",
+                                "url": "https://tradeshowexecutive.com/trade-show-executive-large-convention-centers-report-preview-north-americas-largest-convention-centers-pursuing-expansions/"
+                            },
+                            {
+                                "title": "tsnn top 250 trade show 2024 - Instagram",
+                                "url": "https://www.instagram.com/p/DUBIm0wjKU3/"
+                            },
+                            {
+                                "title": "TSNN Top 250 Trade Show List",
+                                "url": "https://www.tsnn.com/trade-shows-conferences/tsnn-top-trade-show-list"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources, including the Trade Show Executive reports and other linked content, do not offer specific, detailed, or verified numerical data on the total exhibit space (in square feet) of the top five U.S. convention centers. While these sources discuss convention centers and related events, they lack precise rankings or measurements that match the question. Therefore, it is not possible to verify or correct the proposed answers based on the provided data.",
+                        "proposed_answers": [
+                            "McCormick Place (Chicago, IL)",
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://tradeshowexecutive.com/large-convention-centers-report-preview/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller. McCormick Place (Chicago, IL) Las Vegas Convention Center (Las Vegas, NV) ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most Popular Convention Centers in the US in 2026",
+                                "url": "https://expostandbuilders.com/blog/most-popular-convention-centers-in-the-us"
+                            },
+                            {
+                                "title": "America's Most Popular Convention Centers - Exhibitor Online",
+                                "url": "https://www.exhibitoronline.com/topics/article.asp?ID=3408"
+                            },
+                            {
+                                "title": "The 8 Biggest Convention Centers in the U.S. | LV Exhibit Rentals",
+                                "url": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                            },
+                            {
+                                "title": "Huge Spaces for Big Ideas: Biggest Convention Centers in the North ...",
+                                "url": "https://www.smartmeetings.com/meeting-planning/173329/huge-spaces-for-big-ideas-biggest-convention-centers-in-north-america"
+                            },
+                            {
+                                "title": "TSE 2025 Large Convention Centers Report Preview",
+                                "url": "https://tradeshowexecutive.com/trade-show-executive-large-convention-centers-report-preview-north-americas-largest-convention-centers-pursuing-expansions/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The original list incorrectly ranked McCormick Place as the largest convention center in the U.S., while the Las Vegas Convention Center has a larger total exhibit and meeting space (3,000,000 square feet versus McCormick's 2,600,000 square feet). Based on the best source, the corrected order is: Las Vegas Convention Center, McCormick Place, Orange County Convention Center, Georgia World Congress Center, and Ernest N. Morial Convention Center. The numerical values for exhibit space were validated across the provided credible sources.",
+                        "proposed_answers": [
+                            "McCormick Place (Chicago, IL)",
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "corrected_answers": [
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "McCormick Place (Chicago, IL)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "best_source": "https://tradeshowexecutive.com/trade-show-executive-large-convention-centers-report-preview-north-americas-largest-convention-centers-pursuing-expansions/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller. Las Vegas Convention Center (Las Vegas, NV) vs McCormick Place (Chicago, IL) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Meet the Top-Ranked U.S. Convention Centers",
+                                "url": "https://www.meetingmentormag.com/october-2023/meet-the-top-ranked-u-s-convention-centers/"
+                            },
+                            {
+                                "title": "The Best Convention Centers in the U.S.",
+                                "url": "https://www.wsj.com/business/hospitality/best-convention-centers-united-states-13867b35?gaa_at=eafs&gaa_n=AWEtsqc5qmdgMiNk99p_WUQOqyhU1EWHeJ5V0pYeCWwoWbn6mEt6vNQtT8hm&gaa_ts=69c1d45c&gaa_sig=8KVV9_RUPLkIrqcaYfXTuQfsBkWDgDFJadw_WxlzNTE8hEQnGbmjQd05TuRirsoTHlVM6WccPKQRZeEvrlhPyw%3D%3D"
+                            },
+                            {
+                                "title": "America's Most Popular Convention Centers",
+                                "url": "https://www.exhibitoronline.com/topics/article.asp?ID=3408"
+                            },
+                            {
+                                "title": "Top 5 Convention Centers in the USA That Define World- ...",
+                                "url": "https://thecityevent.com/2025/08/21/top-5-convention-centers-in-the-usa-that-define-world-class-events/"
+                            },
+                            {
+                                "title": "The 8 Biggest Convention Centers in the U.S.",
+                                "url": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The source data indicates that McCormick Place (Chicago, IL) has more exhibit space than Las Vegas Convention Center (Las Vegas, NV), contradicting the corrected order.",
+                        "best_source": "https://www.wsj.com/business/hospitality/best-convention-centers-united-states-13867b35?gaa_at=eafs&gaa_n=AWEtsqc5qmdgMiNk99p_WUQOqyhU1EWHeJ5V0pYeCWwoWbn6mEt6vNQtT8hm&gaa_ts=69c1d45c&gaa_sig=8KVV9_RUPLkIrqcaYfXTuQfsBkWDgDFJadw_WxlzNTE8hEQnGbmjQd05TuRirsoTHlVM6WccPKQRZeEvrlhPyw%3D%3D"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller. McCormick Place (Chicago, IL) Las Vegas Convention Center (Las Vegas, NV) ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most Popular Convention Centers in the US in 2026",
+                                "url": "https://expostandbuilders.com/blog/most-popular-convention-centers-in-the-us"
+                            },
+                            {
+                                "title": "America's Most Popular Convention Centers - Exhibitor Online",
+                                "url": "https://www.exhibitoronline.com/topics/article.asp?ID=3408"
+                            },
+                            {
+                                "title": "The 8 Biggest Convention Centers in the U.S. | LV Exhibit Rentals",
+                                "url": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                            },
+                            {
+                                "title": "Huge Spaces for Big Ideas: Biggest Convention Centers in the North ...",
+                                "url": "https://www.smartmeetings.com/meeting-planning/173329/huge-spaces-for-big-ideas-biggest-convention-centers-in-north-america"
+                            },
+                            {
+                                "title": "TSE 2025 Large Convention Centers Report Preview",
+                                "url": "https://tradeshowexecutive.com/trade-show-executive-large-convention-centers-report-preview-north-americas-largest-convention-centers-pursuing-expansions/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The Las Vegas Convention Center is described as having 2,449,337 square feet of exhibit space, making it slightly smaller than McCormick Place, which is confirmed to feature 2.6 million square feet of exhibit space. The Orange County Convention Center follows with 2.1 million square feet, while the Georgia World Congress Center and Ernest N. Morial Convention Center have 1.5 million and 1.1 million square feet, respectively. Therefore, the corrected ranking has McCormick Place in the top position and others reordered accordingly.",
+                        "proposed_answers": [
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "McCormick Place (Chicago, IL)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "corrected_answers": [
+                            "McCormick Place (Chicago, IL)",
+                            "Las Vegas Convention Center (Las Vegas, NV)",
+                            "Orange County Convention Center (Orlando, FL)",
+                            "Georgia World Congress Center (Atlanta, GA)",
+                            "Ernest N. Morial Convention Center (New Orleans, LA)"
+                        ],
+                        "best_source": "https://tradeshowexecutive.com/trade-show-executive-large-convention-centers-report-preview-north-americas-largest-convention-centers-pursuing-expansions/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller. McCormick Place (Chicago, IL) vs Las Vegas Convention Center (Las Vegas, NV) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Best Convention Centers in the U.S. - WSJ",
+                                "url": "https://www.wsj.com/business/hospitality/best-convention-centers-united-states-13867b35?gaa_at=eafs&gaa_n=AWEtsqfQYk7UD1VQ5en8XAlAWW_RsHsv6qWCt01bqqUhFZyCk6G92ZPJSnUn&gaa_ts=69c1d463&gaa_sig=yo5_XZEbh8-JoZi1a5DAC5nW2gq4jIcLKftpbXSCAsUh6ZHtAL7XlTyX_-iokh-C3U1gnmU2zdev-lTWNY_4JQ%3D%3D"
+                            },
+                            {
+                                "title": "Most Popular Convention Centers in the US in 2026",
+                                "url": "https://expostandbuilders.com/blog/most-popular-convention-centers-in-the-us"
+                            },
+                            {
+                                "title": "America's Most Popular Convention Centers - Exhibitor Online",
+                                "url": "https://www.exhibitoronline.com/topics/article.asp?ID=3408"
+                            },
+                            {
+                                "title": "The 8 Biggest Convention Centers in the U.S. | LV Exhibit Rentals",
+                                "url": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                            },
+                            {
+                                "title": "Largest convention centers in the U.S. 2023 - Statista",
+                                "url": "https://www.statista.com/statistics/255171/convention-centers-in-the-us-ranked-by-size/?srsltid=AfmBOooFoKAMxLPFDdckv6DocFZhGEsA2Jp7FSTNVpVB7NQWfafEz6P1"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the exhibit space rankings detailed in multiple sources, including consistent mentions of McCormick Place and the Las Vegas Convention Center as the largest followed by others in descending order.",
+                        "best_source": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                    },
+                    "question_id": 36,
+                    "final_answers": [
+                        "McCormick Place (Chicago, IL)",
+                        "Las Vegas Convention Center (Las Vegas, NV)",
+                        "Orange County Convention Center (Orlando, FL)",
+                        "Georgia World Congress Center (Atlanta, GA)",
+                        "Ernest N. Morial Convention Center (New Orleans, LA)"
+                    ],
+                    "final_source": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 24, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Holloway vs Oliveira 2, UFC Fight Night: Emmett vs Vallejos. In"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "| 10–18 | Ice hockey | 2026 IIHF U18 Women's World Championship | International | United States |. | 24–3 March | Curling | 2026 World Junior Curling Championships | International | * Men:  United Sta"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Ultimate Guide to Major Festivals in March 2026: Global Dates ...",
+                                "url": "https://isharethese.com/guide-to-festivals-in-march-dates-traditions/",
+                                "snippet": "Explore ultimate guide to major festivals in March 2026 — Holi, Eid al-Fitr, St. Patrick's Day, Nowruz, Ugadi, travel tips, public holidays."
+                            },
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "# March National Days Around the World: The Essential Global Guide for 2026. Here is your essential look at the major national days, cultural festivals, and international observances happening in Marc"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For March 2026 | PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-march-2026",
+                                "snippet": "March 2026 highlights global cultural events and awareness days including International Women's Day, St Patrick's Day, Holi, and key equality"
+                            },
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOooOljcFhl4Yv5uZstfPhH7y_umaqRcApJie5knAKL-yva_eDUyS",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 ...",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There are plenty of other "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "Time is Running Out: ACE & Gala Awards 2026",
+                                "url": "https://www.specialevents.com/our-events/deadline-approaching-gala-awards",
+                                "snippet": "Catersource + The Special Event 2026 will run March 2-5, 2026 in Los Angeles, LA. Both the ACE and Gala awards will be presented during the conference at a to-"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "The Majors 2026 – Conferences, Festivals, Galas and More ...",
+                                "url": "https://asithappens.co/the-majors-conferences-festivals-galas-and-more-to-check-for-in-2026/",
+                                "snippet": "What: A two week-long celebration of film, art and culture, will take place February 9–16, 2026, in Los Angeles at the Cinemark Baldwin Hills & XD and Baldwin Hills Crenshaw Plaza with film screenings"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 24: BAFTA Television Awards nominations · April. 2: Anime Awards nominations · May. 10: BAFTA Television"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 24, 2026",
+                        "results": [
+                            {
+                                "title": "Headlines for the March 24, 2026 Edition - The Union News Leader",
+                                "url": "https://www.ucnewsleader.com/headlines-for-the-march-24-2026-edition/",
+                                "snippet": "* Headlines for the March 24, 2026 Edition. * Headlines for the March 17, 2026 Edition. * Headlines for the March 10, 2026 Edition. * Headlines for the March 3, 2026 Edition. * Headlines for the Febru"
+                            },
+                            {
+                                "title": "What Happens on March 24, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/24",
+                                "snippet": "# What Happens on March 24, 2026. ## About March 24, 2026. **Day of the Week:** Tuesday. **How Far Away?** 2 days. ## No Entries for March 24, 2026. * See 90 things that happened in **March 2026**. * "
+                            },
+                            {
+                                "title": "Portal:Current events/March 2026 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/March_2026",
+                                "snippet": "[Jump to content](https://en.wikipedia.org/wiki/Portal:Current_events/March_2026#bodyContent). *   [Portal](https://en.wikipedia.org/wiki/Portal:Current_events/March_2026 \"View the subject page [c]\")."
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – March 24 | Morning News NOW",
+                                "url": "https://www.youtube.com/watch?v=Fo537EdvmHc",
+                                "snippet": "President Trump's controversial immigration crackdown heads to court as Venezuela agrees to accept deportees, Trump allies raise concerns"
+                            },
+                            {
+                                "title": "Ignition: NASA's Plan for The Moon - NASA+",
+                                "url": "https://plus.nasa.gov/scheduled-video/ignition-nasas-plan-for-the-moon/",
+                                "snippet": "### NASA Simulations Improve Artemis II Launch Environment. article3 days agoTo Protect Artemis II Astronauts, NASA Experts Keep Eyes on Sun. ### To Protect Artemis II Astronauts, NASA Experts Keep Ey"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 24",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on March 24 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/24",
+                                "snippet": "* 1740 John Antes, American composer and missionary, born in Frederick, Pennsylvania (d. * 1755 Rufus King, American politician and framer of US constitution, born in Scarborough, Massachusetts (d. * "
+                            },
+                            {
+                                "title": "March 24 Celebrity Birthdays | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/march24.html",
+                                "snippet": "March 24 Birthdays ; Luke Nelson, 16. YouTube Star. 1 ; Christopher Briney, 27. TV Actor. 2 ; Jim Parsons, 52. TV Actor. 3 ; The Undertaker, 60. Wrestler. 4 ; Amyah"
+                            },
+                            {
+                                "title": "March 24 Famous Birthdays You Wish You Had Known",
+                                "url": "https://mybirthday.ninja/famous-birthdays/March-24/",
+                                "snippet": "Famous Mar 24 birthday celebrants include Kelly Le Brock, Harry Houdini, Lana, Lara Flynn Boyle, Steve McQueen, Gene Nelson, Murray Hamilton, Nick Lowe. The"
+                            },
+                            {
+                                "title": "Athletes Born March 24 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march24-athlete.html",
+                                "snippet": "Famous Athletes Born March 24 including The Undertaker, Amyah Bennett, Peyton Manning, Damar Hamlin, Chris Bosh and many more."
+                            },
+                            {
+                                "title": "March 24 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-24-birthdays/",
+                                "snippet": "Popular Holidays. National Girlfriend Day · Day of the Dead · National Boyfriend Day · National Sons Day · Mexican Independence Day · Pride Month · National"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "MLB Opening Day (late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer.",
+                        "connection": "Major League Baseball’s Opening Day arrives in late March, making franchise Opening Day records timely and relevant."
+                    },
+                    {
+                        "topic": "NASA Artemis II solar environment monitoring",
+                        "suggested_question": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter.",
+                        "connection": "NASA just spotlighted solar monitoring and safety preparations for Artemis II; long-duration human spaceflight benchmarks are a fitting space-science tie-in."
+                    },
+                    {
+                        "topic": "BAFTA Television Awards nominations (March 24, 2026)",
+                        "suggested_question": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined lead and supporting performance categories), all-time, from most to fewer.",
+                        "connection": "BAFTA Television Awards nominations are announced today, making all-time leaders in BAFTA TV acting wins a topical entertainment question."
+                    },
+                    {
+                        "topic": "Events industry conferences (Catersource + The Special Event, March 2–5, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+                        "connection": "With major events industry gatherings earlier this month, the scale of U.S. convention centers is front-of-mind for planners and participants."
+                    },
+                    {
+                        "topic": "Commonwealth Day (March) and heritage focus",
+                        "suggested_question": "Rank the top 5 Commonwealth member countries by total number of UNESCO World Heritage Sites (latest official list), from most to fewer.",
+                        "connection": "Commonwealth Day falls in March; comparing UNESCO-listed heritage sites across Commonwealth nations connects the observance to culture and history."
+                    },
+                    {
+                        "topic": "Spring allergy season (First Day of Spring: March 20; AAFA reports)",
+                        "suggested_question": "Rank the top 5 U.S. cities by highest overall allergy burden for Spring 2025, according to the Asthma and Allergy Foundation of America’s ‘Allergy Capitals’ rankings.",
+                        "connection": "Spring has just begun, and AAFA’s annual allergy rankings are widely cited—perfect timing for a health-and-environment challenge."
+                    },
+                    {
+                        "topic": "Creator economy and March entertainment-tech gatherings",
+                        "suggested_question": "Rank the top 5 short-form video apps by global downloads in 2025, from most to fewer.",
+                        "connection": "March’s entertainment and creator events spotlight the platforms driving the creator economy; app download rankings are an objective tech metric."
+                    },
+                    {
+                        "topic": "University admissions season (March decisions)",
+                        "suggested_question": "Rank the top 5 U.S. universities by total undergraduate applications for Fall 2025, from most to fewer.",
+                        "connection": "Late March is decision season for applicants; application volume leaders are timely and verifiable via official university reports."
+                    },
+                    {
+                        "topic": "Spring and clean energy focus",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from solar PV (latest full-year global data), from highest to lower.",
+                        "connection": "As days lengthen in spring and with sustainability observances around this time, solar’s share of electricity is a current energy topic."
+                    },
+                    {
+                        "topic": "Seasonal fallback – Easter season retail (early April)",
+                        "suggested_question": "Rank the top 5 U.S. candy categories by retail sales during the Easter season (latest available industry data), from highest to lower.",
+                        "connection": "Easter is just around the corner; candy sales rankings are a classic seasonal metric in food and retail."
+                    },
+                    {
+                        "topic": "Seasonal fallback – Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by percentage of women in national parliaments (lower or single house), using the latest IPU data, from highest to lower.",
+                        "connection": "March is Women’s History Month; current comparative representation statistics are timely and widely reported."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "MLB Opening Day (late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins all-time (through the end of the 2025 season), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on MLB Opening Day covers a specific aspect of Major League Baseball, which has not been addressed in any of the recent questions that focus on ancestry, NCAA basketball, agricultural production, trade, curling, or startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "NASA Artemis II solar environment monitoring",
+                        "suggested_question": "Rank the top 5 longest single-person human spaceflights by duration (in days), from longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about human spaceflights and NASA's Artemis II focuses on space exploration and astronautics, which is unrelated to the themes of the recent questions, such as ancestry, basketball, agriculture, trade, curling, or startup ecosystems.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "BAFTA Television Awards nominations (March 24, 2026)",
+                        "suggested_question": "Rank the top 5 individuals with the most BAFTA Television acting awards (combined lead and supporting performance categories), all-time, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on BAFTA Television Awards, which pertains to entertainment and awards specific to television acting. None of the recently used questions cover award shows or topics related to television or acting.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Events industry conferences (Catersource + The Special Event, March 2–5, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on convention centers and exhibit space, which is unrelated to any of the recent questions about ancestry, sports championships, agriculture, exports, curling, or startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day (March) and heritage focus",
+                        "suggested_question": "Rank the top 5 Commonwealth member countries by total number of UNESCO World Heritage Sites (latest official list), from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Commonwealth member countries and UNESCO World Heritage Sites covers the themes of cultural heritage and global organizations, which are distinct from the topics of ancestry, sports championships, agricultural production, trade, startup ecosystems, and curling titles covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring allergy season (First Day of Spring: March 20; AAFA reports)",
+                        "suggested_question": "Rank the top 5 U.S. cities by highest overall allergy burden for Spring 2025, according to the Asthma and Allergy Foundation of America’s ‘Allergy Capitals’ rankings.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic is about spring allergy season and U.S. cities ranked by allergy burden, which is unrelated to ancestry, sports, agricultural production, trade, startup ecosystems, or curling. It falls under a health and environmental theme not present in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Creator economy and March entertainment-tech gatherings",
+                        "suggested_question": "Rank the top 5 short-form video apps by global downloads in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on short-form video apps and the creator economy within the entertainment-tech industry, which is not covered in any of the recent questions, as they pertain to ancestry, sports, agriculture, trade, and startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "University admissions season (March decisions)",
+                        "suggested_question": "Rank the top 5 U.S. universities by total undergraduate applications for Fall 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of university admissions and application numbers does not overlap with any of the recent questions, which cover ancestry, NCAA basketball, agricultural production, export destinations, women’s curling, and unicorn startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring and clean energy focus",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from solar PV (latest full-year global data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on solar energy and the share of electricity from solar PV, which is unrelated to any of the recent questions' topics such as ancestry, sports championships, agricultural production, exports, curling, or startups.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback – Easter season retail (early April)",
+                        "suggested_question": "Rank the top 5 U.S. candy categories by retail sales during the Easter season (latest available industry data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Easter season retail and candy sales, which is unrelated to the themes of ancestry, sports championships, agricultural production, trade, curling, or startup geography from recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback – Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by percentage of women in national parliaments (lower or single house), using the latest IPU data, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on women's representation in national parliaments addresses issues of politics and gender equality, which are different from the themes of any recent questions, such as ancestry, sports, agriculture, trade, startups, or curling.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 36
         }
     ]
 }

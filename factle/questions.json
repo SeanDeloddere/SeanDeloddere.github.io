@@ -1224,6 +1224,41 @@
                 "Greater Chicago Area"
             ],
             "source": "https://www.startupblink.com/blog/top-unicorn-cities-and-countries/"
+        },
+        {
+            "id": 36,
+            "date": "2026-03-24",
+            "question": "Rank the top 5 U.S. convention centers by total exhibit space (square feet), from largest to smaller.",
+            "options": [
+                "McCormick Place (Chicago, IL)",
+                "Las Vegas Convention Center (Las Vegas, NV)",
+                "Orange County Convention Center (Orlando, FL)",
+                "Georgia World Congress Center (Atlanta, GA)",
+                "Ernest N. Morial Convention Center (New Orleans, LA)",
+                "Kentucky Exposition Center (Louisville, KY)",
+                "Anaheim Convention Center (Anaheim, CA)",
+                "Kay Bailey Hutchison Convention Center (Dallas, TX)",
+                "Jacob K. Javits Convention Center (New York, NY)",
+                "George R. Brown Convention Center (Houston, TX)",
+                "Los Angeles Convention Center (Los Angeles, CA)",
+                "San Diego Convention Center (San Diego, CA)",
+                "Walter E. Washington Convention Center (Washington, DC)",
+                "Pennsylvania Convention Center (Philadelphia, PA)",
+                "Colorado Convention Center (Denver, CO)",
+                "Salt Palace Convention Center (Salt Lake City, UT)",
+                "Phoenix Convention Center (Phoenix, AZ)",
+                "Henry B. González Convention Center (San Antonio, TX)",
+                "Moscone Center (San Francisco, CA)",
+                "Mandalay Bay Convention Center (Las Vegas, NV)"
+            ],
+            "answers": [
+                "McCormick Place (Chicago, IL)",
+                "Las Vegas Convention Center (Las Vegas, NV)",
+                "Orange County Convention Center (Orlando, FL)",
+                "Georgia World Congress Center (Atlanta, GA)",
+                "Ernest N. Morial Convention Center (New Orleans, LA)"
+            ],
+            "source": "https://lvexhibitrentals.com/the-8-biggest-convention-centers-in-the-u-s/"
         }
     ]
 }
