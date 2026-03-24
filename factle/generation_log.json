@@ -32814,6 +32814,1373 @@
                 ]
             },
             "question_id": 36
+        },
+        {
+            "date": "2026-03-25",
+            "topics_discovered": [
+                {
+                    "topic": "2026 BAFTA Television Awards nominations announced (Mar 24)",
+                    "suggested_question": "Rank the top 5 programs by number of nominations at the 2026 BAFTA Television Awards, from most to fewer.",
+                    "connection": "BAFTA Television Awards nominations were unveiled this week per awards calendars; tallying the most-nominated shows is timely and verifiable from BAFTA’s official list."
+                },
+                {
+                    "topic": "Women’s History Month and International Women’s Day (March)",
+                    "suggested_question": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue, highest to lower.",
+                    "connection": "March spotlights women in leadership; this ranks major woman-led companies using Fortune’s latest revenue figures."
+                },
+                {
+                    "topic": "St. Patrick’s Day (Mar 17) celebrations",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the latest full year, from most to fifth-most.",
+                    "connection": "Irish heritage and spirits are front-and-center every March; brand sales are tracked by industry sources like IWSR, making this timely and objective."
+                },
+                {
+                    "topic": "Spring Break air travel surge in March",
+                    "suggested_question": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower.",
+                    "connection": "March brings heavy travel; on-time performance for the same month last year is published by the DOT and is directly relevant now."
+                },
+                {
+                    "topic": "SXSW 2026 (March) and creator/tech trends",
+                    "suggested_question": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer.",
+                    "connection": "SXSW showcases immersive tech; annual headset shipment rankings from firms like IDC/Canalys are timely and verifiable."
+                },
+                {
+                    "topic": "Commonwealth Day (Mar 9) and shared heritage",
+                    "suggested_question": "Rank the top 5 Commonwealth member countries by total UNESCO World Heritage Sites inscribed (as of 2026), most to fewer.",
+                    "connection": "With Commonwealth Day in March, a cultural heritage ranking is apt and can be confirmed via UNESCO’s official listings."
+                },
+                {
+                    "topic": "Pi Day (Mar 14) and math education",
+                    "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) team gold medals won all-time, from most to fifth-most.",
+                    "connection": "Pi Day spotlights math; the IMO’s historical medal tables are public and make for a rigorous, timely ranking."
+                },
+                {
+                    "topic": "Awards season continues into spring (journalism next month)",
+                    "suggested_question": "Rank the top 5 newspapers by total Pulitzer Prizes won (all-time), most to fewer.",
+                    "connection": "Pulitzer announcements arrive in April; this anticipatory, awards-themed ranking leverages the Pulitzer Board’s official historical counts."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK: Cherry blossom season (late March–April)",
+                    "suggested_question": "Rank the top 5 Japanese cities (JMA observation sites) by the earliest average first-bloom date for Somei-Yoshino cherry blossoms, from earliest to later.",
+                    "connection": "Sakura season peaks now; the Japan Meteorological Agency publishes long-term average bloom dates for select cities."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK: Earth Hour (late March)",
+                    "suggested_question": "Rank the top 5 countries by the share of electricity generation from renewables in the latest full year, highest to lower.",
+                    "connection": "Earth Hour raises climate awareness each March; national electricity mix shares are tracked by IEA/Ember and can be ranked objectively."
+                },
+                {
+                    "topic": "SEASONAL FALLBACK: Pi Day (March) and number theory",
+                    "suggested_question": "Rank the top 5 largest known prime numbers as of March 2026 by number of digits, from most to fewer.",
+                    "connection": "Math is in the spotlight each March; GIMPS and number theory registries list the largest known primes with exact digit counts."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "2026 BAFTA Television Awards nominations announced (Mar 24)",
+                    "suggested_question": "Rank the top 5 programs by number of nominations at the 2026 BAFTA Television Awards, from most to fewer.",
+                    "connection": "BAFTA Television Awards nominations were unveiled this week per awards calendars; tallying the most-nominated shows is timely and verifiable from BAFTA’s official list.",
+                    "status": "generation_failed",
+                    "reason": "LLM did not return valid question structure",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "While the new question shares a structural similarity with existing questions that require ranking the top 5 entities by a specific criterion, it focuses on a completely distinct topic—television programs nominated for the 2026 BAFTA Television Awards—making it sufficiently different from the previously listed questions."
+                    }
+                },
+                {
+                    "topic": "Women’s History Month and International Women’s Day (March)",
+                    "suggested_question": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue, highest to lower.",
+                    "connection": "March spotlights women in leadership; this ranks major woman-led companies using Fortune’s latest revenue figures.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on Fortune 500 companies led by women CEOs and their 2025 revenues, which is distinct from any existing question. None of the prior questions address women in leadership, Fortune 500 companies, or corporate revenue rankings."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue (highest to lower).",
+                        "answers": [
+                            "CVS Health",
+                            "General Motors",
+                            "Elevance Health",
+                            "United Parcel Service",
+                            "Citigroup"
+                        ],
+                        "distractors": [
+                            "Oracle",
+                            "Progressive",
+                            "Best Buy",
+                            "Hershey",
+                            "Occidental Petroleum",
+                            "Duke Energy",
+                            "Advanced Micro Devices",
+                            "General Dynamics",
+                            "Northrop Grumman",
+                            "Ross Stores",
+                            "PG&E Corporation",
+                            "Otis Worldwide",
+                            "Cummins",
+                            "Fidelity National Information Services",
+                            "Nasdaq"
+                        ],
+                        "suggested_source": "https://fortune.com/rankings/fortune-500/2025/search/?ceoGender=Female"
+                    },
+                    "verification_search_iter0": {
+                        "query": "2025 Fortune 500 women CEOs revenue CVS Health General Motors Elevance Health UPS Citigroup site:fortune.com",
+                        "sources_found": [
+                            {
+                                "title": "Women CEOs run 11% of Fortune 500 companies in 2025",
+                                "url": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                            },
+                            {
+                                "title": "Women CEOs run 10.4% of Fortune 500 companies",
+                                "url": "https://fortune.com/2024/06/04/fortune-500-companies-women-ceos-2024/"
+                            },
+                            {
+                                "title": "Fortune 500 – The largest companies in the U.S. by revenue",
+                                "url": "https://fortune.com/ranking/fortune500/"
+                            },
+                            {
+                                "title": "Female CEOs run just 4.8% of the Fortune Global 500",
+                                "url": "https://fortune.com/2022/08/03/female-ceos-global-500-thyssenkrupp-martina-merz-cvs-karen-lynch/"
+                            },
+                            {
+                                "title": "These Fortune 500 companies will help pay for employee MBAs",
+                                "url": "https://fortune.com/education/articles/these-fortune-500-companies-will-help-pay-for-employees-mba/"
+                            }
+                        ],
+                        "search_errors": [
+                            "attempt 1/3: TimeoutError: Request timed out after 60 seconds."
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain enough information to verify the rankings of the top 5 Fortune 500 companies led by women CEOs by 2025 revenue. CVS Health no longer has a female CEO as of October 2024, which invalidates its inclusion in the proposed answers. However, the source does not provide detailed 2025 revenue rankings or confirm the leadership of the other named companies, and the exact revenue figures are not available in any source linked or summarized.",
+                        "proposed_answers": [
+                            "CVS Health",
+                            "General Motors",
+                            "Elevance Health",
+                            "United Parcel Service",
+                            "Citigroup"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://fortune.com/ranking/fortune500/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue (highest to lower). CVS Health General Motors ranking",
+                        "sources_found": [
+                            {
+                                "title": "Women CEOs reach record high in Fortune 500 list - HR Grapevine",
+                                "url": "https://www.hrgrapevine.com/us/content/article/2025-06-03-women-ceos-reach-record-high-in-fortune-500-list"
+                            },
+                            {
+                                "title": "Women CEOs run 11% of Fortune 500 companies in 2025",
+                                "url": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                            },
+                            {
+                                "title": "A record number of women are Fortune 500 CEOs - Axios",
+                                "url": "https://www.axios.com/2025/06/03/fortune-500-women-ceos"
+                            },
+                            {
+                                "title": "The number of women CEOs in the Fortune 500 edges up in 2025",
+                                "url": "https://www.equities.com/impact-investing/the-number-of-women-ceos-in-the-fortune-500-edges-up-in-2025/"
+                            },
+                            {
+                                "title": "Fortune Announces 2025 Fortune 500 List - News Releases",
+                                "url": "https://fortunemedia.mediaroom.com/2025-06-02-Fortune-Announces-2025-Fortune-500-List"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source data mentions that General Motors, led by Mary Barra, is ranked as the highest Fortune 500 company led by a woman in 2025 at No. 18. The data further provides insights about other companies with female CEOs, allowing for correction of the order. CVS Health is noted to have parted ways with CEO Karen Lynch in late 2024, meaning it should not be included in the top 5. The corrected list reorders the companies based on their Fortune 500 rankings, but exact revenue figures were not provided in the sources.",
+                        "proposed_answers": [
+                            "CVS Health",
+                            "General Motors",
+                            "Elevance Health",
+                            "United Parcel Service",
+                            "Citigroup"
+                        ],
+                        "corrected_answers": [
+                            "General Motors",
+                            "United Parcel Service",
+                            "Elevance Health",
+                            "Citigroup",
+                            "CVS Health"
+                        ],
+                        "best_source": "https://fortunemedia.mediaroom.com/2025-06-02-Fortune-Announces-2025-Fortune-500-List"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue (highest to lower). General Motors vs United Parcel Service ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Women CEOs run 11% of Fortune 500 companies in 2025",
+                                "url": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                            },
+                            {
+                                "title": "Women CEOs reach record high in Fortune 500 list - HR Grapevine",
+                                "url": "https://www.hrgrapevine.com/us/content/article/2025-06-03-women-ceos-reach-record-high-in-fortune-500-list"
+                            },
+                            {
+                                "title": "Fortune Announces 2025 Fortune 500 List - News Releases",
+                                "url": "https://fortunemedia.mediaroom.com/2025-06-02-Fortune-Announces-2025-Fortune-500-List"
+                            },
+                            {
+                                "title": "List of women CEOs of Fortune 500 companies - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_women_CEOs_of_Fortune_500_companies"
+                            },
+                            {
+                                "title": "8 powerful women CEOs running Fortune 500 companies - Quartz",
+                                "url": "https://qz.com/fortune-500-women-ceos-gm-mary-barra-citi-jane-fraser-1851765499"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inaccurate because CVS Health's CEO Karen Lynch parted ways with the company in October 2024, which disqualifies CVS Health from being listed as a woman-led Fortune 500 company in 2025.",
+                        "best_source": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue (highest to lower). CVS Health General Motors ranking",
+                        "sources_found": [
+                            {
+                                "title": "Women CEOs reach record high in Fortune 500 list - HR Grapevine",
+                                "url": "https://www.hrgrapevine.com/us/content/article/2025-06-03-women-ceos-reach-record-high-in-fortune-500-list"
+                            },
+                            {
+                                "title": "Women CEOs run 11% of Fortune 500 companies in 2025",
+                                "url": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                            },
+                            {
+                                "title": "A record number of women are Fortune 500 CEOs - Axios",
+                                "url": "https://www.axios.com/2025/06/03/fortune-500-women-ceos"
+                            },
+                            {
+                                "title": "The number of women CEOs in the Fortune 500 edges up in 2025",
+                                "url": "https://www.equities.com/impact-investing/the-number-of-women-ceos-in-the-fortune-500-edges-up-in-2025/"
+                            },
+                            {
+                                "title": "Fortune Announces 2025 Fortune 500 List - News Releases",
+                                "url": "https://fortunemedia.mediaroom.com/2025-06-02-Fortune-Announces-2025-Fortune-500-List"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the verified sources, GM is the highest-ranked Fortune 500 company led by a female CEO (Mary Barra) in 2025, at position No. 18. However, it is also clear from the sources provided that CVS Health, initially ranked 5th overall on the Fortune 500, changed its CEO in October 2024, and is therefore no longer led by a female CEO in 2025. The sources do not provide detailed rankings or revenue information for Elevance Health, Citigroup, and UPS, other than GM being the highest among women-led companies. By elimination and logical deduction, the corrected order places Citigroup before Elevance Health in alignment with the traditional revenue ranks of these companies in recent years, with UPS being above both. However, specific revenue data could not be verified for exact numeric values.",
+                        "proposed_answers": [
+                            "General Motors",
+                            "United Parcel Service",
+                            "Elevance Health",
+                            "Citigroup",
+                            "CVS Health"
+                        ],
+                        "corrected_answers": [
+                            "General Motors",
+                            "United Parcel Service",
+                            "Citigroup",
+                            "Elevance Health",
+                            "CVS Health"
+                        ],
+                        "best_source": "https://www.equities.com/impact-investing/the-number-of-women-ceos-in-the-fortune-500-edges-up-in-2025/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue (highest to lower). General Motors vs United Parcel Service ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Women CEOs run 11% of Fortune 500 companies in 2025",
+                                "url": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                            },
+                            {
+                                "title": "Women CEOs reach record high in Fortune 500 list - HR Grapevine",
+                                "url": "https://www.hrgrapevine.com/us/content/article/2025-06-03-women-ceos-reach-record-high-in-fortune-500-list"
+                            },
+                            {
+                                "title": "Fortune Announces 2025 Fortune 500 List - News Releases",
+                                "url": "https://fortunemedia.mediaroom.com/2025-06-02-Fortune-Announces-2025-Fortune-500-List"
+                            },
+                            {
+                                "title": "List of women CEOs of Fortune 500 companies - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_women_CEOs_of_Fortune_500_companies"
+                            },
+                            {
+                                "title": "8 powerful women CEOs running Fortune 500 companies - Quartz",
+                                "url": "https://qz.com/fortune-500-women-ceos-gm-mary-barra-citi-jane-fraser-1851765499"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The sources provided do not confirm the corrected order, and additional inconsistencies were identified. Notably, CVS Health is no longer led by a female CEO as of October 2024, which invalidates its inclusion in the 2025 ranking of top companies led by women CEOs. This calls into question the validity of the corrected order.",
+                        "best_source": "https://fortune.com/2025/06/02/fortune-500-companies-run-by-female-ceos-women-2025/"
+                    }
+                },
+                {
+                    "topic": "St. Patrick’s Day (Mar 17) celebrations",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the latest full year, from most to fifth-most.",
+                    "connection": "Irish heritage and spirits are front-and-center every March; brand sales are tracked by industry sources like IWSR, making this timely and objective.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about Irish whiskey brand rankings by global sales is distinct from all previous questions, covering an entirely new topic related to beverages and not overlapping with any prior broad categories such as geography, sports, or achievements."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in 2023 (latest full year), from most to fifth-most.",
+                        "answers": [
+                            "Jameson",
+                            "Tullamore D.E.W.",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Powers"
+                        ],
+                        "distractors": [
+                            "Paddy",
+                            "Kilbeggan",
+                            "Teeling",
+                            "The Sexton",
+                            "Roe & Co",
+                            "The Dubliner",
+                            "West Cork",
+                            "The Irishman",
+                            "Writers' Tears",
+                            "Connemara",
+                            "Green Spot",
+                            "Redbreast",
+                            "Midleton Very Rare",
+                            "The Tyrconnell",
+                            "Clontarf"
+                        ],
+                        "suggested_source": "https://www.thespiritsbusiness.com/2024/06/top-10-best-selling-irish-whiskey-brands-2023/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "The Spirits Business top 10 best-selling Irish whiskey brands 2023",
+                        "sources_found": [
+                            {
+                                "title": "World Spirits Report 2023: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2023/12/world-spirits-report-2023-irish-whiskey/"
+                            },
+                            {
+                                "title": "Brands Report 2023: Irish Whiskey - Drinks International",
+                                "url": "https://drinksint.com/news/fullstory.php/aid/10391/Brands_Report_2023:_Irish_Whiskey.html"
+                            },
+                            {
+                                "title": "Top 10 best-selling world whisky brands - The Spirits Business",
+                                "url": "https://www.thespiritsbusiness.com/2023/06/the-worlds-top-selling-world-whisky-brands/"
+                            },
+                            {
+                                "title": "Irish whiskey brands market share U.S. 2023 - Statista",
+                                "url": "https://www.statista.com/statistics/463903/us-volume-sales-share-of-the-leading-whiskey-brands/?srsltid=AfmBOooPVCHi9qlN0R-VctX5xnMZWqo4_RUYLm55T2eZc68Y6MZR-Blr"
+                            },
+                            {
+                                "title": "The 5 Best-Selling Irish Whiskey Brands in the U.S. (2024) - Overproof",
+                                "url": "https://overproof.com/2024/08/13/the-5-best-selling-irish-whiskey-brands-in-the-u-s-2024/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain clear or comprehensive information regarding the global 9-liter case sales of Irish whiskey brands for 2023. While some sources mention specific brands and their prominence in the market, none offer complete numerical data or rankings that confirm or correct the proposed order. Therefore, the question cannot be verified or corrected based on the available data.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore D.E.W.",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Powers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in 2023 (latest full year), from most to fifth-most. Jameson Tullamore D.E.W. ranking",
+                        "sources_found": [
+                            {
+                                "title": "Top 5 Irish whiskey brands worldwide - List Wire - USA Today",
+                                "url": "https://thelistwire.usatoday.com/story/life/food-dining/2022/03/16/top-5-irish-whiskey-jameson-tullamore-dew/81254108007/"
+                            },
+                            {
+                                "title": "The Top-Selling Irish Whiskey Brands - Union",
+                                "url": "https://getunion.com/onprem-insights/the-top-selling-irish-whiskey-brands/"
+                            },
+                            {
+                                "title": "Leading brands of Irish whiskey by sales volume U.S. 2023 - Statista",
+                                "url": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOopF4A81C_heyRhuAgYeQ88MvvDf20gYauDraaG44M9hQW4QpPSR"
+                            },
+                            {
+                                "title": "Brands Report 2023: Irish Whiskey - Drinks International",
+                                "url": "https://drinksint.com/news/fullstory.php/aid/10391/Brands_Report_2023:_Irish_Whiskey.html"
+                            },
+                            {
+                                "title": "The world's most popular Irish whiskey brands have been revealed",
+                                "url": "https://www.irishpost.com/news/worlds-most-popular-irish-whiskey-brands-185982"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain sufficient or consistent information to confirm the global 9-liter case sales ranking of Irish whiskey brands for 2023. While Jameson is clearly the leader, the exact sales figures and rankings for Proper No. Twelve, Bushmills, Tullamore D.E.W., and Powers cannot be determined or verified for the specific year using these sources. One source mentions partial data for Tullamore D.E.W. sales from earlier years, and other sources discuss popularity without exact sales numbers.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore D.E.W.",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Powers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in 2023 (latest full year), from most to fifth-most. Jameson Tullamore D.E.W. ranking",
+                        "sources_found": [
+                            {
+                                "title": "The Top-Selling Irish Whiskey Brands - Union",
+                                "url": "https://getunion.com/onprem-insights/the-top-selling-irish-whiskey-brands/"
+                            },
+                            {
+                                "title": "Leading brands of Irish whiskey by sales volume U.S. 2023 - Statista",
+                                "url": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOorpahg8nssT2fHOKZBVSKAuVMVTbb_Fgf33QTkySx0SgB1SjTbz"
+                            },
+                            {
+                                "title": "World Spirits Report 2023: Irish whiskey",
+                                "url": "https://www.thespiritsbusiness.com/2023/12/world-spirits-report-2023-irish-whiskey/"
+                            },
+                            {
+                                "title": "Best Selling Irish Whiskey in the World 2025 - Accio",
+                                "url": "https://www.accio.com/business/best-selling-irish-whiskey-in-the-world"
+                            },
+                            {
+                                "title": "15 Best-Selling Irish Whiskey Brands in the World - Yahoo Finance",
+                                "url": "https://finance.yahoo.com/news/15-best-selling-irish-whiskey-230358656.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "Although the sources states that Jameson is the global leader, none of the sources provide comprehensive data covering the global 9-liter case sales for the top 5 Irish whiskey brands in 2023. Additionally, detailed sales figures and rankings for Tullamore D.E.W., Proper No. Twelve, Bushmills, and Powers are not included in the source data. Thus, there isn't enough information available to verify the ranking or if the order provided in the question is correct.",
+                        "proposed_answers": [
+                            "Jameson",
+                            "Tullamore D.E.W.",
+                            "Proper No. Twelve",
+                            "Bushmills",
+                            "Powers"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statista.com/statistics/463898/us-leading-brands-of-irish-whiskey-volume-sales/?srsltid=AfmBOorpahg8nssT2fHOKZBVSKAuVMVTbb_Fgf33QTkySx0SgB1SjTbz"
+                    }
+                },
+                {
+                    "topic": "Spring Break air travel surge in March",
+                    "suggested_question": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower.",
+                    "connection": "March brings heavy travel; on-time performance for the same month last year is published by the DOT and is directly relevant now.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking U.S. airlines by on-time arrival performance in a specific month and year, which is distinct from any previous questions that do not address airlines, air travel statistics, or punctuality metrics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower.",
+                        "answers": [
+                            "Delta Air Lines",
+                            "Hawaiian Airlines",
+                            "Alaska Airlines",
+                            "United Airlines",
+                            "American Airlines"
+                        ],
+                        "distractors": [
+                            "Southwest Airlines",
+                            "JetBlue Airways",
+                            "Spirit Airlines",
+                            "Frontier Airlines",
+                            "Allegiant Air",
+                            "Sun Country Airlines",
+                            "Breeze Airways",
+                            "Avelo Airlines",
+                            "Silver Airways",
+                            "Cape Air",
+                            "Boutique Air",
+                            "JSX",
+                            "Southern Airways Express",
+                            "SkyWest Airlines",
+                            "Mesa Airlines"
+                        ],
+                        "suggested_source": "https://www.transportation.gov/airconsumer/air-travel-consumer-reports"
+                    },
+                    "verification_search_iter0": {
+                        "query": "U.S. DOT Air Travel Consumer Report March 2025 on-time arrival ranking",
+                        "sources_found": [
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Transportation.gov",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-05/March%202025%20ATCR%20January%20Data.pdf"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Transportation.gov",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-08/July%202025%20ATCR.pdf"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Transportation.gov",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-10/September%202025%20ATCR.pdf"
+                            },
+                            {
+                                "title": "Air Travel Consumer Reports for 2025 | US Department ...",
+                                "url": "https://www.transportation.gov/resources/individuals/aviation-consumer-protection/air-travel-consumer-reports-2025"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Transportation.gov",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-06/May%202025%20ATCR%20March%20Data_0.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific rankings or numeric percentages for U.S. airlines' on-time arrival performance in March 2025. While the source titles indicate that relevant data might be included, specific details about the rankings or percentages could not be found or extracted directly from the referenced documents.",
+                        "proposed_answers": [
+                            "Delta Air Lines",
+                            "Hawaiian Airlines",
+                            "Alaska Airlines",
+                            "United Airlines",
+                            "American Airlines"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.transportation.gov/sites/dot.gov/files/2025-05/March%202025%20ATCR%20January%20Data.pdf"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower. Delta Air Lines Hawaiian Airlines ranking",
+                        "sources_found": [
+                            {
+                                "title": "What Were the Most On-Time Airlines of 2025? - InsideHook",
+                                "url": "https://www.insidehook.com/travel/were-most-time-airlines-2025"
+                            },
+                            {
+                                "title": "Delta earns 'most on-time airline' in North America title for 5th year",
+                                "url": "https://www.usatoday.com/story/news/2026/01/07/delta-picked-as-most-on-time-airline-in-north-america-for-5th-year/88064002007/"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+                            },
+                            {
+                                "title": "The Most On-Time Airlines and Airports in North America in ...",
+                                "url": "https://dailypassport.com/most-on-time-airlines-airports-north-america/"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-05/March%202025%20ATCR%20January%20Data%20revised%205-9-2025.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The ranking of U.S. airlines by on-time arrival percentage in March 2025 can be determined directly from the official Department of Transportation (DOT) Air Travel Consumer Report. The data shows that Hawaiian Airlines ranked first (83.6%), followed by Delta (80.1%), United (80.6%), Alaska (77.5%), and American Airlines (76.3%). The proposed answers do not match the official ranking in order, so a correction was necessary.",
+                        "proposed_answers": [
+                            "Delta Air Lines",
+                            "Hawaiian Airlines",
+                            "Alaska Airlines",
+                            "United Airlines",
+                            "American Airlines"
+                        ],
+                        "corrected_answers": [
+                            "Hawaiian Airlines",
+                            "Delta Air Lines",
+                            "United Airlines",
+                            "Alaska Airlines",
+                            "American Airlines"
+                        ],
+                        "best_source": "https://www.transportation.gov/sites/dot.gov/files/2025-05/March%202025%20ATCR%20January%20Data%20revised%205-9-2025.pdf"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower. Hawaiian Airlines vs Delta Air Lines ranking list",
+                        "sources_found": [
+                            {
+                                "title": "1️⃣ Delta Air Lines 2️⃣ Alaska Airlines 3️⃣ Hawaiian ...",
+                                "url": "https://www.facebook.com/groups/airlinesus/posts/4064447117201866/"
+                            },
+                            {
+                                "title": "Best US airlines for 2025 revealed — and one topped the list for ...",
+                                "url": "https://www.yahoo.com/lifestyle/articles/best-us-airlines-2025-revealed-135649832.html"
+                            },
+                            {
+                                "title": "A new report ranked the world's most delayed airlines in 2025 — ...",
+                                "url": "https://creators.yahoo.com/lifestyle/story/a-new-report-ranked-the-worlds-most-delayed-airlines-in-2025--heres-where-us-carriers-landed-085718131.html"
+                            },
+                            {
+                                "title": "The Best U.S. Airlines In 2025—According To A New WalletHub ...",
+                                "url": "https://www.forbes.com/sites/brittanyanas/2025/04/16/the-best-us-airlines-in-2025-according-to-a-new-wallethub-report/"
+                            },
+                            {
+                                "title": "These 5 US Airlines Are Most Likely To Have Regular Flight Delays",
+                                "url": "https://www.aol.com/articles/5-us-airlines-most-likely-233000713.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "None of the provided sources explicitly list the on-time arrival percentages for March 2025 in the exact corrected ranking order. Furthermore, there are conflicting rankings noted in the sources.",
+                        "best_source": "https://www.facebook.com/groups/airlinesus/posts/4064447117201866/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower. Delta Air Lines Hawaiian Airlines ranking",
+                        "sources_found": [
+                            {
+                                "title": "What Were the Most On-Time Airlines of 2025? - InsideHook",
+                                "url": "https://www.insidehook.com/travel/were-most-time-airlines-2025"
+                            },
+                            {
+                                "title": "Delta earns 'most on-time airline' in North America title for 5th year",
+                                "url": "https://www.usatoday.com/story/news/2026/01/07/delta-picked-as-most-on-time-airline-in-north-america-for-5th-year/88064002007/"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+                            },
+                            {
+                                "title": "The Most On-Time Airlines and Airports in North America in ...",
+                                "url": "https://dailypassport.com/most-on-time-airlines-airports-north-america/"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-05/March%202025%20ATCR%20January%20Data%20revised%205-9-2025.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The most reliable source, the Department of Transportation's Air Travel Consumer Report for February 2025, provided explicit rankings of airlines by their on-time arrival percentages. Hawaiian Airlines is confirmed as the top with 83.6%, United Airlines second with 80.6%, Delta third with 80.1%, Alaska Airlines eighth overall and fourth among the proposed options with 77.5%, and American Airlines ranked eleventh with 76.3%. The proposed order does not match the official rankings, and corrections were applied accordingly.",
+                        "proposed_answers": [
+                            "Hawaiian Airlines",
+                            "Delta Air Lines",
+                            "United Airlines",
+                            "Alaska Airlines",
+                            "American Airlines"
+                        ],
+                        "corrected_answers": [
+                            "Hawaiian Airlines",
+                            "United Airlines",
+                            "Delta Air Lines",
+                            "Alaska Airlines",
+                            "American Airlines"
+                        ],
+                        "best_source": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower. Hawaiian Airlines vs United Airlines ranking list",
+                        "sources_found": [
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+                            },
+                            {
+                                "title": "What Were the Most On-Time Airlines of 2025? - InsideHook",
+                                "url": "https://www.insidehook.com/travel/were-most-time-airlines-2025"
+                            },
+                            {
+                                "title": "The Most On-Time Airlines and Airports in North America in ...",
+                                "url": "https://dailypassport.com/most-on-time-airlines-airports-north-america/"
+                            },
+                            {
+                                "title": "[PDF] Air Travel Consumer Report - Department of Transportation",
+                                "url": "https://www.transportation.gov/sites/dot.gov/files/2025-01/December%202024%20ATCR.pdf"
+                            },
+                            {
+                                "title": "U.S. Airlines Ranked From Best to Worst for On-Time Arrivals",
+                                "url": "https://www.visualcapitalist.com/cp/us-airlines-most-and-least-on-time/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the data provided. According to the March 2025 DOT ATCR source data, Hawaiian Airlines ranks first, but United Airlines and Delta Air Lines are surpassed by other airlines in terms of on-time arrival percentages. Alaska Airlines and American Airlines are also misranked compared to their reported percentages.",
+                        "best_source": "https://www.transportation.gov/sites/dot.gov/files/2025-03/February%202025%20ATCR.pdf"
+                    }
+                },
+                {
+                    "topic": "SXSW 2026 (March) and creator/tech trends",
+                    "suggested_question": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer.",
+                    "connection": "SXSW showcases immersive tech; annual headset shipment rankings from firms like IDC/Canalys are timely and verifiable.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on ranking VR headset models by global unit shipments in 2025, which involves technology and market trends. None of the existing questions address this specific topic or data type, making the new question distinct."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer.",
+                        "answers": [
+                            "Meta Quest 3",
+                            "Apple Vision Pro",
+                            "Sony PlayStation VR2",
+                            "Pico 4",
+                            "Meta Quest 2"
+                        ],
+                        "distractors": [
+                            "Meta Quest Pro",
+                            "Oculus Quest (original)",
+                            "Oculus Rift S",
+                            "Oculus Go",
+                            "Valve Index",
+                            "HTC Vive XR Elite",
+                            "HTC Vive Pro 2",
+                            "HTC Vive Cosmos",
+                            "HTC Vive Focus 3",
+                            "Pico 4 Pro",
+                            "Pico Neo 3 Link",
+                            "DPVR E4",
+                            "DPVR P1 Ultra 4K",
+                            "Lenovo Mirage Solo",
+                            "Samsung Gear VR"
+                        ],
+                        "suggested_source": "https://www.idc.com/tracker/showproductinfo.jsp?prod_id=73"
+                    },
+                    "verification_search_iter0": {
+                        "query": "2025 global VR headset shipments by model ranking IDC Counterpoint Quest 3 Vision Pro PlayStation VR2",
+                        "sources_found": [
+                            {
+                                "title": "Apple, Meta ship significantly fewer VR headsets in 2025",
+                                "url": "https://www.theregister.com/2026/01/02/apple_vision_pro_meta_quest_sales_drop/"
+                            },
+                            {
+                                "title": "By 2026, global VR headset shipments will reach 40 million units",
+                                "url": "https://en.eeworld.com.cn/news/qrs/eic616226.html"
+                            },
+                            {
+                                "title": "Global VR Headset Shipments Fall 14% YoY in H1 2025; AR Smart ...",
+                                "url": "https://counterpointresearch.com/en/insights/global-vr-headset-market-in-h1-2025"
+                            },
+                            {
+                                "title": "Meta Sets the Bar in AR/VR, but Competition is Gearing Up for ... - IDC",
+                                "url": "https://my.idc.com/getdoc.jsp?containerId=prUS52856724"
+                            },
+                            {
+                                "title": "The Best VR Headset to Buy in 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=DAn9_CMGFgY"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain sufficient information to rank the top 5 VR headset models by global unit shipments in 2025. While some data about individual headset shipments are mentioned (e.g., Meta Quest and Apple Vision Pro), the sources do not explicitly compare these models nor offer a comprehensive ranking or unit shipment data for the given year across all listed models. Additionally, the data is fragmented and does not allow for a clear determination of order or values for the top 5 models.",
+                        "proposed_answers": [
+                            "Meta Quest 3",
+                            "Apple Vision Pro",
+                            "Sony PlayStation VR2",
+                            "Pico 4",
+                            "Meta Quest 2"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer. Meta Quest 3 Apple Vision Pro ranking",
+                        "sources_found": [
+                            {
+                                "title": "The Best VR Headsets 2025: The Future of Immersive Tech - YORD",
+                                "url": "https://yordstudio.com/best-vr-headsets-2025/"
+                            },
+                            {
+                                "title": "Apple, Meta ship significantly fewer VR headsets in 2025",
+                                "url": "https://www.theregister.com/2026/01/02/apple_vision_pro_meta_quest_sales_drop/"
+                            },
+                            {
+                                "title": "Best VR headsets in 2026 — tested by someone who lives in VR",
+                                "url": "https://www.tomsguide.com/best-picks/best-vr-headsets"
+                            },
+                            {
+                                "title": "The Best VR Headsets We've Tested for 2026 - PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-vr-headsets"
+                            },
+                            {
+                                "title": "Top Best Virtual Reality VR Headsets in 2025 - Euphoria XR",
+                                "url": "https://euphoriaxr.com/best-vr-headsets/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source from The Register provides clear shipment data for Meta and Apple headsets in 2025, verifying that the Meta Quest devices (including Quest 3) shipped 5.6 million units, far surpassing Apple's Vision Pro at 390,000 units. There is no specific rank data for Sony PlayStation VR2 and Pico 4 in terms of shipments, but given their prominence, it's reasonable to rank them after Meta Quest 2. The corrected order and verified shipment values for Meta Quest and Vision Pro reflect reliable data from IDC.",
+                        "proposed_answers": [
+                            "Meta Quest 3",
+                            "Apple Vision Pro",
+                            "Sony PlayStation VR2",
+                            "Pico 4",
+                            "Meta Quest 2"
+                        ],
+                        "corrected_answers": [
+                            "Meta Quest 3",
+                            "Apple Vision Pro",
+                            "Meta Quest 2",
+                            "Sony PlayStation VR2",
+                            "Pico 4"
+                        ],
+                        "best_source": "https://www.theregister.com/2026/01/02/apple_vision_pro_meta_quest_sales_drop/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer. Meta Quest 3 vs Apple Vision Pro ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Best VR headsets in 2026 — tested by someone who lives in VR",
+                                "url": "https://www.tomsguide.com/best-picks/best-vr-headsets"
+                            },
+                            {
+                                "title": "The Best VR Headsets We've Tested for 2026 - PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-vr-headsets"
+                            },
+                            {
+                                "title": "Best VR Headsets of 2026: My Favorite Hardware Right Now - CNET",
+                                "url": "https://www.cnet.com/tech/gaming/best-vr-headset/"
+                            },
+                            {
+                                "title": "Best Mixed Reality Headsets for Enterprise (2026) - Treeview Studio",
+                                "url": "https://treeview.studio/blog/best-mixed-reality-headsets"
+                            },
+                            {
+                                "title": "The best VR headsets for 2026 - Engadget",
+                                "url": "https://www.engadget.com/ar-vr/best-vr-headsets-140012529.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide precise unit shipment values or confirm the corrected order for 2025. Additionally, references to 2026 do not validate rankings for 2025 shipments.",
+                        "best_source": "https://treeview.studio/blog/best-mixed-reality-headsets"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer. Meta Quest 3 Apple Vision Pro ranking",
+                        "sources_found": [
+                            {
+                                "title": "The Best VR Headsets 2025: The Future of Immersive Tech - YORD",
+                                "url": "https://yordstudio.com/best-vr-headsets-2025/"
+                            },
+                            {
+                                "title": "Apple, Meta ship significantly fewer VR headsets in 2025",
+                                "url": "https://www.theregister.com/2026/01/02/apple_vision_pro_meta_quest_sales_drop/"
+                            },
+                            {
+                                "title": "Best VR headsets in 2026 — tested by someone who lives in VR",
+                                "url": "https://www.tomsguide.com/best-picks/best-vr-headsets"
+                            },
+                            {
+                                "title": "The Best VR Headsets We've Tested for 2026 - PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-vr-headsets"
+                            },
+                            {
+                                "title": "Top Best Virtual Reality VR Headsets in 2025 - Euphoria XR",
+                                "url": "https://euphoriaxr.com/best-vr-headsets/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "From the authoritative source (The Register), Meta shipped 5.6 million Quest headsets (combining Quest 3 and Quest Pro) in 2025, while Apple shipped 390,000 Vision Pro units. This indicates Meta Quest 3 is the top VR headset in terms of unit shipments. The order of the rest, including Meta Quest 2, Sony PlayStation VR2, and Pico 4, cannot be precisely verified from the sources, but Meta Quest 2 is likely second due to its historical popularity and affordability compared to the expensive Apple Vision Pro. Sony PlayStation VR2 and Pico 4 are placed fourth and fifth respectively in the corrected order based on general market hierarchy inferred from the sources.",
+                        "proposed_answers": [
+                            "Meta Quest 3",
+                            "Apple Vision Pro",
+                            "Meta Quest 2",
+                            "Sony PlayStation VR2",
+                            "Pico 4"
+                        ],
+                        "corrected_answers": [
+                            "Meta Quest 3",
+                            "Meta Quest 2",
+                            "Apple Vision Pro",
+                            "Sony PlayStation VR2",
+                            "Pico 4"
+                        ],
+                        "best_source": "https://www.theregister.com/2026/01/02/apple_vision_pro_meta_quest_sales_drop/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer. Meta Quest 3 vs Meta Quest 2 ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top Best Virtual Reality VR Headsets in 2025 - Euphoria XR",
+                                "url": "https://euphoriaxr.com/best-vr-headsets/"
+                            },
+                            {
+                                "title": "Best VR headsets in 2026 — tested by someone who lives in VR",
+                                "url": "https://www.tomsguide.com/best-picks/best-vr-headsets"
+                            },
+                            {
+                                "title": "Best VR Headsets of 2026: My Favorite Hardware Right Now - CNET",
+                                "url": "https://www.cnet.com/tech/gaming/best-vr-headset/"
+                            },
+                            {
+                                "title": "The Best VR Headsets We've Tested for 2026 - PCMag",
+                                "url": "https://www.pcmag.com/picks/the-best-vr-headsets"
+                            },
+                            {
+                                "title": "The best VR headsets for 2026 - Engadget",
+                                "url": "https://www.engadget.com/ar-vr/best-vr-headsets-140012529.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not contain explicit global unit shipment rankings or numeric data for 2025. Some sources mention features and preferences but do not confirm the corrected order of headsets based on unit shipments.",
+                        "best_source": "https://euphoriaxr.com/best-vr-headsets/"
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question 'Which are the 5 largest countries by land area?' is essentially the same as question ID 13, which asks to 'Rank the five largest countries by land area from largest to smallest.' Both questions request an identical ranking of countries based on land area."
+                    }
+                },
+                {
+                    "topic": "Rivers",
+                    "suggested_question": "Which are the 5 longest rivers in the world?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The question 'Which are the 5 longest rivers in the world?' is essentially identical to question ID 28, which also asks for the same information about the 5 longest rivers."
+                    }
+                },
+                {
+                    "topic": "Languages",
+                    "suggested_question": "Which are the 5 most spoken languages by total speakers?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "No previously used question specifically addresses the topic of languages or the ranking of languages by total speakers, making the proposed question distinct."
+                    },
+                    "generated_question": {
+                        "question": "Rank the 5 most spoken languages in the world by total number of speakers (native + second-language), from most to fifth-most.",
+                        "answers": [
+                            "English",
+                            "Mandarin Chinese",
+                            "Hindi",
+                            "Spanish",
+                            "French"
+                        ],
+                        "distractors": [
+                            "Arabic",
+                            "Bengali",
+                            "Portuguese",
+                            "Russian",
+                            "Urdu",
+                            "Indonesian",
+                            "German",
+                            "Japanese",
+                            "Punjabi",
+                            "Marathi",
+                            "Telugu",
+                            "Turkish",
+                            "Vietnamese",
+                            "Italian",
+                            "Korean"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "Ethnologue most spoken languages by total speakers English Mandarin Hindi Spanish French 2023",
+                        "sources_found": [
+                            {
+                                "title": "The 12 most spoken languages on Earth: English",
+                                "url": "https://x.com/stats_feed/status/2028038589896942069"
+                            },
+                            {
+                                "title": "Top 10 Most Spoken Languages Worldwide - Facebook",
+                                "url": "https://www.facebook.com/groups/1693736057602323/posts/3562588264050417/"
+                            },
+                            {
+                                "title": "Top Languages Spoken Worldwide Global Ranking based on Total ...",
+                                "url": "https://www.facebook.com/groups/898899773959040/posts/2395440070971662/"
+                            },
+                            {
+                                "title": "What are the top 200 most spoken languages? | Ethnologue Free",
+                                "url": "https://www.ethnologue.com/insights/ethnologue200/"
+                            },
+                            {
+                                "title": "Languages by total number of speakers | List, Top, & Most Spoken",
+                                "url": "https://www.britannica.com/topic/languages-by-total-number-of-speakers-2228881"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The ordering of the proposed answers is incorrect based on the available source data. The data consistently supports that English is the most spoken language (by total speakers), followed by Mandarin Chinese, then Hindi, Spanish, and French. The source 'https://x.com/stats_feed/status/2028038589896942069' and the Facebook sources align closely on actual speaker numbers for these top five languages, and Britannica confirms the ranking order of the languages by their total number of speakers.",
+                        "proposed_answers": [
+                            "English",
+                            "Mandarin Chinese",
+                            "Hindi",
+                            "Spanish",
+                            "French"
+                        ],
+                        "corrected_answers": [
+                            "English",
+                            "Mandarin Chinese",
+                            "Hindi",
+                            "Spanish",
+                            "French"
+                        ],
+                        "best_source": "https://www.britannica.com/topic/languages-by-total-number-of-speakers-2228881"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the 5 most spoken languages in the world by total number of speakers (native + second-language), from most to fifth-most. English vs Mandarin Chinese ranking list",
+                        "sources_found": [
+                            {
+                                "title": "10 most spoken languages in the world in 2026",
+                                "url": "https://www.icls.edu/blog/most-spoken-languages-in-the-world"
+                            },
+                            {
+                                "title": "Top 10 Most Spoken Languages in the World in 2025",
+                                "url": "https://www.usthadian.com/top-10-most-spoken-languages-in-the-world-in-2025/"
+                            },
+                            {
+                                "title": "The 10 Most Spoken Languages In The World In 2026 - Babbel",
+                                "url": "https://www.babbel.com/en/magazine/the-10-most-spoken-languages-in-the-world"
+                            },
+                            {
+                                "title": "25 Most Spoken Languages in the World in 2026 | Berlitz",
+                                "url": "https://www.berlitz.com/blog/most-spoken-languages-world"
+                            },
+                            {
+                                "title": "Most Popular Languages in the World in 2026 | by Luciano Latouche",
+                                "url": "https://medium.com/languages-with-luciano/most-popular-languages-in-the-world-in-2026-8f25a678dbf3"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order of English, Mandarin Chinese, Hindi, Spanish, and French aligns with the numerical totals provided in the source data, where English is the most spoken language by total number of speakers, followed by Mandarin Chinese, Hindi, Spanish, and then French.",
+                        "best_source": "https://www.berlitz.com/blog/most-spoken-languages-world"
+                    },
+                    "question_id": 37,
+                    "final_answers": [
+                        "English",
+                        "Mandarin Chinese",
+                        "Hindi",
+                        "Spanish",
+                        "French"
+                    ],
+                    "final_source": "https://www.berlitz.com/blog/most-spoken-languages-world"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 25, 2026",
+                        "results": [
+                            {
+                                "title": "63+ Sports Events in March 2026 - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "List of the top sporting events occurring over the next 3 months",
+                                "url": "https://www.thebiglead.com/list-of-the-top-sporting-events-occurring-over-the-next-3-months-v/",
+                                "snippet": "College basketball fans will be glued to the excitement of the 2026 NCAA Division I Men’s Basketball Tournament, while baseball supporters celebrate the return of everyday games on 2026 Major League B"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "Sports Event Calendar 2025-26 | Genius Sports",
+                                "url": "https://www.geniussports.com/sports-event-calendar-2025-26/",
+                                "snippet": "In 2026, there's a Winter Olympics and FIFA World Cup to look forward to amongst annual favourites like the Super Bowl, Champions League final, and March"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "| 5-6 | \\_ | Ski Jumping, FIS Women’s World Cup, Lahti, Finland. | 5-7 | \\_ | Men’s and women’s skiing, FIS World Cup Nordic Combined, Lahti, Finland. | 13-14 | \\_ | Men’s and women’s college track an"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Awareness Days & Cultural Calendar For March 2026 | PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-march-2026",
+                                "snippet": "# Awareness Days & Cultural Calendar For March 2026. March 2026 highlights global cultural events and awareness days including International Women’s Day, St Patrick’s Day, Holi, and key equality campa"
+                            },
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOop_xhvq5lpMugvXwLze5UIGCDkQPcZVTinRcT8CoksitzTwKjQB",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas - Successories",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There are plenty of other "
+                            },
+                            {
+                                "title": "Multicultural Calendar - March 2026 - Inclusive Excellence - UC Davis",
+                                "url": "https://excellence.ucdavis.edu/events/multicultural-calendar-march-2026",
+                                "snippet": "The Multicultural Calendar serves as a resource for students, staff, and faculty to plan events, activities, meetings, retreats, and courses"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "March. 24: BAFTA Television Awards nominations · April. 2: Anime Awards nominations · May. 10: BAFTA Television Awards · June. 7: Tony Awards · July."
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "Limited Presale — Get the lowest SXSW 2027 badge rate. ### SXSW 2026 Is Here! ### Discover the Experts Who Are Rewriting the Rules of Influence. ### SXSW 2026 Keynotes & Featured Speakers: See Headlin"
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "| January 4 | Critics Choice Awards |. | January 5 | Annie Awards Nominations |. | January 7 | Actor Awards (SAG) Nominations |. | January 7 | Art Directors Guild Awards Nominations |. | January 8 | A"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 25, 2026",
+                        "results": [
+                            {
+                                "title": "Video. Latest news bulletin | March 25th – Evening - Euronews.com",
+                                "url": "https://www.euronews.com/video/2025/03/25/latest-news-bulletin-march-25th-evening",
+                                "snippet": "*   [English](https://www.euronews.com/video/2025/03/25/latest-news-bulletin-march-25th-evening). *   [Latest](https://www.euronews.com/just-in). *   [Europe](https://www.euronews.com/my-europe). *   "
+                            },
+                            {
+                                "title": "What Happens on March 25, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/25",
+                                "snippet": "# What Happens on March 25, 2026. ## About March 25, 2026. **Day of the Week:** Wednesday. **How Far Away?** 2 days. ## No Entries for March 25, 2026. * See 106 things that happened in **March 2026**."
+                            },
+                            {
+                                "title": "U.S. News and National Top Stories - NPR",
+                                "url": "https://www.npr.org/sections/national/",
+                                "snippet": "[![What could the role of ICE be at airports?](https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5317x2991+0+0/resize/800/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaw"
+                            },
+                            {
+                                "title": "Headlines for March 03, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/3/3/headlines",
+                                "snippet": "*   ![Image 5](https://assets.democracynow.org/assets/icons/video_square-b2d9809b2d8e28a669aec9b9b6ca59ee3dd8813834e8b7151c783b16a503c3f4.png)Story Mar 24, 2026 [“Israel First”: Ex-Israeli Negotiator "
+                            },
+                            {
+                                "title": "Latest news bulletin | March 25th – Morning | Watch - MSN",
+                                "url": "https://www.msn.com/en-ca/entertainment/celebrity/latest-news-bulletin-march-25th-morning/vi-AA1BALec?ocid=hpmsn",
+                                "snippet": "WATCH: A fire on the University Bridge in Saskatoon caused some damage to sewer lines. Slight traffic restrictions will remain at the top of the"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 25",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 25: Sarah Jessica Parker, Chris Redd",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/25/Famous-birthdays-for-March-25-Sarah-Jessica-Parker-Chris-Redd/5291742761012/",
+                                "snippet": "Actor Sarah Jessica Parker turns 60 and comedian Chris Redd turns 40, among the famous birthdays for March 25."
+                            },
+                            {
+                                "title": "Famous Birthdays on March 25 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/25",
+                                "snippet": "* 1863 Simon Flexner, American pathologist and first Director of Rockefeller Institute, born in Louisville, Kentucky (d. * **1909** Jay Blackton, American conductor and arranger (Guys & Dolls; Oklahom"
+                            },
+                            {
+                                "title": "Family Members Born March 25 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march25-familymember.html",
+                                "snippet": "Famous Family Members Born March 25 including Johannah Deakin, Hugo Aveiro, Grace Warrior Irwin Powell, Grace Warrior Irwin, Dylan McCaffrey and many more."
+                            },
+                            {
+                                "title": "March 25 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-25-birthdays/",
+                                "snippet": "March 25th birthdays · Aretha Franklin · Big Sean · Elton John · Sarah Jessica Parker · Sha'Carri Richardson · About us · Resources · Contact Us."
+                            },
+                            {
+                                "title": "Famous People's Birthdays, March 25, United States Celebrity ...",
+                                "url": "https://www.bornglorious.com/united_states/birthday/?pd=0325",
+                                "snippet": "1 Sarah Jessica Parker · 2 Jenny Slate · 3 Aretha Franklin · 4 Katharine McPhee · 5 Jack Ruby · 6 Danica Patrick · 7 Gloria Steinem · 8 Bari Weiss."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "2026 BAFTA Television Awards nominations announced (Mar 24)",
+                        "suggested_question": "Rank the top 5 programs by number of nominations at the 2026 BAFTA Television Awards, from most to fewer.",
+                        "connection": "BAFTA Television Awards nominations were unveiled this week per awards calendars; tallying the most-nominated shows is timely and verifiable from BAFTA’s official list."
+                    },
+                    {
+                        "topic": "Women’s History Month and International Women’s Day (March)",
+                        "suggested_question": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue, highest to lower.",
+                        "connection": "March spotlights women in leadership; this ranks major woman-led companies using Fortune’s latest revenue figures."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) celebrations",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the latest full year, from most to fifth-most.",
+                        "connection": "Irish heritage and spirits are front-and-center every March; brand sales are tracked by industry sources like IWSR, making this timely and objective."
+                    },
+                    {
+                        "topic": "Spring Break air travel surge in March",
+                        "suggested_question": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower.",
+                        "connection": "March brings heavy travel; on-time performance for the same month last year is published by the DOT and is directly relevant now."
+                    },
+                    {
+                        "topic": "SXSW 2026 (March) and creator/tech trends",
+                        "suggested_question": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer.",
+                        "connection": "SXSW showcases immersive tech; annual headset shipment rankings from firms like IDC/Canalys are timely and verifiable."
+                    },
+                    {
+                        "topic": "Commonwealth Day (Mar 9) and shared heritage",
+                        "suggested_question": "Rank the top 5 Commonwealth member countries by total UNESCO World Heritage Sites inscribed (as of 2026), most to fewer.",
+                        "connection": "With Commonwealth Day in March, a cultural heritage ranking is apt and can be confirmed via UNESCO’s official listings."
+                    },
+                    {
+                        "topic": "Pi Day (Mar 14) and math education",
+                        "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) team gold medals won all-time, from most to fifth-most.",
+                        "connection": "Pi Day spotlights math; the IMO’s historical medal tables are public and make for a rigorous, timely ranking."
+                    },
+                    {
+                        "topic": "Awards season continues into spring (journalism next month)",
+                        "suggested_question": "Rank the top 5 newspapers by total Pulitzer Prizes won (all-time), most to fewer.",
+                        "connection": "Pulitzer announcements arrive in April; this anticipatory, awards-themed ranking leverages the Pulitzer Board’s official historical counts."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Cherry blossom season (late March–April)",
+                        "suggested_question": "Rank the top 5 Japanese cities (JMA observation sites) by the earliest average first-bloom date for Somei-Yoshino cherry blossoms, from earliest to later.",
+                        "connection": "Sakura season peaks now; the Japan Meteorological Agency publishes long-term average bloom dates for select cities."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Earth Hour (late March)",
+                        "suggested_question": "Rank the top 5 countries by the share of electricity generation from renewables in the latest full year, highest to lower.",
+                        "connection": "Earth Hour raises climate awareness each March; national electricity mix shares are tracked by IEA/Ember and can be ranked objectively."
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Pi Day (March) and number theory",
+                        "suggested_question": "Rank the top 5 largest known prime numbers as of March 2026 by number of digits, from most to fewer.",
+                        "connection": "Math is in the spotlight each March; GIMPS and number theory registries list the largest known primes with exact digit counts."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "2026 BAFTA Television Awards nominations announced (Mar 24)",
+                        "suggested_question": "Rank the top 5 programs by number of nominations at the 2026 BAFTA Television Awards, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the BAFTA Television Awards nominations involves entertainment and awards, which is a different subject area from all recent questions, none of which focus on awards or the entertainment industry.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Women’s History Month and International Women’s Day (March)",
+                        "suggested_question": "Rank the top 5 Fortune 500 companies led by women CEOs by total 2025 revenue, highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on women CEOs in Fortune 500 companies does not overlap with any recent questions about sports, agriculture, trade, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (Mar 17) celebrations",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global 9-liter case sales in the latest full year, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Irish whiskey sales and St. Patrick's Day celebrations, which is distinct from any recently used questions that cover sports, agriculture, trade, startups, and convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring Break air travel surge in March",
+                        "suggested_question": "Rank the top 5 U.S. airlines by on-time arrival percentage in March 2025 (per U.S. DOT Air Travel Consumer Report), highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Spring Break air travel surge and ranking airlines by on-time performance covers a distinct subject area related to air travel and transportation, which has not been addressed in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 (March) and creator/tech trends",
+                        "suggested_question": "Rank the top 5 VR headset models by global unit shipments in 2025, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on VR headset models and tech trends, which are unrelated to any of the recent questions covering sports, agriculture, international trade, curling, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Commonwealth Day (Mar 9) and shared heritage",
+                        "suggested_question": "Rank the top 5 Commonwealth member countries by total UNESCO World Heritage Sites inscribed (as of 2026), most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Commonwealth countries and their UNESCO World Heritage Sites, which is unrelated to the themes of recent questions such as NCAA basketball, agricultural production, export destinations, curling, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Pi Day (Mar 14) and math education",
+                        "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) team gold medals won all-time, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic covers mathematics and education, which is unrelated to the themes of sports, agriculture, trade, startups, and convention centers from recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season continues into spring (journalism next month)",
+                        "suggested_question": "Rank the top 5 newspapers by total Pulitzer Prizes won (all-time), most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Pulitzer Prizes for newspapers deals with journalism and awards, which is unrelated to any of the recent topics like NCAA basketball, agriculture, trade, curling, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Cherry blossom season (late March–April)",
+                        "suggested_question": "Rank the top 5 Japanese cities (JMA observation sites) by the earliest average first-bloom date for Somei-Yoshino cherry blossoms, from earliest to later.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about cherry blossom blooming dates in Japan focuses on a cultural and natural phenomenon, which is unrelated to any of the recent questions about sports, agriculture, trade, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Earth Hour (late March)",
+                        "suggested_question": "Rank the top 5 countries by the share of electricity generation from renewables in the latest full year, highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on renewable energy and electricity generation, which is unrelated to any of the recently covered topics such as sports, agriculture, trade, startups, or convention centers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL FALLBACK: Pi Day (March) and number theory",
+                        "suggested_question": "Rank the top 5 largest known prime numbers as of March 2026 by number of digits, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on number theory and Pi Day, which are unrelated to the themes of sports, agriculture, exports, curling, startups, or convention centers in the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "fallback_used": true,
+            "question_id": 37
         }
     ]
 }
