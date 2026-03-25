@@ -1294,6 +1294,41 @@
                 "French"
             ],
             "source": "https://www.berlitz.com/blog/most-spoken-languages-world"
+        },
+        {
+            "id": 38,
+            "date": "2026-03-26",
+            "question": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites (most to fifth-most), as of 2024.",
+            "options": [
+                "United Kingdom",
+                "India",
+                "Australia",
+                "Canada",
+                "South Africa",
+                "Sri Lanka",
+                "Pakistan",
+                "Tanzania",
+                "Kenya",
+                "Malaysia",
+                "New Zealand",
+                "Nigeria",
+                "Bangladesh",
+                "Zimbabwe",
+                "Malta",
+                "Cyprus",
+                "Uganda",
+                "Ghana",
+                "Singapore",
+                "Jamaica"
+            ],
+            "answers": [
+                "United Kingdom",
+                "India",
+                "Australia",
+                "Canada",
+                "South Africa"
+            ],
+            "source": "https://www.msn.com/en-in/travel/news/unesco-ranks-top-countries-for-world-heritage-sites-india-secures-43-sites/ar-AA1zBRJP?ocid=BingNewsVerp"
         }
     ]
 }

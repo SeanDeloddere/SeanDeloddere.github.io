@@ -34181,6 +34181,604 @@
             },
             "fallback_used": true,
             "question_id": 37
+        },
+        {
+            "date": "2026-03-26",
+            "topics_discovered": [
+                {
+                    "topic": "2026 Winter Olympics on the 2026–27 sports calendars",
+                    "suggested_question": "Rank the top 5 countries by total Winter Olympics all-time gold medals (most to fifth-most).",
+                    "connection": "Multiple calendars highlight the 2026 Winter Olympics; this ranks historic Winter Games dominance as fans look ahead."
+                },
+                {
+                    "topic": "Diana Ross’s birthday — March 26",
+                    "suggested_question": "Rank the top 5 female solo artists by number of U.S. Billboard Hot 100 No. 1 singles (most to fifth-most).",
+                    "connection": "March 26 marks Diana Ross’s birthday; a music-themed challenge fits the day and is objectively chart-based."
+                },
+                {
+                    "topic": "SXSW Film & TV Festival (March 12–18, 2026)",
+                    "suggested_question": "Rank the top 5 films that premiered at SXSW by worldwide box office gross (highest to fifth-highest).",
+                    "connection": "With SXSW just wrapped, this celebrates its film premieres that went on to big global box office success."
+                },
+                {
+                    "topic": "SXSW’s tech/interactive spotlight",
+                    "suggested_question": "Rank the top 5 smartphone brands by global unit shipments in 2025 (full year), highest to lower.",
+                    "connection": "SXSW’s tech track and spring launch season make a timely look at last year’s shipment leaders."
+                },
+                {
+                    "topic": "Commonwealth Day (March 9) on cultural calendars",
+                    "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites (most to fifth-most).",
+                    "connection": "Commonwealth Day was observed earlier this month; this cultural angle honors member nations’ heritage sites."
+                },
+                {
+                    "topic": "Spring travel season and major event road trips",
+                    "suggested_question": "Rank the top 5 cities worldwide by international tourist arrivals in the latest available full year (most to fifth-most).",
+                    "connection": "With spring travel and big 2026 events being planned, this highlights the world’s most-visited cities."
+                },
+                {
+                    "topic": "St. Patrick’s Day (March) — food & drink seasonality",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global sales volume (9L cases) in the latest available year, from most to fifth-most.",
+                    "connection": "Irish whiskey sees a spotlight around St. Patrick’s Day; industry rankings are tracked by IWSR and similar sources."
+                },
+                {
+                    "topic": "UC Davis Multicultural Calendar (March) — higher ed spotlight",
+                    "suggested_question": "Rank the top 5 University of California campuses by total R&D expenditures (NSF HERD Survey, latest year), highest to lower.",
+                    "connection": "With UC Davis sharing March cultural observances, it’s a timely nod to the UC system’s research leaders."
+                },
+                {
+                    "topic": "SXSW’s gaming/XR presence",
+                    "suggested_question": "Rank the top 5 esports games by total prize money awarded in 2025 (calendar year), most to fifth-most.",
+                    "connection": "SXSW often shines a light on gaming; prize pool totals (e.g., EsportsEarnings) make this verifiable and topical."
+                },
+                {
+                    "topic": "Seasonal fallback — Women’s History Month (March)",
+                    "suggested_question": "Rank the top 5 countries by number of women Nobel Prize laureates (all categories, all years), most to fifth-most.",
+                    "connection": "March is Women’s History Month; Nobel databases provide clear counts by country for a timely recognition-focused ranking."
+                },
+                {
+                    "topic": "Seasonal fallback — Spring equinox and migration season",
+                    "suggested_question": "Rank the top 5 bird species by longest recorded annual migration distance (round trip), longest to shorter.",
+                    "connection": "With spring migration underway, ornithological records (e.g., for Arctic terns) make this a science-forward seasonal pick."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "2026 Winter Olympics on the 2026–27 sports calendars",
+                    "suggested_question": "Rank the top 5 countries by total Winter Olympics all-time gold medals (most to fifth-most).",
+                    "connection": "Multiple calendars highlight the 2026 Winter Olympics; this ranks historic Winter Games dominance as fans look ahead.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question overlaps with ID 3, as both ask about the top 5 countries by total Winter Olympics gold medals. While the new question may intend to include results from the 2026 Winter Olympics, it remains nearly identical in structure and focus to the existing ID 3 question."
+                    }
+                },
+                {
+                    "topic": "Diana Ross’s birthday — March 26",
+                    "suggested_question": "Rank the top 5 female solo artists by number of U.S. Billboard Hot 100 No. 1 singles (most to fifth-most).",
+                    "connection": "March 26 marks Diana Ross’s birthday; a music-themed challenge fits the day and is objectively chart-based.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is essentially identical to ID 26, as they both ask to rank the top 5 female solo artists by the number of Billboard Hot 100 No. 1 singles."
+                    }
+                },
+                {
+                    "topic": "SXSW Film & TV Festival (March 12–18, 2026)",
+                    "suggested_question": "Rank the top 5 films that premiered at SXSW by worldwide box office gross (highest to fifth-highest).",
+                    "connection": "With SXSW just wrapped, this celebrates its film premieres that went on to big global box office success.",
+                    "status": "generation_failed",
+                    "reason": "LLM did not return valid question structure",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about ranking films by box office gross from SXSW is distinct in topic and scope compared to the previous questions, which cover different areas such as geography, sports, science, and other cultural topics. It does not overlap conceptually with any of the listed questions."
+                    }
+                },
+                {
+                    "topic": "Commonwealth Day (March 9) on cultural calendars",
+                    "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites (most to fifth-most).",
+                    "connection": "Commonwealth Day was observed earlier this month; this cultural angle honors member nations’ heritage sites.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking Commonwealth countries by UNESCO World Heritage sites focuses on cultural heritage and geography, which is distinct from any of the existing questions, none of which address UNESCO sites or specifically focus on Commonwealth countries."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites (most to fifth-most), as of 2024.",
+                        "answers": [
+                            "India",
+                            "United Kingdom",
+                            "Canada",
+                            "Australia",
+                            "South Africa"
+                        ],
+                        "distractors": [
+                            "Sri Lanka",
+                            "Pakistan",
+                            "Tanzania",
+                            "Kenya",
+                            "Malaysia",
+                            "New Zealand",
+                            "Nigeria",
+                            "Bangladesh",
+                            "Zimbabwe",
+                            "Malta",
+                            "Cyprus",
+                            "Uganda",
+                            "Ghana",
+                            "Singapore",
+                            "Jamaica"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_by_country"
+                    },
+                    "verification_search_iter0": {
+                        "query": "UNESCO World Heritage Sites by country counts India United Kingdom Canada Australia South Africa",
+                        "sources_found": [
+                            {
+                                "title": "15 Countries With The Most UNESCO World Heritage Sites",
+                                "url": "https://flytrippers.com/countries-with-the-most-unesco-world-heritage-sites/"
+                            },
+                            {
+                                "title": "World Heritage Sites by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/world-heritage-sites-by-country"
+                            },
+                            {
+                                "title": "10 Countries with the Most UNESCO World Heritage Sites",
+                                "url": "https://www.skyparksecure.com/blog/unesco-uncovered-find-world-heritage-sites-world/"
+                            },
+                            {
+                                "title": "Top 10 Countries with the Most UNESCO World Heritage Sites",
+                                "url": "https://www.facebook.com/Italy365/posts/top-10-countries-with-the-most-unesco-world-heritage-sites-/1464785485015778/"
+                            },
+                            {
+                                "title": "The number of UNESCO World Heritage sites per country : r/MapPorn",
+                                "url": "https://www.reddit.com/r/MapPorn/comments/1l7t21o/the_number_of_unesco_world_heritage_sites_per/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the authoritative source from World Population Review, India has the most UNESCO World Heritage Sites among Commonwealth countries (40), followed by the United Kingdom (33), Australia (20), Canada (21), and South Africa (10). The proposed order incorrectly placed Canada higher than Australia, whereas the data shows Australia has fewer than Canada. The corrected ordering reflects the verified number of World Heritage Sites as of the latest data.",
+                        "proposed_answers": [
+                            "India",
+                            "United Kingdom",
+                            "Canada",
+                            "Australia",
+                            "South Africa"
+                        ],
+                        "corrected_answers": [
+                            "India",
+                            "United Kingdom",
+                            "Australia",
+                            "Canada",
+                            "South Africa"
+                        ],
+                        "best_source": "https://worldpopulationreview.com/country-rankings/world-heritage-sites-by-country"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites (most to fifth-most), as of 2024. India vs United Kingdom ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Countries with the highest number of UNESCO world heritage sites",
+                                "url": "https://m.economictimes.com/nri/visit/countries-with-the-highest-number-of-unesco-world-heritage-sites/china-59/slideshow/116285234.cms"
+                            },
+                            {
+                                "title": "Who leads world in UNESCO sites? Top 10 countries revealed ...",
+                                "url": "https://www.wionews.com/photos/who-leads-world-in-unesco-sites-top-10-countries-revealed-india-rank-will-surprise-you-1752994230603"
+                            },
+                            {
+                                "title": "Top 10 countries with the most UNESCO World Heritage sites: 1 ...",
+                                "url": "https://x.com/stats_feed/status/1956093973342380480"
+                            },
+                            {
+                                "title": "Top 5 countries with the highest numbers of UNESCO World ...",
+                                "url": "https://timesofindia.indiatimes.com/life-style/travel/destinations/top-5-countries-with-the-highest-numbers-of-unesco-world-heritage-sites/photostory/127306450.cms"
+                            },
+                            {
+                                "title": "Top 10 countries with most UNESCO World Heritage Sites",
+                                "url": "https://indianexpress.com/article/trending/top-10-listing/top-10-countries-with-most-unesco-world-heritage-sites-check-india-rank-10157463/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Based on the additional source data, the UK is tied with Mexico at 35 UNESCO World Heritage Sites as of 2024-2025, meaning they cannot rank higher than India with 40 sites. Therefore, the corrected order is inaccurate.",
+                        "best_source": "https://www.wionews.com/photos/who-leads-world-in-unesco-sites-top-10-countries-revealed-india-rank-will-surprise-you-1752994230603"
+                    },
+                    "verification_search_iter1": {
+                        "query": "UNESCO World Heritage Sites by country counts India United Kingdom Canada Australia South Africa",
+                        "sources_found": [
+                            {
+                                "title": "15 Countries With The Most UNESCO World Heritage Sites",
+                                "url": "https://flytrippers.com/countries-with-the-most-unesco-world-heritage-sites/"
+                            },
+                            {
+                                "title": "World Heritage Sites by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/world-heritage-sites-by-country"
+                            },
+                            {
+                                "title": "10 Countries with the Most UNESCO World Heritage Sites",
+                                "url": "https://www.skyparksecure.com/blog/unesco-uncovered-find-world-heritage-sites-world/"
+                            },
+                            {
+                                "title": "Top 10 Countries with the Most UNESCO World Heritage Sites",
+                                "url": "https://www.facebook.com/Italy365/posts/top-10-countries-with-the-most-unesco-world-heritage-sites-/1464785485015778/"
+                            },
+                            {
+                                "title": "The number of UNESCO World Heritage sites per country : r/MapPorn",
+                                "url": "https://www.reddit.com/r/MapPorn/comments/1l7t21o/the_number_of_unesco_world_heritage_sites_per/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The World Population Review lists the actual number of UNESCO World Heritage Sites for each country. India has 40 sites, making it the highest among Commonwealth countries. The United Kingdom has 33 sites, which makes it second. Australia has 20 sites, placing it third, while Canada has 22 sites, slightly more than Australia, making it fourth. South Africa has 10 sites, placing it fifth. The corrected order reflects the accurate ranking based on the most authoritative source found.",
+                        "proposed_answers": [
+                            "India",
+                            "United Kingdom",
+                            "Australia",
+                            "Canada",
+                            "South Africa"
+                        ],
+                        "corrected_answers": [
+                            "United Kingdom",
+                            "India",
+                            "Australia",
+                            "Canada",
+                            "South Africa"
+                        ],
+                        "best_source": "https://worldpopulationreview.com/country-rankings/world-heritage-sites-by-country"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 Commonwealth countries by total number of UNESCO World Heritage Sites (most to fifth-most), as of 2024. United Kingdom vs India ranking list",
+                        "sources_found": [
+                            {
+                                "title": "UNESCO ranks top countries for World Heritage Sites, India secures ...",
+                                "url": "https://www.msn.com/en-in/travel/news/unesco-ranks-top-countries-for-world-heritage-sites-india-secures-43-sites/ar-AA1zBRJP?ocid=BingNewsVerp"
+                            },
+                            {
+                                "title": "Countries with the most UNESCO World Heritage Sites (2024)",
+                                "url": "https://www.thewholeworldisaplayground.com/countries-with-most-unesco-world-heritage-sites/"
+                            },
+                            {
+                                "title": "Top 10 countries with most UNESCO World Heritage Sites",
+                                "url": "https://indianexpress.com/article/trending/top-10-listing/top-10-countries-with-most-unesco-world-heritage-sites-check-india-rank-10157463/"
+                            },
+                            {
+                                "title": "Top 5 Countries With the Most UNESCO World Heritage Sites in 2026",
+                                "url": "https://www.facebook.com/AsianetNewsEng/posts/top-5-countries-with-the-most-unesco-world-heritage-sites-in-2026/1212494907738344/"
+                            },
+                            {
+                                "title": "Top 10 countries with the most UNESCO World Heritage sites: 1 ...",
+                                "url": "https://x.com/stats_feed/status/1956093973342380480"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the additional source data provided, which confirms the number of UNESCO World Heritage Sites for India (43), United Kingdom (over 30), Australia (20), Canada (20), and South Africa (10). The values are consistent with the ranking order.",
+                        "best_source": "https://www.msn.com/en-in/travel/news/unesco-ranks-top-countries-for-world-heritage-sites-india-secures-43-sites/ar-AA1zBRJP?ocid=BingNewsVerp"
+                    },
+                    "question_id": 38,
+                    "final_answers": [
+                        "United Kingdom",
+                        "India",
+                        "Australia",
+                        "Canada",
+                        "South Africa"
+                    ],
+                    "final_source": "https://www.msn.com/en-in/travel/news/unesco-ranks-top-countries-for-world-heritage-sites-india-secures-43-sites/ar-AA1zBRJP?ocid=BingNewsVerp"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 26, 2026",
+                        "results": [
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "Sports Event Calendar 2025-26 | Genius Sports",
+                                "url": "https://www.geniussports.com/sports-event-calendar-2025-26/",
+                                "snippet": "In 2026, there's a Winter Olympics and FIFA World Cup to look forward to amongst annual favourites like the Super Bowl, Champions League final, and March"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "| 5-6 | \\_ | Ski Jumping, FIS Women’s World Cup, Lahti, Finland. | 5-7 | \\_ | Men’s and women’s skiing, FIS World Cup Nordic Combined, Lahti, Finland. | 13-14 | \\_ | Men’s and women’s college track an"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "| 10–18 | Ice hockey | 2026 IIHF U18 Women's World Championship | International | United States |. | 24–3 March | Curling | 2026 World Junior Curling Championships | International | * Men:  United Sta"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "*   14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). *   28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden,U.S.). *   28 Apr to 10 May: Table Tennis – ITTF W"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOorecyvwY0gUjvqNiGH7fwOIgy30C1-4ksR8KRx-QurbQmcDDUBW",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas - Successories",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There are plenty of other "
+                            },
+                            {
+                                "title": "Multicultural Calendar - March 2026 - Inclusive Excellence - UC Davis",
+                                "url": "https://excellence.ucdavis.edu/events/multicultural-calendar-march-2026",
+                                "snippet": "The Multicultural Calendar serves as a resource for students, staff, and faculty to plan events, activities, meetings, retreats, and courses"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy Days",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "Our Interfaith Calendar 2026 is designed to assist businesses and organizations in acknowledging a diverse array of religious holidays and festivals. For further valuable insights on diversity and inc"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "film & tv festival & conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/film-tv-festival/",
+                                "snippet": "# film & tv festival  & conference march 12–18, 2026. The SXSW Film & TV Festival & Conference is known for its high-caliber and diverse program of film, TV, and XR projects, and serves as a global ga"
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "March 11-12, 2026 | Charleston, SC - Reed Awards",
+                                "url": "https://thereedawards.com/dates-location/",
+                                "snippet": "# Dates & Location. ## Join Us March 11-12, 2026. ### Charleston Gaillard Center. 95 Calhoun St, Charleston, SC 29401. ## Get Your Operative Super Early Bird Ticket Now. ### Purchase a ticket today an"
+                            },
+                            {
+                                "title": "2026 Pollie Awards & Conference – AAPC",
+                                "url": "https://theaapc.org/event/2026-pollie-awards-conference/",
+                                "snippet": "Venue. Omni Amelia Island Resort | Amelia Island, FL. 39 Beach Lagoon Rd Fernandina Beach, FL 32034 United States + Google Map · View Venue Website"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 26, 2026",
+                        "results": [
+                            {
+                                "title": "Wednesday's Mini-Report, 3.25.26 - MS NOW",
+                                "url": "https://www.ms.now/rachel-maddow-show/maddowblog/wednesdays-mini-report-3-25-26",
+                                "snippet": "## Featured Shows. ## More Shows. ## MS NOW Tv. ## Follow MS NOW. ## From the Rachel Maddow Show. \\* An audacious proposal: “The Trump administration has offered a 15-point ceasefire plan to Iran, acc"
+                            },
+                            {
+                                "title": "Headlines for March 26, 2025 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2025/3/26/headlines",
+                                "snippet": "[](https://www.facebook.com/sharer/sharer.php?u=https://www.democracynow.org/2025/3/26/headlines/israel_kills_38_palestinians_in_gaza_israeli_court_orders_dr_abu_safiya_held_for_6_months_more \"Share o"
+                            },
+                            {
+                                "title": "On This Day - What Happened on March 26 | Britannica",
+                                "url": "https://www.britannica.com/on-this-day/March-26",
+                                "snippet": "A Britannica Newsletter Today In History Logo. Thanks for signing up for Today in History. # TODAY IN HISTORY. Today In History Star March 26. The historic peace treaty between Israel and Egypt, agree"
+                            },
+                            {
+                                "title": "Historical Events on March 26 - On This Day",
+                                "url": "https://www.onthisday.com/events/march/26",
+                                "snippet": "* 1856 New South Wales's first 1st-class game, v Victoria at Melbourne NSW wins. Patton 34th US President and WWII General Dwight D. 1951 United States Air Force flag officially adopted by President H"
+                            },
+                            {
+                                "title": "Top U.S. & World Headlines — March 25, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=EplvIRzRwgc",
+                                "snippet": "| Inside Story Al Jazeera English 134K views • 4 hours ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=bGE18suZU2E)[1:26:45 America vs. The Rest with Alastair Campbell | The Weekly Show"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 26",
+                        "results": [
+                            {
+                                "title": "MARCH 26 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-26-birthdays-and-events",
+                                "snippet": "# MARCH 26 | Birthdays and Events - National Day Calendar. Image 2: National Day Calendar home. Image 4: National Day Calendar home. Image 5: MARCH 26 | Birthdays and Events. **Diana Ross (1944-Still "
+                            },
+                            {
+                                "title": "Famous birthdays list for today, March 26, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/03/famous-birthdays-list-for-today-march-26-2025-includes-celebrities-steven-tyler-diana-ross.html",
+                                "snippet": "# Famous birthdays list for today, March 26, 2025 includes celebrities Steven Tyler, Diana Ross. Steven Tyler and Diana Ross celebrate birthdays on March 26, 2025.AP. Birthday wishes go out to Steven "
+                            },
+                            {
+                                "title": "Famous birthdays for March 26: Jennifer Grey, Keira Knightley - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-26-jennifer-070006248.html",
+                                "snippet": "File Photo by John Angelillo/UPI. File Photo by Jim Ruymen/UPI. -- U.S. Nancy Pelosi, D-Calif., former speaker of the House, in 1940 (age 84). Photo by Joshua Roberts/UPI. -- Singer Diana Ross in 1944"
+                            },
+                            {
+                                "title": "Family Members Born March 26 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march26-familymember.html",
+                                "snippet": "Famous Family Members Born March 26 including Heiress Diana Harris, Yvette Prieto, Molly Gallagher, Skylar Lynnae Neil, Vada Wamwene Mescudi and many more."
+                            },
+                            {
+                                "title": "Athletes Born March 26 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march26-athlete.html",
+                                "snippet": "Famous Athletes Born March 26 including Ángel Gastón Díaz, Michael Taylor, Mikel Arteta, Jameson Williams, Marcus Allen and many more."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "2026 Winter Olympics on the 2026–27 sports calendars",
+                        "suggested_question": "Rank the top 5 countries by total Winter Olympics all-time gold medals (most to fifth-most).",
+                        "connection": "Multiple calendars highlight the 2026 Winter Olympics; this ranks historic Winter Games dominance as fans look ahead."
+                    },
+                    {
+                        "topic": "Diana Ross’s birthday — March 26",
+                        "suggested_question": "Rank the top 5 female solo artists by number of U.S. Billboard Hot 100 No. 1 singles (most to fifth-most).",
+                        "connection": "March 26 marks Diana Ross’s birthday; a music-themed challenge fits the day and is objectively chart-based."
+                    },
+                    {
+                        "topic": "SXSW Film & TV Festival (March 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 films that premiered at SXSW by worldwide box office gross (highest to fifth-highest).",
+                        "connection": "With SXSW just wrapped, this celebrates its film premieres that went on to big global box office success."
+                    },
+                    {
+                        "topic": "SXSW’s tech/interactive spotlight",
+                        "suggested_question": "Rank the top 5 smartphone brands by global unit shipments in 2025 (full year), highest to lower.",
+                        "connection": "SXSW’s tech track and spring launch season make a timely look at last year’s shipment leaders."
+                    },
+                    {
+                        "topic": "Commonwealth Day (March 9) on cultural calendars",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites (most to fifth-most).",
+                        "connection": "Commonwealth Day was observed earlier this month; this cultural angle honors member nations’ heritage sites."
+                    },
+                    {
+                        "topic": "Spring travel season and major event road trips",
+                        "suggested_question": "Rank the top 5 cities worldwide by international tourist arrivals in the latest available full year (most to fifth-most).",
+                        "connection": "With spring travel and big 2026 events being planned, this highlights the world’s most-visited cities."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (March) — food & drink seasonality",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global sales volume (9L cases) in the latest available year, from most to fifth-most.",
+                        "connection": "Irish whiskey sees a spotlight around St. Patrick’s Day; industry rankings are tracked by IWSR and similar sources."
+                    },
+                    {
+                        "topic": "UC Davis Multicultural Calendar (March) — higher ed spotlight",
+                        "suggested_question": "Rank the top 5 University of California campuses by total R&D expenditures (NSF HERD Survey, latest year), highest to lower.",
+                        "connection": "With UC Davis sharing March cultural observances, it’s a timely nod to the UC system’s research leaders."
+                    },
+                    {
+                        "topic": "SXSW’s gaming/XR presence",
+                        "suggested_question": "Rank the top 5 esports games by total prize money awarded in 2025 (calendar year), most to fifth-most.",
+                        "connection": "SXSW often shines a light on gaming; prize pool totals (e.g., EsportsEarnings) make this verifiable and topical."
+                    },
+                    {
+                        "topic": "Seasonal fallback — Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by number of women Nobel Prize laureates (all categories, all years), most to fifth-most.",
+                        "connection": "March is Women’s History Month; Nobel databases provide clear counts by country for a timely recognition-focused ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback — Spring equinox and migration season",
+                        "suggested_question": "Rank the top 5 bird species by longest recorded annual migration distance (round trip), longest to shorter.",
+                        "connection": "With spring migration underway, ornithological records (e.g., for Arctic terns) make this a science-forward seasonal pick."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "2026 Winter Olympics on the 2026–27 sports calendars",
+                        "suggested_question": "Rank the top 5 countries by total Winter Olympics all-time gold medals (most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the Winter Olympics, which has not been addressed in any of the recent questions involving agriculture, trade, curling, startups, convention centers, or global language speakers.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Diana Ross’s birthday — March 26",
+                        "suggested_question": "Rank the top 5 female solo artists by number of U.S. Billboard Hot 100 No. 1 singles (most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to music and Billboard rankings, which is a different subject area from any of the recently covered topics such as agricultural production, exports, sports, startups, event spaces, or languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW Film & TV Festival (March 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 films that premiered at SXSW by worldwide box office gross (highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to films that premiered at the SXSW Festival and their box office performance, which is unrelated to any of the recent questions about agriculture, exports, sports, startups, convention centers, or languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW’s tech/interactive spotlight",
+                        "suggested_question": "Rank the top 5 smartphone brands by global unit shipments in 2025 (full year), highest to lower.",
+                        "recently_covered": true,
+                        "reason": "The proposed topic relates to global rankings of technology brands, which broadly overlaps with the recent question about U.S. metro areas ranked by unicorn startups headquartered there. Both focus on tech-related industry metrics or entities.",
+                        "overlaps_with": "2026-03-23"
+                    },
+                    {
+                        "topic": "Commonwealth Day (March 9) on cultural calendars",
+                        "suggested_question": "Rank the top 5 Commonwealth countries by number of UNESCO World Heritage Sites (most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on UNESCO World Heritage Sites among Commonwealth countries, which is distinct from any recent topics that looked at agriculture, trade, sports, startups, convention centers, or global language usage.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel season and major event road trips",
+                        "suggested_question": "Rank the top 5 cities worldwide by international tourist arrivals in the latest available full year (most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on international tourist arrivals, which does not overlap with the recently covered topics of date production, export destinations, sports championships, unicorn startups, convention centers, or languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day (March) — food & drink seasonality",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global sales volume (9L cases) in the latest available year, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Irish whiskey sales relates to food & drink and is distinct from recent topics, which cover agriculture, trade, sports, startups, infrastructure, and languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "UC Davis Multicultural Calendar (March) — higher ed spotlight",
+                        "suggested_question": "Rank the top 5 University of California campuses by total R&D expenditures (NSF HERD Survey, latest year), highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on higher education research expenditures, while none of the recent questions relate to higher education, research, or the University of California system.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW’s gaming/XR presence",
+                        "suggested_question": "Rank the top 5 esports games by total prize money awarded in 2025 (calendar year), most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on esports and gaming-related events at SXSW, which is distinct from any of the recent questions covering agriculture, trade, sports, startups, convention centers, and language statistics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — Women’s History Month (March)",
+                        "suggested_question": "Rank the top 5 countries by number of women Nobel Prize laureates (all categories, all years), most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic (women Nobel Prize laureates) is unrelated to any of the recent questions, which focus on agriculture, trade, sports, business, venues, and languages.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — Spring equinox and migration season",
+                        "suggested_question": "Rank the top 5 bird species by longest recorded annual migration distance (round trip), longest to shorter.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about bird migration distances relates to natural phenomena and wildlife, whereas none of the recent questions involve themes like animals, migration, or ecology.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 38
         }
     ]
 }
