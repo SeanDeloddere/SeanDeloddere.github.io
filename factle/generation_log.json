@@ -34779,6 +34779,721 @@
                 ]
             },
             "question_id": 38
+        },
+        {
+            "date": "2026-03-27",
+            "topics_discovered": [
+                {
+                    "topic": "Ski Jumping World Cup Final (Mar 27–29, 2026, Slovenia)",
+                    "suggested_question": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most.",
+                    "connection": "The World Cup Final is happening right now, capping the ski jumping season—perfect time to test knowledge of the sport’s all-time greats."
+                },
+                {
+                    "topic": "Northland flooding in New Zealand headlines (Mar 27)",
+                    "suggested_question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimeters), from wettest to fifth-wettest.",
+                    "connection": "With severe flooding in Northland making news today, a rainfall-focused ranking highlights New Zealand’s rainiest locations."
+                },
+                {
+                    "topic": "This Day in History (Mar 27): U.S. Navy frigates authorized in 1794",
+                    "suggested_question": "Rank the top 5 oldest commissioned warships still afloat worldwide (by launch year), from oldest to fifth-oldest.",
+                    "connection": "On March 27, 1794, Congress authorized iconic U.S. Navy frigates. A timely naval-history challenge fits today’s date."
+                },
+                {
+                    "topic": "St. Patrick’s Day season (March cultural celebrations)",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by global annual sales volume (9-liter cases, latest full-year data), from highest to lower.",
+                    "connection": "March buzzes with Irish festivities, making an Irish whiskey sales ranking seasonally relevant and objectively verifiable."
+                },
+                {
+                    "topic": "Awards season (March 2026 includes SAG/The Actor Awards, WGA, etc.)",
+                    "suggested_question": "Rank the top 5 performers with the most individual Screen Actors Guild (The Actor) Awards across film and television, all-time, from most to fifth-most.",
+                    "connection": "With multiple awards events in March, a SAG/The Actor Awards all-time leaderboard fits the current entertainment cycle."
+                },
+                {
+                    "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                    "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 by rating, from highest to fifth-highest.",
+                    "connection": "SXSW spotlights tech trends this month—ranking languages by the current TIOBE Index taps into what’s hot in programming right now."
+                },
+                {
+                    "topic": "March calendar includes National Retro Video Game Day",
+                    "suggested_question": "Rank the top 5 best-selling Nintendo Entertainment System (NES) games worldwide by total units sold, from most to fifth-most.",
+                    "connection": "A retro gaming nod fits March’s observances, inviting players to recall the NES’s biggest hits by sales."
+                },
+                {
+                    "topic": "March 27 birthdays include early American botanist Jane Colden",
+                    "suggested_question": "Rank the top 5 largest herbaria in the world by number of preserved plant specimens, from most to fifth-most.",
+                    "connection": "Honoring a pioneering botanist’s birthday with a science-minded ranking tied to plant collections is timely and educational."
+                },
+                {
+                    "topic": "March 27 birthdays feature Fergie (Black Eyed Peas)",
+                    "suggested_question": "Rank the top 5 Black Eyed Peas songs by number of weeks at No. 1 on the Billboard Hot 100, from most to fewer.",
+                    "connection": "With Fergie’s birthday today, a chart-based Black Eyed Peas ranking celebrates a music milestone tied to the date."
+                },
+                {
+                    "topic": "Seasonal fallback: Cherry blossom travel season in Japan (late March–April)",
+                    "suggested_question": "Rank the top 5 busiest railway stations in Japan by average daily passenger entries/exits, from most to fifth-most.",
+                    "connection": "As sakura season drives travel, Japan’s busiest stations make an apt, measurable travel/transport challenge."
+                },
+                {
+                    "topic": "Seasonal fallback: Spring cleaning and DIY season",
+                    "suggested_question": "Rank the top 5 U.S. home improvement retailers by 2025 net sales revenue, from highest to lower.",
+                    "connection": "With spring projects ramping up, a revenue-based ranking of major DIY retailers fits the season’s shopping and renovation trends."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Ski Jumping World Cup Final (Mar 27–29, 2026, Slovenia)",
+                    "suggested_question": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most.",
+                    "connection": "The World Cup Final is happening right now, capping the ski jumping season—perfect time to test knowledge of the sport’s all-time greats.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks about the ranking of male ski jumpers by total individual World Cup victories, which is distinct in focus—specific to ski jumping records. None of the previous questions are about ski jumping or a similar ranking within the same sport, making the new question unique."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most.",
+                        "answers": [
+                            "Gregor Schlierenzauer",
+                            "Stefan Kraft",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch"
+                        ],
+                        "distractors": [
+                            "Janne Ahonen",
+                            "Ryoyu Kobayashi",
+                            "Jens Weissflog",
+                            "Peter Prevc",
+                            "Thomas Morgenstern",
+                            "Simon Ammann",
+                            "Sven Hannawald",
+                            "Martin Schmitt",
+                            "Andreas Goldberger",
+                            "Noriaki Kasai",
+                            "Halvor Egner Granerud",
+                            "Karl Geiger",
+                            "Dawid Kubacki",
+                            "Andreas Wellinger",
+                            "Domen Prevc"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_FIS_Ski_Jumping_World_Cup_individual_victories_by_athlete"
+                    },
+                    "verification_search_iter0": {
+                        "query": "all-time most individual FIS Ski Jumping World Cup wins men",
+                        "sources_found": [
+                            {
+                                "title": "List of individual World Cup victories in skiing - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "Best Ski Jumpers of All-time by total number of points scored in ...",
+                                "url": "https://www.youtube.com/watch?v=odVu1dh7ENw"
+                            },
+                            {
+                                "title": "r/Skijumping on Reddit: All-time World Cup. Total. For everyone. Top ...",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The Grokipedia source did not provide precise information, and the best source is the FIS Ski Jumping World Cup page on Wikipedia. According to it, Gregor Schlierenzauer has the most individual wins with 53, followed by Matti Nykänen with 46, Adam Małysz with 39, Kamil Stoch with 39, and Stefan Kraft with 28. The original ranking in the question is incorrect, as Stefan Kraft is not second—he is fifth—and Matti Nykänen and Adam Małysz need to be moved up accordingly. The corrected order and values have been provided.",
+                        "proposed_answers": [
+                            "Gregor Schlierenzauer",
+                            "Stefan Kraft",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch"
+                        ],
+                        "corrected_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Stefan Kraft"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most. Gregor Schlierenzauer vs Matti Nykänen ranking list",
+                        "sources_found": [
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "The Top Ranked Ski Jumpers of All-Time #'s 1-1,000",
+                                "url": "https://www.ainsworthsports.com/ski_jumping_athlete_rankings_all_time_1_to_1000.htm"
+                            },
+                            {
+                                "title": "Ski Jumping World Cup 2025-2026 - Etusuora.com",
+                                "url": "https://etusuora.com/en/ski-jumping/world-cup"
+                            },
+                            {
+                                "title": "r/Skijumping on Reddit: All-time World Cup. Total. For everyone. Top ...",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not give consistent or authoritative data explicitly ranking the top 5 male ski jumpers by total individual World Cup victories, and none confirm the corrected order as accurate. Additionally, key numeric values for each athlete's victories are either missing or inconsistent across sources.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                    },
+                    "verification_search_iter1": {
+                        "query": "all-time most individual FIS Ski Jumping World Cup wins men",
+                        "sources_found": [
+                            {
+                                "title": "List of individual World Cup victories in skiing - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "Best Ski Jumpers of All-time by total number of points scored in ...",
+                                "url": "https://www.youtube.com/watch?v=odVu1dh7ENw"
+                            },
+                            {
+                                "title": "r/Skijumping on Reddit: All-time World Cup. Total. For everyone. Top ...",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "According to the Wikipedia source 'List of individual World Cup victories in skiing', Gregor Schlierenzauer is the all-time leader with 53 wins, followed by Matti Nykänen with 46 wins, Adam Małysz with 39 wins, Kamil Stoch also with 39 wins but placed later in rankings, and Stefan Kraft with 26 wins. The proposed order incorrectly placed Matti Nykänen above Gregor Schlierenzauer and Kamil Stoch behind Stefan Kraft.",
+                        "proposed_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Stefan Kraft"
+                        ],
+                        "corrected_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Stefan Kraft"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most. Gregor Schlierenzauer vs Matti Nykänen ranking list",
+                        "sources_found": [
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "The Top Ranked Ski Jumpers of All-Time #'s 1-1,000",
+                                "url": "https://www.ainsworthsports.com/ski_jumping_athlete_rankings_all_time_1_to_1000.htm"
+                            },
+                            {
+                                "title": "Ski Jumping World Cup 2025-2026 - Etusuora.com",
+                                "url": "https://etusuora.com/en/ski-jumping/world-cup"
+                            },
+                            {
+                                "title": "r/Skijumping on Reddit: All-time World Cup. Total. For everyone. Top ...",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The source data contains conflicting and irrelevant information for the ranking of ski jumpers by all-time individual World Cup victories. A precise order cannot be confirmed.",
+                        "best_source": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "all-time most individual FIS Ski Jumping World Cup wins men",
+                        "sources_found": [
+                            {
+                                "title": "List of individual World Cup victories in skiing - Grokipedia",
+                                "url": "https://grokipedia.com/page/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "Best Ski Jumpers of All-time by total number of points scored in ...",
+                                "url": "https://www.youtube.com/watch?v=odVu1dh7ENw"
+                            },
+                            {
+                                "title": "r/Skijumping on Reddit: All-time World Cup. Total. For everyone. Top ...",
+                                "url": "https://www.reddit.com/r/Skijumping/comments/qtdh9m/alltime_world_cup_total_for_everyone_top_20_world/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not contain specific information on the total number of individual FIS Ski Jumping World Cup victories for the top 5 male ski jumpers or their exact rankings and numbers. The Wikipedia page linked does not address this specific ranking, and other sources are either irrelevant or focus on other metrics (like total points scored or different sports). As such, it's not possible to verify or correct the answers based on the given data.",
+                        "proposed_answers": [
+                            "Gregor Schlierenzauer",
+                            "Matti Nykänen",
+                            "Adam Małysz",
+                            "Kamil Stoch",
+                            "Stefan Kraft"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                    }
+                },
+                {
+                    "topic": "Northland flooding in New Zealand headlines (Mar 27)",
+                    "suggested_question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimeters), from wettest to fifth-wettest.",
+                    "connection": "With severe flooding in Northland making news today, a rainfall-focused ranking highlights New Zealand’s rainiest locations.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about the wettest places in New Zealand is geographically specific and distinct from existing geography-related questions in the set, such as those about largest countries, tallest mountains, and longest rivers."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimetres), from wettest to fifth-wettest.",
+                        "answers": [
+                            "Cropp River",
+                            "Secretary Island",
+                            "Milford Sound",
+                            "North Egmont",
+                            "Whataroa"
+                        ],
+                        "distractors": [
+                            "Arthur's Pass",
+                            "Fox Glacier",
+                            "Franz Josef",
+                            "Haast",
+                            "Hokitika",
+                            "Greymouth",
+                            "Westport",
+                            "Karamea",
+                            "Punakaiki",
+                            "Mount Cook Village",
+                            "Jackson Bay",
+                            "Lake Moeraki",
+                            "Te Anau",
+                            "Doubtful Sound (Deep Cove)",
+                            "Lake Brunner (Moana)"
+                        ],
+                        "suggested_source": "https://niwa.co.nz/education-and-training/schools/resources/climate/wettest-places"
+                    },
+                    "verification_search_iter0": {
+                        "query": "NIWA wettest places New Zealand average annual rainfall Cropp River Milford Sound Secretary Island North Egmont",
+                        "sources_found": [
+                            {
+                                "title": "New Zealand annual rainfall | Irrigation and drainage",
+                                "url": "https://teara.govt.nz/en/map/19595/new-zealand-annual-rainfall"
+                            },
+                            {
+                                "title": "Where the rain falls | Water resources",
+                                "url": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
+                            },
+                            {
+                                "title": "Annual Rainfall Averages for New Zealand - Current Results",
+                                "url": "https://www.currentresults.com/Weather/New-Zealand/precipitation-annual-average.php"
+                            },
+                            {
+                                "title": "Rainfall | Stats NZ",
+                                "url": "https://www.stats.govt.nz/indicators/rainfall/"
+                            },
+                            {
+                                "title": "'It rains here lots, so what?' Wettest place in NZ named but not ... - Stuff",
+                                "url": "https://www.stuff.co.nz/national/weather-news/132433699/it-rains-here-lots-so-what-wettest-place-in-nz-named-but-not-ashamed"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source indicates that Cropp River is the wettest place in New Zealand with an annual rainfall of over 18,000 mm. Milford Sound has over 6,000 mm of rainfall annually and Secretary Island has a recorded annual rainfall of 3,879 mm. However, the source does not provide specific annual rainfall data for North Egmont and Whataroa, so their positions in the ranking remain approximate based on the initial list provided.",
+                        "proposed_answers": [
+                            "Cropp River",
+                            "Secretary Island",
+                            "Milford Sound",
+                            "North Egmont",
+                            "Whataroa"
+                        ],
+                        "corrected_answers": [
+                            "Cropp River",
+                            "Milford Sound",
+                            "Secretary Island",
+                            "North Egmont",
+                            "Whataroa"
+                        ],
+                        "best_source": "https://teara.govt.nz/en/map/19595/new-zealand-annual-rainfall"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimetres), from wettest to fifth-wettest. Cropp River vs Milford Sound ranking list",
+                        "sources_found": [
+                            {
+                                "title": "What place in New Zealand gets the most rain? - Answers",
+                                "url": "https://www.answers.com/natural-sciences/What_place_in_New_Zealand_gets_the_most_rain"
+                            },
+                            {
+                                "title": "Annual wet days across selected New Zealand locations - Figure.NZ",
+                                "url": "https://figure.nz/chart/9dXdcHwVoaE17eVO"
+                            },
+                            {
+                                "title": "Where the rain falls | Water resources",
+                                "url": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
+                            },
+                            {
+                                "title": "'It rains here lots, so what?' Wettest place in NZ named but not ... - Stuff",
+                                "url": "https://www.stuff.co.nz/national/weather-news/132433699/it-rains-here-lots-so-what-wettest-place-in-nz-named-but-not-ashamed"
+                            },
+                            {
+                                "title": "Annual rainfall across selected New Zealand locations - Figure.NZ",
+                                "url": "https://figure.nz/chart/ZTxszXEFmV4KmKP2"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with the best available sources, which consistently confirm Cropp River as the wettest location with the highest recorded rainfall (over 18,000 mm annually) and Milford Sound as the second. Secretary Island, North Egmont, and Whataroa follow in plausible descending order.",
+                        "best_source": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
+                    },
+                    "question_id": 39,
+                    "final_answers": [
+                        "Cropp River",
+                        "Milford Sound",
+                        "Secretary Island",
+                        "North Egmont",
+                        "Whataroa"
+                    ],
+                    "final_source": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 27, 2026",
+                        "results": [
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events/",
+                                "snippet": "Ski Jumping World Cup Final – 27–29 March, Slovenia. April ... Ski Jumping World Cup 2025/2026 – January–March 2026, including the Four Hills Tournament."
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "Complete 2026 sporting events calendar featuring FIFA World Cup, Winter Olympics, Commonwealth Games, Asian Games, and all major international competitions."
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            },
+                            {
+                                "title": "2026 calendar of sport: Month-by-month guide to huge year of action",
+                                "url": "https://www.espn.com/espn/story/_/id/47552032/2026-sport-calendar-fifa-world-cup-winter-olympics-month-guide",
+                                "snippet": "3: Football -- England women vs Ukraine, TBC. 7: Football -- England women vs Iceland, TBC. 9: Rugby Union -- England women vs Italy, TBC. 10: Cricket -- England vs New Zealand 1st women's ODI, Durham"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Awareness Days & Cultural Calendar For March 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-march-2026",
+                                "snippet": "# Awareness Days & Cultural Calendar For March 2026. March 2026 highlights global cultural events and awareness days including International Women’s Day, St Patrick’s Day, Holi, and key equality campa"
+                            },
+                            {
+                                "title": "March Holidays and Observances in 2026 to Celebrate Like a Lion",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. In like a lion, out like a lamb, March is a month packed with special days. Of course, the big holiday is St. Patrick’s Day (March 17"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas - Successories",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 Calendar",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There are plenty of other "
+                            },
+                            {
+                                "title": "March 2026 Calendar (With Holidays) - Calendarr",
+                                "url": "https://www.calendarr.com/united-states/calendar-march-2026/",
+                                "snippet": "| March 2026 has **22 work days**. ## March 2026 Holidays and National Days. National Report General Service Administration (GSA) Fraud Day. National Crown Roast of Pork Day. National Retro Video Game"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "Innovation Conference march 12–18, 2026 - SXSW",
+                                "url": "https://sxsw.com/festivals/innovation-conference/",
+                                "snippet": "*   [Events](https://sxsw.com/festivals/innovation-conference/#). *   [Innovation](https://sxsw.com/festivals/innovation-conference/). *   [Keynotes & Featured Sessions](https://sxsw.com/keynotes/). *"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "March 2026: The Big Swings ; March 1. Actor Awards (SAG) ; March 1–2. Children & Family Emmy Awards ; March 7. CAS Awards ; March 7. SOC Awards."
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 27, 2026",
+                        "results": [
+                            {
+                                "title": "News in 90 Seconds March 27",
+                                "url": "https://www.1news.co.nz/2026/03/27/news-in-90-seconds-march-27/",
+                                "snippet": "The morning's headlines in 90 seconds, including evacuations amid Northland flooding, the IOC makes a ruling on trans athletes, and Christchurch’s new stadium opens. The morning's headlines in 90 seco"
+                            },
+                            {
+                                "title": "This Day in History: March 27, 2026 - InfoPlease",
+                                "url": "https://www.infoplease.com/dayinhistory/march-27",
+                                "snippet": "Congress authorizes the construction of six frigates, including the Constitution (Old Ironsides), for the U.S. Navy."
+                            },
+                            {
+                                "title": "Today in History: March 27, Will Smith slaps Chris Rock during ...",
+                                "url": "https://apnews.com/today-in-history/march-27",
+                                "snippet": "# Today in History: March 27, Will Smith slaps Chris Rock during Oscars telecast. Will Smith, right, hits presenter Chris Rock on stage prior to Rock announcing the award for best documentary feature "
+                            },
+                            {
+                                "title": "Latest news bulletin | March 27th – Evening | Watch - MSN",
+                                "url": "https://www.msn.com/en-us/entertainment/news/latest-news-bulletin-march-27th-evening/vi-AA1BMLgC",
+                                "snippet": "Fox News senior correspondent Jonathan Serrie joins 'America's Newsroom' to give the latest on the deadly car crash in Savannah, Georgia,"
+                            },
+                            {
+                                "title": "What Happens on March 27, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/27",
+                                "snippet": "# What Happens on March 27, 2026. ## About March 27, 2026. **Day of the Week:** Friday. **How Far Away?** 2 days. ## No Entries for March 27, 2026. * See 112 things that happened in **March 2026**. * "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 27",
+                        "results": [
+                            {
+                                "title": "MARCH 27 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-27-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 27: Jane Colden (1724-1766) - Considered the first female botanist in the US; Nathaniel Currier (1813-1888) - Famous lithographer"
+                            },
+                            {
+                                "title": "Famous birthdays for March 27: Fergie, Halle Bailey - UPI.com",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/27/Famous-birthdays-for-March-27-Fergie-Halle-Bailey/8121743040368/",
+                                "snippet": "March 26 (UPI) -- TLC series \"90 Day Fiancé\" returns May 10 with a new cast of international couples. March 26 (UPI) -- Stand-up comedian and Real Time host Bill Maher is to receive the Kennedy Center"
+                            },
+                            {
+                                "title": "Family Members Born March 27 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march27-familymember.html",
+                                "snippet": "Famous Family Members Born March 27 including Saga Blade Fox-Baker, Theodore Kushner, Wesley Phillip Dirks, Monroe Sky Mizanin, Sarina Hilario and many"
+                            },
+                            {
+                                "title": "Famous Birthdays on March 27 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/27",
+                                "snippet": "* 1817 Karl Wilhelm von Nägeli, Swiss botanist (famous for his work on plant cells), born in Kilchberg, Switzerland (d. Lutkin, American composer, born in Thomp­son­ville, Wis­con­sin (d. * 1867 Edyth"
+                            },
+                            {
+                                "title": "Famous People's Birthdays, March 27, United States Celebrity ...",
+                                "url": "https://www.bornglorious.com/united_states/birthday/?pd=0327",
+                                "snippet": "### **Famous People's 🎂 Birthdays, March 27, United States Celebrity Birthdays**. United States | March 27 | Sort By:. **Profession** **Birth Region** **Birth Place** **👉 Worldwide Celebrity Birthdays"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Ski Jumping World Cup Final (Mar 27–29, 2026, Slovenia)",
+                        "suggested_question": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most.",
+                        "connection": "The World Cup Final is happening right now, capping the ski jumping season—perfect time to test knowledge of the sport’s all-time greats."
+                    },
+                    {
+                        "topic": "Northland flooding in New Zealand headlines (Mar 27)",
+                        "suggested_question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimeters), from wettest to fifth-wettest.",
+                        "connection": "With severe flooding in Northland making news today, a rainfall-focused ranking highlights New Zealand’s rainiest locations."
+                    },
+                    {
+                        "topic": "This Day in History (Mar 27): U.S. Navy frigates authorized in 1794",
+                        "suggested_question": "Rank the top 5 oldest commissioned warships still afloat worldwide (by launch year), from oldest to fifth-oldest.",
+                        "connection": "On March 27, 1794, Congress authorized iconic U.S. Navy frigates. A timely naval-history challenge fits today’s date."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day season (March cultural celebrations)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual sales volume (9-liter cases, latest full-year data), from highest to lower.",
+                        "connection": "March buzzes with Irish festivities, making an Irish whiskey sales ranking seasonally relevant and objectively verifiable."
+                    },
+                    {
+                        "topic": "Awards season (March 2026 includes SAG/The Actor Awards, WGA, etc.)",
+                        "suggested_question": "Rank the top 5 performers with the most individual Screen Actors Guild (The Actor) Awards across film and television, all-time, from most to fifth-most.",
+                        "connection": "With multiple awards events in March, a SAG/The Actor Awards all-time leaderboard fits the current entertainment cycle."
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 by rating, from highest to fifth-highest.",
+                        "connection": "SXSW spotlights tech trends this month—ranking languages by the current TIOBE Index taps into what’s hot in programming right now."
+                    },
+                    {
+                        "topic": "March calendar includes National Retro Video Game Day",
+                        "suggested_question": "Rank the top 5 best-selling Nintendo Entertainment System (NES) games worldwide by total units sold, from most to fifth-most.",
+                        "connection": "A retro gaming nod fits March’s observances, inviting players to recall the NES’s biggest hits by sales."
+                    },
+                    {
+                        "topic": "March 27 birthdays include early American botanist Jane Colden",
+                        "suggested_question": "Rank the top 5 largest herbaria in the world by number of preserved plant specimens, from most to fifth-most.",
+                        "connection": "Honoring a pioneering botanist’s birthday with a science-minded ranking tied to plant collections is timely and educational."
+                    },
+                    {
+                        "topic": "March 27 birthdays feature Fergie (Black Eyed Peas)",
+                        "suggested_question": "Rank the top 5 Black Eyed Peas songs by number of weeks at No. 1 on the Billboard Hot 100, from most to fewer.",
+                        "connection": "With Fergie’s birthday today, a chart-based Black Eyed Peas ranking celebrates a music milestone tied to the date."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Cherry blossom travel season in Japan (late March–April)",
+                        "suggested_question": "Rank the top 5 busiest railway stations in Japan by average daily passenger entries/exits, from most to fifth-most.",
+                        "connection": "As sakura season drives travel, Japan’s busiest stations make an apt, measurable travel/transport challenge."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Spring cleaning and DIY season",
+                        "suggested_question": "Rank the top 5 U.S. home improvement retailers by 2025 net sales revenue, from highest to lower.",
+                        "connection": "With spring projects ramping up, a revenue-based ranking of major DIY retailers fits the season’s shopping and renovation trends."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "Ski Jumping World Cup Final (Mar 27–29, 2026, Slovenia)",
+                        "suggested_question": "Rank the top 5 male ski jumpers by total individual FIS Ski Jumping World Cup victories (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on ski jumping, which is unrelated to any of the recent questions that cover exports, curling, startups, convention centers, languages, or UNESCO sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Northland flooding in New Zealand headlines (Mar 27)",
+                        "suggested_question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimeters), from wettest to fifth-wettest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on New Zealand’s rainfall and geography, which is unrelated to any of the recently covered themes such as trade, sports, startups, exhibit spaces, languages, or UNESCO World Heritage Sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "This Day in History (Mar 27): U.S. Navy frigates authorized in 1794",
+                        "suggested_question": "Rank the top 5 oldest commissioned warships still afloat worldwide (by launch year), from oldest to fifth-oldest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the oldest commissioned warships relates to maritime/naval history, which has not been covered in the recent questions, spanning exports, sports, startups, convention centers, languages, and UNESCO sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day season (March cultural celebrations)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by global annual sales volume (9-liter cases, latest full-year data), from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Irish whiskey and cultural celebrations is unrelated to the topics of recent questions, which include exports, curling championships, startups, convention centers, languages, and world heritage sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Awards season (March 2026 includes SAG/The Actor Awards, WGA, etc.)",
+                        "suggested_question": "Rank the top 5 performers with the most individual Screen Actors Guild (The Actor) Awards across film and television, all-time, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "No recent question addresses award events, entertainment, or performers, making this a distinct topic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW Innovation Conference (Mar 12–18, 2026)",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 by rating, from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on programming languages and their rankings in the TIOBE Index, which is unrelated to any recent question themes such as export destinations, sports championships, startup metro areas, convention centers, spoken languages, or UNESCO World Heritage Sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March calendar includes National Retro Video Game Day",
+                        "suggested_question": "Rank the top 5 best-selling Nintendo Entertainment System (NES) games worldwide by total units sold, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about best-selling Nintendo Entertainment System games is related to retro video games, which does not overlap with any of the recent questions about exports, curling, startups, convention centers, languages, or UNESCO sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March 27 birthdays include early American botanist Jane Colden",
+                        "suggested_question": "Rank the top 5 largest herbaria in the world by number of preserved plant specimens, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to botanical collections and herbaria, which is unrelated to the themes of export destinations, sports championships, startups, convention centers, linguistic diversity, or UNESCO sites in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "March 27 birthdays feature Fergie (Black Eyed Peas)",
+                        "suggested_question": "Rank the top 5 Black Eyed Peas songs by number of weeks at No. 1 on the Billboard Hot 100, from most to fewer.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Black Eyed Peas songs and their Billboard Hot 100 performance does not relate to any recent topics, which include export destinations, curling titles, startups, convention centers, world languages, or UNESCO sites.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Cherry blossom travel season in Japan (late March–April)",
+                        "suggested_question": "Rank the top 5 busiest railway stations in Japan by average daily passenger entries/exits, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Japan's railway stations and travel infrastructure, which does not overlap with the themes of trade, sports, entrepreneurship, event venues, languages, or cultural heritage covered in the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Spring cleaning and DIY season",
+                        "suggested_question": "Rank the top 5 U.S. home improvement retailers by 2025 net sales revenue, from highest to lower.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of U.S. home improvement retailers and their net sales revenue is distinct from all recent questions, which cover subjects like export destinations, curling, startups, convention centers, languages, and UNESCO sites.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 39
         }
     ]
 }

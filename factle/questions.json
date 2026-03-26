@@ -1329,6 +1329,41 @@
                 "South Africa"
             ],
             "source": "https://www.msn.com/en-in/travel/news/unesco-ranks-top-countries-for-world-heritage-sites-india-secures-43-sites/ar-AA1zBRJP?ocid=BingNewsVerp"
+        },
+        {
+            "id": 39,
+            "date": "2026-03-27",
+            "question": "Rank the top 5 wettest places in New Zealand by long-term average annual rainfall (in millimetres), from wettest to fifth-wettest.",
+            "options": [
+                "Cropp River",
+                "Milford Sound",
+                "Secretary Island",
+                "North Egmont",
+                "Whataroa",
+                "Arthur's Pass",
+                "Fox Glacier",
+                "Franz Josef",
+                "Haast",
+                "Hokitika",
+                "Greymouth",
+                "Westport",
+                "Karamea",
+                "Punakaiki",
+                "Mount Cook Village",
+                "Jackson Bay",
+                "Lake Moeraki",
+                "Te Anau",
+                "Doubtful Sound (Deep Cove)",
+                "Lake Brunner (Moana)"
+            ],
+            "answers": [
+                "Cropp River",
+                "Milford Sound",
+                "Secretary Island",
+                "North Egmont",
+                "Whataroa"
+            ],
+            "source": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
         }
     ]
 }
