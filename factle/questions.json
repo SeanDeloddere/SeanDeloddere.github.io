@@ -1364,6 +1364,41 @@
                 "Whataroa"
             ],
             "source": "https://teara.govt.nz/en/map/18158/where-the-rain-falls"
+        },
+        {
+            "id": 40,
+            "date": "2026-03-28",
+            "question": "Rank the NCAA Men’s Basketball Tournament seed lines by number of national championships won (most to fifth-most; since seeding began in 1979).",
+            "options": [
+                "1-seed",
+                "2-seed",
+                "3-seed",
+                "6-seed",
+                "4-seed",
+                "5-seed",
+                "7-seed",
+                "8-seed",
+                "9-seed",
+                "10-seed",
+                "11-seed",
+                "12-seed",
+                "13-seed",
+                "14-seed",
+                "15-seed",
+                "16-seed",
+                "First Four team",
+                "No. 1 overall seed",
+                "Automatic qualifier",
+                "Unseeded (pre-1979)"
+            ],
+            "answers": [
+                "1-seed",
+                "2-seed",
+                "3-seed",
+                "6-seed",
+                "4-seed"
+            ],
+            "source": "https://bracketresearch.com/the-dna-of-a-national-championship-team/seeds-of-ncaa-tournament-champions/"
         }
     ]
 }
