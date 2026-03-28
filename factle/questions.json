@@ -1399,6 +1399,41 @@
                 "4-seed"
             ],
             "source": "https://bracketresearch.com/the-dna-of-a-national-championship-team/seeds-of-ncaa-tournament-champions/"
+        },
+        {
+            "id": 41,
+            "date": "2026-03-29",
+            "question": "Which planets in our solar system are the five largest by diameter (from largest to smallest)?",
+            "options": [
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune",
+                "Earth",
+                "Venus",
+                "Mars",
+                "Mercury",
+                "Ganymede",
+                "Titan",
+                "Callisto",
+                "Io",
+                "Moon",
+                "Europa",
+                "Triton",
+                "Pluto",
+                "Eris",
+                "Haumea",
+                "Makemake",
+                "Ceres"
+            ],
+            "answers": [
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune",
+                "Earth"
+            ],
+            "source": "https://www.quora.com/What-are-the-planets-from-smallest-to-largest"
         }
     ]
 }

@@ -36401,6 +36401,1584 @@
                 ]
             },
             "question_id": 40
+        },
+        {
+            "date": "2026-03-29",
+            "topics_discovered": [
+                {
+                    "topic": "Miami Open (Tennis), Mar 15–29, 2026",
+                    "suggested_question": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most.",
+                    "connection": "The Miami Open concludes today at Hard Rock Stadium, making its all-time champions a timely tennis challenge."
+                },
+                {
+                    "topic": "MLB Opening Day (Late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most.",
+                    "connection": "With MLB Opening Day kicking off the season, this looks back at which clubs historically start strongest."
+                },
+                {
+                    "topic": "FIFA World Cup 2026 build-up",
+                    "suggested_question": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most.",
+                    "connection": "As the 2026 World Cup approaches and dominates sports calendars, this taps into legacy powerhouses on the biggest stage."
+                },
+                {
+                    "topic": "UFC 326 fight week (March 2026)",
+                    "suggested_question": "Rank the top 5 UFC fighters by most successful title defenses (career total), from most to fifth-most.",
+                    "connection": "UFC 326 headlines this month’s combat sports slate, making all-time title-defense kings especially relevant."
+                },
+                {
+                    "topic": "FIS Women’s Ski Jumping World Cup (Lahti stop in March)",
+                    "suggested_question": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most.",
+                    "connection": "With women’s World Cup events in March, this highlights the sport’s most prolific winners."
+                },
+                {
+                    "topic": "Sunshine Week / Sunshine Fest 2026 (Mar 15–17, Washington, D.C.)",
+                    "suggested_question": "Rank the top 5 countries by earliest adoption of national freedom-of-information/right-to-information laws (by year enacted), from earliest to later.",
+                    "connection": "Sunshine Week spotlights transparency and FOI—perfect timing to trace its earliest adopters."
+                },
+                {
+                    "topic": "Brendan Gleeson’s 70th birthday (Mar 29)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Brendan Gleeson (worldwide box office), from highest to fifth-highest.",
+                    "connection": "Marking Brendan Gleeson’s milestone birthday with a box-office look at his biggest films."
+                },
+                {
+                    "topic": "The Masters approaching (April 2026)",
+                    "suggested_question": "Rank the top 5 golfers with the most Masters Tournament wins, from most to fifth-most.",
+                    "connection": "With Augusta on deck, it’s a timely nod to the legends with the most green jackets."
+                },
+                {
+                    "topic": "St. Patrick’s Day season (March)",
+                    "suggested_question": "Rank the top 5 Irish whiskey brands by annual global case sales (latest full year available), from most to fifth-most.",
+                    "connection": "March celebrations put Irish spirits in the spotlight—who leads the world in Irish whiskey sales?"
+                },
+                {
+                    "topic": "SEASONAL/CULTURAL FALLBACK — Spring flower season",
+                    "suggested_question": "Rank the top 5 countries by export value of flower bulbs (including tulips), from highest to fifth-highest (latest year available).",
+                    "connection": "Tulip season coincides with early spring; global bulb trade peaks make a timely, verifiable list."
+                },
+                {
+                    "topic": "SEASONAL/CULTURAL FALLBACK — Sugaring season",
+                    "suggested_question": "Rank the top 5 countries by maple syrup production, from most to fifth-most.",
+                    "connection": "Late winter into early spring is maple sugaring season, perfect for a sweet production ranking."
+                },
+                {
+                    "topic": "SEASONAL/CULTURAL FALLBACK — National Cherry Blossom Festival (late March–early April, Washington, D.C.)",
+                    "suggested_question": "Rank the top 5 cherry tree varieties by number of trees around Washington, D.C.’s Tidal Basin and National Mall area, from most to fifth-most.",
+                    "connection": "As blossoms peak in D.C., the dominant cherry varieties are a distinctly springtime fact set."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Miami Open (Tennis), Mar 15–29, 2026",
+                    "suggested_question": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most.",
+                    "connection": "The Miami Open concludes today at Hard Rock Stadium, making its all-time champions a timely tennis challenge.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about Miami Open titles focuses specifically on ATP men's tennis and the Miami Open tournament, which is distinct from other sports, events, or tennis tournaments in the existing questions. No existing question overlaps with this specific focus."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most.",
+                        "answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "distractors": [
+                            "Rafael Nadal",
+                            "Daniil Medvedev",
+                            "Carlos Alcaraz",
+                            "Jannik Sinner",
+                            "John Isner",
+                            "Hubert Hurkacz",
+                            "Nikolay Davydenko",
+                            "Marcelo Rios",
+                            "Thomas Muster",
+                            "Jim Courier",
+                            "Michael Chang",
+                            "Ivan Lendl",
+                            "Andy Roddick",
+                            "Miloslav Mecir",
+                            "Mats Wilander"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Miami_Open_(tennis)#Men's_singles"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Miami Open most men's singles titles ATP Djokovic Agassi Federer Sampras",
+                        "sources_found": [
+                            {
+                                "title": "4 men with the most Miami Open titles: Novak Djokovic ... - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-most-miami-open-titles-novak-djokovic-roger-federer"
+                            },
+                            {
+                                "title": "Novak Djokovic aims for record seventh Miami title | ATP Tour | Tennis",
+                                "url": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                            },
+                            {
+                                "title": "The two tennis records held by Andre Agassi and Roger Federer ...",
+                                "url": "https://www.thetennisgazette.com/news/the-two-tennis-records-held-by-andre-agassi-and-roger-federer-that-novak-djokovic-could-break-in-miami/"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "From the source data, Novak Djokovic and Andre Agassi both have 6 Miami Open titles, tying them for first place. Next, Roger Federer has 4 titles, Pete Sampras has 3 titles, and Andy Murray has 2 titles. The proposed answers listed the correct players but did not specify that Djokovic and Agassi are tied for the most titles. The order of proposed answers is correct given that ties are handled according to common convention (listing long-standing records first). This correction simply clarifies the title counts for each player.",
+                        "proposed_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "corrected_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "best_source": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most. Novak Djokovic vs Andre Agassi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Rankings | PIF ATP Rankings Former No. 1s | Tennis | ATP Tour",
+                                "url": "https://www.atptour.com/en/rankings/former-no-1s"
+                            },
+                            {
+                                "title": "The 9 men with most Miami Open match wins - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-the-most-miami-open-match-wins"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/photos/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314198501603/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect because the source data indicates that Andre Agassi and Novak Djokovic both have the most Miami Open titles with 6 each, followed by Roger Federer with 4. Pete Sampras (3 titles) and Andy Murray (2 titles) complete the top five, but their relative rankings are accurate. The order needs adjustment based on the title counts.",
+                        "best_source": "https://www.tennis365.com/facts-stats/men-with-the-most-miami-open-match-wins"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Miami Open most men's singles titles ATP Djokovic Agassi Federer Sampras",
+                        "sources_found": [
+                            {
+                                "title": "4 men with the most Miami Open titles: Novak Djokovic ... - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-most-miami-open-titles-novak-djokovic-roger-federer"
+                            },
+                            {
+                                "title": "Novak Djokovic aims for record seventh Miami title | ATP Tour | Tennis",
+                                "url": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                            },
+                            {
+                                "title": "The two tennis records held by Andre Agassi and Roger Federer ...",
+                                "url": "https://www.thetennisgazette.com/news/the-two-tennis-records-held-by-andre-agassi-and-roger-federer-that-novak-djokovic-could-break-in-miami/"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm that Novak Djokovic and Andre Agassi share the record for the most Miami Open men's singles titles, both with 6 titles. Roger Federer is next with 4 titles, Pete Sampras follows with 3 titles, and Andy Murray has 2 titles. The original list did not need reordering as it already aligns with the correct ranking, but the numeric values for each player's title count are now specified explicitly in the response for clarity.",
+                        "proposed_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "corrected_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "best_source": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most. Novak Djokovic vs Andre Agassi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Rankings | PIF ATP Rankings Former No. 1s | Tennis | ATP Tour",
+                                "url": "https://www.atptour.com/en/rankings/former-no-1s"
+                            },
+                            {
+                                "title": "The 9 men with most Miami Open match wins - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-the-most-miami-open-match-wins"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/photos/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314198501603/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order lists Pete Sampras and Andy Murray, neither of whom appears to have more Miami Open titles compared to Roger Federer (4 titles) or Andre Agassi (6 titles) according to the provided sources. The sources do not corroborate Sampras or Murray being in the top 5 of Miami Open title holders.",
+                        "best_source": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Miami Open most men's singles titles ATP Djokovic Agassi Federer Sampras",
+                        "sources_found": [
+                            {
+                                "title": "4 men with the most Miami Open titles: Novak Djokovic ... - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-most-miami-open-titles-novak-djokovic-roger-federer"
+                            },
+                            {
+                                "title": "Novak Djokovic aims for record seventh Miami title | ATP Tour | Tennis",
+                                "url": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                            },
+                            {
+                                "title": "The two tennis records held by Andre Agassi and Roger Federer ...",
+                                "url": "https://www.thetennisgazette.com/news/the-two-tennis-records-held-by-andre-agassi-and-roger-federer-that-novak-djokovic-could-break-in-miami/"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the provided sources, Novak Djokovic and Andre Agassi both have 6 Miami Open titles, making them tied for first place. Roger Federer has 4 titles, while Pete Sampras has 3, and Andy Murray has 2. The proposed order incorrectly placed Djokovic ahead of Agassi when they are tied. Their corrected order is based on the most authoritative information available from the ATP Tour website and other sources about their respective title counts.",
+                        "proposed_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "corrected_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "best_source": "https://www.atptour.com/en/news/djokovic-miami-2025-title-record-feature"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most. Novak Djokovic vs Andre Agassi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Rankings | PIF ATP Rankings Former No. 1s | Tennis | ATP Tour",
+                                "url": "https://www.atptour.com/en/rankings/former-no-1s"
+                            },
+                            {
+                                "title": "The 9 men with most Miami Open match wins - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-the-most-miami-open-match-wins"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/photos/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314198501603/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is incorrect. According to the sources, Novak Djokovic and Andre Agassi are tied with the most Miami Open titles (6 each). Roger Federer follows with 4 titles, and neither Pete Sampras nor Andy Murray has won enough titles to make this list. They were erroneously included in the corrected order.",
+                        "best_source": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                    }
+                },
+                {
+                    "topic": "MLB Opening Day (Late March 2026)",
+                    "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most.",
+                    "connection": "With MLB Opening Day kicking off the season, this looks back at which clubs historically start strongest.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about MLB franchises with the most Opening Day wins is distinct from any existing questions, as it focuses on a specific sports statistic (MLB Opening Day wins), which is not covered by any of the previous questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most (as of the start of the 2026 season).",
+                        "answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers",
+                            "San Francisco Giants"
+                        ],
+                        "distractors": [
+                            "New York Yankees",
+                            "Cincinnati Reds",
+                            "Chicago White Sox",
+                            "Detroit Tigers",
+                            "Boston Red Sox",
+                            "Cleveland Guardians",
+                            "Atlanta Braves",
+                            "Philadelphia Phillies",
+                            "Oakland Athletics",
+                            "Minnesota Twins",
+                            "Baltimore Orioles",
+                            "New York Mets",
+                            "Toronto Blue Jays",
+                            "Houston Astros",
+                            "Washington Nationals"
+                        ],
+                        "suggested_source": "https://www.statmuse.com/mlb/ask?q=most%20opening%20day%20wins%20by%20team"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most opening day wins by MLB team all time",
+                        "sources_found": [
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins Of All-time",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins-of-all-time"
+                            },
+                            {
+                                "title": "Best MLB teams on Opening Day by winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "MLB Opening Day records: Mets lead all-time, Yankees start season",
+                                "url": "https://athlonsports.com/mlb/mlb-opening-day-records-mets-yankees-2026"
+                            },
+                            {
+                                "title": "New York Mets Lead MLB with Best All-Time Opening Day Winning ...",
+                                "url": "https://sports.yahoo.com/articles/york-mets-lead-mlb-best-172747518.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The sources provided do not contain specific information about the total number of Opening Day wins for the Chicago Cubs, Pittsburgh Pirates, St. Louis Cardinals, Los Angeles Dodgers, or San Francisco Giants, nor their relative ranking. The reference to franchise wins in total is unrelated to Opening Day records. Therefore, it is not possible to verify or correct the proposed answers.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins-of-all-time"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most (as of the start of the 2026 season). Chicago Cubs Pittsburgh Pirates ranking",
+                        "sources_found": [
+                            {
+                                "title": "Best MLB teams on Opening Day by winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "Ranking Every MLB Opening Day Starter 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=FIhG2ZD4k44"
+                            },
+                            {
+                                "title": "MLB Opening Day Records Reveal Surprising Team With Best All ...",
+                                "url": "https://www.yardbarker.com/mlb/articles/mlb_opening_day_records_reveal_surprising_team_with_best_all_time_start/s1_17615_43645316"
+                            },
+                            {
+                                "title": "ALL 30 TEAMS RANKED ahead of 2026 MLB Opening ... - YouTube",
+                                "url": "https://www.youtube.com/watch?v=6A6rxra3iqI"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the sources provided specific or clear data about the all-time number of Opening Day wins for any MLB team, let alone a ranked list of the top five franchises. The sources mentioned winning percentages and scattered anecdotes about individual teams but did not give comprehensive or structured statistics necessary to verify or refute the proposed answers.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most (as of the start of the 2026 season). Chicago Cubs Pittsburgh Pirates ranking",
+                        "sources_found": [
+                            {
+                                "title": "Best MLB teams on Opening Day by winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "Ranking Every MLB Opening Day Starter 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=FIhG2ZD4k44"
+                            },
+                            {
+                                "title": "MLB Opening Day Records Reveal Surprising Team With Best All ...",
+                                "url": "https://www.yardbarker.com/mlb/articles/mlb_opening_day_records_reveal_surprising_team_with_best_all_time_start/s1_17615_43645316"
+                            },
+                            {
+                                "title": "ALL 30 TEAMS RANKED ahead of 2026 MLB Opening ... - YouTube",
+                                "url": "https://www.youtube.com/watch?v=6A6rxra3iqI"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain any clear, authoritative data that directly ranks MLB franchises by total Opening Day wins (all-time) as of the start of the 2026 season. They either lack specific information about total wins or focus on unrelated topics like winning percentages, specific game days, or team rankings for the 2026 season. Consequently, verification or correction is not possible based on the given data.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "Los Angeles Dodgers",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    }
+                },
+                {
+                    "topic": "FIFA World Cup 2026 build-up",
+                    "suggested_question": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most.",
+                    "connection": "As the 2026 World Cup approaches and dominates sports calendars, this taps into legacy powerhouses on the biggest stage.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on FIFA Men's World Cup match wins by national teams, which is a different topic from any of the previously listed questions. None of the existing questions directly overlaps with this soccer-specific statistic."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most.",
+                        "answers": [
+                            "Brazil",
+                            "Germany",
+                            "Argentina",
+                            "Italy",
+                            "France"
+                        ],
+                        "distractors": [
+                            "England",
+                            "Spain",
+                            "Netherlands",
+                            "Uruguay",
+                            "Mexico",
+                            "Portugal",
+                            "Belgium",
+                            "Sweden",
+                            "Russia",
+                            "Croatia",
+                            "Poland",
+                            "Chile",
+                            "Switzerland",
+                            "United States",
+                            "Hungary"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup#Overall_team_records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "FIFA World Cup most matches won by national team all-time Brazil Germany Argentina Italy France 2022",
+                        "sources_found": [
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            },
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "World CUP Winners Brazil 5 Germany 4 Italy 4 Argentina 3 France 2 ...",
+                                "url": "https://www.facebook.com/kdcglobalcomedian/posts/world-cup-winnersbrazil-5germany-4italy-4argentina-3france-2uruguay-2spain-1engl/1258948656245549/"
+                            },
+                            {
+                                "title": "FIFA World Cup records and statistics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                            },
+                            {
+                                "title": "Fifa world cup records and achievements - Facebook",
+                                "url": "https://www.facebook.com/groups/soccertalktv/posts/25252052047751584/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources discuss the number of FIFA World Cup titles won by teams, not their total match wins in all World Cups combined. Total match wins and total World Cup titles are different metrics, and no source directly addresses total FIFA Men's World Cup match wins to verify or correct the order provided.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Argentina",
+                            "Italy",
+                            "France"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most. Brazil Germany ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            },
+                            {
+                                "title": "World Cup 2026 Canada/Mexico/USA » History: All-Time Table",
+                                "url": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                            },
+                            {
+                                "title": "FIFA Football Rankings 2026 - Sofascore",
+                                "url": "https://www.sofascore.com/football/rankings/fifa"
+                            },
+                            {
+                                "title": "FIFA latest rankings as of March 28, 2026: Spain retains #1, France ...",
+                                "url": "https://www.facebook.com/groups/236519734980630/posts/1228716195760974/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The WorldFootball.net source provides a FIFA World Cup all-time table. Based on this data, Brazil has the most match wins (76), followed by Germany (68). Italy is next with 45 wins, while Argentina has 47 wins, placing it ahead of Italy. France ranks fifth with 34 wins. The provided answer order ('Brazil', 'Germany', 'Argentina', 'Italy', 'France') incorrectly places Argentina above Italy and omits correct win totals. The corrected order reflects the proper ranking by total match wins.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Argentina",
+                            "Italy",
+                            "France"
+                        ],
+                        "corrected_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "best_source": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most. Brazil vs Germany ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            },
+                            {
+                                "title": "Fifa latest rankings as of march 2026 - Facebook",
+                                "url": "https://www.facebook.com/groups/574409611539840/posts/1274689828178478/"
+                            },
+                            {
+                                "title": "FIFA Football Rankings 2026 - Sofascore",
+                                "url": "https://www.sofascore.com/football/rankings/fifa"
+                            },
+                            {
+                                "title": "World Cup 2026 Canada/Mexico/USA » History: All-Time Table",
+                                "url": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not give sufficient information to confirm the corrected order. The only reliably verified rankings are for Brazil (most World Cup match wins) and Germany (second-most), but Italy, Argentina, and France's specific positions and win totals are not clearly affirmed in these sources.",
+                        "best_source": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most. Brazil Germany ranking",
+                        "sources_found": [
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            },
+                            {
+                                "title": "World Cup 2026 Canada/Mexico/USA » History: All-Time Table",
+                                "url": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                            },
+                            {
+                                "title": "FIFA Football Rankings 2026 - Sofascore",
+                                "url": "https://www.sofascore.com/football/rankings/fifa"
+                            },
+                            {
+                                "title": "FIFA latest rankings as of March 28, 2026: Spain retains #1, France ...",
+                                "url": "https://www.facebook.com/groups/236519734980630/posts/1228716195760974/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The best source, worldfootball.net's 'records all-time table,' provides comprehensive statistics for FIFA World Cup match wins. Brazil has 76 wins (ranked 1st), Germany has 68 wins (ranked 2nd), Italy has 45 wins (ranked 3rd), Argentina has 47 wins (ranked 4th — higher than Italy in wins), and France has 34 wins (ranked 5th). These match wins unequivocally place Argentina ahead of Italy in the ranking. Therefore, the corrected order is provided based on the reliable data.",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "corrected_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "best_source": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most. Brazil vs Germany ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of nations ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Most FIFA World Cup wins: Know the most successful football nations",
+                                "url": "https://www.olympics.com/en/news/most-fifa-world-cup-football-wins"
+                            },
+                            {
+                                "title": "Fifa latest rankings as of march 2026 - Facebook",
+                                "url": "https://www.facebook.com/groups/574409611539840/posts/1274689828178478/"
+                            },
+                            {
+                                "title": "FIFA Football Rankings 2026 - Sofascore",
+                                "url": "https://www.sofascore.com/football/rankings/fifa"
+                            },
+                            {
+                                "title": "World Cup 2026 Canada/Mexico/USA » History: All-Time Table",
+                                "url": "https://www.worldfootball.net/competition/co139/fifa-world-cup/records-all-time-table/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Sources provided address World Cup titles but do not directly confirm or refute the number of match wins for the specified teams in the corrected order. Additionally, sources such as 'WorldFootball.net' are unreliable due to incorrect standings.",
+                        "best_source": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                    }
+                },
+                {
+                    "topic": "UFC 326 fight week (March 2026)",
+                    "suggested_question": "Rank the top 5 UFC fighters by most successful title defenses (career total), from most to fifth-most.",
+                    "connection": "UFC 326 headlines this month’s combat sports slate, making all-time title-defense kings especially relevant.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question is about ranking UFC fighters by their title defenses, which is distinct from any previously used questions that focus on topics such as geography, sports statistics, or entertainment awards."
+                    },
+                    "generated_question": {
+                        "question": "As of UFC 326 fight week (March 2026), rank the UFC fighters by most successful title defenses (career total), from most to fifth-most.",
+                        "answers": [
+                            "Demetrious Johnson",
+                            "Jon Jones",
+                            "Anderson Silva",
+                            "Georges St-Pierre",
+                            "Amanda Nunes"
+                        ],
+                        "distractors": [
+                            "Jose Aldo",
+                            "Valentina Shevchenko",
+                            "Matt Hughes",
+                            "Ronda Rousey",
+                            "Kamaru Usman",
+                            "Alexander Volkanovski",
+                            "Israel Adesanya",
+                            "Tito Ortiz",
+                            "Stipe Miocic",
+                            "BJ Penn",
+                            "Daniel Cormier",
+                            "Joanna Jedrzejczyk",
+                            "Max Holloway",
+                            "Khabib Nurmagomedov",
+                            "Conor McGregor"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_UFC_champions#Records"
+                    },
+                    "verification_search_iter0": {
+                        "query": "UFC most successful title defenses all time list Demetrious Johnson Jon Jones Anderson Silva GSP Amanda Nunes",
+                        "sources_found": [
+                            {
+                                "title": "MOST TITLE FIGHT WINS - UFC History 16 - Jon Jones 13 - Facebook",
+                                "url": "https://www.facebook.com/groups/356717112258432/posts/1366276974635769/"
+                            },
+                            {
+                                "title": "Top 15 Best UFC Fighters of All Time - Novibet",
+                                "url": "https://www.novibet.ie/blog/top-best-ufc-fighters-ever"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The Facebook source provides data specifically on the number of UFC title fight wins for each fighter. Since successful title defenses are closely related to title fight wins (assuming most title wins are defenses), this is the closest authoritative data applicable. The corrected order based on the source is: Jon Jones (14), Georges St-Pierre (13), Demetrious Johnson (12), Anderson Silva (11), Amanda Nunes (10). The original order in the question was incorrect.",
+                        "proposed_answers": [
+                            "Demetrious Johnson",
+                            "Jon Jones",
+                            "Anderson Silva",
+                            "Georges St-Pierre",
+                            "Amanda Nunes"
+                        ],
+                        "corrected_answers": [
+                            "Jon Jones",
+                            "Georges St-Pierre",
+                            "Demetrious Johnson",
+                            "Anderson Silva",
+                            "Amanda Nunes"
+                        ],
+                        "best_source": "https://www.facebook.com/groups/356717112258432/posts/1366276974635769/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "As of UFC 326 fight week (March 2026), rank the UFC fighters by most successful title defenses (career total), from most to fifth-most. Jon Jones vs Georges St-Pierre ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top 5 UFC Champions With Most Title Defenses - BetMGM",
+                                "url": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                            },
+                            {
+                                "title": "Top 5 UFC Fighters with the Most Title Defenses in History - Facebook",
+                                "url": "https://www.facebook.com/groups/287368208532864/posts/1607339843202354/"
+                            },
+                            {
+                                "title": "UFC History 16 - Jon Jones 13 - Georges St-Pierre 12 - Facebook",
+                                "url": "https://www.facebook.com/UFC/posts/joining-legendary-company-most-title-fight-wins-ufc-history16-jon-jones13-george/1252119502949031/"
+                            },
+                            {
+                                "title": "Who has the most UFC title defenses? Top 5 champions ranked",
+                                "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-has-the-most-ufc-title-defenses-top-5-champions-ranked/articleshow/123838179.cms"
+                            },
+                            {
+                                "title": "UFC: Jon Jones, Anderson Silva, GSP - CODE Sports",
+                                "url": "https://www.codesports.com.au/ufc/ufc-jon-jones-anderson-silva-gsp-ranking-the-best-ufc-fighters-of-all-time/news-story/7f070b0cebd32e21b6b3ad56087c2975"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order places Georges St-Pierre ahead of Demetrious Johnson and Anderson Silva, but multiple sources show Demetrious Johnson has more title defenses than Georges St-Pierre and Anderson Silva. Additionally, Amanda Nunes is incorrectly listed in fifth place.",
+                        "best_source": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "UFC most successful title defenses all time list Demetrious Johnson Jon Jones Anderson Silva GSP Amanda Nunes",
+                        "sources_found": [
+                            {
+                                "title": "MOST TITLE FIGHT WINS - UFC History 16 - Jon Jones 13 - Facebook",
+                                "url": "https://www.facebook.com/groups/356717112258432/posts/1366276974635769/"
+                            },
+                            {
+                                "title": "Most UFC Title Fight Wins 16 - Jon Jones 13 - George St. Pierre 12",
+                                "url": "https://www.facebook.com/RockyBalboaBoxing/posts/most-ufc-title-fight-wins-16-jon-jones-13-george-st-pierre12-demetrious-johnson-/791680145646669/"
+                            },
+                            {
+                                "title": "Top 15 Best UFC Fighters of All Time - Novibet",
+                                "url": "https://www.novibet.ie/blog/top-best-ufc-fighters-ever"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources explicitly rank fighters based on their total UFC title fight wins, rather than specifically their successful title defenses. Both sources agree on the following order and corresponding data: Jon Jones (16), Georges St-Pierre (13), Demetrious Johnson (12), Anderson Silva (11), and Amanda Nunes (10). The proposed answers were correct in content but incorrect in terms of numeric values for Jon Jones (listing 14 instead of 16). This necessitated a correction.",
+                        "proposed_answers": [
+                            "Jon Jones",
+                            "Georges St-Pierre",
+                            "Demetrious Johnson",
+                            "Anderson Silva",
+                            "Amanda Nunes"
+                        ],
+                        "corrected_answers": [
+                            "Jon Jones",
+                            "Georges St-Pierre",
+                            "Demetrious Johnson",
+                            "Anderson Silva",
+                            "Amanda Nunes"
+                        ],
+                        "best_source": "https://www.facebook.com/RockyBalboaBoxing/posts/most-ufc-title-fight-wins-16-jon-jones-13-george-st-pierre12-demetrious-johnson-/791680145646669/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "As of UFC 326 fight week (March 2026), rank the UFC fighters by most successful title defenses (career total), from most to fifth-most. Jon Jones vs Georges St-Pierre ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top 5 UFC Champions With Most Title Defenses - BetMGM",
+                                "url": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                            },
+                            {
+                                "title": "Top 5 UFC Fighters with the Most Title Defenses in History - Facebook",
+                                "url": "https://www.facebook.com/groups/287368208532864/posts/1607339843202354/"
+                            },
+                            {
+                                "title": "UFC History 16 - Jon Jones 13 - Georges St-Pierre 12 - Facebook",
+                                "url": "https://www.facebook.com/UFC/posts/joining-legendary-company-most-title-fight-wins-ufc-history16-jon-jones13-george/1252119502949031/"
+                            },
+                            {
+                                "title": "Who has the most UFC title defenses? Top 5 champions ranked",
+                                "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-has-the-most-ufc-title-defenses-top-5-champions-ranked/articleshow/123838179.cms"
+                            },
+                            {
+                                "title": "UFC: Jon Jones, Anderson Silva, GSP - CODE Sports",
+                                "url": "https://www.codesports.com.au/ufc/ufc-jon-jones-anderson-silva-gsp-ranking-the-best-ufc-fighters-of-all-time/news-story/7f070b0cebd32e21b6b3ad56087c2975"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Georges St-Pierre's corrected placement does not align with the source data, which consistently ranks him below Demetrious Johnson and Anderson Silva based on career title defenses. Additionally, Amanda Nunes does not appear among the top five in multiple sources provided.",
+                        "best_source": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "UFC most successful title defenses all time list Demetrious Johnson Jon Jones Anderson Silva GSP Amanda Nunes",
+                        "sources_found": [
+                            {
+                                "title": "MOST TITLE FIGHT WINS - UFC History 16 - Jon Jones 13 - Facebook",
+                                "url": "https://www.facebook.com/groups/356717112258432/posts/1366276974635769/"
+                            },
+                            {
+                                "title": "Top 15 Best UFC Fighters of All Time - Novibet",
+                                "url": "https://www.novibet.ie/blog/top-best-ufc-fighters-ever"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The Facebook source provides explicit numerical data on UFC title fight wins for each fighter, which closely correlates with successful title defenses. Jon Jones has the most title fight wins (14), followed by Georges St-Pierre (13), Demetrious Johnson (12), Anderson Silva (11), and Amanda Nunes (10). The proposed ranking is correct in terms of both the fighters and their order based on this available data.",
+                        "proposed_answers": [
+                            "Jon Jones",
+                            "Georges St-Pierre",
+                            "Demetrious Johnson",
+                            "Anderson Silva",
+                            "Amanda Nunes"
+                        ],
+                        "corrected_answers": [
+                            "Jon Jones",
+                            "Georges St-Pierre",
+                            "Demetrious Johnson",
+                            "Anderson Silva",
+                            "Amanda Nunes"
+                        ],
+                        "best_source": "https://www.facebook.com/groups/356717112258432/posts/1366276974635769/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "As of UFC 326 fight week (March 2026), rank the UFC fighters by most successful title defenses (career total), from most to fifth-most. Jon Jones vs Georges St-Pierre ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top 5 UFC Champions With Most Title Defenses - BetMGM",
+                                "url": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                            },
+                            {
+                                "title": "Top 5 UFC Fighters with the Most Title Defenses in History - Facebook",
+                                "url": "https://www.facebook.com/groups/287368208532864/posts/1607339843202354/"
+                            },
+                            {
+                                "title": "UFC History 16 - Jon Jones 13 - Georges St-Pierre 12 - Facebook",
+                                "url": "https://www.facebook.com/UFC/posts/joining-legendary-company-most-title-fight-wins-ufc-history16-jon-jones13-george/1252119502949031/"
+                            },
+                            {
+                                "title": "Who has the most UFC title defenses? Top 5 champions ranked",
+                                "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-has-the-most-ufc-title-defenses-top-5-champions-ranked/articleshow/123838179.cms"
+                            },
+                            {
+                                "title": "UFC: Jon Jones, Anderson Silva, GSP - CODE Sports",
+                                "url": "https://www.codesports.com.au/ufc/ufc-jon-jones-anderson-silva-gsp-ranking-the-best-ufc-fighters-of-all-time/news-story/7f070b0cebd32e21b6b3ad56087c2975"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Multiple sources indicate Georges St-Pierre has fewer title defenses than Demetrious Johnson and Anderson Silva, contradicting his placement above them in the corrected answers.",
+                        "best_source": "https://sports.betmgm.com/en/blog/ufc-champions-most-title-defenses-bm05/"
+                    }
+                },
+                {
+                    "topic": "FIS Women’s Ski Jumping World Cup (Lahti stop in March)",
+                    "suggested_question": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most.",
+                    "connection": "With women’s World Cup events in March, this highlights the sport’s most prolific winners.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses specifically on women's FIS Ski Jumping World Cup wins, which is a distinct and niche topic not covered by any of the existing questions. None of the previous questions pertain to ski jumping or this specific competition."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most.",
+                        "answers": [
+                            "Sara Takanashi",
+                            "Maren Lundby",
+                            "Katharina Althaus",
+                            "Eva Pinkelnig",
+                            "Daniela Iraschko-Stolz"
+                        ],
+                        "distractors": [
+                            "Sara Marita Kramer",
+                            "Silje Opseth",
+                            "Nika Kriznar",
+                            "Ema Klinec",
+                            "Yuki Ito",
+                            "Carina Vogt",
+                            "Juliane Seyfarth",
+                            "Spela Rogelj",
+                            "Jacqueline Seifriedsberger",
+                            "Irina Avvakumova",
+                            "Anna Odine Stroem",
+                            "Nika Prevc",
+                            "Josephine Pagnier",
+                            "Chiara Kreuzer",
+                            "Ursa Bogataj"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup_(women)#Most_individual_wins"
+                    },
+                    "verification_search_iter0": {
+                        "query": "FIS Women's Ski Jumping World Cup most individual wins all time",
+                        "sources_found": [
+                            {
+                                "title": "Most Ski Jumping World Cup individual victories in a career (overall)",
+                                "url": "https://www.guinnessworldrecords.com/world-records/506048-most-ski-jumping-world-cup-individual-victories-in-a-career-overall"
+                            },
+                            {
+                                "title": "Most Ski Jumping World Cup overall titles (female)",
+                                "url": "https://www.guinnessworldrecords.com/world-records/115379-most-ski-jumping-world-cup-overall-titles-female"
+                            },
+                            {
+                                "title": "List of individual World Cup victories in skiing - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_individual_World_Cup_victories_in_skiing"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "That stat is crazy 28 competitions ➡️ 21 wins , 25 podiums ...",
+                                "url": "https://www.facebook.com/fisskijumpingofficial/posts/that-stat-is-crazy-28-competitions-%EF%B8%8F-21-wins-25-podiums-fisskijumping-worldcupzh/1330261572464972/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not include a comprehensive ranking of the top 5 women with the most FIS Ski Jumping World Cup individual wins. While Sara Takanashi's record of 63 victories is noted in one source, the values and order for Maren Lundby, Katharina Althaus, Eva Pinkelnig, and Daniela Iraschko-Stolz are not included and cannot be verified or corrected with the given data.",
+                        "proposed_answers": [
+                            "Sara Takanashi",
+                            "Maren Lundby",
+                            "Katharina Althaus",
+                            "Eva Pinkelnig",
+                            "Daniela Iraschko-Stolz"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most. Sara Takanashi Maren Lundby ranking",
+                        "sources_found": [
+                            {
+                                "title": "1. Maren Lundby 2. Chiara Hölzl 3. Sara Takanashi ... - Facebook",
+                                "url": "https://www.facebook.com/fisskijumpingofficial/photos/fis-womens-world-cup-in-lillehammer-norway1-maren-lundby-2-chiara-h%C3%B6lzl-3-sara-t/10157004414427151/"
+                            },
+                            {
+                                "title": "2025–26 FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "Ski Jumping World Cup 2025-2026 - Etusuora.com",
+                                "url": "https://etusuora.com/en/ski-jumping/world-cup"
+                            },
+                            {
+                                "title": "Prevc completes Sapporo double and equals hill record - FIS",
+                                "url": "https://www.fis-ski.com/ski-jumping/news/2025-26/prevc-does-the-double-in-sapporo-and-equals-hill-record"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources contain relevant or clear information regarding the all-time rankings of the top 5 women by most individual FIS Ski Jumping World Cup wins. Some sources discuss particular events or individuals but do not provide comprehensive statistical data or rankings to validate the proposed answer or determine a corrected order.",
+                        "proposed_answers": [
+                            "Sara Takanashi",
+                            "Maren Lundby",
+                            "Katharina Althaus",
+                            "Eva Pinkelnig",
+                            "Daniela Iraschko-Stolz"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most. Sara Takanashi Maren Lundby ranking",
+                        "sources_found": [
+                            {
+                                "title": "1. Maren Lundby 2. Chiara Hölzl 3. Sara Takanashi ... - Facebook",
+                                "url": "https://www.facebook.com/fisskijumpingofficial/photos/fis-womens-world-cup-in-lillehammer-norway1-maren-lundby-2-chiara-h%C3%B6lzl-3-sara-t/10157004414427151/"
+                            },
+                            {
+                                "title": "2025–26 FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "FIS Ski Jumping World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                            },
+                            {
+                                "title": "Ski Jumping World Cup 2025-2026 - Etusuora.com",
+                                "url": "https://etusuora.com/en/ski-jumping/world-cup"
+                            },
+                            {
+                                "title": "Prevc completes Sapporo double and equals hill record - FIS",
+                                "url": "https://www.fis-ski.com/ski-jumping/news/2025-26/prevc-does-the-double-in-sapporo-and-equals-hill-record"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not clarify the ranking of women with the most individual FIS Ski Jumping World Cup wins. None of the sources explicitly list the top 5 winners by their total wins, nor provide numeric data to verify the order or determine the correct ranking.",
+                        "proposed_answers": [
+                            "Sara Takanashi",
+                            "Maren Lundby",
+                            "Katharina Althaus",
+                            "Eva Pinkelnig",
+                            "Daniela Iraschko-Stolz"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://en.wikipedia.org/wiki/FIS_Ski_Jumping_World_Cup"
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question asks for the 5 largest countries by land area, which is essentially the same as question ID 13 that asks for the five largest countries by land area from largest to smallest. The core content is identical."
+                    }
+                },
+                {
+                    "topic": "Rivers",
+                    "suggested_question": "Which are the 5 longest rivers in the world?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed new question asks for the 5 longest rivers in the world, which is essentially identical to ID 28, as both inquire about the same topic with similar phrasing and criteria."
+                    }
+                },
+                {
+                    "topic": "Languages",
+                    "suggested_question": "Which are the 5 most spoken languages by total speakers?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is essentially identical to ID 37, which also asks for the 5 most spoken languages by total number of speakers (native + second-language)."
+                    }
+                },
+                {
+                    "topic": "Solar System",
+                    "suggested_question": "Which planets in our solar system are the 5 largest by diameter?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question focuses on the size of planets by diameter within the Solar System, which is entirely distinct from and unrelated to any of the geographic, sports, or other ranking-based questions already listed."
+                    },
+                    "generated_question": {
+                        "question": "Which planets in our solar system are the five largest by diameter (from largest to smallest)?",
+                        "answers": [
+                            "Jupiter",
+                            "Saturn",
+                            "Uranus",
+                            "Neptune",
+                            "Earth"
+                        ],
+                        "distractors": [
+                            "Venus",
+                            "Mars",
+                            "Mercury",
+                            "Ganymede",
+                            "Titan",
+                            "Callisto",
+                            "Io",
+                            "Moon",
+                            "Europa",
+                            "Triton",
+                            "Pluto",
+                            "Eris",
+                            "Haumea",
+                            "Makemake",
+                            "Ceres"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "largest planets by diameter NASA Planetary Fact Sheet Jupiter Saturn Uranus Neptune Earth",
+                        "sources_found": [
+                            {
+                                "title": "How Big Are the Planets in Our Solar System? | STEM Activity",
+                                "url": "https://www.sciencebuddies.org/stem-activities/planet-size"
+                            },
+                            {
+                                "title": "Planet Table",
+                                "url": "https://nasirkhan294.github.io/planet-table/"
+                            },
+                            {
+                                "title": "Planetary Fact Sheet - Metric - KFUPM",
+                                "url": "https://faculty.kfupm.edu.sa/PHYS/alshukri/Planetary_Fact_Sheet_2pages.htm"
+                            },
+                            {
+                                "title": "[PDF] Planetary Fact Sheet | Jamie York Academy",
+                                "url": "https://jamieyorkacademy.com/wp-content/uploads/bsk-pdf-manager/2023/05/Astronomy-Planetary-Fact-Sheet.pdf"
+                            },
+                            {
+                                "title": "[PDF] Solar System Sizes and Distances",
+                                "url": "https://www.jpl.nasa.gov/edu/pdfs/scaless_reference.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data from the Jamie York Academy PDF and the other sources identify the diameters of the planets, allowing a clear ranking. The correct order of the five largest planets by diameter is: Jupiter (142,984 km), Saturn (120,536 km), Uranus (51,118 km), Neptune (49,528 km), and Earth (12,756 km). The proposed answers were correct in terms of content but already presented in the correct order, matching the source data.",
+                        "proposed_answers": [
+                            "Jupiter",
+                            "Saturn",
+                            "Uranus",
+                            "Neptune",
+                            "Earth"
+                        ],
+                        "corrected_answers": [
+                            "Jupiter",
+                            "Saturn",
+                            "Uranus",
+                            "Neptune",
+                            "Earth"
+                        ],
+                        "best_source": "https://jamieyorkacademy.com/wp-content/uploads/bsk-pdf-manager/2023/05/Astronomy-Planetary-Fact-Sheet.pdf"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Which planets in our solar system are the five largest by diameter (from largest to smallest)? Jupiter vs Saturn ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Size of Planets in Order - Science Notes",
+                                "url": "https://sciencenotes.org/size-of-planets-in-order/"
+                            },
+                            {
+                                "title": "What are the planets from smallest to largest? - Quora",
+                                "url": "https://www.quora.com/What-are-the-planets-from-smallest-to-largest"
+                            },
+                            {
+                                "title": "Solar System Planets Size Comparison - YouTube",
+                                "url": "https://www.youtube.com/watch?v=SQHDzlfmEDM"
+                            },
+                            {
+                                "title": "Solar system size comparisons. - Facebook",
+                                "url": "https://www.facebook.com/cosmoknowledge/posts/solar-system-size-comparisons/918138530537756/"
+                            },
+                            {
+                                "title": "Solar system planets in order: A complete guide",
+                                "url": "https://www.sciencefocus.com/space/planets-in-order-solar-system"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "All sources consistently list the five largest planets by diameter in the following order: Jupiter, Saturn, Uranus, Neptune, Earth.",
+                        "best_source": "https://www.quora.com/What-are-the-planets-from-smallest-to-largest"
+                    },
+                    "question_id": 41,
+                    "final_answers": [
+                        "Jupiter",
+                        "Saturn",
+                        "Uranus",
+                        "Neptune",
+                        "Earth"
+                    ],
+                    "final_source": "https://www.quora.com/What-are-the-planets-from-smallest-to-largest"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 29, 2026",
+                        "results": [
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar - On Location",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "... Mar 15 - Mar 29, 2026Hard Rock StadiumMiami, FL. Men's Basketball TournamentMar 17 - Mar 29, 2026Various Cities."
+                            },
+                            {
+                                "title": "March 2026 Sports Schedule - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "| 5-6 | \\_ | Ski Jumping, FIS Women’s World Cup, Lahti, Finland. | 5-7 | \\_ | Men’s and women’s skiing, FIS World Cup Nordic Combined, Lahti, Finland. | 13-14 | \\_ | Men’s and women’s college track an"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "# March National Days Around the World: The Essential Global Guide for 2026. Here is your essential look at the major national days, cultural festivals, and international observances happening in Marc"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For March 2026 | PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-march-2026",
+                                "snippet": "# Awareness Days & Cultural Calendar For March 2026. March 2026 highlights global cultural events and awareness days including International Women’s Day, St Patrick’s Day, Holi, and key equality campa"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2026",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Time marches on, but the third month reminds us every day is an occasion. In like a lion, out like a lamb, March is a month packed wi"
+                            },
+                            {
+                                "title": "March 2026 calendar: St. Patrick's Day, daylight saving ...",
+                                "url": "https://www.usatoday.com/story/news/nation/2026/02/28/march-2026-calendar/88861936007/",
+                                "snippet": "# March 2026 calendar: St. Patrick's Day, daylight saving time, more. March is packed with events, holidays, national days and celebrations. ## Are there any federal holidays in March 2026? ### César"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays to Add to Your 2026 ...",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the First Day of Spring, which falls on Friday, March 20. There are plenty of other "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Awards Season Calendar: Every Oscar, Emmy, Grammy ...",
+                                "url": "https://www.thetvcave.com/post/2026-awards-season-calendar",
+                                "snippet": "March 2026: The Big Swings ; March 1. Actor Awards (SAG) ; March 1–2. Children & Family Emmy Awards ; March 7. CAS Awards ; March 7. SOC Awards."
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "Our updating list of important dates and events for the 2025-26 award season. · March 1 – The Actor Awards (SAG) · March 8 – Writers Guild of America Awards (WGA)"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "March. 24: BAFTA Television Awards nominations · April. 2: Anime Awards nominations · May. 10: BAFTA Television Awards · June. 7: Tony Awards · July."
+                            },
+                            {
+                                "title": "Sunshine Fest 2026 – March 15-17, 2026, Washington, D.C.",
+                                "url": "https://sunshineweek.org/sunshine-fest/",
+                                "snippet": "In recognition of Sunshine Week, the University of Florida Brechner Freedom of Information Project, MuckRock, and the National Freedom of Information Coalition are organizing the second-annual in-pers"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 29, 2026",
+                        "results": [
+                            {
+                                "title": "Trump Spirals, Mojtaba Holds Firm: Iran War Hits DANGEROUS ...",
+                                "url": "https://timesofindia.indiatimes.com/videos/international/trump-spirals-mojtaba-holds-firm-iran-war-hits-dangerous-turning-point-now-what/videoshow/129871998.cms",
+                                "snippet": "Sun, Mar 29, 2026 | Updated 01.53AM IST. # Trump Spirals, Mojtaba Holds Firm: Iran War Hits DANGEROUS Turning Point; Now What? | Mar 29, 2026, 01:50:27 AM | TOI.in. After a month of intense, devastati"
+                            },
+                            {
+                                "title": "This Day in History: March 29, 2026 | Infoplease",
+                                "url": "https://www.infoplease.com/dayinhistory/march-29",
+                                "snippet": "# This Day in History. Julius and Ethel Rosenberg were found guilty of passing atomic secrets to the Russians and were sent. ### Atomic espionage. Julius and Ethel Rosenberg were found guilty of passi"
+                            },
+                            {
+                                "title": "Political Smackdown March 29, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=A3JattSumpc",
+                                "snippet": "Comments · Talk of the Town March 29, 2026 · Trump hosts farmers at White House · BREAKING NEWS: Rubio Reveals Projected Timeline For Iran War's"
+                            },
+                            {
+                                "title": "Top U.S. & World Headlines — March 27, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=TGFkuH7GRX8",
+                                "snippet": "[](https://www.youtube.com/watch?v=TGFkuH7GRX8). [](https://www.youtube.com/watch?v=TGFkuH7GRX8). [](https://www.youtube.com/watch?v=TGFkuH7GRX8). [](https://www.youtube.com/watch?v=TGFkuH7GRX8). [](h"
+                            },
+                            {
+                                "title": "Weekly Economic Calendar | Mar 23–29, 2026 Stay one step ahead ...",
+                                "url": "https://www.facebook.com/UniglobeMarketsFX/posts/-weekly-economic-calendar-mar-2329-2026stay-one-step-ahead-of-the-markets-by-kee/1376426841194613/",
+                                "snippet": "## Uniglobe Markets's Post. ### **Uniglobe Markets**. 📷 Weekly Economic Calendar | Mar 23–29, 2026. Stay one step ahead of the markets by keeping track of the key economic events shaping the week. • M"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 29",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 29: Brendan Gleeson, Perry Farrell",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-march-29-brendan-070006502.html",
+                                "snippet": "Actor Brendan Gleeson turns 70 and musician Perry Farrell turns 66, among the famous birthdays for March 29."
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 29, 2022 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/03/todays-famous-birthdays-list-for-march-29-2022-includes-celebrities-elle-macpherson-eric-idle.html",
+                                "snippet": "Singer Bobby Kimball of Toto is 75. Actor Bud Cort (“Harold and Maude”) is 74. Comedian Amy Sedaris is 61. Director Michel Hazanavicius (“The"
+                            },
+                            {
+                                "title": "Famous Birthdays on March 29 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/29",
+                                "snippet": "Famous birthdays for the 29th of March. See which celebrities, historical figures, scientists and criminals were born on March 29."
+                            },
+                            {
+                                "title": "MARCH 29 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-29-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 29. John Tyler (1790-1862) - The 10th President of the U.S.. James Gallant Spears (1816-1869) - Brigadier General"
+                            },
+                            {
+                                "title": "Famous birthdays March 29; and: What's-their-names make the cover",
+                                "url": "https://www.twincities.com/2016/03/29/famous-birthdays-march-29-and-whats-their-names-make-the-cover/",
+                                "snippet": "Aussie supermodel Elle Macpherson is 53. Minneapolis actor Chris Massoglia is 25. His credits include the films “Cirque du Freak: The Vampire's Assistant” and"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Miami Open (Tennis), Mar 15–29, 2026",
+                        "suggested_question": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most.",
+                        "connection": "The Miami Open concludes today at Hard Rock Stadium, making its all-time champions a timely tennis challenge."
+                    },
+                    {
+                        "topic": "MLB Opening Day (Late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most.",
+                        "connection": "With MLB Opening Day kicking off the season, this looks back at which clubs historically start strongest."
+                    },
+                    {
+                        "topic": "FIFA World Cup 2026 build-up",
+                        "suggested_question": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most.",
+                        "connection": "As the 2026 World Cup approaches and dominates sports calendars, this taps into legacy powerhouses on the biggest stage."
+                    },
+                    {
+                        "topic": "UFC 326 fight week (March 2026)",
+                        "suggested_question": "Rank the top 5 UFC fighters by most successful title defenses (career total), from most to fifth-most.",
+                        "connection": "UFC 326 headlines this month’s combat sports slate, making all-time title-defense kings especially relevant."
+                    },
+                    {
+                        "topic": "FIS Women’s Ski Jumping World Cup (Lahti stop in March)",
+                        "suggested_question": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most.",
+                        "connection": "With women’s World Cup events in March, this highlights the sport’s most prolific winners."
+                    },
+                    {
+                        "topic": "Sunshine Week / Sunshine Fest 2026 (Mar 15–17, Washington, D.C.)",
+                        "suggested_question": "Rank the top 5 countries by earliest adoption of national freedom-of-information/right-to-information laws (by year enacted), from earliest to later.",
+                        "connection": "Sunshine Week spotlights transparency and FOI—perfect timing to trace its earliest adopters."
+                    },
+                    {
+                        "topic": "Brendan Gleeson’s 70th birthday (Mar 29)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Brendan Gleeson (worldwide box office), from highest to fifth-highest.",
+                        "connection": "Marking Brendan Gleeson’s milestone birthday with a box-office look at his biggest films."
+                    },
+                    {
+                        "topic": "The Masters approaching (April 2026)",
+                        "suggested_question": "Rank the top 5 golfers with the most Masters Tournament wins, from most to fifth-most.",
+                        "connection": "With Augusta on deck, it’s a timely nod to the legends with the most green jackets."
+                    },
+                    {
+                        "topic": "St. Patrick’s Day season (March)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by annual global case sales (latest full year available), from most to fifth-most.",
+                        "connection": "March celebrations put Irish spirits in the spotlight—who leads the world in Irish whiskey sales?"
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — Spring flower season",
+                        "suggested_question": "Rank the top 5 countries by export value of flower bulbs (including tulips), from highest to fifth-highest (latest year available).",
+                        "connection": "Tulip season coincides with early spring; global bulb trade peaks make a timely, verifiable list."
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — Sugaring season",
+                        "suggested_question": "Rank the top 5 countries by maple syrup production, from most to fifth-most.",
+                        "connection": "Late winter into early spring is maple sugaring season, perfect for a sweet production ranking."
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — National Cherry Blossom Festival (late March–early April, Washington, D.C.)",
+                        "suggested_question": "Rank the top 5 cherry tree varieties by number of trees around Washington, D.C.’s Tidal Basin and National Mall area, from most to fifth-most.",
+                        "connection": "As blossoms peak in D.C., the dominant cherry varieties are a distinctly springtime fact set."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "Miami Open (Tennis), Mar 15–29, 2026",
+                        "suggested_question": "Rank the top 5 men by most Miami Open (ATP) singles titles (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the Miami Open in tennis does not overlap with any recent questions, as none of them concern tennis or related individual sports events.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "MLB Opening Day (Late March 2026)",
+                        "suggested_question": "Rank the top 5 MLB franchises by total Opening Day wins (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic pertains specifically to MLB (baseball) and Opening Day records, which does not overlap with any of the recently covered topics in areas such as curling, startups, convention centers, languages, UNESCO sites, rainfall, or NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "FIFA World Cup 2026 build-up",
+                        "suggested_question": "Rank the top 5 national teams by total FIFA Men's World Cup match wins (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on FIFA Men's World Cup match wins, which is unrelated to the subjects of any recent questions, such as curling championships, startups, convention centers, languages, UNESCO sites, rainfall, or NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "UFC 326 fight week (March 2026)",
+                        "suggested_question": "Rank the top 5 UFC fighters by most successful title defenses (career total), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about UFC fighters and title defenses pertains to mixed martial arts, which is unrelated to the themes of any of the recent questions, such as curling, startups, convention centers, languages, heritage sites, rainfall, or NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "FIS Women’s Ski Jumping World Cup (Lahti stop in March)",
+                        "suggested_question": "Rank the top 5 women by most individual FIS Ski Jumping World Cup wins (all-time), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on FIS Women’s Ski Jumping, which has no overlap with any of the recent questions that cover curling, startups, convention centers, languages, UNESCO sites, rainfall, or NCAA basketball. Thus, the subject area is different.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Sunshine Week / Sunshine Fest 2026 (Mar 15–17, Washington, D.C.)",
+                        "suggested_question": "Rank the top 5 countries by earliest adoption of national freedom-of-information/right-to-information laws (by year enacted), from earliest to later.",
+                        "recently_covered": false,
+                        "reason": "The proposed question about national freedom-of-information laws pertains to government transparency and legislation, which does not overlap with any of the recent questions on topics like sports, language, geography, tech, or heritage.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Brendan Gleeson’s 70th birthday (Mar 29)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Brendan Gleeson (worldwide box office), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Brendan Gleeson's films is focused on entertainment and cinema, while none of the recent questions pertain to movies, actors, or box office statistics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "The Masters approaching (April 2026)",
+                        "suggested_question": "Rank the top 5 golfers with the most Masters Tournament wins, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Masters Tournament wins pertains to golf and does not overlap with any of the recent questions, which covered curling, startups, convention centers, languages, heritage sites, rainfall, and NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "St. Patrick’s Day season (March)",
+                        "suggested_question": "Rank the top 5 Irish whiskey brands by annual global case sales (latest full year available), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Irish whiskey sales focuses on alcoholic beverages and their market performance, which does not overlap with any of the recent questions that cover diverse topics such as sports, startups, languages, heritage sites, rainfall, and NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — Spring flower season",
+                        "suggested_question": "Rank the top 5 countries by export value of flower bulbs (including tulips), from highest to fifth-highest (latest year available).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on flower bulb exports is focused on agriculture and trade, which does not align with any of the recently asked questions that cover sports, startups, convention centers, languages, heritage sites, rainfall, or basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — Sugaring season",
+                        "suggested_question": "Rank the top 5 countries by maple syrup production, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic 'Sugaring season' (maple syrup production) is related to agriculture and food production, which does not overlap with any of the recent questions focusing on sports, metro areas, convention centers, languages, UNESCO sites, rainfall, or NCAA basketball.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SEASONAL/CULTURAL FALLBACK — National Cherry Blossom Festival (late March–early April, Washington, D.C.)",
+                        "suggested_question": "Rank the top 5 cherry tree varieties by number of trees around Washington, D.C.’s Tidal Basin and National Mall area, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the National Cherry Blossom Festival and cherry tree varieties in Washington, D.C., does not overlap with any of the recently covered questions, as it focuses on a cultural and botanical event, unlike the sports, business, geography, and linguistics topics of the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "fallback_used": true,
+            "question_id": 41
         }
     ]
 }
