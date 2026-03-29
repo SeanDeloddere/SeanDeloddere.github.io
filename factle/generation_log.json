@@ -37979,6 +37979,494 @@
             },
             "fallback_used": true,
             "question_id": 41
+        },
+        {
+            "date": "2026-03-30",
+            "topics_discovered": [
+                {
+                    "topic": "Miami Open just concluded (Mar 15–29, 2026)",
+                    "suggested_question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+                    "connection": "The Miami Open wrapped up yesterday, making a rankings challenge about the tournament’s all-time title leaders perfectly timely."
+                },
+                {
+                    "topic": "Oscars took place in early March 2026",
+                    "suggested_question": "Rank the top 5 films with the most Academy Award wins ever (from most to fifth-most).",
+                    "connection": "Awards season peaked earlier this month, so revisiting the all-time Oscar juggernauts fits the moment."
+                },
+                {
+                    "topic": "SXSW 2026 just ran Mar 12–18 (tech + dev buzz)",
+                    "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 (from highest to fifth-highest).",
+                    "connection": "With developers and technologists converging at SXSW, a current snapshot of language popularity is spot-on."
+                },
+                {
+                    "topic": "National Doctors’ Day (Mar 30)",
+                    "suggested_question": "Rank the top 5 countries by total Nobel Prize in Physiology or Medicine laureates (from most to fifth-most, all-time).",
+                    "connection": "To honor Doctors’ Day, this question highlights nations most recognized for medical breakthroughs."
+                },
+                {
+                    "topic": "Earth Hour was this past weekend (late March)",
+                    "suggested_question": "Rank the top 5 countries by share of electricity generation from renewables (from highest to fifth-highest; latest available year).",
+                    "connection": "Earth Hour spotlights clean energy, so comparing leaders in renewable electricity is timely and topical."
+                },
+                {
+                    "topic": "Spring travel surge and calendars listing major events",
+                    "suggested_question": "Rank the top 5 busiest airports in the world by total passengers in 2025 (from most to fifth-most).",
+                    "connection": "With spring travel ramping up, a look at last year’s busiest hubs connects to the current travel season."
+                },
+                {
+                    "topic": "Van Gogh’s birthday (Mar 30) and ongoing art-season buzz",
+                    "suggested_question": "Rank the 5 most expensive paintings ever sold at auction (by hammer price, from highest to fifth-highest).",
+                    "connection": "Marking Van Gogh’s birthday with an art-market challenge taps into cultural interest this week."
+                },
+                {
+                    "topic": "Student STEM season (science fairs and academic competitions in March)",
+                    "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) gold medals (from most to fifth-most, all-time).",
+                    "connection": "With March packed with science fairs and awards, a global math-competition leaderboard fits the academic moment."
+                },
+                {
+                    "topic": "Quarter-end economic focus",
+                    "suggested_question": "Rank the top 5 currencies by share of global foreign-exchange reserves (from highest to fifth-highest; latest IMF COFER data).",
+                    "connection": "As Q1 ends, investors watch reserve composition—making a timely, data-driven finance ranking."
+                },
+                {
+                    "topic": "Seasonal fallback: Easter candy season (early April)",
+                    "suggested_question": "Rank the top 5 countries by per-capita chocolate consumption (from highest to fifth-highest; latest available data).",
+                    "connection": "With Easter around the corner, a chocolate consumption ranking is a sweet seasonal tie-in."
+                },
+                {
+                    "topic": "Seasonal fallback: National Reading Month (March, U.S.)",
+                    "suggested_question": "Rank the top 5 best-selling book series of all time (from most to fifth-most copies sold).",
+                    "connection": "March celebrates reading, so a definitive best-sellers challenge fits the cultural moment."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Miami Open just concluded (Mar 15–29, 2026)",
+                    "suggested_question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+                    "connection": "The Miami Open wrapped up yesterday, making a rankings challenge about the tournament’s all-time title leaders perfectly timely.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on ranking ATP players based on Miami Open men's singles titles, which is distinct from any previous questions as it pertains specifically to tennis and the Miami Open tournament. No prior question covers this exact topic or similar ranking criterion."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+                        "answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "distractors": [
+                            "Rafael Nadal",
+                            "John Isner",
+                            "Jim Courier",
+                            "Michael Chang",
+                            "Gustavo Kuerten",
+                            "Marcelo Ríos",
+                            "Thomas Muster",
+                            "Tim Mayotte",
+                            "Miloslav Mečíř",
+                            "Mats Wilander",
+                            "Lleyton Hewitt",
+                            "Marat Safin",
+                            "David Nalbandian",
+                            "Tomas Berdych",
+                            "Stan Wawrinka"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Miami_Open_(tennis)#Men%27s_singles"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Miami Open most men’s singles titles Djokovic Agassi Federer record list",
+                        "sources_found": [
+                            {
+                                "title": "4 men with the most Miami Open titles: Novak Djokovic ...",
+                                "url": "https://www.tennis365.com/facts-stats/men-most-miami-open-titles-novak-djokovic-roger-federer"
+                            },
+                            {
+                                "title": "Records & Stats",
+                                "url": "https://www.miamiopen.com/records-stats/"
+                            },
+                            {
+                                "title": "Top five players with most titles in men's singles at Miami ...",
+                                "url": "https://khelnow.com/tennis/miami-open-five-players-most-mens-singles-title-202403"
+                            },
+                            {
+                                "title": "Open Era tennis records – Men's singles",
+                                "url": "https://en.wikipedia.org/wiki/Open_Era_tennis_records_%E2%80%93_Men%27s_singles"
+                            },
+                            {
+                                "title": "THREE records held by Novak Djokovic and Andre Agassi ...",
+                                "url": "https://www.youtube.com/shorts/yVf06B42d2Y"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "According to the sources, Novak Djokovic and Andre Agassi both have six Miami Open men's singles titles, while Roger Federer has four, Pete Sampras has three, and Andy Murray has two. The proposed answers were partially correct but the order needed adjustment to reflect the tie at the top between Djokovic and Agassi. The Miami Open official site is the most authoritative source for this question.",
+                        "proposed_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "corrected_answers": [
+                            "Novak Djokovic",
+                            "Andre Agassi",
+                            "Roger Federer",
+                            "Pete Sampras",
+                            "Andy Murray"
+                        ],
+                        "best_source": "https://www.miamiopen.com/records-stats/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most). Novak Djokovic vs Andre Agassi ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Records & Stats - Miami Open",
+                                "url": "https://www.miamiopen.com/records-stats/"
+                            },
+                            {
+                                "title": "The 9 men with most Miami Open match wins - Tennis365",
+                                "url": "https://www.tennis365.com/facts-stats/men-with-the-most-miami-open-match-wins"
+                            },
+                            {
+                                "title": "[PDF] MIAMI OPEN PRESENTED BY ITAU TALKING POINTS - ATP Tour",
+                                "url": "https://www.atptour.com/-/media/e54d75bbb17a4d5f93a530d72e1b3110.pdf"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                            },
+                            {
+                                "title": "Andre Agassi and Novak Djokovic are the Kings of the Miami Open!",
+                                "url": "https://www.facebook.com/SportskeedaTennis/photos/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314198501603/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the titles count detailed in the source data: Novak Djokovic (6), Andre Agassi (6), Roger Federer (4), Pete Sampras (3), and Andy Murray (2). This aligns with the information from the authoritative Sportskeeda source.",
+                        "best_source": "https://www.facebook.com/SportskeedaTennis/posts/andre-agassi-and-novak-djokovic-are-the-kings-of-the-miami-open-/1536314265168263/"
+                    },
+                    "question_id": 42,
+                    "final_answers": [
+                        "Andre Agassi",
+                        "Novak Djokovic",
+                        "Roger Federer",
+                        "Pete Sampras",
+                        "Andy Murray"
+                    ],
+                    "final_source": "https://www.miamiopen.com/records-stats/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 30, 2026",
+                        "results": [
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "... Sports ... Mar 30, 2026Madison Square GardenNew York, New York. Miami OpenMar 15 - Mar 29, 2026Hard Rock StadiumMiami, FL."
+                            },
+                            {
+                                "title": "March 2026 Sports Schedule - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the 2026 Super Bowl, the 2026 Masters, the 2026"
+                            },
+                            {
+                                "title": "March 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/march-2026-sports-calendar-3bb603352ab5cda29486f0c621f3cbfe",
+                                "snippet": "MARCH ; 4-15, _, Women's tennis, WTA Tour, BNP Paribas Open, Indian Wells, Calif. ; 5-6, _, Ski Jumping, FIS Women's World Cup, Lahti, Finland. ; 5"
+                            },
+                            {
+                                "title": "2026 in sports - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+                                "snippet": "January 20–26: 2025 ASEAN Para Games in · February 6–22: 2026 Winter Olympics in · March 6–15: 2026 Winter Paralympics in · April 22–30: 2026 Asian Beach Games in."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "March National Days 2026: The Essential Global Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/march-national-global-holidays/",
+                                "snippet": "# March National Days Around the World: The Essential Global Guide for 2026. Here is your essential look at the major national days, cultural festivals, and international observances happening in Marc"
+                            },
+                            {
+                                "title": "Vanity Fair's Complete 2026 Cultural Calendar",
+                                "url": "https://www.vanityfair.com/culture/story/cultural-calendar-2026?srsltid=AfmBOoo86ZsOXqeJd5D7ILn6Hgw6xE2lzFVyx2UmkAauHd8jcwdT0bzo",
+                                "snippet": "March 9. Commonwealth Day Service. Nations in the British Commonwealth get a holiday each year to celebrate themselves; this past March, Kate"
+                            },
+                            {
+                                "title": "March Holidays and Observances 2026",
+                                "url": "https://www.countryliving.com/life/entertainment/a37711958/march-holidays-and-observances/",
+                                "snippet": "# March Holidays and Observances in 2026 to Celebrate Like a Lion. Time marches on, but the third month reminds us every day is an occasion. In like a lion, out like a lamb, March is a month packed wi"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "Multicultural Calendar - March 2026 | Inclusive Excellence",
+                                "url": "https://excellence.ucdavis.edu/events/multicultural-calendar-march-2026",
+                                "snippet": "Mar 1-31, 2026 @ 12:00am ... The Multicultural Calendar serves as a resource for students, staff, and faculty to plan events, activities, meetings"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "From the Oscars to your favorite film festivals: Key 2025-2026 Award Season Dates ... March 2026. March 1 – The Actor Awards (SAG); March 5 – Oscar winner"
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "OCSEF Awards Ceremony, Sunday, March 22, 2026, 1 - 6:30pm",
+                                "url": "https://events.chapman.edu/?category_id=450&trumbaEmbed=view%3Devent%26eventid%3D1372614709",
+                                "snippet": "#### **Discover What’s Happening at Chapman**. Looking for something to do on campus or around Orange? Our interactive events calendar makes it easy to explore what’s happening at Chapman University. "
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "Limited Presale — Get the lowest SXSW 2027 badge rate. ### SXSW 2026 Is Here! ### Discover the Experts Who Are Rewriting the Rules of Influence. ### SXSW 2026 Keynotes & Featured Speakers: See Headlin"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 30, 2026",
+                        "results": [
+                            {
+                                "title": "U.S. News and National Top Stories - NPR",
+                                "url": "https://www.npr.org/sections/national/",
+                                "snippet": "[![Image 20: This photo shows an exterior view of the U.S. Court of Appeals for the Federal Circuit building from 2002 in Washington, D.C.](https://npr.brightspotcdn.com/dims3/default/strip/false/crop"
+                            },
+                            {
+                                "title": "Almanac: March 29 - CBS News",
+                                "url": "https://www.cbsnews.com/video/almanac-march-29/",
+                                "snippet": "[![Image 22: CBS News 24/7](https://www.cbsnews.com/assets/live_cards/video-door-cbsnews@1x.png) ### CBS News 24/7 live live: CBS News 24/7](https://www.cbsnews.com/live/)[![Image 23: Sen. Rand Paul o"
+                            },
+                            {
+                                "title": "What Happens on March 30, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/march/30",
+                                "snippet": "# What Happens on March 30, 2026. ## About March 30, 2026. **Day of the Week:** Monday. **How Far Away?** 2 days. ## No Entries for March 30, 2026. * See 128 things that happened in **March 2026**. * "
+                            },
+                            {
+                                "title": "Florida Matters Live & Local - March 30, 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=tBkYvKIHL0A",
+                                "snippet": "President Trump Participates in a Cabinet Meeting, Mar. 26, 2026 ... Top U.S. & World Headlines — March 26, 2026. Democracy Now! New. 51K"
+                            },
+                            {
+                                "title": "Headlines for March 02, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/3/2/headlines",
+                                "snippet": "[](https://www.facebook.com/sharer/sharer.php?u=https://www.democracynow.org/2026/3/2/headlines/us_and_israel_launch_joint_attack_on_iran_killing_supreme_leader_and_hundreds_of_civilians \"Share on Fac"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 30",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for March 30: Ian Ziering, Justin Moore - UPI.com",
+                                "url": "https://www.upi.com/Entertainment_News/2024/03/30/Famous-birthdays-for-March-30-Ian-Ziering-Justin-Moore/6841711761086/",
+                                "snippet": "Actor Ian Ziering turns 60 and singer Justin Moore turns 40, among the famous birthdays for March 30."
+                            },
+                            {
+                                "title": "March 30 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/march-30-holidays/",
+                                "snippet": "# What is March 30th? ## Holidays. ### Doctors' Day. ### Grass is Always Browner on the Other Side of the Fence Day. ### National Fitness Recovery Day. ### National Folding Laundry Day. ### National J"
+                            },
+                            {
+                                "title": "MARCH 30 | Birthday and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-30-birthday-and-events",
+                                "snippet": "Notable Birthdays for March 30: Joseph Smith (1790-1877) - Rear Admiral for the Union Navy. Mary Calkins (1863-1930) - One of the first key females in"
+                            },
+                            {
+                                "title": "Athletes Born March 30 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march30-athlete.html",
+                                "snippet": "Famous Athletes Born March 30 including Sergio Ramos, Juraj Slafkovský, Jota Filipe, Richard Sherman, Kalyn Ponga and many more."
+                            },
+                            {
+                                "title": "March 30 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/march30.html",
+                                "snippet": "TikTok Stars born March 30. YouTube Stars born March 30. Singers born March 30. Rappers born March 30. Actors born March 30. Actresses born March 30."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Miami Open just concluded (Mar 15–29, 2026)",
+                        "suggested_question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+                        "connection": "The Miami Open wrapped up yesterday, making a rankings challenge about the tournament’s all-time title leaders perfectly timely."
+                    },
+                    {
+                        "topic": "Oscars took place in early March 2026",
+                        "suggested_question": "Rank the top 5 films with the most Academy Award wins ever (from most to fifth-most).",
+                        "connection": "Awards season peaked earlier this month, so revisiting the all-time Oscar juggernauts fits the moment."
+                    },
+                    {
+                        "topic": "SXSW 2026 just ran Mar 12–18 (tech + dev buzz)",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 (from highest to fifth-highest).",
+                        "connection": "With developers and technologists converging at SXSW, a current snapshot of language popularity is spot-on."
+                    },
+                    {
+                        "topic": "National Doctors’ Day (Mar 30)",
+                        "suggested_question": "Rank the top 5 countries by total Nobel Prize in Physiology or Medicine laureates (from most to fifth-most, all-time).",
+                        "connection": "To honor Doctors’ Day, this question highlights nations most recognized for medical breakthroughs."
+                    },
+                    {
+                        "topic": "Earth Hour was this past weekend (late March)",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from renewables (from highest to fifth-highest; latest available year).",
+                        "connection": "Earth Hour spotlights clean energy, so comparing leaders in renewable electricity is timely and topical."
+                    },
+                    {
+                        "topic": "Spring travel surge and calendars listing major events",
+                        "suggested_question": "Rank the top 5 busiest airports in the world by total passengers in 2025 (from most to fifth-most).",
+                        "connection": "With spring travel ramping up, a look at last year’s busiest hubs connects to the current travel season."
+                    },
+                    {
+                        "topic": "Van Gogh’s birthday (Mar 30) and ongoing art-season buzz",
+                        "suggested_question": "Rank the 5 most expensive paintings ever sold at auction (by hammer price, from highest to fifth-highest).",
+                        "connection": "Marking Van Gogh’s birthday with an art-market challenge taps into cultural interest this week."
+                    },
+                    {
+                        "topic": "Student STEM season (science fairs and academic competitions in March)",
+                        "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) gold medals (from most to fifth-most, all-time).",
+                        "connection": "With March packed with science fairs and awards, a global math-competition leaderboard fits the academic moment."
+                    },
+                    {
+                        "topic": "Quarter-end economic focus",
+                        "suggested_question": "Rank the top 5 currencies by share of global foreign-exchange reserves (from highest to fifth-highest; latest IMF COFER data).",
+                        "connection": "As Q1 ends, investors watch reserve composition—making a timely, data-driven finance ranking."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Easter candy season (early April)",
+                        "suggested_question": "Rank the top 5 countries by per-capita chocolate consumption (from highest to fifth-highest; latest available data).",
+                        "connection": "With Easter around the corner, a chocolate consumption ranking is a sweet seasonal tie-in."
+                    },
+                    {
+                        "topic": "Seasonal fallback: National Reading Month (March, U.S.)",
+                        "suggested_question": "Rank the top 5 best-selling book series of all time (from most to fifth-most copies sold).",
+                        "connection": "March celebrates reading, so a definitive best-sellers challenge fits the cultural moment."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "Miami Open just concluded (Mar 15–29, 2026)",
+                        "suggested_question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions are related to tennis or the Miami Open. The proposed topic covers a specific sports event, which is a different subject area from all the prior topics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Oscars took place in early March 2026",
+                        "suggested_question": "Rank the top 5 films with the most Academy Award wins ever (from most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions pertain to cinema, awards, or the Academy Awards, making this a distinctly new topic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW 2026 just ran Mar 12–18 (tech + dev buzz)",
+                        "suggested_question": "Rank the top 5 programming languages in the TIOBE Index for March 2026 (from highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on programming languages and the TIOBE Index, which does not overlap with any of the recent topics related to startups, convention centers, languages, heritage sites, rainfall, NCAA basketball, or planets.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Doctors’ Day (Mar 30)",
+                        "suggested_question": "Rank the top 5 countries by total Nobel Prize in Physiology or Medicine laureates (from most to fifth-most, all-time).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Nobel Prize laureates in Physiology or Medicine, which is unrelated to any of the recent topics such as entrepreneurship, languages, heritage sites, rainfall, NCAA basketball, or planetary sizes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Hour was this past weekend (late March)",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from renewables (from highest to fifth-highest; latest available year).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about renewable energy and electricity generation does not overlap with recent questions, which cover startups, convention centers, languages, UNESCO sites, rainfall, basketball, and planetary sizes. It introduces a different subject area related to energy and sustainability.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel surge and calendars listing major events",
+                        "suggested_question": "Rank the top 5 busiest airports in the world by total passengers in 2025 (from most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions are related to global air travel, airport rankings, or passenger statistics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Van Gogh’s birthday (Mar 30) and ongoing art-season buzz",
+                        "suggested_question": "Rank the 5 most expensive paintings ever sold at auction (by hammer price, from highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to art and specifically high-value paintings sold at auction, which does not overlap with any of the recent questions that cover subjects like startups, convention centers, languages, UNESCO sites, rainfall, sports tournaments, or planetary sizes.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Student STEM season (science fairs and academic competitions in March)",
+                        "suggested_question": "Rank the top 5 countries by total International Mathematical Olympiad (IMO) gold medals (from most to fifth-most, all-time).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on academic competitions (International Mathematical Olympiad), which is unrelated to any of the recent questions spanning startups, convention centers, languages, heritage sites, rainfall, basketball, and planetary diameters.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Quarter-end economic focus",
+                        "suggested_question": "Rank the top 5 currencies by share of global foreign-exchange reserves (from highest to fifth-highest; latest IMF COFER data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on global foreign-exchange reserves pertains to international finance and economics, while none of the recent questions cover this subject area or theme.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Easter candy season (early April)",
+                        "suggested_question": "Rank the top 5 countries by per-capita chocolate consumption (from highest to fifth-highest; latest available data).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on global chocolate consumption, which is unrelated to any of the listed recent topics that deal with startups, convention centers, languages, UNESCO sites, weather, basketball, or planets.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: National Reading Month (March, U.S.)",
+                        "suggested_question": "Rank the top 5 best-selling book series of all time (from most to fifth-most copies sold).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on best-selling book series focuses on literature, while none of the recent questions relate to books, literature, or publishing.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 42
         }
     ]
 }

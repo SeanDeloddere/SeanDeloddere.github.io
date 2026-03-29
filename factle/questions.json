@@ -1434,6 +1434,41 @@
                 "Earth"
             ],
             "source": "https://www.quora.com/What-are-the-planets-from-smallest-to-largest"
+        },
+        {
+            "id": 42,
+            "date": "2026-03-30",
+            "question": "Rank the top 5 ATP players by total Miami Open men’s singles titles (from most to fifth-most).",
+            "options": [
+                "Andre Agassi",
+                "Novak Djokovic",
+                "Roger Federer",
+                "Pete Sampras",
+                "Andy Murray",
+                "Rafael Nadal",
+                "John Isner",
+                "Jim Courier",
+                "Michael Chang",
+                "Gustavo Kuerten",
+                "Marcelo Ríos",
+                "Thomas Muster",
+                "Tim Mayotte",
+                "Miloslav Mečíř",
+                "Mats Wilander",
+                "Lleyton Hewitt",
+                "Marat Safin",
+                "David Nalbandian",
+                "Tomas Berdych",
+                "Stan Wawrinka"
+            ],
+            "answers": [
+                "Andre Agassi",
+                "Novak Djokovic",
+                "Roger Federer",
+                "Pete Sampras",
+                "Andy Murray"
+            ],
+            "source": "https://www.miamiopen.com/records-stats/"
         }
     ]
 }
