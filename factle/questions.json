@@ -1469,6 +1469,41 @@
                 "Andy Murray"
             ],
             "source": "https://www.miamiopen.com/records-stats/"
+        },
+        {
+            "id": 43,
+            "date": "2026-03-31",
+            "question": "Rank the top five countries by total FIFA Men's World Cup titles (as of 2022), breaking ties by most recent title.",
+            "options": [
+                "Brazil",
+                "Germany",
+                "Italy",
+                "Argentina",
+                "France",
+                "Uruguay",
+                "Spain",
+                "England",
+                "Netherlands",
+                "Portugal",
+                "Belgium",
+                "Croatia",
+                "Mexico",
+                "Sweden",
+                "Hungary",
+                "Russia",
+                "Switzerland",
+                "Chile",
+                "United States",
+                "Denmark"
+            ],
+            "answers": [
+                "Brazil",
+                "Germany",
+                "Italy",
+                "Argentina",
+                "France"
+            ],
+            "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
         }
     ]
 }

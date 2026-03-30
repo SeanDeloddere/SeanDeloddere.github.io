@@ -38467,6 +38467,1182 @@
                 ]
             },
             "question_id": 42
+        },
+        {
+            "date": "2026-03-31",
+            "topics_discovered": [
+                {
+                    "topic": "MLB Opening Day 2026",
+                    "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day wins, from most to fifth-most.",
+                    "connection": "MLB Opening Day just kicked off the season this week, making baseball history and records especially timely."
+                },
+                {
+                    "topic": "Christopher Walken's birthday (March 31)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest).",
+                    "connection": "The Oscar-winning actor celebrates his birthday today (March 31), perfect for a cinema-themed ranking tied to his filmography."
+                },
+                {
+                    "topic": "SXSW music season + 2025–2026 awards calendar",
+                    "suggested_question": "Rank the 5 artists with the most Grammy Awards ever, from most to fifth-most.",
+                    "connection": "SXSW wrapped in mid-March and the awards calendar is in full swing—spotlighting all-time Grammy leaders fits the moment in music."
+                },
+                {
+                    "topic": "Mom and Pop Business Owners Day (March 29)",
+                    "suggested_question": "Rank the top 5 U.S. states by total number of small businesses (SBA-defined), from most to fifth-most.",
+                    "connection": "Observed March 29, this week shines a light on small businesses—ranking states by small business counts is timely and data-driven."
+                },
+                {
+                    "topic": "International Day of Happiness (March 20) + World Happiness Report 2026",
+                    "suggested_question": "Rank the top 5 countries in the World Happiness Report 2026 by overall score (highest to fifth-highest).",
+                    "connection": "The Day of Happiness falls in March and the latest report is typically released around now—perfect for a current, verifiable ranking."
+                },
+                {
+                    "topic": "Holi (March 4, 2026)",
+                    "suggested_question": "Rank the top 5 countries by Hindu population, from most to fifth-most.",
+                    "connection": "Holi was celebrated earlier this month, making a demographic look at Hindu populations globally relevant and timely."
+                },
+                {
+                    "topic": "Spring Break travel surge",
+                    "suggested_question": "Rank the top 5 busiest U.S. airports by total passengers in 2025, from most to fifth-most.",
+                    "connection": "Late March and early April bring peak Spring Break travel—airport traffic rankings are highly relevant right now."
+                },
+                {
+                    "topic": "Education and Sharing Day (March 29)",
+                    "suggested_question": "Rank the top 5 countries by OECD PISA 2022 mathematics scores (highest to fifth-highest).",
+                    "connection": "This education-focused observance invites a timely, objective look at global student performance via PISA scores."
+                },
+                {
+                    "topic": "Easter candy season (early April)",
+                    "suggested_question": "Rank the top 5 cocoa bean–producing countries in the latest season (by tonnes), from most to fifth-most.",
+                    "connection": "With Easter days away and chocolate sales peaking, a cocoa production ranking is seasonally on point and verifiable."
+                },
+                {
+                    "topic": "Seasonal fallback — Earth Month (April)",
+                    "suggested_question": "Rank the top 5 countries by installed solar photovoltaic capacity (in GW) as of end-2025, from most to fifth-most.",
+                    "connection": "Earth Month starts April 1—clean energy capacity rankings are timely, globally relevant, and clearly sourced."
+                },
+                {
+                    "topic": "Seasonal fallback — National Poetry Month (April)",
+                    "suggested_question": "Rank the top 5 poets by total Pulitzer Prizes for Poetry won, from most to fifth-most.",
+                    "connection": "National Poetry Month begins tomorrow, making a Pulitzer Poetry leaderboard a fitting cultural challenge."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "MLB Opening Day 2026",
+                    "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day wins, from most to fifth-most.",
+                    "connection": "MLB Opening Day just kicked off the season this week, making baseball history and records especially timely.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about MLB franchises and their all-time Opening Day wins is unique and not similar to any previously used questions, as none of the existing questions relate to MLB, baseball, or Opening Day statistics."
+                    },
+                    "generated_question": {
+                        "question": "Rank the MLB franchises with the most all-time Opening Day wins (through Opening Day 2026), from most to fifth-most.",
+                        "answers": [
+                            "Chicago Cubs",
+                            "Los Angeles Dodgers",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "San Francisco Giants"
+                        ],
+                        "distractors": [
+                            "New York Yankees",
+                            "Detroit Tigers",
+                            "Chicago White Sox",
+                            "Boston Red Sox",
+                            "Cleveland Guardians",
+                            "Oakland Athletics",
+                            "Minnesota Twins",
+                            "Baltimore Orioles",
+                            "New York Mets",
+                            "Houston Astros",
+                            "Milwaukee Brewers",
+                            "Texas Rangers",
+                            "Los Angeles Angels",
+                            "Toronto Blue Jays",
+                            "Seattle Mariners"
+                        ],
+                        "suggested_source": "https://www.statmuse.com/mlb/ask?q=most+opening+day+wins+by+a+team"
+                    },
+                    "verification_search_iter0": {
+                        "query": "most Opening Day wins by MLB franchise all time",
+                        "sources_found": [
+                            {
+                                "title": "The New York Mets have the best all-time Opening Day winning ...",
+                                "url": "https://www.facebook.com/BaseballHistoryDork/posts/the-new-york-mets-have-the-best-all-time-opening-day-winning-percentage-among-al/634101709393031/"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "MLB Opening Day records: Mets lead all-time, Yankees start season",
+                                "url": "https://athlonsports.com/mlb/mlb-opening-day-records-mets-yankees-2026"
+                            },
+                            {
+                                "title": "MLB Opening Day Records Reveal Surprising Team With Best All ...",
+                                "url": "https://www.yardbarker.com/mlb/articles/mlb_opening_day_records_reveal_surprising_team_with_best_all_time_start/s1_17615_43645316"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources give specific numeric data or rankings for MLB teams with the most all-time Opening Day wins (as opposed to winning percentage). The data available discusses winning percentages, the most Opening Day wins by a team generally, and other related metrics, but it does not confirm or refute the specific ranking or numeric count of wins for the teams listed in the user's question.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Los Angeles Dodgers",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the MLB franchises with the most all-time Opening Day wins (through Opening Day 2026), from most to fifth-most. Chicago Cubs Los Angeles Dodgers ranking",
+                        "sources_found": [
+                            {
+                                "title": "Best MLB teams on Opening Day by winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "MLB Opening Day records: Mets lead all-time, Yankees start season",
+                                "url": "https://athlonsports.com/mlb/mlb-opening-day-records-mets-yankees-2026"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "MLB Opening Day Records Reveal Surprising Team With Best All ...",
+                                "url": "https://www.yardbarker.com/mlb/articles/mlb_opening_day_records_reveal_surprising_team_with_best_all_time_start/s1_17615_43645316"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources include comprehensive or authoritative information about the MLB franchises with the most all-time Opening Day wins through 2026. While some mention overall Opening Day performance specifics, including winning percentages, they do not provide explicit rankings or discuss all-time Opening Day wins for the specified teams. Therefore, the correctness of the proposed answers cannot be verified or corrected.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Los Angeles Dodgers",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the MLB franchises with the most all-time Opening Day wins (through Opening Day 2026), from most to fifth-most. Chicago Cubs Los Angeles Dodgers ranking",
+                        "sources_found": [
+                            {
+                                "title": "Best MLB teams on Opening Day by winning percentage",
+                                "url": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                            },
+                            {
+                                "title": "MLB Opening Day records: Mets lead all-time, Yankees start season",
+                                "url": "https://athlonsports.com/mlb/mlb-opening-day-records-mets-yankees-2026"
+                            },
+                            {
+                                "title": "Which MLB Teams Had The Most Opening Day Wins | StatMuse",
+                                "url": "https://www.statmuse.com/mlb/ask/which-mlb-teams-had-the-most-opening-day-wins"
+                            },
+                            {
+                                "title": "The 9 MLB Teams That Have Historically Played Best On Opening Day",
+                                "url": "https://brobible.com/sports/article/mlb-teams-best-records-opening-day/"
+                            },
+                            {
+                                "title": "MLB Opening Day Records Reveal Surprising Team With Best All ...",
+                                "url": "https://www.yardbarker.com/mlb/articles/mlb_opening_day_records_reveal_surprising_team_with_best_all_time_start/s1_17615_43645316"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "None of the provided sources contain specific data on the all-time Opening Day wins for the MLB franchises as of 2026. While they reference Opening Day winning percentages, historical moments, and best starts, no source provides a direct ranking or numeric values for total Opening Day wins for the teams mentioned. Therefore, the accuracy and order of the proposed list cannot be verified or corrected.",
+                        "proposed_answers": [
+                            "Chicago Cubs",
+                            "Los Angeles Dodgers",
+                            "Pittsburgh Pirates",
+                            "St. Louis Cardinals",
+                            "San Francisco Giants"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.mlb.com/news/opening-day-wins-by-mlb-team-c268497122"
+                    }
+                },
+                {
+                    "topic": "Christopher Walken's birthday (March 31)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest).",
+                    "connection": "The Oscar-winning actor celebrates his birthday today (March 31), perfect for a cinema-themed ranking tied to his filmography.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about Christopher Walken's highest-grossing films is unique and does not overlap with previous questions, as none of them focus on box office rankings or specific films featuring a particular actor."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest).",
+                        "answers": [
+                            "The Jungle Book (2016)",
+                            "Catch Me If You Can (2002)",
+                            "Wedding Crashers (2005)",
+                            "Batman Returns (1992)",
+                            "Click (2006)"
+                        ],
+                        "distractors": [
+                            "Pulp Fiction (1994)",
+                            "Sleepy Hollow (1999)",
+                            "Hairspray (2007)",
+                            "A View to a Kill (1985)",
+                            "Man on Fire (2004)",
+                            "The Stepford Wives (2004)",
+                            "The Rundown (2003)",
+                            "Mousehunt (1997)",
+                            "Joe Dirt (2001)",
+                            "Seven Psychopaths (2012)",
+                            "The Dead Zone (1983)",
+                            "Wayne's World 2 (1993)",
+                            "The Deer Hunter (1978)",
+                            "King of New York (1990)",
+                            "Balls of Fury (2007)"
+                        ],
+                        "suggested_source": "https://www.the-numbers.com/person/74610101-Christopher-Walken"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Christopher Walken highest grossing films worldwide box office The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Christopher Walken's 14 Highest-Grossing Movies – Adjusted for ...",
+                                "url": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                            },
+                            {
+                                "title": "Christopher Walken's $237M Fantasy Movie Fast-Forwards Its Way ...",
+                                "url": "https://screenrant.com/click-hbo-max-streaming-success-february-2026/"
+                            },
+                            {
+                                "title": "walken3333 - Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/walken3333/"
+                            },
+                            {
+                                "title": "Christopher Walken Movies | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/"
+                            },
+                            {
+                                "title": "All Christopher Walken Movies Ranked | Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/guide/christopher-walken-movies/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source from GeekyWhale, 'The Jungle Book' (2016) is Christopher Walken's highest-grossing film at the worldwide box-office. The list from the same source shows 'Pulp Fiction' (1994) as second, followed by 'Catch Me If You Can' (2002) at third, 'Batman Returns' (1992) at fourth, and 'Click' (2006) at fifth. This corrected order and the associated worldwide gross revenues better match the detailed source data than the provided ranking.",
+                        "proposed_answers": [
+                            "The Jungle Book (2016)",
+                            "Catch Me If You Can (2002)",
+                            "Wedding Crashers (2005)",
+                            "Batman Returns (1992)",
+                            "Click (2006)"
+                        ],
+                        "corrected_answers": [
+                            "The Jungle Book (2016)",
+                            "Pulp Fiction (1994)",
+                            "Catch Me If You Can (2002)",
+                            "Batman Returns (1992)",
+                            "Click (2006)"
+                        ],
+                        "best_source": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest). The Jungle Book (2016) vs Pulp Fiction (1994) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Christopher Walken's 14 Highest-Grossing Movies – Adjusted for ...",
+                                "url": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                            },
+                            {
+                                "title": "Highest grossing 2026 movies at the box office so far #ironlung ...",
+                                "url": "https://www.instagram.com/reel/DUodU95iEtV/"
+                            },
+                            {
+                                "title": "Christopher Walken Movies | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/"
+                            },
+                            {
+                                "title": "Top-Grossing Film for Each Year From 1977 to 2025 - Billboard",
+                                "url": "https://www.billboard.com/lists/top-grossing-films-each-year/"
+                            },
+                            {
+                                "title": "The 10 Highest-Grossing Movies To Surpass $1 Billion at the Global ...",
+                                "url": "https://www.aol.com/articles/10-highest-grossing-movies-surpass-191754732.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "None of the provided sources explicitly confirm the ordering of the films based on worldwide box office gross, either adjusted or unadjusted for inflation. The sources are too disparate or do not contain concrete numerical values.",
+                        "best_source": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Christopher Walken highest grossing films worldwide box office The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Christopher Walken's 14 Highest-Grossing Movies – Adjusted for ...",
+                                "url": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                            },
+                            {
+                                "title": "Christopher Walken's $237M Fantasy Movie Fast-Forwards Its Way ...",
+                                "url": "https://screenrant.com/click-hbo-max-streaming-success-february-2026/"
+                            },
+                            {
+                                "title": "walken3333 - Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/walken3333/"
+                            },
+                            {
+                                "title": "Christopher Walken Movies | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/"
+                            },
+                            {
+                                "title": "All Christopher Walken Movies Ranked | Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/guide/christopher-walken-movies/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The Geeky Whale source provides clear worldwide box office data for Christopher Walken's films, confirming the grossing amounts and adjusting for inflation where appropriate. The proposed answers are incorrect in order, as 'Catch Me If You Can' grossed more than 'Pulp Fiction' and 'Batman Returns' in worldwide box office, making the need for reordering necessary.",
+                        "proposed_answers": [
+                            "The Jungle Book (2016)",
+                            "Pulp Fiction (1994)",
+                            "Catch Me If You Can (2002)",
+                            "Batman Returns (1992)",
+                            "Click (2006)"
+                        ],
+                        "corrected_answers": [
+                            "The Jungle Book (2016)",
+                            "Catch Me If You Can (2002)",
+                            "Batman Returns (1992)",
+                            "Pulp Fiction (1994)",
+                            "Click (2006)"
+                        ],
+                        "best_source": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest). The Jungle Book (2016) vs Catch Me If You Can (2002) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2025 Highest Grossing Movies Worldwide - IMDb",
+                                "url": "https://www.imdb.com/list/ls597681409/"
+                            },
+                            {
+                                "title": "Global Box Office Projected To Reach $35 Billion In 2026 – Analysts",
+                                "url": "https://www.yahoo.com/entertainment/movies/articles/global-box-office-projected-reach-090754462.html"
+                            },
+                            {
+                                "title": "The 16 Biggest Box Office Bombs of All Time | HowStuffWorks",
+                                "url": "https://entertainment.howstuffworks.com/the-10-biggest-box-office-flops-of-all-time.htm"
+                            },
+                            {
+                                "title": "Sitemap - MovieMaker Magazine",
+                                "url": "https://www.moviemaker.com/sitemap/"
+                            },
+                            {
+                                "title": "Ice Cube's Iconic Comedy With 2 Sequels Tops Free Streaming Charts",
+                                "url": "https://www.aol.com/articles/ice-cube-iconic-comedy-2-113206279.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided sources do not contain comprehensive or specific box office figures for Christopher Walken's films to confirm the corrected order.",
+                        "best_source": "https://www.imdb.com/list/ls597681409/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Christopher Walken highest grossing films worldwide box office The Numbers",
+                        "sources_found": [
+                            {
+                                "title": "Christopher Walken's 14 Highest-Grossing Movies – Adjusted for ...",
+                                "url": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                            },
+                            {
+                                "title": "Christopher Walken's $237M Fantasy Movie Fast-Forwards Its Way ...",
+                                "url": "https://screenrant.com/click-hbo-max-streaming-success-february-2026/"
+                            },
+                            {
+                                "title": "walken3333 - Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/walken3333/"
+                            },
+                            {
+                                "title": "Christopher Walken Movies | Ultimate Movie Rankings",
+                                "url": "https://www.ultimatemovierankings.com/christopher-walken-movies/"
+                            },
+                            {
+                                "title": "All Christopher Walken Movies Ranked | Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/guide/christopher-walken-movies/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The Geeky Whale source provides rankings for Christopher Walken's films adjusted for inflation, showing that 'The Jungle Book' grossed $966.6M, followed by 'Catch Me If You Can' at $352.1M, 'Batman Returns' at $266.8M, 'Click' at $237.7M, and 'Pulp Fiction' at $213.9M. The original order given in the question had 'Pulp Fiction' listed above 'Click', which is incorrect based on the stated revenues. The corrected order is reflected in the JSON object.",
+                        "proposed_answers": [
+                            "The Jungle Book (2016)",
+                            "Catch Me If You Can (2002)",
+                            "Batman Returns (1992)",
+                            "Pulp Fiction (1994)",
+                            "Click (2006)"
+                        ],
+                        "corrected_answers": [
+                            "The Jungle Book (2016)",
+                            "Catch Me If You Can (2002)",
+                            "Batman Returns (1992)",
+                            "Click (2006)",
+                            "Pulp Fiction (1994)"
+                        ],
+                        "best_source": "https://geekywhale.com/christopher-walkens-highest-grossing-movies-adjusted-for-inflation/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest). The Jungle Book (2016) vs Catch Me If You Can (2002) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2025 Highest Grossing Movies Worldwide - IMDb",
+                                "url": "https://www.imdb.com/list/ls597681409/"
+                            },
+                            {
+                                "title": "Global Box Office Projected To Reach $35 Billion In 2026 – Analysts",
+                                "url": "https://www.yahoo.com/entertainment/movies/articles/global-box-office-projected-reach-090754462.html"
+                            },
+                            {
+                                "title": "The 16 Biggest Box Office Bombs of All Time | HowStuffWorks",
+                                "url": "https://entertainment.howstuffworks.com/the-10-biggest-box-office-flops-of-all-time.htm"
+                            },
+                            {
+                                "title": "Sitemap - MovieMaker Magazine",
+                                "url": "https://www.moviemaker.com/sitemap/"
+                            },
+                            {
+                                "title": "Ice Cube's Iconic Comedy With 2 Sequels Tops Free Streaming Charts",
+                                "url": "https://www.aol.com/articles/ice-cube-iconic-comedy-2-113206279.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data provided does not explicitly confirm or refute the corrected order of highest-grossing films featuring Christopher Walken. None of the sources provided specific box office gross numbers for the corrected films to verify their ranking.",
+                        "best_source": null
+                    }
+                },
+                {
+                    "topic": "SXSW music season + 2025–2026 awards calendar",
+                    "suggested_question": "Rank the 5 artists with the most Grammy Awards ever, from most to fifth-most.",
+                    "connection": "SXSW wrapped in mid-March and the awards calendar is in full swing—spotlighting all-time Grammy leaders fits the moment in music.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is essentially identical to the previously used question ID 9, both asking for the ranking of the top 5 artists by total Grammy Awards won, with only the phrasing varying slightly."
+                    }
+                },
+                {
+                    "topic": "Mom and Pop Business Owners Day (March 29)",
+                    "suggested_question": "Rank the top 5 U.S. states by total number of small businesses (SBA-defined), from most to fifth-most.",
+                    "connection": "Observed March 29, this week shines a light on small businesses—ranking states by small business counts is timely and data-driven.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question ranks U.S. states by the total number of SBA-defined small businesses, which is distinct from any previously used question. While there is another question about U.S. states (ID 30), it involves ancestry percentages and not business statistics, making the new question different in both focus and subject matter."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by total number of small businesses (as defined by the SBA), from most to fifth-most.",
+                        "answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "New York",
+                            "Illinois"
+                        ],
+                        "distractors": [
+                            "Pennsylvania",
+                            "Georgia",
+                            "North Carolina",
+                            "Ohio",
+                            "New Jersey",
+                            "Michigan",
+                            "Arizona",
+                            "Washington",
+                            "Virginia",
+                            "Tennessee",
+                            "Massachusetts",
+                            "Indiana",
+                            "Colorado",
+                            "Maryland",
+                            "Missouri"
+                        ],
+                        "suggested_source": "https://advocacy.sba.gov/data/small-business-profiles/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "SBA Office of Advocacy small business profiles number of small businesses by state 2023 2024 ranking California Texas Florida New York Illinois",
+                        "sources_found": [
+                            {
+                                "title": "[PDF] 2025 Small Business Profile - Office of Advocacy - SBA",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2025/06/United_States_2025-State-Profile.pdf"
+                            },
+                            {
+                                "title": "[PDF] Small Business Profiles for the States, Territories, and Nation 2024",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2024/12/State_Profiles_2024_11_04.pdf"
+                            },
+                            {
+                                "title": "[PDF] 2023 Small Business Profile - SBA Office of Advocacy",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2023/11/2023-Small-Business-Economic-Profile-CA.pdf"
+                            },
+                            {
+                                "title": "[PDF] 2023 Small Business Profile - SBA Office of Advocacy",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2023/11/2023-Small-Business-Economic-Profile-IL.pdf"
+                            },
+                            {
+                                "title": "[PDF] 2023 Small Business Profiles for the States, Territories, and Nation",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2023/11/State-Profiles-2023.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources contain data on small businesses by industry and some state-level small business data, but they do not offer a complete ranking of U.S. states by total number of small businesses. While snippets of data for individual states like California and Illinois are mentioned, the sources do not have sufficient information to verify the proposed ranking or determine an accurate ordering of the top 5 states.",
+                        "proposed_answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "New York",
+                            "Illinois"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://advocacy.sba.gov/wp-content/uploads/2023/11/State-Profiles-2023.pdf"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by total number of small businesses (as defined by the SBA), from most to fifth-most. California Texas ranking",
+                        "sources_found": [
+                            {
+                                "title": "Number of Small Businesses by State - Oberlo",
+                                "url": "https://www.oberlo.com/statistics/number-of-small-businesses-by-state"
+                            },
+                            {
+                                "title": "The 10 best states for small businesses in 2026: Report",
+                                "url": "https://www.beckersasc.com/new-asc-development/the-10-best-states-for-small-businesses-in-2026-report/"
+                            },
+                            {
+                                "title": "Top U.S. states for small business growth - PeopleKeep",
+                                "url": "https://www.peoplekeep.com/blog/top-us-states-for-small-business-growth"
+                            },
+                            {
+                                "title": "[PDF] State Rankings by Small Business Economic Indicators",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2018/11/2018-State-Small-Business-Rankings-Top-10.pdf"
+                            },
+                            {
+                                "title": "[PDF] 2025 Small Business Profile - Office of Advocacy - SBA",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2025/06/United_States_2025-State-Profile.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the data from PeopleKeep, California has the most small businesses at 4.2 million, followed by Texas with 3.1 million small businesses. Although exact figures are not provided for Florida, New York, and Illinois, multiple sources indicate that Florida ranks third, New York ranks fourth, and Georgia has more small businesses than Illinois in fifth place, based on past rankings and trends.",
+                        "proposed_answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "New York",
+                            "Illinois"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "New York",
+                            "Georgia"
+                        ],
+                        "best_source": "https://www.peoplekeep.com/blog/top-us-states-for-small-business-growth"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by total number of small businesses (as defined by the SBA), from most to fifth-most. California vs Texas ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Best States to Start a Small Business 2026 - MoneyGeek.com",
+                                "url": "https://www.moneygeek.com/insurance/business/best-states-for-small-business/"
+                            },
+                            {
+                                "title": "[PDF] State Rankings by Small Business Economic Indicators",
+                                "url": "https://advocacy.sba.gov/wp-content/uploads/2018/11/2018-State-Small-Business-Rankings-Top-10.pdf"
+                            },
+                            {
+                                "title": "The 10 best states for small businesses in 2026: Report",
+                                "url": "https://www.beckersasc.com/new-asc-development/the-10-best-states-for-small-businesses-in-2026-report/"
+                            },
+                            {
+                                "title": "The 10 Best States For Business 2026 - Workwell Global",
+                                "url": "https://workwell-global.com/blog/best-states-for-business"
+                            },
+                            {
+                                "title": "The 5 best states for starting a business in 2026 — and the 5 worst",
+                                "url": "https://qz.com/best-states-start-a-business-2026"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide clear quantitative rankings or total small business counts by state, making it impossible to confirm the corrected order strictly.",
+                        "best_source": "https://advocacy.sba.gov/wp-content/uploads/2018/11/2018-State-Small-Business-Rankings-Top-10.pdf"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. states by total number of small businesses (as defined by the SBA), from most to fifth-most. California Texas ranking",
+                        "sources_found": [
+                            {
+                                "title": "The 10 best states for small businesses in 2026: Report",
+                                "url": "https://www.beckersasc.com/new-asc-development/the-10-best-states-for-small-businesses-in-2026-report/"
+                            },
+                            {
+                                "title": "The 5 best states for starting a business in 2026 — and the 5 worst",
+                                "url": "https://www.facebook.com/quartznews/posts/the-5-best-states-for-starting-a-business-in-2026-and-the-5-worst-its-crucial-to/1253920076603808/"
+                            },
+                            {
+                                "title": "The 10 Best States For Business 2026 - Workwell Global",
+                                "url": "https://workwell-global.com/blog/best-states-for-business"
+                            },
+                            {
+                                "title": "Best States to Start a Small Business 2026 - MoneyGeek.com",
+                                "url": "https://www.moneygeek.com/insurance/business/best-states-for-small-business/"
+                            },
+                            {
+                                "title": "2025 Small Business Profiles for the States, Territories, and Nation",
+                                "url": "https://advocacy.sba.gov/2025/06/30/2025-small-business-profiles-for-the-states-territories-and-nation/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "Although the SBA source appears to contain relevant data on small businesses in U.S. states, the provided excerpt does not include actual numbers or rankings for the states based on total small businesses. The other sources focus on unrelated metrics like business climate rankings and conditions, which are not directly tied to the count of small businesses in each state. Without specific numerical data or rankings from the provided sources, the question cannot be verified or corrected.",
+                        "proposed_answers": [
+                            "California",
+                            "Texas",
+                            "Florida",
+                            "New York",
+                            "Georgia"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://advocacy.sba.gov/2025/06/30/2025-small-business-profiles-for-the-states-territories-and-nation/"
+                    }
+                },
+                {
+                    "topic": "International Day of Happiness (March 20) + World Happiness Report 2026",
+                    "suggested_question": "Rank the top 5 countries in the World Happiness Report 2026 by overall score (highest to fifth-highest).",
+                    "connection": "The Day of Happiness falls in March and the latest report is typically released around now—perfect for a current, verifiable ranking.",
+                    "status": "generation_failed",
+                    "reason": "LLM did not return valid question structure",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking countries in the World Happiness Report 2026 is distinct from existing questions as it focuses on happiness scores, which is unrelated to the metrics in previous questions such as population, land area, or other rankings."
+                    }
+                },
+                {
+                    "topic": "Geography",
+                    "suggested_question": "Which are the 5 largest countries by land area?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question 'Which are the 5 largest countries by land area?' is essentially the same as the previously used question with ID 13, which asks 'Rank the five largest countries by land area from largest to smallest.' Both questions address the same concept and seek the same answer."
+                    }
+                },
+                {
+                    "topic": "Rivers",
+                    "suggested_question": "Which are the 5 longest rivers in the world?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question 'Which are the 5 longest rivers in the world?' is essentially identical to ID 28, which also asks for the five longest rivers by total length."
+                    }
+                },
+                {
+                    "topic": "Languages",
+                    "suggested_question": "Which are the 5 most spoken languages by total speakers?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question is nearly identical to ID 37, which also asks about the 5 most spoken languages in the world by total number of speakers (native + second-language)."
+                    }
+                },
+                {
+                    "topic": "Solar System",
+                    "suggested_question": "Which planets in our solar system are the 5 largest by diameter?",
+                    "connection": "fallback",
+                    "status": "skipped_similar",
+                    "reason": "",
+                    "verify_iterations": 0,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question is essentially identical to question ID 41, which also asks for the five largest planets in the solar system by diameter."
+                    }
+                },
+                {
+                    "topic": "FIFA World Cup",
+                    "suggested_question": "Which countries have won the most FIFA World Cup titles?",
+                    "connection": "fallback",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "is_fallback": true,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question focuses on the countries with the most FIFA World Cup titles, a distinct topic related to soccer that does not overlap in content or scope with any of the previously used questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five countries by total FIFA Men's World Cup titles (as of 2022), breaking ties by most recent title.",
+                        "answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "distractors": [
+                            "Uruguay",
+                            "Spain",
+                            "England",
+                            "Netherlands",
+                            "Portugal",
+                            "Belgium",
+                            "Croatia",
+                            "Mexico",
+                            "Sweden",
+                            "Hungary",
+                            "Russia",
+                            "Switzerland",
+                            "Chile",
+                            "United States",
+                            "Denmark"
+                        ]
+                    },
+                    "verification_search_iter0": {
+                        "query": "most FIFA World Cup titles by country Brazil Germany Italy Argentina France site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "FIFA World Cup - Simple English Wikipedia, the free encyclopedia",
+                                "url": "https://simple.wikipedia.org/wiki/FIFA_World_Cup"
+                            },
+                            {
+                                "title": "List of FIFA World Cup finals - Simple English Wikipedia, the free ...",
+                                "url": "https://simple.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+                            },
+                            {
+                                "title": "FIFA World Cup records and statistics - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics"
+                            },
+                            {
+                                "title": "Category:FIFA World Cup–winning countries - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Category:FIFA_World_Cup%E2%80%93winning_countries"
+                            },
+                            {
+                                "title": "Germany at the FIFA World Cup - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Germany_at_the_FIFA_World_Cup"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the source data, Brazil has the most World Cup titles (5). Both Germany and Italy have 4 titles each, but Germany's most recent title was in 2014, while Italy's most recent was in 2006, so Germany ranks higher. Argentina has 3 titles (1930, 1986, and 2022), and France has 2 titles (1998 and 2018). Argentina outranks France due to having more total titles. The proposed answers matched the correct rank for 1st-3rd, but France and Argentina needed to be swapped to account for Argentina's greater number of titles (3 vs. 2).",
+                        "proposed_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "corrected_answers": [
+                            "Brazil",
+                            "Germany",
+                            "Italy",
+                            "Argentina",
+                            "France"
+                        ],
+                        "best_source": "https://simple.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top five countries by total FIFA Men's World Cup titles (as of 2022), breaking ties by most recent title. Brazil vs Germany ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Teams with the most World Cup titles",
+                                "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+                            },
+                            {
+                                "title": "Most World Cup wins by country: Brazil, Germany top list of ...",
+                                "url": "https://sports.yahoo.com/articles/most-world-cup-wins-country-090001604.html"
+                            },
+                            {
+                                "title": "Country with the most World Cup wins 2024",
+                                "url": "https://www.statista.com/statistics/266464/number-of-world-cup-titles-won-by-country-since-1930/?srsltid=AfmBOooFycbTr1n60DRN75gjV7xnZbJsEm4jgnEGGrFs8oicH5QJVUSO"
+                            },
+                            {
+                                "title": "Most World Cups by Country 2026",
+                                "url": "https://worldpopulationreview.com/country-rankings/most-world-cups-by-country"
+                            },
+                            {
+                                "title": "Top 5 Countries with the Most Men's FIFA World Cup Wins",
+                                "url": "https://www.instagram.com/reel/DRo3rkpAhGW/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order accurately ranks countries by total World Cup titles, breaking ties by the most recent title as per the source data. Brazil leads with 5 titles, followed by Germany and Italy with 4 each, Argentina with 3, and France with 2 titles (placing ahead of Uruguay due to their more recent title).",
+                        "best_source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+                    },
+                    "question_id": 43,
+                    "final_answers": [
+                        "Brazil",
+                        "Germany",
+                        "Italy",
+                        "Argentina",
+                        "France"
+                    ],
+                    "final_source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening March 31, 2026",
+                        "results": [
+                            {
+                                "title": "List of the top sporting events occurring over the next 3 months",
+                                "url": "https://www.thebiglead.com/list-of-the-top-sporting-events-occurring-over-the-next-3-months-v/",
+                                "snippet": "From international tournaments to major postseason battles and milestone seasonal openings, this period captures the energy of spring sports at its very best. Whether you follow baseball, basketball, "
+                            },
+                            {
+                                "title": "March 2026 Sports Schedule - SportBusy",
+                                "url": "https://www.sportbusy.com/calendar/2026/march/",
+                                "snippet": "February 7, 2026 – March 14, 2026· Various· Various. March 5, 2026 – March 17, 2026· Various· USA. The biggest events in March 2026 are March Madness, FIFA World Cup, MLB Opening Day, UFC 326: Hollowa"
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "Biggest sports events ahead in 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=fiAClq1m1G0",
+                                "snippet": "Some of the biggest sporting events happening in 2026 like the Winter Olympics and the FIFA World Cup."
+                            },
+                            {
+                                "title": "2026 Select March Cup - Select Soccer Club",
+                                "url": "https://selectma.com/tournaments/select-march-cup/",
+                                "snippet": "* **Diverse Age Groups:** Open to boys’ and girls’ teams from U9 to U19, the Select March Cup offers something for players of all skill levels. ### Each team will play a minimum of three games (pendin"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays March 2026",
+                        "results": [
+                            {
+                                "title": "Global Holidays and Traditions - March 2026 - LinkedIn",
+                                "url": "https://www.linkedin.com/pulse/global-holidays-traditions-march-2026-pete-karolczak-8pohc",
+                                "snippet": "This year, we celebrate on March 3rd. On the night of the Chinese Lantern Festival, streets are decorated with colorful lanterns, often with"
+                            },
+                            {
+                                "title": "A Complete List of March Holidays and Observances for 2026",
+                                "url": "https://www.today.com/life/holidays/march-holidays-and-observances-rcna64226",
+                                "snippet": "The month of March is full of holidays, happenings, observances and awareness days. Topping the list, of course, is the [First Day of Spring](https://www.today.com/life/inspiration/spring-jokes-rcna14"
+                            },
+                            {
+                                "title": "March National Holidays & Celebration Day Ideas - Successories",
+                                "url": "https://www.successories.com/holidays/march-holidays",
+                                "snippet": "# Celebrate March National Holidays 2026. If you are looking for some of the best holiday gift ideas for employees, look no further than Successories where we have gifts for all national days to celeb"
+                            },
+                            {
+                                "title": "Interfaith Calendar 2026: Major Religious Holidays, Holy Days",
+                                "url": "https://www.diversityresources.com/interfaith-calendar-2026/",
+                                "snippet": "March Inclusive Religious Calendar · March 4 – Hindu: Holi The festival of colors, celebrating the arrival of spring. · March 4 – Sikh: Hola"
+                            },
+                            {
+                                "title": "March International Days - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/international/march-international-days",
+                                "snippet": "March 29 - IG (1) · Read · MARCH 29, 2026 | VIETNAM WAR VETERANS DAY | MOM AND POP BUSINESS OWNERS DAY | EDUCATION AND SHARING DAY | LEMON... CHIFFON CAKE DAY"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences March 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "The 2026 Celebration Awards - Eventbrite",
+                                "url": "https://www.eventbrite.com/e/the-2026-celebration-awards-tickets-1980996921118",
+                                "snippet": "Join us at DeSales University Center for the Lehigh and Northampton County 2026 Celebration Awards on Wednesday, March 25th, 2026, from 12:00 PM to 3:00 PM!"
+                            },
+                            {
+                                "title": "SXSW Conferences & Festivals | March 12-18, 2026",
+                                "url": "https://sxsw.com/",
+                                "snippet": "To learn more, view the following link: [Privacy Policy](https://sxsw.com/privacy-policy). *   [Badges](https://sxsw.com/badges). *   [Comedy](https://sxsw.com/festivals/comedy/). *   [2026 Tracks](ht"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "From the Oscars to your favorite film festivals: Key 2025-2026 Award Season Dates ... March 2026. March 1 – The Actor Awards (SAG); March 5 – Oscar winner"
+                            },
+                            {
+                                "title": "March 11-12, 2026 | Charleston, SC - Reed Awards",
+                                "url": "https://thereedawards.com/dates-location/",
+                                "snippet": "# Dates & Location. ## Join Us March 11-12, 2026. ### Charleston Gaillard Center. 95 Calhoun St, Charleston, SC 29401. ## Get Your Operative Super Early Bird Ticket Now. ### Purchase a ticket today an"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week March 31, 2026",
+                        "results": [
+                            {
+                                "title": "It's all in the past: What happened on March 31",
+                                "url": "https://www.kxnet.com/news/top-stories/its-all-in-the-past-what-happened-on-march-31/",
+                                "snippet": "No Kings protest in Bismarck · NDGOP convention in Minot this weekend · Minot's first bungee fitness studio takes workouts … · F5 Project launches"
+                            },
+                            {
+                                "title": "What Happens on March 31, 2026",
+                                "url": "https://www.onthisday.com/date/2026/march/31",
+                                "snippet": "# What Happens on March 31, 2026. ## About March 31, 2026. **Day of the Week:** Tuesday. **How Far Away?** 4 days. ## No Entries for March 31, 2026. * See 128 things that happened in **March 2026**. *"
+                            },
+                            {
+                                "title": "Top U.S. & World Headlines — March 30, 2026",
+                                "url": "https://www.youtube.com/watch?v=Vd0BNacg8ZA",
+                                "snippet": "Ali Kadivar on Iran's Resilience to U.S.-Israeli War Democracy Now!81K views • 7 hours ago Live Playlist ()Mix (50+)](https://www.youtube.com/watch?v=iOWMGnYRMyc)[35:40 Deadline: White House 3/30/26 |"
+                            },
+                            {
+                                "title": "WATCH LIVE: PBS News Hour for March 30, 2026",
+                                "url": "https://www.pbs.org/newshour/",
+                                "snippet": "[![Image 12: FILE PHOTO: Aerial view of the United States military headquarters, the Pentagon](https://d3i6fh83elv35t.cloudfront.net/static/assets/images/placeholder.jpg)](https://www.pbs.org/newshour"
+                            },
+                            {
+                                "title": "5 Big News Stories Overnight - Sunday, March 29, 2026",
+                                "url": "https://www.golocalprov.com/news/5-big-news-stories-overnight-sunday-march-29-2026",
+                                "snippet": "[Skip to content](https://www.golocalprov.com/news/5-big-news-stories-overnight-sunday-march-29-2026#content). *   [News](https://www.golocalprov.com/news). *   [News](https://www.golocalprov.com/news"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days March 31",
+                        "results": [
+                            {
+                                "title": "MARCH 31 |Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/march/march-31-birthdays-and-events",
+                                "snippet": "Notable Birthdays for March 31: Mary Abigail Dodge (1833-1896) - Writer and essayist who wrote under the name Gail Hamilton."
+                            },
+                            {
+                                "title": "Famous Birthdays on March 31 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/march/31",
+                                "snippet": "* 1835 John La Farge, American painter (stained glass), born in New York City (d. * **1913** Etta Baker, American blues guitarist, born in Caldwell County, North Carolina (d. * **1915** Henry Morgan, "
+                            },
+                            {
+                                "title": "Famous birthdays for March 31: Christopher Walken, Rhea Perlman",
+                                "url": "https://www.upi.com/Entertainment_News/2025/03/31/Famous-birthdays-for-March-31-Christopher-Walken-Rhea-Perlman/3821743381646/",
+                                "snippet": "Those born on this date are under the sign of Aries. They include: Pope Pius IV in 1499, Philosopher Rene Descartes in 1596, Pope Benedict XIV in 1675."
+                            },
+                            {
+                                "title": "Today's famous birthdays list for March 31, 2022 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2022/03/todays-famous-birthdays-list-for-march-31-2022-includes-celebrities-ewan-mcgregor-chloe-zhao.html",
+                                "snippet": "Today's famous birthdays list for March 31, 2022 includes celebrities Ewan McGregor, Chloe Zhao ; Reese Witherspoon | Gal Gadot | Emilia Clarke |"
+                            },
+                            {
+                                "title": "Actors Born March 31 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/march31-actor.html",
+                                "snippet": "Famous Actors Born March 31 including Ewan McGregor, William Daniels, Christopher Walken, Daniel Mays, Damon Herriman and many more."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "MLB Opening Day 2026",
+                        "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day wins, from most to fifth-most.",
+                        "connection": "MLB Opening Day just kicked off the season this week, making baseball history and records especially timely."
+                    },
+                    {
+                        "topic": "Christopher Walken's birthday (March 31)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest).",
+                        "connection": "The Oscar-winning actor celebrates his birthday today (March 31), perfect for a cinema-themed ranking tied to his filmography."
+                    },
+                    {
+                        "topic": "SXSW music season + 2025–2026 awards calendar",
+                        "suggested_question": "Rank the 5 artists with the most Grammy Awards ever, from most to fifth-most.",
+                        "connection": "SXSW wrapped in mid-March and the awards calendar is in full swing—spotlighting all-time Grammy leaders fits the moment in music."
+                    },
+                    {
+                        "topic": "Mom and Pop Business Owners Day (March 29)",
+                        "suggested_question": "Rank the top 5 U.S. states by total number of small businesses (SBA-defined), from most to fifth-most.",
+                        "connection": "Observed March 29, this week shines a light on small businesses—ranking states by small business counts is timely and data-driven."
+                    },
+                    {
+                        "topic": "International Day of Happiness (March 20) + World Happiness Report 2026",
+                        "suggested_question": "Rank the top 5 countries in the World Happiness Report 2026 by overall score (highest to fifth-highest).",
+                        "connection": "The Day of Happiness falls in March and the latest report is typically released around now—perfect for a current, verifiable ranking."
+                    },
+                    {
+                        "topic": "Holi (March 4, 2026)",
+                        "suggested_question": "Rank the top 5 countries by Hindu population, from most to fifth-most.",
+                        "connection": "Holi was celebrated earlier this month, making a demographic look at Hindu populations globally relevant and timely."
+                    },
+                    {
+                        "topic": "Spring Break travel surge",
+                        "suggested_question": "Rank the top 5 busiest U.S. airports by total passengers in 2025, from most to fifth-most.",
+                        "connection": "Late March and early April bring peak Spring Break travel—airport traffic rankings are highly relevant right now."
+                    },
+                    {
+                        "topic": "Education and Sharing Day (March 29)",
+                        "suggested_question": "Rank the top 5 countries by OECD PISA 2022 mathematics scores (highest to fifth-highest).",
+                        "connection": "This education-focused observance invites a timely, objective look at global student performance via PISA scores."
+                    },
+                    {
+                        "topic": "Easter candy season (early April)",
+                        "suggested_question": "Rank the top 5 cocoa bean–producing countries in the latest season (by tonnes), from most to fifth-most.",
+                        "connection": "With Easter days away and chocolate sales peaking, a cocoa production ranking is seasonally on point and verifiable."
+                    },
+                    {
+                        "topic": "Seasonal fallback — Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by installed solar photovoltaic capacity (in GW) as of end-2025, from most to fifth-most.",
+                        "connection": "Earth Month starts April 1—clean energy capacity rankings are timely, globally relevant, and clearly sourced."
+                    },
+                    {
+                        "topic": "Seasonal fallback — National Poetry Month (April)",
+                        "suggested_question": "Rank the top 5 poets by total Pulitzer Prizes for Poetry won, from most to fifth-most.",
+                        "connection": "National Poetry Month begins tomorrow, making a Pulitzer Poetry leaderboard a fitting cultural challenge."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "MLB Opening Day 2026",
+                        "suggested_question": "Rank the top 5 MLB franchises by all-time Opening Day wins, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on MLB Opening Day wins, which is unrelated to any of the recent questions that cover subjects like convention centers, languages, heritage sites, rainfall, NCAA basketball, planets, and ATP tennis.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Christopher Walken's birthday (March 31)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Christopher Walken by worldwide box office (highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to Christopher Walken's filmography and box office performance, which is unrelated to any of the recent topics, such as geography, sports, language, or science.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "SXSW music season + 2025–2026 awards calendar",
+                        "suggested_question": "Rank the 5 artists with the most Grammy Awards ever, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions pertain to Grammy Awards or music industry achievements, which makes this topic distinct.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Mom and Pop Business Owners Day (March 29)",
+                        "suggested_question": "Rank the top 5 U.S. states by total number of small businesses (SBA-defined), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about small businesses does not overlap with any of the broad themes such as exhibit spaces, world languages, heritage sites, rainfall, basketball, planetary sizes, or tennis titles.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "International Day of Happiness (March 20) + World Happiness Report 2026",
+                        "suggested_question": "Rank the top 5 countries in the World Happiness Report 2026 by overall score (highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on happiness and related metrics, while none of the recent questions dealt with this theme or subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Holi (March 4, 2026)",
+                        "suggested_question": "Rank the top 5 countries by Hindu population, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Hindu population and Holi is unrelated to the themes of language, convention centers, UNESCO sites, rainfall, NCAA basketball, planets, or ATP tennis titles covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring Break travel surge",
+                        "suggested_question": "Rank the top 5 busiest U.S. airports by total passengers in 2025, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Spring Break travel surge and busiest U.S. airports focuses on travel and transportation, which does not overlap with any of the recent questions that deal with convention centers, languages, heritage sites, rainfall, basketball tournaments, planets, or tennis.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Education and Sharing Day (March 29)",
+                        "suggested_question": "Rank the top 5 countries by OECD PISA 2022 mathematics scores (highest to fifth-highest).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to educational performance metrics (PISA scores), which is a different subject from any of the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Easter candy season (early April)",
+                        "suggested_question": "Rank the top 5 cocoa bean–producing countries in the latest season (by tonnes), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about cocoa bean production is related to agriculture and commodities, which is distinct from all recent topics that covered convention centers, languages, UNESCO sites, rainfall, basketball, planets, and tennis.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by installed solar photovoltaic capacity (in GW) as of end-2025, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of solar photovoltaic capacity focuses on renewable energy and sustainability, which is unrelated to any of the recent questions' focus areas, including sports, geography, language, and astronomy.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback — National Poetry Month (April)",
+                        "suggested_question": "Rank the top 5 poets by total Pulitzer Prizes for Poetry won, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "National Poetry Month and Pulitzer Prizes for Poetry do not overlap with any of the broad themes of the recent questions, which include topics like convention centers, languages, heritage sites, rainfall, NCAA basketball, planets, and tennis.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "fallback_used": true,
+            "question_id": 43
         }
     ]
 }
