@@ -1504,6 +1504,41 @@
                 "France"
             ],
             "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+        },
+        {
+            "id": 44,
+            "date": "2026-04-01",
+            "question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+            "options": [
+                "US dollar (USD)",
+                "Euro (EUR)",
+                "Japanese yen (JPY)",
+                "Pound sterling (GBP)",
+                "Chinese renminbi (CNY)",
+                "Canadian dollar (CAD)",
+                "Australian dollar (AUD)",
+                "Swiss franc (CHF)",
+                "Hong Kong dollar (HKD)",
+                "Singapore dollar (SGD)",
+                "Swedish krona (SEK)",
+                "Norwegian krone (NOK)",
+                "Danish krone (DKK)",
+                "New Zealand dollar (NZD)",
+                "South Korean won (KRW)",
+                "Indian rupee (INR)",
+                "Brazilian real (BRL)",
+                "Russian ruble (RUB)",
+                "Mexican peso (MXN)",
+                "South African rand (ZAR)"
+            ],
+            "answers": [
+                "US dollar (USD)",
+                "Euro (EUR)",
+                "Japanese yen (JPY)",
+                "Pound sterling (GBP)",
+                "Chinese renminbi (CNY)"
+            ],
+            "source": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
         }
     ]
 }

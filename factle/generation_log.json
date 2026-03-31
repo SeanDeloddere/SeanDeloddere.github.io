@@ -39643,6 +39643,1034 @@
             },
             "fallback_used": true,
             "question_id": 43
+        },
+        {
+            "date": "2026-04-01",
+            "topics_discovered": [
+                {
+                    "topic": "The Masters (April 2026 golf major)",
+                    "suggested_question": "Rank the top five golfers by total Masters Tournament wins (most to fifth-most), breaking ties by most recent win.",
+                    "connection": "The Masters tees off this month, making all-time Augusta leaders a timely challenge."
+                },
+                {
+                    "topic": "Craft Brewers Conference (April 20–22, 2026)",
+                    "suggested_question": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data.",
+                    "connection": "With the Craft Brewers Conference coming up in April, it’s a perfect moment to test knowledge of craft beer hotspots."
+                },
+                {
+                    "topic": "National Walking Day (April 1, 2026)",
+                    "suggested_question": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings.",
+                    "connection": "National Walking Day falls today, spotlighting walkable cities and urban design."
+                },
+                {
+                    "topic": "This Day in History: The dollar sign’s origins (April 1)",
+                    "suggested_question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+                    "connection": "April 1 features the dollar sign’s history, making a reserves-by-currency ranking a fitting finance-themed trivia."
+                },
+                {
+                    "topic": "Anime Awards nominations (April 2, 2026)",
+                    "suggested_question": "Rank the top five highest-grossing Japanese animated films worldwide (unadjusted box office), from highest to fifth-highest.",
+                    "connection": "With anime awards nominations hitting this week, box-office juggernauts from Japan are in the spotlight."
+                },
+                {
+                    "topic": "National Library Week (early April)",
+                    "suggested_question": "Rank the top five largest libraries in the world by number of cataloged items (most to fifth-most).",
+                    "connection": "National Library Week kicks off in April, making mega-collections a timely topic for book lovers."
+                },
+                {
+                    "topic": "Read a Road Map Week (first week of April)",
+                    "suggested_question": "Rank the top five longest U.S. Interstate Highways by length (miles), from longest to fifth-longest.",
+                    "connection": "It’s Read a Road Map Week, so highway superlatives are right on theme."
+                },
+                {
+                    "topic": "Lyrid meteor shower (peaks in April)",
+                    "suggested_question": "Rank the top five annual meteor showers by typical peak ZHR (Zenithal Hourly Rate), from highest to fifth-highest.",
+                    "connection": "The Lyrids peak in April, making a meteor-shower intensity ranking a timely space-science pick."
+                },
+                {
+                    "topic": "Webby Awards nominations (March 31; digital season in April)",
+                    "suggested_question": "Rank the top five most-visited websites worldwide by average monthly visits (highest to fifth-highest), using the latest Similarweb global traffic data.",
+                    "connection": "As the Webby season kicks off, a web-traffic leaderboard is perfectly on brand."
+                },
+                {
+                    "topic": "Seasonal/Cultural fallback: Earth Day and Earth Month (April)",
+                    "suggested_question": "Rank the top five countries by total installed solar PV capacity (GW), from highest to fifth-highest (latest year available).",
+                    "connection": "April is Earth Month with Earth Day on April 22—clean energy capacity is a timely, verifiable environmental metric."
+                },
+                {
+                    "topic": "Seasonal/Cultural fallback: World Intellectual Property Day (April 26)",
+                    "suggested_question": "Rank the top five patent offices by number of patent applications filed (most to fifth-most), using the latest WIPO IP Statistics.",
+                    "connection": "World IP Day lands in late April—perfect for a rankings question rooted in global innovation and filings data."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "The Masters (April 2026 golf major)",
+                    "suggested_question": "Rank the top five golfers by total Masters Tournament wins (most to fifth-most), breaking ties by most recent win.",
+                    "connection": "The Masters tees off this month, making all-time Augusta leaders a timely challenge.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question overlaps with question ID 14, as both rank the top 5 golfers by Masters Tournament victories. While the tie-breaking criteria differ, the core focus is the same, making the questions too similar."
+                    }
+                },
+                {
+                    "topic": "Craft Brewers Conference (April 20–22, 2026)",
+                    "suggested_question": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data.",
+                    "connection": "With the Craft Brewers Conference coming up in April, it’s a perfect moment to test knowledge of craft beer hotspots.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks for the ranking of U.S. states by the number of craft breweries, which is a unique topic not addressed in any previously used questions. Although there are other questions about U.S. states (e.g., by Irish ancestry or convention center size), these are distinct and cover unrelated aspects."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data.",
+                        "answers": [
+                            "California",
+                            "New York",
+                            "Pennsylvania",
+                            "Washington",
+                            "Colorado"
+                        ],
+                        "distractors": [
+                            "Michigan",
+                            "Oregon",
+                            "North Carolina",
+                            "Texas",
+                            "Florida",
+                            "Ohio",
+                            "Illinois",
+                            "Virginia",
+                            "Wisconsin",
+                            "Massachusetts",
+                            "Minnesota",
+                            "Arizona",
+                            "Indiana",
+                            "Missouri",
+                            "Georgia"
+                        ],
+                        "suggested_source": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Brewers Association number of craft breweries by state 2023 top states",
+                        "sources_found": [
+                            {
+                                "title": "State Craft Beer Sales & Production Statistics, 2024",
+                                "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/"
+                            },
+                            {
+                                "title": "Top beer-producing states in the U.S. - Badger Institute",
+                                "url": "https://www.badgerinstitute.org/numbers/top-beer-producing-states-in-the-u-s/"
+                            },
+                            {
+                                "title": "Mapped & Ranked: The States With the Most Craft Breweries in 2023",
+                                "url": "https://vinepair.com/articles/states-most-craft-breweries-2023-map/"
+                            },
+                            {
+                                "title": "Craft breweries by state U.S. 2024 - Statista",
+                                "url": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                            },
+                            {
+                                "title": "Brewers Association Reports 2024 U.S. Craft Brewing Industry Figures",
+                                "url": "https://www.brewersassociation.org/association-news/brewers-association-reports-2024-u-s-craft-brewing-industry-figures/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed ranking provided by the user is incorrect according to the most authoritative source on craft breweries by state. Statista's 2024 data confirms that California has the most craft breweries, followed by Colorado, Washington, New York, and Pennsylvania. New York and Pennsylvania's order were reversed, and Colorado should be ranked ahead of Washington and Pennsylvania. Exact numeric values for the number of craft breweries aren't provided in the sources, so they are marked as null.",
+                        "proposed_answers": [
+                            "California",
+                            "New York",
+                            "Pennsylvania",
+                            "Washington",
+                            "Colorado"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Colorado",
+                            "Washington",
+                            "New York",
+                            "Pennsylvania"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data. California vs Colorado ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Which State Has the Most Craft Breweries? - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/top-us-craft-beer-producing-states.html"
+                            },
+                            {
+                                "title": "State With the Most Breweries 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/state-rankings/state-with-the-most-breweries"
+                            },
+                            {
+                                "title": "Top beer-producing states in the U.S. - Badger Institute",
+                                "url": "https://www.badgerinstitute.org/numbers/top-beer-producing-states-in-the-u-s/"
+                            },
+                            {
+                                "title": "Mapped & Ranked: The States With the Most Craft Breweries in 2024",
+                                "url": "https://vinepair.com/articles/states-most-craft-breweries-2024-map/"
+                            },
+                            {
+                                "title": "Pints Per Person: The States With The Most Craft Breweries In 2024",
+                                "url": "https://www.americancraftbeer.com/pints-per-person-the-states-with-the-most-craft-breweries-in-2024/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not align with the majority of authoritative source data, which places New York above Colorado and Washington, and Pennsylvania below Colorado.",
+                        "best_source": "https://vinepair.com/articles/states-most-craft-breweries-2024-map/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Brewers Association number of craft breweries by state 2023 top states",
+                        "sources_found": [
+                            {
+                                "title": "State Craft Beer Sales & Production Statistics, 2024",
+                                "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/"
+                            },
+                            {
+                                "title": "Top beer-producing states in the U.S. - Badger Institute",
+                                "url": "https://www.badgerinstitute.org/numbers/top-beer-producing-states-in-the-u-s/"
+                            },
+                            {
+                                "title": "Mapped & Ranked: The States With the Most Craft Breweries in 2023",
+                                "url": "https://vinepair.com/articles/states-most-craft-breweries-2023-map/"
+                            },
+                            {
+                                "title": "Craft breweries by state U.S. 2024 - Statista",
+                                "url": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                            },
+                            {
+                                "title": "Brewers Association Reports 2024 U.S. Craft Brewing Industry Figures",
+                                "url": "https://www.brewersassociation.org/association-news/brewers-association-reports-2024-u-s-craft-brewing-industry-figures/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Source data from Statista confirms that California has the highest number of craft breweries, followed by Colorado. New York has more craft breweries than Washington and ranks third. Pennsylvania comes next in fourth place, followed by Washington in fifth. Therefore, the proposed answers require correction to reflect the accurate order from the verified source.",
+                        "proposed_answers": [
+                            "California",
+                            "Colorado",
+                            "Washington",
+                            "New York",
+                            "Pennsylvania"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Colorado",
+                            "New York",
+                            "Pennsylvania",
+                            "Washington"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data. California vs Colorado ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Which State Has the Most Craft Breweries? - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/top-us-craft-beer-producing-states.html"
+                            },
+                            {
+                                "title": "State With the Most Breweries 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/state-rankings/state-with-the-most-breweries"
+                            },
+                            {
+                                "title": "Which States Have the Most Breweries? – American Craft Beer",
+                                "url": "https://www.americancraftbeer.com/americas-craft-beer-hotspots-which-states-have-the-most-breweries/"
+                            },
+                            {
+                                "title": "Top beer-producing states in the U.S. - Badger Institute",
+                                "url": "https://www.badgerinstitute.org/numbers/top-beer-producing-states-in-the-u-s/"
+                            },
+                            {
+                                "title": "These are the most popular craft breweries in the US: data - WROC",
+                                "url": "https://www.rochesterfirst.com/news/national-news/these-are-the-most-popular-craft-breweries-in-the-us-data/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is not supported by the majority of sources. Colorado is not the second-ranked state, and New York is not consistently listed third.",
+                        "best_source": "https://www.americancraftbeer.com/americas-craft-beer-hotspots-which-states-have-the-most-breweries/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Brewers Association number of craft breweries by state 2023 top states",
+                        "sources_found": [
+                            {
+                                "title": "State Craft Beer Sales & Production Statistics, 2024",
+                                "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/"
+                            },
+                            {
+                                "title": "Top beer-producing states in the U.S. - Badger Institute",
+                                "url": "https://www.badgerinstitute.org/numbers/top-beer-producing-states-in-the-u-s/"
+                            },
+                            {
+                                "title": "Mapped & Ranked: The States With the Most Craft Breweries in 2023",
+                                "url": "https://vinepair.com/articles/states-most-craft-breweries-2023-map/"
+                            },
+                            {
+                                "title": "Craft breweries by state U.S. 2024 - Statista",
+                                "url": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                            },
+                            {
+                                "title": "Brewers Association Reports 2024 U.S. Craft Brewing Industry Figures",
+                                "url": "https://www.brewersassociation.org/association-news/brewers-association-reports-2024-u-s-craft-brewing-industry-figures/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the most recent data from Statista, California is ranked first with the most craft breweries, followed by Colorado (second), Washington (third), New York (fourth), and Pennsylvania (fifth). The original ranking is not entirely correct because Washington had more craft breweries than New York and Pennsylvania. Statista provides direct numerical values for the number of breweries per state, which allows for a correction to the order.",
+                        "proposed_answers": [
+                            "California",
+                            "Colorado",
+                            "New York",
+                            "Pennsylvania",
+                            "Washington"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Colorado",
+                            "Washington",
+                            "New York",
+                            "Pennsylvania"
+                        ],
+                        "best_source": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoruwTlmJAR1k30HUDkBnzwIdjibzUj1krcSOf9UqolivzGweNZo"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data. California vs Colorado ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Mapped & Ranked: The States With the Most Craft Breweries in 2024",
+                                "url": "https://vinepair.com/articles/states-most-craft-breweries-2024-map/"
+                            },
+                            {
+                                "title": "State With the Most Breweries 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/state-rankings/state-with-the-most-breweries"
+                            },
+                            {
+                                "title": "Craft breweries by state U.S. 2024 - Statista",
+                                "url": "https://www.statista.com/statistics/726518/number-craft-breweries-state/?srsltid=AfmBOoo2cj9MRzFk3EBy9KW40tlNJFpH6cEPIJ9J-YACi1KuzGox6yM-"
+                            },
+                            {
+                                "title": "State Craft Beer Sales & Production Statistics, 2024",
+                                "url": "https://www.brewersassociation.org/statistics-and-data/state-craft-beer-stats/"
+                            },
+                            {
+                                "title": "Which State Has the Most Craft Breweries? - World Atlas",
+                                "url": "https://www.worldatlas.com/articles/top-us-craft-beer-producing-states.html"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided sources indicate discrepancies in the ranking order for New York, Pennsylvania, and Washington. The corrected order does not match the latest numbers available from authoritative sources.",
+                        "best_source": "https://vinepair.com/articles/states-most-craft-breweries-2024-map/"
+                    }
+                },
+                {
+                    "topic": "National Walking Day (April 1, 2026)",
+                    "suggested_question": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings.",
+                    "connection": "National Walking Day falls today, spotlighting walkable cities and urban design.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about U.S. cities ranked by Walk Score focuses on walkability, which is a unique urban planning metric not addressed by any of the existing questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings.",
+                        "answers": [
+                            "New York, New York",
+                            "San Francisco, California",
+                            "Boston, Massachusetts",
+                            "Philadelphia, Pennsylvania",
+                            "Chicago, Illinois"
+                        ],
+                        "distractors": [
+                            "Washington, DC",
+                            "Seattle, Washington",
+                            "Portland, Oregon",
+                            "Baltimore, Maryland",
+                            "Los Angeles, California",
+                            "San Diego, California",
+                            "Denver, Colorado",
+                            "San Jose, California",
+                            "Milwaukee, Wisconsin",
+                            "Detroit, Michigan",
+                            "Las Vegas, Nevada",
+                            "Phoenix, Arizona",
+                            "Houston, Texas",
+                            "Dallas, Texas",
+                            "Austin, Texas"
+                        ],
+                        "suggested_source": "https://www.walkscore.com/cities-and-neighborhoods/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Walk Score most walkable cities United States rankings site:walkscore.com",
+                        "sources_found": [
+                            {
+                                "title": "Most Walkable Cities in the United States and Canada on Walk Score",
+                                "url": "https://www.walkscore.com/cities-and-neighborhoods/"
+                            },
+                            {
+                                "title": "Walk Score Methodology",
+                                "url": "https://www.walkscore.com/methodology.shtml"
+                            },
+                            {
+                                "title": "List of Cities in Massachusetts on Walk Score",
+                                "url": "https://www.walkscore.com/MA/"
+                            },
+                            {
+                                "title": "Get your Walk Score",
+                                "url": "https://www.walkscore.com/score/"
+                            },
+                            {
+                                "title": "New York - Apartments for Rent - Walk Score",
+                                "url": "https://www.walkscore.com/NY/New_York"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain a complete and clear ranking of the top five large U.S. cities by Walk Score, and none of the sources mentioned numeric Walk Scores for all the cities listed in the proposed answers. While individual scores for some cities are available, the information is fragmented and does not confirm the exact order of the rankings. Therefore, the correctness of the given answers cannot be verified or corrected confidently.",
+                        "proposed_answers": [
+                            "New York, New York",
+                            "San Francisco, California",
+                            "Boston, Massachusetts",
+                            "Philadelphia, Pennsylvania",
+                            "Chicago, Illinois"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.walkscore.com/cities-and-neighborhoods/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings. New York, New York San Francisco, California ranking",
+                        "sources_found": [
+                            {
+                                "title": "The 5 Most Walkable U.S. Cities, Ranked by Walk Score - Zoocasa",
+                                "url": "https://www.zoocasa.com/blog/most-walkable-us-cities/"
+                            },
+                            {
+                                "title": "The Most Walkable Cities and Towns in the U.S. - CORT Blog",
+                                "url": "https://blog.cort.com/moving/walkable-cities-us/"
+                            },
+                            {
+                                "title": "Uncovering the 15 Most Walkable Cities in the US - Homes.com News",
+                                "url": "https://www.homes.com/learn/most-walkable-cities-in-the-us/"
+                            },
+                            {
+                                "title": "USA: WalkScore.com's Top 5 for 2025 : r/transit - Reddit",
+                                "url": "https://www.reddit.com/r/transit/comments/1hof8no/usa_walkscorecoms_top_5_for_2025/"
+                            },
+                            {
+                                "title": "Most Walkable Cities in the United States and Canada on Walk Score",
+                                "url": "https://www.walkscore.com/cities-and-neighborhoods/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Multiple reliable sources unanimously agree that San Francisco has a higher Walk Score than New York City, contradicting the proposed order. Additionally, the fifth most walkable city is Washington, DC, which has a Walk Score slightly behind Chicago. The corrected order and scores were derived from the provided sources, with the most detailed confirmation sourced from the CORT Blog.",
+                        "proposed_answers": [
+                            "New York, New York",
+                            "San Francisco, California",
+                            "Boston, Massachusetts",
+                            "Philadelphia, Pennsylvania",
+                            "Chicago, Illinois"
+                        ],
+                        "corrected_answers": [
+                            "San Francisco, California",
+                            "New York, New York",
+                            "Boston, Massachusetts",
+                            "Chicago, Illinois",
+                            "Washington, DC"
+                        ],
+                        "best_source": "https://blog.cort.com/moving/walkable-cities-us/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings. San Francisco, California vs New York, New York ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Most Walkable Cities in the United States and Canada on Walk Score",
+                                "url": "https://www.walkscore.com/cities-and-neighborhoods/"
+                            },
+                            {
+                                "title": "Ranked: These are now the largest US cities, based on new Census ...",
+                                "url": "https://www.fox13seattle.com/news/ranked-largest-us-cities-census-data"
+                            },
+                            {
+                                "title": "Largest US Cities by Population 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/us-cities"
+                            },
+                            {
+                                "title": "Ranking by Population - Cities in United States of America",
+                                "url": "https://datacommons.org/ranking/Count_Person/City/country/USA"
+                            },
+                            {
+                                "title": "Best Big Cities to Live in the US in 2025-2026 - U.S. News Real Estate",
+                                "url": "https://realestate.usnews.com/places/rankings/best-large-cities"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data does not provide Walk Score rankings directly. The provided information mainly discusses transit scores, population figures, and city rankings unrelated to Walk Scores. Without direct evidence from the Walk Score link ranking the cities in question, the corrected order cannot be verified.",
+                        "best_source": "https://www.walkscore.com/cities-and-neighborhoods/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings. New York, New York San Francisco, California ranking",
+                        "sources_found": [
+                            {
+                                "title": "Largest US Cities by Population 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/us-cities"
+                            },
+                            {
+                                "title": "Most Walkable Cities in the United States and Canada on Walk Score",
+                                "url": "https://www.walkscore.com/cities-and-neighborhoods/"
+                            },
+                            {
+                                "title": "The Most Walkable Cities in the US: Complete 2025 Ranking & Guide",
+                                "url": "https://radicalstorage.com/travel/most-walkable-cities-in-the-us/"
+                            },
+                            {
+                                "title": "12 Most Walkable Cities in the U.S. | PODS",
+                                "url": "https://www.pods.com/blog/most-walkable-cities-in-the-us"
+                            },
+                            {
+                                "title": "Best Big Cities to Live in the US in 2025-2026 - U.S. News Real Estate",
+                                "url": "https://realestate.usnews.com/places/rankings/best-large-cities"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "The best source, Walk Score, provides clear walkability rankings and scores for U.S. cities. According to it, New York has the highest Walk Score (89), followed by San Francisco (87), then Boston (83). Washington, DC (77) is ranked fourth, not fifth as in the proposed answers. Seattle (74) outranks Chicago in fifth place. The original fifth entry, 'Washington, DC', was moved to fourth in the corrected list, and Chicago is replaced by Seattle in fifth.",
+                        "proposed_answers": [
+                            "San Francisco, California",
+                            "New York, New York",
+                            "Boston, Massachusetts",
+                            "Chicago, Illinois",
+                            "Washington, DC"
+                        ],
+                        "corrected_answers": [
+                            "New York, New York",
+                            "San Francisco, California",
+                            "Boston, Massachusetts",
+                            "Washington, DC",
+                            "Seattle, Washington"
+                        ],
+                        "best_source": "https://www.walkscore.com/cities-and-neighborhoods/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings. New York, New York vs San Francisco, California ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Most Walkable Cities in the United States and Canada on Walk Score",
+                                "url": "https://www.walkscore.com/cities-and-neighborhoods/"
+                            },
+                            {
+                                "title": "USA: WalkScore.com's Top 5 for 2025 : r/transit - Reddit",
+                                "url": "https://www.reddit.com/r/transit/comments/1hof8no/usa_walkscorecoms_top_5_for_2025/"
+                            },
+                            {
+                                "title": "The Most Walkable Cities in the US: Complete 2025 Ranking & Guide",
+                                "url": "https://radicalstorage.com/travel/most-walkable-cities-in-the-us/"
+                            },
+                            {
+                                "title": "Uncovering the 15 Most Walkable Cities in the US - Homes.com News",
+                                "url": "https://www.homes.com/learn/most-walkable-cities-in-the-us/"
+                            },
+                            {
+                                "title": "America's Most Walkable Cities to Explore in 2025 - FitFlop US",
+                                "url": "https://www.fitflop.com/us/en/americas-most-walkable-cities-2025"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not match the rankings provided in the majority of sources. Notably, San Francisco, not New York, consistently ranks as the most walkable city.",
+                        "best_source": "https://www.homes.com/learn/most-walkable-cities-in-the-us/"
+                    }
+                },
+                {
+                    "topic": "This Day in History: The dollar sign’s origins (April 1)",
+                    "suggested_question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+                    "connection": "April 1 features the dollar sign’s history, making a reserves-by-currency ranking a fitting finance-themed trivia.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 2,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about the top currencies by share of global foreign-exchange reserves focuses on finance and economics, which is distinct from any other existing question in the set. There are no questions about currencies or reserves, so it is different enough."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+                        "answers": [
+                            "US dollar (USD)",
+                            "Euro (EUR)",
+                            "Japanese yen (JPY)",
+                            "Pound sterling (GBP)",
+                            "Chinese renminbi (CNY)"
+                        ],
+                        "distractors": [
+                            "Canadian dollar (CAD)",
+                            "Australian dollar (AUD)",
+                            "Swiss franc (CHF)",
+                            "Hong Kong dollar (HKD)",
+                            "Singapore dollar (SGD)",
+                            "Swedish krona (SEK)",
+                            "Norwegian krone (NOK)",
+                            "Danish krone (DKK)",
+                            "New Zealand dollar (NZD)",
+                            "South Korean won (KRW)",
+                            "Indian rupee (INR)",
+                            "Brazilian real (BRL)",
+                            "Russian ruble (RUB)",
+                            "Mexican peso (MXN)",
+                            "South African rand (ZAR)"
+                        ],
+                        "suggested_source": "https://data.imf.org/COFER"
+                    },
+                    "verification_search_iter0": {
+                        "query": "IMF COFER latest currency composition of official foreign exchange reserves shares by currency",
+                        "sources_found": [
+                            {
+                                "title": "COFER - IMF Data - International Monetary Fund",
+                                "url": "https://data.imf.org/en/datasets/IMF.STA:COFER"
+                            },
+                            {
+                                "title": "IMF/COFER | DBnomics",
+                                "url": "https://db.nomics.world/IMF/COFER"
+                            },
+                            {
+                                "title": "Global Foreign Exchange Reserves Trends - IMF Data",
+                                "url": "https://data.imf.org/en/dashboards/cofer%20dashboard"
+                            },
+                            {
+                                "title": "Currency Composition of Official Foreign Exchange ... - IMF Data Brief",
+                                "url": "https://data.imf.org/en/news/october%201%202025%20cofer"
+                            },
+                            {
+                                "title": "[PDF] The currency composition of foreign exchange reserves",
+                                "url": "https://www.bis.org/publ/work828.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain explicit data or rankings for the latest shares of global foreign-exchange reserves by currency composition, or the data was inaccessible for verification purposes. Without clear numeric values or order of the currencies, I cannot confirm or correct the proposed answers.",
+                        "proposed_answers": [
+                            "US dollar (USD)",
+                            "Euro (EUR)",
+                            "Japanese yen (JPY)",
+                            "Pound sterling (GBP)",
+                            "Chinese renminbi (CNY)"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": null
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest. US dollar (USD) Euro (EUR) ranking",
+                        "sources_found": [
+                            {
+                                "title": "US Dollar Share of Global Currency Reserves in 2026 - Best Brokers",
+                                "url": "https://www.bestbrokers.com/forex-trading/us-dollar-share-of-global-currency-reserves/"
+                            },
+                            {
+                                "title": "COFER - IMF Data - International Monetary Fund",
+                                "url": "https://data.imf.org/en/datasets/IMF.STA:COFER"
+                            },
+                            {
+                                "title": "Global - Official Foreign Exchange Reserves by Currency ...",
+                                "url": "https://en.macromicro.me/charts/116488/global-official-foreign-exchange-reserves-by-currency-share"
+                            },
+                            {
+                                "title": "World's most powerful reserve currencies - The Business Standard",
+                                "url": "https://www.tbsnews.net/infograph/numbers/worlds-most-powerful-reserve-currencies-1325216"
+                            },
+                            {
+                                "title": "Ranked: The World's Most Powerful Reserve Currencies",
+                                "url": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Using the official IMF COFER data, the share of global reserves aligns with the order provided but with specific percentages: USD leads with 58%, followed by EUR at 20.4%, JPY at 5.3%, GBP at 4.9%, and CNY at 2.8%. The original answer order is correct, but numeric values now make the verification complete and precise.",
+                        "proposed_answers": [
+                            "US dollar (USD)",
+                            "Euro (EUR)",
+                            "Japanese yen (JPY)",
+                            "Pound sterling (GBP)",
+                            "Chinese renminbi (CNY)"
+                        ],
+                        "corrected_answers": [
+                            "US dollar (USD)",
+                            "Euro (EUR)",
+                            "Japanese yen (JPY)",
+                            "Pound sterling (GBP)",
+                            "Chinese renminbi (CNY)"
+                        ],
+                        "best_source": "https://data.imf.org/en/datasets/IMF.STA:COFER"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest. US dollar (USD) vs Euro (EUR) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Forex Reserves by Country 2026",
+                                "url": "https://worldpopulationreview.com/country-rankings/forex-reserves-by-country"
+                            },
+                            {
+                                "title": "List of countries by foreign exchange reserves",
+                                "url": "https://en.wikipedia.org/wiki/List_of_countries_by_foreign_exchange_reserves"
+                            },
+                            {
+                                "title": "World's most powerful reserve currencies",
+                                "url": "https://www.tbsnews.net/infograph/numbers/worlds-most-powerful-reserve-currencies-1325216"
+                            },
+                            {
+                                "title": "Ranked: The World's Most Powerful Reserve Currencies",
+                                "url": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
+                            },
+                            {
+                                "title": "Ranked: The World's Most Powerful Reserve Currencies",
+                                "url": "https://www.voronoiapp.com/money/Ranked-The-Worlds-Most-Powerful-Reserve-Currencies-7504"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order aligns with authoritative industry consensus from multiple sources confirming the dominance of USD, followed by EUR, JPY, GBP, and CNY in terms of global foreign exchange reserves.",
+                        "best_source": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
+                    },
+                    "question_id": 44,
+                    "final_answers": [
+                        "US dollar (USD)",
+                        "Euro (EUR)",
+                        "Japanese yen (JPY)",
+                        "Pound sterling (GBP)",
+                        "Chinese renminbi (CNY)"
+                    ],
+                    "final_source": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening April 01, 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 Sports Calendar",
+                                "url": "https://apnews.com/article/april-2026-sports-calendar-c21fd2ec3be69047dbcaab7f0886702e",
+                                "snippet": "APRIL 1 _ Cycling, UCI Women's WorldTour, Dwars door Vlaanderen, Waregem, Belgium. 1 _ Cycling, UCI WorldTour, Tour of Flanders, Flanders,"
+                            },
+                            {
+                                "title": "April 2026 Sports Schedule: The Masters, NFL Draft & More",
+                                "url": "https://www.sportbusy.com/calendar/2026/april/",
+                                "snippet": "April 1, 2026 – April 2, 2026· Various· Various. Yes. April 2026 features championship-level events including IPL 2026 (TATA Indian Premier League), NCAA Women's Final Four 2026, NCAA Final Four 2026."
+                            },
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events/",
+                                "snippet": "Final qualification matches for the 2026 World Cup, the FIFA World Cup itself, the Drift Masters series, and Inter Europol's participation"
+                            },
+                            {
+                                "title": "Big Events happening in Dallas 2026 👀🎉 From ...",
+                                "url": "https://www.instagram.com/reel/DTgCxPVgaca/",
+                                "snippet": "![Image 1: toomuchsaki's profile picture](https://scontent-sof1-1.cdninstagram.com/v/t51.2885-19/472975686_639213038536358_9204504460475826227_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=101&ccb=7-5&_nc_si"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays April 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 National Days and Observances: Global Holiday Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/april-national-global-holidays/",
+                                "snippet": "Discover April 2026's major holidays worldwide—Easter, Passover, Earth Day, cultural celebrations. From major religious holidays like Easter and Passover to environmental awareness days and cultural c"
+                            },
+                            {
+                                "title": "April 2026 Holidays, National, International Days. Holiday Insights.",
+                                "url": "https://www.holidayinsights.com/moreholidays/april.htm",
+                                "snippet": "April Weekly Events · First Week of the Month – Library Week · First Week of the Month – Read a Road Map Week · Second Week of the Month – Garden Week · Third Week"
+                            },
+                            {
+                                "title": "April holidays 2026: Full list of 200+ important dates, observances ...",
+                                "url": "https://m.economictimes.com/news/international/us/april-holidays-2026-full-list-of-200-important-dates-observances-and-events-you-need-to-plan-now/articleshow/129903587.cms",
+                                "snippet": "# April holidays 2026: Full list of 200+ important dates, observances, and events you need to plan now. April holidays 2026: Full list of 200+ important dates, observances, and events you need to plan"
+                            },
+                            {
+                                "title": "April Observances — CultureAlly",
+                                "url": "https://www.cultureally.com/blog/april-observances",
+                                "snippet": "List of Observances in April 2026. April 1-30 Arab Heritage Month celebrates the rich cultural, historical, and societal contributions of Arab communities"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For April 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-april-2026",
+                                "snippet": "# Awareness Days & Cultural Calendar For April 2026. April 2026 cultural calendar highlights diversity, health, environment, and heritage with key awareness days and global celebrations. April 2026 is"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences April 2026",
+                        "results": [
+                            {
+                                "title": "The 2026 Fessy Awards Ceremony is coming up on April 28th at ...",
+                                "url": "https://www.facebook.com/CyrilNeville/posts/the-2026-fessy-awards-ceremony-is-coming-up-on-april-28th-at-jamnola-start-time-/1496687905361554/",
+                                "snippet": "The 2026 Fessy Awards Ceremony is coming up on April 28th at JAMNOLA! Start time is 7pm!! BE THERE!"
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "Craft Brewers Conference & BrewExpo America | April 20-22, 2026",
+                                "url": "https://www.craftbrewersconference.com/",
+                                "snippet": "## Craft Brewers Conference. # America's Largest Gathering for the Beverage Alcohol Industry. The Craft Brewers Conference® is where brewers, innovators, and industry leaders unite to shape the future"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 31: Webby Awards nominations · April. 2: Anime Awards nominations. 28: Scientific and Technical Awards Presentation · May."
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "We have all the dates for your favorite season highlights, from the Academy Awards and the Golden Globes to festivals like the annual bashes at the Cannes Film"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week April 01, 2026",
+                        "results": [
+                            {
+                                "title": "Notable News (April 1-7, 2025) - The Reading Room",
+                                "url": "https://readingroom.money.org/notable-news-april-1-7/",
+                                "snippet": "This week's headlines include bullion's tariff exemption, the 2025 NNP Symposium, a Supreme Court of Canada commemorative, and the upcoming"
+                            },
+                            {
+                                "title": "This Day in History: April 01, 2026 - InfoPlease",
+                                "url": "https://www.infoplease.com/dayinhistory/april-01",
+                                "snippet": "Steve Wozniak and Steve Jobs founded Apple Computer. ### A Tale of Two Steves. Steve Wozniak and Steve Jobs founded Apple Computer. Oliver Pollack created the dollar sign: $. American forces landed on"
+                            },
+                            {
+                                "title": "This Day in History: April 1st: A Day of Historic Revelations and ...",
+                                "url": "https://www.riverbender.com/news/details/this-day-in-history-april-1st-a-day-of-historic-revelations-and-global-events-81138.cfm",
+                                "snippet": "Send Cancel     More like this: How Earth Day Awareness Began as a Grassroots Push Against Pollution  Mar 23, 2026  This Weekend in History on March 21 and 22: Alcatraz Prison Officially Closes  Mar 2"
+                            },
+                            {
+                                "title": "What Happens on April 1, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/april/1",
+                                "snippet": "# What Happens on April 1, 2026. ## About April 1, 2026. **Day of the Week:** Wednesday. **How Far Away?** 6 days. ## No Entries for April 1, 2026. * View highlights from  **year 2026**. * Browse our "
+                            },
+                            {
+                                "title": "What Happened on April 1 - History.com",
+                                "url": "https://www.history.com/this-day-in-history/april-1",
+                                "snippet": "In April 1911, eight years after Americans Wilbur […]. On April 1, 1970, President Richard Nixon signs legislation officially banning cigarette ads on television and radio. At 12:01 a.m. on April 1, 1"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days April 01",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for April 1: Samuel Alito Jr., Annette O'Toole - UPI",
+                                "url": "https://www.upi.com/Entertainment_News/2025/04/01/Famous-birthdays-for-April-1-Samuel-Alito-Jr-Annette-OToole/6771743467799/",
+                                "snippet": "Supreme Court Justice Samuel Alito Jr. turns 75 and actor Annette O'Toole turns 73, among the famous birthdays for April 1."
+                            },
+                            {
+                                "title": "Athletes Born April 1 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/april1-athlete.html",
+                                "snippet": "Famous Athletes Born April 1 including Randy Orton, Ferenc Puskas, Sean Taylor, Brook Lopez, Mitchell Robinson and many more."
+                            },
+                            {
+                                "title": "April 1 Birthdays By Profession | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/april1.html",
+                                "snippet": "YouTube Stars born April 1. Instagram Stars born April 1. TikTok Stars born April 1. Actors born April 1. Singers born April 1. Actresses born April 1."
+                            },
+                            {
+                                "title": "Famous Birthdays on April 1 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/april/1",
+                                "snippet": "* **1917** Melville Shavelson, American film director, producer, screenwriter, and President of the Writers Guild of America West (1969-71; 79-81; 85-7), born in Brooklyn, New York (d. * 1919 Joseph M"
+                            },
+                            {
+                                "title": "April 01 - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/april/april-1",
+                                "snippet": "APRIL 1 | Birthdays and Events · NATIONAL TOM FOOLERYS DAY | April 1 · CHILDHELP NATIONAL DAY OF HOPE | First Wednesday in April · NATIONAL WALKING DAY | First"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "The Masters (April 2026 golf major)",
+                        "suggested_question": "Rank the top five golfers by total Masters Tournament wins (most to fifth-most), breaking ties by most recent win.",
+                        "connection": "The Masters tees off this month, making all-time Augusta leaders a timely challenge."
+                    },
+                    {
+                        "topic": "Craft Brewers Conference (April 20–22, 2026)",
+                        "suggested_question": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data.",
+                        "connection": "With the Craft Brewers Conference coming up in April, it’s a perfect moment to test knowledge of craft beer hotspots."
+                    },
+                    {
+                        "topic": "National Walking Day (April 1, 2026)",
+                        "suggested_question": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings.",
+                        "connection": "National Walking Day falls today, spotlighting walkable cities and urban design."
+                    },
+                    {
+                        "topic": "This Day in History: The dollar sign’s origins (April 1)",
+                        "suggested_question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+                        "connection": "April 1 features the dollar sign’s history, making a reserves-by-currency ranking a fitting finance-themed trivia."
+                    },
+                    {
+                        "topic": "Anime Awards nominations (April 2, 2026)",
+                        "suggested_question": "Rank the top five highest-grossing Japanese animated films worldwide (unadjusted box office), from highest to fifth-highest.",
+                        "connection": "With anime awards nominations hitting this week, box-office juggernauts from Japan are in the spotlight."
+                    },
+                    {
+                        "topic": "National Library Week (early April)",
+                        "suggested_question": "Rank the top five largest libraries in the world by number of cataloged items (most to fifth-most).",
+                        "connection": "National Library Week kicks off in April, making mega-collections a timely topic for book lovers."
+                    },
+                    {
+                        "topic": "Read a Road Map Week (first week of April)",
+                        "suggested_question": "Rank the top five longest U.S. Interstate Highways by length (miles), from longest to fifth-longest.",
+                        "connection": "It’s Read a Road Map Week, so highway superlatives are right on theme."
+                    },
+                    {
+                        "topic": "Lyrid meteor shower (peaks in April)",
+                        "suggested_question": "Rank the top five annual meteor showers by typical peak ZHR (Zenithal Hourly Rate), from highest to fifth-highest.",
+                        "connection": "The Lyrids peak in April, making a meteor-shower intensity ranking a timely space-science pick."
+                    },
+                    {
+                        "topic": "Webby Awards nominations (March 31; digital season in April)",
+                        "suggested_question": "Rank the top five most-visited websites worldwide by average monthly visits (highest to fifth-highest), using the latest Similarweb global traffic data.",
+                        "connection": "As the Webby season kicks off, a web-traffic leaderboard is perfectly on brand."
+                    },
+                    {
+                        "topic": "Seasonal/Cultural fallback: Earth Day and Earth Month (April)",
+                        "suggested_question": "Rank the top five countries by total installed solar PV capacity (GW), from highest to fifth-highest (latest year available).",
+                        "connection": "April is Earth Month with Earth Day on April 22—clean energy capacity is a timely, verifiable environmental metric."
+                    },
+                    {
+                        "topic": "Seasonal/Cultural fallback: World Intellectual Property Day (April 26)",
+                        "suggested_question": "Rank the top five patent offices by number of patent applications filed (most to fifth-most), using the latest WIPO IP Statistics.",
+                        "connection": "World IP Day lands in late April—perfect for a rankings question rooted in global innovation and filings data."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 7,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "The Masters (April 2026 golf major)",
+                        "suggested_question": "Rank the top five golfers by total Masters Tournament wins (most to fifth-most), breaking ties by most recent win.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on golf and a specific tournament, The Masters, which does not overlap with the themes of any recent questions, such as language, heritage, weather, basketball, astronomy, tennis, or football.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Craft Brewers Conference (April 20–22, 2026)",
+                        "suggested_question": "Rank the top five U.S. states by number of craft breweries (most to fifth-most), using the latest Brewers Association data.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on craft breweries, which is unrelated to any of the recent topics such as languages, UNESCO sites, rainfall, NCAA basketball, planets, tennis, or FIFA World Cup.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Walking Day (April 1, 2026)",
+                        "suggested_question": "Rank the top five large U.S. cities (population 500,000+) by Walk Score (highest to fifth-highest), per the latest Walk Score rankings.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Walk Scores of U.S. cities in relation to National Walking Day, which pertains to urban planning and walkability, a theme that has not been recently covered.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "This Day in History: The dollar sign’s origins (April 1)",
+                        "suggested_question": "Rank the top five currencies by share of global foreign-exchange reserves (IMF COFER, latest available), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on global currencies and foreign-exchange reserves, which are unrelated to the themes of the recent questions, such as languages, heritage sites, rainfall, sports, astronomy, and international tournaments.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Anime Awards nominations (April 2, 2026)",
+                        "suggested_question": "Rank the top five highest-grossing Japanese animated films worldwide (unadjusted box office), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Japanese animated films and their box office performance, which does not overlap thematically with any of the recent questions that cover topics such as languages, heritage sites, geography, sports, space, and international events.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Library Week (early April)",
+                        "suggested_question": "Rank the top five largest libraries in the world by number of cataloged items (most to fifth-most).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about the largest libraries in the world by cataloged items does not overlap with any of the recent questions, as it focuses on libraries and cataloging, which is unrelated to language, UNESCO sites, geography, sports, planets, or tournaments.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Read a Road Map Week (first week of April)",
+                        "suggested_question": "Rank the top five longest U.S. Interstate Highways by length (miles), from longest to fifth-longest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on U.S. Interstate Highways and geography related to road networks, which is distinct from any of the recent questions that cover languages, heritage sites, rainfall, sports tournaments, planetary sizes, or soccer titles.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lyrid meteor shower (peaks in April)",
+                        "suggested_question": "Rank the top five annual meteor showers by typical peak ZHR (Zenithal Hourly Rate), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about meteor showers focuses on astronomy and celestial events, which is not covered by any recent questions that dealt with languages, heritage sites, rainfall, sports, or planetary measurements.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Webby Awards nominations (March 31; digital season in April)",
+                        "suggested_question": "Rank the top five most-visited websites worldwide by average monthly visits (highest to fifth-highest), using the latest Similarweb global traffic data.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Webby Awards nominations and web traffic data relates to digital content and online behavior, which is distinct from the themes of language, geography, sports, or planetary science covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal/Cultural fallback: Earth Day and Earth Month (April)",
+                        "suggested_question": "Rank the top five countries by total installed solar PV capacity (GW), from highest to fifth-highest (latest year available).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on solar PV capacity is about renewable energy and environmental themes, which is not covered by any of the recent questions that focus on language, heritage sites, geographic phenomena, sports, planetary science, or cultural events.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal/Cultural fallback: World Intellectual Property Day (April 26)",
+                        "suggested_question": "Rank the top five patent offices by number of patent applications filed (most to fifth-most), using the latest WIPO IP Statistics.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on intellectual property and patent applications, which is unrelated to the subjects of language, cultural heritage, geography, sports, or astronomy covered in the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 44
         }
     ]
 }
