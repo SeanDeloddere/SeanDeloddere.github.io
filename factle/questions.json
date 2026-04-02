@@ -1539,6 +1539,41 @@
                 "Chinese renminbi (CNY)"
             ],
             "source": "https://www.visualcapitalist.com/ranked-the-worlds-most-powerful-reserve-currencies/"
+        },
+        {
+            "id": 45,
+            "date": "2026-04-03",
+            "question": "Rank these authors by total number of translations, from most to fifth-most, according to UNESCO's Index Translationum.",
+            "options": [
+                "Agatha Christie",
+                "Jules Verne",
+                "William Shakespeare",
+                "Enid Blyton",
+                "Barbara Cartland",
+                "Vladimir Lenin",
+                "Danielle Steel",
+                "Hans Christian Andersen",
+                "Brothers Grimm",
+                "Alexander Pushkin",
+                "Stephen King",
+                "Charles Dickens",
+                "Leo Tolstoy",
+                "Victor Hugo",
+                "Alexandre Dumas",
+                "Arthur Conan Doyle",
+                "Paulo Coelho",
+                "Roald Dahl",
+                "J. K. Rowling",
+                "Georges Simenon"
+            ],
+            "answers": [
+                "Agatha Christie",
+                "Jules Verne",
+                "William Shakespeare",
+                "Enid Blyton",
+                "Barbara Cartland"
+            ],
+            "source": "https://blog.linguistica-international.com/the-5-most-translated-authors-of-all-time/"
         }
     ]
 }

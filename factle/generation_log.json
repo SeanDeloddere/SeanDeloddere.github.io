@@ -40671,6 +40671,739 @@
                 ]
             },
             "question_id": 44
+        },
+        {
+            "date": "2026-04-03",
+            "topics_discovered": [
+                {
+                    "topic": "Indianapolis 500 (May auto racing marquee)",
+                    "suggested_question": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win).",
+                    "connection": "The 2026 Indianapolis 500 is highlighted on spring sports calendars right now, making Indy history a timely motorsport challenge."
+                },
+                {
+                    "topic": "National Library Week (first week of April)",
+                    "suggested_question": "Rank the five most translated authors of all time by total translations (UNESCO Index Translationum), from most to fifth-most.",
+                    "connection": "It’s National Library Week, a perfect time to spotlight global literary reach via an objective, library-centric metric."
+                },
+                {
+                    "topic": "Anime Awards nominations (April 2, awards-season calendar)",
+                    "suggested_question": "Rank the top five highest-grossing anime films worldwide (unadjusted global box office), from highest to fifth-highest.",
+                    "connection": "With anime awards nominations just announced, fans are focused on standout titles—box office is a clean, verifiable way to rank them."
+                },
+                {
+                    "topic": "Garden Week (second week of April)",
+                    "suggested_question": "Rank the top five countries by annual cut flower export value (latest UN Comtrade data, USD), from highest to fifth-highest.",
+                    "connection": "Garden Week puts floriculture in the spotlight; export values provide a concrete, globally comparable ranking tied to blooming season."
+                },
+                {
+                    "topic": "Arab American Heritage Month (April 1–30)",
+                    "suggested_question": "Rank the top five Arab League countries by total UNESCO World Heritage Sites, from most to fifth-most.",
+                    "connection": "April celebrates Arab heritage; UNESCO site counts offer a cultural, objective lens on historic preservation across the Arab world."
+                },
+                {
+                    "topic": "STEP Ahead Awards (Manufacturing leadership conference, April 22–23)",
+                    "suggested_question": "Rank the top five U.S. states by manufacturing employment (BLS, latest available), from highest to fifth-highest.",
+                    "connection": "With the STEP Ahead conference spotlighting manufacturing leadership, state employment figures provide a relevant, data-driven ranking."
+                },
+                {
+                    "topic": "Webby Awards nominations (March 31, awards-season tech)",
+                    "suggested_question": "Rank the top five organizations/brands with the most Webby Awards wins all-time, from most to fifth-most.",
+                    "connection": "Webby nominations signal peak internet awards season; cumulative Webby wins are a clear metric to rank digital heavyweights."
+                },
+                {
+                    "topic": "Earth Day (April 22) — seasonal fallback",
+                    "suggested_question": "Rank the top five countries by cumulative installed solar PV capacity (GW, latest global data), from highest to fifth-highest.",
+                    "connection": "Earth Day spotlights clean energy; installed solar capacity is a definitive, comparable measure of progress toward sustainability."
+                },
+                {
+                    "topic": "Read a Road Map Week (first week of April) — seasonal fallback",
+                    "suggested_question": "Rank the top five urban metro systems by total route length (kilometers), from longest to fifth-longest.",
+                    "connection": "Map-themed observances pair perfectly with transit networks; route length offers an objective, geography-minded ranking."
+                },
+                {
+                    "topic": "Passover (early April) — seasonal fallback",
+                    "suggested_question": "Rank the top five countries by Jewish population (latest reputable demographic estimates), from largest to fifth-largest.",
+                    "connection": "Passover is being observed across many countries; demographic estimates provide an objective way to understand global Jewish communities."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "Indianapolis 500 (May auto racing marquee)",
+                    "suggested_question": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win).",
+                    "connection": "The 2026 Indianapolis 500 is highlighted on spring sports calendars right now, making Indy history a timely motorsport challenge.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about Indianapolis 500 driver victories focuses on a specific motor racing event and individual achievements, whereas no existing question covers similar ground in terms of topic or ranking criteria."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win).",
+                        "answers": [
+                            "Helio Castroneves",
+                            "Rick Mears",
+                            "Al Unser",
+                            "A. J. Foyt",
+                            "Dario Franchitti"
+                        ],
+                        "distractors": [
+                            "Bobby Unser",
+                            "Johnny Rutherford",
+                            "Mauri Rose",
+                            "Wilbur Shaw",
+                            "Louis Meyer",
+                            "Bill Vukovich",
+                            "Tommy Milton",
+                            "Rodger Ward",
+                            "Gordon Johncock",
+                            "Emerson Fittipaldi",
+                            "Al Unser Jr.",
+                            "Arie Luyendyk",
+                            "Juan Pablo Montoya",
+                            "Takuma Sato",
+                            "Josef Newgarden"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/Indianapolis_500#Multiple_winners"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Indianapolis 500 multiple winners most wins drivers list",
+                        "sources_found": [
+                            {
+                                "title": "Who has won Indy 500 the most? Indianapolis drivers, winners by year",
+                                "url": "https://www.usatoday.com/story/sports/motor/indycar/2025/05/24/indianapolis-500-driver-records-winners-by-year/83777521007/"
+                            },
+                            {
+                                "title": "Back-To-Back Indy 500 Winners - FloRacing",
+                                "url": "https://www.floracing.com/articles/12536471-back-to-back-indy-500-winners"
+                            },
+                            {
+                                "title": "Winning Drivers & Teams | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/home/driver-stats/winning-drivers-teams"
+                            },
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Who Drivers have the Most Indy 500 Wins? - YouTube",
+                                "url": "https://www.youtube.com/watch?v=PA4kfcqncP8"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The proposed order is incorrect according to the sources. A. J. Foyt, Al Unser, Rick Mears, and Helio Castroneves all share the record for the most Indianapolis 500 victories with 4 wins each. The tiebreaker is determined by the most recent win, which makes the correct order: A. J. Foyt (last win 1977), Al Unser (1987), Rick Mears (1991), and Helio Castroneves (2021). Dario Franchitti, with 3 victories (2007, 2010, 2012), ranks 5th, behind the four 4-time winners.",
+                        "proposed_answers": [
+                            "Helio Castroneves",
+                            "Rick Mears",
+                            "Al Unser",
+                            "A. J. Foyt",
+                            "Dario Franchitti"
+                        ],
+                        "corrected_answers": [
+                            "A. J. Foyt",
+                            "Al Unser",
+                            "Rick Mears",
+                            "Helio Castroneves",
+                            "Dario Franchitti"
+                        ],
+                        "best_source": "https://www.usatoday.com/story/sports/motor/indycar/2025/05/24/indianapolis-500-driver-records-winners-by-year/83777521007/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win). A. J. Foyt vs Al Unser ranking list",
+                        "sources_found": [
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Indianapolis 500 Page - Racing-Reference",
+                                "url": "https://www.racing-reference.info/indianapolis-500-page/"
+                            },
+                            {
+                                "title": "Indianapolis 500 Winners - Doctorindy.com",
+                                "url": "https://doctorindy.com/2021/04/28/indianapolis-500-winners/"
+                            },
+                            {
+                                "title": "4 time winners of the Indy 500: AJ Foyt, Al Unser, Rick Mears, and ...",
+                                "url": "https://www.facebook.com/groups/2312007305/posts/10163344964412306/"
+                            },
+                            {
+                                "title": "Driver Records & Milestones | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/driver-records-milestones"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The list incorrectly includes Dario Franchitti instead of Hélio Castroneves, who is tied with the top four drivers at four victories, and breaks ties based on most recent win.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Indianapolis 500 multiple winners most wins drivers list",
+                        "sources_found": [
+                            {
+                                "title": "Who has won Indy 500 the most? Indianapolis drivers, winners by year",
+                                "url": "https://www.usatoday.com/story/sports/motor/indycar/2025/05/24/indianapolis-500-driver-records-winners-by-year/83777521007/"
+                            },
+                            {
+                                "title": "Back-To-Back Indy 500 Winners - FloRacing",
+                                "url": "https://www.floracing.com/articles/12536471-back-to-back-indy-500-winners"
+                            },
+                            {
+                                "title": "Winning Drivers & Teams | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/home/driver-stats/winning-drivers-teams"
+                            },
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Who Drivers have the Most Indy 500 Wins? - YouTube",
+                                "url": "https://www.youtube.com/watch?v=PA4kfcqncP8"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The source data confirms that the top four drivers—A. J. Foyt, Al Unser, Rick Mears, and Helio Castroneves—are tied with four Indianapolis 500 victories each. The tiebreaker is based on the most recent win, which gives the correct order: A. J. Foyt (1977), Al Unser (1987), Rick Mears (1991), and Helio Castroneves (most recent with 2021). Dario Franchitti, with three wins, is correctly placed in fifth.",
+                        "proposed_answers": [
+                            "A. J. Foyt",
+                            "Al Unser",
+                            "Rick Mears",
+                            "Helio Castroneves",
+                            "Dario Franchitti"
+                        ],
+                        "corrected_answers": [
+                            "A. J. Foyt",
+                            "Al Unser",
+                            "Rick Mears",
+                            "Helio Castroneves",
+                            "Dario Franchitti"
+                        ],
+                        "best_source": "https://www.usatoday.com/story/sports/motor/indycar/2025/05/24/indianapolis-500-driver-records-winners-by-year/83777521007/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win). A. J. Foyt vs Al Unser ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Driver Stats | Indianapolis 500 Historical Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/driver-stats/drivers?sort=top-5&sortType=desc"
+                            },
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Driver Records & Milestones | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/driver-records-milestones"
+                            },
+                            {
+                                "title": "Indianapolis 500 Page - Racing-Reference",
+                                "url": "https://www.racing-reference.info/indianapolis-500-page/"
+                            },
+                            {
+                                "title": "Indy 500 Winners: Complete list of champions by year | FOX Sports",
+                                "url": "https://www.foxsports.com/stories/motor/indy-500-champions"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "Based on the source data, Al Unser's last victory was in 1987, preceding Rick Mears' last victory in 1991. Both Al Unser and Rick Mears have four wins each, meaning Rick Mears should rank second due to the tiebreaker rule of most recent win. Additionally, Hélio Castroneves' last win in 2021 places him above Dario Franchitti, who has only three wins.",
+                        "best_source": "https://www.indianapolismotorspeedway.com/events/indy500/history/driver-records-milestones"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Indianapolis 500 multiple winners most wins drivers list",
+                        "sources_found": [
+                            {
+                                "title": "Who has won Indy 500 the most? Indianapolis drivers, winners by year",
+                                "url": "https://www.usatoday.com/story/sports/motor/indycar/2025/05/24/indianapolis-500-driver-records-winners-by-year/83777521007/"
+                            },
+                            {
+                                "title": "Back-To-Back Indy 500 Winners - FloRacing",
+                                "url": "https://www.floracing.com/articles/12536471-back-to-back-indy-500-winners"
+                            },
+                            {
+                                "title": "Winning Drivers & Teams | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/home/driver-stats/winning-drivers-teams"
+                            },
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Who Drivers have the Most Indy 500 Wins? - YouTube",
+                                "url": "https://www.youtube.com/watch?v=PA4kfcqncP8"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "According to the data from multiple sources, including the authoritative Wikipedia source, the record for most Indianapolis 500 victories is four, shared by A.J. Foyt, Al Unser, Rick Mears, and Helio Castroneves. These drivers are ranked among each other based on the most recent win, which puts Helio Castroneves last among the four because his last victory came in 2021. Meanwhile, Dario Franchitti has three wins, which places him fifth after the drivers with four wins. Thus, the proposed answers were mostly correct in content but not in strict ordering by recency. The corrected sequence and values are provided.",
+                        "proposed_answers": [
+                            "A. J. Foyt",
+                            "Al Unser",
+                            "Rick Mears",
+                            "Helio Castroneves",
+                            "Dario Franchitti"
+                        ],
+                        "corrected_answers": [
+                            "A. J. Foyt",
+                            "Al Unser",
+                            "Rick Mears",
+                            "Helio Castroneves",
+                            "Dario Franchitti"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win). A. J. Foyt vs Al Unser ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Driver Stats | Indianapolis 500 Historical Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/driver-stats/drivers?sort=top-5&sortType=desc"
+                            },
+                            {
+                                "title": "List of Indianapolis 500 winners - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                            },
+                            {
+                                "title": "Driver Records & Milestones | Indianapolis 500 Driver Stats",
+                                "url": "https://www.indianapolismotorspeedway.com/events/indy500/history/driver-records-milestones"
+                            },
+                            {
+                                "title": "Indianapolis 500 Page - Racing-Reference",
+                                "url": "https://www.racing-reference.info/indianapolis-500-page/"
+                            },
+                            {
+                                "title": "Indy 500 Winners: Complete list of champions by year | FOX Sports",
+                                "url": "https://www.foxsports.com/stories/motor/indy-500-champions"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order does not match the source data. Four drivers (A.J. Foyt, Al Unser, Rick Mears, and Helio Castroneves) share the record for most wins (4 each), and Al Unser is ranked above the others based on the most recent win. Dario Franchitti only has 3 wins, making him fifth. The corrected order mistakenly places Foyt above Unser instead of below him by the most recent win tie-break rule.",
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Indianapolis_500_winners"
+                    }
+                },
+                {
+                    "topic": "National Library Week (first week of April)",
+                    "suggested_question": "Rank the five most translated authors of all time by total translations (UNESCO Index Translationum), from most to fifth-most.",
+                    "connection": "It’s National Library Week, a perfect time to spotlight global literary reach via an objective, library-centric metric.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking the most translated authors of all time focuses on literary figures and translation statistics, which is distinct from any of the previously used questions, none of which address literature or authors."
+                    },
+                    "generated_question": {
+                        "question": "Rank these authors by total number of translations, from most to fifth-most, according to UNESCO's Index Translationum.",
+                        "answers": [
+                            "Agatha Christie",
+                            "Jules Verne",
+                            "William Shakespeare",
+                            "Enid Blyton",
+                            "Barbara Cartland"
+                        ],
+                        "distractors": [
+                            "Vladimir Lenin",
+                            "Danielle Steel",
+                            "Hans Christian Andersen",
+                            "Brothers Grimm",
+                            "Alexander Pushkin",
+                            "Stephen King",
+                            "Charles Dickens",
+                            "Leo Tolstoy",
+                            "Victor Hugo",
+                            "Alexandre Dumas",
+                            "Arthur Conan Doyle",
+                            "Paulo Coelho",
+                            "Roald Dahl",
+                            "J. K. Rowling",
+                            "Georges Simenon"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_most_translated_individual_authors"
+                    },
+                    "verification_search_iter0": {
+                        "query": "UNESCO Index Translationum most translated authors top 50 Agatha Christie Jules Verne Enid Blyton Barbara Cartland",
+                        "sources_found": [
+                            {
+                                "title": "Index Translationum - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Index_Translationum"
+                            },
+                            {
+                                "title": "Finding Global Success: The Top 10 Most Translated Authors of All ...",
+                                "url": "https://www.ulatus.com/translation-blog/most-translated-author/"
+                            },
+                            {
+                                "title": "Index Translationum: UNESCO Culture Sector",
+                                "url": "https://www.unesco.org/xtrans/bsstatexp.aspx?crit1L=5&nTyp=min&topN=50"
+                            },
+                            {
+                                "title": "The most translated authors in the world (Verne, number 2) - Reddit",
+                                "url": "https://www.reddit.com/r/julesverne/comments/1ctbr9f/the_most_translated_authors_in_the_world_verne/"
+                            },
+                            {
+                                "title": "Who is the Most Translated Author? - Atkins Bookshelf",
+                                "url": "https://atkinsbookshelf.wordpress.com/2020/03/26/who-is-the-most-translated-author/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources confirm the ranking of the authors by the total number of translations. The proposed order aligns with the authoritative data from UNESCO and corroborating sources. Agatha Christie ranks first with 7,236 translations, followed by Jules Verne with 4,751, William Shakespeare with 4,296, Enid Blyton with 3,924, and Barbara Cartland with 3,652. As such, the original order is correct, and the data is verified.",
+                        "proposed_answers": [
+                            "Agatha Christie",
+                            "Jules Verne",
+                            "William Shakespeare",
+                            "Enid Blyton",
+                            "Barbara Cartland"
+                        ],
+                        "corrected_answers": [
+                            "Agatha Christie",
+                            "Jules Verne",
+                            "William Shakespeare",
+                            "Enid Blyton",
+                            "Barbara Cartland"
+                        ],
+                        "best_source": "https://atkinsbookshelf.wordpress.com/2020/03/26/who-is-the-most-translated-author/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank these authors by total number of translations, from most to fifth-most, according to UNESCO's Index Translationum. Agatha Christie vs Jules Verne ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Most Translated Authors, by Veronica Esposito",
+                                "url": "https://worldliteraturetoday.org/blog/translation/most-translated-authors-veronica-esposito"
+                            },
+                            {
+                                "title": "Expert Translations - Exptrans.com | - Facebook",
+                                "url": "https://www.facebook.com/ExpTranscom/photos/did-you-know-that-according-to-unescos-index-translationum-the-most-translated-a/1773050119596242/"
+                            },
+                            {
+                                "title": "The 5 Most Translated Authors of All Time - Linguistica International",
+                                "url": "https://blog.linguistica-international.com/the-5-most-translated-authors-of-all-time/"
+                            },
+                            {
+                                "title": "Finding Global Success: The Top 10 Most Translated Authors of All ...",
+                                "url": "https://www.ulatus.com/translation-blog/most-translated-author/"
+                            },
+                            {
+                                "title": "The World's Ten Most Translated Authors",
+                                "url": "https://translationexcellence.com/worlds-ten-most-translated-authors/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "Multiple reliable sources consistently confirm the corrected order of Agatha Christie, Jules Verne, William Shakespeare, Enid Blyton, and Barbara Cartland based on UNESCO's Index Translationum.",
+                        "best_source": "https://blog.linguistica-international.com/the-5-most-translated-authors-of-all-time/"
+                    },
+                    "question_id": 45,
+                    "final_answers": [
+                        "Agatha Christie",
+                        "Jules Verne",
+                        "William Shakespeare",
+                        "Enid Blyton",
+                        "Barbara Cartland"
+                    ],
+                    "final_source": "https://blog.linguistica-international.com/the-5-most-translated-authors-of-all-time/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening April 03, 2026",
+                        "results": [
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events/",
+                                "snippet": "FIFA World Cup 2026 – 11 June – 19 July, USA, Canada, Mexico. · Wimbledon – Grand Slam tennis tournament, 29 June – 12 July 2026, United Kingdom."
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "*   [2026 Monaco Grand Prix](https://www.roadtrips.com/auto-racing-packages/monaco-grand-prix/). *   [2026 Indianapolis 500](https://www.roadtrips.com/auto-racing-packages/indy-500/). *   [Auto Racing"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "*   14-22 Mar: [Curling](https://www.olympics.com/en/milano-cortina-2026/sports/curling) – World Women’s Curling Championship (Calgary, Canada). *   28 Apr to 10 May: [Table Tennis](https://www.olympi"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "See the current Major World Sporting Events Calendar. | Jan 10 | Athletics | World Athletics Cross Country Championships | Tallahassee, USA |. | Jan 9–11 | Ski Jumping | Ski Jumping World Cup (Men) | "
+                            },
+                            {
+                                "title": "April 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/april-2026-sports-calendar-c21fd2ec3be69047dbcaab7f0886702e",
+                                "snippet": "[March Madness](https://apnews.com/hub/march-madness) [NBA](https://apnews.com/hub/nba) [NHL](https://apnews.com/hub/nhl) [MLB](https://apnews.com/hub/mlb) [NFL](https://apnews.com/hub/nfl) [Soccer](h"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays April 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 Holidays, National, International Days. Holiday Insights.",
+                                "url": "https://www.holidayinsights.com/moreholidays/april.htm",
+                                "snippet": "April Weekly Events · First Week of the Month – Library Week · First Week of the Month – Read a Road Map Week · Second Week of the Month – Garden Week · Third Week"
+                            },
+                            {
+                                "title": "April Observances — CultureAlly",
+                                "url": "https://www.cultureally.com/blog/april-observances",
+                                "snippet": "List of Observances in April 2026. April 1-30 Arab Heritage Month celebrates the rich cultural, historical, and societal contributions of Arab communities"
+                            },
+                            {
+                                "title": "April 2026 National Days and Observances: Global Holiday Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/april-national-global-holidays/",
+                                "snippet": "*   [April National Days Around the World: The Essential Global Guide for 2026](https://www.remitly.com/blog/lifestyle-culture/april-national-global-holidays/). **[April Fools’ Day, observed in many W"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For April 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-april-2026",
+                                "snippet": "# Awareness Days & Cultural Calendar For April 2026. April 2026 cultural calendar highlights diversity, health, environment, and heritage with key awareness days and global celebrations. April 2026 is"
+                            },
+                            {
+                                "title": "April 2026 Calendar (With Holidays) - Calendarr",
+                                "url": "https://www.calendarr.com/united-states/calendar-april-2026/",
+                                "snippet": "April 2026 Holidays and National Days · April Fool's Day · Passover · National Walking Day · National Sourdough Bread Day · International Fun At Work Day · Take Down"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences April 2026",
+                        "results": [
+                            {
+                                "title": "2026 STEP Ahead Awards Leadership Conference",
+                                "url": "https://themanufacturinginstitute.org/events/2026-step-ahead-awards-leadership-conference/",
+                                "snippet": "The 2026 STEP Ahead Leadership Conference will take place in Washington, D.C. on April 22-23, 2026. ##### The 2025 STEP Ahead Awards will take place in Washington, D.C. * **April 22-23, 2026:** STEP A"
+                            },
+                            {
+                                "title": "Annual Meeting & Awards Ceremony 2026 - Apr 30, 2026 - Granby ...",
+                                "url": "https://www.simsburycoc.com/events/details/annual-meeting-awards-ceremony-2026-3773",
+                                "snippet": "Join us for the Granby-Simsbury Chamber of Commerce's 2026 Annual Meeting and Social on April 30th at Holcomb Farms! ... Annual Meeting & Awards Ceremony 2026."
+                            },
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 31: Webby Awards nominations · April. 2: Anime Awards nominations. 28: Scientific and Technical Awards"
+                            },
+                            {
+                                "title": "The Awards Event | Writers & Illustrators of the Future",
+                                "url": "https://writersofthefuture.com/the-awards-event/",
+                                "snippet": "Writers & Illustrators of the Future. Countdown to the 42nd Annual L. Ron Hubbard Achievement Awards 16 April 2026. ### The Annual Awards Ceremony. After the writer and illustrator winners have spent "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week April 03, 2026",
+                        "results": [
+                            {
+                                "title": "Table of contents for April 03, 2026 in The Week Magazine - Zinio",
+                                "url": "https://www.zinio.com/publications/the-week-magazine/3441/issues/717699/articles",
+                                "snippet": "“They want to make a deal so badly,” said Trump, who asserted that envoy Steve Witkoff, son-in-law Jared Kushner, Secretary of State Marco Rubio, and Vice President JD Vance were all engaged in talks "
+                            },
+                            {
+                                "title": "What Happens on April 3, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/april/3",
+                                "snippet": "# What Happens on April 3, 2026. ## About April 3, 2026. **Day of the Week:** Friday. **How Far Away?** 7 days. **Holidays:** Good Friday (Australia, Canada, New Zealand, United Kingdom). ## No Entrie"
+                            },
+                            {
+                                "title": "The New York Times in Print for Wednesday, March 4, 2026",
+                                "url": "https://www.nytimes.com/issue/todayspaper/2026/03/04/todays-new-york-times",
+                                "snippet": "The United States and Israel started a war with Iran by killing its supreme leader, Ayatollah Ali Khamenei. March 3, 2026By Charlie Savage."
+                            },
+                            {
+                                "title": "Headlines for March 03, 2026 | Democracy Now!",
+                                "url": "https://www.democracynow.org/2026/3/3/headlines",
+                                "snippet": "*   ![Image 7](https://assets.democracynow.org/assets/icons/video_square-b2d9809b2d8e28a669aec9b9b6ca59ee3dd8813834e8b7151c783b16a503c3f4.png)Story Apr 01, 2026 [War’s Environmental Fallout: U.N. Expe"
+                            },
+                            {
+                                "title": "LIVE Impact News | Top headlines for Wednesday, March 4, 2026",
+                                "url": "https://www.youtube.com/watch?v=cYsG8q8SxNc",
+                                "snippet": "13News Now's news team gives you updates on the latest news events of the day, as well as updates on sports, weather, and traffic."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days April 03",
+                        "results": [
+                            {
+                                "title": "Famous Birthdays on April 3 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/april/3",
+                                "snippet": "* 1837 John Burroughs, American writer and nature enthusiast (Burroughs Medal namesake), born in Delaware County, New York (d. * 1898 George Jessel, American stage and screen actor, singer, producer a"
+                            },
+                            {
+                                "title": "Famous People's Birthdays, April 03, World Celebrity Birthdays",
+                                "url": "https://www.bornglorious.com/world/birthday/?pd=0403",
+                                "snippet": "American stand-up comedian, actor, and singer. ### 9 **Doris Day**. ### 14 **Adam Scott (actor)**. ### **Birthdays by Profession**. ### **Birthdays by Region**. ### **Birthdays by Place**. ### **Birth"
+                            },
+                            {
+                                "title": "Famous birthdays list for today, April 3, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/04/famous-birthdays-list-for-today-april-3-2025-includes-celebrities-eddie-murphy-alec-baldwin.html",
+                                "snippet": "# Famous birthdays list for today, April 3, 2025 includes celebrities Eddie Murphy, Alec Baldwin. Eddie Murphy and Alec Baldwin celebrate birthdays on April 3, 2025AP. Birthday wishes go out to Eddie "
+                            },
+                            {
+                                "title": "Famous birthdays for April 3: Jane Goodall, Jennie Garth - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-april-3-jane-070006649.html",
+                                "snippet": "-- Anthropologist Jane Goodall in 1934 (age 91). -- Actor Eric Braeden in 1941 (age 84). -- Actor Marsha Mason in 1942 (age 83). -- Musician Tony Orlando in 1944 (age 81). -- Actor Alec Baldwin in 195"
+                            },
+                            {
+                                "title": "April 3 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/april3.html",
+                                "snippet": "YouTube Stars born April 3. TikTok Stars born April 3. Actors born April 3. Singers born April 3. Instagram Stars born April 3. Rappers born April 3."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "Indianapolis 500 (May auto racing marquee)",
+                        "suggested_question": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win).",
+                        "connection": "The 2026 Indianapolis 500 is highlighted on spring sports calendars right now, making Indy history a timely motorsport challenge."
+                    },
+                    {
+                        "topic": "National Library Week (first week of April)",
+                        "suggested_question": "Rank the five most translated authors of all time by total translations (UNESCO Index Translationum), from most to fifth-most.",
+                        "connection": "It’s National Library Week, a perfect time to spotlight global literary reach via an objective, library-centric metric."
+                    },
+                    {
+                        "topic": "Anime Awards nominations (April 2, awards-season calendar)",
+                        "suggested_question": "Rank the top five highest-grossing anime films worldwide (unadjusted global box office), from highest to fifth-highest.",
+                        "connection": "With anime awards nominations just announced, fans are focused on standout titles—box office is a clean, verifiable way to rank them."
+                    },
+                    {
+                        "topic": "Garden Week (second week of April)",
+                        "suggested_question": "Rank the top five countries by annual cut flower export value (latest UN Comtrade data, USD), from highest to fifth-highest.",
+                        "connection": "Garden Week puts floriculture in the spotlight; export values provide a concrete, globally comparable ranking tied to blooming season."
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April 1–30)",
+                        "suggested_question": "Rank the top five Arab League countries by total UNESCO World Heritage Sites, from most to fifth-most.",
+                        "connection": "April celebrates Arab heritage; UNESCO site counts offer a cultural, objective lens on historic preservation across the Arab world."
+                    },
+                    {
+                        "topic": "STEP Ahead Awards (Manufacturing leadership conference, April 22–23)",
+                        "suggested_question": "Rank the top five U.S. states by manufacturing employment (BLS, latest available), from highest to fifth-highest.",
+                        "connection": "With the STEP Ahead conference spotlighting manufacturing leadership, state employment figures provide a relevant, data-driven ranking."
+                    },
+                    {
+                        "topic": "Webby Awards nominations (March 31, awards-season tech)",
+                        "suggested_question": "Rank the top five organizations/brands with the most Webby Awards wins all-time, from most to fifth-most.",
+                        "connection": "Webby nominations signal peak internet awards season; cumulative Webby wins are a clear metric to rank digital heavyweights."
+                    },
+                    {
+                        "topic": "Earth Day (April 22) — seasonal fallback",
+                        "suggested_question": "Rank the top five countries by cumulative installed solar PV capacity (GW, latest global data), from highest to fifth-highest.",
+                        "connection": "Earth Day spotlights clean energy; installed solar capacity is a definitive, comparable measure of progress toward sustainability."
+                    },
+                    {
+                        "topic": "Read a Road Map Week (first week of April) — seasonal fallback",
+                        "suggested_question": "Rank the top five urban metro systems by total route length (kilometers), from longest to fifth-longest.",
+                        "connection": "Map-themed observances pair perfectly with transit networks; route length offers an objective, geography-minded ranking."
+                    },
+                    {
+                        "topic": "Passover (early April) — seasonal fallback",
+                        "suggested_question": "Rank the top five countries by Jewish population (latest reputable demographic estimates), from largest to fifth-largest.",
+                        "connection": "Passover is being observed across many countries; demographic estimates provide an objective way to understand global Jewish communities."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 6,
+                "topics_before": 10,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "Indianapolis 500 (May auto racing marquee)",
+                        "suggested_question": "Rank the top five drivers by total Indianapolis 500 victories, from most to fifth-most (break ties by most recent win).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the Indianapolis 500, an auto racing event, which is a different theme compared to any of the recent questions that cover topics like rainfall, NCAA basketball, planetary diameters, tennis, FIFA World Cup, and foreign-exchange reserves.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Library Week (first week of April)",
+                        "suggested_question": "Rank the five most translated authors of all time by total translations (UNESCO Index Translationum), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to literary translations, which does not overlap with any of the recent topics such as rainfall, sports championships, planetary sizes, or economic data.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Anime Awards nominations (April 2, awards-season calendar)",
+                        "suggested_question": "Rank the top five highest-grossing anime films worldwide (unadjusted global box office), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the highest-grossing anime films worldwide, which falls under the category of anime and cinema. None of the recent questions are related to this topic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Garden Week (second week of April)",
+                        "suggested_question": "Rank the top five countries by annual cut flower export value (latest UN Comtrade data, USD), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on cut flower export values, which has no overlap with any of the recent questions covering topics like rainfall, sports, planetary sizes, currencies, or World Cup titles.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April 1–30)",
+                        "suggested_question": "Rank the top five Arab League countries by total UNESCO World Heritage Sites, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Arab League countries and UNESCO World Heritage Sites, whereas none of the recent questions cover this theme or subject area.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "STEP Ahead Awards (Manufacturing leadership conference, April 22–23)",
+                        "suggested_question": "Rank the top five U.S. states by manufacturing employment (BLS, latest available), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on manufacturing employment in U.S. states, which is unrelated to any of the recent topics such as rainfall, basketball, planetary diameters, tennis, FIFA titles, or global currency reserves.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Webby Awards nominations (March 31, awards-season tech)",
+                        "suggested_question": "Rank the top five organizations/brands with the most Webby Awards wins all-time, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the Webby Awards, a tech and digital achievements subject, which does not overlap with any of the previous questions that covered geography, sports, astronomy, economics, or currency reserves.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Day (April 22) — seasonal fallback",
+                        "suggested_question": "Rank the top five countries by cumulative installed solar PV capacity (GW, latest global data), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on solar PV capacity and renewable energy, which does not align with the themes of any recently used questions, such as weather, sports, planetary science, or economics.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Read a Road Map Week (first week of April) — seasonal fallback",
+                        "suggested_question": "Rank the top five urban metro systems by total route length (kilometers), from longest to fifth-longest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about metro systems by route length does not overlap with any of the recent questions, which cover rainfall, basketball, planets, tennis, FIFA World Cup, and foreign-exchange reserves. These are unrelated subject areas.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Passover (early April) — seasonal fallback",
+                        "suggested_question": "Rank the top five countries by Jewish population (latest reputable demographic estimates), from largest to fifth-largest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Passover and Jewish population demographics does not overlap with any recent questions, which cover weather, sports, astronomy, economics, and currency reserves.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 45
         }
     ]
 }
