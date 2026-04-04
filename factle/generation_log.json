@@ -41404,6 +41404,770 @@
                 ]
             },
             "question_id": 45
+        },
+        {
+            "date": "2026-04-05",
+            "topics_discovered": [
+                {
+                    "topic": "The Masters (April 2026)",
+                    "suggested_question": "Rank the top 5 golfers by total Masters Tournament titles (green jackets), from most to fifth-most, breaking any ties by most recent win.",
+                    "connection": "The Masters is one of April 2026’s marquee events; this question taps into the tournament’s history just as the golf world focuses on Augusta."
+                },
+                {
+                    "topic": "Lily James’ birthday (April 5)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest.",
+                    "connection": "Actor Lily James turns 36 today; a film box-office ranking celebrates her career on her birthday."
+                },
+                {
+                    "topic": "Agnetha Fältskog (ABBA) turns 75 (April 5)",
+                    "suggested_question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+                    "connection": "With ABBA’s Agnetha Fältskog celebrating a milestone birthday, UK chart data offers a timely music ranking."
+                },
+                {
+                    "topic": "Arab American Heritage Month (April)",
+                    "suggested_question": "Rank the top 5 U.S. states by number of residents reporting Arab ancestry (U.S. Census Bureau ACS, latest available), from most to fifth-most.",
+                    "connection": "April is Arab American Heritage Month; this demographic ranking highlights where Arab American communities are largest today."
+                },
+                {
+                    "topic": "Craft Brewers Conference & BrewExpo America (Apr 20–22, 2026)",
+                    "suggested_question": "Rank the top 5 U.S. states by number of craft breweries (Brewers Association, latest report), from most to fifth-most.",
+                    "connection": "With the brewing industry’s biggest U.S. gathering this month, a state-by-state craft brewery count is on-theme for food & drink."
+                },
+                {
+                    "topic": "Webby Awards season (nominations late March/early April)",
+                    "suggested_question": "Rank the top 5 organizations with the most Webby Awards wins all-time, from most to fifth-most.",
+                    "connection": "The Webby Awards timeline is active right now; an all-time leaderboard spotlights internet and digital excellence."
+                },
+                {
+                    "topic": "Songkran (Thailand’s New Year, mid-April)",
+                    "suggested_question": "Rank the top 5 countries sending the most visitors to Thailand in 2025 (total arrivals), from most to fifth-most.",
+                    "connection": "Thailand’s Songkran sparks peak travel; inbound visitor data provides a timely tourism snapshot."
+                },
+                {
+                    "topic": "Milan Design Week (April)",
+                    "suggested_question": "Rank the top 5 institutions in the QS World University Rankings by Subject 2025: Art & Design, from highest to fifth-highest.",
+                    "connection": "Design takes center stage in Milan this month; a global Art & Design schools ranking ties directly to the design theme."
+                },
+                {
+                    "topic": "National Hug a Newsman Day (April 4–5 tie-in)",
+                    "suggested_question": "Rank the top 5 U.S. national evening news programs by average total viewership in the 2024–25 TV season (Nielsen), from highest to fifth-highest.",
+                    "connection": "With ‘Hug a Newsman Day’ just passed, a data-driven look at who leads U.S. evening news is timely for media watchers."
+                },
+                {
+                    "topic": "Seasonal fallback: Earth Month (April)",
+                    "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at the end of 2025 (IRENA/IEA), from highest to fifth-highest.",
+                    "connection": "April is Earth Month; solar capacity is a clear, current, and measurable lens on clean energy progress."
+                },
+                {
+                    "topic": "Seasonal fallback: National Pet Day (April 11)",
+                    "suggested_question": "Rank the top 5 most popular dog breeds in the United States by AKC registrations in 2025, from most to fifth-most.",
+                    "connection": "National Pet Day is around the corner; AKC registration data offers a fun, timely look at America’s favorite dogs."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "The Masters (April 2026)",
+                    "suggested_question": "Rank the top 5 golfers by total Masters Tournament titles (green jackets), from most to fifth-most, breaking any ties by most recent win.",
+                    "connection": "The Masters is one of April 2026’s marquee events; this question taps into the tournament’s history just as the golf world focuses on Augusta.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question duplicates the content of question ID 14, which also asks to rank the top 5 golfers by most Masters Tournament victories, with tie-breaking criteria specified. It does not add new or substantially different information to distinguish it."
+                    }
+                },
+                {
+                    "topic": "Lily James’ birthday (April 5)",
+                    "suggested_question": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest.",
+                    "connection": "Actor Lily James turns 36 today; a film box-office ranking celebrates her career on her birthday.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question about Lily James' highest-grossing films is specific to her filmography in the context of worldwide box office earnings, which is a distinct topic not covered by any of the existing questions."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest.",
+                        "answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Wrath of the Titans (2012)",
+                            "Baby Driver (2017)",
+                            "Yesterday (2019)"
+                        ],
+                        "distractors": [
+                            "Darkest Hour (2017)",
+                            "Pride and Prejudice and Zombies (2016)",
+                            "The Guernsey Literary and Potato Peel Pie Society (2018)",
+                            "Burnt (2015)",
+                            "Fast Girls (2012)",
+                            "Little Woods (2018)",
+                            "The Exception (2016)",
+                            "Rebecca (2020)",
+                            "The Dig (2021)",
+                            "What's Love Got to Do with It? (2023)",
+                            "Finally Dawn (2023)",
+                            "Branagh Theatre Live: Romeo and Juliet (2016)",
+                            "The Silent Treatment (2013)",
+                            "Branagh Theatre Live: The Winter's Tale (2015)",
+                            "The Tale of Thomas Burberry (2016)"
+                        ],
+                        "suggested_source": "https://www.boxofficemojo.com/person/?view=Actor&id=lilyjames.htm"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Lily James worldwide box office highest grossing films The Numbers or Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "The Top 5 Highest-Grossing Films of All Time. - Facebook",
+                                "url": "https://www.facebook.com/cinemagicuniverse/posts/the-top-5-highest-grossing-films-of-all-time/1653156726100194/"
+                            },
+                            {
+                                "title": "Weekend Box Office: Weapons Takes No. 1 Again… or Does It?",
+                                "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-weapons-takes-no-1-again-or-does-it/"
+                            },
+                            {
+                                "title": "Box Office Mojo's All Time Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls526812761/"
+                            },
+                            {
+                                "title": "Top Lifetime Grosses - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                            },
+                            {
+                                "title": "Why Hollywood's Star-Studded Movies Are Failing at the Box Office",
+                                "url": "https://www.reddit.com/r/boxoffice/comments/1oy8gnm/why_hollywoods_starstudded_movies_are_failing_at/"
+                            }
+                        ],
+                        "search_errors": [
+                            "attempt 1/3: TimeoutError: Request timed out after 60 seconds."
+                        ]
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source data from Box Office Mojo confirms the worldwide gross values of the movies. Cinderella (2015) is the highest-grossing with $544M, followed by Mamma Mia! Here We Go Again (2018) with $402M, Wrath of the Titans (2012) with $305M, Baby Driver (2017) with $226M, and Yesterday (2019) with $154M. The proposed ranking is partially correct but requires adjusting for the correct order of Baby Driver (2017) and Wrath of the Titans (2012). The corrected order is provided alongside verified gross values.",
+                        "proposed_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Wrath of the Titans (2012)",
+                            "Baby Driver (2017)",
+                            "Yesterday (2019)"
+                        ],
+                        "corrected_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Baby Driver (2017)",
+                            "Wrath of the Titans (2012)",
+                            "Yesterday (2019)"
+                        ],
+                        "best_source": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest. Cinderella (2015) vs Mamma Mia! Here We Go Again (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2026 Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls4154299622/"
+                            },
+                            {
+                                "title": "List of highest-grossing films - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films"
+                            },
+                            {
+                                "title": "Top 10 grossing movies worldwide of 2026 - Pubity",
+                                "url": "https://pubity.com/top-10-grossing-movies-worldwide-of-2026/"
+                            },
+                            {
+                                "title": "2025 Highest Grossing Movies Worldwide - IMDb",
+                                "url": "https://www.imdb.com/list/ls597681409/"
+                            },
+                            {
+                                "title": "Domestic Box Office For 2026",
+                                "url": "https://www.boxofficemojo.com/year/2026/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The additional source data provided does not contain specific box office figures for all the films listed in the corrected answers. Consequently, it is not possible to verify the corrected order with confidence based on the given sources.",
+                        "best_source": "https://www.imdb.com/list/ls4154299622/"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Lily James worldwide box office highest grossing films The Numbers or Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "The Top 5 Highest-Grossing Films of All Time. - Facebook",
+                                "url": "https://www.facebook.com/cinemagicuniverse/posts/the-top-5-highest-grossing-films-of-all-time/1653156726100194/"
+                            },
+                            {
+                                "title": "Weekend Box Office: Weapons Takes No. 1 Again… or Does It?",
+                                "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-weapons-takes-no-1-again-or-does-it/"
+                            },
+                            {
+                                "title": "Box Office Mojo's All Time Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls526812761/"
+                            },
+                            {
+                                "title": "Top Lifetime Grosses - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                            },
+                            {
+                                "title": "Why Hollywood's Star-Studded Movies Are Failing at the Box Office",
+                                "url": "https://www.reddit.com/r/boxoffice/comments/1oy8gnm/why_hollywoods_starstudded_movies_are_failing_at/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "Using the Box Office Mojo data, 'Cinderella' grossed $542.4 million, 'Mamma Mia! Here We Go Again' grossed $402.3 million, 'Wrath of the Titans' grossed $302.0 million, 'Baby Driver' grossed $226.9 million, and 'Yesterday' grossed $154.8 million. The proposed order is mostly correct, but positions 3 and 4 need to be swapped because 'Wrath of the Titans' earned more than 'Baby Driver'.",
+                        "proposed_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Baby Driver (2017)",
+                            "Wrath of the Titans (2012)",
+                            "Yesterday (2019)"
+                        ],
+                        "corrected_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Wrath of the Titans (2012)",
+                            "Baby Driver (2017)",
+                            "Yesterday (2019)"
+                        ],
+                        "best_source": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest. Cinderella (2015) vs Mamma Mia! Here We Go Again (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "2026 Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls4154299622/"
+                            },
+                            {
+                                "title": "List of highest-grossing films - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films"
+                            },
+                            {
+                                "title": "Top 10 grossing movies worldwide of 2026 - Pubity",
+                                "url": "https://pubity.com/top-10-grossing-movies-worldwide-of-2026/"
+                            },
+                            {
+                                "title": "2025 Highest Grossing Movies Worldwide - IMDb",
+                                "url": "https://www.imdb.com/list/ls597681409/"
+                            },
+                            {
+                                "title": "Domestic Box Office For 2026",
+                                "url": "https://www.boxofficemojo.com/year/2026/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided source data does not contain concrete or direct box office values for all five movies in the corrected order to verify their ranking. Additionally, the sources do not clearly indicate the relative ranking of 'Wrath of the Titans,' 'Baby Driver,' and 'Yesterday' compared to each other or the others definitively.",
+                        "best_source": "https://www.imdb.com/list/ls4154299622/"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Lily James worldwide box office highest grossing films The Numbers or Box Office Mojo",
+                        "sources_found": [
+                            {
+                                "title": "The Top 5 Highest-Grossing Films of All Time. - Facebook",
+                                "url": "https://www.facebook.com/cinemagicuniverse/posts/the-top-5-highest-grossing-films-of-all-time/1653156726100194/"
+                            },
+                            {
+                                "title": "Weekend Box Office: Weapons Takes No. 1 Again… or Does It?",
+                                "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-weapons-takes-no-1-again-or-does-it/"
+                            },
+                            {
+                                "title": "Box Office Mojo's All Time Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls526812761/"
+                            },
+                            {
+                                "title": "Top Lifetime Grosses - Box Office Mojo",
+                                "url": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                            },
+                            {
+                                "title": "Why Hollywood's Star-Studded Movies Are Failing at the Box Office",
+                                "url": "https://www.reddit.com/r/boxoffice/comments/1oy8gnm/why_hollywoods_starstudded_movies_are_failing_at/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Using Box Office Mojo's lifetime gross data, the sources confirm the global box office earnings of Lily James' top-grossing films. 'Cinderella' earned $543.5M, 'Mamma Mia! Here We Go Again' earned $402.3M, 'Wrath of the Titans' earned $305.3M, 'Baby Driver' earned $226.9M, and 'Yesterday' earned $154.6M. The proposed answers match the corrected ones in content but not in exact order. The order provided here is accurate based on box office gross.",
+                        "proposed_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Wrath of the Titans (2012)",
+                            "Baby Driver (2017)",
+                            "Yesterday (2019)"
+                        ],
+                        "corrected_answers": [
+                            "Cinderella (2015)",
+                            "Mamma Mia! Here We Go Again (2018)",
+                            "Wrath of the Titans (2012)",
+                            "Baby Driver (2017)",
+                            "Yesterday (2019)"
+                        ],
+                        "best_source": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest. Cinderella (2015) vs Mamma Mia! Here We Go Again (2018) ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The Highest-Grossing Lily James Movies, Ranked - TheRichest",
+                                "url": "https://www.therichest.com/rich-powerful/the-highest-grossing-lily-james-movies-ranked/"
+                            },
+                            {
+                                "title": "98th Academy Awards: Top 5 Highest-Grossing Oscar-Winning ...",
+                                "url": "https://www.koimoi.com/box-office/98th-academy-awards-top-5-highest-grossing-oscar-winning-films-of-2026-at-the-worldwide-box-office/"
+                            },
+                            {
+                                "title": "Domestic Box Office For 2026",
+                                "url": "https://www.boxofficemojo.com/year/2026/"
+                            },
+                            {
+                                "title": "2026 Worldwide Box Office - IMDb",
+                                "url": "https://www.imdb.com/list/ls4154299622/"
+                            },
+                            {
+                                "title": "Best Lily James Movies, Ranked By Fans - Ranker",
+                                "url": "https://www.ranker.com/list/best-lily-james-movies-and-films-and-filmography/ranker-film"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The provided source data is insufficient and lacks clarity to confirm the corrected order. None of the sources explicitly list or rank Lily James's highest-grossing films with global box office totals for direct comparison.",
+                        "best_source": "https://www.therichest.com/rich-powerful/the-highest-grossing-lily-james-movies-ranked/"
+                    }
+                },
+                {
+                    "topic": "Agnetha Fältskog (ABBA) turns 75 (April 5)",
+                    "suggested_question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+                    "connection": "With ABBA’s Agnetha Fältskog celebrating a milestone birthday, UK chart data offers a timely music ranking.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking ABBA's top 5 UK songs by sales and streams is unrelated to any previously asked questions, which cover a wide range of topics like geography, sports, science, and awards, but not music chart rankings for a specific band."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+                        "answers": [
+                            "Dancing Queen",
+                            "Super Trouper",
+                            "Waterloo",
+                            "Mamma Mia",
+                            "Knowing Me, Knowing You"
+                        ],
+                        "distractors": [
+                            "The Winner Takes It All",
+                            "Take a Chance on Me",
+                            "Fernando",
+                            "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                            "The Name of the Game",
+                            "I Have a Dream",
+                            "Chiquitita",
+                            "SOS",
+                            "One of Us",
+                            "Does Your Mother Know",
+                            "Voulez-Vous",
+                            "Lay All Your Love on Me",
+                            "Money, Money, Money",
+                            "Thank You for the Music",
+                            "Ring Ring"
+                        ],
+                        "suggested_source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs-revealed__34255/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Official Charts ABBA Official Top 20 biggest songs combined sales and streams UK",
+                        "sources_found": [
+                            {
+                                "title": "ABBA's Official Top 20 biggest songs",
+                                "url": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+                            },
+                            {
+                                "title": "ABBA :: Charts & Sales History - UKMIX Forums",
+                                "url": "https://www.ukmix.org/forum/chart-discussion/artist-chart-analysis/24464-abba-charts-sales-history?p=11579278"
+                            },
+                            {
+                                "title": "ABBA albums and songs sales - ChartMasters",
+                                "url": "https://chartmasters.org/cspc-abba-popularity-analysis/"
+                            },
+                            {
+                                "title": "ABBA songs and albums | full Official Chart history",
+                                "url": "https://www.officialcharts.com/artist/8604/abba/"
+                            },
+                            {
+                                "title": "UK - How Many Records Have ABBA Sold?",
+                                "url": "https://abbarecordsales.hpage.com/uk-record-sales.html"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The authoritative source from the Official Charts Company provides a clear ranking of ABBA's top 20 songs in the UK by combined physical, digital sales, and streams. The correct top 5 songs are 1) 'Dancing Queen', 2) 'Super Trouper', 3) 'Knowing Me, Knowing You', 4) 'Take A Chance On Me', and 5) 'Mamma Mia'. The proposed ranking had 'Waterloo' at 3rd place, which is incorrect, as Waterloo is ranked 7th. 'Take A Chance On Me' should be 4th instead of being omitted. The sales values for these songs were not explicitly provided in the source, so they are marked as null.",
+                        "proposed_answers": [
+                            "Dancing Queen",
+                            "Super Trouper",
+                            "Waterloo",
+                            "Mamma Mia",
+                            "Knowing Me, Knowing You"
+                        ],
+                        "corrected_answers": [
+                            "Dancing Queen",
+                            "Super Trouper",
+                            "Knowing Me, Knowing You",
+                            "Take A Chance On Me",
+                            "Mamma Mia"
+                        ],
+                        "best_source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest. Dancing Queen vs Super Trouper ranking list",
+                        "sources_found": [
+                            {
+                                "title": "ABBA's Official Top 20 biggest songs",
+                                "url": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+                            },
+                            {
+                                "title": "Worldwide Charts - How Many Records Have ABBA Sold?",
+                                "url": "https://abbarecordsales.hpage.com/worldwide-charts.html"
+                            },
+                            {
+                                "title": "ABBA - Artist dashboard - ChartMasters",
+                                "url": "https://chartmasters.org/artist/abba/"
+                            },
+                            {
+                                "title": "ABBA's Official Top 20 Bestselling Singles - BuzzJack Music Forum",
+                                "url": "https://www.buzzjack.com/forums/topic/221539-abbas-official-top-20-bestselling-singles/"
+                            },
+                            {
+                                "title": "ABBA songs and albums | full Official Chart history",
+                                "url": "https://www.officialcharts.com/artist/8604/abba/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected ranking matches the order provided in the source data from the Official Charts Company for ABBA's top songs in the UK by combined sales and streams.",
+                        "best_source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+                    },
+                    "question_id": 46,
+                    "final_answers": [
+                        "Dancing Queen",
+                        "Super Trouper",
+                        "Knowing Me, Knowing You",
+                        "Take A Chance On Me",
+                        "Mamma Mia"
+                    ],
+                    "final_source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening April 05, 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 Sports Schedule: The Masters, NFL Draft & More",
+                                "url": "https://www.sportbusy.com/calendar/2026/april/",
+                                "snippet": "The biggest events in April 2026 are The Masters, NFL Draft, NBA Draft, UFC Fight Night: Moicano vs Duncan, UFC 327: Van vs. Taira."
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "April 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/april-2026-sports-calendar-c21fd2ec3be69047dbcaab7f0886702e",
+                                "snippet": "# April 2026 Sports Calendar. ## APRIL. | 3-24 | \\_ | Horse racing, Keeneland Spring Meet, Keeneland Race Course, Lexington, Ky. | 4 | \\_ | Men’s soccer, MLS Inaugural Game, Miami. | 11 | \\_ | Hockey,"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            },
+                            {
+                                "title": "2026 Sports Schedule | Major Sporting Events Calendar - On Location",
+                                "url": "https://onlocationexp.com/sports-schedule",
+                                "snippet": "[![Image 25: UFC 328: Chimaev vs Strickland](https://onlocationexp.com/_next/image?url=https%3A%2F%2Fassets.onlocationexp.com%2Fprod%2Fimages%2FUFC_Logo_small.png&w=384&q=75) UFC Fight Night: Sterling"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays April 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 - Exoticca Blog",
+                                "url": "https://www.exoticca.com/us/blog/2026/04/",
+                                "snippet": "#### Best Events in Thailand in April 2026: Songkran Festival and Cultural Celebrations. #### Best Events in Italy in April 2026: Milan Design Week, Rome Celebrations and Cultural Highlights. Italy in"
+                            },
+                            {
+                                "title": "April Observances — CultureAlly",
+                                "url": "https://www.cultureally.com/blog/april-observances",
+                                "snippet": "List of Observances in April 2026. April 1-30 Arab Heritage Month celebrates the rich cultural, historical, and societal contributions of Arab communities"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For April 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-april-2026",
+                                "snippet": "April 2026 cultural calendar highlights diversity, health, environment, and heritage with key awareness days and global celebrations."
+                            },
+                            {
+                                "title": "Global Events and Holidays in April 2026",
+                                "url": "https://april2026calendarprintable.com/events/",
+                                "snippet": "Friday, April 10, 2026. Good Friday. Saturday, April 11, 2026. Holy Saturday. China. Saturday, April 4, 2026. Qingming Festival (Tomb-Sweeping Day). Sunday,"
+                            },
+                            {
+                                "title": "April 2026 Calendar (With Holidays) - Calendarr",
+                                "url": "https://www.calendarr.com/united-states/calendar-april-2026/",
+                                "snippet": "## April 2026 Holidays and National Days. International Fun At Work Day. Take Down Tobacco National Day of Action. National Pro-Life T Shirt Day. National Love Our Children Day. National Hug a Newsman"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences April 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "The Ultimate List of Book Fairs, Festivals, and Conferences for 2026",
+                                "url": "https://www.ingramspark.com/blog/ultimate-list-of-upcoming-book-festivals-2025",
+                                "snippet": "*   [How to Self-Publish](https://www.ingramspark.com/how-to-self-publish-a-book). *   [How to Self-Publish](https://www.ingramspark.com/how-to-self-publish-a-book). ![Image 3: The Ultimate List of Bo"
+                            },
+                            {
+                                "title": "Craft Brewers Conference & BrewExpo America | April 20-22, 2026",
+                                "url": "https://www.craftbrewersconference.com/",
+                                "snippet": "## Craft Brewers Conference. # America's Largest Gathering for the Beverage Alcohol Industry. The Craft Brewers Conference® is where brewers, innovators, and industry leaders unite to shape the future"
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "We have all the dates for your favorite season highlights, from the Academy Awards and the Golden Globes to festivals like the annual bashes at the Cannes Film"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 31: Webby Awards nominations · April. 2: Anime Awards nominations. 28: Scientific and Technical Awards"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week April 05, 2026",
+                        "results": [
+                            {
+                                "title": "WORLD HIGHLIGHT 05 APRIL 2026 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=EePLBjWdIqE",
+                                "snippet": "Sign in. Premieres in 2 days. April 5 at 8:00 AM PDT. WORLD HIGHLIGHT 05 APRIL 2026. 1 waiting ...more. TVRI World. 12.7K. Subscribe."
+                            },
+                            {
+                                "title": "What Happens on April 5, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/april/5",
+                                "snippet": "# What Happens on April 5, 2026. ## About April 5, 2026. **Day of the Week:** Sunday. **How Far Away?** 1 day. ## No Entries for April 5, 2026. * See 4 things that happened in **April 2026**. * View h"
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – April 5 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=rySUk4bOFBs",
+                                "snippet": "ABC World News Tonight with David Muir Full Broadcast - March 8, 2026 · Defense Secretary Pete Hegseth's extended 60 Minutes interview · NBC"
+                            },
+                            {
+                                "title": "April 5 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/April_5",
+                                "snippet": "### 1601–1900. * 1170 – Isabella of Hainault (died 1190). * 1288 – Emperor Go-Fushimi of Japan (died 1336). * 1315 – James III of Majorca (died 1349). * 1365 – William II, Duke of Bavaria (died 1417)."
+                            },
+                            {
+                                "title": "5 Big News Stories Overnight - Saturday, April 4, 2026 | Go Local Prov",
+                                "url": "https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-4-2026",
+                                "snippet": "[Skip to content](https://www.golocalprov.com/news/5-big-news-stories-overnight-saturday-april-4-2026#content). *   [News](https://www.golocalprov.com/news). [![Image 5](https://gl-advert-delivery.com"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days April 05",
+                        "results": [
+                            {
+                                "title": "April 5 Celebrity Birthdays | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/april5.html",
+                                "snippet": "April 5 Birthdays ; Rashmika Mandanna, 29. Movie Actress. 33 ; Nick Fleetwood, 29. Instagram Star. 34 ; Yung Bleu, 31. Rapper. 35 ; Gregory Peck (1916-2003). Movie"
+                            },
+                            {
+                                "title": "Famous birthdays for April 5: Agnetha Fältskog, Lily James - UPI.com",
+                                "url": "https://www.upi.com/Entertainment_News/2025/04/05/Famous-birthdays-for-April-5-Agnetha-Fltskog-Lily-James/3871743816558/",
+                                "snippet": "Musician Agnetha Fältskog turns 75 and actor Lily James turns 36, among the famous birthdays for April 5."
+                            },
+                            {
+                                "title": "APRIL 5TH: National Holidays, Observances & Famous Birthdays",
+                                "url": "https://www.listofnationaldays.com/april-5th/",
+                                "snippet": "Learn what holidays, observances & famous birthdays are celebrated on April 5th. National Caramel Day, National Go For Broke Day and more!"
+                            },
+                            {
+                                "title": "April 5 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/april5.html",
+                                "snippet": "YouTube Stars born April 5. Instagram Stars born April 5. Singers born April 5. TikTok Stars born April 5. Actresses born April 5. Rappers born April 5."
+                            },
+                            {
+                                "title": "April 5 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/april-5-birthdays/",
+                                "snippet": "April 5th birthdays · Bette Davis · Blayke Busby · Daniel Caesar · Hunter Rowland · Lil Sasquatch · Pharrell Williams · About us · Resources."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "The Masters (April 2026)",
+                        "suggested_question": "Rank the top 5 golfers by total Masters Tournament titles (green jackets), from most to fifth-most, breaking any ties by most recent win.",
+                        "connection": "The Masters is one of April 2026’s marquee events; this question taps into the tournament’s history just as the golf world focuses on Augusta."
+                    },
+                    {
+                        "topic": "Lily James’ birthday (April 5)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest.",
+                        "connection": "Actor Lily James turns 36 today; a film box-office ranking celebrates her career on her birthday."
+                    },
+                    {
+                        "topic": "Agnetha Fältskog (ABBA) turns 75 (April 5)",
+                        "suggested_question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+                        "connection": "With ABBA’s Agnetha Fältskog celebrating a milestone birthday, UK chart data offers a timely music ranking."
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April)",
+                        "suggested_question": "Rank the top 5 U.S. states by number of residents reporting Arab ancestry (U.S. Census Bureau ACS, latest available), from most to fifth-most.",
+                        "connection": "April is Arab American Heritage Month; this demographic ranking highlights where Arab American communities are largest today."
+                    },
+                    {
+                        "topic": "Craft Brewers Conference & BrewExpo America (Apr 20–22, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by number of craft breweries (Brewers Association, latest report), from most to fifth-most.",
+                        "connection": "With the brewing industry’s biggest U.S. gathering this month, a state-by-state craft brewery count is on-theme for food & drink."
+                    },
+                    {
+                        "topic": "Webby Awards season (nominations late March/early April)",
+                        "suggested_question": "Rank the top 5 organizations with the most Webby Awards wins all-time, from most to fifth-most.",
+                        "connection": "The Webby Awards timeline is active right now; an all-time leaderboard spotlights internet and digital excellence."
+                    },
+                    {
+                        "topic": "Songkran (Thailand’s New Year, mid-April)",
+                        "suggested_question": "Rank the top 5 countries sending the most visitors to Thailand in 2025 (total arrivals), from most to fifth-most.",
+                        "connection": "Thailand’s Songkran sparks peak travel; inbound visitor data provides a timely tourism snapshot."
+                    },
+                    {
+                        "topic": "Milan Design Week (April)",
+                        "suggested_question": "Rank the top 5 institutions in the QS World University Rankings by Subject 2025: Art & Design, from highest to fifth-highest.",
+                        "connection": "Design takes center stage in Milan this month; a global Art & Design schools ranking ties directly to the design theme."
+                    },
+                    {
+                        "topic": "National Hug a Newsman Day (April 4–5 tie-in)",
+                        "suggested_question": "Rank the top 5 U.S. national evening news programs by average total viewership in the 2024–25 TV season (Nielsen), from highest to fifth-highest.",
+                        "connection": "With ‘Hug a Newsman Day’ just passed, a data-driven look at who leads U.S. evening news is timely for media watchers."
+                    },
+                    {
+                        "topic": "Seasonal fallback: Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at the end of 2025 (IRENA/IEA), from highest to fifth-highest.",
+                        "connection": "April is Earth Month; solar capacity is a clear, current, and measurable lens on clean energy progress."
+                    },
+                    {
+                        "topic": "Seasonal fallback: National Pet Day (April 11)",
+                        "suggested_question": "Rank the top 5 most popular dog breeds in the United States by AKC registrations in 2025, from most to fifth-most.",
+                        "connection": "National Pet Day is around the corner; AKC registration data offers a fun, timely look at America’s favorite dogs."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 5,
+                "topics_before": 11,
+                "topics_after": 11,
+                "details": [
+                    {
+                        "topic": "The Masters (April 2026)",
+                        "suggested_question": "Rank the top 5 golfers by total Masters Tournament titles (green jackets), from most to fifth-most, breaking any ties by most recent win.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on golf and the Masters Tournament, which does not overlap with any of the recent questions on planetary sizes, tennis, FIFA World Cup, foreign-exchange reserves, or authorship translations.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Lily James’ birthday (April 5)",
+                        "suggested_question": "Rank the top 5 highest-grossing films featuring Lily James worldwide (unadjusted box office), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Lily James and her highest-grossing films, which is related to cinema and entertainment. None of the recent questions pertain to movies, actresses, or box office performance, so there is no thematic overlap.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Agnetha Fältskog (ABBA) turns 75 (April 5)",
+                        "suggested_question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on ABBA and music sales, which does not overlap with any of the recent topics such as planets, tennis, World Cup titles, currencies, or book translations.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April)",
+                        "suggested_question": "Rank the top 5 U.S. states by number of residents reporting Arab ancestry (U.S. Census Bureau ACS, latest available), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on Arab American Heritage and demographics, which is unrelated to any of the recent questions that cover astronomy, tennis, football, global finance, and literature translations.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Craft Brewers Conference & BrewExpo America (Apr 20–22, 2026)",
+                        "suggested_question": "Rank the top 5 U.S. states by number of craft breweries (Brewers Association, latest report), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to craft breweries and does not overlap with any of the recently covered themes such as planets, tennis, football, foreign exchange reserves, or translated authors.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Webby Awards season (nominations late March/early April)",
+                        "suggested_question": "Rank the top 5 organizations with the most Webby Awards wins all-time, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of Webby Awards focuses on internet awards, which is distinct from the themes of any recent questions that cover astronomy, sports, global finance, and literature translations.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Songkran (Thailand’s New Year, mid-April)",
+                        "suggested_question": "Rank the top 5 countries sending the most visitors to Thailand in 2025 (total arrivals), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Songkran and international visitors to Thailand relates to tourism and cultural festivals, which is not covered by any of the recent questions. The recent questions cover topics like astronomy, tennis, football, global currencies, and literature translations.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Milan Design Week (April)",
+                        "suggested_question": "Rank the top 5 institutions in the QS World University Rankings by Subject 2025: Art & Design, from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on art and design rankings, which is unrelated to solar system planets, tennis, FIFA World Cup, global currencies, or translated authors.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Hug a Newsman Day (April 4–5 tie-in)",
+                        "suggested_question": "Rank the top 5 U.S. national evening news programs by average total viewership in the 2024–25 TV season (Nielsen), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about national evening news viewership relates to U.S. media and specific TV programs, which is a different subject area from any of the recent questions covering astronomy, tennis, soccer, global currencies, or translated authors.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by total installed solar PV capacity (GW) at the end of 2025 (IRENA/IEA), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on solar PV capacity focuses on renewable energy and environmental sustainability, which is a different theme from any of the recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Seasonal fallback: National Pet Day (April 11)",
+                        "suggested_question": "Rank the top 5 most popular dog breeds in the United States by AKC registrations in 2025, from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on popular dog breeds in the United States, which is unrelated to the themes of planetary sizes, tennis achievements, FIFA World Cup titles, global currencies, or author translations covered in recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 46
         }
     ]
 }

@@ -1574,6 +1574,41 @@
                 "Barbara Cartland"
             ],
             "source": "https://blog.linguistica-international.com/the-5-most-translated-authors-of-all-time/"
+        },
+        {
+            "id": 46,
+            "date": "2026-04-05",
+            "question": "Rank the top 5 biggest ABBA songs in the UK by the Official Charts Company’s combined sales and streams metric, from biggest to fifth-biggest.",
+            "options": [
+                "Dancing Queen",
+                "Super Trouper",
+                "Knowing Me, Knowing You",
+                "Take A Chance On Me",
+                "Mamma Mia",
+                "The Winner Takes It All",
+                "Take a Chance on Me",
+                "Fernando",
+                "Gimme! Gimme! Gimme! (A Man After Midnight)",
+                "The Name of the Game",
+                "I Have a Dream",
+                "Chiquitita",
+                "SOS",
+                "One of Us",
+                "Does Your Mother Know",
+                "Voulez-Vous",
+                "Lay All Your Love on Me",
+                "Money, Money, Money",
+                "Thank You for the Music",
+                "Ring Ring"
+            ],
+            "answers": [
+                "Dancing Queen",
+                "Super Trouper",
+                "Knowing Me, Knowing You",
+                "Take A Chance On Me",
+                "Mamma Mia"
+            ],
+            "source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
         }
     ]
 }
