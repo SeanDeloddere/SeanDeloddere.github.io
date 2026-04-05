@@ -1609,6 +1609,41 @@
                 "Mamma Mia"
             ],
             "source": "https://www.officialcharts.com/chart-news/abbas-official-top-20-biggest-songs__26113/"
+        },
+        {
+            "id": 47,
+            "date": "2026-04-06",
+            "question": "Rank the top 5 websites by global visits in March 2026, from highest to fifth-highest, according to Similarweb.",
+            "options": [
+                "google.com",
+                "youtube.com",
+                "facebook.com",
+                "instagram.com",
+                "chatgpt.com",
+                "reddit.com",
+                "wikipedia.org",
+                "baidu.com",
+                "tiktok.com",
+                "yahoo.com",
+                "whatsapp.com",
+                "amazon.com",
+                "bing.com",
+                "netflix.com",
+                "naver.com",
+                "yandex.ru",
+                "twitch.tv",
+                "linkedin.com",
+                "qq.com",
+                "pinterest.com"
+            ],
+            "answers": [
+                "google.com",
+                "youtube.com",
+                "facebook.com",
+                "instagram.com",
+                "chatgpt.com"
+            ],
+            "source": "https://analytics.explodingtopics.com/website"
         }
     ]
 }
