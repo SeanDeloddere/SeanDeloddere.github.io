@@ -1644,6 +1644,41 @@
                 "chatgpt.com"
             ],
             "source": "https://analytics.explodingtopics.com/website"
+        },
+        {
+            "id": 48,
+            "date": "2026-04-07",
+            "question": "Rank the top five most distant human-made objects from Earth by distance from Earth (as of April 2026).",
+            "options": [
+                "Voyager 1",
+                "Voyager 2",
+                "Pioneer 10",
+                "Pioneer 11",
+                "New Horizons",
+                "Cassini",
+                "Galileo",
+                "Juno",
+                "Rosetta",
+                "Huygens probe",
+                "Ulysses",
+                "ISEE-3/ICE",
+                "Hayabusa2",
+                "OSIRIS-REx (OSIRIS-APEX)",
+                "Stardust",
+                "Deep Impact (EPOXI)",
+                "Dawn",
+                "Kepler Space Telescope",
+                "Spitzer Space Telescope",
+                "Parker Solar Probe"
+            ],
+            "answers": [
+                "Voyager 1",
+                "Voyager 2",
+                "Pioneer 10",
+                "Pioneer 11",
+                "New Horizons"
+            ],
+            "source": "https://earthsky.org/space/what-is-the-most-distant-man-made-object-from-earth/"
         }
     ]
 }

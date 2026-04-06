@@ -43464,6 +43464,523 @@
                 ]
             },
             "question_id": 47
+        },
+        {
+            "date": "2026-04-07",
+            "topics_discovered": [
+                {
+                    "topic": "The 2026 Masters (golf)",
+                    "suggested_question": "Rank the top five golfers by number of Masters Tournament wins, from most to fifth-most, breaking ties by the most recent win year (as of the start of the 2026 Masters).",
+                    "connection": "The Masters is one of April 2026’s marquee sporting events, making a historical Masters champions ranking timely."
+                },
+                {
+                    "topic": "Global Astronomy Month (April)",
+                    "suggested_question": "Rank the top five most distant human-made objects from Earth, by distance from Earth (as of April 2026).",
+                    "connection": "April is Global Astronomy Month, a perfect moment to spotlight humanity’s farthest-traveling spacecraft."
+                },
+                {
+                    "topic": "Arab American/Arab Heritage Month (April)",
+                    "suggested_question": "Rank the top five countries by annual date (Phoenix dactylifera) production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                    "connection": "Dates are a culturally significant staple across the Arab world; Arab Heritage Month invites a data-driven look at global date production."
+                },
+                {
+                    "topic": "National Card and Letter Writing Month (April)",
+                    "suggested_question": "Rank the top five countries in the Universal Postal Union’s latest Integrated Index for Postal Development (2IPD), from highest score to fifth-highest.",
+                    "connection": "April’s focus on letter writing makes a postal performance ranking especially relevant."
+                },
+                {
+                    "topic": "Earth Month / environmental travel planning",
+                    "suggested_question": "Rank the top five countries by number of Blue Flag beaches in the latest published season (2025), from most to fifth-most.",
+                    "connection": "With Earth Month and spring travel underway, eco-certified beaches are in the spotlight."
+                },
+                {
+                    "topic": "Q1 2026 EV market updates (and Earth Month)",
+                    "suggested_question": "Rank the top five automakers by global electric vehicle (BEV+PHEV) sales in Q1 2026, from most to fifth-most, according to EV-Volumes.",
+                    "connection": "Q1 sales tallies arrive in early April, and Earth Month puts EV adoption front and center."
+                },
+                {
+                    "topic": "Jackie Chan’s 71st birthday (April 7)",
+                    "suggested_question": "Rank the top five highest-grossing Jackie Chan films worldwide (unadjusted USD), from highest to fifth-highest, according to Box Office Mojo.",
+                    "connection": "With Jackie Chan’s birthday today, it’s a great time to look at his biggest box office hits."
+                },
+                {
+                    "topic": "Celebrate Diversity Month (April)",
+                    "suggested_question": "Rank the top five countries by number of living languages, from most to fifth-most, according to the latest Ethnologue.",
+                    "connection": "April’s Celebrate Diversity Month highlights linguistic diversity across countries."
+                },
+                {
+                    "topic": "Spring travel surge and annual rankings release timing",
+                    "suggested_question": "Rank the top five airports worldwide by total passenger traffic in 2025, from highest to fifth-highest, according to Airports Council International (ACI).",
+                    "connection": "ACI typically publishes the prior year’s airport traffic leaders around this time, aligning with April’s heavy travel calendar."
+                },
+                {
+                    "topic": "Earth Day (April 22) — fallback",
+                    "suggested_question": "Rank the top five countries by share of electricity generation from wind and solar combined in 2025, from highest to fifth-highest, according to Ember.",
+                    "connection": "A data-rich way to mark Earth Day by comparing clean power penetration."
+                },
+                {
+                    "topic": "National Park Week (mid-to-late April) — fallback",
+                    "suggested_question": "Rank the top five U.S. national parks by recreational visits in 2025, from most to fifth-most, according to the National Park Service.",
+                    "connection": "National Park Week spotlights America’s parks and their most-visited destinations."
+                },
+                {
+                    "topic": "Spring blossom season — fallback",
+                    "suggested_question": "Rank the top five countries by annual cherry production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                    "connection": "Spring blossom season makes a timely agriculture-and-culture tie-in via cherry harvest leaders."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "The 2026 Masters (golf)",
+                    "suggested_question": "Rank the top five golfers by number of Masters Tournament wins, from most to fifth-most, breaking ties by the most recent win year (as of the start of the 2026 Masters).",
+                    "connection": "The Masters is one of April 2026’s marquee sporting events, making a historical Masters champions ranking timely.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The proposed question about ranking the top five golfers by Masters Tournament wins is too similar to question ID 14, which already asks for a ranking of the top five golfers by Masters Tournament victories. Although the tiebreak criteria differ slightly, both questions essentially address the same topic and metric, making them redundant."
+                    }
+                },
+                {
+                    "topic": "Global Astronomy Month (April)",
+                    "suggested_question": "Rank the top five most distant human-made objects from Earth, by distance from Earth (as of April 2026).",
+                    "connection": "April is Global Astronomy Month, a perfect moment to spotlight humanity’s farthest-traveling spacecraft.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The new question asks about ranking human-made objects based on their distance from Earth, which is distinct from any existing questions in the database. While ID 15 and ID 41 pertain to astronomy and space, they focus on natural objects (stars and planets), not human-made objects."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top five most distant human-made objects from Earth by distance from Earth (as of April 2026).",
+                        "answers": [
+                            "Voyager 1",
+                            "Voyager 2",
+                            "Pioneer 10",
+                            "Pioneer 11",
+                            "New Horizons"
+                        ],
+                        "distractors": [
+                            "Cassini",
+                            "Galileo",
+                            "Juno",
+                            "Rosetta",
+                            "Huygens probe",
+                            "Ulysses",
+                            "ISEE-3/ICE",
+                            "Hayabusa2",
+                            "OSIRIS-REx (OSIRIS-APEX)",
+                            "Stardust",
+                            "Deep Impact (EPOXI)",
+                            "Dawn",
+                            "Kepler Space Telescope",
+                            "Spitzer Space Telescope",
+                            "Parker Solar Probe"
+                        ],
+                        "suggested_source": "https://www.heavens-above.com/SolarEscape.aspx"
+                    },
+                    "verification_search_iter0": {
+                        "query": "farthest spacecraft from Earth Voyager 1 Voyager 2 Pioneer 10 Pioneer 11 New Horizons Heavens-Above",
+                        "sources_found": [
+                            {
+                                "title": "Spacecraft escaping the Solar System - Heavens-Above",
+                                "url": "https://www.heavens-above.com/SolarEscape.aspx"
+                            },
+                            {
+                                "title": "Space Race: Voyager 2 overtakes Pioneer 10",
+                                "url": "https://universemagazine.com/en/the-second-most-remote-in-the-solar-system-voyager-2-overtook-pioneer-10/?srsltid=AfmBOoqdI0S1JBd8ak5AEf9FJ9MUKy3f5fV-v-sYMAm_TUFbVCOGrYAg"
+                            },
+                            {
+                                "title": "Good overview of Pioneer 10 and 11, Voyager 1 and 2 and the New ...",
+                                "url": "https://www.facebook.com/groups/1534360996972590/posts/1846284849113535/"
+                            },
+                            {
+                                "title": "New Horizons Reaches a Rare Space Milestone",
+                                "url": "https://www.jhuapl.edu/news/news-releases/210416-new-horizons-50AU"
+                            },
+                            {
+                                "title": "The most distant spacecraft in the solar system — Where are they ...",
+                                "url": "https://www.space.com/most-distant-spacecraft-voyagers-new-horizons"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The source from Heavens-Above provides exact distances of the spacecraft from the Sun (in AU). The proposed answers are correct in content but not in the right order. Based on the source, Voyager 1 is the farthest at 170.236 AU, followed by Voyager 2 at 142.492 AU, Pioneer 10 at 140.767 AU, Pioneer 11 at 118.243 AU, and New Horizons at 64.303 AU. The corrected order has been provided based on these values.",
+                        "proposed_answers": [
+                            "Voyager 1",
+                            "Voyager 2",
+                            "Pioneer 10",
+                            "Pioneer 11",
+                            "New Horizons"
+                        ],
+                        "corrected_answers": [
+                            "Voyager 1",
+                            "Voyager 2",
+                            "Pioneer 10",
+                            "Pioneer 11",
+                            "New Horizons"
+                        ],
+                        "best_source": "https://www.heavens-above.com/SolarEscape.aspx"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top five most distant human-made objects from Earth by distance from Earth (as of April 2026). Voyager 1 vs Voyager 2 ranking list",
+                        "sources_found": [
+                            {
+                                "title": "The 4 farthest human-made objects from Earth   Credit: ATOMICO",
+                                "url": "https://www.facebook.com/groups/1696356077768592/posts/1977073439696853/"
+                            },
+                            {
+                                "title": "What is the Earth's most distant spacecraft? - EarthSky",
+                                "url": "https://earthsky.org/space/what-is-the-most-distant-man-made-object-from-earth/"
+                            },
+                            {
+                                "title": "Voyager 1: World's farthest spacecraft nears one light-day from Earth",
+                                "url": "https://interestingengineering.com/space/voyager-1-nasas-interstellar-spacecraft"
+                            },
+                            {
+                                "title": "Most distant human object from Earth to cross 1 light-day mark in 2026",
+                                "url": "https://www.msn.com/en-in/news/techandscience/voyager-1-most-distant-human-object-from-earth-to-cross-1-light-day-mark-in-2026/ar-AA1TqYWV"
+                            },
+                            {
+                                "title": "Top 10 Most Distant Man made Objects from Earth In Space - YouTube",
+                                "url": "https://www.youtube.com/watch?v=sIfsqHXA368"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The corrected order matches the available distance measurements for each spacecraft, with Voyager 1 being the most distant, followed by Voyager 2, Pioneer 10, Pioneer 11, and New Horizons. Source data confirms this hierarchy.",
+                        "best_source": "https://earthsky.org/space/what-is-the-most-distant-man-made-object-from-earth/"
+                    },
+                    "question_id": 48,
+                    "final_answers": [
+                        "Voyager 1",
+                        "Voyager 2",
+                        "Pioneer 10",
+                        "Pioneer 11",
+                        "New Horizons"
+                    ],
+                    "final_source": "https://earthsky.org/space/what-is-the-most-distant-man-made-object-from-earth/"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening April 07, 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 Sports Schedule: The Masters, NFL Draft & More",
+                                "url": "https://www.sportbusy.com/calendar/2026/april/",
+                                "snippet": "The biggest events in April 2026 are The Masters, NFL Draft, NBA Draft, UFC Fight Night: Moicano vs Duncan, UFC 327: Van vs. Taira."
+                            },
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "April 2026 Packed with Major Sports Events - Indianapolis Today",
+                                "url": "https://nationaltoday.com/us/in/indianapolis/news/2026/04/03/april-2026-packed-with-major-sports-events/",
+                                "snippet": "# April 2026 Packed with Major Sports Events. April 2026 is filled with major sporting events, including the NCAA Men's and Women's Final Fours, the start of the NBA and NHL playoffs, WrestleMania, th"
+                            },
+                            {
+                                "title": "April 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/april-2026-sports-calendar-c21fd2ec3be69047dbcaab7f0886702e",
+                                "snippet": "# April 2026 Sports Calendar. ## APRIL. | 3-24 | \\_ | Horse racing, Keeneland Spring Meet, Keeneland Race Course, Lexington, Ky. | 4 | \\_ | Men’s soccer, MLS Inaugural Game, Miami. | 11 | \\_ | Hockey,"
+                            },
+                            {
+                                "title": "2026 sports calendar: A month-by-month guide to the biggest events ...",
+                                "url": "https://www.olympics.com/en/news/2026-sports-calendar-month-guide-biggest-events-year",
+                                "snippet": "* 14-22 Mar: Curling – World Women’s Curling Championship (Calgary, Canada). * 28 Mar to 5 Apr: Curling – World Men’s Curling Championship (Ogden, U.S.). * 28 Apr to 10 May: Table Tennis – ITTF World "
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays April 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 Holidays, National, International Days. Holiday Insights.",
+                                "url": "https://www.holidayinsights.com/moreholidays/april.htm",
+                                "snippet": "April 2026 Holidays - Monthly Celebrations · National Card and Letter Writing Month · Global Astronomy Month · International Guitar Month · Keep America Beautiful"
+                            },
+                            {
+                                "title": "Fun April 2026 Workplace Holidays - Successories",
+                                "url": "https://www.successories.com/holidays/april-holidays",
+                                "snippet": "# National April Holidays 2026. 2026 April Calendar with Holidays for the Workplace. ## Fun April 2026 Workplace Holidays. First you have National High-5 Day on April 23, 2026. Also, there is Administ"
+                            },
+                            {
+                                "title": "April Observances — CultureAlly",
+                                "url": "https://www.cultureally.com/blog/april-observances",
+                                "snippet": "List of Observances in April 2026. April 1-30 Arab Heritage Month celebrates the rich cultural, historical, and societal contributions of Arab communities"
+                            },
+                            {
+                                "title": "A Complete List of April Holidays and Observances for 2026",
+                                "url": "https://www.today.com/life/holidays/april-holidays-and-observances-rcna259565",
+                                "snippet": "Monthly Observances in April 2026 · Alcohol Awareness Month · ASPCA Month · Autism Awareness Month · Canine Fitness Month · Celebrate Diversity Month"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For April 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-april-2026",
+                                "snippet": "April 2026 cultural calendar highlights diversity, health, environment, and heritage with key awareness days and global celebrations."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences April 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "Looking for the biggest film festivals and awards in 2026? This month-by-month guide covers festivals, ceremonies, and industry events."
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar - Rotten Tomatoes",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "We have all the dates for your favorite season highlights, from the Academy Awards and the Golden Globes to festivals like the annual bashes at the Cannes Film"
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar - Deadline",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 31: Webby Awards nominations · April. 2: Anime Awards nominations. 28: Scientific and Technical Awards"
+                            },
+                            {
+                                "title": "2025/2026 Film Awards Calendar - AwardsWatch",
+                                "url": "https://awardswatch.com/2025-2026-film-awards-calendar/",
+                                "snippet": "The 2025/2026 film awards calendar will be updated throughout the year as new dates for film's biggest and best events, festivals, nominations and awards"
+                            },
+                            {
+                                "title": "2026 Leadership Summit & Awards Gala - RISE Professionals",
+                                "url": "https://riseprofessionals.com/events/2026-leadership-summit-awards-gala/",
+                                "snippet": "# 2026 RISE Leadership Summit & Awards Gala. The *2026 RISE Leadership Summit & Awards Gala* is more than just another industry event—it’s where leadership, innovation, and celebration collide. RISE’s"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week April 07, 2026",
+                        "results": [
+                            {
+                                "title": "What Happened on April 7 | HISTORY",
+                                "url": "https://www.history.com/this-day-in-history/april-7",
+                                "snippet": "All the major chapters in the American story, from Indigenous beginnings to the present day. Also on This Day in History. Discover more of the major events, famous births, notable deaths and everythin"
+                            },
+                            {
+                                "title": "This Morning's Top Headlines – April 7 | Morning News NOW",
+                                "url": "https://www.youtube.com/watch?v=oB7E-sH_kUE",
+                                "snippet": "Ukraine calls for more weapons as NATO foreign ministers meet in Brussels, the U.S. imposes more sanctions on Russian banks and members of"
+                            },
+                            {
+                                "title": "What Happens on April 7, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/april/7",
+                                "snippet": "# What Happens on April 7, 2026. ## About April 7, 2026. **Day of the Week:** Tuesday. **How Far Away?** 6 days. ## No Entries for April 7, 2026. * View highlights from  **year 2026**. * Browse our **"
+                            },
+                            {
+                                "title": "NBC Nightly News Full Episode - April 7 - YouTube",
+                                "url": "https://www.youtube.com/watch?v=fCp4X_95x5k",
+                                "snippet": "Top U.S. & World Headlines — April 3, 2026. Democracy Now! New. 73K ... ABC World News Tonight with David Muir Full Broadcast - April 1, 2026."
+                            },
+                            {
+                                "title": "5 things to know for April 7: Global markets, Israel, Flooding ...",
+                                "url": "https://www.cnn.com/2025/04/07/us/5-things-to-know-for-april-7-global-markets-israel-flooding-deportations-sea-lions",
+                                "snippet": "[](https://www.cnn.com/2025/04/07/us/5-things-to-know-for-april-7-global-markets-israel-flooding-deportations-sea-lions#maincontent). [Transportation](https://www.cnn.com/us/transportation). [More](ht"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days April 07",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for April 7: Ben McKee, Jackie Chan - UPI.com",
+                                "url": "https://www.upi.com/Entertainment_News/2025/04/07/Famous-birthdays-for-April-7-Ben-McKee-Jackie-Chan/8641743969019/",
+                                "snippet": "-- Actor Ed Speleers in 1988 (age 37). April 6 (UPI) -- Actor Zach Braff turns 51 and auto racer Oscar Piastri turns 25, among the famous birthdays for April 6. April 5 (UPI) -- \"Super Mario Galaxy Mo"
+                            },
+                            {
+                                "title": "Athletes Born April 7 | Famous Birthdays",
+                                "url": "https://www.famousbirthdays.com/date/april7-athlete.html",
+                                "snippet": "Famous Athletes Born April 7 including Franck Ribery, Tiki Barber, Adrian Beltre, Sorana Cirstea, Tiril Sjaastad Christiansen and many more."
+                            },
+                            {
+                                "title": "Famous birthdays for April 7: Ben McKee, Jackie Chan - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-april-7-ben-070007737.html",
+                                "snippet": "Musician Ben McKee turns 40 and actor Jackie Chan turns 71, among the famous birthdays for April 7."
+                            },
+                            {
+                                "title": "APRIL 7 | Birthdays and Events - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/april/april-7-birthdays-and-events",
+                                "snippet": "Notable Birthdays for April 7. Francis Cabot Lowell (1775-1817) - Founder of the first raw cotton-to-cloth textile mill."
+                            },
+                            {
+                                "title": "April 7 Birthdays By Profession",
+                                "url": "https://www.famousbirthdays.com/date/april7.html",
+                                "snippet": "YouTube Stars born April 7. Instagram Stars born April 7. Actors born April 7. Singers born April 7. TikTok Stars born April 7. Actresses born April 7."
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "The 2026 Masters (golf)",
+                        "suggested_question": "Rank the top five golfers by number of Masters Tournament wins, from most to fifth-most, breaking ties by the most recent win year (as of the start of the 2026 Masters).",
+                        "connection": "The Masters is one of April 2026’s marquee sporting events, making a historical Masters champions ranking timely."
+                    },
+                    {
+                        "topic": "Global Astronomy Month (April)",
+                        "suggested_question": "Rank the top five most distant human-made objects from Earth, by distance from Earth (as of April 2026).",
+                        "connection": "April is Global Astronomy Month, a perfect moment to spotlight humanity’s farthest-traveling spacecraft."
+                    },
+                    {
+                        "topic": "Arab American/Arab Heritage Month (April)",
+                        "suggested_question": "Rank the top five countries by annual date (Phoenix dactylifera) production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                        "connection": "Dates are a culturally significant staple across the Arab world; Arab Heritage Month invites a data-driven look at global date production."
+                    },
+                    {
+                        "topic": "National Card and Letter Writing Month (April)",
+                        "suggested_question": "Rank the top five countries in the Universal Postal Union’s latest Integrated Index for Postal Development (2IPD), from highest score to fifth-highest.",
+                        "connection": "April’s focus on letter writing makes a postal performance ranking especially relevant."
+                    },
+                    {
+                        "topic": "Earth Month / environmental travel planning",
+                        "suggested_question": "Rank the top five countries by number of Blue Flag beaches in the latest published season (2025), from most to fifth-most.",
+                        "connection": "With Earth Month and spring travel underway, eco-certified beaches are in the spotlight."
+                    },
+                    {
+                        "topic": "Q1 2026 EV market updates (and Earth Month)",
+                        "suggested_question": "Rank the top five automakers by global electric vehicle (BEV+PHEV) sales in Q1 2026, from most to fifth-most, according to EV-Volumes.",
+                        "connection": "Q1 sales tallies arrive in early April, and Earth Month puts EV adoption front and center."
+                    },
+                    {
+                        "topic": "Jackie Chan’s 71st birthday (April 7)",
+                        "suggested_question": "Rank the top five highest-grossing Jackie Chan films worldwide (unadjusted USD), from highest to fifth-highest, according to Box Office Mojo.",
+                        "connection": "With Jackie Chan’s birthday today, it’s a great time to look at his biggest box office hits."
+                    },
+                    {
+                        "topic": "Celebrate Diversity Month (April)",
+                        "suggested_question": "Rank the top five countries by number of living languages, from most to fifth-most, according to the latest Ethnologue.",
+                        "connection": "April’s Celebrate Diversity Month highlights linguistic diversity across countries."
+                    },
+                    {
+                        "topic": "Spring travel surge and annual rankings release timing",
+                        "suggested_question": "Rank the top five airports worldwide by total passenger traffic in 2025, from highest to fifth-highest, according to Airports Council International (ACI).",
+                        "connection": "ACI typically publishes the prior year’s airport traffic leaders around this time, aligning with April’s heavy travel calendar."
+                    },
+                    {
+                        "topic": "Earth Day (April 22) — fallback",
+                        "suggested_question": "Rank the top five countries by share of electricity generation from wind and solar combined in 2025, from highest to fifth-highest, according to Ember.",
+                        "connection": "A data-rich way to mark Earth Day by comparing clean power penetration."
+                    },
+                    {
+                        "topic": "National Park Week (mid-to-late April) — fallback",
+                        "suggested_question": "Rank the top five U.S. national parks by recreational visits in 2025, from most to fifth-most, according to the National Park Service.",
+                        "connection": "National Park Week spotlights America’s parks and their most-visited destinations."
+                    },
+                    {
+                        "topic": "Spring blossom season — fallback",
+                        "suggested_question": "Rank the top five countries by annual cherry production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                        "connection": "Spring blossom season makes a timely agriculture-and-culture tie-in via cherry harvest leaders."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 5,
+                "topics_before": 12,
+                "topics_after": 12,
+                "details": [
+                    {
+                        "topic": "The 2026 Masters (golf)",
+                        "suggested_question": "Rank the top five golfers by number of Masters Tournament wins, from most to fifth-most, breaking ties by the most recent win year (as of the start of the 2026 Masters).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on golf and the Masters Tournament, which does not overlap with any of the recent questions related to football, currency reserves, literature, music, or website visits.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Global Astronomy Month (April)",
+                        "suggested_question": "Rank the top five most distant human-made objects from Earth, by distance from Earth (as of April 2026).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on human-made objects in space, which is unrelated to any of the recent questions that cover sports, economics, literature, music, or web traffic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Arab American/Arab Heritage Month (April)",
+                        "suggested_question": "Rank the top five countries by annual date (Phoenix dactylifera) production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on date (Phoenix dactylifera) production and does not overlap with any of the recent questions, which covered subjects like football, global currencies, literature translations, music sales, and website visits.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Card and Letter Writing Month (April)",
+                        "suggested_question": "Rank the top five countries in the Universal Postal Union’s latest Integrated Index for Postal Development (2IPD), from highest score to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on postal services and development, which does not overlap with any of the recent questions covering subjects like football, currencies, literary translations, music, or website traffic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Month / environmental travel planning",
+                        "suggested_question": "Rank the top five countries by number of Blue Flag beaches in the latest published season (2025), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Blue Flag beaches and environmental travel planning is unrelated to any of the recently used questions, which cover sports, finance, literature, music, and web traffic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Q1 2026 EV market updates (and Earth Month)",
+                        "suggested_question": "Rank the top five automakers by global electric vehicle (BEV+PHEV) sales in Q1 2026, from most to fifth-most, according to EV-Volumes.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on the electric vehicle market, which is unrelated to recent topics like FIFA World Cup titles, foreign-exchange reserves, book translations, music charts, or website visits.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Jackie Chan’s 71st birthday (April 7)",
+                        "suggested_question": "Rank the top five highest-grossing Jackie Chan films worldwide (unadjusted USD), from highest to fifth-highest, according to Box Office Mojo.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about Jackie Chan's highest-grossing films pertains to movies and box office records, which is unrelated to any of the recent questions involving sports, finance, literature, music, or website traffic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Celebrate Diversity Month (April)",
+                        "suggested_question": "Rank the top five countries by number of living languages, from most to fifth-most, according to the latest Ethnologue.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic about living languages focuses on linguistic diversity and cultural studies, which does not overlap with any recent question topics related to sports, economics, literature, music, or technology.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel surge and annual rankings release timing",
+                        "suggested_question": "Rank the top five airports worldwide by total passenger traffic in 2025, from highest to fifth-highest, according to Airports Council International (ACI).",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on airport passenger traffic covers aviation and infrastructure, which does not overlap with any of the recent questions on sports titles, forex reserves, literary translations, music rankings, or website traffic.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Day (April 22) — fallback",
+                        "suggested_question": "Rank the top five countries by share of electricity generation from wind and solar combined in 2025, from highest to fifth-highest, according to Ember.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on renewable energy in the context of Earth Day, which is unrelated to any recent question themes such as sports, finance, literature, music, or online activity.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Park Week (mid-to-late April) — fallback",
+                        "suggested_question": "Rank the top five U.S. national parks by recreational visits in 2025, from most to fifth-most, according to the National Park Service.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic centers on U.S. national parks and recreational visits, which is unrelated to any recent questions that focus on FIFA titles, foreign-exchange reserves, translated authors, UK music charts, or website visits.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring blossom season — fallback",
+                        "suggested_question": "Rank the top five countries by annual cherry production, from highest to fifth-highest, using the latest FAOSTAT data.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic, spring blossom season and cherry production, does not overlap with the themes of sports, global finance, literary translations, pop music, or website traffic rankings covered in the recent questions.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 48
         }
     ]
 }
