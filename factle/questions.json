@@ -1679,6 +1679,41 @@
                 "New Horizons"
             ],
             "source": "https://earthsky.org/space/what-is-the-most-distant-man-made-object-from-earth/"
+        },
+        {
+            "id": 49,
+            "date": "2026-04-08",
+            "question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+            "options": [
+                "Felina",
+                "Granite State",
+                "Ozymandias",
+                "Blood Money",
+                "To'hajiilee",
+                "Face Off",
+                "Gliding Over All",
+                "Dead Freight",
+                "Say My Name",
+                "Live Free or Die",
+                "Pilot",
+                "Box Cutter",
+                "Crawl Space",
+                "Full Measure",
+                "Half Measures",
+                "Phoenix",
+                "Crazy Handful of Nothin'",
+                "One Minute",
+                "Salud",
+                "End Times"
+            ],
+            "answers": [
+                "Felina",
+                "Granite State",
+                "Ozymandias",
+                "Blood Money",
+                "To'hajiilee"
+            ],
+            "source": "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
         }
     ]
 }

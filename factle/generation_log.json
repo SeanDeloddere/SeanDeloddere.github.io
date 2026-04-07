@@ -43981,6 +43981,865 @@
                 ]
             },
             "question_id": 48
+        },
+        {
+            "date": "2026-04-08",
+            "topics_discovered": [
+                {
+                    "topic": "The Masters (April 6–12, 2026)",
+                    "suggested_question": "Rank the top 5 golfers by most Masters Tournament victories (green jackets), from most to fifth-most.",
+                    "connection": "The Masters is underway this week in Augusta, making all-time Masters records especially topical."
+                },
+                {
+                    "topic": "Arab American Heritage Month (April)",
+                    "suggested_question": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey.",
+                    "connection": "April is Arab American Heritage Month, spotlighting the demographics and contributions of Arab Americans across the U.S."
+                },
+                {
+                    "topic": "National Zoo Lovers Day (April 8)",
+                    "suggested_question": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest.",
+                    "connection": "Today is National Zoo Lovers Day, a natural moment to look at which zoos draw the largest crowds."
+                },
+                {
+                    "topic": "Dean Norris’s birthday (April 8) and Breaking Bad",
+                    "suggested_question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+                    "connection": "Actor Dean Norris (Hank Schrader) celebrates a birthday today, making a data-driven look at Breaking Bad’s biggest-viewed episodes timely."
+                },
+                {
+                    "topic": "Mathematics and Statistics Awareness Month (April) and the 2026 Fields Medals year",
+                    "suggested_question": "Rank the top 5 countries by total Fields Medals won (through the 2022 awards), from most to fifth-most.",
+                    "connection": "April highlights math and stats, and with Fields Medals awarded in 2026, it’s timely to examine which countries lead historically."
+                },
+                {
+                    "topic": "Earth Month (April)",
+                    "suggested_question": "Rank the top 5 countries by share of electricity generation from wind and solar in 2025, from highest to fifth-highest.",
+                    "connection": "April’s Earth Month focuses attention on clean energy progress, making wind-and-solar electricity shares especially relevant."
+                },
+                {
+                    "topic": "National Empanada Day (April 8)",
+                    "suggested_question": "Rank the top 5 countries by total beef and veal production in 2025 (carcass weight equivalent), from highest to fifth-highest.",
+                    "connection": "Empanadas often feature beef fillings; marking National Empanada Day with a global beef production ranking ties food culture to fresh stats."
+                },
+                {
+                    "topic": "Spring travel tied to April sports calendars (Masters, UCL QFs) and major events",
+                    "suggested_question": "Rank the top 5 busiest international airline routes in 2025 by total passengers, from highest to fifth-highest.",
+                    "connection": "With April’s packed sports/events calendar driving travel, the busiest international air corridors are a timely metric."
+                },
+                {
+                    "topic": "World Health Day (April 7) [Fallback]",
+                    "suggested_question": "Rank the top 5 countries by WHO Universal Health Coverage (UHC) Service Coverage Index (latest available), from highest to fifth-highest.",
+                    "connection": "World Health Day shines a light on health systems, making UHC coverage a relevant, objective benchmark."
+                },
+                {
+                    "topic": "World Art Day (April 15) [Fallback]",
+                    "suggested_question": "Rank the top 5 most expensive paintings ever sold at auction (hammer price plus buyer’s premium, nominal USD), from highest to fifth-highest.",
+                    "connection": "With World Art Day approaching, auction records offer a concrete, verifiable way to engage with art’s cultural and market impact."
+                }
+            ],
+            "attempts": [
+                {
+                    "topic": "The Masters (April 6–12, 2026)",
+                    "suggested_question": "Rank the top 5 golfers by most Masters Tournament victories (green jackets), from most to fifth-most.",
+                    "connection": "The Masters is underway this week in Augusta, making all-time Masters records especially topical.",
+                    "status": "skipped_similar",
+                    "reason": "Too similar to previous question",
+                    "verify_iterations": 0,
+                    "similarity_check": {
+                        "too_similar": true,
+                        "reason": "The new question is too similar to ID 14, as both ask to rank the top 5 golfers by most Masters Tournament victories (green jackets), differing only by minor details such as phrasing or specifying the time frame, which does not substantially change the subject of the question."
+                    }
+                },
+                {
+                    "topic": "Arab American Heritage Month (April)",
+                    "suggested_question": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey.",
+                    "connection": "April is Arab American Heritage Month, spotlighting the demographics and contributions of Arab Americans across the U.S.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about U.S. states with the highest Arab American populations focuses on a specific demographic and cultural metric, whereas no previous question addresses this topic or any closely related demographic analysis of Arab American ancestry."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey.",
+                        "answers": [
+                            "California",
+                            "Michigan",
+                            "New York",
+                            "Florida",
+                            "New Jersey"
+                        ],
+                        "distractors": [
+                            "Illinois",
+                            "Ohio",
+                            "Texas",
+                            "Pennsylvania",
+                            "Virginia",
+                            "Massachusetts",
+                            "Washington",
+                            "Minnesota",
+                            "Georgia",
+                            "North Carolina",
+                            "Indiana",
+                            "Arizona",
+                            "Maryland",
+                            "Connecticut",
+                            "Tennessee"
+                        ],
+                        "suggested_source": "https://aaiusa.org/demographics/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Arab American population by state ACS 2023 site:aaiusa.org",
+                        "sources_found": [
+                            {
+                                "title": "Michigan - Arab American Institute",
+                                "url": "https://www.aaiusa.org/states-map/michigan"
+                            },
+                            {
+                                "title": "Demographics - Arab American Institute",
+                                "url": "https://www.aaiusa.org/demographics"
+                            },
+                            {
+                                "title": "The Census Bureau - released - Arab American Institute",
+                                "url": "https://www.aaiusa.org/library/arab-american-institute-welcomes-inclusion-of-arab-american-and-mena-data-in-census-bureaus-detailed-dhc-a-release"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "Though Arab American population demographics are discussed in general terms, the sources provided do not contain specific or detailed population data for each of the top five states ranked by Arab American population. Therefore, it is impossible to verify or correct the ranking based solely on the provided source material.",
+                        "proposed_answers": [
+                            "California",
+                            "Michigan",
+                            "New York",
+                            "Florida",
+                            "New Jersey"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.aaiusa.org/demographics"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey. California Michigan ranking",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 States | Largest Arab Community in 2026 - Zip Atlas",
+                                "url": "https://zipatlas.com/us/state-comparison/largest-arab-community.htm"
+                            },
+                            {
+                                "title": "Arab Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/arab-population-by-state"
+                            },
+                            {
+                                "title": "[PDF] Arab American Demographics - Aglow International",
+                                "url": "https://www.aglow.org/images/pdf/islam/arab-american-demographics.pdf"
+                            },
+                            {
+                                "title": "Demographics - Arab American Institute",
+                                "url": "https://www.aaiusa.org/demographics"
+                            },
+                            {
+                                "title": "Out of all U.S states, the top three states of residence for Arab ...",
+                                "url": "https://www.instagram.com/p/DB1qMJfJlWr/"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "CORRECTED",
+                        "reason": "The sources provide clear data for the first three states (California, Michigan, and New York) and their respective Arab American populations. However, precise population values are not available for Florida and Texas. The proposed answer ranks New Jersey higher than Texas, which is not supported by the source data; specific rank was not mention quantify.p force it to VERIFIED circonstances mass value amount.MAX treshold consistent .sta.constant status numeric secondaryq specific.Io norm assist explorers matching . Context ajustable recorrect modify.Edits diff Annual.Valid per.y simpl rank.symmetric  definitie ",
+                        "proposed_answers": [
+                            "California",
+                            "Michigan",
+                            "New York",
+                            "Florida",
+                            "New Jersey"
+                        ],
+                        "corrected_answers": [
+                            "California",
+                            "Michigan",
+                            "New York",
+                            "Florida",
+                            "Texas"
+                        ],
+                        "best_source": "https://zipatlas.com/us/state-comparison/largest-arab-community.htm"
+                    },
+                    "re_verify_iter1": {
+                        "search_query": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey. California vs Michigan ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Arab Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/arab-population-by-state"
+                            },
+                            {
+                                "title": "[PDF] Arab American Demographics - Aglow International",
+                                "url": "https://www.aglow.org/images/pdf/islam/arab-american-demographics.pdf"
+                            },
+                            {
+                                "title": "Demographics - Arab American Institute",
+                                "url": "https://www.aaiusa.org/demographics"
+                            },
+                            {
+                                "title": "Arab American population by state U.S. 2023 - Statista",
+                                "url": "https://www.statista.com/statistics/912643/arab-american-population-state/?srsltid=AfmBOoqNdnYAbZKBz8uW4lo_XFVuzKY52kIz6V6xvrdtlsok3fUEagY4"
+                            },
+                            {
+                                "title": "Arab Americans - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Arab_Americans"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order is inconsistent with the source data. Virginia and New Jersey are strongly indicated as ranking higher for Arab American populations in place of some states listed, with discrepancies in rankings beyond Michigan.",
+                        "best_source": "https://www.statista.com/statistics/912643/arab-american-population-state/?srsltid=AfmBOoqNdnYAbZKBz8uW4lo_XFVuzKY52kIz6V6xvrdtlsok3fUEagY4"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey. California Michigan ranking",
+                        "sources_found": [
+                            {
+                                "title": "Arab Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/arab-population-by-state"
+                            },
+                            {
+                                "title": "Top 10 States | Percentage of Arab Population in 2026 - Zip Atlas",
+                                "url": "https://zipatlas.com/us/state-comparison/percentage-arab-population.htm"
+                            },
+                            {
+                                "title": "[PDF] Arab American Demographics - Aglow International",
+                                "url": "https://www.aglow.org/images/pdf/islam/arab-american-demographics.pdf"
+                            },
+                            {
+                                "title": "Michigan - Arab American Institute",
+                                "url": "https://www.aaiusa.org/states-map/michigan"
+                            },
+                            {
+                                "title": "[PDF] AA demographics - CALIFORNIA - Arab American Institute",
+                                "url": "https://aaif.squarespace.com/s/AA-demographics-CALIFORNIA-3.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "CORRECTED",
+                        "reason": "Based on the provided sources, Michigan clearly has the largest Arab American population at 211,405, placing it first. California ranks second due to its significant Arab American population, though the exact figure is not provided among the sources. New York likely ranks third, given it typically follows California in demographic reports. New Jersey is cited as having 112,134 Arab Americans, placing it fourth. Florida likely follows in fifth based on trends and regional distribution. Texas is not mentioned among the top states for Arab American populations in the sources provided, and New Jersey's considerable population displaces Texas on the list.",
+                        "proposed_answers": [
+                            "California",
+                            "Michigan",
+                            "New York",
+                            "Florida",
+                            "Texas"
+                        ],
+                        "corrected_answers": [
+                            "Michigan",
+                            "California",
+                            "New York",
+                            "New Jersey",
+                            "Florida"
+                        ],
+                        "best_source": "https://worldpopulationreview.com/state-rankings/arab-population-by-state"
+                    },
+                    "re_verify_iter2": {
+                        "search_query": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey. Michigan vs California ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Top 10 States | Largest Arab Community in 2026 - Zip Atlas",
+                                "url": "https://zipatlas.com/us/state-comparison/largest-arab-community.htm"
+                            },
+                            {
+                                "title": "Arab Population by State 2026",
+                                "url": "https://worldpopulationreview.com/state-rankings/arab-population-by-state"
+                            },
+                            {
+                                "title": "[PDF] Arab American Demographics - Aglow International",
+                                "url": "https://www.aglow.org/images/pdf/islam/arab-american-demographics.pdf"
+                            },
+                            {
+                                "title": "Michigan - Arab American Institute",
+                                "url": "https://www.aaiusa.org/states-map/michigan"
+                            },
+                            {
+                                "title": "[PDF] AA demographics - NATIONAL - Arab American Institute",
+                                "url": "https://aaif.squarespace.com/s/AA-demographics-NATIONAL-4-w2h8.pdf"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "REJECTED",
+                        "reason": "The corrected order inaccurately places Michigan first instead of California, and it also places New Jersey fourth instead of second. Multiple sources consistently indicate California has the highest Arab American population, followed by Michigan and New York, with New Jersey coming in fourth and Florida fifth.",
+                        "best_source": "https://zipatlas.com/us/state-comparison/largest-arab-community.htm"
+                    }
+                },
+                {
+                    "topic": "National Zoo Lovers Day (April 8)",
+                    "suggested_question": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest.",
+                    "connection": "Today is National Zoo Lovers Day, a natural moment to look at which zoos draw the largest crowds.",
+                    "status": "verification_exhausted",
+                    "reason": "Could not verify after 3 iterations",
+                    "verify_iterations": 3,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question about ranking zoos by annual attendance is unique and distinct from all existing questions, as none of the previous questions address zoo attendance or a closely related topic."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest.",
+                        "answers": [
+                            "Chimelong Safari Park (Guangzhou)",
+                            "Beijing Zoo",
+                            "Ueno Zoo",
+                            "San Diego Zoo",
+                            "Shanghai Wild Animal Park"
+                        ],
+                        "distractors": [
+                            "Bronx Zoo",
+                            "Singapore Zoo",
+                            "Berlin Zoological Garden",
+                            "Tiergarten Schönbrunn (Vienna Zoo)",
+                            "Chester Zoo",
+                            "ZSL London Zoo",
+                            "Prague Zoo",
+                            "Taronga Zoo",
+                            "Toronto Zoo",
+                            "ZooParc de Beauval",
+                            "Taipei Zoo",
+                            "Omaha’s Henry Doorly Zoo and Aquarium",
+                            "Columbus Zoo and Aquarium",
+                            "Smithsonian’s National Zoo",
+                            "Saint Louis Zoo"
+                        ],
+                        "suggested_source": "https://www.teaconnect.org/resources/Theme-Index/"
+                    },
+                    "verification_search_iter0": {
+                        "query": "TEA AECOM Theme Index 2023 top zoos worldwide attendance",
+                        "sources_found": [
+                            {
+                                "title": "2023 TEA/AECOM Theme Index and Museum Index released",
+                                "url": "https://www.inparkmagazine.com/2023-tea-aecom-theme-index-and-museum-index/"
+                            },
+                            {
+                                "title": "2023 Global Attractions Attendance Report | PDF | Amusement Park",
+                                "url": "https://www.scribd.com/document/840177818/AECOM-Theme-Index-2023"
+                            },
+                            {
+                                "title": "[PDF] GLOBAL ATTRACTIONS ATTENDANCE REPORT - AECOM",
+                                "url": "https://aecom.com/wp-content/uploads/documents/reports/AECOM-Theme-Index-2023.pdf"
+                            },
+                            {
+                                "title": "[Other] The 2023 TEA Theme Index Report is Now Out : r/rollercoasters",
+                                "url": "https://www.reddit.com/r/rollercoasters/comments/1esxd5w/other_the_2023_tea_theme_index_report_is_now_out/"
+                            },
+                            {
+                                "title": "[PDF] Global Attractions Attendance Report - AECOM",
+                                "url": "https://aecom.com/wp-content/uploads/documents/reports/AECOM-Theme-Index-2022.pdf"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The source data provided does not include specific attendance statistics or rankings for zoos worldwide based on annual attendance. The PDF and web links refer generally to amusement parks or attractions, but there is no clear information on zoos in particular that can determine their attendance rankings or validate the proposed answers.",
+                        "proposed_answers": [
+                            "Chimelong Safari Park (Guangzhou)",
+                            "Beijing Zoo",
+                            "Ueno Zoo",
+                            "San Diego Zoo",
+                            "Shanghai Wild Animal Park"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://aecom.com/wp-content/uploads/documents/reports/AECOM-Theme-Index-2023.pdf"
+                    },
+                    "verification_search_iter1": {
+                        "query": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest. Chimelong Safari Park (Guangzhou) Beijing Zoo ranking",
+                        "sources_found": [
+                            {
+                                "title": "THE 10 BEST Zoos & Aquariums in China (Updated 2026)",
+                                "url": "https://www.tripadvisor.com/Attractions-g294211-Activities-c48-China.html"
+                            },
+                            {
+                                "title": "A Guide to the World's Top-10 Zoos - Trip.com",
+                                "url": "https://us.trip.com/blog/a-guide-to-the-world-top-zoos/"
+                            },
+                            {
+                                "title": "And the world's best zoo is … - CNN",
+                                "url": "https://edition.cnn.com/travel/article/tripadvisor-best-zoos"
+                            },
+                            {
+                                "title": "Zoos by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/zoos-by-country"
+                            },
+                            {
+                                "title": "TEA Global Experience Index™ | Themed Entertainment Association",
+                                "url": "https://www.teaconnect.org/tea-global-experience-indextm"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter1": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not include clear attendance figures from the latest TEA/AECOM Theme Index or any other reliable and authoritative data directly supporting the ranking of the top 5 zoos worldwide by annual attendance. While the TEA website is noted as a potential authoritative source, the exact attendance rankings and numbers for the zoos mentioned are not stated in the provided context. Therefore, the rankings and data cannot be verified or corrected.",
+                        "proposed_answers": [
+                            "Chimelong Safari Park (Guangzhou)",
+                            "Beijing Zoo",
+                            "Ueno Zoo",
+                            "San Diego Zoo",
+                            "Shanghai Wild Animal Park"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.teaconnect.org/tea-global-experience-indextm"
+                    },
+                    "verification_search_iter2": {
+                        "query": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest. Chimelong Safari Park (Guangzhou) Beijing Zoo ranking",
+                        "sources_found": [
+                            {
+                                "title": "THE 10 BEST Zoos & Aquariums in China (Updated 2026)",
+                                "url": "https://www.tripadvisor.com/Attractions-g294211-Activities-c48-China.html"
+                            },
+                            {
+                                "title": "TEA Global Experience Index™ | Themed Entertainment Association",
+                                "url": "https://www.teaconnect.org/tea-global-experience-indextm"
+                            },
+                            {
+                                "title": "A Guide to the World's Top-10 Zoos - Trip.com",
+                                "url": "https://us.trip.com/blog/a-guide-to-the-world-top-zoos/"
+                            },
+                            {
+                                "title": "50 Best Zoos in the World - TourScanner",
+                                "url": "https://tourscanner.com/best-zoos-in-the-world"
+                            },
+                            {
+                                "title": "Zoos by Country 2026 - World Population Review",
+                                "url": "https://worldpopulationreview.com/country-rankings/zoos-by-country"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter2": {
+                        "status": "UNVERIFIABLE",
+                        "reason": "The provided sources do not contain specific annual attendance numbers or rankings for the zoos listed in the proposed answers. The TEA Global Experience Index is the most appropriate source for such data, but no detailed rankings or attendance figures for the specific zoos in question are accessible from the available sources. Other sources mention zoos generally or rank them by features rather than attendance. Therefore, the exact values and order cannot be verified or corrected.",
+                        "proposed_answers": [
+                            "Chimelong Safari Park (Guangzhou)",
+                            "Beijing Zoo",
+                            "Ueno Zoo",
+                            "San Diego Zoo",
+                            "Shanghai Wild Animal Park"
+                        ],
+                        "corrected_answers": null,
+                        "best_source": "https://www.teaconnect.org/tea-global-experience-indextm"
+                    }
+                },
+                {
+                    "topic": "Dean Norris’s birthday (April 8) and Breaking Bad",
+                    "suggested_question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+                    "connection": "Actor Dean Norris (Hank Schrader) celebrates a birthday today, making a data-driven look at Breaking Bad’s biggest-viewed episodes timely.",
+                    "status": "success",
+                    "reason": "",
+                    "verify_iterations": 1,
+                    "similarity_check": {
+                        "too_similar": false,
+                        "reason": "The proposed question is about episode viewership rankings for 'Breaking Bad,' which involves TV viewership data specific to a show. None of the previously used questions focus on television viewership or 'Breaking Bad,' so the topic and data focus are distinct."
+                    },
+                    "generated_question": {
+                        "question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+                        "answers": [
+                            "Felina",
+                            "Granite State",
+                            "Ozymandias",
+                            "Blood Money",
+                            "To'hajiilee"
+                        ],
+                        "distractors": [
+                            "Face Off",
+                            "Gliding Over All",
+                            "Dead Freight",
+                            "Say My Name",
+                            "Live Free or Die",
+                            "Pilot",
+                            "Box Cutter",
+                            "Crawl Space",
+                            "Full Measure",
+                            "Half Measures",
+                            "Phoenix",
+                            "Crazy Handful of Nothin'",
+                            "One Minute",
+                            "Salud",
+                            "End Times"
+                        ],
+                        "suggested_source": "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
+                    },
+                    "verification_search_iter0": {
+                        "query": "Breaking Bad episode viewership Nielsen Felina 10.28 million Granite State Ozymandias site:wikipedia.org",
+                        "sources_found": [
+                            {
+                                "title": "Felina (Breaking Bad) - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Felina_(Breaking_Bad)"
+                            },
+                            {
+                                "title": "List of Breaking Bad episodes - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
+                            },
+                            {
+                                "title": "Breaking Bad bölümleri listesi - Vikipedi",
+                                "url": "https://tr.wikipedia.org/wiki/Breaking_Bad_b%C3%B6l%C3%BCmleri_listesi"
+                            },
+                            {
+                                "title": "Список епізодів телесеріалу «Пуститися берега - Вікіпедія",
+                                "url": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B5%D0%BF%D1%96%D0%B7%D0%BE%D0%B4%D1%96%D0%B2_%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB%D1%83_%C2%AB%D0%9F%D1%83%D1%81%D1%82%D0%B8%D1%82%D0%B8%D1%81%D1%8F_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%C2%BB"
+                            },
+                            {
+                                "title": "Breaking Bad - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Breaking_Bad"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    "cross_check_iter0": {
+                        "status": "CORRECTED",
+                        "reason": "The sources provide data on the U.S. live+same-day viewership for Breaking Bad episodes, which allows us to verify the rankings. Based on the best source, 'Felina' had 10.28 million viewers, 'Granite State' had 6.58 million, 'Ozymandias' had 6.37 million, 'Blood Money' had 5.92 million, and 'To'hajiilee' had 5.89 million. The proposed order in the question is incorrect as 'Ozymandias' should rank third, 'Blood Money' fourth, and 'To'hajiilee' fifth. The corrected order and their corresponding viewership values are provided.",
+                        "proposed_answers": [
+                            "Felina",
+                            "Granite State",
+                            "Ozymandias",
+                            "Blood Money",
+                            "To'hajiilee"
+                        ],
+                        "corrected_answers": [
+                            "Felina",
+                            "Granite State",
+                            "Ozymandias",
+                            "Blood Money",
+                            "To'hajiilee"
+                        ],
+                        "best_source": "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
+                    },
+                    "re_verify_iter0": {
+                        "search_query": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most. Felina vs Granite State ranking list",
+                        "sources_found": [
+                            {
+                                "title": "Breaking Bad : U.S. viewers per episode (millions) : r/breakingbad",
+                                "url": "https://www.reddit.com/r/breakingbad/comments/fpztha/breaking_bad_us_viewers_per_episode_millions/"
+                            },
+                            {
+                                "title": "Breaking Bad reached unprecedented heights in television history ...",
+                                "url": "https://www.facebook.com/61551714687037/posts/breaking-bad-reached-unprecedented-heights-in-television-history-with-several-ep/122231872976057156/"
+                            },
+                            {
+                                "title": "Breaking Bad's highest viewership was for the series finale, “Felina ...",
+                                "url": "https://www.threads.com/@5eeyouinhell/post/DNYOn6YxmlK/breaking-bads-highest-viewership-was-for-the-series-finale-felina-which-had-103-"
+                            },
+                            {
+                                "title": "Breaking Bad's highest viewership was for the series finale, “Felina ...",
+                                "url": "https://www.threads.com/@staatues/post/DWZlinZDHJc/breaking-bads-highest-viewership-was-for-the-series-finale-felina-which-had"
+                            },
+                            {
+                                "title": "Breaking Bad IMDb Highest Rated Episodes - Facebook",
+                                "url": "https://www.facebook.com/groups/743372423346764/posts/1165884317762237/"
+                            }
+                        ],
+                        "search_errors": [],
+                        "status": "CONFIRMED",
+                        "reason": "The additional source data confirms 'Felina' had the highest viewership at 10.3 million. 'Granite State' was referenced with 6.6 million in the same source, aligning it as second. 'Ozymandias' being third is consistent across sources but lacks direct numerical evidence compared to 'Granite State.' The placement of 'Blood Money' and 'To'hajiilee' aligns with the corrected order and remains uncontested in the data provided.",
+                        "best_source": "https://www.reddit.com/r/breakingbad/comments/fpztha/breaking_bad_us_viewers_per_episode_millions/"
+                    },
+                    "question_id": 49,
+                    "final_answers": [
+                        "Felina",
+                        "Granite State",
+                        "Ozymandias",
+                        "Blood Money",
+                        "To'hajiilee"
+                    ],
+                    "final_source": "https://en.wikipedia.org/wiki/List_of_Breaking_Bad_episodes"
+                }
+            ],
+            "result": "success",
+            "step1_topic_discovery": {
+                "searches": [
+                    {
+                        "query": "major sports events tournaments happening April 08, 2026",
+                        "results": [
+                            {
+                                "title": "Major Sporting Events Calendar 2026 / 2027 - Roadtrips",
+                                "url": "https://www.roadtrips.com/calendar-of-events/",
+                                "snippet": "Explore our calendar of upcoming major world sporting events throughout 2026 and into 2027, including the **2026 Super Bowl**, the **2026 Masters**, the **2026 Kentucky Derby**, the **2026 Monaco Gran"
+                            },
+                            {
+                                "title": "2026 World Sporting Event Calendar",
+                                "url": "https://www.topendsports.com/events/calendar-2026.htm",
+                                "snippet": "2026 World Sporting Event Calendar ; April 6-12, Golf (Men), Golf Masters Tournament Augusta ; April 7-8, Football (Men), UEFA Champions League Quarterfinals Leg"
+                            },
+                            {
+                                "title": "April 2026 Sports Calendar | AP News",
+                                "url": "https://apnews.com/article/april-2026-sports-calendar-c21fd2ec3be69047dbcaab7f0886702e",
+                                "snippet": "# April 2026 Sports Calendar. ## APRIL. | 2-5 | \\_ | Golf, LPGA, Aramco Championship, North Las Vegas, Nev. | 3-24 | \\_ | Horse racing, Keeneland Spring Meet, Keeneland Race Course, Lexington, Ky. | 1"
+                            },
+                            {
+                                "title": "Sports Calendar 2026. Major Sporting Events | Blog 4F",
+                                "url": "https://4fstore.com/blog/post/sports-calendar-2026-major-sporting-events",
+                                "snippet": "Below you will find a schedule of the most interesting sports events in 2026, divided by month. ... Wimbledon – Grand Slam tennis tournament, 29"
+                            },
+                            {
+                                "title": "Complete April 2026 sports schedule",
+                                "url": "https://sports.yahoo.com/articles/complete-april-2026-sports-schedule-002035870.html",
+                                "snippet": "Story by[![The Big Lead](https://s.yimg.com/ny/api/res/1.2/rra5hzaKHCr2X5oMu24pKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE5MjtoPTU2O2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/99a1d0d0-f6f3-"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "cultural events celebrations holidays April 2026",
+                        "results": [
+                            {
+                                "title": "April 2026 National Days and Observances: Global Holiday Guide",
+                                "url": "https://www.remitly.com/blog/lifestyle-culture/april-national-global-holidays/",
+                                "snippet": "*   [April National Days Around the World: The Essential Global Guide for 2026](https://www.remitly.com/blog/lifestyle-culture/april-national-global-holidays/). **[April Fools’ Day, observed in many W"
+                            },
+                            {
+                                "title": "April Observances — CultureAlly",
+                                "url": "https://www.cultureally.com/blog/april-observances",
+                                "snippet": "List of Observances in April 2026. April 1-30 Arab Heritage Month celebrates the rich cultural, historical, and societal contributions of Arab communities"
+                            },
+                            {
+                                "title": "Awareness Days & Cultural Calendar For April 2026 - PepTalk",
+                                "url": "https://www.getapeptalk.com/journal/awareness-days-cultural-calendar-for-april-2026",
+                                "snippet": "April 2026 cultural calendar highlights diversity, health, environment, and heritage with key awareness days and global celebrations."
+                            },
+                            {
+                                "title": "April Awareness & Heritage Months: A Complete 2026 Guide - Verbate",
+                                "url": "https://www.verbate.io/knowledge-center/april-awareness-heritage-months",
+                                "snippet": "April is a month rich with cultural, religious, environmental, and advocacy-focused observances. It brings together moments of remembrance, renewal, service, and celebration - offering ERG leaders and"
+                            },
+                            {
+                                "title": "Fun April 2026 Workplace Holidays - Successories",
+                                "url": "https://www.successories.com/holidays/april-holidays",
+                                "snippet": "# National April Holidays 2026. 2026 April Calendar with Holidays for the Workplace. ## Fun April 2026 Workplace Holidays. First you have National High-5 Day on April 23, 2026. Also, there is Administ"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "award ceremonies festivals conferences April 2026",
+                        "results": [
+                            {
+                                "title": "2026 Entertainment Events Guide: Festivals, Awards & Tech",
+                                "url": "https://www.lafilm.edu/blog/2026-entertainment-industry-events-calendar/",
+                                "snippet": "2026 film festivals and awards calendar. The calendar for 2026 is already buzzing with can’t-miss film festivals, glamorous award ceremonies, major music industry gatherings, and cutting-edge creator "
+                            },
+                            {
+                                "title": "2026-27 Awards Season Calendar",
+                                "url": "https://deadline.com/feature/awards-season-calendar-oscars-emmys-golden-globes-list-1234814076/",
+                                "snippet": "2026-27 Awards Season Calendar · March. 31: Webby Awards nominations · April. 2: Anime Awards nominations. 28: Scientific and Technical Awards Presentation · May."
+                            },
+                            {
+                                "title": "2025-2026 Awards Calendar",
+                                "url": "https://editorial.rottentomatoes.com/article/2025-2026-awards-calendar/",
+                                "snippet": "We have all the dates for your favorite season highlights, from the Academy Awards and the Golden Globes to festivals like the annual bashes at the Cannes Film"
+                            },
+                            {
+                                "title": "2025/2026 Film Awards Calendar",
+                                "url": "https://awardswatch.com/2025-2026-film-awards-calendar/",
+                                "snippet": "The 2025/2026 film awards calendar will be updated throughout the year as new dates for film's biggest and best events, festivals, nominations and awards"
+                            },
+                            {
+                                "title": "2026 Leadership Summit & Awards Gala - RISE Professionals",
+                                "url": "https://riseprofessionals.com/events/2026-leadership-summit-awards-gala/",
+                                "snippet": "# 2026 RISE Leadership Summit & Awards Gala. The *2026 RISE Leadership Summit & Awards Gala* is more than just another industry event—it’s where leadership, innovation, and celebration collide. RISE’s"
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "notable events news highlights past week April 08, 2026",
+                        "results": [
+                            {
+                                "title": "Five Big Things That Happened Today: Tuesday, April 8 - 1News",
+                                "url": "https://www.1news.co.nz/2025/04/08/five-big-things-that-happened-today-tuesday-april-8/",
+                                "snippet": "Trump threatens more tariffs on China as global markets plunge, a tornado downs trees and damages roofs in Levin as wild weather hits, and scientists genetically engineer wolves to resemble the extinc"
+                            },
+                            {
+                                "title": "Portal:Current events/2026 April 8 - Wikipedia",
+                                "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_April_8",
+                                "snippet": "April 8, 2026 (2026-04-08) (Wednesday). edit · history · watch · Month. April 2026 · Previous day. April 7 · Next day. April 9."
+                            },
+                            {
+                                "title": "This Day in History: April 08, 2026 - InfoPlease",
+                                "url": "https://www.infoplease.com/dayinhistory/april-08",
+                                "snippet": "# This Day in History. ### Hit a homer, Hank! Henry \"Hank\" Aaron hit the 715th home run of his career, breaking Babe Ruth's record. Ponce de León claimed Florida for Spain. The 17th Amendment was rati"
+                            },
+                            {
+                                "title": "What Happens on April 8, 2026 - On This Day",
+                                "url": "https://www.onthisday.com/date/2026/april/8",
+                                "snippet": "# What Happens on April 8, 2026. ## About April 8, 2026. **Day of the Week:** Wednesday. **How Far Away?** 2 days. ## No Entries for April 8, 2026. * See 9 things that happened in **April 2026**. * Vi"
+                            },
+                            {
+                                "title": "Latest news bulletin | April 8th – Morning - YouTube",
+                                "url": "https://www.youtube.com/watch?v=MVZz1KKywxU",
+                                "snippet": "Top U.S. & World Headlines — March 27, 2026 ... Democracy Now! New. 348K views."
+                            }
+                        ],
+                        "search_errors": []
+                    },
+                    {
+                        "query": "famous birthdays national days April 08",
+                        "results": [
+                            {
+                                "title": "Famous birthdays for April 8: John Schneider, Dean Norris - Yahoo",
+                                "url": "https://www.yahoo.com/entertainment/famous-birthdays-april-8-john-070006273.html",
+                                "snippet": "Actor John Schneider turns 65 and actor Dean Norris turns 62, among the famous birthdays for April 8."
+                            },
+                            {
+                                "title": "Famous Birthdays on April 8 - On This Day",
+                                "url": "https://www.onthisday.com/birthdays/april/8",
+                                "snippet": "* 1726 Lewis Morris, American landowner and farmer (signed US Declaration of Independence), born in Morrisania, New York (d. * 1886 Margaret Ayer Barnes, American playwright and writer (Years of Grace"
+                            },
+                            {
+                                "title": "Famous birthdays list for today, April 8, 2025 includes celebrities ...",
+                                "url": "https://www.cleveland.com/entertainment/2025/04/famous-birthdays-list-for-today-april-8-2025-includes-celebrities-katee-sackhoff-taylor-kitsch.html",
+                                "snippet": "# Famous birthdays list for today, April 8, 2025 includes celebrities Katee Sackhoff, Taylor Kitsch. Katee Sackhoff and Taylor Kitsch celebrate birthdays on April 8, 2025.AP. Birthday wishes go out to"
+                            },
+                            {
+                                "title": "April 08 - National Day Calendar",
+                                "url": "https://www.nationaldaycalendar.com/april/april-8",
+                                "snippet": "APRIL 8 | Birthdays and Events · NATIONAL EMPANADA DAY - April 8 · NATIONAL ZOO LOVERS DAY - April 8 · NATIONAL ALL IS OURS DAY - April 8."
+                            },
+                            {
+                                "title": "April 8 | Holidays, Birthdays, Events - National Today",
+                                "url": "https://nationaltoday.com/april-8-birthdays/",
+                                "snippet": "Popular Holidays. National Girlfriend Day · Day of the Dead · National Boyfriend Day · National Sons Day · Mexican Independence Day · Pride Month · National"
+                            }
+                        ],
+                        "search_errors": []
+                    }
+                ],
+                "ranked_topics": [
+                    {
+                        "topic": "The Masters (April 6–12, 2026)",
+                        "suggested_question": "Rank the top 5 golfers by most Masters Tournament victories (green jackets), from most to fifth-most.",
+                        "connection": "The Masters is underway this week in Augusta, making all-time Masters records especially topical."
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April)",
+                        "suggested_question": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey.",
+                        "connection": "April is Arab American Heritage Month, spotlighting the demographics and contributions of Arab Americans across the U.S."
+                    },
+                    {
+                        "topic": "National Zoo Lovers Day (April 8)",
+                        "suggested_question": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest.",
+                        "connection": "Today is National Zoo Lovers Day, a natural moment to look at which zoos draw the largest crowds."
+                    },
+                    {
+                        "topic": "Dean Norris’s birthday (April 8) and Breaking Bad",
+                        "suggested_question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+                        "connection": "Actor Dean Norris (Hank Schrader) celebrates a birthday today, making a data-driven look at Breaking Bad’s biggest-viewed episodes timely."
+                    },
+                    {
+                        "topic": "Mathematics and Statistics Awareness Month (April) and the 2026 Fields Medals year",
+                        "suggested_question": "Rank the top 5 countries by total Fields Medals won (through the 2022 awards), from most to fifth-most.",
+                        "connection": "April highlights math and stats, and with Fields Medals awarded in 2026, it’s timely to examine which countries lead historically."
+                    },
+                    {
+                        "topic": "Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from wind and solar in 2025, from highest to fifth-highest.",
+                        "connection": "April’s Earth Month focuses attention on clean energy progress, making wind-and-solar electricity shares especially relevant."
+                    },
+                    {
+                        "topic": "National Empanada Day (April 8)",
+                        "suggested_question": "Rank the top 5 countries by total beef and veal production in 2025 (carcass weight equivalent), from highest to fifth-highest.",
+                        "connection": "Empanadas often feature beef fillings; marking National Empanada Day with a global beef production ranking ties food culture to fresh stats."
+                    },
+                    {
+                        "topic": "Spring travel tied to April sports calendars (Masters, UCL QFs) and major events",
+                        "suggested_question": "Rank the top 5 busiest international airline routes in 2025 by total passengers, from highest to fifth-highest.",
+                        "connection": "With April’s packed sports/events calendar driving travel, the busiest international air corridors are a timely metric."
+                    },
+                    {
+                        "topic": "World Health Day (April 7) [Fallback]",
+                        "suggested_question": "Rank the top 5 countries by WHO Universal Health Coverage (UHC) Service Coverage Index (latest available), from highest to fifth-highest.",
+                        "connection": "World Health Day shines a light on health systems, making UHC coverage a relevant, objective benchmark."
+                    },
+                    {
+                        "topic": "World Art Day (April 15) [Fallback]",
+                        "suggested_question": "Rank the top 5 most expensive paintings ever sold at auction (hammer price plus buyer’s premium, nominal USD), from highest to fifth-highest.",
+                        "connection": "With World Art Day approaching, auction records offer a concrete, verifiable way to engage with art’s cultural and market impact."
+                    }
+                ],
+                "filtered_count": 0
+            },
+            "step1b_topic_dedup": {
+                "recent_questions_count": 5,
+                "topics_before": 10,
+                "topics_after": 10,
+                "details": [
+                    {
+                        "topic": "The Masters (April 6–12, 2026)",
+                        "suggested_question": "Rank the top 5 golfers by most Masters Tournament victories (green jackets), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on The Masters (golf tournament) does not overlap with any of the recently used questions, which cover topics like currencies, literature, music, websites, and human-made objects in space.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Arab American Heritage Month (April)",
+                        "suggested_question": "Rank the top 5 U.S. states by Arab American population (self-identified ancestry), from highest to fifth-highest, using the latest American Community Survey.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic on Arab American population is about demographics and cultural heritage, which does not overlap with any of the recent questions, as those addressed global finance, literature translations, music, web metrics, and space exploration.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Zoo Lovers Day (April 8)",
+                        "suggested_question": "Rank the top 5 zoos worldwide by annual attendance (latest available TEA/AECOM Theme Index), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions involve zoos, animals, or related attendance statistics, which makes the topic sufficiently distinct.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Dean Norris’s birthday (April 8) and Breaking Bad",
+                        "suggested_question": "Rank the top 5 Breaking Bad episodes by U.S. live+same-day viewership at their original airing (Nielsen), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "No recent question has covered topics related to television, Breaking Bad, or media viewership. The proposed topic is distinct from subjects like global currencies, literary translations, music charts, website visits, or space exploration.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Mathematics and Statistics Awareness Month (April) and the 2026 Fields Medals year",
+                        "suggested_question": "Rank the top 5 countries by total Fields Medals won (through the 2022 awards), from most to fifth-most.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic relates to mathematics and a specific academic award, the Fields Medals, which is unrelated to any recent questions about currencies, translations, music, website visits, or space exploration.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Earth Month (April)",
+                        "suggested_question": "Rank the top 5 countries by share of electricity generation from wind and solar in 2025, from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "None of the recent questions cover environmental or renewable energy topics related to Earth Month.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "National Empanada Day (April 8)",
+                        "suggested_question": "Rank the top 5 countries by total beef and veal production in 2025 (carcass weight equivalent), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic focuses on beef and veal production statistics, which is unrelated to the recent topics about currencies, literature translations, music sales, website visits, and distances of human-made objects.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "Spring travel tied to April sports calendars (Masters, UCL QFs) and major events",
+                        "suggested_question": "Rank the top 5 busiest international airline routes in 2025 by total passengers, from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic of international airline routes in 2025 focuses on travel and transportation, which is different from the themes of foreign-exchange reserves, literature translations, music rankings, website visits, and space exploration covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Health Day (April 7) [Fallback]",
+                        "suggested_question": "Rank the top 5 countries by WHO Universal Health Coverage (UHC) Service Coverage Index (latest available), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "World Health Day focuses on health and healthcare, which is distinct from the subjects of finance, literature, music, online activity, and space exploration covered in recent questions.",
+                        "overlaps_with": null
+                    },
+                    {
+                        "topic": "World Art Day (April 15) [Fallback]",
+                        "suggested_question": "Rank the top 5 most expensive paintings ever sold at auction (hammer price plus buyer’s premium, nominal USD), from highest to fifth-highest.",
+                        "recently_covered": false,
+                        "reason": "The proposed topic concerns art sales and does not overlap with subjects of finance, literature, music, web traffic, or space exploration covered recently.",
+                        "overlaps_with": null
+                    }
+                ]
+            },
+            "question_id": 49
         }
     ]
 }
