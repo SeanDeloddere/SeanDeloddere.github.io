@@ -26,33 +26,101 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://seandeloddere.github.io/">
     
-    <title>Sean Deloddere - Data & AI Consultant | Helsinki, Finland</title>
+    <title>Sean Deloddere - Data & AI Solution Engineer | Helsinki, Finland</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/home.css">
     <script defer src="/scripts/loadComponents.js"></script>
 </head>
-<body class="intro-page">
+  <body class="home-page">
     <div id="nav-placeholder"></div>
-    <header class="hidden">
-        <h1>Welcome to My Website</h1>
-    </header>
+
     <main>
-        <div class="content">
-            <div class="welcome_image">
-                <div class="overlay">
-                    <p>I'm Sean, a Data & AI Solution Engineer.</p>
-                    <p>I specialise in Data Platforms, Analytics and Artificial Intelligence. I have architected and developed solutions in many areas including healthcare, transportation, retail, and construction.</p>
-                    <a href="/work_experience.html" class="link-with-arrow">Read about my work experience</a>
-                    
-                    <p>I created this website as an experiment of how a novice with no web development experience can leverage AI to create a rudimentary website.</p>
-                    <a href="/blog_posts/website_created_with_ai.html" class="link-with-arrow">Read my blog post about it</a>
-                    
-                    <p>In my free time, I teach salsa classes in an association I founded.</p>
-                    <a href="/volunteering.html" class="link-with-arrow">Read about my volunteering</a>
+      <section class="home-hero" aria-labelledby="hero-title">
+        <div class="home-hero__image" role="img" aria-label="Sean sitting in a modern office in Helsinki"></div>
+        <div class="home-hero__shade"></div>
+        <div class="home-shell home-hero__content">
+          <p class="home-eyebrow">Data &amp; AI Solution Engineer &middot; Helsinki</p>
+          <h1 id="hero-title">Sean Deloddere</h1>
+          <p class="home-hero__intro">I turn complex data and AI challenges into practical systems that people can understand, trust, and use.</p>
+          <div class="home-actions">
+            <a class="home-button home-button--primary" href="/work_experience.html">Explore my work <span aria-hidden="true">&rarr;</span></a>
+            <a class="home-button home-button--secondary" href="mailto:s.deloddere@gmail.com?subject=Contact%20from%20your%20website">Get in touch</a>
                 </div>
-                <img src="/images/sitting.jpg" alt="Picture of Sean">
             </div>
+      </section>
+
+      <section class="home-intro" aria-labelledby="intro-title">
+        <div class="home-shell home-intro__grid">
+          <div>
+            <p class="home-kicker">What I do</p>
+            <h2 id="intro-title">From an ambitious idea to a solution that works.</h2>
+          </div>
+          <div class="home-intro__copy">
+            <p>I architect and develop data platforms, analytics, and AI solutions. My experience spans healthcare, transportation, retail, and construction, from early technical discovery through production delivery.</p>
+            <a class="home-text-link" href="/work_experience.html">See experience and projects <span aria-hidden="true">&rarr;</span></a>
+          </div>
         </div>
+      </section>
+
+      <section class="home-expertise" aria-labelledby="expertise-title">
+        <div class="home-shell">
+          <div class="home-section-heading">
+            <p class="home-kicker">Areas of focus</p>
+            <h2 id="expertise-title">Building the foundations for useful AI.</h2>
+          </div>
+          <div class="home-expertise__grid">
+            <article>
+              <span class="home-index">01</span>
+              <h3>Data platforms</h3>
+              <p>Unified, dependable data foundations designed for analytics, operations, and future AI use cases.</p>
+            </article>
+            <article>
+              <span class="home-index">02</span>
+              <h3>Analytics</h3>
+              <p>Clear architectures and delivery paths that help teams move from raw data to decisions.</p>
+            </article>
+            <article>
+              <span class="home-index">03</span>
+              <h3>Artificial intelligence</h3>
+              <p>Production-minded AI solutions shaped around the problem, the users, and measurable value.</p>
+            </article>
+          </div>
+          <div class="home-toolkit" aria-label="Core technologies">
+            <span>Microsoft Fabric</span>
+            <span>Azure</span>
+            <span>Databricks</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>PySpark</span>
+            <span>MLOps</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-personal" aria-labelledby="personal-title">
+        <div class="home-personal__photo" role="img" aria-label="Sean teaching salsa at a community event"></div>
+        <div class="home-personal__body">
+          <p class="home-kicker">Beyond technology</p>
+          <h2 id="personal-title">Teaching is part of how I think.</h2>
+          <p>In my free time, I teach salsa through an association I founded.</p>
+          <a class="home-text-link" href="/volunteering.html">Discover my volunteering <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </section>
+
+      <section class="home-closing" aria-labelledby="closing-title">
+        <div class="home-shell home-closing__inner">
+          <div>
+            <p class="home-kicker">This website</p>
+            <h2 id="closing-title">Built with AI.</h2>
+          </div>
+          <div>
+            <p>I built this site in 2024 to explore how someone with no prior web development experience could use AI to learn and build in public.</p>
+            <a class="home-text-link" href="/blog_posts/website_created_with_ai.html">Read the story <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </div>
+      </section>
     </main>
+
     <div id="footer-placeholder"></div>
     <script type="application/ld+json">
     {
@@ -113,7 +181,7 @@
         "@type": "Person",
         "name": "Sean Deloddere"
       },
-      "description": "Personal website of Sean Deloddere, Data & AI Consultant based in Helsinki, Finland"
+      "description": "Personal website of Sean Deloddere, Data & AI Solution Engineer based in Helsinki, Finland"
     }
     </script>
 </body>
