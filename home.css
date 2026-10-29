@@ -46,7 +46,7 @@
 
 .home-hero__image {
     z-index: -2;
-    background: url("/images/sitting.jpg") center 10% / cover no-repeat;
+    background: url("/images/home-conference.jpg") center / cover no-repeat;
 }
 
 .home-hero__shade {
