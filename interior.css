@@ -74,7 +74,8 @@
 
 .work-page .three-columns {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: start;
     gap: 16px;
     max-width: none;
     margin: 40px 0 64px;
@@ -84,7 +85,7 @@
 
 .work-page .column {
     width: auto;
-    padding: 30px;
+    padding: 0;
     border: 1px solid var(--interior-line);
     border-top: 3px solid var(--interior-blue);
     border-radius: var(--interior-radius);
@@ -97,13 +98,26 @@
 }
 
 .work-page .column h3 {
-    margin-top: 0;
+    display: inline;
+    margin: 0;
     color: var(--interior-ink);
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     text-align: left;
 }
 
+.work-page .column summary {
+    padding: 20px;
+    color: var(--interior-blue);
+    cursor: pointer;
+}
+
+.work-page .column summary:focus-visible {
+    outline: 2px solid var(--interior-blue);
+    outline-offset: -4px;
+}
+
 .work-page .column ul {
+    margin: 0 24px 24px;
     padding-left: 0;
 }
 
@@ -620,7 +634,7 @@
 
     .work-page .column {
         width: 100%;
-        padding: 24px;
+        padding: 0;
     }
 
     .work-page .column + .column {
